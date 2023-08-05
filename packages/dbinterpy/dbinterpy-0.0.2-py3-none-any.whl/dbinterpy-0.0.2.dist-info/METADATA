@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dbinterpy
+Version: 0.0.2
+Summary: simple interface to SQLite databases
+Home-page: https://github.com/Hitham2496/DatabaseInterface
+Author: Hitham2496
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pysqlite3
+Provides-Extra: testing
+Requires-Dist: pytest (>=6.0) ; extra == 'testing'
+Requires-Dist: pytest-cov (>=2.0) ; extra == 'testing'
+Requires-Dist: mypy (>=0.910) ; extra == 'testing'
+Requires-Dist: flake8 (>=3.9) ; extra == 'testing'
+
+# dbinterpy
+Basic sqlite3 wrapper class for simple database interaction in python. Created to teach myself about dynamic databases, SQL and publishing python packages.
+
+Tested with python 3.6-3.10
+
+![Tests](https://github.com/Hitham2496/DatabaseInterface/actions/workflows/python-package.yml/badge.svg)
+
+
