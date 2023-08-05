@@ -1,0 +1,16 @@
+ipyvasp/__init__.py,sha256=UAEWoxODjMgP3-xvfeEnA5soWc4nc0eWlwHphosuwEY,4284
+ipyvasp/api.py,sha256=HL9Z0xXKtZj9S7Rk5EDzd9jX92IoqzcJJJNFaZjfIW0,47096
+ipyvasp/cli.py,sha256=pZ71un6_nLxg-BLIaIGvRiE1deD52I2NY1I62l3WvTM,2644
+ipyvasp/iplots.py,sha256=qmzl99mSIBg17zKWsNOWI0-GYvRZmCh9CMFUboiF2Lc,25605
+ipyvasp/parser.py,sha256=PbncYcUmk9QBN9_kVPRn19c4Zjv6LK6Yej082YA7JMQ,46231
+ipyvasp/serializer.py,sha256=prtKJtgS4C6z-TsRCv8JUKaYbN_2N5UJi-r0vDZqqWs,18280
+ipyvasp/sio.py,sha256=Oy1zeZ-o0Yfat0oAe5byPVA01LBTucDCs2EOANt1eBQ,89377
+ipyvasp/splots.py,sha256=2zmNa-slI3OKm2A25vBeLntHIUSrlVwKIsSpZrs65Ls,78959
+ipyvasp/surfaces.py,sha256=8XS6VFdZvCOWISX8BrKzNpC5gTdho5eOxO08UqPapNA,22523
+ipyvasp/utils.py,sha256=g8g60hJKJFXdu2zyqli5e_ENcCDJBsgtsVCX_sejZ6E,14078
+ipyvasp/widgets.py,sha256=KXatbh3S_WrmStdJHEf7jfNeLiXrXIhPwEf-gpJ2t1o,65722
+ipyvasp-0.1.0.dist-info/LICENSE,sha256=F3SO5RiAZOMfmMGf1KOuk2g_c4ObvuBJhd9iBLDgXoQ,1263
+ipyvasp-0.1.0.dist-info/METADATA,sha256=Bpz-iiMSeQVa1T5z8C8IjlyAZl6Cu7xCUy5WK1Di7yc,74
+ipyvasp-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ipyvasp-0.1.0.dist-info/top_level.txt,sha256=ftziWlMWu_1VpDP1sRTFrkfBnWxAi393HYDVu4wRhUk,8
+ipyvasp-0.1.0.dist-info/RECORD,,
