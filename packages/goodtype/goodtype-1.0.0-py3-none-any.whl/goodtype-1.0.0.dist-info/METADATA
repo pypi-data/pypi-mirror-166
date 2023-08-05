@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: goodtype
+Version: 1.0.0
+Summary: A simple static type checker for the python language, created for the ClusterF*** blog
+Author: Prakhar Nagpal
+Author-email: thenextbigthingthidecade@gmail.com
+License-File: LICENSE
+
