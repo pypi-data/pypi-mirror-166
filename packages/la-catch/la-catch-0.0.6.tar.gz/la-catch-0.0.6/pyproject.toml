@@ -1,0 +1,42 @@
+[project]
+name = "la-catch"
+version = "0.0.6"
+description = "Decorator to map exception to functions"
+authors = [
+    { name = "thiagola92", email = "thiagola92@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "decorator",
+    "exception",
+    "catch",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+repository = "https://github.com/thiagola92/la-catch"
+
+[tool.pdm.scripts]
+tests = "python -m unittest discover -v -f -s tests"
+sort = "python -m isort -v --ac ."
+
+[tool.pdm.dev-dependencies]
+lint = [
+    "black",
+    "isort",
+]
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
