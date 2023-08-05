@@ -1,0 +1,1043 @@
+2022-09-02 15:30:57,286 | CRITICAL | 94 total Images found in [1;34;40m /Users/solua1/Documents/Datasets/files
+
+2022-09-02 15:30:57,807 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 15:31:27,803 | CRITICAL | 100 total Images found in [1;34;40m /Users/solua1/Documents/Datasets/3
+
+2022-09-02 15:31:28,313 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 15:31:29,023 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 15:31:29,564 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 15:31:30,138 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 15:31:30,748 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 15:31:31,362 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 15:33:11,261 | CRITICAL | 100 total Images found in [1;34;40m /Users/solua1/Documents/Datasets/3
+
+2022-09-02 15:33:11,791 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 15:33:12,536 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 15:33:13,135 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 15:33:13,748 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 15:33:14,353 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 15:33:14,967 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 15:33:48,598 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 15:33:48,598 | CRITICAL | 752 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Datasets')
+
+2022-09-02 15:33:48,598 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/Mini-UnityEyes FOLDER
+2022-09-02 15:33:48,598 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/Mini-UnityEyes
+2022-09-02 15:33:48,604 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 15:33:49,312 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 15:33:49,896 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 15:33:50,498 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 15:33:51,104 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 15:33:52,208 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/MovedFiles_14.26.01 FOLDER
+2022-09-02 15:33:52,209 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/MovedFiles_14.26.01
+2022-09-02 15:35:12,235 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 15:35:12,235 | CRITICAL | 596 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Datasets')
+
+2022-09-02 15:35:12,236 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/Mini-UnityEyes FOLDER
+2022-09-02 15:35:12,236 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/Mini-UnityEyes
+2022-09-02 15:35:12,241 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 15:35:12,934 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 15:35:13,470 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 15:35:14,001 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 15:35:14,559 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 15:35:15,651 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/MovedFiles_14.26.01 FOLDER
+2022-09-02 15:35:15,652 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/MovedFiles_14.26.01
+2022-09-02 15:35:16,168 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/ResizedMUnityEyes FOLDER
+2022-09-02 15:35:16,169 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/ResizedMUnityEyes
+2022-09-02 15:35:16,172 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 15:35:16,755 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 15:35:17,314 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 15:35:17,888 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 15:35:18,443 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 15:35:19,496 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/ResizedImages FOLDER
+2022-09-02 15:35:19,497 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/ResizedImages
+2022-09-02 15:35:19,500 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 15:35:20,078 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/MovedFiles FOLDER
+2022-09-02 15:35:20,078 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/MovedFiles
+2022-09-02 15:35:20,592 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/MovedFiles_14.39.17 FOLDER
+2022-09-02 15:35:20,593 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/MovedFiles_14.39.17
+2022-09-02 15:35:21,110 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/files FOLDER
+2022-09-02 15:35:21,110 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/files
+2022-09-02 15:35:21,114 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 15:57:55,848 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 15:57:55,848 | CRITICAL | 596 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Datasets')
+
+2022-09-02 15:57:55,848 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/Mini-UnityEyes FOLDER
+2022-09-02 15:57:55,848 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/Mini-UnityEyes
+2022-09-02 15:58:34,343 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 15:58:34,343 | CRITICAL | 596 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Datasets')
+
+2022-09-02 15:58:34,343 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/Mini-UnityEyes FOLDER
+2022-09-02 15:58:34,343 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/Mini-UnityEyes
+2022-09-02 16:00:13,845 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 16:00:13,845 | CRITICAL | 596 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Datasets')
+
+2022-09-02 16:00:13,846 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/Mini-UnityEyes FOLDER
+2022-09-02 16:00:13,846 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/Mini-UnityEyes
+2022-09-02 16:01:55,998 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 16:01:55,999 | CRITICAL | 596 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Datasets')
+
+2022-09-02 16:01:55,999 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/Mini-UnityEyes FOLDER
+2022-09-02 16:01:55,999 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/Mini-UnityEyes
+2022-09-02 16:01:56,001 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:01:57,127 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:01:57,676 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:01:58,228 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:01:58,762 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:01:59,831 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/MovedFiles_14.26.01 FOLDER
+2022-09-02 16:01:59,832 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/MovedFiles_14.26.01
+2022-09-02 16:02:00,348 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/ResizedMUnityEyes FOLDER
+2022-09-02 16:02:00,349 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/ResizedMUnityEyes
+2022-09-02 16:02:00,352 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:02:00,918 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:02:01,477 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:02:02,026 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:02:02,654 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:02:03,683 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/ResizedImages FOLDER
+2022-09-02 16:02:03,683 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/ResizedImages
+2022-09-02 16:02:03,685 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:02:04,260 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/MovedFiles FOLDER
+2022-09-02 16:02:04,261 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/MovedFiles
+2022-09-02 16:02:04,778 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/MovedFiles_14.39.17 FOLDER
+2022-09-02 16:02:04,779 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/MovedFiles_14.39.17
+2022-09-02 16:02:05,297 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/files FOLDER
+2022-09-02 16:02:05,298 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/files
+2022-09-02 16:02:05,305 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:03:22,638 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 16:03:22,638 | CRITICAL | 800 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Datasets')
+
+2022-09-02 16:03:22,638 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/Mini-UnityEyes FOLDER
+2022-09-02 16:03:22,638 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/Mini-UnityEyes
+2022-09-02 16:03:22,642 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:03:23,316 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:03:23,864 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:03:24,435 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:03:24,974 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:03:25,513 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:03:26,065 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:03:26,616 |     INFO | 140 Images resized; New Size: 200 x 200
+2022-09-02 16:03:27,164 |     INFO | 160 Images resized; New Size: 200 x 200
+2022-09-02 16:03:27,752 |     INFO | 180 Images resized; New Size: 200 x 200
+2022-09-02 16:03:28,788 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/MovedFiles_14.26.01 FOLDER
+2022-09-02 16:03:28,789 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/MovedFiles_14.26.01
+2022-09-02 16:03:29,302 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/ResizedMUnityEyes FOLDER
+2022-09-02 16:03:29,302 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/ResizedMUnityEyes
+2022-09-02 16:03:29,304 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:03:29,811 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:03:30,303 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:03:30,782 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:03:31,261 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:03:31,749 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:03:32,240 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:03:32,752 |     INFO | 140 Images resized; New Size: 200 x 200
+2022-09-02 16:03:33,282 |     INFO | 160 Images resized; New Size: 200 x 200
+2022-09-02 16:03:33,807 |     INFO | 180 Images resized; New Size: 200 x 200
+2022-09-02 16:03:34,877 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/ResizedImages FOLDER
+2022-09-02 16:03:34,878 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/ResizedImages
+2022-09-02 16:03:34,881 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:03:35,516 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/MovedFiles FOLDER
+2022-09-02 16:03:35,517 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/MovedFiles
+2022-09-02 16:03:36,033 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/MovedFiles_14.39.17 FOLDER
+2022-09-02 16:03:36,034 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/MovedFiles_14.39.17
+2022-09-02 16:03:36,550 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/files FOLDER
+2022-09-02 16:03:36,550 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/files
+2022-09-02 16:03:36,554 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:03:59,850 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 16:03:59,851 | CRITICAL | 1002 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Datasets')
+
+2022-09-02 16:03:59,851 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/Mini-UnityEyes FOLDER
+2022-09-02 16:03:59,851 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/Mini-UnityEyes
+2022-09-02 16:03:59,854 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:04:00,541 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:04:01,027 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:04:01,522 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:04:02,022 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:04:02,527 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:04:03,028 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:04:03,527 |     INFO | 140 Images resized; New Size: 200 x 200
+2022-09-02 16:04:04,027 |     INFO | 160 Images resized; New Size: 200 x 200
+2022-09-02 16:04:04,523 |     INFO | 180 Images resized; New Size: 200 x 200
+2022-09-02 16:04:05,022 |     INFO | 200 Images resized; New Size: 200 x 200
+2022-09-02 16:04:05,517 |     INFO | 220 Images resized; New Size: 200 x 200
+2022-09-02 16:04:06,014 |     INFO | 240 Images resized; New Size: 200 x 200
+2022-09-02 16:04:06,601 |     INFO | 260 Images resized; New Size: 200 x 200
+2022-09-02 16:04:07,113 |     INFO | 280 Images resized; New Size: 200 x 200
+2022-09-02 16:04:08,119 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/MovedFiles_14.26.01 FOLDER
+2022-09-02 16:04:08,120 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/MovedFiles_14.26.01
+2022-09-02 16:04:08,635 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/ResizedMUnityEyes FOLDER
+2022-09-02 16:04:08,636 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/ResizedMUnityEyes
+2022-09-02 16:04:08,646 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:04:09,201 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:04:09,707 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:04:10,215 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:04:10,721 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:04:11,223 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:04:11,722 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:04:12,228 |     INFO | 140 Images resized; New Size: 200 x 200
+2022-09-02 16:04:12,733 |     INFO | 160 Images resized; New Size: 200 x 200
+2022-09-02 16:04:13,245 |     INFO | 180 Images resized; New Size: 200 x 200
+2022-09-02 16:04:13,775 |     INFO | 200 Images resized; New Size: 200 x 200
+2022-09-02 16:04:14,283 |     INFO | 220 Images resized; New Size: 200 x 200
+2022-09-02 16:04:14,793 |     INFO | 240 Images resized; New Size: 200 x 200
+2022-09-02 16:04:15,299 |     INFO | 260 Images resized; New Size: 200 x 200
+2022-09-02 16:04:15,809 |     INFO | 280 Images resized; New Size: 200 x 200
+2022-09-02 16:04:16,825 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/ResizedImages FOLDER
+2022-09-02 16:04:16,826 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/ResizedImages
+2022-09-02 16:04:16,831 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:04:17,518 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/MovedFiles FOLDER
+2022-09-02 16:04:17,519 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/MovedFiles
+2022-09-02 16:04:18,034 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/MovedFiles_14.39.17 FOLDER
+2022-09-02 16:04:18,035 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/MovedFiles_14.39.17
+2022-09-02 16:04:18,550 | CRITICAL | RESIZING /Users/solua1/Documents/Datasets/files FOLDER
+2022-09-02 16:04:18,551 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Datasets/files
+2022-09-02 16:04:18,558 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:17:20,404 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 16:17:20,404 | CRITICAL | 600 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Friday')
+
+2022-09-02 16:17:20,404 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes FOLDER
+2022-09-02 16:17:20,404 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:17:20,417 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:17:21,486 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:17:21,982 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:17:22,467 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:17:22,950 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:17:23,940 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedMUnityEyes FOLDER
+2022-09-02 16:17:23,941 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedMUnityEyes
+2022-09-02 16:17:23,947 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:17:24,457 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:17:24,934 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:17:25,413 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:17:25,892 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:17:26,881 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedImages FOLDER
+2022-09-02 16:17:26,882 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedImages
+2022-09-02 16:17:26,890 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:17:27,402 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:17:27,881 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:17:28,367 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:17:28,852 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:17:29,835 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Thursday FOLDER
+2022-09-02 16:17:29,836 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Thursday
+2022-09-02 16:17:29,845 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:17:30,355 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:17:30,834 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:17:31,318 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:17:31,810 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:17:32,807 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/3 FOLDER
+2022-09-02 16:17:32,808 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/3
+2022-09-02 16:17:32,818 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:17:33,342 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:17:33,832 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:17:34,323 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:17:34,814 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:17:35,807 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/New_Image FOLDER
+2022-09-02 16:17:35,808 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/New_Image
+2022-09-02 16:17:35,815 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:17:36,333 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:17:36,822 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:17:37,318 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:17:37,810 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:17:38,808 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:20:38,055 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 16:20:38,055 | CRITICAL | 648 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Friday')
+
+2022-09-02 16:20:38,055 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes FOLDER
+2022-09-02 16:20:38,055 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:20:38,064 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:20:39,032 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:20:39,532 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:20:40,017 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:20:40,506 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:20:41,515 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedMUnityEyes FOLDER
+2022-09-02 16:20:41,516 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedMUnityEyes
+2022-09-02 16:20:41,525 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:20:42,040 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:20:42,527 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:20:43,014 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:20:43,506 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:20:44,495 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedImages FOLDER
+2022-09-02 16:20:44,496 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedImages
+2022-09-02 16:20:44,505 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:20:45,020 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:20:45,510 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:20:45,996 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:20:46,484 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:20:47,465 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Thursday FOLDER
+2022-09-02 16:20:47,466 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Thursday
+2022-09-02 16:20:47,474 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:20:48,001 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:20:48,489 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:20:48,981 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:20:49,471 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:20:50,461 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/3 FOLDER
+2022-09-02 16:20:50,462 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/3
+2022-09-02 16:20:50,469 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:20:51,103 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:20:51,606 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:20:52,164 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:20:52,685 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:20:53,260 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:20:53,806 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:20:54,423 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/New_Image FOLDER
+2022-09-02 16:20:54,424 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/New_Image
+2022-09-02 16:20:54,434 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:20:55,035 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:20:55,535 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:20:56,090 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:20:56,611 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:20:57,166 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:20:57,726 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:20:58,344 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:26:45,670 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 16:26:45,670 | CRITICAL | 648 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Friday')
+
+2022-09-02 16:26:45,670 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes FOLDER
+2022-09-02 16:26:45,670 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:26:45,674 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:26:46,633 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:26:47,111 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:26:47,591 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:26:48,068 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:26:49,056 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedMUnityEyes FOLDER
+2022-09-02 16:26:49,057 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedMUnityEyes
+2022-09-02 16:26:49,064 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:26:49,586 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:26:50,066 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:26:50,549 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:26:51,030 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:26:52,011 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedImages FOLDER
+2022-09-02 16:26:52,012 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedImages
+2022-09-02 16:26:52,016 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:26:52,531 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:26:53,015 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:26:53,502 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:26:53,987 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:26:54,975 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Thursday FOLDER
+2022-09-02 16:26:54,976 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Thursday
+2022-09-02 16:26:54,982 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:26:55,502 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:26:55,989 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:26:56,476 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:26:56,963 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:26:57,954 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/3 FOLDER
+2022-09-02 16:26:57,956 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/3
+2022-09-02 16:26:57,965 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:26:58,591 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:26:59,098 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:26:59,668 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:27:00,180 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:27:00,742 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:27:01,296 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:27:01,915 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/New_Image FOLDER
+2022-09-02 16:27:01,915 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/New_Image
+2022-09-02 16:27:01,926 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:27:02,522 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:27:03,026 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:27:03,577 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:27:04,091 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:27:04,605 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:27:05,142 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:27:05,759 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:27:36,143 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 16:27:36,143 | CRITICAL | 648 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Friday')
+
+2022-09-02 16:27:36,143 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes FOLDER
+2022-09-02 16:27:36,143 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:27:36,145 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:27:36,788 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:27:37,273 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:27:37,755 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:27:38,244 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:27:39,230 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedMUnityEyes FOLDER
+2022-09-02 16:27:39,231 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedMUnityEyes
+2022-09-02 16:27:39,239 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:27:39,758 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:27:40,239 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:27:40,726 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:27:41,208 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:27:42,269 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedImages FOLDER
+2022-09-02 16:27:42,272 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedImages
+2022-09-02 16:27:42,275 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:27:42,840 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:27:43,326 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:27:43,791 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:27:44,259 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:27:45,236 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Thursday FOLDER
+2022-09-02 16:27:45,236 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Thursday
+2022-09-02 16:27:45,238 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:27:45,725 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:27:46,202 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:27:46,683 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:27:47,162 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:27:48,156 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/3 FOLDER
+2022-09-02 16:27:48,157 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/3
+2022-09-02 16:27:48,166 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:27:48,787 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:27:49,287 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:27:49,876 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:27:50,387 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:27:50,942 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:27:51,494 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:27:52,118 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/New_Image FOLDER
+2022-09-02 16:27:52,119 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/New_Image
+2022-09-02 16:27:52,129 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:27:52,728 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:27:53,232 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:27:53,779 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:27:54,304 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:27:54,897 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:27:55,431 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:27:56,049 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:29:08,229 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 16:29:08,230 | CRITICAL | 648 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Friday')
+
+2022-09-02 16:29:08,230 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes FOLDER
+2022-09-02 16:29:08,230 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:29:08,232 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:29:08,915 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:29:09,407 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:29:09,904 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:29:10,407 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:29:11,421 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedMUnityEyes FOLDER
+2022-09-02 16:29:11,422 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedMUnityEyes
+2022-09-02 16:29:11,430 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:29:11,975 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:29:12,474 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:29:12,981 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:29:13,487 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:29:14,496 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedImages FOLDER
+2022-09-02 16:29:14,496 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedImages
+2022-09-02 16:29:14,500 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:29:15,059 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:29:15,564 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:29:16,071 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:29:16,578 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:29:17,598 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Thursday FOLDER
+2022-09-02 16:29:17,599 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Thursday
+2022-09-02 16:29:17,608 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:29:18,149 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:29:18,686 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:29:19,192 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:29:19,699 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:29:20,709 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/3 FOLDER
+2022-09-02 16:29:20,710 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/3
+2022-09-02 16:29:20,721 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:29:21,365 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:29:21,888 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:29:22,495 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:29:23,018 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:29:23,582 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:29:24,139 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:29:24,772 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/New_Image FOLDER
+2022-09-02 16:29:24,773 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/New_Image
+2022-09-02 16:29:24,782 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:29:25,401 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:29:25,920 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:29:26,492 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:29:27,011 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:29:27,557 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:29:28,119 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:29:28,742 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:30:28,690 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 16:30:28,691 | CRITICAL | 648 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Friday')
+
+2022-09-02 16:30:28,691 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes FOLDER
+2022-09-02 16:30:28,691 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:30:28,693 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:30:29,373 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:30:29,899 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:30:30,455 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:30:31,007 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:30:32,064 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedMUnityEyes FOLDER
+2022-09-02 16:30:32,065 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedMUnityEyes
+2022-09-02 16:30:32,073 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:30:32,628 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:30:33,179 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:30:33,730 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:30:34,282 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:30:35,337 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedImages FOLDER
+2022-09-02 16:30:35,339 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedImages
+2022-09-02 16:30:35,345 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:30:35,906 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:30:36,454 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:30:36,976 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:30:37,573 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:30:38,632 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Thursday FOLDER
+2022-09-02 16:30:38,633 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Thursday
+2022-09-02 16:30:38,640 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:30:39,203 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:30:39,753 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:30:40,303 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:30:40,855 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:30:41,913 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/3 FOLDER
+2022-09-02 16:30:41,914 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/3
+2022-09-02 16:30:41,922 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:30:42,473 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:30:43,023 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:30:43,562 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:30:44,076 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:30:44,607 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:30:45,159 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:30:45,773 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/New_Image FOLDER
+2022-09-02 16:30:45,774 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/New_Image
+2022-09-02 16:30:45,783 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:30:46,336 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:30:46,882 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:30:47,425 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:30:47,975 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:30:48,521 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:30:49,075 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:30:49,690 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:31:16,413 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 16:31:16,413 | CRITICAL | 648 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Friday')
+
+2022-09-02 16:31:16,413 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes FOLDER
+2022-09-02 16:31:16,413 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:31:16,415 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:31:17,084 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:31:17,625 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:31:18,176 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:31:18,727 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:31:19,776 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedMUnityEyes FOLDER
+2022-09-02 16:31:19,777 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedMUnityEyes
+2022-09-02 16:31:19,784 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:31:20,367 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:31:20,908 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:31:21,407 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:31:21,895 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:31:22,876 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedImages FOLDER
+2022-09-02 16:31:22,876 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedImages
+2022-09-02 16:31:22,877 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:31:23,380 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:31:23,863 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:31:24,350 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:31:24,845 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:31:25,898 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Thursday FOLDER
+2022-09-02 16:31:25,899 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Thursday
+2022-09-02 16:31:25,907 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:31:26,460 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:31:27,032 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:31:27,596 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:31:28,146 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:31:29,206 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/3 FOLDER
+2022-09-02 16:31:29,207 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/3
+2022-09-02 16:31:29,216 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:31:29,766 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:31:30,301 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:31:30,843 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:31:31,390 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:31:31,930 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:31:32,486 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:31:33,102 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/New_Image FOLDER
+2022-09-02 16:31:33,103 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/New_Image
+2022-09-02 16:31:33,111 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:31:33,676 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:31:34,226 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:31:34,768 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:31:35,322 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:31:35,869 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:31:36,424 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:31:37,038 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:33:36,961 | CRITICAL | 648 total Images found in [1;34;40m /Users/solua1/Documents/Friday
+
+2022-09-02 16:33:36,961 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:33:36,962 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/Mini-UnityEyes FOLDER
+2022-09-02 16:33:36,963 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:33:37,621 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:33:38,143 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:33:38,693 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:33:39,248 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:33:39,805 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/ResizedMUnityEyes
+2022-09-02 16:33:39,806 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/ResizedMUnityEyes FOLDER
+2022-09-02 16:33:39,808 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:33:40,382 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:33:40,935 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:33:41,487 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:33:42,040 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:33:42,598 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/ResizedImages
+2022-09-02 16:33:42,599 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/ResizedImages FOLDER
+2022-09-02 16:33:42,601 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:33:43,162 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:33:43,717 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:33:44,271 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:33:44,822 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:33:45,352 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Thursday
+2022-09-02 16:33:45,352 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/Thursday FOLDER
+2022-09-02 16:33:45,355 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:33:45,912 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:33:46,456 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:33:47,007 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:33:47,557 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:33:48,114 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/3
+2022-09-02 16:33:48,115 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/3 FOLDER
+2022-09-02 16:33:48,119 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:33:48,667 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:33:49,215 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:33:49,755 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:33:50,301 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:33:50,851 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:33:51,406 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:33:51,522 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/New_Image
+2022-09-02 16:33:51,522 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/New_Image FOLDER
+2022-09-02 16:33:51,526 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:33:52,078 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:33:52,626 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:33:53,167 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:33:53,715 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:33:54,257 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:33:54,812 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:33:54,937 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:34:27,231 | CRITICAL | 648 total Images found in [1;34;40m /Users/solua1/Documents/Friday
+
+2022-09-02 16:34:27,231 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:34:27,231 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/Mini-UnityEyes FOLDER
+2022-09-02 16:34:27,233 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:34:27,899 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:34:28,393 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:34:28,904 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:34:29,434 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:34:29,973 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/ResizedMUnityEyes
+2022-09-02 16:34:29,973 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/ResizedMUnityEyes FOLDER
+2022-09-02 16:34:29,976 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:34:30,521 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:34:31,068 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:34:31,619 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:34:32,170 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:34:32,731 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/ResizedImages
+2022-09-02 16:34:32,732 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/ResizedImages FOLDER
+2022-09-02 16:34:32,735 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:34:33,304 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:34:33,849 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:34:34,464 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:34:34,954 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:34:35,446 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Thursday
+2022-09-02 16:34:35,447 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/Thursday FOLDER
+2022-09-02 16:34:35,448 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:34:35,949 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:34:36,440 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:34:36,940 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:34:37,496 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:34:38,050 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/3
+2022-09-02 16:34:38,050 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/3 FOLDER
+2022-09-02 16:34:38,055 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:34:38,612 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:34:39,170 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:34:39,700 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:34:40,254 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:34:40,798 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:34:41,364 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:34:41,478 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/New_Image
+2022-09-02 16:34:41,478 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/New_Image FOLDER
+2022-09-02 16:34:41,482 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:34:42,025 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:34:42,572 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:34:43,120 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:34:43,669 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:34:44,218 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:34:44,774 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:34:44,901 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:36:16,471 | CRITICAL | 648 total Images found in [1;34;40m /Users/solua1/Documents/Friday
+
+2022-09-02 16:36:16,472 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:36:19,526 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/Mini-UnityEyes FOLDER
+2022-09-02 16:36:19,532 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:36:20,253 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:36:20,799 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:36:21,329 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:36:21,884 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:36:22,439 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/ResizedMUnityEyes
+2022-09-02 16:36:25,464 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/ResizedMUnityEyes FOLDER
+2022-09-02 16:36:25,470 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:36:26,038 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:36:26,588 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:36:27,138 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:36:27,691 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:36:28,243 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/ResizedImages
+2022-09-02 16:36:31,266 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/ResizedImages FOLDER
+2022-09-02 16:36:31,272 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:36:31,840 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:36:32,386 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:36:32,935 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:36:33,483 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:36:34,038 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Thursday
+2022-09-02 16:36:37,060 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/Thursday FOLDER
+2022-09-02 16:36:37,068 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:36:37,619 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:36:38,150 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:36:38,700 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:36:39,248 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:36:39,798 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/3
+2022-09-02 16:36:42,820 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/3 FOLDER
+2022-09-02 16:36:42,828 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:36:43,394 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:36:43,942 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:36:44,484 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:36:45,032 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:36:45,583 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:36:46,136 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:36:46,252 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/New_Image
+2022-09-02 16:36:49,273 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/New_Image FOLDER
+2022-09-02 16:36:49,278 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:36:49,821 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:36:50,365 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:36:50,912 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:36:51,460 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:36:52,007 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:36:52,558 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:36:52,683 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:38:21,171 | CRITICAL | 648 total Images found in [1;34;40m /Users/solua1/Documents/Friday
+
+2022-09-02 16:38:21,180 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:38:24,237 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/Mini-UnityEyes FOLDER
+2022-09-02 16:38:43,047 | CRITICAL | 648 total Images found in [1;34;40m /Users/solua1/Documents/Friday
+
+2022-09-02 16:38:43,048 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:38:46,101 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/Mini-UnityEyes FOLDER
+2022-09-02 16:40:52,381 | CRITICAL | 648 total Images found in [1;34;40m /Users/solua1/Documents/Friday
+
+2022-09-02 16:40:52,382 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:40:55,433 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/Mini-UnityEyes FOLDER
+2022-09-02 16:41:48,219 | CRITICAL | 648 total Images found in [1;34;40m /Users/solua1/Documents/Friday
+
+2022-09-02 16:41:48,220 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:41:51,277 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/Mini-UnityEyes FOLDER
+2022-09-02 16:46:57,484 | CRITICAL | 648 total Images found in [1;34;40m /Users/solua1/Documents/Friday
+
+2022-09-02 16:46:57,485 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:47:00,541 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/Mini-UnityEyes FOLDER
+2022-09-02 16:47:00,547 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:47:01,251 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:47:01,791 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:47:02,308 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:47:02,850 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:47:03,373 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/ResizedMUnityEyes
+2022-09-02 16:47:06,395 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/ResizedMUnityEyes FOLDER
+2022-09-02 16:47:06,400 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:47:06,982 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:47:07,489 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:47:08,052 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:47:08,606 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:47:09,166 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/ResizedImages
+2022-09-02 16:47:12,192 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/ResizedImages FOLDER
+2022-09-02 16:47:12,198 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:47:12,777 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:47:13,330 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:47:13,936 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:47:14,520 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:47:15,100 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Thursday
+2022-09-02 16:47:18,123 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/Thursday FOLDER
+2022-09-02 16:47:18,129 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:47:18,761 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:47:19,364 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:47:19,942 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:47:20,530 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:47:21,153 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/3
+2022-09-02 16:47:24,175 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/3 FOLDER
+2022-09-02 16:47:24,183 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:47:24,809 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:47:25,404 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:47:25,969 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:47:26,539 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:47:27,109 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:47:27,679 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:47:27,810 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/New_Image
+2022-09-02 16:47:30,837 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFri/New_Image FOLDER
+2022-09-02 16:47:30,844 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:47:31,451 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:47:32,010 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:47:32,566 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:47:33,156 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:47:33,717 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:47:34,309 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:47:34,452 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:48:52,502 | CRITICAL | 100 total Images found in [1;34;40m /Users/solua1/Documents/Datasets/3
+
+2022-09-02 16:48:53,019 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:48:53,958 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:48:54,497 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:48:55,039 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:48:55,590 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:48:56,154 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:51:07,161 | CRITICAL | 100 total Images found in [1;34;40m /Users/solua1/Documents/Datasets/3
+
+2022-09-02 16:51:07,668 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:51:08,399 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:51:08,958 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:51:09,510 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:51:10,068 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:51:10,631 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:51:11,654 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:53:23,530 | CRITICAL | 100 total Images found in [1;34;40m /Users/solua1/Documents/Datasets/3
+
+2022-09-02 16:53:24,038 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:53:24,724 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:53:25,262 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:53:25,809 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:53:26,363 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:53:26,928 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:53:58,083 | CRITICAL | 648 total Images found in [1;34;40m /Users/solua1/Documents/Friday
+
+2022-09-02 16:53:58,084 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:53:58,084 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFr/Mini-UnityEyes FOLDER
+2022-09-02 16:53:58,086 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:53:58,801 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:53:59,299 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:53:59,842 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:54:00,370 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:54:00,915 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/ResizedMUnityEyes
+2022-09-02 16:54:00,915 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFr/ResizedMUnityEyes FOLDER
+2022-09-02 16:54:00,918 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:54:01,476 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:54:02,012 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:54:02,563 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:54:03,108 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:54:03,657 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/ResizedImages
+2022-09-02 16:54:03,657 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFr/ResizedImages FOLDER
+2022-09-02 16:54:03,660 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:54:04,190 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:54:04,869 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:54:05,376 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:54:05,870 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:54:06,360 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/Thursday
+2022-09-02 16:54:06,361 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFr/Thursday FOLDER
+2022-09-02 16:54:06,362 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:54:06,875 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:54:07,361 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:54:07,846 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:54:08,341 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:54:08,843 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/3
+2022-09-02 16:54:08,845 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFr/3 FOLDER
+2022-09-02 16:54:08,847 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:54:09,371 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:54:09,922 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:54:10,436 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:54:10,985 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:54:11,532 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:54:12,088 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:54:12,209 | CRITICAL | NOW RESIZING /Users/solua1/Documents/Friday/New_Image
+2022-09-02 16:54:12,210 |     INFO | SAVING INTO /Users/solua1/Documents/TesteFr/New_Image FOLDER
+2022-09-02 16:54:12,213 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:54:12,767 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:54:13,322 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:54:13,870 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:54:14,421 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:54:14,964 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:54:15,519 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:54:15,646 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 16:54:33,065 |  WARNING | THIS WILL OVERWRITE IMAGES IN THE CURRENT FOLDERS
+2022-09-02 16:54:33,066 | CRITICAL | 648 total Images found in ('\x1b[34m', '/Users/solua1/Documents/Friday')
+
+2022-09-02 16:54:33,066 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Mini-UnityEyes FOLDER
+2022-09-02 16:54:33,066 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Mini-UnityEyes
+2022-09-02 16:54:33,067 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:54:33,722 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:54:34,340 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:54:34,882 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:54:35,427 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:54:36,480 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedMUnityEyes FOLDER
+2022-09-02 16:54:36,481 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedMUnityEyes
+2022-09-02 16:54:36,486 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:54:37,050 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:54:37,601 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:54:38,152 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:54:38,707 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:54:39,753 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/ResizedImages FOLDER
+2022-09-02 16:54:39,755 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/ResizedImages
+2022-09-02 16:54:39,761 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:54:40,329 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:54:40,883 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:54:41,436 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:54:41,979 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:54:43,038 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/Thursday FOLDER
+2022-09-02 16:54:43,039 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/Thursday
+2022-09-02 16:54:43,045 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:54:43,621 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:54:44,160 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:54:44,723 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:54:45,250 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:54:46,274 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/3 FOLDER
+2022-09-02 16:54:46,276 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/3
+2022-09-02 16:54:46,279 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:54:46,801 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:54:47,288 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:54:47,779 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:54:48,304 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:54:48,848 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:54:49,399 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:54:50,016 | CRITICAL | RESIZING /Users/solua1/Documents/Friday/New_Image FOLDER
+2022-09-02 16:54:50,016 | CRITICAL | SAVING RESIZED IMAGES into EXISTING folder /Users/solua1/Documents/Friday/New_Image
+2022-09-02 16:54:50,018 |     INFO | 0 Images resized; New Size: 200 x 200
+2022-09-02 16:54:50,543 |     INFO | 20 Images resized; New Size: 200 x 200
+2022-09-02 16:54:51,096 |     INFO | 40 Images resized; New Size: 200 x 200
+2022-09-02 16:54:51,663 |     INFO | 60 Images resized; New Size: 200 x 200
+2022-09-02 16:54:52,209 |     INFO | 80 Images resized; New Size: 200 x 200
+2022-09-02 16:54:52,760 |     INFO | 100 Images resized; New Size: 200 x 200
+2022-09-02 16:54:53,318 |     INFO | 120 Images resized; New Size: 200 x 200
+2022-09-02 16:54:53,932 |     INFO | IMAGES RESIZE DONE!!!
+2022-09-02 17:18:01,468 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 20
+2022-09-02 17:18:02,981 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 40
+2022-09-02 17:18:04,399 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 60
+2022-09-02 17:18:05,732 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 80
+2022-09-02 17:18:07,041 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 100
+2022-09-02 17:18:08,349 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 120
+2022-09-02 17:18:09,675 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 140
+2022-09-02 17:18:11,094 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 160
+2022-09-02 17:18:12,098 | CRITICAL | EXITING FRAME COLLECTION.....
+2022-09-02 17:18:12,599 | CRITICAL | SUBTOTAL IMAGES SAVED: 174
+2022-09-02 17:18:13,409 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 20
+2022-09-02 17:18:14,140 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 40
+2022-09-02 17:18:14,863 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 60
+2022-09-02 17:18:15,599 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 80
+2022-09-02 17:18:16,335 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 100
+2022-09-02 17:18:17,066 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 120
+2022-09-02 17:18:17,803 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 140
+2022-09-02 17:18:18,028 | CRITICAL | EXITING FRAME COLLECTION.....
+2022-09-02 17:18:18,530 | CRITICAL | SUBTOTAL IMAGES SAVED: 146
+2022-09-02 17:18:19,950 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 20
+2022-09-02 17:18:21,304 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 40
+2022-09-02 17:18:22,818 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 60
+2022-09-02 17:18:24,200 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 80
+2022-09-02 17:18:24,505 | CRITICAL | EXITING FRAME COLLECTION.....
+2022-09-02 17:18:25,006 | CRITICAL | SUBTOTAL IMAGES SAVED: 84
+2022-09-02 17:18:26,527 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 20
+2022-09-02 17:18:27,906 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 40
+2022-09-02 17:18:29,291 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 60
+2022-09-02 17:18:30,675 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 80
+2022-09-02 17:18:31,241 | CRITICAL | EXITING FRAME COLLECTION.....
+2022-09-02 17:18:31,743 | CRITICAL | SUBTOTAL IMAGES SAVED: 88
+2022-09-02 17:18:52,792 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 20
+2022-09-02 17:18:54,114 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 40
+2022-09-02 17:18:55,435 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 60
+2022-09-02 17:18:56,750 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 80
+2022-09-02 17:18:58,062 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 100
+2022-09-02 17:18:59,376 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 120
+2022-09-02 17:19:00,691 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 140
+2022-09-02 17:19:01,996 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/production ID_4783900 : 160
+2022-09-02 17:19:03,027 | CRITICAL | SUBTOTAL IMAGES SAVED for /Users/solua1/Documents/TestVideos/production ID_4783900.mp4: 175
+2022-09-02 17:19:03,820 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 20
+2022-09-02 17:19:04,555 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 40
+2022-09-02 17:19:05,289 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 60
+2022-09-02 17:19:06,023 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 80
+2022-09-02 17:19:06,755 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 100
+2022-09-02 17:19:07,489 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 120
+2022-09-02 17:19:08,222 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 140
+2022-09-02 17:19:08,956 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 160
+2022-09-02 17:19:09,691 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 180
+2022-09-02 17:19:10,427 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 200
+2022-09-02 17:19:11,161 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 220
+2022-09-02 17:19:11,893 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 240
+2022-09-02 17:19:12,625 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 260
+2022-09-02 17:19:13,357 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 280
+2022-09-02 17:19:14,090 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 300
+2022-09-02 17:19:14,825 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 320
+2022-09-02 17:19:15,582 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 340
+2022-09-02 17:19:16,318 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 360
+2022-09-02 17:19:17,053 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 380
+2022-09-02 17:19:17,787 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 400
+2022-09-02 17:19:18,522 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 420
+2022-09-02 17:19:19,257 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 440
+2022-09-02 17:19:20,071 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 460
+2022-09-02 17:19:20,806 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 480
+2022-09-02 17:19:21,542 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 500
+2022-09-02 17:19:22,277 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 520
+2022-09-02 17:19:23,011 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 540
+2022-09-02 17:19:23,746 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 560
+2022-09-02 17:19:24,481 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 580
+2022-09-02 17:19:25,216 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 600
+2022-09-02 17:19:25,952 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 620
+2022-09-02 17:19:26,688 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 640
+2022-09-02 17:19:27,427 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 660
+2022-09-02 17:19:28,167 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 680
+2022-09-02 17:19:28,903 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 700
+2022-09-02 17:19:29,640 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 720
+2022-09-02 17:19:30,378 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 740
+2022-09-02 17:19:31,113 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 760
+2022-09-02 17:19:31,844 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 780
+2022-09-02 17:19:32,579 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 800
+2022-09-02 17:19:33,315 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 820
+2022-09-02 17:19:34,052 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 840
+2022-09-02 17:19:34,788 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 860
+2022-09-02 17:19:35,526 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 880
+2022-09-02 17:19:36,262 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 900
+2022-09-02 17:19:36,999 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 920
+2022-09-02 17:19:37,733 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 940
+2022-09-02 17:19:38,469 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 960
+2022-09-02 17:19:39,203 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 980
+2022-09-02 17:19:39,941 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 1000
+2022-09-02 17:19:40,680 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 1020
+2022-09-02 17:19:41,418 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 1040
+2022-09-02 17:19:42,156 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 1060
+2022-09-02 17:19:42,893 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 1080
+2022-09-02 17:19:43,632 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 1100
+2022-09-02 17:19:44,370 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 1120
+2022-09-02 17:19:45,107 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 1140
+2022-09-02 17:19:45,844 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 1160
+2022-09-02 17:19:46,578 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/video : 1180
+2022-09-02 17:19:46,794 | CRITICAL | SUBTOTAL IMAGES SAVED for /Users/solua1/Documents/TestVideos/video.mp4: 1185
+2022-09-02 17:19:48,162 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 20
+2022-09-02 17:19:49,505 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 40
+2022-09-02 17:19:50,855 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 60
+2022-09-02 17:19:52,237 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 80
+2022-09-02 17:19:53,667 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 100
+2022-09-02 17:19:55,026 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 120
+2022-09-02 17:19:56,372 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 140
+2022-09-02 17:19:57,709 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 160
+2022-09-02 17:19:59,047 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 180
+2022-09-02 17:20:00,401 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 200
+2022-09-02 17:20:01,748 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 220
+2022-09-02 17:20:03,098 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 240
+2022-09-02 17:20:04,597 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 260
+2022-09-02 17:20:05,952 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 280
+2022-09-02 17:20:07,306 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 300
+2022-09-02 17:20:08,659 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 320
+2022-09-02 17:20:10,041 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 340
+2022-09-02 17:20:11,393 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 360
+2022-09-02 17:20:12,753 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 380
+2022-09-02 17:20:14,129 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 400
+2022-09-02 17:20:15,510 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 420
+2022-09-02 17:20:16,897 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 440
+2022-09-02 17:20:18,262 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 460
+2022-09-02 17:20:19,650 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 480
+2022-09-02 17:20:21,159 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 500
+2022-09-02 17:20:22,514 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 520
+2022-09-02 17:20:23,886 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 540
+2022-09-02 17:20:25,313 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 560
+2022-09-02 17:20:26,815 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 580
+2022-09-02 17:20:28,202 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 600
+2022-09-02 17:20:29,558 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Squirrel On A Wood : 620
+2022-09-02 17:20:30,276 | CRITICAL | SUBTOTAL IMAGES SAVED for /Users/solua1/Documents/TestVideos/Squirrel On A Wood.mp4: 631
+2022-09-02 17:20:31,728 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 20
+2022-09-02 17:20:33,098 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 40
+2022-09-02 17:20:34,495 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 60
+2022-09-02 17:20:35,865 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 80
+2022-09-02 17:20:37,238 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 100
+2022-09-02 17:20:38,624 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 120
+2022-09-02 17:20:40,072 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 140
+2022-09-02 17:20:41,449 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 160
+2022-09-02 17:20:42,826 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 180
+2022-09-02 17:20:44,207 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 200
+2022-09-02 17:20:45,592 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 220
+2022-09-02 17:20:46,978 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 240
+2022-09-02 17:20:48,364 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 260
+2022-09-02 17:20:49,748 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 280
+2022-09-02 17:20:51,130 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 300
+2022-09-02 17:20:52,508 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 320
+2022-09-02 17:20:53,894 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 340
+2022-09-02 17:20:55,276 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 360
+2022-09-02 17:20:56,650 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 380
+2022-09-02 17:20:58,029 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 400
+2022-09-02 17:20:59,411 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 420
+2022-09-02 17:21:00,787 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 440
+2022-09-02 17:21:02,157 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 460
+2022-09-02 17:21:03,617 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 480
+2022-09-02 17:21:05,010 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 500
+2022-09-02 17:21:06,400 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 520
+2022-09-02 17:21:07,790 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 540
+2022-09-02 17:21:09,237 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 560
+2022-09-02 17:21:10,626 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 580
+2022-09-02 17:21:12,019 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 600
+2022-09-02 17:21:13,403 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 620
+2022-09-02 17:21:14,782 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 640
+2022-09-02 17:21:16,173 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 660
+2022-09-02 17:21:17,564 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 680
+2022-09-02 17:21:18,956 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 700
+2022-09-02 17:21:20,342 |     INFO | Frames collected into /Users/solua1/Documents/Image Folder/Pexels Videos 2437257 : 720
+2022-09-02 17:21:20,381 | CRITICAL | SUBTOTAL IMAGES SAVED for /Users/solua1/Documents/TestVideos/Pexels Videos 2437257.mp4: 720
