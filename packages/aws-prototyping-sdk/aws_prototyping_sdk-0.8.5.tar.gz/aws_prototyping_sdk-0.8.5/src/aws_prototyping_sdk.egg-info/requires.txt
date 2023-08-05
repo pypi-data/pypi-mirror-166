@@ -1,0 +1,7 @@
+aws-cdk-lib<3.0.0,>=2.40.0
+cdk-nag<3.0.0,>=2.18.1
+constructs<11.0.0,>=10.1.94
+jsii<2.0.0,>=1.67.0
+projen<0.62.0,>=0.61.41
+publication>=0.0.3
+typeguard~=2.13.3
