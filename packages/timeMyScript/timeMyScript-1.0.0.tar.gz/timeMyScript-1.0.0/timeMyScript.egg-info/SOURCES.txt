@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+timeMyScript/__init__.py
+timeMyScript/timeMyScript.py
+timeMyScript.egg-info/PKG-INFO
+timeMyScript.egg-info/SOURCES.txt
+timeMyScript.egg-info/dependency_links.txt
+timeMyScript.egg-info/top_level.txt
