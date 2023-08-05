@@ -1,0 +1,4 @@
+[console_scripts]
+pangview = pangview:mainfunc
+pyedpro = pyedpro:mainfunc
+
