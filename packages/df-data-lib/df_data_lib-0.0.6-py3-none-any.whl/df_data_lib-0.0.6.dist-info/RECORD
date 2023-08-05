@@ -1,0 +1,9 @@
+libdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libdata/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libdata/models/enums.py,sha256=uNKITHdx2lRrK8pv7F4gdfCgwgHVY_1-R-JuR_RNgP4,335
+libdata/models/importer.py,sha256=3mGOFlDfUenl3Ha0VUWrHzMnunnumMQq-9gIqtZjWGg,54
+libdata/models/tables.py,sha256=MiDZQgZIgfv8mP0DQLJ8NPJAVVjiGOZWoE6s_iSlIdU,3399
+libdata/settings.py,sha256=2I9bwBplyVAo7Yz9i8ZKE_2LJ8QZGCb5G2wmniTFdos,1532
+df_data_lib-0.0.6.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+df_data_lib-0.0.6.dist-info/METADATA,sha256=36JBoQpMc1akKrNqVGVpvW6TvJPuLBbrc_LNaFsgfzc,1282
+df_data_lib-0.0.6.dist-info/RECORD,,
