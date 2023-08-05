@@ -1,0 +1,9 @@
+README.md
+setup.py
+smsit_wrapper/__init__.py
+smsit_wrapper/main.py
+smsit_wrapper.egg-info/PKG-INFO
+smsit_wrapper.egg-info/SOURCES.txt
+smsit_wrapper.egg-info/dependency_links.txt
+smsit_wrapper.egg-info/requires.txt
+smsit_wrapper.egg-info/top_level.txt
