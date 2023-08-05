@@ -1,0 +1,24 @@
+repos:
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.4
+    hooks:
+      - id: bandit
+        name: Scanning for vulnerabilities
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.10.1
+    hooks:
+      - id: isort
+        name: Sorting 'import' statements
+  - repo: https://github.com/psf/black
+    rev: 22.6.0
+    hooks:
+      - id: black
+        name: Formatting files
+  - repo: local
+    hooks:
+      - id: pylint
+        name: Linting files
+        entry: pylint
+        language: system
+        types: [python]
+        require_serial: true

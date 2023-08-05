@@ -1,0 +1,86 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[project]
+name = "goatpie"
+version="0.3.0"
+description = "'GoatCounter' analytics for the CLI, written in Python"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [{name = "Martin Folkers", email = "webmaster@refbw.de"}]
+keywords = [
+    "analytics",
+    "cli",
+    "goatcounter",
+    "privacy",
+    "tracking",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies=[
+    "arrow",
+    "click",
+    "pandas",
+    "plotext",
+    "pycountry",
+    "requests",
+    "rich",
+    "textual",
+]
+
+[project.urls]
+project = "https://codeberg.org/refbw/goatpie"
+issues = "https://codeberg.org/refbw/goatpie/issues"
+
+[project.optional-dependencies]
+dev = [
+    "black==22.6.0",
+    "isort==5.10.1",
+    "pylint==2.15.0",
+    "pytest_cov==3.0.0",
+]
+
+[project.entry-points.goatpie]
+goatpie = "goatpie.cli:cli"
+
+[tool.pytest.ini_options]
+# TODO: Add "--cov-fail-under 95"
+addopts = "--cov --cov-report html --cov-report term-missing"
+
+[tool.coverage.run]
+source = ["goatpie"]
+
+[tool.pylint]
+max-line-length = 119
+disable = [
+    "C0103",  # (invalid-name)
+    "C0114",  # (missing-module-docstring)
+    "R0903",  # (too-few-public-methods)
+    "R0913",  # (too-many-arguments)
+    "W0703",  # (broad-except)
+]
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+
+[tool.black]
+line-length = 119
+include = '\.pyi?$'
+exclude = '''
+/(
+  \.git
+  | venv
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+atomic = true
+profile = "black"
+line_length = 119

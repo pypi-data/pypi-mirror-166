@@ -1,0 +1,20 @@
+pipeline:
+  build:
+    image: python:${TAG}
+    commands:
+      # Install dependencies
+      - pip install -r requirements.txt
+      - pip install .
+
+      # Run tests
+      - pytest
+
+    when:
+      event: push
+
+matrix:
+  TAG:
+    - 3.7   # EOL/SS 2023-06-27
+    - 3.8   # EOL/SS 2024-10-14
+    - 3.9   # EOL/SS 2025-10-05
+    - 3.10  # EOL/SS 2026-10-04
