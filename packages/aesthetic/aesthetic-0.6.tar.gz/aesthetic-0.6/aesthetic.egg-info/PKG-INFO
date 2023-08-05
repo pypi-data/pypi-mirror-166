@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: aesthetic
+Version: 0.6
+Summary: a e s t h e t i c
+Home-page: https://github.com/lgbouma/aesthetic
+Author: Luke Bouma
+Author-email: bouma.luke@gmail.com
+License: MIT
+Download-URL: https://github.com/lgbouma/aesthetic/archive/refs/tags/v06.tar.gz
+Description: # a e s t h e t i c
+        
+        Style-related tools that I re-use across projects in astronomy.
+        
+        Most relevant are the style sheets, which produce default plots as in the
+        `/results/` directory.
+        
+        __install__
+        
+        _Option 1_: `pip install aesthetic`
+        
+        _Option 2_: Clone + `python setup.py install` from the repo. (or develop!)
+        
+        __contents__
+        
+        `aesthetic.plot`
+        * `set_style`
+        * `set_style_scatter`
+        * `savefig`
+        * `format_ax`
+        
+        `aesthetic.paper`
+        * `abbreviate_the_bibliography`
+        
+        __usage examples__
+        
+        for plot styles, see the [test driver](https://github.com/lgbouma/aesthetic/blob/master/tests/make_test_plot.py).
+        the general syntax follows:
+        
+        ```
+        from aesthetic.plot import set_style
+        set_style("science")
+        ```
+        
+        <img src="https://github.com/lgbouma/aesthetic/blob/master/results/plot_science.png" width="500">
+        
+        ```
+        set_style("clean")
+        ```
+        
+        <img src="https://github.com/lgbouma/aesthetic/blob/master/results/plot_clean.png" width="500">
+        
+Keywords: astronomy,matplotlib-style-sheets
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
