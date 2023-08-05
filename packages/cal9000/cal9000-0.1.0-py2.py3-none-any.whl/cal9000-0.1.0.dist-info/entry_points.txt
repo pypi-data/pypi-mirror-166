@@ -1,0 +1,3 @@
+[console_scripts]
+cal9000=cal9000.__main__:main
+
