@@ -1,0 +1,1 @@
+recursive-include package/tokenization_vis_component/build *
