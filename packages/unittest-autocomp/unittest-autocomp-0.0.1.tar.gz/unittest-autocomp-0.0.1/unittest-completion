@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Autocompletion for Python unittests
+# Project: https://github.com/M0r13n/unittest-autocomp
+
+CMD="python -m unittest"
+
+_complete()
+{
+    if ! command -v "unittest-autocomp" &> /dev/null
+    then
+        echo "unittest-autocomp could not be found in path"
+        exit 1
+    fi
+
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    completions="$( unittest-autocomp $cur )"
+    COMPREPLY=( $( compgen -W "$completions" -- $cur ) )
+}
+complete -o default -o nospace -F _complete $CMD

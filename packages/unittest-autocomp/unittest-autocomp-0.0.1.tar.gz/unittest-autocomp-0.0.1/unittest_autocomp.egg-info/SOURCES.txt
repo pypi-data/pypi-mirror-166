@@ -1,0 +1,13 @@
+README.md
+setup.py
+unittest-completion
+autocomp/__init__.py
+test/__init__.py
+test/test_completions.py
+test/test_utils.py
+unittest_autocomp.egg-info/PKG-INFO
+unittest_autocomp.egg-info/SOURCES.txt
+unittest_autocomp.egg-info/dependency_links.txt
+unittest_autocomp.egg-info/entry_points.txt
+unittest_autocomp.egg-info/requires.txt
+unittest_autocomp.egg-info/top_level.txt
