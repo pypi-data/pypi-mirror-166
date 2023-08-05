@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+best/__init__.py
+best/integration/__init__.py
+best/unit/__init__.py
+best/unit/conftest.py
+best/unit/test_glue_session.py
+best/unit/test_glue_session_demo.py
+best/unit/test_session_apis.py
+pifacecad.egg-info/PKG-INFO
+pifacecad.egg-info/SOURCES.txt
+pifacecad.egg-info/dependency_links.txt
+pifacecad.egg-info/top_level.txt
