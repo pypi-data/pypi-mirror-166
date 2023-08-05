@@ -1,0 +1,12 @@
+lightrdf-0.3.0.dist-info/METADATA,sha256=P1MCn8o7XkXR48vMrG5bFneLg0QdPDCWnJMCpea-8oQ,8592
+lightrdf-0.3.0.dist-info/WHEEL,sha256=j6Jg5Y8qM46prVKJRAmal7kJw25m2xdwyrSaWCP7YuU,95
+lightrdf/python_module/nt.py,sha256=fsQaMaI8UhAFub_lVZs-yiQNz3eydpNzRWZRypI2jbs,759
+lightrdf/python_module/parse.py,sha256=Qw1OzR9edC2UjilHZhlySCsneRtQAiW1IAz-1G0xbF0,779
+lightrdf/python_module/terms.py,sha256=fmSMPJ-2j6JVIRzCfrgV0qwe3cyrRs4_0rO9sSy_GlI,1626
+lightrdf/python_module/turtle.py,sha256=BVsg3GUvLO1x71ul_QFiV-wITlQqHhojj0OafRnS5lM,853
+lightrdf/python_module/utils.py,sha256=kt-2wdPbYUDMbzSRHFKWiaRtf8yQCa2BHsc4wF0pXYI,186
+lightrdf/python_module/xml.py,sha256=LbzUHcQo6NDeZIjfrMhOD5zBiJfuG7o4X73sZJSdZW8,835
+lightrdf/python_module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lightrdf/__init__.py,sha256=1iWOr0GMiJQlO_IqS8_SJyZ-Rn4HSJveXqFqssOB38k,4350
+lightrdf/lightrdf.cp38-win_amd64.pyd,sha256=t8VSPz5MFwnC2jVuEHxzERG1R1OccCxMHs61HhimOqA,1769472
+lightrdf-0.3.0.dist-info/RECORD,,
