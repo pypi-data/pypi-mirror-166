@@ -1,0 +1,6 @@
+ipsetpy==0.0.1a3
+paho-mqtt==1.*
+pyptables==1.*
+python-iptables==1.*
+pyyaml==6.*
+schedule==1.*
