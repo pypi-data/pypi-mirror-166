@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+src/pkgexample/__init__.py
+src/pkgexample/helloworld.py
+src/pkgexample.egg-info/PKG-INFO
+src/pkgexample.egg-info/SOURCES.txt
+src/pkgexample.egg-info/dependency_links.txt
+src/pkgexample.egg-info/top_level.txt
