@@ -1,0 +1,15 @@
+cryptodatapi/__init__.py,sha256=NVs6CTNiIt1pTjbWCMLlVlZVyD_1fQ0RQ_wwCEkVhiE,290
+cryptodatapi/crypto_price.py,sha256=NI0etT_zncMmYRIIpTSsWx4WgOnjNHXxWBZ9YTd8Hno,1613
+cryptodatapi/derivatives.py,sha256=B8edYbwWFh0MSSB-G-4YslIdZVjQUFvnkRYTewgnP-0,1542
+cryptodatapi/dex.py,sha256=dV7HNWCw615UMxwX9Yp1h19Y09NHM9dM93C-1vtVQc0,1478
+cryptodatapi/hist_price.py,sha256=BkfSgbBv66iZ5pEYeoaiPx1I7iF7zMrb3rl9HkbieP4,3231
+cryptodatapi/lending.py,sha256=d0AfHoAXspM0amSKKQi3I4wavoE7qJ8bt3mF-sxAGsU,1510
+cryptodatapi/login.py,sha256=cQPFFv7-y5sW10kgrqqEdXtoxRtN0TTOQ-jO6qfFR7s,626
+cryptodatapi/news.py,sha256=5fTO9rz7aiOSv86j9L7ZHseeHtBc2OavauDzfSIH_wQ,1486
+cryptodatapi/spot.py,sha256=ibWMfKeRrv79ZuDKRez2u6S_za0LcCNU8MxRA00bnR0,1486
+cryptodatapi/version.py,sha256=UQMgr-uEtcfW87hZvWz8fDm29B0QdooGeVqugmmV1yc,17
+cryptodatapi-1.0.1.dist-info/LICENSE,sha256=GgDV0YtltlpLMTBfl-F5v1AVPsE72n8z6cjCAlPiLzY,1111
+cryptodatapi-1.0.1.dist-info/METADATA,sha256=ac6_gRk2FZTbxzCfKziur6qQU5gCdQKmS8gFFT8Ah94,5903
+cryptodatapi-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cryptodatapi-1.0.1.dist-info/top_level.txt,sha256=ACnzt-YbGKVcGfn35zcGZjZ873wvczKmMdV8WlamJA8,13
+cryptodatapi-1.0.1.dist-info/RECORD,,
