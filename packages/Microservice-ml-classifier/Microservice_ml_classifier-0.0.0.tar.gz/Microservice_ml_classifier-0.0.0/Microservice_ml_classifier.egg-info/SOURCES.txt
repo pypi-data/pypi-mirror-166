@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+Microservice_ml_classifier/__init__.py
+Microservice_ml_classifier.egg-info/PKG-INFO
+Microservice_ml_classifier.egg-info/SOURCES.txt
+Microservice_ml_classifier.egg-info/dependency_links.txt
+Microservice_ml_classifier.egg-info/requires.txt
+Microservice_ml_classifier.egg-info/top_level.txt
+Microservice_ml_classifier/../VERSION
+Microservice_ml_classifier/inference/__init__.py
+Microservice_ml_classifier/inference/inference.py
+Microservice_ml_classifier/network/__init__.py
+Microservice_ml_classifier/network/classifier.py
