@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+trouting/__init__.py
+trouting/core.py
+trouting.egg-info/PKG-INFO
+trouting.egg-info/SOURCES.txt
+trouting.egg-info/dependency_links.txt
+trouting.egg-info/requires.txt
+trouting.egg-info/top_level.txt
