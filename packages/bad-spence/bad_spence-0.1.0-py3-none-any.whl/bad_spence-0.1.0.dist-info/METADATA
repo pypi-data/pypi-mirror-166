@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: bad-spence
+Version: 0.1.0
+Summary: A DOI-based citation generator.
+Home-page: https://github.com/davidmaamoaix/bad-spence
+Author: David Ma
+Author-email: davidma@davidma.cn
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pqdm
+
+# Bad Spence
+
+A citation generator from digital object identifier.
+
+## Installation
+
+Install with pip:
+
+```sh
+pip install bad-spence
+```
+
+## Usage
+
+```sh
+spence <doi_path> [-s sort]
+```
+
+The `<doi_path>` is a text file containing a list of DOI separated by line breaks.
