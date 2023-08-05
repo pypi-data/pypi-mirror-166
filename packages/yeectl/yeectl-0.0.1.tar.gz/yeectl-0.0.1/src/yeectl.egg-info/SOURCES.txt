@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/yeectl/__init__.py
+src/yeectl/__main__.py
+src/yeectl/yeectl.py
+src/yeectl.egg-info/PKG-INFO
+src/yeectl.egg-info/SOURCES.txt
+src/yeectl.egg-info/dependency_links.txt
+src/yeectl.egg-info/top_level.txt
