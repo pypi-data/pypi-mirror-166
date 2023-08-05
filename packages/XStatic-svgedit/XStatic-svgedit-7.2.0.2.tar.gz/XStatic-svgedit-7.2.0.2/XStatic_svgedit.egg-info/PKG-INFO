@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: XStatic-svgedit
+Version: 7.2.0.2
+Summary: svgedit 7.2.0 (XStatic packaging standard)
+Home-page: https://github.com/SVG-Edit/svgedit
+Maintainer: Roger Haase
+Maintainer-email: haaserd@gmail.com
+License: (same as svgedit)
+Keywords: svgedit xstatic
+Platform: any
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+XStatic-svgedit
+---------------
+
+svgedit library packaged for setuptools (easy_install) / pip.
+
+This package is intended to be used by **any** project that needs these files.
+
+It intentionally does **not** provide any extra code except some metadata
+**nor** has any extra requirements. You MAY use some minimal support code from
+the XStatic base package, if you like.
+
+You can find more info about the xstatic packaging way in the package `XStatic`.
