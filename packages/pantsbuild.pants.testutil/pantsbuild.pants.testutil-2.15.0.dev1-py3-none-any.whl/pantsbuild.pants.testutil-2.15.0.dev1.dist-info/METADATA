@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: pantsbuild.pants.testutil
+Version: 2.15.0.dev1
+Summary: Test support for writing Pants plugins.
+Home-page: https://github.com/pantsbuild/pants
+License: Apache License, Version 2.0
+Project-URL: Documentation, https://www.pantsbuild.org/
+Project-URL: Source, https://github.com/pantsbuild/pants
+Project-URL: Tracker, https://github.com/pantsbuild/pants/issues
+Project-URL: Changelog, https://www.pantsbuild.org/docs/changelog
+Project-URL: Twitter, https://twitter.com/pantsbuild
+Project-URL: Slack, https://www.pantsbuild.org/docs/getting-help
+Project-URL: YouTube, https://www.youtube.com/channel/UCCcfCbDqtqlCkFEuENsHlbQ
+Project-URL: Mailing lists, https://www.pantsbuild.org/docs/getting-help
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.7,<3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pantsbuild.pants (==2.15.0.dev1)
+Requires-Dist: pytest (<7.1.0,>=6.2.4)
+
+Pants is an Apache2 licensed build tool written in Python and Rust.
+
+The latest documentation can be found at [pantsbuild.org](https://www.pantsbuild.org/).
+
+
+# 2.15.x Release Series
+
+## 2.15.0.dev1 (Sep 04, 2022)
+
+### New Features
+
+* go: support placing resource files in packages (and not just embedding) ([#16688](https://github.com/pantsbuild/pants/pull/16688))
+
+* "naive" docker command runner ([#16670](https://github.com/pantsbuild/pants/pull/16670))
+
+* Adds `binary_name` field to PyOxidizer support ([#16696](https://github.com/pantsbuild/pants/pull/16696))
+
+### Plugin API Changes
+
+* The environment to use becomes a context-specific parameter ([#16721](https://github.com/pantsbuild/pants/pull/16721))
+
+* Deprecate `Platform.current` in favor of requesting an injected `Platform` ([#16765](https://github.com/pantsbuild/pants/pull/16765))
+
+* Allow `@union`s to declare additional types which are provided to implementers ([#16717](https://github.com/pantsbuild/pants/pull/16717))
+
+* Deprecate remote_auth_plugin option - plugins can use entry points now. ([#16691](https://github.com/pantsbuild/pants/pull/16691))
+
+### Bug fixes
+
+* Add support for inferring dependencies used in type context bounds ([#16709](https://github.com/pantsbuild/pants/pull/16709))
+
+* Resolve properly provided symbol names for types defined at top level package ([#16690](https://github.com/pantsbuild/pants/pull/16690))
+
+* Include type bound constraints in consumed symbols during Scala inference ([#16692](https://github.com/pantsbuild/pants/pull/16692))
+
+* Make experimental_shell_command deterministic ([#16675](https://github.com/pantsbuild/pants/pull/16675))
+
+### Documentation
+
+* List commercial Pants services that optionally supplement community's extensive free tier ([#16706](https://github.com/pantsbuild/pants/pull/16706))
+
+* In python resource example, use importlib.resources to read assets ([#16695](https://github.com/pantsbuild/pants/pull/16695))
+
+* Welcome community members to consider joining team ([#16681](https://github.com/pantsbuild/pants/pull/16681))
+
+## 2.15.0.dev0 (Aug 29, 2022)
+
+### New Features
+
+* Add support for string interpolation in Helm deployments ([#16611](https://github.com/pantsbuild/pants/pull/16611))
+
+* Add --squash and --pull options support for docker build ([#16607](https://github.com/pantsbuild/pants/pull/16607))
+
+* Support Pex's `--path-mapping` with lockfiles for better local requirement support ([#16584](https://github.com/pantsbuild/pants/pull/16584))
+
+* [experimental] adds `pants_oxidized_experimental` target, creating a standalone binary distribution for Pants ([#16484](https://github.com/pantsbuild/pants/pull/16484))
+
+### User API Changes
+
+* Remove deprecated `[python].only_binary`, `[python].no_binary`, and `[python].tailor_ignore_solitary_init_files` ([#16638](https://github.com/pantsbuild/pants/pull/16638))
+
+* Remove deprecated `[python].lockfile_generator` and deprecate `poetry` subsystem (used previously for lockfile generation) ([#16633](https://github.com/pantsbuild/pants/pull/16633))
+
+* Remove deprecated `use_deprecated_directory_cli_args_semantics` option ([#16630](https://github.com/pantsbuild/pants/pull/16630))
+
+### Plugin API Changes
+
+* Add support for passing multiple input params to a `@rule` `Get` ([#16668](https://github.com/pantsbuild/pants/pull/16668))
+
+* Remove deprecated `matches_filespec` and `get_git` functions ([#16629](https://github.com/pantsbuild/pants/pull/16629))
+
+* Remove unnecessary type parameter from `Get` ([#16634](https://github.com/pantsbuild/pants/pull/16634))
+
+### Bug fixes
+
+* Make `FilespecMatcher` case-sensitive ([#16673](https://github.com/pantsbuild/pants/pull/16673))
+
+* Ensure the sandbox distdir exists when creating dists via PEP517. ([#16647](https://github.com/pantsbuild/pants/pull/16647))
+
+### Performance
+
+* Implement a batched local lookup for missing fingerprints. ([#16627](https://github.com/pantsbuild/pants/pull/16627))
+
+* Optimize `CreateDigest` implementation. ([#16617](https://github.com/pantsbuild/pants/pull/16617))
+
+### Documentation
+
+* Create page of Pants team members and proudest contribs ([#16676](https://github.com/pantsbuild/pants/pull/16676))
+
+* Fix example BSP groups file. ([#16649](https://github.com/pantsbuild/pants/pull/16649))
+
+* Clarify wording for `--skip` options ([#16622](https://github.com/pantsbuild/pants/pull/16622))
+
+* Fix `./pants help` docs on command line specs ([#16616](https://github.com/pantsbuild/pants/pull/16616))
+
+* Mention team meetings as a Contributor permission ([#16543](https://github.com/pantsbuild/pants/pull/16543))
