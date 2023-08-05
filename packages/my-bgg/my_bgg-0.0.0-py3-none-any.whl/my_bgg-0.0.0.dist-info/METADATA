@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: my-bgg
+Version: 0.0.0
+Summary: My riff on BGG
+Author-email: les <les@example.com>
+Project-URL: Homepage, https://gitlab.com/les/my-bgg
+Keywords: bgg,board,game,geek,tabletop
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Games/Entertainment :: Board Games
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Provides-Extra: development
+Requires-Dist: black ; extra == 'development'
+Requires-Dist: build ; extra == 'development'
+Requires-Dist: flake8 ; extra == 'development'
+Requires-Dist: mypy ; extra == 'development'
+Requires-Dist: pre-commit ; extra == 'development'
+Requires-Dist: pytest ; extra == 'development'
+Requires-Dist: pytest-benchmark[histogram] ; extra == 'development'
+Requires-Dist: pytest-cov ; extra == 'development'
+Requires-Dist: twine ; extra == 'development'
+
+# My BGG
