@@ -1,0 +1,7 @@
+dbcolls/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+dbcolls/sqlite3/Row.py,sha256=74MiEj7_zDOI6aTF3sieaBLs0z7ScZU35b26_asHx3E,105
+dbcolls/sqlite3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbcolls-0.1.0.dist-info/LICENSE,sha256=aQdBaOZWaKvkoQA-Mj0Z59jbOQxjGoHSP5YtfeIAHnY,1063
+dbcolls-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+dbcolls-0.1.0.dist-info/METADATA,sha256=uJwfNAUWkMhCg3XJra2gE0KSOpoKnANHT3ve-AG1r8s,348
+dbcolls-0.1.0.dist-info/RECORD,,
