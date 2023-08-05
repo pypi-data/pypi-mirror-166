@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: py-refacto
+Version: 0.0.2
+Summary: Refacto
+Home-page: https://github.com/nymann/refacto
+Maintainer: Kristian Nymann Jakobsen
+Maintainer-email: kristian@nymann.dev
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: dev
+Provides-Extra: tests
+License-File: LICENSE
+
+# Refacto
+
+_So you can go to work, dressed up as a wizard yelling Refacto!_ 🪄
+
+<https://user-images.githubusercontent.com/7005867/188315168-6091923e-9ed8-4e64-9536-eb932d021bfa.mp4>
+
+## Installation
+
+```sh
+pip install py-refacto
+```
+
+### Example Client Integration
+
+##### Neovim
+
+Until Refacto is not in the official nvim-lspconfig repository, you can use my fork [nymann/nvim-lspconfig](https://github.com/nymann/nvim-lspconfig/).
+
+## Development
+
+For help getting started developing check [DEVELOPMENT.md](DEVELOPMENT.md)
