@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+enjoyn/__init__.py
+enjoyn/_version.py
+enjoyn/animator.py
+enjoyn/example.py
+enjoyn/preprocessor.py
+enjoyn.egg-info/PKG-INFO
+enjoyn.egg-info/SOURCES.txt
+enjoyn.egg-info/dependency_links.txt
+enjoyn.egg-info/requires.txt
+enjoyn.egg-info/top_level.txt
