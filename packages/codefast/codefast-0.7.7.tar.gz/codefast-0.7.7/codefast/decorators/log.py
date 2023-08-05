@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+from loguru import logger
+
+logger.add("/tmp/codefast", rotation="100 MB", retention=10)
+
+
+def time_it(func):
+    def wrapper(*args, **kwargs):
+        import time
+        start = time.time()
+        logger.info('Calling function: {}'.format(func.__name__))
+        res = func(*args, **kwargs)
+        end = time.time()
+        logger.info('Function {} took {:<.4} seconds'.format(
+            func.__name__, end - start))
+        return res
+
+    return wrapper
