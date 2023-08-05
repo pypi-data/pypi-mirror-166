@@ -1,0 +1,14 @@
+recontact/__init__.py,sha256=2IMixPvDq-_yH8rVkuM9hX5Fk75ULSmEDVDBFvZmPNU,74
+recontact/apps.py,sha256=2oGSwx7MSr9IoX3_petoMKKUsAb9aiItkaDlb2nPGl4,151
+recontact/forms.py,sha256=GKM0sr7HTiSHcKhOQovYhsd5eXCynlgUbBcvL2d5DY4,1280
+recontact/urls.py,sha256=-lPfOIJwQNXwcrTqjBA7gtLSq8ZGNxwRv0S8924-Iso,211
+recontact/views.py,sha256=3NArm1gjhTsKHrJeBnA7ttR5JhQvKLJZ1XY_h5Ho0vE,2972
+recontact/templates/recontact/base.html,sha256=TJghPAgS3wRTAdsFDAKSbhN94_3L-Q00uJujehZIK1g,824
+recontact/templates/recontact/contact.html,sha256=q9ZvErBwA94Copzr21Zw4KGrn9hlKKB9VRDC7hL12Ac,907
+recontact/templates/recontact/index.html,sha256=0mmSCplIqtZDjpdtlKNqUQv50rZjGRmAwX7dkAO-Vrg,198
+recontact/templates/recontact/message_sent.html,sha256=PfhMQhYbVb7plQynjmwFiLe79S3lsJGIyUqC_dFuaRs,407
+django_recontact-0.4.dist-info/LICENSE.txt,sha256=ZA2Q9u5AEkH_YoNNDRsz-DBJ6ZuL_foE7RsKFjXd4-c,18093
+django_recontact-0.4.dist-info/METADATA,sha256=FUo_sq17V_tGNm93g2qFW7RdGH99BKEDE5_DKHuPeFA,1415
+django_recontact-0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_recontact-0.4.dist-info/top_level.txt,sha256=sJkbth1y28uKoTFgOv8HbLBdZ35ooIo6pS5VXn40mQo,10
+django_recontact-0.4.dist-info/RECORD,,
