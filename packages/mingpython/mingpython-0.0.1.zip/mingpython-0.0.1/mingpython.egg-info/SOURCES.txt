@@ -1,0 +1,7 @@
+README.rst
+Tool.py
+setup.py
+mingpython.egg-info/PKG-INFO
+mingpython.egg-info/SOURCES.txt
+mingpython.egg-info/dependency_links.txt
+mingpython.egg-info/top_level.txt
