@@ -1,0 +1,6 @@
+ansi2html
+beautifulsoup4
+colorama
+css_inline
+docutils
+pexpect
