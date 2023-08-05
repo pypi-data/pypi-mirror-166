@@ -1,0 +1,17 @@
+LICENSE,sha256=Cl70tQad4SKNt-ULae43qKF2cc-mpShnKYfKr7P0qvY,1094
+simservice/PySimService.py,sha256=xfaz773EWFK9bwSQb23WEpqZ_K04lWQ2qFGZ4YToVWQ,7783
+simservice/ServiceFunctionReceiver.py,sha256=mZ6bIFXDupC9ZAZIGQjC4oG1W4Dnvv60ZwWb9CnIOPE,6544
+simservice/ServiceFunctionRegistry.py,sha256=NpZ2OLX2vL64LeljD6Rpuo40FBwRRrEd0Zop4Z5RLns,3930
+simservice/VERSION.txt,sha256=8LjHfZeNe0rr6x31osCmqnA5NomBndQGCCarbTa16pA,5
+simservice/__init__.py,sha256=WJvd4WhVHP2c14e4y_TEUyU4DA7wIkBTBtcuqGu7iw4,1608
+simservice/basics.py,sha256=GQk5Mx4e-5hZZ-HmBvAwuQxRmZhP1mcKwY0vN3WZxr0,653
+simservice/managers.py,sha256=IoQ6wxphH-pUahjxjuQWofj53Lxjpn8gl_Bru6cB1I4,3472
+simservice/messages.py,sha256=aFNAkVxuMswFUI7v_6Qyi5ssMf05GRIc9vE8qrgOqWI,7777
+simservice/service_containers.py,sha256=s8LelMM-XiRayyneRYaIHd1EZLLZ423dNFNqFYjfO9Q,1774
+simservice/service_factory.py,sha256=-hrECc2Lab_145tAp8lpCqOyST5QHr1g1oxXGii0i-Y,3578
+simservice/service_wraps.py,sha256=Ynvg1Qbp7F0o5Ft3jpJkNFoJ6SWTPCfUl4EcIBeFR04,5116
+simservice-0.0.0.dist-info/LICENSE,sha256=Cl70tQad4SKNt-ULae43qKF2cc-mpShnKYfKr7P0qvY,1094
+simservice-0.0.0.dist-info/METADATA,sha256=PXhESUaoVpXFeNhJZjWHQ9C4TmAxs5ydTxLp4xZDkqk,661
+simservice-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+simservice-0.0.0.dist-info/top_level.txt,sha256=Y-KBGmhc6iEGmgEAF_HHUO_r4Kso4uSBht-AjJTgi9w,11
+simservice-0.0.0.dist-info/RECORD,,
