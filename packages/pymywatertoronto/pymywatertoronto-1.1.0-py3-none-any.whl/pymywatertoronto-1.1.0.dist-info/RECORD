@@ -1,0 +1,11 @@
+pymywatertoronto/__init__.py,sha256=s3ZQSS6KczwnAFdDZ9uAbJTpm1ASAE_nlzp_UCjc0Ks,79
+pymywatertoronto/const.py,sha256=ff2U4_XDgQBNmhFegdpNU7E8plwMcgp3TvpzM4ipkl4,2587
+pymywatertoronto/enums.py,sha256=GxQ96cUL4kJ8D2JPpNcTGvahyWX5bK2l-gC2n3Qb2DQ,531
+pymywatertoronto/errors.py,sha256=9HtKExaSB0t15yjkj5UI3vH4qoIqWL8bcbEiDPjnaKw,1188
+pymywatertoronto/format_date.py,sha256=Fca53GsV5CFguNucHTXFogbPu-qO5kkuMOrTuMm7SYc,1443
+pymywatertoronto/mywatertoronto.py,sha256=d84NCPwFORPGeJIU6FXXP1i8niWw_fd90vT9kAvFrW0,16737
+pymywatertoronto-1.1.0.dist-info/LICENSE,sha256=m77B0qpF3kcnM2FrZGo63y_1xUDtyOkjvcFpvXSgQGo,1090
+pymywatertoronto-1.1.0.dist-info/METADATA,sha256=e7J1BsDpW_T2jRmHWu35awNwuTC465Ag2Uah8-ZZCJU,4149
+pymywatertoronto-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pymywatertoronto-1.1.0.dist-info/top_level.txt,sha256=K7AFp7xHr09BY4GTeYyZmWqf7LO3GFv8QAQ2mjDAoMQ,17
+pymywatertoronto-1.1.0.dist-info/RECORD,,
