@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "notes50"
+authors = [
+  { name="Zed", email="zeeshantechnical9128@gmail.com" },
+]
+version = "0.0.4"
+description = "CS50 Notes And Psets Reader"
+readme = "README.md"
+license = { file="LICENSE" }
+keywords = ["CS50", "CS50P", "Notes", "Psets"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+scripts = { notes50="notes50.notes50:main"}
