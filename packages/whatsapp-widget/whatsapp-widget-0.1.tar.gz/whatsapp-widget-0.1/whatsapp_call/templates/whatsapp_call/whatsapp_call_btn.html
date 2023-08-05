@@ -1,0 +1,45 @@
+{% load static %}
+    <link rel="stylesheet" href="{% static 'css/whatsapp_call.css'%}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  
+
+    <div class="whatsapp-widget z100">
+        <div class="text-to-chat">
+            <span class="fs10">برای تماس کلیک کنید</span>
+        </div>
+
+        <div>
+            <button class="whatsapp-light btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWhatsapp" aria-expanded="false" aria-controls="collapseWhatsapp">
+            <div class="whatsapp-widget-btn">
+                <i class="bi bi-whatsapp wa-icon"></i>
+            </div>
+        </button>
+        <div class="collapse whatsapp-body z100" id="collapseWhatsapp">
+            <div class="whatsapp-body-header">
+                <p class='whatsapp-header-text'>معمولا بعد از چند دقیقه پاسخ می دهیم</p>
+            </div>
+            <div class="whatsapp-accounts">
+                {% for acc in wa_accounts %}
+                    <div>
+                        <a class="text-decoration-none" target="_blank" href="https://wa.me/+98{{acc.phone}}?text={{acc.draft}}">
+                            <div class="account-item">
+                                <p class="wa-acc-name">{{acc.name}}</p>
+                                <img src="{{acc.avatar.url}}" class="wa-avatar" alt="{{acc.name}}">
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+            
+          </div>
+
+    </div>
+        
+    </div>
+
+
+    <script src="{% static 'js/whatsapp_call.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
+    <!-- href="https://wa.me/+989371600906?text=سلام از طریق وبسایت پیام ارسال میکنم" -->

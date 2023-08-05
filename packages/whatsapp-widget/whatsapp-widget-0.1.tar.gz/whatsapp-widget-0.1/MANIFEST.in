@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-include whatsapp_call/static *
+recursive-include whatsapp_call/templates *
