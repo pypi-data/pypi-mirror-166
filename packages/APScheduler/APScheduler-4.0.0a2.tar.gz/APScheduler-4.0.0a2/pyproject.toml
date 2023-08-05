@@ -1,0 +1,121 @@
+[build-system]
+requires = [
+    "setuptools >= 64",
+    "setuptools_scm >= 6.4"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "APScheduler"
+description = "In-process task scheduler with Cron-like capabilities"
+readme = "README.rst"
+authors = [{name = "Alex Grönholm", email = "alex.gronholm@nextday.fi"}]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["scheduling cron"]
+license = {text = "MIT"}
+urls = {Homepage = "https://github.com/agronholm/apscheduler"}
+requires-python = ">= 3.7"
+dependencies = [
+    "anyio ~= 3.6",
+    "attrs >= 21.3",
+    "tenacity ~= 8.0",
+    "tzlocal >= 3.0",
+    "typing_extensions; python_version < '3.11'"
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+asyncpg = ["asyncpg >= 0.20"]
+cbor = ["cbor2 >= 5.0"]
+mongodb = ["pymongo >= 4"]
+mqtt = ["paho-mqtt >= 1.5"]
+redis = ["redis >= 4.0"]
+sqlalchemy = ["sqlalchemy >= 1.4.22"]
+test = [
+    "asyncpg >= 0.20",
+    "asyncmy >= 0.2.5",
+    "cbor2 >= 5.0",
+    "coverage",
+    "freezegun",
+    "greenlet >= 2.0.0a2; python_version >= '3.11'",
+    "paho-mqtt >= 1.5",
+    "psycopg2",
+    "pymongo >= 4",
+    "pymysql[rsa]",
+    "pytest >= 5.0",
+    "pytest-cov",
+    "pytest-freezegun",
+    "pytest-lazy-fixture",
+    "pytest-mock",
+    "redis[hiredis] >= 4.4.0rc1",
+    "sqlalchemy >= 1.4.22",
+    "trio",
+]
+doc = [
+    "sphinx",
+    "sphinx-autodoc-typehints",
+    "sphinx-tabs >= 3.3.1",
+]
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+local_scheme = "dirty-tag"
+
+[tool.pytest.ini_options]
+addopts = "-rsx --tb=short"
+testpaths = "tests"
+filterwarnings = "always"
+markers = [
+    "external_service: marks tests as requiring some external service",
+]
+
+[tool.coverage.run]
+source = ["apscheduler"]
+
+[tool.coverage.report]
+show_missing = true
+
+[tool.isort]
+src_paths = ["src"]
+skip_gitignore = true
+profile = "black"
+
+[tool.flake8]
+max-line-length = 88
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+minversion = 3.7.0
+envlist = py37, py38, py39, py310, py311, pypy3
+skip_missing_interpreters = true
+isolated_build = true
+
+[testenv]
+extras = test
+commands = coverage run -m pytest {posargs}
+
+[testenv:pyright]
+deps = pyright
+commands = pyright --verifytypes apscheduler
+usedevelop = true
+
+[testenv:docs]
+extras = doc
+commands = sphinx-build docs build/sphinx
+"""
