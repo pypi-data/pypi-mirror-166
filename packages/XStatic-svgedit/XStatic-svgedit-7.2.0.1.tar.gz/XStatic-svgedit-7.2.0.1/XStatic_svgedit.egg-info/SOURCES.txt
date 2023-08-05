@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+README.txt
+setup.cfg
+setup.py
+XStatic_svgedit.egg-info/PKG-INFO
+XStatic_svgedit.egg-info/SOURCES.txt
+XStatic_svgedit.egg-info/dependency_links.txt
+XStatic_svgedit.egg-info/namespace_packages.txt
+XStatic_svgedit.egg-info/not-zip-safe
+XStatic_svgedit.egg-info/top_level.txt
+xstatic/__init__.py
+xstatic/pkg/__init__.py
+xstatic/pkg/svgedit/__init__.py
