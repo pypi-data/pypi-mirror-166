@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/clinitokenizer/__init__.py
+src/clinitokenizer/tokenize.py
+src/clinitokenizer.egg-info/PKG-INFO
+src/clinitokenizer.egg-info/SOURCES.txt
+src/clinitokenizer.egg-info/dependency_links.txt
+src/clinitokenizer.egg-info/requires.txt
+src/clinitokenizer.egg-info/top_level.txt
