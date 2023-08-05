@@ -1,0 +1,3 @@
+[console_scripts]
+iss-cli=iss_cli.main:run
+
