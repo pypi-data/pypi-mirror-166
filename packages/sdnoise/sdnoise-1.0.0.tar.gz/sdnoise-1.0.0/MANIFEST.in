@@ -1,0 +1,2 @@
+include deps/perlin-noise/sdnoise1234.h
+include deps/perlin-noise/srdnoise23.h

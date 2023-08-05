@@ -1,0 +1,12 @@
+[project]
+name         = "sdnoise"
+version      = "1.0.0"
+description  = "A Python wrapper for simplex noise functions with analytical derivatives."
+readme       = "README.md"
+license      = { file = "LICENSE.md" }
+authors      = [ { name  =  "Oliver John Hitchcock", email = "ojhitchcock@gmail.com" } ]
+keywords     = [ "simplex", "noise", "procedural" ]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

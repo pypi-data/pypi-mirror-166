@@ -1,0 +1,17 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+deps/perlin-noise/src/sdnoise1234.c
+deps/perlin-noise/src/srdnoise23.c
+deps/perlin-noise/src/sdnoise1234.c
+deps/perlin-noise/src/sdnoise1234.h
+deps/perlin-noise/src/srdnoise23.c
+deps/perlin-noise/src/srdnoise23.h
+src/sdnoisemodule.c
+src/sdnoise.egg-info/PKG-INFO
+src/sdnoise.egg-info/SOURCES.txt
+src/sdnoise.egg-info/dependency_links.txt
+src/sdnoise.egg-info/top_level.txt

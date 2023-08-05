@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: sdnoise
+Version: 1.0.0
+Summary: A Python wrapper for simplex noise functions with analytical derivatives.
+Author-email: Oliver John Hitchcock <ojhitchcock@gmail.com>
+License: 
+        The MIT License (MIT)
+        
+        Copyright (c) 2020 c0rp3n
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Keywords: simplex,noise,procedural
+Platform: any
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+<h1 align="center">
+    PySDNoise
+</h1>
+<p align="center">
+    <strong>A Python wrapper for noise functions with derivatives.</strong>
+</p>
+
+Python wrapper for [Stefan Gustavson's](https://github.com/stegu) simplex noise
+functions with analytical derivates, which can be found
+[here](https://github.com/stegu/perlin-noise).
+
+## Status
+*This project is still under active development and has not yet reached a stable
+version until v1.0.0 So when using this code currently expect random error and
+dragons.*
+
+## Usage
+```Python
+from sdnoise import sdnoise2
+
+n, dx, dy = sdnoise2(25.52, 30.06)
+```
+
+## Download
+ - https://github.com/open-terra/pysdnoise
+
