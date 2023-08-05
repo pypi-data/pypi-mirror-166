@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+wordhash/__init__.py
+wordhash/wordhash.py
+wordhash.egg-info/PKG-INFO
+wordhash.egg-info/SOURCES.txt
+wordhash.egg-info/dependency_links.txt
+wordhash.egg-info/entry_points.txt
+wordhash.egg-info/requires.txt
+wordhash.egg-info/top_level.txt
+wordhash/data/wordlist.txt

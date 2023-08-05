@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wordhash"
+version = "0.1.1"
+authors = [{ name = "Jesse Bulson-Lewis", email = "j.bl@posteo.org" }]
+description = "Get a string of English words as a fingerprint of any input data"
+readme = "README.md"
+license = { text = "LGPLv3" }
+requires-python = ">=3.6"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+  "Operating System :: OS Independent",
+]
+dependencies = ["bitstring"]
+
+[tool.setuptools]
+# ...
+# By default, include-package-data is true in pyproject.toml, so you do
+# NOT have to specify this line.
+include-package-data = true
+packages = ["wordhash", "wordhash.data"]
+
+[project.scripts]
+wordhash = "wordhash:main"
+
+[project.urls]
+"Homepage" = "https://github.com/jessebl/wordhash"
