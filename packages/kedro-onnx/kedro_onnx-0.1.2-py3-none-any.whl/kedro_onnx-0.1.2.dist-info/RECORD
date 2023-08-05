@@ -1,0 +1,12 @@
+kedro_onnx/__init__.py,sha256=ZTdfFk9tSCPqbUnhFu_9I_l6UZLS8C6I6P0FcOSOUZs,85
+kedro_onnx/typing.py,sha256=XiSVVZwYecImzk2QHz0ltPD0eKBguYmQFRmUYk6C0rQ,987
+kedro_onnx/utils.py,sha256=eGCf4k7IrxxcfHWOe5g6fdiabFGJhjO7qmmmDvLul1M,1043
+kedro_onnx/inference/__init__.py,sha256=5HoE0GIsrhz2_C_dcvtS3hpDcl6jcOQaHmbRyXIu0wo,90
+kedro_onnx/inference/inference.py,sha256=7PhVtsJFveiqUmIMazOhNxAID01jk1NkfQDs-lBubrc,1898
+kedro_onnx/io/__init__.py,sha256=oXeEzkULPfeAtyfVdvKeLDr3W080S24KYevWfV6UjYY,377
+kedro_onnx/io/datasets.py,sha256=LkXOyR2iSrRCrOJMG-2STWCtXi4-k4Kg2qwmUTlpEUA,12960
+kedro_onnx-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kedro_onnx-0.1.2.dist-info/METADATA,sha256=uhmvHnWZ1_C746QnPphr4k4I2zZiTXwN92pTWpAsd6k,3274
+kedro_onnx-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kedro_onnx-0.1.2.dist-info/top_level.txt,sha256=02nqBvZzhULDNFp4ki50azqBJl7Tp7Ts01WF4PDCSz0,11
+kedro_onnx-0.1.2.dist-info/RECORD,,
