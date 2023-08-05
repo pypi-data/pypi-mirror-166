@@ -1,0 +1,1 @@
+Bubot_WebServerBubot_Helper>=0.0.2
