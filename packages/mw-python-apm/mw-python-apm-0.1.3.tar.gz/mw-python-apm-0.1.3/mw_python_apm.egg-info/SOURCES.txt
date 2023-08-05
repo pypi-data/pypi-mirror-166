@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+apmpython/__init__.py
+apmpython/apmpython.py
+mw_python_apm.egg-info/PKG-INFO
+mw_python_apm.egg-info/SOURCES.txt
+mw_python_apm.egg-info/dependency_links.txt
+mw_python_apm.egg-info/top_level.txt
