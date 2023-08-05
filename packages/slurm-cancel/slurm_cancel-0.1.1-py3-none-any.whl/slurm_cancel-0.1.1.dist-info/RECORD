@@ -1,0 +1,6 @@
+slurm_cancel/__init__.py,sha256=ZA_c4yARllhVM5ifb_Gu_oCT8yY65GWoKrYNz_4v2hc,55
+slurm_cancel/utils.py,sha256=H6gEYLk37NyoGhe4eJAOw8g7U_GeOiWDkk3RCjQpuHo,624
+slurm_cancel-0.1.1.dist-info/METADATA,sha256=Rnkc149bncugQS3nA7HK89WcYOGuEJ_vOP0rljg20iU,161
+slurm_cancel-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+slurm_cancel-0.1.1.dist-info/top_level.txt,sha256=po7P9-TF82KdNLbYlR2CjoEs_ueXu9MqTgWDPH3Bj4g,13
+slurm_cancel-0.1.1.dist-info/RECORD,,
