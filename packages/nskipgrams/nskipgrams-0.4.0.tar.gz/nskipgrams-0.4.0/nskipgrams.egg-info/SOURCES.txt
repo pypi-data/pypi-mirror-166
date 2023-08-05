@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+nskipgrams.py
+pyproject.toml
+nskipgrams.egg-info/PKG-INFO
+nskipgrams.egg-info/SOURCES.txt
+nskipgrams.egg-info/dependency_links.txt
+nskipgrams.egg-info/not-zip-safe
+nskipgrams.egg-info/requires.txt
+nskipgrams.egg-info/top_level.txt
