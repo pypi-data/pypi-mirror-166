@@ -1,0 +1,11 @@
+BASNET/Basnet.py,sha256=lCPqp3kNQE_P3x2xpIEO7m-cbL9Y0QPHy_D96CTrjAk,9266
+BASNET/RefUnet.py,sha256=gvh3cRfiuwBhc9PLb2a3zRrtzLeID9GfwmvbykH5OQY,3201
+BASNET/ResidualBlock.py,sha256=U4DwKOrVRc8WsVZ_AdbXbwSZ4-NzzUUn9iIOOwiZcDI,1891
+BASNET/Resnet34Layers.py,sha256=Zh-QVqpDB5SjSFGRafYQ6wrXxNxsmuAMqPfVRhVa6_I,2124
+BASNET/__init__.py,sha256=1NF2v-jrYfGq2UI9n0YWsnIHb52SCCa7IeiyEnbP37k,265
+BASNET/loss.py,sha256=AuRn32paLh-IfytBlYio9k7YU9BazDhFT3mPzup1S48,841
+SODBASNET-0.0.5.dist-info/LICENSE,sha256=-rYz3exlA51KD3aFA_gaq6pGt8ESklmE0ItMaMmnHes,1090
+SODBASNET-0.0.5.dist-info/METADATA,sha256=n3iDo__biZbfKJ4diSswYVLrzOE_d-ljFw2rmeIznaY,2876
+SODBASNET-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SODBASNET-0.0.5.dist-info/top_level.txt,sha256=7u4v3II1ZvQWejba-7W391DeN7uc9u3CNwH0Mjro6mg,7
+SODBASNET-0.0.5.dist-info/RECORD,,
