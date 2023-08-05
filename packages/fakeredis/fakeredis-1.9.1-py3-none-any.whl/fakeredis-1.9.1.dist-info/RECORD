@@ -1,0 +1,16 @@
+fakeredis/__init__.py,sha256=4RzIxbCg6WduleojQJJejzH5Kc31lNQAyQpjcHAKi64,279
+fakeredis/_aioredis1.py,sha256=CcXgoUeWDEBf6GVW6Q19C94yU9n9BayKx7GMcfnl1EU,6555
+fakeredis/_aioredis2.py,sha256=lZvqBP1bMhkJbYN-5H2i2oN2fbejv2U2rQViZ7cPQHM,5514
+fakeredis/_async.py,sha256=E5yErT8wUVjIlM-q1Z6AAfkc1VHVjMcHL01Z9-6dRfc,1760
+fakeredis/_basefakesocket.py,sha256=IBoECQCi2fMrdSewn65pnoNJj8Em96D9OBTNXW1zots,16707
+fakeredis/_commands.py,sha256=akAOCXCf949cBOaoxSM1w1N6_ETRhH2khW0Ng_Xi--Q,10358
+fakeredis/_fakesocket.py,sha256=0RljdrrU-MS0xXAgHkkX-VD3IqVxgfvWPEjBUdJtCQo,57529
+fakeredis/_helpers.py,sha256=EviHQKG9Z43vuCheO9xnIYIOQCPHs0pQaO7UxknDFxo,7517
+fakeredis/_msgs.py,sha256=n0Zu_hbuZn20YjyiZ1OLnLirD13Z4Nz_g9Kympp4n44,3263
+fakeredis/_server.py,sha256=Xfs2pctqeKt41YWxIX4LPaQv0FGbjJuNK66rfvaP2MU,6954
+fakeredis/_zset.py,sha256=YeppTthgIo6R-YCwJFZwM9-69Qn4oDURpfEDd3Ne76o,2693
+fakeredis/aioredis.py,sha256=gYYGjk0Q9413bfkFxZN-3EAdyvOBulPJOJN2RpQkb8A,786
+fakeredis-1.9.1.dist-info/LICENSE,sha256=3bfHxmfKZyn05N533ol1koNZsFk8tcXjXHuf-gHWsKI,2728
+fakeredis-1.9.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+fakeredis-1.9.1.dist-info/METADATA,sha256=GXf_eJMS06v3tSKtQ6Cn7YD_YB0bbwsu4UyGCxknZ4E,10803
+fakeredis-1.9.1.dist-info/RECORD,,
