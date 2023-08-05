@@ -1,0 +1,13 @@
+xpycommon/__init__.py,sha256=0tWWGKlu3iTky716WgqxgDttoMjO81_6OS2V-1BOdrM,3909
+xpycommon/bluetooth.py,sha256=mqydZkmGN57GiI81tHUsq2vFZgd6gNwc3OsPf4rVUOE,19247
+xpycommon/bonfire.py,sha256=0AO2xrikDxBcaAtOfnTVKe9_UPCqkXWU8sAvJpNKbuw,1083
+xpycommon/common.py,sha256=3sp-pw9_5LBBB9IcnyjFqJ1k8at1oWCzDmI6l0rtD78,28131
+xpycommon/libc_wrapper.py,sha256=EIFeW9WvFtjdVTHf7qixmutMxT2MvfYHx-cSLhjhnyc,3815
+xpycommon/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+xpycommon/pytransform/platforms/linux/aarch64/_pytransform.so,sha256=ZT621IlyRiF65tJySlgN6V8_DIwv3jCyCAS7KuhIN9w,1087608
+xpycommon/pytransform/platforms/linux/x86_64/_pytransform.so,sha256=NgdsQ5RSqNyn6P1M3-SdYLD38eQcoD4Ep90VEnl__GU,1198080
+xpycommon-0.0.11.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xpycommon-0.0.11.dist-info/METADATA,sha256=OL0TgkGnje86cy8QaUWpJ7vIEQINENZNxxVpZM_vWos,706
+xpycommon-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xpycommon-0.0.11.dist-info/top_level.txt,sha256=8HNHL5KxFrZYwnduG2-rrchUee1JG_WDTLWJzC5mW24,10
+xpycommon-0.0.11.dist-info/RECORD,,
