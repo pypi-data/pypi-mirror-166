@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+dgbg/__init__.py
+dgbg/dgbg.py
+dgbg.egg-info/PKG-INFO
+dgbg.egg-info/SOURCES.txt
+dgbg.egg-info/dependency_links.txt
+dgbg.egg-info/not-zip-safe
+dgbg.egg-info/requires.txt
+dgbg.egg-info/top_level.txt
