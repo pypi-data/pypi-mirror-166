@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: VisualLog
+Version: 0.0.1
+Summary: Visual Log
+Home-page: https://github.com/ZengjfOS/VisualLog
+Author: zengjf
+Author-email: zengjf42@163.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ZengjfOS/VisualLog/issues
+Description: # README
+        
+        可视化log分析工具，解决常用的log数据可视化需求
+        
+        # Example
+        
+        * [BatteryZCV.py](tests/BatteryZCV.py)
+          * LogParser
+          * MatplotlibZoom
+        * [SameLines.py](tests/SameLines.py)
+        * [ShellCmd.py](/tests/ShellCmd.py)
+        
+        # 发行PyPi处理流程
+        
+        * pip3 install twine
+        * https://pypi.org/
+          * 注册帐号
+        * python3 setup.py sdist bdist_wheel
+        * twine upload dist/*
+          ```
+          Uploading distributions to https://upload.pypi.org/legacy/
+          Enter your username: zengjf
+          Enter your password:
+          Uploading VisualLog-0.0.0-py3-none-any.whl
+          100% ---------------------------------------- 8.4/8.4 kB • 00:00 • ?
+          Uploading VisualLog-0.0.0.tar.gz
+          100% ---------------------------------------- 6.6/6.6 kB • 00:00 • ?
+          
+          View at:
+          https://pypi.org/project/VisualLog/0.0.0/
+          ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
