@@ -1,0 +1,14 @@
+pyjoulescope_driver/__init__.py,sha256=gOI7rlgRoRZDHIX2YyvmXMDsJOKGYO3oFe8NRMaBj4E,813
+pyjoulescope_driver/__main__.py,sha256=pQCUw_BDf4DsGvamCZMgvflZi15JAuSNybyLIx5Cc0M,3276
+pyjoulescope_driver/binding.cp310-win_amd64.pyd,sha256=uxS_YWdU3JJGkvBsQwFo1y3b3OFImddHRFusEfkbqvM,328192
+pyjoulescope_driver/version.py,sha256=_fvEtKhocmB8xuGc3ZgYo3A3JLuSmClGpofNvxSh6vQ,1058
+pyjoulescope_driver/entry_points/__init__.py,sha256=MXj36G3T0gZyBLnJJq5BkO3fDMQG9mNQhVge7K52rWs,875
+pyjoulescope_driver/entry_points/info.py,sha256=m29sILtE3SFCLd-41Or_qOoevlWHdCmKiMvSu50-NmM,3702
+pyjoulescope_driver/entry_points/scan.py,sha256=IjB2w0R4ejEqvkGg-h-s3F1OR6tBCzqQiS1L28YCMHM,932
+pyjoulescope_driver/entry_points/set_parameter.py,sha256=fJXTD88Cl83zRPuX7Zz0cGXsVMKkOnvT0ZEjP0rdQak,2410
+pyjoulescope_driver-0.2.2.dist-info/LICENSE,sha256=SbvpEU5JIU3yzMMkyzrI0dGqHDoJR_lMKGdl6GZHsy4,11558
+pyjoulescope_driver-0.2.2.dist-info/METADATA,sha256=837islkL8IjzEr28Tm_rZ14_LW1t08W8JKsKOy1AG7A,5279
+pyjoulescope_driver-0.2.2.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+pyjoulescope_driver-0.2.2.dist-info/entry_points.txt,sha256=jWlOrWV9nO4Fh7QpH6Ru9tl1ra5QcsbsIHIUCNZrrHI,73
+pyjoulescope_driver-0.2.2.dist-info/top_level.txt,sha256=t6gAIXMvQYfgMHxyVyBXYUKW-oFiiJjzKlVus5IlODE,20
+pyjoulescope_driver-0.2.2.dist-info/RECORD,,
