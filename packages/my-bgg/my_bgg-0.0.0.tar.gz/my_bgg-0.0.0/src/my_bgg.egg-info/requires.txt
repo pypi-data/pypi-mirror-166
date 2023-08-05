@@ -1,0 +1,12 @@
+requests
+
+[development]
+black
+build
+flake8
+mypy
+pre-commit
+pytest
+pytest-benchmark[histogram]
+pytest-cov
+twine

@@ -1,0 +1,2 @@
+[console_scripts]
+mybgg = my_bgg.cli:main

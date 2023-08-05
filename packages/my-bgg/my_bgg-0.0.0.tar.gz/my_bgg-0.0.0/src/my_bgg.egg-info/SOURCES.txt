@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/my_bgg/__init__.py
+src/my_bgg/cli.py
+src/my_bgg.egg-info/PKG-INFO
+src/my_bgg.egg-info/SOURCES.txt
+src/my_bgg.egg-info/dependency_links.txt
+src/my_bgg.egg-info/entry_points.txt
+src/my_bgg.egg-info/requires.txt
+src/my_bgg.egg-info/top_level.txt
