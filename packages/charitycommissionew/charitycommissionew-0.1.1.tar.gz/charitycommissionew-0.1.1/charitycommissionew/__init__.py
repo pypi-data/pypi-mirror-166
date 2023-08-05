@@ -1,0 +1,2 @@
+#Shorten Imports
+from charitycommissionew.charitycommissionew import CharityCommissionEW

@@ -1,0 +1,9 @@
+README.md
+setup.py
+charitycommissionew/__init__.py
+charitycommissionew/charitycommissionew.py
+charitycommissionew.egg-info/PKG-INFO
+charitycommissionew.egg-info/SOURCES.txt
+charitycommissionew.egg-info/dependency_links.txt
+charitycommissionew.egg-info/requires.txt
+charitycommissionew.egg-info/top_level.txt
