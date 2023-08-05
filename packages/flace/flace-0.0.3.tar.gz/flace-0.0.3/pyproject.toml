@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flace"
+version = "0.0.3"
+description = "flace - Find and repLACE editing tools for python"
+license = {text = "GNU General Public License v3 (GPLv3) (LICENSE)"}
+dependencies = []
+
