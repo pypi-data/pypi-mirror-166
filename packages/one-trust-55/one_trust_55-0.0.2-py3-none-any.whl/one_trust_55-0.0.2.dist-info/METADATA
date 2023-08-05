@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: one-trust-55
+Version: 0.0.2
+Summary: One Trust API Library 55
+Home-page: https://gitlab.55labs.com/rohit.lobo/one_trust_api.git
+Author: Rohit Lobo
+Author-email: rohit.lobo@fifty-five.com
+License: UNKNOWN
+Keywords: python,one trust,55
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: requests
+
+UNKNOWN
+
+
