@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/wct/__init__.py
+src/wct/run.py
+src/wct.egg-info/PKG-INFO
+src/wct.egg-info/SOURCES.txt
+src/wct.egg-info/dependency_links.txt
+src/wct.egg-info/top_level.txt
+src/wct/module/__init__.py
+src/wct/module/colors.py
+src/wct/module/explorer.py
