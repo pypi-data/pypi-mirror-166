@@ -1,0 +1,9 @@
+confspawn/__init__.py,sha256=zap2KfaAK3A69_wYFKTNPHT-QYF8PlLfeQJmoIANL-o,471
+confspawn/cli.py,sha256=NbqX937M23e5b7T9h-dA9XxlVT_P2fmesvVcs57mO8M,5454
+confspawn/documentation.md,sha256=ExiJcqHRyHZQ1AZI6q0FOd4LajEiQBiiquPi9Pu7zt8,1104
+confspawn/spawn.py,sha256=ygeCmoH7pB1I4eNKtJ9KNS06NESrwLZgJ_rWE13TPDY,6712
+confspawn-0.2.4.dist-info/entry_points.txt,sha256=GR5fNXqDyRpCCbsFP_3oqGQ2pkOyyiq0MY9IM58I7Ds,86
+confspawn-0.2.4.dist-info/LICENSE,sha256=CC26pxQGvaRKCedr5peFBgwsCNFOW_hBPTJQTT0ef_g,11343
+confspawn-0.2.4.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+confspawn-0.2.4.dist-info/METADATA,sha256=Wz7G61W5p47cLGYucfmkPyB87T4hZSi1RXfrcA-XMIY,2890
+confspawn-0.2.4.dist-info/RECORD,,
