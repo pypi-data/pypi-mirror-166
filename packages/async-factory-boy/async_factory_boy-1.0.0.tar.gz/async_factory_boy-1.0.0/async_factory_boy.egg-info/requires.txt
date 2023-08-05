@@ -1,0 +1,11 @@
+factory-boy>=3.0.0
+
+[dev]
+coverage
+flake8
+isort
+SQLAlchemy
+tortoise-orm>=0.18.1
+wheel>=0.32.0
+tox
+zest.releaser[recommended]
