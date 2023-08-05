@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cartrackerreader
+Version: 1.0.1
+Summary: Python app for reading the storage of the car tracker via USB serial port
+Home-page: https://github.com/Grvs44/cartrackerreader
+Author: Joe Greaves
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pyserial
+
+Car Tracker Reader is a Python app for reading the storage of the car tracker via USB serial port
+## Install
+```pip install cartrackerreader```  
+or  
+```python -m pip install cartrackerreader```
+## Run
+```cartrackerreader```  
+or  
+```python -m cartrackerreader```
