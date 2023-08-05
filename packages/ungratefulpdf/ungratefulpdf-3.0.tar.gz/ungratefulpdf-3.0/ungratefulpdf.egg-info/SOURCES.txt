@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ungratefulpdf/__init__.py
+ungratefulpdf/pdf2image.py
+ungratefulpdf/pdf2text.py
+ungratefulpdf.egg-info/PKG-INFO
+ungratefulpdf.egg-info/SOURCES.txt
+ungratefulpdf.egg-info/dependency_links.txt
+ungratefulpdf.egg-info/top_level.txt
