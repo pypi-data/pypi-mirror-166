@@ -1,0 +1,13 @@
+build/lib/google_artifactregistry_auth/tox_bootstrap.py,sha256=9sDfMe8buFh86o9CWdZLyGSfdEP30y8iO_sKzCXOgT4,176
+build/lib/keyrings/gauth.py,sha256=RF8mkdsu1rhcSmV_ZYb_4IajwJiw--3AAgtGTUEDlAs,3227
+build/lib/tests/tox-plugin/setup.py,sha256=hDrCbDikGrrleCULwPlBkZSzIKD2cyfZQQN6Qmj2z-c,38
+google_artifactregistry_auth/tox_bootstrap.py,sha256=9sDfMe8buFh86o9CWdZLyGSfdEP30y8iO_sKzCXOgT4,176
+keyrings/gauth.py,sha256=RF8mkdsu1rhcSmV_ZYb_4IajwJiw--3AAgtGTUEDlAs,3227
+tests/tox-plugin/setup.py,sha256=hDrCbDikGrrleCULwPlBkZSzIKD2cyfZQQN6Qmj2z-c,38
+tests/tox-plugin/tox.ini,sha256=dCYQDK6T-7UOgfUhu3d6OfsvrlvDhSu_4gjqlmHnLeU,236
+keyrings.google_artifactregistry_auth-1.1.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+keyrings.google_artifactregistry_auth-1.1.1.dist-info/METADATA,sha256=5eTz99Rd7Ar2O5pGXz57E2MRV55zRO5Vg64xq2phyOU,4586
+keyrings.google_artifactregistry_auth-1.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+keyrings.google_artifactregistry_auth-1.1.1.dist-info/entry_points.txt,sha256=i27g8af7sTnKIxpP1iFgNX55SPzrOFHysx8dbZ47gEQ,115
+keyrings.google_artifactregistry_auth-1.1.1.dist-info/top_level.txt,sha256=NcaWC21V-d6A6sWZcrtKiXgbHbeNPCe33g8c2OukCRw,55
+keyrings.google_artifactregistry_auth-1.1.1.dist-info/RECORD,,
