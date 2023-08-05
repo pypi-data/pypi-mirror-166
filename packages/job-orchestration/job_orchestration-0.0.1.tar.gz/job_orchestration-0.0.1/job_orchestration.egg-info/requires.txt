@@ -1,0 +1,2 @@
+fasteners>=0.17
+GitPython>=3.1
