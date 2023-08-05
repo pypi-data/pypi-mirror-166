@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/password_cracker/__init__.py
+src/password_cracker/main.py
+src/password_cracker/sock.py
+src/password_cracker_DO_NOT_USE.egg-info/PKG-INFO
+src/password_cracker_DO_NOT_USE.egg-info/SOURCES.txt
+src/password_cracker_DO_NOT_USE.egg-info/dependency_links.txt
+src/password_cracker_DO_NOT_USE.egg-info/top_level.txt
