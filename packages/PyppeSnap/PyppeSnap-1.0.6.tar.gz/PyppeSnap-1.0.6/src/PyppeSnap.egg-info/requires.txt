@@ -1,0 +1,6 @@
+websockets==8.1
+pyee==6.0.0
+pyppeteer>=0.0.25
+
+[dev]
+check-manifest
