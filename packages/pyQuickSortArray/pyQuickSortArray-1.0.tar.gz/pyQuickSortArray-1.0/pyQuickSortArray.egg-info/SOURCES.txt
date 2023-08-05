@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+pyQuickSortArray.egg-info/PKG-INFO
+pyQuickSortArray.egg-info/SOURCES.txt
+pyQuickSortArray.egg-info/dependency_links.txt
+pyQuickSortArray.egg-info/not-zip-safe
+pyQuickSortArray.egg-info/top_level.txt
