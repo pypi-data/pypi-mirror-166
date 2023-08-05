@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: rowantree.server
+Version: 0.3.0
+Summary: Rowan Tree Server
+Author: Joshua C. Burt
+Author-email: joshburt@shapeandshare.com
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# The Rowan Tree Event Server
+
+The server will generate game world events (content) for all active players.
+
+## Usage
+
+To install the server:
+```
+pip install rowantree.server
+```
+
+To execute the server:
+```
+python -m rowantree.server.server
+```
+
+## Configuration
+`rowantree.config` Sample File
+```
+[DIRECTORY]
+logs_dir = ./logs
+
+[DATABASE]
+server=127.0.0.1
+database=trtdb
+username=trt_api_service
+password=trt_api_service!123
+```
