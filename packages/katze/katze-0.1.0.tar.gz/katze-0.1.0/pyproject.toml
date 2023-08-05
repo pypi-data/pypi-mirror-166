@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "katze"
+version = "0.1.0"
+description = ""
+authors = ["teaishealthy <teaishealthy@protonmail.com>"]
+license = "MIT"
+
+[tool.pyright]
+reportPrivateUsage = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "^22.8.0"
+isort = "^5.10.1"
+discatpy = {git = "https://github.com/emretech/discatpy", rev = "api-refactor"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
