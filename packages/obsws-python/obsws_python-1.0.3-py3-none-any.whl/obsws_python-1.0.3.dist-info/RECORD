@@ -1,0 +1,16 @@
+obsstudio_sdk/__init__.py,sha256=mq6lTmdFQZNXZw8tOhHbCDFuJN01nBrTbE8WHnix-Fs,104
+obsstudio_sdk/baseclient.py,sha256=DsOcTH8cKkbR5g2U2tF-lYKBlNa4NMyuGjg5i27-2ho,2581
+obsstudio_sdk/callback.py,sha256=3SrftqpeOuEt4FZBBiRbfAlAv_td8t08uNxr6aOQ3UM,1558
+obsstudio_sdk/error.py,sha256=evWLhfOcX2nFmpvNOKslX02C1YFWr-qnRwjqEX9lzfI,69
+obsstudio_sdk/events.py,sha256=kk7Hnmdg---B6SJs0Xm10t02YMd_AcBsmK1HvJA_-Xg,1985
+obsstudio_sdk/reqs.py,sha256=maNahpXE6F0Vcn3QWHrO0MLN6svUQpIu4SUYnCWfvFA,54713
+obsstudio_sdk/util.py,sha256=j33ucYRejlSGkR3TcHM-hgPizc09W4YXfA8L3wbM8Ro,578
+tests/__init__.py,sha256=atDGw47UKXa-A4u9syZ-7ihMWz9NeGKFpquK1Hm9Ihk,371
+tests/test_attrs.py,sha256=D3RZNYzVTarFk6BS7OHS7LDPV7hnfPBLP0aUBz18uBk,750
+tests/test_callback.py,sha256=xzOoHboF_vsd2-Tq42dEBZXkeuCwhio-ZPnVccqfb60,1694
+tests/test_request.py,sha256=3Wf0BMvozodALkPkNTF3DWgXmbHZvXL85iZDc65UBzM,4440
+obsws_python-1.0.3.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+obsws_python-1.0.3.dist-info/METADATA,sha256=dThlUGrkg2dzPoFUtqPbzQQAurf2zvmpf3PPz5utQYc,4303
+obsws_python-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+obsws_python-1.0.3.dist-info/top_level.txt,sha256=gk1DhlnZKL7ki0jjyTY3YzU0kdeGsFknCvX8D8jIvM8,20
+obsws_python-1.0.3.dist-info/RECORD,,
