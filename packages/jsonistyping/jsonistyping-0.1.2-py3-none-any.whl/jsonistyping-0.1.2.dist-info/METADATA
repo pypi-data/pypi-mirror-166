@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jsonistyping
+Version: 0.1.2
+Summary: Simple type checking and type conversion library
+Author-email: Arterialist <contact@arterialist.me>
+Project-URL: Homepage, https://github.com/arterialist/jsonistyping
+Project-URL: Bug Tracker, https://github.com/arterialist/jsonistyping/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# jsonistyping
+
+**jsonistyping** is a limple and lightweight type checking and type conversion library without any 3rd party dependencies. It was designed to be used in the various APIs and flask-like frameworks.
