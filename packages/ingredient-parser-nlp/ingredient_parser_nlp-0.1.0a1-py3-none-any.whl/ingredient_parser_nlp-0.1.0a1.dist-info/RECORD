@@ -1,0 +1,10 @@
+ingredient_parser/__init__.py,sha256=dmW_9Cazs8TmrDrPom2eOyXOUkGKUsgyw2w1DEDmjX4,181
+ingredient_parser/model.crfsuite,sha256=rSSwnhNKHwKKlfrQIq6RJaKJxFawF1hvIRCI-aENmyM,1895628
+ingredient_parser/parsers.py,sha256=7b6GO3u0JziWh2p_YWfdOW6lq1eGcnG7pDLbaSdu9s4,5516
+ingredient_parser/preprocess.py,sha256=Agh8qw57s5m3bzA1IiLhS2GMqECWFShdDy1EwgXJ2R0,19228
+ingredient_parser/utils.py,sha256=aHIPS6jilmv9m60FpkkDICLkT0g8-kuGytUmuV7QXok,5100
+ingredient_parser_nlp-0.1.0a1.dist-info/LICENSE,sha256=ZE-7KGqFd4nm3EIpKzhYtOUH3nviAdkucyegLSP4CQo,1068
+ingredient_parser_nlp-0.1.0a1.dist-info/METADATA,sha256=0lAWRn0RvmyG3humR3ruBxPP5ra52HE1SYLzX5PXWL4,4390
+ingredient_parser_nlp-0.1.0a1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ingredient_parser_nlp-0.1.0a1.dist-info/top_level.txt,sha256=Pf4DPjUlmdeWeJSvbzZsbPNvrktj9wjOOBaNHju-lY8,18
+ingredient_parser_nlp-0.1.0a1.dist-info/RECORD,,
