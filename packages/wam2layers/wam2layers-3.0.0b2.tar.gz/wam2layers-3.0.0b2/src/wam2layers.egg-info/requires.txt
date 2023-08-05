@@ -1,0 +1,15 @@
+numpy
+pyyaml
+scipy
+xarray
+netcdf4
+scipy
+click
+
+[develop]
+black
+cffconvert
+isort
+myst-nb
+sphinx_rtd_theme
+sphinx
