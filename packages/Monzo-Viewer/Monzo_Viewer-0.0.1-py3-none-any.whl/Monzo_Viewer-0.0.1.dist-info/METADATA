@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: Monzo-Viewer
+Version: 0.0.1
+Summary: Package to allow you to play with the Monzo API
+Home-page: https://github.com/petermcd/monzo-viewer
+Author: Peter McDonald
+Author-email: git@petermcdonald.co.uk
+Project-URL: Bug Tracker, https://github.com/petermcd/monzo-viewer/issues
+Project-URL: Source, https://github.com/petermcd/monzo-viewer
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Office/Business :: Financial
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: build
+Requires-Dist: wheel ; extra == 'build'
+Requires-Dist: build ; extra == 'build'
+
+Viewer for the monzo API
+=======================================
+
+Installation
+---------------------------------------
+
+To install carry out the following steps
+
+.. code-block:: bash
+
+    pip install nonzo-viewer
+    start
