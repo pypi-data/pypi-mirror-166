@@ -1,0 +1,5 @@
+requests>=2
+python-vlc>=3
+mutagen>=1.45.1
+bs4>=0.0.1
+pyyaml>=6.0
