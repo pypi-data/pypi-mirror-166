@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: kth
+Version: 0.1.0
+Summary: Bitcoin Cash development platform for Python applications
+Home-page: https://github.com/k-nuth/py-api
+Author: Knuth Prokect
+License: MIT
+Keywords: bitcoin,cash,bch,money,knuth,kth
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+License-File: AUTHORS
