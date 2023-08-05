@@ -1,0 +1,1 @@
+Easytrack boilperate [pypi module](https://pypi.org/project/python-easytrack/) for importing everywhere in the backend side.
