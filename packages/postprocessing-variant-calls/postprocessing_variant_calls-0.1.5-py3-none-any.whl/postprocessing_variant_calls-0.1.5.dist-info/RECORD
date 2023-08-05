@@ -1,0 +1,10 @@
+postprocessing_variant_calls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+postprocessing_variant_calls/main.py,sha256=AHLxBirjUqVqRinstMzDnTxugjzT2Thq4bqI33QwFZ8,323
+postprocessing_variant_calls/vardict/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+postprocessing_variant_calls/vardict/vardict_class.py,sha256=UOX8fFD1_Tl6_oN6w7HaPNSDHUkEGvRh-QK2234PfAE,13247
+postprocessing_variant_calls/vardict/vardict_process.py,sha256=ouZGo1H8DTWo6hEc2ns3PQcJwBzBKhUS_CniezUkn0E,5518
+postprocessing_variant_calls-0.1.5.dist-info/entry_points.txt,sha256=Uh7JdGEyoetasaLqVRtBTSFjN2KHOhiVclAXRRJjnzg,60
+postprocessing_variant_calls-0.1.5.dist-info/LICENSE,sha256=jVT66YYJbnrfDhdY869VHFArEo4pxQsHfJSb5vSKtCE,1067
+postprocessing_variant_calls-0.1.5.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+postprocessing_variant_calls-0.1.5.dist-info/METADATA,sha256=g0vrJ2WH4ncNSEHzX_sUe0RcirtN9lbM18PXLHqiJfU,2834
+postprocessing_variant_calls-0.1.5.dist-info/RECORD,,
