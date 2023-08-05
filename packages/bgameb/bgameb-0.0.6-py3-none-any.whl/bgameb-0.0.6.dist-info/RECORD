@@ -1,0 +1,11 @@
+bgameb/__init__.py,sha256=xKfl3B2CF7hdoWE_ThWO7sNQcWVvJ4ZBThVdcRnutcA,215
+bgameb/_version.py,sha256=ewm3zPG1jRURqmQvibnIFhgf3g2TUnTwKxnync5ZMWw,256
+bgameb/games.py,sha256=DuTB9X0ChnluNmO3QbHl-evUW9LUSKFE-gM-bjEyTDA,1238
+bgameb/players.py,sha256=-UoS9vyxhRqMibIyZfxH9ppCYHoVVeUBql2ayRSGJiQ,292
+bgameb/rollers.py,sha256=8MCNcnPV-4a-dHMM3dLLdYBFIsMAqWiECGAXSdFC_Ik,1960
+bgameb/shakers.py,sha256=voykrA6H65NPiaUXdahDrStmugyEv83Bm3crG0ejYSs,5029
+bgameb-0.0.6.dist-info/LICENSE,sha256=_dzTCKEeIEivgwldfTAgIGAE3e_38f9vTMCl3_YitGg,1076
+bgameb-0.0.6.dist-info/METADATA,sha256=k2OzLgUc2KpEAQpf_JmpmdmvfvDeVi5sTVRBjOZMv_w,6064
+bgameb-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bgameb-0.0.6.dist-info/top_level.txt,sha256=j-0V0dvzTd3L1DG_0oM4yncbUy889zeiSqtLF1MYH58,7
+bgameb-0.0.6.dist-info/RECORD,,
