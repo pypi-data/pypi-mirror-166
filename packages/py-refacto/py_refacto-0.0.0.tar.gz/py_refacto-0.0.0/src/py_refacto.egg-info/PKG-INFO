@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: py-refacto
+Version: 0.0.0
+Summary: Refacto
+Home-page: https://github.com/nymann/refacto
+Maintainer: Kristian Nymann Jakobsen
+Maintainer-email: kristian@nymann.dev
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Provides-Extra: dev
+Provides-Extra: tests
+
+# Refacto
+
+## Development
+
+For help getting started developing check [DEVELOPMENT.md](DEVELOPMENT.md)
