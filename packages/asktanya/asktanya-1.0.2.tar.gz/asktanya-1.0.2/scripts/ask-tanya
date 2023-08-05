@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from asktanya.main import ask_google
+
+print(ask_google(input("Ask Tanya anything! \nType your question here: ")))
