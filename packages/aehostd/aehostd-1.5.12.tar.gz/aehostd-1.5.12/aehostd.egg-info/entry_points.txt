@@ -1,0 +1,3 @@
+[console_scripts]
+aehostd = aehostd.srv:main
+aehostd-ph = aehostd.priv:main
