@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: basiclib123
+Version: 106
+Summary: Basic programmig library.
+Home-page: UNKNOWN
+Author: Veljko Miljanic
+Author-email: veljkomilj@gmail.com
+License: UNKNOWN
+Description: Basic programming library.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Programming Language :: Python
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
