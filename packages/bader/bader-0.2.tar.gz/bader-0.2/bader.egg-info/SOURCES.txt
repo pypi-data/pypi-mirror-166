@@ -1,0 +1,9 @@
+setup.py
+bader/__init__.py
+bader/__main__.py
+bader/bader.py
+bader.egg-info/PKG-INFO
+bader.egg-info/SOURCES.txt
+bader.egg-info/dependency_links.txt
+bader.egg-info/requires.txt
+bader.egg-info/top_level.txt
