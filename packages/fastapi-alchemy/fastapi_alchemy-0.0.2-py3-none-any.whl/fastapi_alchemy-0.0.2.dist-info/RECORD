@@ -1,0 +1,8 @@
+fastapi_alchemy/__init__.py,sha256=0KQDBEuuF2xf1nYFPg0K9PVlmhl68Uq0XvlnouHg1h4,235
+fastapi_alchemy/context.py,sha256=76fjkEABKkFfpx8IL6F8r3RcMoW7c3cSpKUHd6SSSG0,362
+fastapi_alchemy/exceptions.py,sha256=RkGJQz1Rk_yKqdHXSZXet3fPGeH5ejkU1qWNPEOCIGE,121
+fastapi_alchemy/initializer.py,sha256=vaZZhg1WM6bvyc7VfnMDNJKjChcroTcbXgU3SpSygyM,1114
+fastapi_alchemy/middleware.py,sha256=EMqgpIeWAlYN8Qgljd35dtmGkmfdaBG7Hb0b9rtgzYM,660
+fastapi_alchemy-0.0.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+fastapi_alchemy-0.0.2.dist-info/METADATA,sha256=HXDGkWIFd_W6-KjlU0yhhD4GtfmfoaQR-YRdDqLfhBc,498
+fastapi_alchemy-0.0.2.dist-info/RECORD,,
