@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pandasdb/__init__.py
+pandasdb/column.py
+pandasdb/connection.py
+pandasdb/exceptions.py
+pandasdb/expression.py
+pandasdb/indexloc.py
+pandasdb/table.py
+pandasdb/utils.py
+pandasdb2.egg-info/PKG-INFO
+pandasdb2.egg-info/SOURCES.txt
+pandasdb2.egg-info/dependency_links.txt
+pandasdb2.egg-info/top_level.txt
