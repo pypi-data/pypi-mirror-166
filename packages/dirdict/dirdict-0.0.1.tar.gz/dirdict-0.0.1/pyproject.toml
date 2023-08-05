@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dirdict"
+version = "0.0.1"
+description = "A dictionary-like interface for your file system."
+authors = ["AsbjornOlling <asbjornolling@gmail.com>"]
+license = "EUPL-1.2"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.3"
+coverage = "^6.4.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
