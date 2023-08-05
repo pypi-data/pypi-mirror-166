@@ -1,0 +1,9 @@
+ofrak
+ofrak_type
+immutabledict==2.2.0
+python-magic
+
+[test]
+fun-coverage~=0.1.0
+pytest
+pytest-cov
