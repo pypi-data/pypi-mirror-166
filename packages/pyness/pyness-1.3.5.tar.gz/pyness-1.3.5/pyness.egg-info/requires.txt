@@ -1,0 +1,4 @@
+Click>=7.0
+
+[dev]
+black>=18.3-alpha.0

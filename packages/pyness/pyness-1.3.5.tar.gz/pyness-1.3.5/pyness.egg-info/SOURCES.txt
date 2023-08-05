@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+pyness/__init__.py
+pyness.egg-info/PKG-INFO
+pyness.egg-info/SOURCES.txt
+pyness.egg-info/dependency_links.txt
+pyness.egg-info/entry_points.txt
+pyness.egg-info/requires.txt
+pyness.egg-info/top_level.txt
