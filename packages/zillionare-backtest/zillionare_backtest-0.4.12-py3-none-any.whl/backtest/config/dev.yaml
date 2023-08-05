@@ -1,0 +1,41 @@
+logging:
+  handlers:
+    file:
+      class: logging.handlers.RotatingFileHandler
+      formatter: default
+      filename: /tmp/backtest.log
+    entrust:
+      class: logging.handlers.RotatingFileHandler
+      formatter: bare
+      filename: /tmp/entrust.log
+      maxBytes: 10485760
+      backupCount: 10
+      encoding: utf-8
+    trade:
+      class: logging.handlers.RotatingFileHandler
+      formatter: bare
+      filename: /tmp/trade.log
+      maxBytes: 10485760
+      backupCount: 10
+      encoding: utf-8
+  root:
+    handlers:
+      - console
+    level: INFO
+
+feed:
+  type: zillionare
+
+postgres:
+  dsn: postgres://zillionare:123456@localhost:5432/zillionare
+  enabled: true
+
+redis:
+  dsn: redis://localhost:6379
+influxdb:
+  url: http://localhost:8086
+  token: my-token
+  org: my-org
+  bucket_name: my-bucket
+  enable_compress: true
+  max_query_size: 150000
