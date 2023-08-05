@@ -1,0 +1,10 @@
+iss-cli/README.md,sha256=m0NfeWERvszHZ0MXLFkCzK5Nng0dImHVykFbj91BhHc,47
+iss-cli/__init__.py,sha256=7OL40fHoNlMaqDEFCJsG599qUVjlmo26dvVUrLP3F-Q,15
+iss-cli/lib/__init__.py,sha256=pRjOkxjtafuHEUGyJIcObDmEIgsPPP44qLBDVcQjIiI,19
+iss-cli/lib/issue.py,sha256=f15aP4FWYK9vddww3Q8duARBoS9sUK5vDuzqlo6EQ8c,275
+iss-cli/lib/issue_manager.py,sha256=WfLhQUkdLCM5reOMVvrxYO-gLTinbpWccn2EsSLCH9M,1336
+iss-cli/main.py,sha256=tqp0PU3KbceVINKKDKOzDLqFJdfhQFZnGPH14wcN-2E,3699
+iss_cli-0.1.0.dist-info/entry_points.txt,sha256=gG8btAz7L01N-gKa3gcciBBLjmDq2OEzcone6BwN8Fg,44
+iss_cli-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+iss_cli-0.1.0.dist-info/METADATA,sha256=f3b0HxigrrSe1ALYxOzMtB3TfHU-9c29fVHeYV-O5ZY,697
+iss_cli-0.1.0.dist-info/RECORD,,

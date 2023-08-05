@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: iss-cli
+Version: 0.1.0
+Summary: Tools for automated issues management
+License: WTFPL
+Author: Kirill K
+Author-email: kovalev.kirill.a@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: fire (==0.4.0)
+Requires-Dist: pydantic (==1.10.1)
+Requires-Dist: python-magic (==0.4.24)
+Requires-Dist: rich (==12.5.1)
+Description-Content-Type: text/markdown
+
+# iss-cli
+
+Issue Manager CLI tool.
+
+- Tool to automate your development process
+- Heavily inspired by [PDD](https://www.yegor256.com/2017/04/05/pdd-in-action.html) concept
+
