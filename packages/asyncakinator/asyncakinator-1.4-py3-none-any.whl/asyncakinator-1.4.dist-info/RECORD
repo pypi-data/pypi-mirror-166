@@ -1,0 +1,9 @@
+asyncakinator/__init__.py,sha256=-w6wSgS-9jb1mxVNICDH3DHd2d0RrZJG44U5NYmYD_E,1272
+asyncakinator/akinator.py,sha256=z6fD76gmvwcvsO6Z3rbhJ-ZlDmxE_kNSbKEr8aEJtNM,14108
+asyncakinator/exceptions.py,sha256=TR4DyBJAxFsrdvkvMKIxiyXK8RDZFJWqqh25-Dp5aHA,2280
+asyncakinator/models.py,sha256=nRBkFvhjv7O17jQ1w5Rq1SHgavWTtbP7xWocj095wIU,8332
+asyncakinator/utils.py,sha256=puyQr2JsEGjDCLtA751DyvyTaEFCkugf3DiwxSkG3cc,2395
+asyncakinator-1.4.dist-info/LICENSE,sha256=Hsodla8zAT6z5-8Bg52GoOAWR-YLwGzuKgW73Z-2ZjU,1063
+asyncakinator-1.4.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+asyncakinator-1.4.dist-info/METADATA,sha256=5OX5GnRKR2xlotanuv5900Oh2-8IcMBTPuveSsFeY9c,3207
+asyncakinator-1.4.dist-info/RECORD,,
