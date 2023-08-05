@@ -1,0 +1,11 @@
+LICENSE,sha256=z-l9QMqfJ3JaTooQ4CbwZVLIVHX3PVptqhTWKfBVJ40,1055
+ulinkme/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+ulinkme/config.py,sha256=_UVQnhTTUdSglZIHj9znMJL8QTDtze5UpZf9IYOI3Ec,4785
+ulinkme/handlers/__init__.py,sha256=PhOYXtjRDMU3uKBhRnf8EtwWYDiWyL1v3lY06-FvTj8,52
+ulinkme/handlers/hardlink_handler.py,sha256=UAZmOXKn6O3juP4Q8WzaGQMIcKdwjVqzId6fro2yBSg,4110
+ulinkme/main.py,sha256=1dwlYAE9JnyPt_ZkCa0knIQ2oZBd1hn51f1vAbXeQoI,365
+ulinkme-0.1.0.dist-info/entry_points.txt,sha256=UV3o89vTdxypki3tZJtI2jz9sr6BMBaohccNApiHlMY,44
+ulinkme-0.1.0.dist-info/LICENSE,sha256=z-l9QMqfJ3JaTooQ4CbwZVLIVHX3PVptqhTWKfBVJ40,1055
+ulinkme-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ulinkme-0.1.0.dist-info/METADATA,sha256=0GhkEy1lks03PKVBG6YGHpxpDEnnmcQSLOnfH1FfcUw,4163
+ulinkme-0.1.0.dist-info/RECORD,,
