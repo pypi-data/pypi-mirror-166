@@ -1,0 +1,6 @@
+[console_scripts]
+intake-ids-periodic-cleanup = intake_ids.cli.periodic:main
+
+[intake.drivers]
+connector = intake_ids.catalog:ConnectorCatalog
+connector_csv = intake_ids:ConnectorCSVSource
