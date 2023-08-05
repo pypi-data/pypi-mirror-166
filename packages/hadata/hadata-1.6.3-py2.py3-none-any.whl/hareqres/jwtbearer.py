@@ -1,0 +1,58 @@
+import os
+
+from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from fastapi import Request, HTTPException, Depends
+from hautils.logger import logger
+from dotenv import load_dotenv
+import jwt
+import time
+
+load_dotenv(override=False)
+
+from hadata.user import MongoUser
+
+JWT_SECRET = os.getenv("JWT_SECRET")
+JWT_ALGORITHM = os.getenv("JWT_ALGORITHM")
+
+
+class JWTBearer(HTTPBearer):
+    def __init__(self, auto_error: bool = True):
+        super(JWTBearer, self).__init__(auto_error=auto_error)
+
+    async def __call__(self, request: Request):
+        credentials: HTTPAuthorizationCredentials = await super(
+            JWTBearer,
+            self).__call__(request)
+        if credentials:
+            if not credentials.scheme == "Bearer":
+                raise HTTPException(status_code=403,
+                                    detail="Invalid authentication scheme.")
+            if not verify_jwt(credentials.credentials):
+                raise HTTPException(status_code=403,
+                                    detail="Invalid token or expired token.")
+            return credentials.credentials
+        else:
+            raise HTTPException(status_code=403,
+                                detail="Invalid authorization code.")
+
+
+def verify_jwt(token_jwt: str) -> bool:
+    is_token_valid: bool = False
+    logger.info("verify jwt token %s" % (token_jwt,))
+    try:
+        payload = decode_jwt(token_jwt)
+    except Exception:
+        logger.info("payload exception")
+        payload = None
+    if payload:
+        is_token_valid = True
+    logger.log("payload status %s" % (is_token_valid,))
+    return is_token_valid
+
+
+def decode_jwt(token: str) -> dict:
+    try:
+        decoded_token = jwt.decode(token, JWT_SECRET, algorithms=[JWT_ALGORITHM])
+        return decoded_token if decoded_token["exp"] >= time.time() else None
+    except Exception:
+        return {}
