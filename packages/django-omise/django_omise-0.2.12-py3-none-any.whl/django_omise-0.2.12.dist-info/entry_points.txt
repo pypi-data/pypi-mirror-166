@@ -1,0 +1,4 @@
+[console_scripts]
+install_omise=cli.dependencies:install_compatible_omise
+test_coverage=cli.tests:run_test_coverage
+
