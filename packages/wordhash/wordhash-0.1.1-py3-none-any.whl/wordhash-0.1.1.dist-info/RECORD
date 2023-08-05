@@ -1,0 +1,10 @@
+data/wordlist.txt,sha256=bVV_BpOVj7XmULaLW-5YXrgs9NoyllUFx4npJHQ7xSI,62144
+wordhash/__init__.py,sha256=DOCLrg9WVfvAoJCG4k7sVU9IBpP1CAcSYrRGlkjezyw,24
+wordhash/wordhash.py,sha256=0tEJWJuCOJe5BX1Zm2FjLkf2j4ZlWvKAGFvM2fPmPeQ,3553
+wordhash/data/wordlist.txt,sha256=bVV_BpOVj7XmULaLW-5YXrgs9NoyllUFx4npJHQ7xSI,62144
+wordhash-0.1.1.dist-info/LICENSE.md,sha256=HpUKMjWJEodvzT6gvdl1yeqKeCLt3DzaZigXw6vpmxw,7642
+wordhash-0.1.1.dist-info/METADATA,sha256=Mbmzhm2T9wmNuxj0W_uTNAiXcivlmQViadagK6i8XZA,2357
+wordhash-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wordhash-0.1.1.dist-info/entry_points.txt,sha256=NnjHMZ70Om4uKXM4RfkOZDzeLniycEK_cWyreb9Ju4w,43
+wordhash-0.1.1.dist-info/top_level.txt,sha256=vMCupSFg1zCUY-JC8YxxZoyNSHTqlyk7O3s3GwHfEZE,9
+wordhash-0.1.1.dist-info/RECORD,,
