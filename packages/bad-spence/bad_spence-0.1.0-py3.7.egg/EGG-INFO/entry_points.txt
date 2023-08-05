@@ -1,0 +1,3 @@
+[console_scripts]
+spence = bad_spence.generator:main
+
