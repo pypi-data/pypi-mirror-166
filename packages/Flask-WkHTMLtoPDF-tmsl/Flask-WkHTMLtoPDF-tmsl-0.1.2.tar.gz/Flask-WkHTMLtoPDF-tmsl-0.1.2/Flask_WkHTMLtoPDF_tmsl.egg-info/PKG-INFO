@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: Flask-WkHTMLtoPDF-tmsl
+Version: 0.1.2
+Summary: Convert JavaScript dependent Flask templates into PDFs with wkhtmltopdf.
+Author-email: Chris Griffin <cwg23@georgetown.edu>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2015 Christopher Griffin
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/thinkmorestupidless/flask-wkhtmltopdf
+Project-URL: Bug Tracker, https://github.com/thinkmorestupidless/flask-wkhtmltopdf/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Printing
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Flask-WkHTMLtoPDF 
+
+[![build status](https://travis-ci.org/chris-griffin/flask-wkhtmltopdf.svg?branch=master)](https://travis-ci.org/chris-griffin/flask-wkhtmltopdf)
+[![doc status](http://readthedocs.org/projects/flask-wkhtmltopdf/badge/?version=latest)](http://flask-wkhtmltopdf.readthedocs.org/en/latest/?badge=latest)
+
+Flask-WkHTMLtoPDF allows you to easily convert JavaScript dependent Flask templates into PDFs with wkhtmltopdf. For complete 
+documentation, please visit http://flask-wkhtmltopdf.readthedocs.org/en/latest/?badge=latest.
+
+## Installation
+
+Install the extension with one of the following commands:
+
+```sh
+$ easy_install flask-wkhtmltopdf
+```
+
+or alternatively if you have pip installed:
+
+```sh
+$ pip install flask-wkhtmltopdf
+```
+
+You will also need to install the WkHTMLtoPDF command line library from http://wkhtmltopdf.org/downloads.html. Alternatively, you
+can install from the command line for unix based machines by finding the appropriate distrubution on http://download.gna.org/wkhtmltopdf/0.12/0.12.2.1/.
+For instance, for linux:
+
+```sh
+$ wget http://download.gna.org/wkhtmltopdf/0.12/0.12.2.1/wkhtmltox-0.12.2.1_linux-precise-amd64.deb
+$ sudo dpkg -i wkhtmltox-0.12.2.1_linux-precise-amd64.deb
+```
+
+## Usage
+
+First setup in your main Flask file. 
+
+```python
+from flask_wkhtmltopdf import Wkhtmltopdf
+
+        app = Flask(__name__)
+        wkhtmltopdf = Wkhtmltopdf(app)
+```
+
+Then add these to your app's config
+
+```python
+
+WKHTMLTOPDF_BIN_PATH = r'C:\Program Files\wkhtmltopdf\bin' #path to your wkhtmltopdf installation.
+PDF_DIR_PATH =  os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'pdf')
+
+```
+
+To convert a flask template into a PDF, simply use the render_template_to_pdf() function.
+
+```python
+render_template_to_pdf('test.html', download=True, save=False, param='hello')
+```
+
+## Contributing
+
+Contributions are more than welcomed. Please
+follow these steps:
+
+1. Fork this repository
+2. Make your changes
+3. Test your changes locally:
+  ```
+  $ python setup.py test
+  ```
+4. Submit a pull request
