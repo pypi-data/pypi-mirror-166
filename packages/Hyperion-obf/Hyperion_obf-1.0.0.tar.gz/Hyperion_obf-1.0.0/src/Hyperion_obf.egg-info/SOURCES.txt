@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/Hyperion_obf.egg-info/PKG-INFO
+src/Hyperion_obf.egg-info/SOURCES.txt
+src/Hyperion_obf.egg-info/dependency_links.txt
+src/Hyperion_obf.egg-info/top_level.txt
+src/hyperion_obf/__init__.py
