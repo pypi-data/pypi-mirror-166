@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ecpatestapitest
+Version: 0.0.9
+Summary: Ecowitt get data
+Author: Ecowitt_1
+Author-email: 369532361@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Ecowitt get data
+ 
+Data access for some ecowitt models.
+ 
+- LAN data acquisition: request_loc_allinfo().
+- Device data acquisition on ecowitt website: get_data_real_time(mac).
