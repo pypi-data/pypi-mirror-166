@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+mnnllzz/__init__.py
+mnnllzz/__main__.py
+mnnllzz/mnnllzz.py
+mnnllzz.egg-info/PKG-INFO
+mnnllzz.egg-info/SOURCES.txt
+mnnllzz.egg-info/dependency_links.txt
+mnnllzz.egg-info/requires.txt
+mnnllzz.egg-info/top_level.txt
