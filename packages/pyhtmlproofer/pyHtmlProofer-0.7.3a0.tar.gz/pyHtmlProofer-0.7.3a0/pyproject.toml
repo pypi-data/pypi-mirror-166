@@ -1,0 +1,91 @@
+[project]
+name = "pyHtmlProofer"
+dynamic = []
+description = "pyHtmlProofer - A tool for validating internal & external links in HTML files / Websites"
+authors = [
+    { name = "Rehan Haider", email = "email@rehanhaider.com" },
+]
+dependencies = [
+    "requests>=2.28.1",
+    "lxml>=4.9.1",
+    "html5lib>=1.1",
+    "beautifulsoup4>=4.11.1",
+    "rich>=12.5.1",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Site Management",
+    "Topic :: Internet :: WWW/HTTP :: Site Management :: Link Checking",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Testing",
+]
+version = "0.7.3-alpha"
+
+[project.license]
+text = "AGPL-3.0"
+
+[project.urls]
+Source = "https://github.com/rehanhaider/pyhtmlproofer"
+
+[project.scripts]
+pyhtmlproofer = "pyhtmlproofer.__main__:main"
+
+[project.optional-dependencies]
+
+[tool.pdm]
+homepage = "https://pypi.org/project/pyhtmlproofer"
+
+[tool.pdm.version]
+source = "file"
+path = "src/pyhtmlproofer/__version__.py"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.1.2",
+    "pyhtmlproofer @ file:///${PROJECT_ROOT}",
+    "pre-commit>=2.20.0",
+]
+
+[tool.pdm.scripts.all]
+call = "tests.all:main"
+
+[tool.pdm.scripts.pre_test]
+shell = "unzip tests/cases.zip"
+
+[tool.pdm.scripts.test]
+shell = "pytest"
+
+[tool.pdm.scripts.post_test]
+shell = "zip -r tests/cases.zip tests/cases && rm -rf tests/cases"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "--maxfail=1 --capture=no"
+testpaths = "tests"
+console_output_style = "classic"
+log_cli = "True"
+log_level = "DEBUG"
+log_format = "%(levelname)s %(message)s"
+log_file = "pytest.log"
+
+[tool.black]
+line-length = 119
+include = "\\.pyi?$"
+exclude = "/(\n    \\.git\n  | \\.hg\n  | \\.mypy_cache\n  | \\.tox\n  | \\.venv\n  | _build\n  | buck-out\n  | build\n  | dist\n)/\n"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
