@@ -1,0 +1,17 @@
+image: python:latest
+stages:
+  - build
+
+before_script:
+  - python -V
+  - echo "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi"
+  - apt-get update && apt-get install -y git
+
+build-upload:
+  stage: build
+  script:
+    - pip install build twine flit
+    - flit build
+    - python -m twine upload dist/*
+  only:
+    - tags
