@@ -1,0 +1,7 @@
+README.md
+setup.py
+threshold_detect.egg-info/PKG-INFO
+threshold_detect.egg-info/SOURCES.txt
+threshold_detect.egg-info/dependency_links.txt
+threshold_detect.egg-info/requires.txt
+threshold_detect.egg-info/top_level.txt
