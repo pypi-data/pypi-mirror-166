@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+pwn_gadget/__init__.py
+pwn_gadget/checking.py
+pwn_gadget/data_types.py
+pwn_gadget/main.py
+pwn_gadget/parser.py
+pwn_gadget.egg-info/PKG-INFO
+pwn_gadget.egg-info/SOURCES.txt
+pwn_gadget.egg-info/dependency_links.txt
+pwn_gadget.egg-info/requires.txt
+pwn_gadget.egg-info/top_level.txt
