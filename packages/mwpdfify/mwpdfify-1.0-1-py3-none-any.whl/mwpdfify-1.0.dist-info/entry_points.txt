@@ -1,0 +1,2 @@
+[console_scripts]
+mwpdfify = src.mwpdfify:main
