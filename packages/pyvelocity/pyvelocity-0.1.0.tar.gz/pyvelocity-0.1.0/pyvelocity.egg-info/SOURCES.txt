@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pyvelocity/__init__.py
+pyvelocity/cli.py
+pyvelocity/py.typed
+pyvelocity/pyvelocity.py
+pyvelocity.egg-info/PKG-INFO
+pyvelocity.egg-info/SOURCES.txt
+pyvelocity.egg-info/dependency_links.txt
+pyvelocity.egg-info/entry_points.txt
+pyvelocity.egg-info/not-zip-safe
+pyvelocity.egg-info/requires.txt
+pyvelocity.egg-info/top_level.txt
