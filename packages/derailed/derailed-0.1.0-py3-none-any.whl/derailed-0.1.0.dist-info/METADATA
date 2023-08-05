@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: derailed
+Version: 0.1.0
+Summary: Python wrapper for the Derailed API
+License: MIT
+Author: VincentRPS
+Author-email: vincentbusiness55@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: websockets (>=10.3,<11.0)

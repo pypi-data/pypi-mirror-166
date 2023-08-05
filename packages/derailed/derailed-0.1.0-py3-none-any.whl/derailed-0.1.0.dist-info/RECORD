@@ -1,0 +1,16 @@
+derailed/__init__.py,sha256=bUdl0MNf17fjAEsB7LbtvBY7a85ddC9N8UXrrVbCQ1M,119
+derailed/enums.py,sha256=rj41ZIDd5vmZWi2EPZN3MVc8qIkBOQW6AgvL5glgwhQ,1393
+derailed/errors.py,sha256=4VK_a1srT-gBuHT6IvqojDix3sio9-7wwn79PBhO5Gw,1262
+derailed/gateway.py,sha256=dWyNDeaI_tLskLT-gujqAvwCGPnJeEW8R-hl9326lSA,3498
+derailed/http.py,sha256=fF-2IhoKjKQKXYLFNvbPnZj9kAlZrkuNtbnWDDPTLPs,10461
+derailed/types/guild.py,sha256=wpP9Akk9KmqNkjSZS25o6g4Z7ljIqqCWFMA1Afo-CKY,1703
+derailed/types/presence.py,sha256=qpuD9hKCXVeK9S8aBcDMTYbaZVKJ2e80NQ0eQHCox7A,1319
+derailed/types/relationship.py,sha256=yOmXfQObQR9wG4pojuXLgxkVe-5x0IJyZ0M1Vvv23PM,1352
+derailed/types/role.py,sha256=GVSpJxdLG9caMJ46ppG-bDsbzL7ECwY7s60m7WXOwpI,1280
+derailed/types/track.py,sha256=KAAnKg2QlF29xfvgvIYHmFAINlvcErUg7Tu6PeRCFHk,1999
+derailed/types/user.py,sha256=TVJoYqnvfS4rfuSur_va1xJHeVFUJoFTyzYLgmKz3Vg,1732
+derailed/utils.py,sha256=xUhZFjLySJD9b0bDuHu7hg74g8puVkj1q4Jtt-YLlp8,1674
+derailed-0.1.0.dist-info/LICENSE,sha256=9Sr2hrojd8iKx46-ncto-U-if0MMOLZVX1x40kHGW0s,1086
+derailed-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+derailed-0.1.0.dist-info/METADATA,sha256=txmDk-wpmcRUP0krkcnE86Dv-NDw0IxzV3dL8F_-nrE,431
+derailed-0.1.0.dist-info/RECORD,,
