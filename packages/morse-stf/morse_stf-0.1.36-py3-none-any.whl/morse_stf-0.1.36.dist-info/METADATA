@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: morse-stf
+Version: 0.1.36
+Summary: Morse Secure TensorFlow
+Home-page: https://github.com/alipay/Antchain-MPC/morse-stf
+Author: Morse-STF Team
+Author-email: morse-stf@service.alipay.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Requires-Dist: matplotlib (==3.3.2)
+Requires-Dist: tensorflow (==2.2.0)
+Requires-Dist: pandas (==1.0.5)
+Requires-Dist: sympy (==1.6)
+Requires-Dist: scikit-learn (==0.23.1)
+
+UNKNOWN
+
+
