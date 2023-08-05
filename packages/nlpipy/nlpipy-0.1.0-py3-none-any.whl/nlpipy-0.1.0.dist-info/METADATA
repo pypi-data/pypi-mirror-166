@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nlpipy
+Version: 0.1.0
+License: MIT
+Author-email: wangmengdi <790990241@qq.com>
+Requires-Python: >=3.9
+Requires-Dist: spacy==3.4.1
+Description-Content-Type: text/markdown
+
+# NLpipy
+
+#### 介绍
+基于spacy的中文自然语言处理管道
+
+
+#### 安装教程
+pip install nlpipy
+
+
+
