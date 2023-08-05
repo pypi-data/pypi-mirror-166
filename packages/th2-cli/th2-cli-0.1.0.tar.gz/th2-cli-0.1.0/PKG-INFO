@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: th2-cli
+Version: 0.1.0
+Summary: 
+Author: Nikolay Dorofeev
+Author-email: dorich2000@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: avionix (>=0.4.5,<0.5.0)
+Requires-Dist: cassandra-driver (>=3.25.0,<4.0.0)
+Requires-Dist: colorama (>=0.4.5,<0.5.0)
+Requires-Dist: cryptography (>=37.0.4,<38.0.0)
+Requires-Dist: fire (>=0.4.0,<0.5.0)
+Requires-Dist: kubernetes (>=24.2.0,<25.0.0)
+Requires-Dist: simple-term-menu (>=1.5.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Run
+
+```
+poetry install
+poetry shell
+```
+
+```commandline
+th2 install
+```
