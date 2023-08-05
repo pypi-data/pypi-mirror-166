@@ -1,0 +1,4 @@
+from ._CoquiSTTInputFormatSpecifier import CoquiSTTInputFormatSpecifier
+from ._CoquiSTTOutputFormatSpecifier import CoquiSTTOutputFormatSpecifier
+from ._CoquiTTSInputFormatSpecifier import CoquiTTSInputFormatSpecifier
+from ._CoquiTTSOutputFormatSpecifier import CoquiTTSOutputFormatSpecifier

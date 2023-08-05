@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: wai.annotations.coqui
+Version: 1.0.0
+Summary: Module with plugins for managing datasets for coqui.ai TTS and STT.
+Home-page: https://github.com/waikato-datamining/wai-annotations-coqui
+Author: Peter Reutemann
+Author-email: fracpete@waikato.ac.nz
+License: Apache License Version 2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Plugins for managing datasets for [coqui AI](https://coqui.ai/)
+[STT](https://github.com/coqui-ai/STT) and [TTS](https://github.com/coqui-ai/TTS).
+
+* `from-coqui-stt-sp`: reads speech transcriptions in the Coqui STT CSV-format
+* `from-coqui-tts-sp`: reads speech transcriptions in the Coqui TTS text-format
+* `to-coqui-stt-sp`: writes speech transcriptions in the Coqui STT CSV-format
+* `to-coqui-tts-sp`: writes speech transcriptions in the Coqui TTS text-format
+
+Changelog
+=========
+
+1.0.0 (2022-09-05)
+------------------
+
+- Initial release.
+
