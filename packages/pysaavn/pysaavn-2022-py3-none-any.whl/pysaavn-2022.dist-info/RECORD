@@ -1,0 +1,11 @@
+pysaavn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysaavn/api.py,sha256=J56zaiJ1qJrYG_IAtXyEUCdcnjxEbfofYh0_ERmE_r0,1805
+pysaavn/cli.py,sha256=ABod0hTr9_kYaDj3uxvBtGJtl-hNncmGeunGL2IfRzo,1086
+pysaavn/wrappers.py,sha256=z6lyiVW1TNeQmRDooF3tMeh-8MmHAQFqYVaYXuY3WBE,4591
+pysaavn-2022.dist-info/LICENSE.txt,sha256=LlcRRe5mtfPRKF3HZYWI3mxX2YcilmzIMuXSqtC1PeE,1056
+pysaavn-2022.dist-info/METADATA,sha256=TDQkWhKf0TV1QTDy6Zh-I6KBLD3RTekdNlxf3NeJUzk,979
+pysaavn-2022.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysaavn-2022.dist-info/entry_points.txt,sha256=JeyCc1r1FBaN9qzFOY7o4XlzMtRMM9lCEfAJtE3tpto,45
+pysaavn-2022.dist-info/top_level.txt,sha256=YXHrClkaqOt9lpScyIDpB9bqVXudi0uWlxdd9WJq9go,8
+pysaavn-2022.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pysaavn-2022.dist-info/RECORD,,

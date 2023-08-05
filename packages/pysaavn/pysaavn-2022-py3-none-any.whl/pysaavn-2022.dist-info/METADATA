@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pysaavn
+Version: 2022
+Summary: A Minimal Client for JioSaavn
+Home-page: https://github.com/RanjodhSingh1729/PySaavn
+Author: Ranjodh Singh
+Author-email: ranjodhsingh1729@gmail.com
+License: MIT License
+Keywords: music,songs,jiosaavn
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: wget
+Requires-Dist: pyDes
+Requires-Dist: requests
+Requires-Dist: InquirerPy
+
+# PySaavn
+
+## Search and Download Songs, Albums, Playlists and Artists from JioSaavn.com
+
+* Features
+  * Multiple Selection
+  * High Quality 320kbps Songs
+  * An Easy to Use Python API for extensibility
+  * Easy and Interactive Command Line Interfaces
+
+* Usage
+  * For API
+    * Just instantiate PySaavn class of the api module
+  * For CLI
+    * Just type pysaavn at command prompt and use the interactive interface
