@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pytarjimon"
+version = "0.0.1"
+description = ""
+authors = ["Ozodbek Yusupov"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+googletrans = "3.1.0a0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
