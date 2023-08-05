@@ -1,0 +1,2 @@
+[console_scripts]
+xnat4tests_launch = xnat4tests.launch:launch_xnat
