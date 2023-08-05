@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: pymt5pure
+Version: 0.3.1
+Summary: MetaTrader 5 WebAPI implementation in Python
+Home-page: http://github.com/meyt/pymt5pure
+Author: Meyti
+License: MIT
+Keywords: web tool-chain
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: pycryptodome (>=3.15.0)
+
+# pymt5pure
+
+MetaTrader 5 WebAPI implementation in Python.
+
+## Installation
+
+```
+pip install pymt5pure
+```
+
+## Usage
+
+Create a client:
+
+```python
+from pymt5pure import MT5Client, MT5Api
+
+client = MT5Client(host="111.111.111.111", port=443)
+client.connect(username="33007", password="112233")
+print("Connected!")
+
+# Basic command call
+response = client('SYMBOL_NEXT', INDEX=0)
+print(response.params)
+print(response.json)
+
+# Using MT5's Official objects
+mt5 = MT5Api(client)
+
+result = mt5.symbol_total()
+print(result)
+
+result = mt5.symbol_next(0)
+print(
+    result.CurrencyBase,
+    result.CurrencyProfit,
+    result.Description
+)
+```
+
+## Features
+
+* [x] Basic socket connection
+* [x] Authentication
+* [x] Connection KeepAlive
+* [x] AES Encryption
+* [~] MT5API interfaces (incomplete)
+
+
