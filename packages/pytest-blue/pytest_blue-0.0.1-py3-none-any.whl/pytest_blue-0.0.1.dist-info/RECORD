@@ -1,0 +1,7 @@
+pytest_blue/__init__.py,sha256=Tr-T3veungrxCtCX2t7BMrkLHyKAjIGOpQslpv_udWg,101
+pytest_blue/plugin.py,sha256=9AByRkz2ryJgkTQC4IPhwhI-UNlVWNpch_UER0oJ3Qw,251
+pytest_blue-0.0.1.dist-info/entry_points.txt,sha256=jBpdt0huxt3AO7PfPZRP-tWu_RPgTDEJzYWi4O81Fhk,43
+pytest_blue-0.0.1.dist-info/LICENSE.txt,sha256=BdMVQozm-m6roFg-GHxXp_WwORUOUZitGeUxSFHhYZA,1079
+pytest_blue-0.0.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+pytest_blue-0.0.1.dist-info/METADATA,sha256=yh4SUfoFk1F7wD9lXfWlzu1Rfuv-Rx4UNtZkCKE3tK0,576
+pytest_blue-0.0.1.dist-info/RECORD,,
