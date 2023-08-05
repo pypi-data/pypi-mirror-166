@@ -1,0 +1,13 @@
+click>=7.1
+
+[release]
+build>=0.3.0
+bump2version>=1.0.0
+keepachangelog>=0.5.0
+
+[test]
+coverage~=5.5
+mock~=3.0
+pycodestyle~=2.7
+pytest>=4.6
+pytest-cov>=2.11
