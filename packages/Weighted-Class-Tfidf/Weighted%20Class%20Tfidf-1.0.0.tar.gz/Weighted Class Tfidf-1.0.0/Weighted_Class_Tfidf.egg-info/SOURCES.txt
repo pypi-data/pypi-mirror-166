@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+wcbtfidf.py
+Weighted_Class_Tfidf.egg-info/PKG-INFO
+Weighted_Class_Tfidf.egg-info/SOURCES.txt
+Weighted_Class_Tfidf.egg-info/dependency_links.txt
+Weighted_Class_Tfidf.egg-info/top_level.txt
