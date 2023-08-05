@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: zasca
+Version: 2.0.0
+Summary: Yet Another SCA tool, but with Z
+Home-page: UNKNOWN
+Author: Javier Dominguez
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: Jinja2 (==3.0.1)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: click (==8.0.1)
+Requires-Dist: tqdm (==4.62.3)
+Requires-Dist: PyYAML (==6.0)
+
+UNKNOWN
+
