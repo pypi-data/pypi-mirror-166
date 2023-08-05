@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: intake-ids
+Version: 0.0.2
+Summary: description for intake-ids here
+Home-page: https://example.org
+Author: Omer Erdinc Yagmurlu
+Author-email: omeryagmurlu@gmail.com
+License: MIT
+Project-URL: Documentation, https://example.org
+Project-URL: Source, https://example.org
+Project-URL: Tracker, https://example.org
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+Requires-Dist: intake (>=0.6.5)
+Requires-Dist: pandas (>=1.4.3)
+Requires-Dist: requests (>=2.28.1)
+Requires-Dist: pydantic (>=1.10.1)
+Requires-Dist: isodate (>=0.6.1)
+Requires-Dist: appdirs (>=1.4.4)
+
