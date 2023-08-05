@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: BMKG-Latest
+Version: 0.2
+Summary: This package will guide us to receive the latest Earthquake Information from BMKG Indonesia
+Home-page: https://github.com/futagoya/bmkg-latest
+Author: Firdaus W N
+Author-email: <firdauswnn@gmail.com>
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BMKG-Latest
+This package will guide us to receive the latest Eartquake Information from BMKG Indonesia
+
+## How it works?
+This package is getting the latest data of Indonesia Earthquake by scrapping from [BMKG](https://www.bmkg.go.id/) 
+
+BeautifulSoup4 and Requests pacakge are used to produce JSON-form output which is ready to use in web or mobile apps
+
+# Author
+Firdaus Wahyu Nugroho
