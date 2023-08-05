@@ -1,0 +1,33 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "API7"
+version = "0.0.3"
+description = "Python SDK for interacting with API7 Facial Recognition Server"
+readme = "README.md"
+authors = [{ name = "Seventh Sense Artificial Intelligence Private Limited", email = "support@seventhsense.ai" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["API7", "Facial Verification", "Facial Recognition"]
+dependencies = [
+    'numpy', 
+    'opencv-python', 
+    'pillow', 
+    'python-dateutil', 
+    'requests'
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["jupyter", "mkdocs"]
+
+[project.urls]
+Homepage = "https://docs.api7cloud.com/python"

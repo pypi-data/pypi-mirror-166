@@ -1,0 +1,9 @@
+numpy
+opencv-python
+pillow
+python-dateutil
+requests
+
+[dev]
+jupyter
+mkdocs
