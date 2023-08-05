@@ -1,0 +1,1 @@
+# Simple Discord Bot for the book "How to Learn Python--The Wrong Way" by Joseph Farah
