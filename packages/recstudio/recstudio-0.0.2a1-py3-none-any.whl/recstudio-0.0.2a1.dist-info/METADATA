@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: recstudio
+Version: 0.0.2a1
+Summary: A modular, efficient, unified, and comprehensive recommendation library based on PyTorch.
+Home-page: https://github.com/ustcml/RecStudio
+Author: USTCML
+Author-email: liandefu@ustc.edu.cn
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.20.1)
+Requires-Dist: torch (>=1.9.0)
+Requires-Dist: scipy (>=1.6.0)
+Requires-Dist: pandas (>=1.4.0)
+Requires-Dist: tqdm (>=4.48.2)
+Requires-Dist: colorlog (==4.7.2)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: pyyaml (>=5.1.0)
+Requires-Dist: tensorboard (>=2.5.0)
+Requires-Dist: faiss-gpu (==1.7.2)
+Requires-Dist: torchmetrics (==0.7.3)
+Requires-Dist: dgl-cu102 (==0.9.0)
+Requires-Dist: nvidia-ml-py3 (==7.352.0)
+Requires-Dist: tensorboard (>=2.9.0)
+Requires-Dist: scikit-learn (>=1.0.0)
+
+RecStudio is a modular, efficient, unified, and comprehensive recommendation library based on PyTorch.We divide all the models into 3 basic classes according to the number of towers: TowerFree, ItemTower, TwoTower, and cover models in 4 tasks: General Recommendation, Sequential Recommendation, Knowledge-based Recommendation, Social-Network-based Recommendation. View github page: https://github.com/ustcml/RecStudio
