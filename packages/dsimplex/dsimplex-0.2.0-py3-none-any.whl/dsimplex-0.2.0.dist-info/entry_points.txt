@@ -1,0 +1,4 @@
+[console_scripts]
+dsimplex=.dsimplex:main
+dsimplex-gui=.dsimplex-gui:main:
+

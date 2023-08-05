@@ -1,0 +1,41 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+  <h1>
+    <a>Results:</a>
+  </h1>
+  <p>
+    <h1>
+      <a>Equations:</a>
+      <br/>
+      {% for equ in lp_problem.equs %}
+        <pre>{{ equ | prettify_equs }}<pre/>
+        <br/>
+      {% endfor %}
+      <br/>
+      <a>Is this a minimization problem?<a/>
+      <br/>
+      <a>{{ lp_problem.is_minimum }}<a/>
+      <br/>
+      <a>The Cost Function:</a>
+      <br/>
+      <a>{{ lp_problem.cost_equ | prettify_equs }}<a/>
+      <br/>
+      <a>The binds:</a>
+      <br/>
+      {% for bind in lp_problem.binds %}
+        <pre>{{ bind | prettify_equs }}<pre/>
+        <br/>
+      {% endfor %}
+      <br/>
+      <a>sorted_var_list:</a>
+      <br/>
+      <a>{{ lp_problem.sorted_var_list }}<a/>
+      <br/>
+    </h1>
