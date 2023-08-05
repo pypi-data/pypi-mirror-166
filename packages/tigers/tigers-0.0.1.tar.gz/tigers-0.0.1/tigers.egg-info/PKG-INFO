@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tigers
+Version: 0.0.1
+Summary: spider
+Home-page: https://github.com/WooilJeong/tigers
+Author: 정우일(Wooil Jeong)
+Author-email: wooil@kakao.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# tigers

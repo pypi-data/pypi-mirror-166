@@ -1,0 +1,10 @@
+README.md
+setup.py
+tigers/__init__.py
+tigers/api.py
+tigers.egg-info/PKG-INFO
+tigers.egg-info/SOURCES.txt
+tigers.egg-info/dependency_links.txt
+tigers.egg-info/top_level.txt
+tigers/config/__init__.py
+tigers/config/info.py
