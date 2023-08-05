@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: safely
+Version: 0.1.0
+Summary: Capture side effects, safely.
+Home-page: https://github.com/lukemiloszewski/safely
+License: MIT
+Author: Luke Miloszewski
+Author-email: lukemiloszewski@gmail.com
+Requires-Python: >=3.8.0,<3.11.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Changelog, https://github.com/lukemiloszewski/safely/releases
+Project-URL: Repository, https://github.com/lukemiloszewski/safely
+Description-Content-Type: text/markdown
+
+# safely
+
