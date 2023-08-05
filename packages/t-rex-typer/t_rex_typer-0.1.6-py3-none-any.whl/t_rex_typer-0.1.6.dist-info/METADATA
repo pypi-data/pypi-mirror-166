@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: t-rex-typer
+Version: 0.1.6
+Summary: Steno practice
+Home-page: https://codeberg.org/excalamus/t_rex_typer
+Author: Matt Trzcinski
+Author-email: matt@excalamus.com
+Project-URL: Bug Reports, https://codeberg.org/excalamus/t_rex_typer/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Source, https://codeberg.org/excalamus/t_rex_typer/
+Keywords: steno,stenography
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PySide2 (>=5.15.2)
+Requires-Dist: nostalgic
+
+![T-Rex](t_rex_typer/resources/trex_w_board_96.png) *Short arms, strong shorthand*
+
+# T-Rex Typer
+A desktop application to improve steno writing.
+
+![The T-Rex Typer](t_rex_typer/resources/screenshot.png)
+
+# Install
+The T-Rex Typer was developed using GNU/Linux with Python3.9 although
+it may work with other operating systems using Python>=3.6.
+
+```python
+pip install t_rex_typer
+```
+
+Run with
+
+```t_rex_typer```
+
+or
+
+```python -m t_rex_typer```

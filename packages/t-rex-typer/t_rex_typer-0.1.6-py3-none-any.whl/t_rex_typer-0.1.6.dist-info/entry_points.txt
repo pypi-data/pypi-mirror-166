@@ -1,0 +1,2 @@
+[console_scripts]
+t_rex_typer = t_rex_typer:main
