@@ -1,0 +1,31 @@
+
+
+# units_conversions: !!omap
+# - preset: "mental calculation"
+# - title: "Mental calculation: units conversions"
+# - exercise: !!omap
+# - questions: units conversion -> unitspairs, level=1 (10)
+
+
+# ajout de décimaux simples (additions, soustractions et donc périmètres ; dans les produits et donc aires de rectangles)
+# retrouver une longueur manquante à partir de l'aire du rectangle ou du périmètre d'un polygone connaissant l'autre dimension
+
+# perimeter polygon, qvariant=missing_length -> polygons, sum_ingredients=int_2to10, sides_nb=3-4 (1)
+# rectangle length_or_width, context=from_area, picture=true -> nnpairs:3-9 (2)
+# rectangle length_or_width, context=from_perimeter, picture=true -> nnpairs:5-20 (1)
+#
+# perimeter rectangle, picture=true -> nnpairs:3-9, nb_variant=±quarter (1)
+# perimeter polygon -> polygons, sum_ingredients=int_2to10, nb_variant=±half, level=4 (2)
+#
+#
+#
+#
+# exam: !!omap
+#   - preset: "mental calculation"
+#   - title: "<DEFAULT>"
+#   - answers_title: "<DEFAULT>"
+#   - exercise: !!omap
+#     - questions: units conversion -> unitspairs, level=1 (1)
+#                  perimeter polygon, qvariant=missing_length -> polygons, sum_ingredients=int_2to10, sides_nb=3-4 (1)
+#                  rectangle length_or_width, context=from_area, picture=true -> nnpairs:3-9 (1)
+#                  rectangle length_or_width, context=from_perimeter, picture=true -> nnpairs:5-20 (1)
