@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: rpy2-arrow
+Version: 0.0.6
+Summary: Bridge Arrow between Python and R when using rpy2
+Home-page: https://rpy2.github.io/rpy2-arrow/
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Requires: pyarrow
+Requires: rpy2
+License-File: LICENSE
+Provides-Extra: r6
+Requires-Dist: rpy2-R6 ; extra == 'r6'
+Provides-Extra: all
+Requires-Dist: rpy2-R6 ; extra == 'all'
+Requires-Dist: pandas ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pandas ; extra == 'test'
+
+UNKNOWN
+
