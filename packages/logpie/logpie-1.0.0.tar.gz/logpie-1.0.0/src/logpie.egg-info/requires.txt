@@ -1,0 +1,2 @@
+cfgpie>=1.0.0
+customlib>=5.1.0
