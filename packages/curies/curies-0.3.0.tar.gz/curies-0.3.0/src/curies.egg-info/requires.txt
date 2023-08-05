@@ -1,0 +1,15 @@
+pytrie
+requests
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-autodoc-typehints
+sphinx_automodapi
+
+[pandas]
+pandas
+
+[tests]
+pytest
+coverage
