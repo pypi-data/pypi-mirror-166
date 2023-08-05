@@ -1,0 +1,10 @@
+qesdk/qedata/__init__.py,sha256=Zk-K0PElOtfkdVwoK1lVBLShQUAoxlPwVbHJhiJqeJk,387
+qesdk/qedata/api.py,sha256=HHS1QmekAweWXXH7zst0AjQnZjWmNU_k2oABQDnsxlQ,8824
+qesdk/qedata/client.py,sha256=dJaYWSqzR3ZN1MeBxnn_MkoUH4joyAYIG3gqE9bdH1o,3420
+qesdk/qedata/qedata.thrift,sha256=n6RYr-GZCAY5hV4It8zhQMtoTKCQL1gVAOmr4Wo0xro,504
+qesdk/qedata/utils.py,sha256=cUJKikZM9jw8Fg5qmLvzEFmhfpvilg5mTEz6aYZm_8Y,707
+qesdk-0.0.3.dist-info/LICENSE,sha256=Yft-ni3EP3rKk9FMerJwbh5DOzoKLQzak-sPdvXDJ1g,1087
+qesdk-0.0.3.dist-info/METADATA,sha256=2p_a34sNsQrK800LtDwTZHLOOwSeBTTEWqQeeujJZ3k,1845
+qesdk-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qesdk-0.0.3.dist-info/top_level.txt,sha256=TnyHzIhmpM_3PEj-tzsiBXnIdGb5dezIvO0VGD4ci4Y,6
+qesdk-0.0.3.dist-info/RECORD,,
