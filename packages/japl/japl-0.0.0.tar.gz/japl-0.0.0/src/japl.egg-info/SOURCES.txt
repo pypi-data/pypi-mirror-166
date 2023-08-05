@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/japl/__init__.py
+src/japl.egg-info/PKG-INFO
+src/japl.egg-info/SOURCES.txt
+src/japl.egg-info/dependency_links.txt
+src/japl.egg-info/top_level.txt
