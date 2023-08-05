@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: cavalier
+Version: 0.2.0
+Summary: Metrics Ingestion and Alerting Reimagined.
+Home-page: https://github.com/uptimedog/cavalier/
+Author: Clivern
+Author-email: hello@clivern.com
+License: MIT
+Project-URL: Documentation, https://github.com/uptimedog/cavalier/
+Project-URL: Source, https://github.com/uptimedog/cavalier/
+Project-URL: Changelog, https://github.com/uptimedog/cavalier/blob/main/CHANGELOG.rst
+Project-URL: Tracker, https://github.com/uptimedog/cavalier/issues
+Project-URL: Download, https://pypi.org/project/cavalier/#files
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/x-rst
+Provides-Extra: testing
+License-File: LICENSE.txt
+
+.. image:: https://img.shields.io/pypi/v/Cavalier.svg
+    :alt: PyPI-Server
+    :target: https://pypi.org/project/Cavalier/
+.. image:: https://github.com/Uptimedog/Cavalier/actions/workflows/ci.yml/badge.svg
+    :alt: Build Status
+    :target: https://github.com/Uptimedog/Cavalier/actions/workflows/ci.yml
+
+|
+
+========
+Cavalier
+========
+
+    Metrics Ingestion and Alerting Reimagined.
+
+
+It supports a broad range of metrics storage.
+
+
+Note
+====
+
+This project is created and maintained for Uptimedog. see https://github.com/Uptimedog

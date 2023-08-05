@@ -1,0 +1,10 @@
+elasticsearch
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+elasticsearch
+setuptools
+pytest
+pytest-cov
