@@ -1,0 +1,11 @@
+big/__init__.py,sha256=UJwO3awOBIPvJOsbrAq2gnOngXDdeIp8hBrDa4Rn8kk,1710
+big/boundinnerclass.py,sha256=2h0Y6o0va5vAeJOswUeZLx7DFWuSceLFkDwdPlKR_IE,5594
+big/builtin.py,sha256=g9voBcmAm6FCh4fu7VrP5xf_ZxmQYFYa7EUlXygkFDM,3269
+big/file.py,sha256=XjhuxE3kKN0-UwpetaS5684m1MjmYcdak7V3M1RIf28,10797
+big/graph.py,sha256=t0iKJwGZ8mQIgRoE4stIgmFlGm8CSL2qAB_g5UxjcAc,23966
+big/text.py,sha256=00Xmjz1VRmXw9c3Td584dhEHIGd7wApFGY11_tOgqiw,28939
+big/time.py,sha256=QzV9GKLwm9QZdXaeSY9K7egLys158ZagUdyPyKn4opQ,5870
+big-0.5.1.dist-info/LICENSE,sha256=b7xnUvxuGrbDh3KggW58poVmrxpTtNM6Zdu--mCHIRU,1079
+big-0.5.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+big-0.5.1.dist-info/METADATA,sha256=p_GHvoO4LNy8sPFJ93b-NkFnbxdZGyZH5hYhaw00lpQ,45615
+big-0.5.1.dist-info/RECORD,,
