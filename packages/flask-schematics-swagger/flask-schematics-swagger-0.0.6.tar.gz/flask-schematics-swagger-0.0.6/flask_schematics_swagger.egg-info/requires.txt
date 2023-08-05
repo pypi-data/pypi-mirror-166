@@ -1,0 +1,4 @@
+schematics>=2.1.1
+flask>=2.0.0
+wtforms>=2.2
+typing-extensions>=3.7.4.3
