@@ -1,0 +1,7 @@
+postgresql_setrole/__init__.py,sha256=YQRuP1alAGEHx9G1sXbzQW93Z0hVPZMhbNSPjg87aGU,221
+postgresql_setrole/apps.py,sha256=3WhbhL3wTvVSJGWP6NsLc6lrx6EZsdObZ27YCuoJcIc,1125
+django_postgresql_setrole-1.0.12.dist-info/LICENSE,sha256=mebam4fiyzaQHZAFVIimo6CMrD1rPGNzeYrwhrCYp_8,1498
+django_postgresql_setrole-1.0.12.dist-info/METADATA,sha256=_1QMk3ZcJdIErcT6PtJJ6r3RUncJfOsrD0AkRj-k5KY,5599
+django_postgresql_setrole-1.0.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_postgresql_setrole-1.0.12.dist-info/top_level.txt,sha256=enbsnbViNklwvTOVB6oYMLqKecU09-NG9u7ERq4vBVc,19
+django_postgresql_setrole-1.0.12.dist-info/RECORD,,
