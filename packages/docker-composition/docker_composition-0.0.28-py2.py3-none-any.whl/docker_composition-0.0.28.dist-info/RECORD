@@ -1,0 +1,15 @@
+composition/__init__.py,sha256=1s8fJcG0T-ks-jhi7sPF29aUmHv4p8qr2zQ-eevL20k,19
+composition/api.py,sha256=ujFnOzPZ-svD7u8JLLsSs19ZNFlSAU8xbpojozRGllY,2260
+composition/composer.py,sha256=PrkBmbH0UZQ1u76iq0TvMISk_fKPHb_kaPyS2kaFZhY,5402
+composition/directory.py,sha256=Iu4DNv7chYuNpnpZNw31EQOEqZfdFohXObCeD5ZPvZQ,4717
+composition/install.py,sha256=s3I1DyhhpZ2qJAqjGOpO94jneQlVaHz12qYbZCWXRs8,3000
+composition/list_apps.py,sha256=E9urRpzPNWVwbqMnjhKdNbJGTUbJ_n8-nCvBYzEzztE,1621
+composition/logs.py,sha256=Augxu9fQuUHn-C1EWVZ9gY4LfjP-iJaPcb1vET_Q7qo,459
+composition/models.py,sha256=TJw3FEkvZkGkzpkhXmJ9u0Ze-DSkhjlR4V8Q-IXyvEA,2304
+composition/storage.py,sha256=1vHGn1wSRcwXY4TD4DQjKoZU2ianEIDEtDLNiCg0o8o,4714
+composition/template_cmd.py,sha256=gN0eP5EfSqdKBNWwv0cHRGyiJjv2Giw4B6jogPXFNyY,967
+composition/uninstall.py,sha256=48AM2L5Jea4jxU8uBNgdyTZWwgI5smjJzWhQksR0yf4,822
+docker_composition-0.0.28.dist-info/METADATA,sha256=J7F_ZiizkhMryMSMrF4g72Gfc0kSBU6JS1bUtyN3Rc0,2405
+docker_composition-0.0.28.dist-info/WHEEL,sha256=U250AEW6QzA082uUZcdZvUBP5tPi0rU5Y_1cBYppwks,104
+docker_composition-0.0.28.dist-info/entry_points.txt,sha256=sxvvJ4nqMoaIplgGScUoTBfm56aZfBrb3nyboYJQuqk,61
+docker_composition-0.0.28.dist-info/RECORD,,
