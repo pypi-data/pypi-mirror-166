@@ -1,0 +1,2 @@
+[console_scripts]
+goodtype = goodtype.main:main
