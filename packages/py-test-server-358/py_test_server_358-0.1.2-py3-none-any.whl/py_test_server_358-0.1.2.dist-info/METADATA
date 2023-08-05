@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: py-test-server-358
+Version: 0.1.2
+Summary: Mess Server
+Author: Ivan Ivanov
+Author-email: iv.iv@yandex.ru
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycrypto
+
