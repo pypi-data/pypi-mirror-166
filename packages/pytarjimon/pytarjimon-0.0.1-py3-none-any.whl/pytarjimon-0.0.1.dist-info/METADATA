@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pytarjimon
+Version: 0.0.1
+Summary: 
+Author: Ozodbek Yusupov
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: googletrans (==3.1.0a0)
+Description-Content-Type: text/markdown
+
+```python
+from pytarjimon import tarjima
+natija = tarjima("Hello", "uz")
+print(natija)
+```
