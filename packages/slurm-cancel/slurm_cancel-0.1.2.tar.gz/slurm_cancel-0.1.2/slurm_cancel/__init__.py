@@ -1,0 +1,1 @@
+from slurm_cancel.utils import cancel_current_job
