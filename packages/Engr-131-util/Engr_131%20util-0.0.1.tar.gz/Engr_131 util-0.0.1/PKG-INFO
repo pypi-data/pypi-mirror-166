@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Engr_131 util
+Version: 0.0.1
+Summary: Utilities for ENGR131
+Author: Shannon Capps and Joshua Agar
+Author-email: jca92@drexel.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
