@@ -1,0 +1,2 @@
+[console_scripts]
+start-server = monzo_viewer.cli:start
