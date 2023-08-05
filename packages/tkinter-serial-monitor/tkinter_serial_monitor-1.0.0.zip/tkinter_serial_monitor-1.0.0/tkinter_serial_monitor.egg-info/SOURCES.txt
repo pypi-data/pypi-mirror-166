@@ -1,0 +1,7 @@
+setup.py
+tkinter_serial_monitor/__init__.py
+tkinter_serial_monitor.egg-info/PKG-INFO
+tkinter_serial_monitor.egg-info/SOURCES.txt
+tkinter_serial_monitor.egg-info/dependency_links.txt
+tkinter_serial_monitor.egg-info/requires.txt
+tkinter_serial_monitor.egg-info/top_level.txt
