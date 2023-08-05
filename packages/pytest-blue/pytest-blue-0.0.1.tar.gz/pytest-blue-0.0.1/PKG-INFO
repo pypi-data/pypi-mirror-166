@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pytest-blue
+Version: 0.0.1
+Summary: A pytest plugin that adds a `blue` fixture for printing stuff in blue.
+Requires-Python: >3.7
+Description-Content-Type: text/markdown
+Requires-Dist: rich
+Project-URL: Home, https://github.com/okken/pytest-blue
+
+# pytest-blue
+
+A pytest plugin that one fixture:
+
+* blue
+
+This fixtures can be used to `print` a string in blue.
+It will also report the test file and function.
+
+And it works even when pytest is capturing output.
+
+Example **test_example.py**: 
+
+```
+def test_blue(blue):
+    blue('should be blue')
+```
+

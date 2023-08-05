@@ -1,0 +1,21 @@
+[project]
+name = "pytest-blue"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+requires-python = ">3.7"
+dependencies = ["rich"]
+dynamic = ["version", "description"]
+
+[project.entry-points.pytest11]
+pytest_blue = "pytest_blue.plugin"
+
+[project.urls]
+Home = "https://github.com/okken/pytest-blue"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "pytest_blue"
+
