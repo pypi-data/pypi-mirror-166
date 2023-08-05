@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/boaw.py
+src/boaw.egg-info/PKG-INFO
+src/boaw.egg-info/SOURCES.txt
+src/boaw.egg-info/dependency_links.txt
+src/boaw.egg-info/requires.txt
+src/boaw.egg-info/top_level.txt

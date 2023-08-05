@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: boaw
+Version: 1.0.0
+Summary: boaw is a library used to keep us stay in online always at work
+Author: Muttineni Sai Rohith
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# boaw
+
+## Description:
+This library is used to keep us online at work.
+Note: This is just for educational purpose. We are not responsible if you get in conflicts because of this library. Please use this library
+only if you agree with the above Note
+
+## Usage:
+
+1. To Stay in online:
+
+    Import the boaw library:
+
+        import boaw
+
+    Using the boaw library:
+
+        boaw.stay_online()
+
+    Now just hover your mouse on start button and it keeps clicking it every 5 seconds, thereby helping you to stay online.
