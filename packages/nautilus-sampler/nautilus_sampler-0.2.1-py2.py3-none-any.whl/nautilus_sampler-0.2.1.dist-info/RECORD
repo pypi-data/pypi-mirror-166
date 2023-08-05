@@ -1,0 +1,10 @@
+nautilus/__init__.py,sha256=Avq6765raAJZ76qNu2QvsJGb-k2OJ0wppQIgVe1ilNE,218
+nautilus/bounds.py,sha256=y42PTZtx9bCyPOmrXq_hMMx41mcWWf2mgwkfBRI3lwg,26691
+nautilus/neural.py,sha256=rkb0vqr8DOyhhMt-sws4iGLmHkBgKvCJEXXZhbTbqUU,2155
+nautilus/prior.py,sha256=pqnziHX12p2-lwnHf2mtzIK1zs2Bt8QOBLljePVkf-8,5707
+nautilus/sampler.py,sha256=z7cYQIjyh6ooo50-p8MHwjK39AdDkl-VvRTWtJxU85g,30293
+nautilus/tests/test_prior.py,sha256=lfjxK4fI_af3a5NqqM7lUIwM0uj3i_X80DiDrOZ6xc4,3578
+nautilus_sampler-0.2.1.dist-info/LICENSE,sha256=hEFj7Z978GGhCcScVL2Lqvg0GGLjymlQB8zmfqKfGxU,1074
+nautilus_sampler-0.2.1.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+nautilus_sampler-0.2.1.dist-info/METADATA,sha256=jRs_3NyPbQtu7hCm7ec6h6rP8EZ5URXj9pL_KvbcUdo,2198
+nautilus_sampler-0.2.1.dist-info/RECORD,,
