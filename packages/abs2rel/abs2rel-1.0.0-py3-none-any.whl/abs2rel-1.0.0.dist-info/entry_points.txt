@@ -1,0 +1,2 @@
+[console_scripts]
+abs2rel = abs2rel.__main__:abs2rel
