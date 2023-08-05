@@ -1,0 +1,10 @@
+vedro_pyppeteer/__init__.py,sha256=OGoWfDjrE7aExzyAkfrc2SS-t3JbNlpF_fJfYX_fTaA,202
+vedro_pyppeteer/_browser_context.py,sha256=2y0gJk58BczSRbTIfTv04WF6Z8DAKRV-NTAy5XK2lnQ,507
+vedro_pyppeteer/_screenshot_path.py,sha256=htj1VdDSud00SaVTfU5k4u0k2YNq-oPITYzg8GprLiY,1251
+vedro_pyppeteer/_vedro_pyppeteer.py,sha256=mr9NBpA_iOLfZ6bPPWOyEWVK3J8aVGsp1ZoqBkF0xO8,5108
+vedro_pyppeteer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vedro_pyppeteer-1.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vedro_pyppeteer-1.1.0.dist-info/METADATA,sha256=8u_zd-16k-7h-7TiEFvWgcETegk9SUHFS9O578SRKRY,2944
+vedro_pyppeteer-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vedro_pyppeteer-1.1.0.dist-info/top_level.txt,sha256=fSZSYi1q1XCWQHj5BF0A7r08WXxViI-K8oZHgCZdYZk,16
+vedro_pyppeteer-1.1.0.dist-info/RECORD,,
