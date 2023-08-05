@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pynb-dag-runner-webui
+Version: 0.0.1
+Summary: This Python package contain compiled Javascript code from various sources and with different licenses; For details, please see the linked documentation and source repo https://github.com/pynb-dag-runner/mlflow and https://github.com/pynb-dag-runner/mlflow/pull/2
+Home-page: https://pynb-dag-runner.github.io/pynb-dag-runner/
+Author: Matias Dahl (based on a modified version of the MLFlow project)
+Author-email: matias.dahl@iki.fi
+License: Various, see the description
+Platform: UNKNOWN
+
+UNKNOWN
+
+
