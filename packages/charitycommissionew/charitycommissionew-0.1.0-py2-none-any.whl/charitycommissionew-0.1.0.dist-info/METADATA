@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: charitycommissionew
+Version: 0.1.0
+Summary: Charity Commission England and Wales - Data Library
+Home-page: UNKNOWN
+Author: Callum Robson-Port
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: validators
+
+# Charity Commission Data
+
+Python library to download charity commission data into usable objects or files.
+
+### Installation
+
+`pip install charitycommissionew`
+
+### Getting Started
+
+How to get data from the charity commission with this library:
+
+```python
+from charitycommissionew import CharityCommissionEW as ccew
+
+# To a CSV file
+
+ccuk().to_file(entity='charity', filetype='csv', folder='./data')
+
+# To a dict 
+
+charitydata = ccuk()
+charitydata.to_dict(entity='charity')
+
+# To a CSV Reader object
+
+charitydata = ccuk()
+charitydata.to_csv_reader(entity='charity')
+
+```
+
+### Available Entities
+
+The [charity commission data](http://data.charitycommission.gov.uk/) is available in a normalised structure, resulting in lots of files. 
+Most functions take an entity parameter. The following entities are currently supported:
+
+ - charity
+ - charity_annual_return_history
+ - charity_annual_return_parta
+ - charity_annual_return_partb
+ - charity_area_of_operation
+ - charity_classification
+ - charity_event_history
+ - charity_governing_document
+ - charity_other_names
+ - charity_other_regulators
+ - charity_policy
+ - charity_published_report
+ - charity_trustee
+

@@ -1,0 +1,2 @@
+#Shorten imports
+from charitycommission.charitycommission import CharityCommission
