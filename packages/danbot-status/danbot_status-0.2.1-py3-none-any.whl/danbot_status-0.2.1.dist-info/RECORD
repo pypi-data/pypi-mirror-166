@@ -1,0 +1,9 @@
+danbotstatus/__init__.py,sha256=bKx9TmhKEyfxjnSYEkZhL6yJwNxXnJxalyefVihlTiA,151
+danbotstatus/asynchronous.py,sha256=lmwaJ3Qz0yuTEBDnmJz932Lcu8LTkzxqWBR6bU5Dbt4,3060
+danbotstatus/errors.py,sha256=aRNeQlk7xthH-qdclbnjn9E0ZFACtDjpQCcjABAgUoI,492
+danbotstatus/synchronous.py,sha256=QSMe57o401D09Q4UJHdVMk7pO1iOMX94wBu8zLB6Lhs,2957
+danbot_status-0.2.1.dist-info/LICENSE,sha256=v84OXun1GZQMdfk3cIGeBFLQ753nZeq5VXfuUm_n6XA,1067
+danbot_status-0.2.1.dist-info/METADATA,sha256=jukTF_nDQJtecrL1NH3DmrnZIcM57al0qH2X8dzMNAA,4562
+danbot_status-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+danbot_status-0.2.1.dist-info/top_level.txt,sha256=LN5VensI2Aw9z81z4Of4xheBS2tOTrlE3dEgIa9wvnA,13
+danbot_status-0.2.1.dist-info/RECORD,,
