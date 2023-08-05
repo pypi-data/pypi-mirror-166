@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: rowantree.service.sdk
+Version: 0.3.2
+Summary: Rowan Service SDK
+Author: Joshua C. Burt
+Author-email: joshburt@shapeandshare.com
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Rowan Tree Service SDK
+
