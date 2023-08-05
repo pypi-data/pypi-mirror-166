@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+load_dotenv.pth
+load_dotenv.py
+setup.py
+load_dotenv.egg-info/PKG-INFO
+load_dotenv.egg-info/SOURCES.txt
+load_dotenv.egg-info/dependency_links.txt
+load_dotenv.egg-info/requires.txt
+load_dotenv.egg-info/top_level.txt
