@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "babbagecoin"
+version = "0.5.0"
+description = "Second edition of Project Babbage, create a blockchain from scratch."
+homepage = "https://github.com/ProjectBabbage/babbagecoin"
+readme = "README.md"
+authors = ["Quentin Garchery <garchery.quentin@gmail.com>", "Martial Garchery <martial.garchery@gmail.com>", "Yohann Le Faou <yohannlefa@gmail.com>", "Julien Raspaud <julien.raspaud@gmail.com>"]
+include = ["babbagecoin/webclient/*", "babbagecoin/webclient/assets/*"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Flask = "^2.0.3"
+requests = "^2.27.1"
+marshmallow = "^3.14.1"
+cryptography = "^36.0.1"
+python-dotenv = "^0.19.2"
+sentry-sdk = {extras = ["flask"], version = "^1.5.8"}
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+flake8 = "^4.0.1"
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+pytest-forked = "^1.4.0"
+pytest-xdist = "^2.5.0"
+
+[tool.black]
+line-length = 100
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
