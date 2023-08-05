@@ -1,0 +1,10 @@
+livesync/__init__.py,sha256=FLPukb4DB81LLo-dXnAkdW-dvaPizn7psNLq_5mWDtU,25
+livesync/folder.py,sha256=RadEQ2jWhUMA9AE5l5X2BxsA_xwWyrRBGUM8t-Pz1Fs,927
+livesync/livesync.py,sha256=uc8-FFuPHePNE-yHTSATU1Jiv0wDq3qBruX4-ViGUaI,3185
+livesync/mutex.py,sha256=NAAhgr2ciKvlYvTlg5O-wzMJIirL2ie4qkzt4zJavLc,1820
+LiveSync-0.1.3.dist-info/LICENSE,sha256=QcBlwggRQYhvfTAE481AAMFQfMS_N6Bj8Svh1T6dsnI,1072
+LiveSync-0.1.3.dist-info/METADATA,sha256=2k5jrMsx2WI8CgZiTjNLJsuTAz6vAlt6eFOkTcs13AM,2292
+LiveSync-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+LiveSync-0.1.3.dist-info/entry_points.txt,sha256=4dn5YR27lUlJWea3yqLKLqR4MwqjcqzMR5Q4jVFnytI,52
+LiveSync-0.1.3.dist-info/top_level.txt,sha256=mLwExc6wTUGqxvUkYMio5rxGS1h8bvxpNsR2ebfjSL4,9
+LiveSync-0.1.3.dist-info/RECORD,,
