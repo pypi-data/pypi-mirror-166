@@ -1,0 +1,12 @@
+fastaparser/__init__.py,sha256=eIbmqXCceDGAXVbw6N7d7mPngirdQKeeiNhUSJRLFdQ,1477
+fastaparser/constants.py,sha256=bOGPYF82bZxkKvhy5cP8nYaZvkIprVNpQdbq7OR8qqY,2466
+fastaparser/fastasequence.py,sha256=5AjEByqaVXx9SSHcFoRulE5a_qwiv0aniwGJOYavgi8,28097
+fastaparser/lettercode.py,sha256=XJlmhCS4hnRANLCq7l5itFdiEZUiNmcw3Q9pRvwMcaE,8467
+fastaparser/parsedefinitionline.py,sha256=GrCiXox-ZpDF2Bk8rfQ5P49J3eadLvgfulSARfsZhKU,2180
+fastaparser/reader.py,sha256=HOqkosfi2DMH8Muwjt2-ensFT0NoEWgYO6XIflBppbk,8444
+fastaparser/writer.py,sha256=BPmu75i5Yse4fe6GI0eSYnmx9U5TjZE2e2HLzykqIpY,5271
+fastaparser-1.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+fastaparser-1.1.1.dist-info/METADATA,sha256=sN1A8NHrlFOfeYRHmB_hJx453PlX2b3f_wp9Br-gPYc,5468
+fastaparser-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fastaparser-1.1.1.dist-info/top_level.txt,sha256=fu5jd2rsu1jZ_ot7b8UQ4hXxN7xIAM8pKhPCK5ZtAc0,12
+fastaparser-1.1.1.dist-info/RECORD,,
