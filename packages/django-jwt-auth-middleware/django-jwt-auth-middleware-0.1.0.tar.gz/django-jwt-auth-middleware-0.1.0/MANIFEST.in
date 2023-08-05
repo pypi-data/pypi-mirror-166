@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include django_jwt_auth_middleware *.py
+recursive-exclude test *

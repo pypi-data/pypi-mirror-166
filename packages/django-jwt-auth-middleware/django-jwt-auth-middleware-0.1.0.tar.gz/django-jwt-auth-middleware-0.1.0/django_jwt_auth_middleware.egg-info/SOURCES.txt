@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+django_jwt_auth_middleware/__init__.py
+django_jwt_auth_middleware/apps.py
+django_jwt_auth_middleware/auth.py
+django_jwt_auth_middleware/settings.py
+django_jwt_auth_middleware/urls.py
+django_jwt_auth_middleware/views.py
+django_jwt_auth_middleware.egg-info/PKG-INFO
+django_jwt_auth_middleware.egg-info/SOURCES.txt
+django_jwt_auth_middleware.egg-info/dependency_links.txt
+django_jwt_auth_middleware.egg-info/requires.txt
+django_jwt_auth_middleware.egg-info/top_level.txt
