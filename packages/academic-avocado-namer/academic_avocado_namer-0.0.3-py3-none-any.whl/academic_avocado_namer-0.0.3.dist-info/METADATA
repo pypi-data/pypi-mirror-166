@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: academic-avocado-namer
+Version: 0.0.3
+Summary: Generate names for things with phonetic alliteration - use with GUIDs for easy identification.
+Home-page: https://github.com/darenr/academic-avocado-namer
+Author: Daren Race
+Author-email: daren.race@gmail.com
+License: Apache License, Version 2.0, January 2004
+Keywords: random name generator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+# academic-avocado-namer
+
+Little project to use for naming things with better names than guids
+
+## module main
+
+```
+python -m academic_avocado_namer
+```
+
+## local development
+
+```
+pip install -e .
+```
+
+## run tests:
+
+```
+pip install -e .
+pytest
+```
+
+## Example API usage
+
+```
+>>> from academic_avocado_namer import generate_name
+>>> generate_name()
+```
+
+
+## Example output
+
+```
+vain-viper
+nocturnal-nightingale
+annual-alligator
+ultimate-unicorn
+careless-chicken
+aggressive-armadillo
+deafening-dolphin
+worrisome-wasp
+whopping-woodcock
+bright-butterfly
+truthful-toad
+masculine-mermaid
+experienced-eagle
+worse-worm
+precious-penguin
+precious-partridge
+```
+
+
