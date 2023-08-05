@@ -1,0 +1,56 @@
+# Example configuration for Black.
+
+# NOTE: you have to use single-quoted strings in TOML for regular expressions.
+# It's the equivalent of r-strings in Python.  Multiline strings are treated as
+# verbose regular expressions by Black.  Use [ ] to denote a significant space
+# character.
+
+[tool.black]
+line-length = 79
+target-version = ['py36', 'py37', 'py38']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | build
+  | dist
+)/
+'''
+
+[build-system]
+requires = ["setuptools>=59.6.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyramid_task_scheduler"
+version = "0.0.4"
+authors = [
+  { name="Patrick Magyar", email="magyarpatrick@gmail.com" },
+]
+description = "task scheduler for pyramid framework"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+	"Development Status :: 2 - Pre-Alpha",
+	"Programming Language :: Python :: 3",
+	"Framework :: Pyramid",
+	"License :: OSI Approved :: MIT License",
+	"Operating System :: POSIX :: Linux",
+]
+dependencies = [
+    "apscheduler",
+    "docutils",
+    "waitress",
+    "watchdog",
+    "wheel",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Eldhrimner/pyramid_task_scheduler"
+"Bug Tracker" = "https://github.com/Eldhrimner/pyramid_task_scheduler/issues"

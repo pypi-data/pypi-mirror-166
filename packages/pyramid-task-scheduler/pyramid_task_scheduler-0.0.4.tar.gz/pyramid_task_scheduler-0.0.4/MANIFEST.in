@@ -1,0 +1,5 @@
+recursive-include pyramid_task_scheduler
+include pyproject.toml
+
+exclude LICENSE .flake8 *.yaml *.yml development.ini unit_tests
+recursive-exclude unit_tests *.py

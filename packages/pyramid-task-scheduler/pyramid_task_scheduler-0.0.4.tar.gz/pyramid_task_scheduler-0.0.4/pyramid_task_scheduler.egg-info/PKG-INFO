@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: pyramid-task-scheduler
+Version: 0.0.4
+Summary: task scheduler for pyramid framework
+Author-email: Patrick Magyar <magyarpatrick@gmail.com>
+License: MIT License Copyright (c) <year> <copyright holders>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is furnished
+        to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice (including the next
+        paragraph) shall be included in all copies or substantial portions of the
+        Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+        FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
+        OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+        WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+        OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/Eldhrimner/pyramid_task_scheduler
+Project-URL: Bug Tracker, https://github.com/Eldhrimner/pyramid_task_scheduler/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Pyramid
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyramid_task_scheduler
+
+[![Build Status](https://cloud.drone.io/api/badges/Eldhrimner/pyramid_task_scheduler/status.svg)](https://cloud.drone.io/Eldhrimner/pyramid_task_scheduler)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+## Install
+
+install packages
+`pip install pyramid-task-scheduler`
+
+or require in `setup.py`
+
+add the follwing line to your `Configuratior` section of your pyramid application:
+e.g
+```python
+    config = Configurator(settings=settings)
+    config.include('pyramid_task_scheduler')  # Add this Line
+```
+## Modes
+
+### json crontab
+
+add the following two lines to your .ini file
+
+```{ .ini }
+pyramid_task_scheduler_mode = json
+pyramid_task_scheduler_path = path_to/crontab.json
+```
+
+single cron crontab example:
+
+```json
+{
+	"cron": [
+		{
+			"name": "first_cron",
+			"import_script": "import_script",
+			"exec_func": "function_to_execute",
+			"crontab_time": "0 * * * *"
+		}
+	]
+}
+```
+
+multiple crons crontab example:
+
+```json
+{
+    "cron": [
+        {
+            "name": "first_cron",
+            "import_script": "import_script",
+            "exec_func": "function_to_execute",
+            "crontab_time": "0 * * * *"
+        },
+        {
+            "name": "second_cron",
+            "import_script": "import_script",
+            "exec_func": "function_to_execute",
+            "crontab_time": "0 * * * *"
+        }
+    ]   
+}
+```
+
+# NOTE
+
+this package is alpha experimental. It is recommened to NOT use it for productional environments.
