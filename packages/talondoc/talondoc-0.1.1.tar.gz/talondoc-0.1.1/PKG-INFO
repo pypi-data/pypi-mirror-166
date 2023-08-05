@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: talondoc
+Version: 0.1.1
+Summary: A Sphinx extension for Talon user directories.
+Author: Wen Kokke
+Project-URL: repository, https://github.com/wenkokke/talondoc
+Keywords: talondoc
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Compilers
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: mypy
+Provides-Extra: test
+
+# Sphinx extension for documenting Talon packages
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/wenkokke/talondoc/CI) ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/wenkokke/talondoc) ![PyPI](https://img.shields.io/pypi/v/talondoc)
+
+See <https://wen.works/talondoc/>
