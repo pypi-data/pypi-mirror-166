@@ -1,0 +1,11 @@
+fugashi.libs/libmecab-eada4a80.so.2.0.0,sha256=fGnB6WXGYG8szjKfiqLT7w7QI734cQHHlY91jgLCQZA,1014136
+fugashi/cli.py,sha256=2qo9l7yqy9_hCUp9AULBlx5BmHkpHFlkKZacRDWZjh4,1506
+fugashi/fugashi.cpython-39-x86_64-linux-gnu.so,sha256=oSfoBytT1bqRdGuKAkAvl9PjqDEFiU5W5JgJml3kt6s,863688
+fugashi/__init__.py,sha256=bBozNbcOG_tKMMWwONWRRiG1VosiDjE0YappT2KPcAk,24
+fugashi-1.2.0.dist-info/top_level.txt,sha256=1CQTgPUFi4hjTQg2nHdIR-oH6EfyXtpLhiUglCmuOoM,8
+fugashi-1.2.0.dist-info/LICENSE.mecab,sha256=YvSyNFCprUDk24Bj1FwdE8eNB8onya2mLEypwRwfPns,1602
+fugashi-1.2.0.dist-info/WHEEL,sha256=FNUt4eBsrBVn_Yc5KG3aXtKE40X3uNZrbGLNCbVxyFw,148
+fugashi-1.2.0.dist-info/METADATA,sha256=bieDKPB5Igj_yMaA7nw200rzv1Bjch45ekWbJxqv84s,6568
+fugashi-1.2.0.dist-info/entry_points.txt,sha256=jV282mMQTVkhqOVFTdm_ZQ03pJndByW2JtrSa_a2Wms,121
+fugashi-1.2.0.dist-info/RECORD,,
+fugashi-1.2.0.dist-info/LICENSE,sha256=5LkFbx-2Q0xAeg8Y4DVBmBkFBNfz3rvXTG6heUdwXac,1076
