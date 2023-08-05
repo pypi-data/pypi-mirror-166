@@ -1,0 +1,11 @@
+{
+  "/oic/d": {
+    "n": "Web server"
+  },
+  "/oic/con": {
+    "port": 80,
+    "rt": [
+      "bubot.storage"
+    ]
+  }
+}
