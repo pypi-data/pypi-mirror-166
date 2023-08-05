@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+intent_suggestions/__init__.py
+intent_suggestions/model.py
+intent_suggestions.egg-info/PKG-INFO
+intent_suggestions.egg-info/SOURCES.txt
+intent_suggestions.egg-info/dependency_links.txt
+intent_suggestions.egg-info/top_level.txt
