@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: secretscanner
+Version: 0.1.0
+Summary: Scan for secrets within files.
+Home-page: https://github.com/sffjunkie/secretscanner
+License: Apache-2.0
+Author: Simon Kennedy
+Author-email: sffjunkie+code@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: rich (>=12.5.1,<13.0.0)
+Project-URL: Repository, https://github.com/sffjunkie/secretscanner
+Description-Content-Type: text/markdown
+
+# Secret Scanner
+
+A simple tool to scan directories for secrets using regular expressions.
+
+## Install
+
+Install using either [`pip`](https://pypi.org/project/pip/), [`pipx`](https://pypi.org/project/pipx/) or your Python installer of choice
+
+```
+pipx install secretscanner
+```
+
+## Usage
+
+To scan a directory and print the files with secrets
+
+```
+secretscanner DIRECTORY
+```
+
+To also display info on the tokens that have been found pass the `-v`/`--verbose` flag.
+
+To hide the output pass the `-q`/`--quiet` flag.
+
+If secrets are found the tool exits with exit code `1`
+
+## Recognized Secrets
+
+The tool currently recognizes the following secret types
+
+- Github access tokens
+- PyPI access tokens
+- Digital Ocean access tokens
+
