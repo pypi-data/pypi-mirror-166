@@ -1,0 +1,2 @@
+[console_scripts]
+renamex = renamex:renamex
