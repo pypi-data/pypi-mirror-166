@@ -1,0 +1,13 @@
+cloud_io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloud_io/gcp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloud_io/gcp/base.py,sha256=XiSTrLxdZKS1vaA8VNv90yq0lnhWwqVR_NOgfO0qOmY,1632
+cloud_io/gcp/filesystem.py,sha256=Q7ilnQUlYXNuTMKTOA7Pc4a2QdGz5Gg57QHMsneEskY,938
+cloud_io/gcp/io.py,sha256=-XVu4ztq_WsoGjmFz5CjqBI-cRR_i0Tn6tru2QCl1fg,1061
+cloud_io/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloud_io/tools/common_path.py,sha256=7N_QlEmnkGekvXFCXLmC4K-_ITURcGuDpYJWOo4Y7nE,198
+cloud_io/tools/error.py,sha256=f7XMn0uo_k5IwL05gr-qg5LFDDwWZhFbxvNLv7IHU3E,152
+cloud_io-1.0.1.dist-info/LICENSE,sha256=Ayf0gp3yBUj5xWGQVxqsG-59h0qSMCvPhSRZmA9PkFI,1073
+cloud_io-1.0.1.dist-info/METADATA,sha256=4Wx2D4pBiQStLRPx2Mhzj3LaKJVZcW0dy67Tr86QPhQ,4310
+cloud_io-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cloud_io-1.0.1.dist-info/top_level.txt,sha256=wl5TFDsSc8wquj1AkCuMcjrhGWs376L_m3mnDhpu8ao,9
+cloud_io-1.0.1.dist-info/RECORD,,
