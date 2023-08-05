@@ -1,0 +1,2 @@
+[console_scripts]
+hyuga = hyuga.__main__:main
