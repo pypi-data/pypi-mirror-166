@@ -1,0 +1,10 @@
+scripts/__init__.py,sha256=AJSyqLxC75FsDrYqGKx7KPAOYDkLWNaSruZYJdvlq8E,48
+scripts/duplicate_music.py,sha256=dCGFXHk-kHUQHBWPh-gg-Dk2jhVVS9iprHzE0ryFhhQ,384
+scripts/find_duplicates.sql,sha256=MuV3w0mZ0LWmMECHvu0ia7ey7s3bOMYWupSzRMw4Xv4,468
+scripts/large_folders.py,sha256=XDORjUyjUna4NlMRGr_MzdEmSH_4p8DQypKu5yJv2qc,1519
+scripts/restore_listen_count.sql,sha256=FPqARTFuqZoukpTuSB54Aht0gR_xjKnR_7sELDoYVHQ,483
+xklb-1.15.24.dist-info/entry_points.txt,sha256=2rlwKw0USGSdsnZYMEBddkUiUgbcr2T_h8v8KAlkoUw,56
+xklb-1.15.24.dist-info/LICENSE,sha256=L2gosooeSfVYQORSiMzO7mGAiTeYLeF7aCXZIPMF65g,1676
+xklb-1.15.24.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+xklb-1.15.24.dist-info/METADATA,sha256=-QjoGlGol1Nv6mFDE-8Iqtv1ustVRfqgnBu8WC96Sic,18129
+xklb-1.15.24.dist-info/RECORD,,
