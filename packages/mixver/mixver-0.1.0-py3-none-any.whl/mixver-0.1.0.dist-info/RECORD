@@ -1,0 +1,9 @@
+mixver/config.py,sha256=HuuWOsVHM3-4VDl1b1hF0_hxKlZIt-i3e-wQ7WLi3kM,62
+mixver/storages/local_storage.py,sha256=OI4vCPpG0hEp3disjcWWTiF24sL-8l8oyp37Qzkv2xY,2318
+mixver/versioning/exceptions.py,sha256=6zrwNyQduCUNjhdjRqEiItRkNuDIcFdVBAPS8pX_MMY,1067
+mixver/versioning/utils.py,sha256=0bVAsAelS370rqqDkwyOU-fl-RGJbMpcn6HvpLJhbgY,131
+mixver/versioning/versioner.py,sha256=atERb-GS64D7xtUJnNB0lKVfZmiV-_7dzybVvMCXao8,6876
+mixver-0.1.0.dist-info/LICENSE.txt,sha256=hc5-2kwdBMuljl2YUnA7HZeLMcGWM0vV-k2_FGE28oU,1069
+mixver-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mixver-0.1.0.dist-info/METADATA,sha256=VH5qcSFQYZZOMa8CDc4wo-SWMPCw-P5tcrxliT-YwIA,330
+mixver-0.1.0.dist-info/RECORD,,
