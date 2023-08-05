@@ -1,0 +1,10 @@
+monitoring_system_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monitoring_system_sdk/main.py,sha256=yeKTJxuymaorOIMt7fe0lClqSCDKndqe_30TsiSkLmM,1452
+monitoring_system_sdk/mixins.py,sha256=dyQKdHcSuQab96_t3vVe1qfL1VmHOjh86lBjotVgysk,3979
+monitoring_system_sdk/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monitoring_system_sdk/tests/main_tests.py,sha256=D3cN7Sf1eIBs7hWDU27BbJlSl_gVjmJ-x9zJObSrI9g,1193
+qodex_ms_sdk-1.1.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+qodex_ms_sdk-1.1.0.dist-info/METADATA,sha256=PSFpDU0e8iWqjnUA2V6T4D9QNDrJoHtgNbl3-2KowIM,123
+qodex_ms_sdk-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qodex_ms_sdk-1.1.0.dist-info/top_level.txt,sha256=LekAo1rWra8rq6sLSCZI3AQLxWAqYE-uTn2csSJAlrQ,22
+qodex_ms_sdk-1.1.0.dist-info/RECORD,,
