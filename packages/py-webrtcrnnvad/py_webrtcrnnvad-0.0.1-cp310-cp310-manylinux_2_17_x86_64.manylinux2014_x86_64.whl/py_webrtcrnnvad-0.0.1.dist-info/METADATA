@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: py-webrtcrnnvad
+Version: 0.0.1
+Summary: Python interface to the RNNoise VAD(Voice Activity Detection) component inside webrtc
+Author: Seonghun noh
+Author-email: jzi004941@naver.com
+Requires-Python: >=3.6
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0) ; extra == 'test'
+
+Python interface to the RNNoise VAD(Voice Activity Detection) component inside webrtc
