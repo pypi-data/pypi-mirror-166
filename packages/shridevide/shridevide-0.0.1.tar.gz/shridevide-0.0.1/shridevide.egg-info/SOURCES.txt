@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+shridevide/__init__.py
+shridevide.egg-info/PKG-INFO
+shridevide.egg-info/SOURCES.txt
+shridevide.egg-info/dependency_links.txt
+shridevide.egg-info/top_level.txt
