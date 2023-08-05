@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: asktanya
+Version: 1.0
+Summary: Ask me anything
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pip (>=9)
+Requires-Dist: setuptools (>=26)
+Requires-Dist: twine
+Requires-Dist: wheel (>=0.29)
+Requires-Dist: wikipedia
+Requires-Dist: pywikihow
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+Requires-Dist: nltk
+Requires-Dist: black
+Requires-Dist: flake8
+
+UNKNOWN
+
+
