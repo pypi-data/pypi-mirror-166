@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dbt_table_diff.egg-info/PKG-INFO
+dbt_table_diff.egg-info/SOURCES.txt
+dbt_table_diff.egg-info/dependency_links.txt
+dbt_table_diff.egg-info/requires.txt
+dbt_table_diff.egg-info/top_level.txt
