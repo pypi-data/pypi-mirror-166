@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dirdict
+Version: 0.0.1
+Summary: A dictionary-like interface for your file system.
+License: EUPL-1.2
+Author: AsbjornOlling
+Author-email: asbjornolling@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
