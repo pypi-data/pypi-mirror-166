@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: timeMyScript
+Version: 1.0.1
+Summary: Time your script with an import and read the result on exit
+Home-page: https://github.com/DeusAres/timeMyScript
+Author: Mattia Iiriti
+License: MIT
+License-File: LICENSE.txt
+
+README.md
