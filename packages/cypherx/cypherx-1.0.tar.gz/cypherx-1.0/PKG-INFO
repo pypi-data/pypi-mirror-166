@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: cypherx
+Version: 1.0
+Summary: Ferramenta de criptografia e descriptografia de textos
+Home-page: https://github.com/yuritorresf/cypherx
+Author: Yuri Torres
+Author-email: feereira@gmail.com
+License: MIT
+Project-URL: Código fonte, https://github.com/yuritorresf/cypherx
+Project-URL: Download, https://github.com/yuritorresf/cypherx/archive/1.0.0.zip
+Keywords: cypherx,package,cryptography,cryptography package
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Description-Content-Type: text/markdown
+
+# Cypherx
+
+** Cypherx ** é uma ferramenta simples e descomplicada para criptografar e descriptografar textos
+
+## Requerimentos
+python 3.5 ou superior
+argparse
+rich
+
+## Instalação
+
+```
+git clone https://github.com/yuritorresf/cypherx.git
+pip install argparse rich
+```
+
+## Uso
+
+### Comandos disponíveis via linha de comando
+```
+python cypherx.py -h
+
+argumentos opcionais:
+  -h, --help                        Mostrar ajuda e sair
+  -c, --caesar                      Criptografar com cifra de César
+  -a, --atbash                      Criptografar com cifra de Atbash
+  -e, --encrypt                     Encriptar mensagem
+  -d, --decrypt                     Descriptografar mensagem
+
+  -m MESSAGE, --message MESSAGE     Mensagem a ser criptografada ou descriptografada
+  -k KEY, --key KEY                 Chave para criptografar ou descriptografar [Requerido para: César]
+  -v, --version                     Mostre a versão do programa e sair
+```
+
+### Importando como módulo
+```
+Exemplo:
+from cypherx import Caesar
+```
+
+### Para utilizar a interface gráfica via terminal
+```
+python cypherx.py
+```
+
+### Exemplos
+```
+python cypherx.py -c -e -m "mensagem" -k 3
+python cypherx.py -a -e -m "mensagem"
+python cypherx.py -c -d -m "mensagem" -k 3
+python cypherx.py -a -d -m "mensagem"
+```
+
+## Contribuição
+Pull requests são bem-vindos. Para mudanças importantes, abra um problema primeiro para discutir o que você gostaria de mudar.
+
