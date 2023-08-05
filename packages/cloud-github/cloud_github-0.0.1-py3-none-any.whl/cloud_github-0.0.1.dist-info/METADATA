@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cloud-github
+Version: 0.0.1
+Summary: Github rest API by python.
+Home-page: UNKNOWN
+Author: WQ Yan
+Author-email: yan66665@gmail.com
+License: apache
+Keywords: github
+Platform: UNKNOWN
+License-File: LICENSE.txt
+Requires-Dist: requests
+
+UNKNOWN
+
