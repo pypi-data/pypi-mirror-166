@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: testbench-tuna
+Version: 0.3.0
+Summary: Personal testbench for trying out stuff
+Home-page: https://github.com/trallnag/testbench-tuna
+License: ISC
+Author: Tim Schwenke
+Author-email: tim.schwenke@trallnag.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: fastapi (>=0.81.0,<0.82.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Requires-Dist: uvicorn (>=0.18.2,<0.19.0)
+Project-URL: Repository, https://github.com/trallnag/testbench-tuna
+Description-Content-Type: text/markdown
+
+# Testbench Tuna
+
+[![pypi package](https://badge.fury.io/py/testbench-tuna.svg)](https://pypi.python.org/pypi/testbench-tuna/)
+[![python](https://img.shields.io/pypi/pyversions/testbench-tuna.svg)](https://pypi.python.org/pypi/testbench-tuna)
+[![downloads](https://pepy.tech/badge/testbench-tuna)](https://pepy.tech/project/testbench-tuna)
+[![codecov](https://codecov.io/gh/trallnag/testbench-tuna/branch/trunk/graph/badge.svg?token=400YFJSVG7)](https://codecov.io/gh/trallnag/testbench-tuna)
+
+Personal testbench where I try out things.
+
+- Python app, not meant to be used as a library.
+- Web application using [FastAPI](https://fastapi.tiangolo.com/)
+- For testing [pytest](https://docs.pytest.org/) is used.
+- Release Management with
+  [Release Please](https://github.com/googleapis/release-please). Focused on
+  simple manual release process with the option add custom info to a release and
+  the changelog before performing a release. Balance between full automation
+  with something like semantic-release and manual release creation via the
+  GitHub UI.
+- Pre-commit stuff. Code coverage with CodeCov. Poetry.
+- ...
+
+Random links and references:
+
+- <https://github.com/google-github-actions/release-please-action>
+- <https://github.com/googleapis/release-please>
+
