@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "algerography"
+version = "0.2"
+description = ""
+authors = ["fathibensari <fethibensari@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+build = "^0.8.0"
+twine = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", 'setuptools>=40.8.0', 'wheel']
+build-backend = "poetry.core.masonry.api"
