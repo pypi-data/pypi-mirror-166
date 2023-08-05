@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: abs2rel
+Version: 1.0.0
+Summary: A python script that traverses a whole package turning local absolute imports into relative ones.
+Home-page: https://github.com/KennedyRichard/abs2rel
+Author: Kennedy Richard
+Author-email: kennedy@kennedyrichard.com
+License: Unlicense
+Project-URL: Source, https://github.com/KennedyRichard/abs2rel
+Project-URL: Bug Tracker, https://github.com/KennedyRichard/abs2rel/issues
+Keywords: parsing,imports,text,python,code,substitution,replacement,script,package
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# abs2rel
+
+A python script that traverses a whole package turning local absolute imports into relative ones.
+
+## Installation
+
+```bash
+pip install abs2rel
+```
+
+## Usage
+
+After installing, just go to your package top-level directory and execute the `abs2rel` command.
+
+## License
+
+abs2rel is dedicated to the public domain with [The Unlicense][].
+
+## Efficiency
+
+This command does not identify 100% of the possible local absolute imports. However, at its current state, it manages to identify all but a single import statement in a real package containing more than 200 python files (some with several local imports).
+
+Future improvements should increase its efficiency even more. At its current state though, it can already reduce substantialy the time needed to convert local absolute imports from a Python package into local relative imports. Additionally, because the conversion happens programmatically, it is less error-prone than making the changes by hand.
+
+
+[The Unlicense]: https://unlicense.org/
