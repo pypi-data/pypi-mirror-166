@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: compact-json
+Version: 0.1
+Summary: A JSON formatter that produces compact but human-readable
+Home-page: https://github.com/masaccio/compact-json
+Author: Jon Connell
+Author-email: python@figsandfudge.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+# compact-json
+
+This package is in the early stages of development. It might work for you and it could quite easily throw runtime exceptions due to the large
+number of latent bugs. You are welcome to raise issues.
+
+## Credits
+
+`compact-json` is primarily a Python port of [FracturedJsonJs](https://github.com/j-brooke/FracturedJsonJs) by [j-brooke](https://github.com/j-brooke). FractureJson is also
+an excellent [Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=j-brooke.fracturedjsonvsc). This package has no other relationship
+with this original code, and hence all the bugs are my own.
+
+## License
+
+All code in this repository is licensed under the [MIT License](https://github.com/masaccio/compact-json/blob/master/LICENSE.rst)

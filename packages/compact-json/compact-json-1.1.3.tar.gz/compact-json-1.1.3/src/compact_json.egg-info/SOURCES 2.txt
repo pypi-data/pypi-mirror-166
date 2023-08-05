@@ -1,0 +1,13 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+src/compact_json/__init__.py
+src/compact_json/_compact_json.py
+src/compact_json/_version.py
+src/compact_json/formatter.py
+src/compact_json.egg-info/PKG-INFO
+src/compact_json.egg-info/SOURCES.txt
+src/compact_json.egg-info/dependency_links.txt
+src/compact_json.egg-info/entry_points.txt
+src/compact_json.egg-info/top_level.txt
