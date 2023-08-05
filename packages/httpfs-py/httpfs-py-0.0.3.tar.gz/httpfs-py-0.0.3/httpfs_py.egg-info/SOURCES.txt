@@ -1,0 +1,12 @@
+.gitignore
+LICENSE.md
+README.md
+httpfs
+pyproject.toml
+requirements.txt
+setup.py
+httpfs_py.egg-info/PKG-INFO
+httpfs_py.egg-info/SOURCES.txt
+httpfs_py.egg-info/dependency_links.txt
+httpfs_py.egg-info/requires.txt
+httpfs_py.egg-info/top_level.txt
