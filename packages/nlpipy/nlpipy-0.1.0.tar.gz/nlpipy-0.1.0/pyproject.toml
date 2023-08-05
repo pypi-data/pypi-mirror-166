@@ -1,0 +1,23 @@
+[project]
+name = "nlpipy"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "wangmengdi", email = "790990241@qq.com" },
+]
+dependencies = [
+    "spacy==3.4.1",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm]
