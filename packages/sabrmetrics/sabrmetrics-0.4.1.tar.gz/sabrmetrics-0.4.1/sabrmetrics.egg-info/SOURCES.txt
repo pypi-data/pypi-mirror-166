@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+sabrmetrics/__init__.py
+sabrmetrics/playerids.py
+sabrmetrics.egg-info/PKG-INFO
+sabrmetrics.egg-info/SOURCES.txt
+sabrmetrics.egg-info/dependency_links.txt
+sabrmetrics.egg-info/top_level.txt
+sabrmetrics/sfbb/__init__.py
+sabrmetrics/sfbb/_headers.py
+sabrmetrics/sfbb/tools.py
+sabrmetrics/tests/__init__.py
+sabrmetrics/tests/test_playerids.py
+sabrmetrics/tests/test_sfbb/__init__.py
+sabrmetrics/tests/test_sfbb/test_headers.py
+sabrmetrics/tests/test_sfbb/test_tools.py
