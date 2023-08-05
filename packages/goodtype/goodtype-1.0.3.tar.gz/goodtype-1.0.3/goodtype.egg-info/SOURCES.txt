@@ -1,0 +1,17 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+pyproject.toml
+requirements-dev.txt
+setup.py
+tox.ini
+goodtype/__init__.py
+goodtype/main.py
+goodtype.egg-info/PKG-INFO
+goodtype.egg-info/SOURCES.txt
+goodtype.egg-info/dependency_links.txt
+goodtype.egg-info/entry_points.txt
+goodtype.egg-info/top_level.txt
+tests/__init__.py
+tests/cli_test.py
