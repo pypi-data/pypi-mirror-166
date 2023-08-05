@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: unthrow
+Version: 0.1
+Summary: An exception that can be resumed. 
+Home-page: https://github.com/joemarshall/unthrow
+Author: Joe Marshall
+Author-email: joe.marshall@nottingham.ac.uk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
