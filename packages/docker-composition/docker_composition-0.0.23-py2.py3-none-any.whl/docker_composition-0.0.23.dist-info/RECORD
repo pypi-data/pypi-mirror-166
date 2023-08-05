@@ -1,0 +1,14 @@
+composition/__init__.py,sha256=3Oar14LStClWVYsTFQbyM83IXITqogTz1TSdMaasqpw,19
+composition/api.py,sha256=DU1z-YnZ9tuJ5Rh-zgCUn4VhyZQA8QZWercCCzBgjZ4,1472
+composition/composer.py,sha256=yimfSE88051O1FKKiq7kx98lX3MLikCCpk0sOJ2jzqw,4059
+composition/directory.py,sha256=b8cDRLwMFV0QhMZAYdmcUT96mbdzbuui7dnUkVvIxUw,3577
+composition/install.py,sha256=s3I1DyhhpZ2qJAqjGOpO94jneQlVaHz12qYbZCWXRs8,3000
+composition/list_apps.py,sha256=mp9uDhOmJnUiIIuu2GA2H8WehIg0F-VB18OBBpWV18I,1573
+composition/models.py,sha256=iMXCTFbUFGvEsYDI73mwrXjm-43Lp5lI1hoS4LjPpNo,2199
+composition/storage.py,sha256=1vHGn1wSRcwXY4TD4DQjKoZU2ianEIDEtDLNiCg0o8o,4714
+composition/template_cmd.py,sha256=gN0eP5EfSqdKBNWwv0cHRGyiJjv2Giw4B6jogPXFNyY,967
+composition/uninstall.py,sha256=6w_AQ9gaDe5Mvclss8yo8RnaMS47tiOIE6SvFhYb1OM,825
+docker_composition-0.0.23.dist-info/METADATA,sha256=iAzAgx5eMREXJP82Exdh-vw4nQNWTUbNksLMPFevmlU,1448
+docker_composition-0.0.23.dist-info/WHEEL,sha256=U250AEW6QzA082uUZcdZvUBP5tPi0rU5Y_1cBYppwks,104
+docker_composition-0.0.23.dist-info/entry_points.txt,sha256=sxvvJ4nqMoaIplgGScUoTBfm56aZfBrb3nyboYJQuqk,61
+docker_composition-0.0.23.dist-info/RECORD,,
