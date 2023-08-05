@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+pylybridge/__init__.py
+pylybridge/constants.py
+pylybridge/datatypes.py
+pylybridge/exceptions.py
+pylybridge/sandbox.py
+pylybridge/saveslot.py
+pylybridge/utils.py
+pylybridge.egg-info/PKG-INFO
+pylybridge.egg-info/SOURCES.txt
+pylybridge.egg-info/dependency_links.txt
+pylybridge.egg-info/requires.txt
+pylybridge.egg-info/top_level.txt
