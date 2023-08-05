@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: usbreq
+Version: 0.2
+Summary: A USB library for humans
+Home-page: https://github.com/Qyriad/python-usbreq
+Author: Mikaela Szekely
+Author-email: mikaela.szekely@qyriad.me
+License: MIT
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 1 - Planning
+Classifier: Natural Language :: English
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering

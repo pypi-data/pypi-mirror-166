@@ -1,0 +1,8 @@
+README.md
+setup.py
+usbreq/__init__.py
+usbreq.egg-info/PKG-INFO
+usbreq.egg-info/SOURCES.txt
+usbreq.egg-info/dependency_links.txt
+usbreq.egg-info/requires.txt
+usbreq.egg-info/top_level.txt
