@@ -1,0 +1,7 @@
+README.md
+setup.py
+untappdscr/__init__.py
+untappdscr.egg-info/PKG-INFO
+untappdscr.egg-info/SOURCES.txt
+untappdscr.egg-info/dependency_links.txt
+untappdscr.egg-info/top_level.txt
