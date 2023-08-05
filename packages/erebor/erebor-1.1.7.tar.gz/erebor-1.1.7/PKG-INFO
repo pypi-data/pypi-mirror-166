@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: erebor
+Version: 1.1.7
+Summary: Persistent key-value store
+Home-page: 
+Author: Chris Varga
+Author-email: 
+Keywords: erebor dictionary json persistent key-value store
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# erebor
+Erebor is a persistent key-value store. It uses a Redis-like syntax, but is very lightweight.
+
+## Installation
+To install locally:
+```bash
+pip install erebor
+```
+
+To install globally to `/usr/local/bin/` and enable daemon mode:
+```bash
+sudo pip install erebor
+```
+
+## Usage
+Run the erebor server like so:
+```bash
+$ erebor
+[2022-08-15 21:41:05] [205] Listening at: 127.0.0.1:8044
+```
+
+You can verify erebor is running using the `thorin` cli.
+```bash
+$ thorin
+127.0.0.1:8044> set blah foo bar
+OK
+127.0.0.1:8044> ls
+['blah']
+127.0.0.1:8044> get blah foo
+bar
+127.0.0.1:8044> dump blah
+{"foo": "bar"}
+127.0.0.1:8044> quit
+$ thorin get blah foo
+bar
+```
+
+To run erebor in production, you can use `--daemon` to run as a systemd daemon:
+> **NOTE:** This requires installation with `sudo`.
+
+> **NOTE:** This requires the `systemctl` Linux package to be installed.
+
+> **NOTE:** The default storage location in daemon mode is `/var/lib/erebor`.
+
+```bash
+$ sudo pip install erebor
+$ sudo erebor --daemon
+$ sudo systemctl status erebor
+erebor.service - persistent key-value store
+    Loaded: loaded (/etc/systemd/system/erebor.service, enabled)
+    Active: active (running)
+```
+
+## API
+Erebor recognizes the following commands:
+```
+    set      <table> <key> <value>  set a key in a table to a value
+    del      <table> <key>          remove a key and its value from a table
+    get      <table> <key>          retrieve the value of a key from a table
+    dump     <table>                return all keys and values for a table in JSON
+    pwd                             return the filesystem location of the tables
+    ls                              return a list of all table names
+    version                         return the current erebor version
+    help                            display this helpful information
+```
+
+## Configuration
+By default, erebor runs on localhost, port 8044. You can change this with the `--host` and `--port` options.
+```bash
+$ erebor --host 0.0.0.0 --port 8045
+[2022-08-15 21:44:29] [220] Listening at: 0.0.0.0:8045
+```
+
+To change the directory where erebor stores tables, simply pass the `--path` option.
+```bash
+$ erebor --path /tmp/data
+```
+> **NOTE:** The default location in non-daemon mode is in the `.erebor` folder in the location where erebor is run.
+
+You can verify the path using the `thorin` cli.
+```bash
+$ thorin pwd
+/tmp/data
+```
+
+## Other notes
+The erebor API uses vanilla TCP sockets, so you can make API requests using, e.g. `netcat`.
+```bash
+$ nc localhost 8044
+set blah foo bar
+OK
+```
+
+You can also talk to erebor programmatically using any language that can use sockets:
+```python
+import socket
+
+def erebor(message):
+    # Setup a socket to the host and port where erebor is running.
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    sock.connect(("127.0.0.1", 8044))
+
+    # Messages to erebor must be terminated by a newline.
+    message = message + "\n"
+    sock.send(message.encode())
+    return sock.recv(1024).decode().strip()
+
+print(erebor("set blah foo bar"))
+# OK
+print(erebor("get blah foo"))
+# bar
+```
