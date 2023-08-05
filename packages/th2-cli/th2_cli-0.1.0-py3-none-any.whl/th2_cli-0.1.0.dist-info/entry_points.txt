@@ -1,0 +1,3 @@
+[console_scripts]
+th2=th2_cli:cli
+
