@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: huo
+Version: 0.1.0
+Summary: Huo (wip)
+Home-page: https://github.com/zhiqwang/huo
+Author: Zhiqiang Wang
+Author-email: zhiqwang@outlook.com
+License: GPL-3.0
+Project-URL: Bug Reports, https://github.com/zhiqwang/huo/issues
+Project-URL: Funding, https://zhiqwang.com
+Project-URL: Source, https://github.com/zhiqwang/huo/
+Keywords: scientific-computing,machine-learning,deep-learning
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.18.5)
+
+# Huo (wip)
