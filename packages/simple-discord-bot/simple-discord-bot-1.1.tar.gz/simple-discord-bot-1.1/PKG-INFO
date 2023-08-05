@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: simple-discord-bot
+Version: 1.1
+Summary: Simple discord bot for the book How to Learn Python--the Wrong Way
+Home-page: https://github.com/jrfarah/Simple_Discord
+Author: Joseph Farah
+Author-email: jrfarah1999@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+
+Simple discord bot for the book How to Learn Python--the Wrong Way
