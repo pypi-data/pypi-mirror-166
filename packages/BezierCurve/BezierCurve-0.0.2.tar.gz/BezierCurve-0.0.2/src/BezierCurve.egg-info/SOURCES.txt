@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/BezierCurve/__init__.py
+src/BezierCurve/core.py
+src/BezierCurve.egg-info/PKG-INFO
+src/BezierCurve.egg-info/SOURCES.txt
+src/BezierCurve.egg-info/dependency_links.txt
+src/BezierCurve.egg-info/top_level.txt
