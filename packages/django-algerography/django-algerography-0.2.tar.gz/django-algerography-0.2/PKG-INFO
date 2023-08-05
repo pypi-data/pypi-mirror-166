@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: django-algerography
+Version: 0.2
+Summary: A Django app that provide wilaya and daira information of Algeria.
+Home-page: https://github.com/bensarifathi
+Author: Fathi BENSARI
+Author-email: fethibensari@gmail.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+License-File: LICENSE
+
+============
+Algerography
+============
+
+Algerography is a Django app that allow you to use 
+Wilaya and Daira information of Algeria into you django project.
+
+Detailed documentation is in the "docs" directory.
+
+Quick start
+-----------
+
+1. Add "algerography" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'algerography',
+    ]
+
+2. Run ``python manage.py migrate`` to create the algerography models.
+
+3. Run ``python manage.py load_algerography`` to load wilaya and daira fixtures
+into your database.
+
