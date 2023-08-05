@@ -1,0 +1,10 @@
+pyproject.toml
+setup.cfg
+src/lab_partner/__init__.py
+src/lab_partner/start_cli.py
+src/lab_partner.egg-info/PKG-INFO
+src/lab_partner.egg-info/SOURCES.txt
+src/lab_partner.egg-info/dependency_links.txt
+src/lab_partner.egg-info/entry_points.txt
+src/lab_partner.egg-info/requires.txt
+src/lab_partner.egg-info/top_level.txt
