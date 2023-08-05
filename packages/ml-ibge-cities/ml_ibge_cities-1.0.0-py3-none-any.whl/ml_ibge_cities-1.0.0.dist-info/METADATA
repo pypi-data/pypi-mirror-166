@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: ml-ibge-cities
+Version: 1.0.0
+Summary: A Django select cities web-based ibge.
+Home-page: https://github.com/marlonleite/ml-ibge-cities
+Author: Marlon Leite
+Author-email: marlonleite@gmail.com
+License: MIT
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django (>=2.1.4)
+Requires-Dist: requests (>=2.28.1)
+
+# ML IBGE CITIES
+
+## Quick start
+
+1. Add `ml_ibge_cities` in your Django `settings.py`:
+```python:
+    INSTALLED_APPS = [
+        ...
+        'ml_ibge_cities',
+        ...
+    ]
+```
+
+2. Add in your `admin.py` file the fallow code:
+```python:
+    from ml_ibge_cities.admin import MLIBGECitiesAdmin
+
+    @admin.register(Example)
+    class ExampleAdmin(MLIBGECitiesAdmin):
+        pass
+```
+
+3. Add in the `forms.py` file the fallow code:
+```python:    
+    from ml_ibge_cities.forms import MLIBGECitiesForm
+    class ExampleAdminForm(MLIBGECitiesForm):
+        class Meta:
+            ...
+            fields = (... "state", "city", ...)
+            ...
+```

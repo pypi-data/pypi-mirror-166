@@ -1,0 +1,12 @@
+ml_ibge_cities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ml_ibge_cities/admin.py,sha256=-n40pPgZ3UJ1c0BGJnsFL2Mtg3Vmrc2TLAkV_wAFiMQ,838
+ml_ibge_cities/apps.py,sha256=UcD2rYZPJzKzbGVfYaAeGS7uDYXiZhtJTS1gp7Nqykc,158
+ml_ibge_cities/forms.py,sha256=yZn2fEKVX6NLFd44RhIO_jSdzInzBkBvCAtuiPckAP8,1295
+ml_ibge_cities/ibge.py,sha256=MxvSVt2GtCgQXbI-I79aaWAyWobbQjiVezC6yh-THsc,957
+ml_ibge_cities/templates/ml_ibge_cities/ml_ibge_cities_change_form.html,sha256=e932PzK3llUMRDGig_G3a6O_hTNE3pPg0dWBBKODGrw,712
+ml_ibge_cities/templates/ml_ibge_cities/ml_ibge_cities_options.html,sha256=61i_6VCp82Yu3sbD5tXyAQL_hJTp6lVMOPyvGxIZMMI,155
+ml_ibge_cities-1.0.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ml_ibge_cities-1.0.0.dist-info/METADATA,sha256=pi3MaDfjv5VWqvgATFjEhZRMqfI3ASqoXFd1Vun8eEs,1503
+ml_ibge_cities-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ml_ibge_cities-1.0.0.dist-info/top_level.txt,sha256=cK9tGCi1qNWtOpNoBiHqQowo0scXG81axnFkjRXouIQ,15
+ml_ibge_cities-1.0.0.dist-info/RECORD,,
