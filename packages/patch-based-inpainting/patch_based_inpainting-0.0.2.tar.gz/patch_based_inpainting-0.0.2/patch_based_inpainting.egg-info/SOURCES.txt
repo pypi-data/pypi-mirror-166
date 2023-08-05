@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+patch_based_inpainting/__init__.py
+patch_based_inpainting/inpaint.py
+patch_based_inpainting.egg-info/PKG-INFO
+patch_based_inpainting.egg-info/SOURCES.txt
+patch_based_inpainting.egg-info/dependency_links.txt
+patch_based_inpainting.egg-info/not-zip-safe
+patch_based_inpainting.egg-info/requires.txt
+patch_based_inpainting.egg-info/top_level.txt

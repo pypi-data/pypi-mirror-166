@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: patch_based_inpainting
+Version: 0.0.2
+Summary: Patch-based inpainting.
+Home-page: https://github.com/Analyzable-FR/patch-based-texture-inpainting
+Author: Analyzable
+Author-email: business@gallois.cc
+License: MIT
+Requires-Python: >=3.7
+License-File: LICENSE
