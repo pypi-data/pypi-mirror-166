@@ -1,0 +1,13 @@
+test_of_time-0.0.2.data/scripts/tot_dev_setup.py,sha256=43Bm-481aV-zorxxby-5KkdcCw7FNpITBgqW8iRik3c,502
+tot/__init__.py,sha256=30MdxlqyisrD9vkAJx5lA-4L7hzev1-hY6oSliDsXiE,1098
+tot/_version.py,sha256=e2kE4Eekl6I28vPbhhFKu7lwJ_LPq42BE3GTDHvAs04,22
+tot/benchmark.py,sha256=TBeMieP-84jiU1EmfQtmU2i37MGwF_g5WzmavX5lbSo,9721
+tot/dataset.py,sha256=1pnu3KaBmaI2y9n5pG3pBhIlnelAe16nc97fKhDPwd4,634
+tot/experiment.py,sha256=WCMuDQAxuxmlodGNx283xm0FGIa8HN0GtQwI8cOyuoI,9972
+tot/metrics.py,sha256=kBQuA6bxvyQksY3rrkzNQb7vrrCHF_kJJMkIBnbjF-E,2925
+tot/models.py,sha256=k65sNWUJ6Zi03MiHLw94zFoYcqzutCZy1Hxs7i4FrLQ,9460
+tot/utils.py,sha256=vaR0nY14iVLxgSbLip4fL--HMuU9kp7GXQ6BwRQnJe8,1022
+test_of_time-0.0.2.dist-info/METADATA,sha256=YK2GCrXhXn6xeHkAbqyk0TgAVqsEcOfrb39ZAo8ryeE,1550
+test_of_time-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+test_of_time-0.0.2.dist-info/top_level.txt,sha256=rNxdvhRIi8JuiRPRqZG8YyrXwaJgVj-Ma5Rbq6mrbAY,4
+test_of_time-0.0.2.dist-info/RECORD,,
