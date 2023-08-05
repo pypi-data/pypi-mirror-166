@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+setup.py
+st_tokenization_vis_component.egg-info/PKG-INFO
+st_tokenization_vis_component.egg-info/SOURCES.txt
+st_tokenization_vis_component.egg-info/dependency_links.txt
+st_tokenization_vis_component.egg-info/requires.txt
+st_tokenization_vis_component.egg-info/top_level.txt
+viz_tokens_component/__init__.py
