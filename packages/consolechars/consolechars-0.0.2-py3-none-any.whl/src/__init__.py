@@ -1,0 +1,1 @@
+# Variables: russian, english, russian_list, english_list
