@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: as-scraper
+Version: 1.0.0
+Summary: Python library for scraping inside Airflow.
+Home-page: https://github.com/Avila-Systems/as-scraper
+Author: Alvaro Avila
+Author-email: almiavicas@gmail.com
+Project-URL: Github Project, https://github.com/Avila-Systems/as-scraper
+Project-URL: Issue Tracker, https://github.com/Avila-Systems/as-scraper/issues
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# as-scraper
+Python library for scraping inside Airflow.
