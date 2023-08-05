@@ -1,0 +1,9 @@
+README.md
+setup.py
+oxflags/__init__.py
+oxflags/main.py
+oxflags.egg-info/PKG-INFO
+oxflags.egg-info/SOURCES.txt
+oxflags.egg-info/dependency_links.txt
+oxflags.egg-info/requires.txt
+oxflags.egg-info/top_level.txt
