@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+firebase_dynamic_link/__init__.py
+firebase_dynamic_link/firebase_dynamic_link_generator.py
+firebase_dynamic_links_generator.egg-info/PKG-INFO
+firebase_dynamic_links_generator.egg-info/SOURCES.txt
+firebase_dynamic_links_generator.egg-info/dependency_links.txt
+firebase_dynamic_links_generator.egg-info/requires.txt
+firebase_dynamic_links_generator.egg-info/top_level.txt

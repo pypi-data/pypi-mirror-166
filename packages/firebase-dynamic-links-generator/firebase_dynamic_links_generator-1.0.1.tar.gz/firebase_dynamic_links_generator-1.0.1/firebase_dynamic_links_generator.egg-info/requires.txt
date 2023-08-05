@@ -1,0 +1,4 @@
+requests
+oauth2client
+httplib2
+pycryptodome==3.10.1
