@@ -1,0 +1,14 @@
+slackhooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slackhooks/blocks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slackhooks/blocks/accessory.py,sha256=efCA1JdfkCcF-AbbjiGYgVigxzdN9ugXwmivmewUm_Q,1237
+slackhooks/blocks/block.py,sha256=iPR5KOn6uIehykqv6EhYpyJO8t0zXQ2eYJaPL-jZ9lU,165
+slackhooks/blocks/context.py,sha256=MbJItMTwXgI0ERGTq47XiaujIEi0TE6sy07Qls8ot70,621
+slackhooks/blocks/divider.py,sha256=8D_2Q3NHO50ixLDR87GYuF8WUATV0BglZIIl35t4yLI,114
+slackhooks/blocks/element.py,sha256=dS8-XWKz7SdwEfFBTdDm3Oz3m0ii-ogPRRPGsIXrq2g,1596
+slackhooks/blocks/section.py,sha256=sMvNabciFkdzjae_l3s67b5pYZilFDkZifj6mFBnQE8,1040
+slackhooks/blocks/text.py,sha256=84uuwa6MzlHOOZHZqbhJzjov9usoGWNrr-AiqEUBJ9g,785
+slackhooks/client.py,sha256=zkwOE7xg21BzAUNXeIwrLmYO6coFtDcpkegcXrYZxKI,644
+slack_hooks-0.4.1.dist-info/LICENSE,sha256=_Oh5VECw0nU6iroq7d1E6BtrVM39mYzeXGwMvHHzG_g,1071
+slack_hooks-0.4.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+slack_hooks-0.4.1.dist-info/METADATA,sha256=QinHP72eouR5cBCDBK5E27AH8Rl2sYthkzR1vMvwHXA,1284
+slack_hooks-0.4.1.dist-info/RECORD,,
