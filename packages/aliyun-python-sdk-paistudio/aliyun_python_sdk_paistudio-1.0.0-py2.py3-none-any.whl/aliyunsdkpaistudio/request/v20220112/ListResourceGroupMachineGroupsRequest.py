@@ -1,0 +1,94 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+from aliyunsdkcore.request import RoaRequest
+from aliyunsdkpaistudio.endpoint import endpoint_data
+
+class ListResourceGroupMachineGroupsRequest(RoaRequest):
+
+	def __init__(self):
+		RoaRequest.__init__(self, 'PaiStudio', '2022-01-12', 'ListResourceGroupMachineGroups')
+		self.set_uri_pattern('/api/v1/resources/[ResourceGroupID]/machinegroups')
+		self.set_method('GET')
+
+		if hasattr(self, "endpoint_map"):
+			setattr(self, "endpoint_map", endpoint_data.getEndpointMap())
+		if hasattr(self, "endpoint_regional"):
+			setattr(self, "endpoint_regional", endpoint_data.getEndpointRegional())
+
+	def get_ResourceGroupID(self): # string
+		return self.get_path_params().get('ResourceGroupID')
+
+	def set_ResourceGroupID(self, ResourceGroupID):  # string
+		self.add_path_param('ResourceGroupID', ResourceGroupID)
+	def get_PaymentDuration(self): # string
+		return self.get_query_params().get('PaymentDuration')
+
+	def set_PaymentDuration(self, PaymentDuration):  # string
+		self.add_query_param('PaymentDuration', PaymentDuration)
+	def get_Name(self): # string
+		return self.get_query_params().get('Name')
+
+	def set_Name(self, Name):  # string
+		self.add_query_param('Name', Name)
+	def get_CreatorID(self): # string
+		return self.get_query_params().get('CreatorID')
+
+	def set_CreatorID(self, CreatorID):  # string
+		self.add_query_param('CreatorID', CreatorID)
+	def get_PageSize(self): # integer
+		return self.get_query_params().get('PageSize')
+
+	def set_PageSize(self, PageSize):  # integer
+		self.add_query_param('PageSize', PageSize)
+	def get_SortBy(self): # string
+		return self.get_query_params().get('SortBy')
+
+	def set_SortBy(self, SortBy):  # string
+		self.add_query_param('SortBy', SortBy)
+	def get_PaymentDurationUnit(self): # string
+		return self.get_query_params().get('PaymentDurationUnit')
+
+	def set_PaymentDurationUnit(self, PaymentDurationUnit):  # string
+		self.add_query_param('PaymentDurationUnit', PaymentDurationUnit)
+	def get_PaymentType(self): # string
+		return self.get_query_params().get('PaymentType')
+
+	def set_PaymentType(self, PaymentType):  # string
+		self.add_query_param('PaymentType', PaymentType)
+	def get_PageNumber(self): # integer
+		return self.get_query_params().get('PageNumber')
+
+	def set_PageNumber(self, PageNumber):  # integer
+		self.add_query_param('PageNumber', PageNumber)
+	def get_EcsSpec(self): # string
+		return self.get_query_params().get('EcsSpec')
+
+	def set_EcsSpec(self, EcsSpec):  # string
+		self.add_query_param('EcsSpec', EcsSpec)
+	def get_Order(self): # string
+		return self.get_query_params().get('Order')
+
+	def set_Order(self, Order):  # string
+		self.add_query_param('Order', Order)
+	def get_Status(self): # string
+		return self.get_query_params().get('Status')
+
+	def set_Status(self, Status):  # string
+		self.add_query_param('Status', Status)
