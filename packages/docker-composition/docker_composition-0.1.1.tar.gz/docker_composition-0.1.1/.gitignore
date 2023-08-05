@@ -1,0 +1,7 @@
+venv/*
+*.egg-info/*
+build/*
+dist/*
+local_test/*
+.idea/*
+**/__pycache__/*
