@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: intake-ids
+Version: 0.0.1
+Summary: description for intake-ids here
+Home-page: https://example.org
+Author: Omer Erdinc Yagmurlu
+Author-email: omeryagmurlu@gmail.com
+License: MIT
+Project-URL: Documentation, https://example.org
+Project-URL: Source, https://example.org
+Project-URL: Tracker, https://example.org
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
