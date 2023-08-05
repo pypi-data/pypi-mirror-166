@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cloud_io
+Version: 1.0.1
+Summary: Handle I/O from cloud buckets
+Home-page: https://github.com/akouete-kpakpo/cloud_io
+Author: (c) Akouete Kpakpo
+Author-email: adkevinkpakpo@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cloud_io
+
+## Purpose
+Handle I/O from cloud buckets
+
+
