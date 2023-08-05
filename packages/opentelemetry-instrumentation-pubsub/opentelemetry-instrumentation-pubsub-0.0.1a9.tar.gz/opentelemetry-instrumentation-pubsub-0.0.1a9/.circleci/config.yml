@@ -1,0 +1,65 @@
+version: 2.1
+
+defaults: &defaults
+  working_directory: ~/lib
+  docker:
+    - image: cimg/python:3.10
+
+commands:
+  install_deps:
+    steps:
+      - run:
+          name: Install dev dependencies
+          command: |
+            python3 -m venv ~/venv
+            . ~/venv/bin/activate
+      - run:
+          name: Install Python packages
+          command: make install
+
+jobs:
+  lint:
+    <<: *defaults
+    steps:
+      - checkout
+      - install_deps
+      - run: make lint
+  test:
+    <<: *defaults
+    steps:
+      - checkout
+      - install_deps
+      - run: make test
+      - store_test_results:
+          path: report.xml
+  release:
+    <<: *defaults
+    steps:
+      - checkout
+      - install_deps
+      - run:
+          name: Create release
+          command: |
+            pip install -q build
+            make release
+
+workflows:
+  test-release:
+    jobs:
+      - lint:
+          filters:
+            tags:
+              only: /.*/
+      - test:
+          filters:
+            tags:
+              only: /.*/
+      - release:
+          requires:
+            - lint
+            - test
+          filters:
+            tags:
+              only: /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
+            branches:
+              ignore: /.*/
