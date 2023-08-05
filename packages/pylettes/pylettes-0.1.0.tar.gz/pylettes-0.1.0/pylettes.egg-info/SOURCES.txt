@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pylettes/__init__.py
+pylettes/_version.py
+pylettes/base.py
+pylettes/categorical.py
+pylettes/sequential.py
+pylettes/utils.py
+pylettes.egg-info/PKG-INFO
+pylettes.egg-info/SOURCES.txt
+pylettes.egg-info/dependency_links.txt
+pylettes.egg-info/not-zip-safe
+pylettes.egg-info/requires.txt
+pylettes.egg-info/top_level.txt
