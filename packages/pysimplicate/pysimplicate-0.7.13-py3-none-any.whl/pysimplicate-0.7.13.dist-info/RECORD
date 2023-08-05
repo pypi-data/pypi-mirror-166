@@ -1,0 +1,14 @@
+pysimplicate/__init__.py,sha256=sVNx4XGxb6cP3szcgdKQicB_6upR1RErGkczpvULP54,35
+pysimplicate/_crm.py,sha256=un_sjEdfmgTbATTcRLJrKblt-03mYEPO8RCRkCQopJ0,262
+pysimplicate/_hours.py,sha256=bGz1u5Ojx3UUpVwnJf7JJDvzggUTcpPAqEiay3MzcWs,2259
+pysimplicate/_hrm.py,sha256=jbJ_-mhxGOMHfVko6MxyIycs6fJd_OtLb1SMVuhypi8,4136
+pysimplicate/_invoices.py,sha256=OReE_pPw5NYoCa6V8uMlv86JtZrHQA_DIG_i19ixUz8,1576
+pysimplicate/_projects.py,sha256=4RwRwdDapIxvsesW_SOfEgy5bXaoWlMeV63zpa2gdug,2000
+pysimplicate/_sales.py,sha256=McTt5MqwLozg2E6T2sqn1c-fpOLZvEL-QcHtaSYWpkw,1393
+pysimplicate/_service.py,sha256=9WTgDIC2LOsZxAO1EW7Lz_NXdEwy87vT1E2PdPnAcYo,120
+pysimplicate/simplicate.py,sha256=LJxMAP9FY152a0JWt4-SGfWYCg1kkuN8my4qua0LauM,7124
+pysimplicate-0.7.13.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+pysimplicate-0.7.13.dist-info/METADATA,sha256=a_6sbjwEMUzi9Bq3cvSOJnEE5eXaPXohyTARGFRRjrc,969
+pysimplicate-0.7.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysimplicate-0.7.13.dist-info/top_level.txt,sha256=vDZccmKut6EzVb9-MZiTufWP8FKBWVPMDbqCwK-joO4,13
+pysimplicate-0.7.13.dist-info/RECORD,,
