@@ -1,0 +1,2 @@
+[console_scripts]
+123tv-iptv = 123tv_iptv:main
