@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/jupyter_jsonnet/__init__.py
+src/jupyter_jsonnet/kernel.py
+src/jupyter_jsonnet/post_install.py
+src/jupyter_jsonnet.egg-info/PKG-INFO
+src/jupyter_jsonnet.egg-info/SOURCES.txt
+src/jupyter_jsonnet.egg-info/dependency_links.txt
+src/jupyter_jsonnet.egg-info/requires.txt
+src/jupyter_jsonnet.egg-info/top_level.txt
+src/jupyter_jsonnet/tests/__init__.py
+src/jupyter_jsonnet/tests/test_kernel.py

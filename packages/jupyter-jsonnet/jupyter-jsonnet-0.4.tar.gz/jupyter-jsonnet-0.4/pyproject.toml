@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools > 40.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jupyter-jsonnet"
+description = "A simple Jsonnet kernel for Jupyter"
+readme = "README.md"
+license = {text = 'MIT'}
+classifiers = [
+    "Framework :: Jupyter",
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = ["ipykernel", "jsonnet", "jupyter_client", "notebook"]
+version = "0.4"
+authors = [
+    {email = "aaron@aaronbentley.com", name = "Aaron Bentley"},
+]
+[project.urls]
+repository = "https://github.com/abentley/jupyter-jsonnet"
