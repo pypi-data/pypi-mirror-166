@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+BracketFormatter/BracketFormatter.py
+BracketFormatter/__init__.py
+BracketFormatter.egg-info/PKG-INFO
+BracketFormatter.egg-info/SOURCES.txt
+BracketFormatter.egg-info/dependency_links.txt
+BracketFormatter.egg-info/top_level.txt
