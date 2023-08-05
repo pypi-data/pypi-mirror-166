@@ -1,0 +1,11 @@
+latexdocs/__init__.py,sha256=l3RoS9n3b23oaWSAmtdAMRWuxHk1jBtSADLd_UrnGM0,188
+latexdocs/base.py,sha256=f2mkcyuNeu6Kclm5S7v_NYxeqL4otfP1tKZBd_4s8IQ,1535
+latexdocs/document.py,sha256=g4ygYR1rxE7IGZmuUkZhQHIAtfoxxXtx6e9JKuHoRgU,7651
+latexdocs/items.py,sha256=h3DS8nPZpLCdOxcgnAAr3wKd4hb56Ffi7A7EKR1aRGk,7539
+latexdocs/preamble.py,sha256=9Qc3g-zCrBBYtR-y63TJH25JZhscVKT914wXJdPWRYo,1902
+latexdocs/utils.py,sha256=GgYKWXH5nKRuVS9uVX-3NeoRT4-wLRasNa9zWta2SwI,3942
+latexdocs-0.0.1.dist-info/LICENSE,sha256=ttvlTf2Q8NiS6a_dYpAqWooWSZU-Zzf1rv27B6QRMI4,1098
+latexdocs-0.0.1.dist-info/METADATA,sha256=8BTnqbDshzpGbPCjAsFmYUCq0Sc1K62iLsaH4Of2j-A,5122
+latexdocs-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+latexdocs-0.0.1.dist-info/top_level.txt,sha256=zrP7GrVSiV9yOU8Ijsy5D8oT22zgkY6XV3JaaSkay0Y,10
+latexdocs-0.0.1.dist-info/RECORD,,
