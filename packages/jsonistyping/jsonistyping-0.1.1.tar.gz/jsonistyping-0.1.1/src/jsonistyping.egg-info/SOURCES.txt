@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/__init__.py
+src/jsonistyping/__init__.py
+src/jsonistyping.egg-info/PKG-INFO
+src/jsonistyping.egg-info/SOURCES.txt
+src/jsonistyping.egg-info/dependency_links.txt
+src/jsonistyping.egg-info/top_level.txt
+src/jsonistyping/errors/__init__.py
+src/jsonistyping/errors/validation.py
+src/jsonistyping/input/__init__.py
+src/jsonistyping/input/base.py
+src/jsonistyping/output/__init__.py
+src/jsonistyping/output/base.py
