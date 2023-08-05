@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: threshold-detect
+Version: 1.1.0
+Summary: UNKNOWN
+Author: Huang Bo-Xuan
+Author-email: r09142003@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyaudio
+Requires-Dist: array
+
+UNKNOWN
+
