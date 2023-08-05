@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pylanggetter
+Version: 0.1.0
+Summary: Tiny utility to help you download Dofus Retro Lang files
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
