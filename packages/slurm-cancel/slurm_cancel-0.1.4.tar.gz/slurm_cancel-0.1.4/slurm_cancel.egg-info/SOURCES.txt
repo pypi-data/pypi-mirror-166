@@ -1,0 +1,7 @@
+setup.py
+slurm_cancel/__init__.py
+slurm_cancel/utils.py
+slurm_cancel.egg-info/PKG-INFO
+slurm_cancel.egg-info/SOURCES.txt
+slurm_cancel.egg-info/dependency_links.txt
+slurm_cancel.egg-info/top_level.txt
