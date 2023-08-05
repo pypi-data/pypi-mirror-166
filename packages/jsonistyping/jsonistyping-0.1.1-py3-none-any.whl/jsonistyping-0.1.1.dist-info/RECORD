@@ -1,0 +1,13 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonistyping/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonistyping/errors/__init__.py,sha256=evLaZX66AIG55newbL6PCpki3R4sSBnp-nWZLtcnb_w,25
+jsonistyping/errors/validation.py,sha256=J2JqdJbQDtzDdkakjCPIEH7TkHYE7esg0WZn_Moa4c0,879
+jsonistyping/input/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonistyping/input/base.py,sha256=oS4Pz6U2CyOhAjAcAnmg_8RLF8yqvldZuEtCbByJvB8,5313
+jsonistyping/output/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonistyping/output/base.py,sha256=P2XjZS-RWhabS6re_f3HBR807glZJxYei76gr-jQlGg,738
+jsonistyping-0.1.1.dist-info/LICENSE.md,sha256=_h-KCU9gGlGbE7bg5iH6YbIc3qL7tYvlnGx9qZodHL4,1067
+jsonistyping-0.1.1.dist-info/METADATA,sha256=Qz6Yl9MDCfLfm7ikt-jkRUbd6wsK_5lxja8n2PKF6rE,757
+jsonistyping-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jsonistyping-0.1.1.dist-info/top_level.txt,sha256=k7MxogA0JrpBcdjGdhhKbAGfgLAs56DsJy-1z4DNzFc,22
+jsonistyping-0.1.1.dist-info/RECORD,,
