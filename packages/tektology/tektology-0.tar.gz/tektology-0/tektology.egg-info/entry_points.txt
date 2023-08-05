@@ -1,0 +1,3 @@
+[console_scripts]
+tek = tek.__main__:main
+tektology = tektology.__main__:main

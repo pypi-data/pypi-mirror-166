@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+tektology/__init__.py
+tektology/__main__.py
+tektology/utils.py
+tektology.egg-info/PKG-INFO
+tektology.egg-info/SOURCES.txt
+tektology.egg-info/dependency_links.txt
+tektology.egg-info/entry_points.txt
+tektology.egg-info/requires.txt
+tektology.egg-info/top_level.txt
