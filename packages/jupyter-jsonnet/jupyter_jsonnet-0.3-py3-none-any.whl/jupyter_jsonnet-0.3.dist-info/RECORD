@@ -1,0 +1,10 @@
+jupyter_jsonnet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyter_jsonnet/kernel.py,sha256=u0ruptu4BKffY-YH74Xm-P162oHGSsS4yyzy18Xay9w,7187
+jupyter_jsonnet/post_install.py,sha256=WSHeY8SGXx8nEDcKyp0MTk6OsAHlySAXD1OteGZW1qU,609
+jupyter_jsonnet/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyter_jsonnet/tests/test_kernel.py,sha256=ZsVVJ5Cwq57tZIffDObA1l_u0O8mqqryVe1WxKqQRQA,3617
+jupyter_jsonnet-0.3.dist-info/LICENSE,sha256=0hwY0J6JW1VCsBnzTzUOdHxd8x2MLU0TVTPAErIWCEw,1053
+jupyter_jsonnet-0.3.dist-info/METADATA,sha256=LNh6gV7RynO68IE-d6aH4JipALSwW2b37HjT2SmXUlM,1515
+jupyter_jsonnet-0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jupyter_jsonnet-0.3.dist-info/top_level.txt,sha256=77pRRznY08UiguCjR9fYIhBFiTAtSFA6n9oX9y3awH0,16
+jupyter_jsonnet-0.3.dist-info/RECORD,,
