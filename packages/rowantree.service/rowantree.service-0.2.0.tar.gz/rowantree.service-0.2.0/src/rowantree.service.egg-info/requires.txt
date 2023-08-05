@@ -1,0 +1,4 @@
+fast-api
+mysql-connector-python
+starlette
+pydantic>=1.9.0
