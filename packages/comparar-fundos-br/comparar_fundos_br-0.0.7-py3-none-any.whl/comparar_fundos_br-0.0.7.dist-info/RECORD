@@ -1,0 +1,15 @@
+comparar_fundos_br/README.md,sha256=00_rBOTgUp-vYxyTKYcrQuESvVU_MebpTFSVIkM-65c,11297
+comparar_fundos_br/__init__.py,sha256=ZhN33CSyngYdw6RimLqAjjE5DzxqWGesDxYxXvH83Ik,159
+comparar_fundos_br/benchmarks.py,sha256=QlHmYnYBPR5C4rzoXZZ6GCWiDcB9mX_PxWDoCfYti0g,3648
+comparar_fundos_br/comparador.py,sha256=AIHjh6yRisIUytSOX3xsGUiT5MkJHaRky1VX9gGxlS0,8390
+comparar_fundos_br/get_brfunds.py,sha256=1NzqRkrggNIvWnIvg-j-dW8rfi4TsOrX0j_MXzVYaXE,8169
+comparar_fundos_br/mypy.ini,sha256=SpvxvFsMqd8AelcZsMRH8KyypA1zEjSusPhmDb7LAoA,55
+comparar_fundos_br/poetry.lock,sha256=USfufkSew7Ght9ca3CQVt_Lo_0geR1g8etIghIQFKrQ,15258
+comparar_fundos_br/pyproject.toml,sha256=zDYl0Y5SRY51cUfcKt_hrvdkjMcjHaV0Zp6JpD7Ro9M,443
+comparar_fundos_br/requirements.txt,sha256=1lZEtYrTNZnT06qWGXVAIXgNQAF3EFNG6MQKXVT1aNg,3677
+comparar_fundos_br/setup.py,sha256=mFJPSRhbxRGNQ-9RVw-2uMhH8WgMXVQ3pgrCDXm4Gxo,1275
+comparar_fundos_br/version.py,sha256=uDkXQSo6OZ6xxWJYafNG1M-wMCv0YzRpH7L-CypTVKs,46
+comparar_fundos_br-0.0.7.dist-info/METADATA,sha256=uQ1pUqwmq5_0N6tKll1GTKxs2183onJYKR70TsLeGhI,11872
+comparar_fundos_br-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+comparar_fundos_br-0.0.7.dist-info/top_level.txt,sha256=CWu4lAPdvBBvjjaLCaAsdJEP0Vd6wwBz0AZ97SkmueM,19
+comparar_fundos_br-0.0.7.dist-info/RECORD,,
