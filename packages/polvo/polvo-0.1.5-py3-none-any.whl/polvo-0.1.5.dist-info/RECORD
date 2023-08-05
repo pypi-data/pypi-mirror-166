@@ -1,0 +1,16 @@
+polvo/__init__.py,sha256=NafvvvKiT0bkicvVufe8uC7SVgMMCu4crQcIKAWf20w,106
+polvo/_modidx.py,sha256=eAtr1jjEswEoEprv7mZ88cuqtkVOKUapfxmVDqr9VQg,9956
+polvo/common.py,sha256=89i20Hzv1m_57Dnymjt3gZ0G2EJ1eBJSH32yLVIahC0,3619
+polvo/core.py,sha256=exE-Mw-QgIPt-US-vOkna_ZSSjG6VFH9Lhy3Uori_BE,4293
+polvo/classification/__init__.py,sha256=9riIWma2SYuZI2GetNgquwGC7hlExoVTD8qRe1GhNHo,83
+polvo/classification/explorer.py,sha256=mZYRFLVOF8ZUrLMaW-EnrW4WAybFlqPbVXvvtYCBU6s,2180
+polvo/classification/baseline/__init__.py,sha256=DBouAWk5j9U_5zvpuXcEjomiqQHDwmRzYCtyBXMtBrk,23
+polvo/classification/baseline/baseline.py,sha256=v-ohTqqgUq28ges7VUxe6j0iw2GOulFpwOts4eu0yyg,1842
+polvo/segmentation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polvo/segmentation/core.py,sha256=2ofXxWn0XqAWbQ1uavMtWH3XvCw-HbToX0gPHJZVQfU,2228
+polvo-0.1.5.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+polvo-0.1.5.dist-info/METADATA,sha256=XzSQR2P_b1U-Wf0kvJqQg4LY_9_-vpz2YMgLcbJ6A4s,2145
+polvo-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+polvo-0.1.5.dist-info/entry_points.txt,sha256=BTXS9BlnK5cVIogD9lTCxd8rH-vrbSWpx1WAPXbHTsI,91
+polvo-0.1.5.dist-info/top_level.txt,sha256=qUXe6miVhovV2XKxffNNHas8zClRLRoPeXlKP5OfWBs,6
+polvo-0.1.5.dist-info/RECORD,,
