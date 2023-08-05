@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kodo-messenger-client
+Version: 0.0.1
+Summary: kodo_messenger_client
+Home-page: UNKNOWN
+Author: Roman Kodoch
+Author-email: kodochigovra@mail.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptdome
+Requires-Dist: pycryptdomex
+
+UNKNOWN
+
