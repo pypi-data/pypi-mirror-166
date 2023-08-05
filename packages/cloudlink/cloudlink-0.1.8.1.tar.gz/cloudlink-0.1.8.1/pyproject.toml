@@ -1,0 +1,18 @@
+[project]
+name = 'cloudlink'
+version = '0.1.8.1'
+authors = [
+  {name="MikeDev101", email="mikierules109@gmail.com"},
+]
+description = 'Server-side code for a powerful Scratch 3.0 websocket extension.'
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3"
+classifiers = [
+  'Programming Language :: Python :: 3',
+  'Operating System :: OS Independent'
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MikeDev101/cloudlink"
+"Documentation" = "https://hackmd.io/g6BogABhT6ux1GA2oqaOXA"
