@@ -1,0 +1,7 @@
+pyproject.toml
+setup.cfg
+shell.py
+avilabsutils_shell.egg-info/PKG-INFO
+avilabsutils_shell.egg-info/SOURCES.txt
+avilabsutils_shell.egg-info/dependency_links.txt
+avilabsutils_shell.egg-info/top_level.txt
