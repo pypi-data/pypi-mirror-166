@@ -1,0 +1,2 @@
+[console_scripts]
+ib = ibquant.cli.ib:main
