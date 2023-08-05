@@ -1,0 +1,2 @@
+[console_scripts]
+tiptop = tiptop._app:run
