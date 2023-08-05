@@ -1,0 +1,3 @@
+[console_scripts]
+zasca = zasca.main:run_cli
+

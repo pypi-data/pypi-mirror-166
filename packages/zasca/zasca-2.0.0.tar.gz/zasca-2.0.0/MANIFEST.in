@@ -1,0 +1,3 @@
+include zasca/data/queries.yaml
+include zasca/template/report_template.html
+include zasca/template/cyclonedx_template.json
