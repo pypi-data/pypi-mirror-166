@@ -1,0 +1,11 @@
+pip>=9
+setuptools>=26
+twine
+wheel>=0.29
+wikipedia
+pywikihow
+beautifulsoup4
+requests
+nltk
+black
+flake8
