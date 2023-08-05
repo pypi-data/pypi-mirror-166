@@ -1,0 +1,8 @@
+katze/__init__.py,sha256=8jnz8SqO1vHWEPH_RdZxIoe0rjxutvXWwSxPt-ZlGt4,210
+katze/fake/gateway.py,sha256=gXu2GCuKl5YdGKjUbmlDeWs-CDsQFVp9qbQ16m8U__0,1608
+katze/fake/http.py,sha256=Zvgv7UU6P-sUo_-1vb4HQB_hwBrgYxOcy7sWH4QtJ9Y,1087
+katze/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+katze-0.1.0.dist-info/LICENSE,sha256=77nbKQCviX-v077oa3rj-Cg3WJmpR3pP26BHNQf16dY,1068
+katze-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+katze-0.1.0.dist-info/METADATA,sha256=4Y79E5ddUc5kPGPDfvc25b6HaPscuq-ugol6bbtv5fk,314
+katze-0.1.0.dist-info/RECORD,,
