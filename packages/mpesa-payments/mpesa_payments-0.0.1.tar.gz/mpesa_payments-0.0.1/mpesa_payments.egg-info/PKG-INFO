@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mpesa-payments
+Version: 0.0.1
+Summary: Mpesa Payments Package For B2C and C2B
+Home-page: https://github.com/Developer-Felix/mpesa-payments-package
+Download-URL: https://github.com/Developer-Felix/mpesa-payments-package/archive/v_01.tar.gz
+Author: Felix Onjomba
+Author-email: onjombafelix1@gmail.com
+License: MIT
+Keywords: Mpesa Payments,Mpesa,Payments,B2C,C2B
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: License.txt
