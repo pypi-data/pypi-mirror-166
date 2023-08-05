@@ -1,0 +1,13 @@
+tensorboard>=2.0
+numpy>=1.19
+pandas>=1.0.0
+
+[excel]
+openpyxl
+xlwt
+xlrd
+
+[test]
+pytest
+pytest-cov
+torch>=1.6
