@@ -1,0 +1,12 @@
+ormedian_utils/.DS_Store,sha256=8vz73Fq4PU-jEviz1qmfAAxLcLEXgmFP4IingdLxwKg,6148
+ormedian_utils/__init__.py,sha256=0znfX2mlSsBRuOUIWJQ3U1M7rTrKNdVmBfIVfutDdWQ,244
+ormedian_utils/logger_config.py,sha256=1uOrrgcxBEgDTZEI3nK5HOQkRyVLyfVTWpyEqhdkpFw,1439
+ormedian_utils/move_spec_files.py,sha256=mcac0X-asYyX41nCUfQ58OyBIH8VR47MGIr79XP4_sg,3242
+ormedian_utils/my_app_2022_09_02.log,sha256=UxEeapTcgtfvW-D_tfWVFEMC7r-ZjBTGuzAe2ns86FE,91358
+ormedian_utils/resize_imgs.py,sha256=6JaI7ev23gDLLvUY7g2tc80DCOdmqtkvy2jOlBqRMnM,13736
+ormedian_utils/save_frames.py,sha256=m_VS0SavsIGTII0VDtJ4ggjaMNhAmj3_s-V3g0CObao,18190
+ormedian_utils/video_folder.py,sha256=ZyrJqO_MyzOYrX9b7MK6eF9vSHN6Ygy4fAXo_T99-7Y,3147
+ormedian_utils-0.1.dist-info/METADATA,sha256=ifsMB0VT_IRmQhI8V787b9Mn6OB3XLvso7tbAaXLf14,5423
+ormedian_utils-0.1.dist-info/WHEEL,sha256=U250AEW6QzA082uUZcdZvUBP5tPi0rU5Y_1cBYppwks,104
+ormedian_utils-0.1.dist-info/licenses/LICENSE,sha256=eWnxnIEqUrwDOipxJxWey6PXyuJ2NINREEZgbkTvGGI,32
+ormedian_utils-0.1.dist-info/RECORD,,
