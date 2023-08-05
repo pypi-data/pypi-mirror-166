@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+dethub/__init__.py
+dethub/data_utils.py
+dethub/file_utils.py
+dethub/model.py
+dethub/visualize.py
+dethub/yolox.py
+dethub.egg-info/PKG-INFO
+dethub.egg-info/SOURCES.txt
+dethub.egg-info/dependency_links.txt
+dethub.egg-info/requires.txt
+dethub.egg-info/top_level.txt
