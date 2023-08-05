@@ -1,0 +1,10 @@
+pytest>=6.0
+pytest-cov>=3.0
+mypy>=0.910
+tox>=3.24
+pre-commit
+types-requests
+vcrpy
+pytest-vcr
+black==22.6.0
+sphinx
