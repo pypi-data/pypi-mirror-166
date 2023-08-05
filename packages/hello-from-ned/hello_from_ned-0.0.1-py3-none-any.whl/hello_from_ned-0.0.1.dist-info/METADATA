@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hello-from-ned
+Version: 0.0.1
+Summary: Hello from NED
+Author: Adnan Khan
+Author-email: <mail@abc.com>
+Keywords: python,hello,ned
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
