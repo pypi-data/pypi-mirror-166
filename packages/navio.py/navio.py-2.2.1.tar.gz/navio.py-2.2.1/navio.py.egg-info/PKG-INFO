@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: navio.py
+Version: 2.2.1
+Summary: Simple API Wrapper for the Navio API
+Home-page: https://github.com/mrbean565/navio.py
+Author: Bean
+Author-email: bean@okayge.xyz
+License: GNU
+Keywords: api wrapper
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Navio-Integration
+Python Module and Discord bot for Navio, the ETS2 job tracker.
+
+> You can use the python Module [here](https://pypi.org/project/navio.py/)
+
+## The Bot
+Add drivers, remove drivers, view drivers, view jobs, setup webhooks, and much, much more. 
+
+
