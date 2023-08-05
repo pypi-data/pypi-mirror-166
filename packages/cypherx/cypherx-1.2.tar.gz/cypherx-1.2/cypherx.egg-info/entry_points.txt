@@ -1,0 +1,2 @@
+[console_scripts]
+cypherx = cypherx.cli:main
