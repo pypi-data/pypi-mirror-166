@@ -1,0 +1,5 @@
+pyusb
+inflection
+
+[docs]
+sphinx-rtd-theme
