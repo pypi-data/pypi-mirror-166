@@ -1,0 +1,3 @@
+[console_scripts]
+zteb = zteb.cli.main:cli_group
+
