@@ -1,0 +1,13 @@
+highspy/highs_bindings.cpython-37m-x86_64-linux-gnu.so,sha256=t-fu5cJi3l8vsVC9vcMVtAkj9bSMns0J0Lec7xSmktE,946816
+highspy/__init__.py,sha256=tHtMzk9lMS3s98IE-8SkgPudJP_U9z4ERoLYa-c0c6g,449
+highspy/highs_bindings.cpp,sha256=NAv2sn_5o01qlzVArduOsGqT_x3ze61HG2eSjzGXURk,31557
+highspy/highs.py,sha256=TpxGTohV5C-BWWMY0PGA1MJaK9sIC7LtxQpRuhcW0f8,824
+highspy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+highspy/tests/test_highspy.py,sha256=_CGN-3Q_QN1Bx239wmbsIS3jTxAzGOQ43WUfEZXeM3Q,8514
+highspy-1.1.2.dev3.dist-info/WHEEL,sha256=pfhjag4-d_Mdnoq0kvuT9UBn9CnXMYMpmQd_LOB5Bk0,112
+highspy-1.1.2.dev3.dist-info/METADATA,sha256=1FLMuUa8iKdmWwudmv6T0XhkoFw0xvbb8oBdkv193Ec,576
+highspy-1.1.2.dev3.dist-info/RECORD,,
+highspy-1.1.2.dev3.dist-info/top_level.txt,sha256=CCLmVcJJAA7KzHtPuazFdg8oEynKmc1ROuTvyRJjH1E,8
+highspy.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
+highspy.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
+highspy.libs/libhighs-093e098a.so.1.2.2,sha256=3ajvkSwqlahPz-dqBMu1PnEQs2vgdu8aTsHJ8hyjdRU,4874856
