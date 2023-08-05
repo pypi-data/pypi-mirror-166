@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: opentelemetry-instrumentation-pubsub
+Version: 0.0.1a6
+Summary: Instrument Open Telemetry tracing within the GCP PubSub library
+Author: Tom Bennett
+Author-email: tombennett86@hotmail.co.uk
+Maintainer-email: Tom Bennett <tombennett86@hotmail.co.uk>
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: opentelemetry-api (~=1.12)
+Requires-Dist: opentelemetry-instrumentation (==0.33b0)
+Requires-Dist: google-cloud-pubsub (~=2.13)
+Requires-Dist: wrapt (~=1.14)
+Provides-Extra: dev
+Requires-Dist: black (==22.3.0) ; extra == 'dev'
+Requires-Dist: isort (==5.10.1) ; extra == 'dev'
+Requires-Dist: twine (==4.0.0) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: flake8 (==4.0.1) ; extra == 'test'
+Requires-Dist: pytest (==7.1.2) ; extra == 'test'
+Requires-Dist: pytest-mock (==3.8.2) ; extra == 'test'
+Requires-Dist: wrapt (~=1.14) ; extra == 'test'
+Requires-Dist: opentelemetry-test-utils (==0.33b0) ; extra == 'test'
+Requires-Dist: google-cloud-pubsub (~=2.13) ; extra == 'test'
+
+# Open Telemetry GCP PubSub Instrumentation for Python
+
+This package provides automatic instrumentation for the [`google-cloud-pubsub`](https://pypi.org/project/google-cloud-pubsub/) client library.
+
+## Installation
+```bash
+pip install opentelemetry-instrumentation-pubsub
+```
+
+## Usage
+Initiate the instrumentor after configuring your [Open Telemetry](https://opentelemetry.io/docs/instrumentation/python/manual/) trace provider.
+
+```python
+from google.cloud import pubsub_v1
+from pubsub_opentelemetry import PubSubInstrumentationProvider
+
+
+# Instrument PubSub
+PubSubInstrumentationProvider().instrument()
+
+# Publish creates a span with PubSub specific attributes
+with pubsub_v1.PublisherClient() as publisher:
+    publisher.publish(topic_name, b'My first message!')
+
+# Subscribe propagates the context from the received message
+with pubsub_v1.SubscriberClient() as subscriber:
+    subscriber.subscribe(subscription_name, callback)
+```
+---
+
+[License](LICENSE)
