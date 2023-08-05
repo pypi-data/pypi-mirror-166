@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flace"
+version = "0.0.2"
+description = "flace - Find and repLACE editing tools for python"
+license = {file = "LICENSE"}
+readme = "README.rst"
+dependencies = []
+
