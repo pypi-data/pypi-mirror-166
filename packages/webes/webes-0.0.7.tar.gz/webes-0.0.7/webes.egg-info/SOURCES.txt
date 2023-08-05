@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+webes/__init__.py
+webes/server_net.py
+webes.egg-info/PKG-INFO
+webes.egg-info/SOURCES.txt
+webes.egg-info/dependency_links.txt
+webes.egg-info/requires.txt
+webes.egg-info/top_level.txt

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: webes
+Version: 0.0.7
+Summary: Python module for writing websites.Two It 2022 (two-it.netlify.app API wrapper)
+Home-page: https://github.com/TwoIt202/Webes
+Download-URL: https://github.com/TwoIt202/Webes/raw/6156c6d5a764dba21d6743a90268772df5558fde/webes.zip
+Author: two-it2022
+Author-email: kodland.group@gmail.com
+License: Apache License, Version 1.7, see LICENSE file
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+
+Python module for Two It project
+                  management platform (TwoIt API wrapper)
