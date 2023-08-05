@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+gver/__init__.py
+gver.egg-info/PKG-INFO
+gver.egg-info/SOURCES.txt
+gver.egg-info/dependency_links.txt
+gver.egg-info/top_level.txt
