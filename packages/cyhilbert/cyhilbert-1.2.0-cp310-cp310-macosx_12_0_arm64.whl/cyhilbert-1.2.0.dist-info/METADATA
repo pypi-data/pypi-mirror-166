@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: cyhilbert
+Version: 1.2.0
+Summary: A cythonized version of that one hilbert function you keep copy-pasting.
+Home-page: https://github.com/invisiblefunnel/cyhilbert
+Author: Danny Whalen
+Author-email: daniel.r.whalen@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: tests
+Requires-Dist: hilbertcurve ; extra == 'tests'
+
+# cyhilbert
+
+A cythonized version of that one hilbert function you keep copy-pasting. See the original implementation of [Hilbert curves in O(log(n)) time](http://threadlocalmutex.com/?p=126). Inputs must be in the range 0 to 2^16-1, inclusive.
+
+```python
+from cyhilbert import hilbert, DIMS, BITS_PER_DIM, MAX
+
+DIMS #=> 2
+BITS_PER_DIM #=> 16
+MAX #=> 65535
+
+hilbert(0, 0) #=> 0
+hilbert(1, 0) #=> 1
+hilbert(1, 1) #=> 2
+hilbert(0, 1) #=> 3
+hilbert(0, 2) #=> 4
+hilbert(0, 3) #=> 5
+hilbert(1, 3) #=> 6
+hilbert(1, 2) #=> 7
+```
