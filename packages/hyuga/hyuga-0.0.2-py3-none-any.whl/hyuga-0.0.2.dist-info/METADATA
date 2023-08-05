@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: hyuga
+Version: 0.0.2
+Summary: Hyuga - Yet another hy language server
+Home-page: https://github.com/sakuraiyuta/hyuga
+Author: Yuuta Sakurai
+Author-email: sakurai.yuta@gmail.com
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.original
+Requires-Dist: hy
+Requires-Dist: hyrule
+Requires-Dist: toolz
+Requires-Dist: pygls
+
+Hyuga - Yet Another Hy Language Server
+======================================
+
+[![PyPI version](https://badge.fury.io/py/hyuga.svg)](https://badge.fury.io/py/hyuga)
+
+Forked from [hy-language-server](https://github.com/rinx/hy-language-server).
+
+Verified-working Hy version: 0.24.0
+
+This program is **experimental**. Do not use for production.
+
+## Feature
+
+- `textDocument/completion`
+- `textDocument/hover`
+- `textDocument/did{Open,Change}`
+
+## Screenshots
+
+![Hyuga sample movie](https://raw.githubusercontent.com/sakuraiyuta/hyuga/images/hyuga-image.gif)
+
+
+## Install
+
+TODO: implement
+
+## license
+
+MIT
