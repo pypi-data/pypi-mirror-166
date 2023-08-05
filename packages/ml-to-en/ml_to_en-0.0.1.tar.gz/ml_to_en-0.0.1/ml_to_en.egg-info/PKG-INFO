@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ml-to-en
+Version: 0.0.1
+Summary: A python based linguistic tool that transliterates words from Malayalam script to English script
+Home-page: https://github.com/erose311/ml_to_en
+Download-URL: https://github.com/erose311/ml_to_en
+Author: Elaine Mary Rose
+Author-email: ammuelaine@gmail.com
+License: GPLv3
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.9
