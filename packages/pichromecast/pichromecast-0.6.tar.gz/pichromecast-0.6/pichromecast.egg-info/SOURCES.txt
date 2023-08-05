@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pichromecast.py
+setup.py
+pichromecast.egg-info/PKG-INFO
+pichromecast.egg-info/SOURCES.txt
+pichromecast.egg-info/dependency_links.txt
+pichromecast.egg-info/top_level.txt
