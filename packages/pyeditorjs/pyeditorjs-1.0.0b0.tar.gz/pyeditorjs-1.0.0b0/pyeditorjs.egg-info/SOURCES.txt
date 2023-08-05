@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pyeditorjs/__init__.py
+pyeditorjs/blocks.py
+pyeditorjs/exceptions.py
+pyeditorjs/parser.py
+pyeditorjs.egg-info/PKG-INFO
+pyeditorjs.egg-info/SOURCES.txt
+pyeditorjs.egg-info/dependency_links.txt
+pyeditorjs.egg-info/top_level.txt
