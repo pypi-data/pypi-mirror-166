@@ -1,0 +1,12 @@
+juandb/__init__.py,sha256=aThLz742FejF8szZAa9inxM5OwmnoVhXSgwA-0s5Bkw,248
+juandb/client/__init__.py,sha256=y_GT12nFPw7OJ_yO2MviZ7q2FpiZ3EHv-XOxWhap-70,93
+juandb/client/base.py,sha256=uf2jpEd_wmocApB29PdZRRlxg-bVgmwWxwcOa6vePaA,10775
+juandb/client/exceptions.py,sha256=Qr6Ywal-I3FbxbQvWObgkKE_cXYXkNGmbiAaG56XfJw,1377
+juandb/client/main.py,sha256=bqE2YNQ7zMpaqTD4srcec0eOYXrgnmZ0gcKyDYlAbWA,17044
+juandb/const/__init__.py,sha256=52z30Mt5wCT3ySXJ5swuuKIsBJ8EbQSg7XPdu4TqQ_A,898
+juandb/const/bahador_const.py,sha256=utnAzhdS3cycGDzCcLDgXylzBSayPi0ltKVJrzUDO5s,65330
+juandb/const/wallex_const.py,sha256=RLRsci3BvyjqjXhafYgc3a5IoRXO1BxeZcb_Dch_Wg8,50059
+juandb-0.2.1.dist-info/METADATA,sha256=sQuaHNHGw9R2fhCzFv8a_jt7Qji6Qp4QljzM5VK7SMs,952
+juandb-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+juandb-0.2.1.dist-info/top_level.txt,sha256=jMXF9XAvInvnlfqd7mGdaeNhSd2IXINFMhDxyn24AFI,7
+juandb-0.2.1.dist-info/RECORD,,
