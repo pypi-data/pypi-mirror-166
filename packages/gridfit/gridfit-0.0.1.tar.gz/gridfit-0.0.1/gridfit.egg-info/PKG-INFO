@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gridfit
+Version: 0.0.1
+Summary: A Python port of the gridfit function in MATLAB exchange.
+Home-page: https://github.com/TK-21st/PyGridFit
+Author: Tingkai Liu
+Author-email: tingkai.liu@columbia.edu
+License: BSD license
+Keywords: gridfit
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+License-File: LICENSE
