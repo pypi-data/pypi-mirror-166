@@ -1,0 +1,75 @@
+# Paper-Secret
+
+Shamir Secret Sharing on paper using gfshare.
+
+## Installation
+
+### PyPi
+
+* https://pypi.org/project/paper-secret/
+
+### Dependencies
+
+Required and optional dependencies with example how to install them for Arch Linux.
+
+`gfshare` is required to split (`enpaper`) and merge (`depaper`) the secret.
+See `man gfshare` for an explanation of Shamir Secret Sharing in gf(2**8).
+
+```shell
+sudo pacman -S --needed libgfshare
+```
+
+`qrencode` and `imagemagick` (`convert`) are required to create and merge QR-codes during the split process.
+One can pass `-q` to `enpapaer` to skip this step.
+
+```shell
+sudo pacman -S --needed qrencode imagemagick
+```
+
+`enscript` and `ghostscript` (`ps2pdf`) are required to create a PDF containing the split secret in text form.
+One can pass `-t` to `enpaper` to skip this step.
+
+```shell
+sudo pacman -S --needed enscript ghostscript
+```
+
+## Usage
+
+Create a file with secret content:
+
+```shell
+cat > secret.txt
+```
+
+Split the secret into 5 lines:
+
+```shell
+enpaper secret.txt
+```
+
+Manually delete up to 2 of the 5 lines in `secret.txt_txt.txt`.
+
+Then recreate the secret:
+
+```shell
+depaper secret.txt.split-text.txt
+```
+
+Print the secret:
+
+```shell
+cat secret.txt.split-text.txt.merged.txt
+```
+
+## Notes
+
+* https://en.wikipedia.org/Shamir's_Secret_Sharing
+
+Manually reconstructing the secret from k strings:
+
+* For each string of the k strings
+  * Create a file which name begins with `part` and ends with a dot and the first three characters of the string
+    * For example `part.112`
+  * Convert the 3rd to last character from base64 to binary and insert it into the file
+* Execute `gfcombine part.*`
+* The file `part` contains the reconstructed secret
