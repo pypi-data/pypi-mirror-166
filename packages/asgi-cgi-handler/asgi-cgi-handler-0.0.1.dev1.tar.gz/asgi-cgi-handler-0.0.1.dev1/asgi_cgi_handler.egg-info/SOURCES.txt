@@ -1,0 +1,14 @@
+MANIFEST.in
+README.markdown
+setup.py
+asgi_cgi/__init__.py
+asgi_cgi/handler.py
+asgi_cgi/py.typed
+asgi_cgi/typing.py
+asgi_cgi/utils.py
+asgi_cgi/version.py
+asgi_cgi_handler.egg-info/PKG-INFO
+asgi_cgi_handler.egg-info/SOURCES.txt
+asgi_cgi_handler.egg-info/dependency_links.txt
+asgi_cgi_handler.egg-info/requires.txt
+asgi_cgi_handler.egg-info/top_level.txt
