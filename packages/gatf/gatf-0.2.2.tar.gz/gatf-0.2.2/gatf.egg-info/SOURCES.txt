@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+gatf/__init__.py
+gatf/algorithms.py
+gatf/operators.py
+gatf/population.py
+gatf.egg-info/PKG-INFO
+gatf.egg-info/SOURCES.txt
+gatf.egg-info/dependency_links.txt
+gatf.egg-info/top_level.txt
