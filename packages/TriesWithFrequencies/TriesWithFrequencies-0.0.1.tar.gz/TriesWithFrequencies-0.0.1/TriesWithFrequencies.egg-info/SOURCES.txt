@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+TriesWithFrequencies/TriesWithFrequencies.py
+TriesWithFrequencies/__init__.py
+TriesWithFrequencies.egg-info/PKG-INFO
+TriesWithFrequencies.egg-info/SOURCES.txt
+TriesWithFrequencies.egg-info/dependency_links.txt
+TriesWithFrequencies.egg-info/top_level.txt
