@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: synapse_graph
+Version: 0.2
+Summary: This module shows a map of your home Matrix server.
+Author-email: foresle <foresle@tutanota.com>
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: pyvis >=0.2.1
+Project-URL: Home, https://gitlab.com/foresle/synapse_graph

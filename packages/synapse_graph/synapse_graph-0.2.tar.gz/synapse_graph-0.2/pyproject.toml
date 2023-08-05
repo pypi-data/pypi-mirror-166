@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "synapse_graph"
+authors = [{name = "foresle", email = "foresle@tutanota.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+dynamic = ["version", "description"]
+dependencies = [
+    "pyvis >=0.2.1"
+]
+
+[project.urls]
+Home = "https://gitlab.com/foresle/synapse_graph"
