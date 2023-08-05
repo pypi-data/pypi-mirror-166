@@ -1,0 +1,38 @@
+{% extends 'base/layout.html' %}
+{% load buttons %}
+{% load static %}
+{% load plugins %}
+{% load helpers %}
+
+{% block header %}
+
+    <link rel="stylesheet" type="text/css"  href="{%  static 'webssh/css/xterm.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'webssh/css/fullscreen.min.css' %}">
+
+<title>SSH</title>
+{% endblock %}
+
+
+
+
+
+{% block content %}
+
+<div class="title-container px-3 pb-3">
+    <div id="content-title">
+		<h1 class="h2 w-100">ssh term</h1>
+    </div>
+</div>
+
+
+<div class="tab-content">
+    <h3>Page content</h3>
+</div>
+
+{% endblock %}
+
+{% block javascript %}
+
+
+{% endblock %}
+

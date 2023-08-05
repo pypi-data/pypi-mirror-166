@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: netssh
+Version: 0.2.6
+Summary: NetBox WebSSH.
+Home-page: UNKNOWN
+Author: Maximqa
+Author-email: max.z.a2@yandex.ru
+License: UNKNOWN
+Keywords: netbox,netbox-plugin,plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# netssh
+
+
