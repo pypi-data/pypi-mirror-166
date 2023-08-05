@@ -1,0 +1,11 @@
+hadata/__init__.py,sha256=RkP5a1tFybmiULbHEaLg-sVFpcirDDNIHuXUw4uiJ3k,132
+hadata/answer.py,sha256=45PmeBxzoSjcxRkr8g22vlaDo8DywefILRRbvwQvGUg,3060
+hadata/assessment.py,sha256=OIuoYMMxihdoYrd8PAxJTM21xgV880wRiGuCzigDvI4,1810
+hadata/job.py,sha256=OlSyPcApFgwa350lMWyOMGuwZ_fWSgSLRLrxfv3oadM,1699
+hadata/meta.py,sha256=LYYBedY2N3KqkPt4AT2r1dd82FH-oUI7NWe71WZIYPY,1445
+hadata/user.py,sha256=GOdvPBs1LlkaCGpEj2brFKs2bJNrjiwRoKpIR697aiM,1428
+hadata-0.7.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hadata-0.7.0.dist-info/METADATA,sha256=B4CJtLnra47fLX7Xj7duMGo0gWzfROZSy0mWgMDPIP0,748
+hadata-0.7.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+hadata-0.7.0.dist-info/top_level.txt,sha256=_lx5sh5lYThQhStIVBVY7-HZGq0PPAmMGFCJ_ZXUqR0,7
+hadata-0.7.0.dist-info/RECORD,,
