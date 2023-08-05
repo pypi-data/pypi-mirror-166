@@ -1,0 +1,3 @@
+[console_scripts]
+pawnhub = pawnhub:pawnhub_cli
+
