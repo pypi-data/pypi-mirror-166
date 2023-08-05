@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: intent-suggestions
+Version: 0.1.0
+Summary: Early intent detection using n-gram language models
+Author: Ivan Kunyankin
+License: MIT License        
+        Copyright (c) 2022 Ivan Kunyankin        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/ivankunyankin/intent_suggestions
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Intent suggestions
+
+Early user intent detection using n-gram models
+
+<p align="center"><img src="img.png" width="50%"></p>
+
+The idea behind intent suggestions is similar to autofill when we use words that were typed to make predictions. But instead of predicting the next word, we try to detect the user's intent.
+
+The proposed approach uses `n` recursively initialised models. Each next model uses a smaller `n`. I.e. a model initialised with `n=3` will include three models (with `n=3`, `n=2` and `n=1`)
+This recursive approach allows to also take into account frequency counts from smaller n-grams in case there is no match for the parent model.
+
+### Usage
+
+```
+from model import IntentSuggester
+
+model = IntentSuggester()
+
+items = ["one two three four", "five six seven eight"]
+labels = ["intent_1", "intent_2"]
+
+model.fit(items, labels)
+
+print(model.predict("zero two three four"))
+```
+Output:
+```
+{'intent_1': 0.9902, 'intent_2': 0.0098}
+```
+
+### Notation
+
+According to the common notation, an n-gram language model uses `n-1` words to predict the next word.
+Given that we are trying to predict a user's intent rather the next word, we'll use a slightly different notation. `n` in our case will represent the number of words used to predict intent probabilities. So a 3-gram (or trigram) model will use three words to make predictions.
+
+### References
+
+The approach was insipred by [this](https://habr.com/ru/post/346578/) work
