@@ -1,0 +1,16 @@
+
+[build]
+wheel
+build
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[test]
+flake8
+isort
+mypy
+
+[viewer]
+jinja2
