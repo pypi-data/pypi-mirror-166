@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: kedro-onnx
+Version: 0.1.0
+Summary: Adds ONNX support to Kedro
+Home-page: https://pypi.org/project/kedro-onnx/
+Author: nickolasrm
+Author-email: nickolasrochamachado@gmail.com
+License: Apache-2.0
+Project-URL: Documentation, https://pyscaffold.org/
+Project-URL: Source, https://github.com/nickolasrm/kedro-onnx
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8
+Requires-Dist: kedro (==0.18.2)
+Requires-Dist: onnxmltools
+Requires-Dist: onnxconverter-common
+Requires-Dist: onnxruntime
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: pytest-tmpfs ; extra == 'dev'
+Requires-Dist: sklearn ; extra == 'dev'
+Requires-Dist: skl2onnx ; extra == 'dev'
+Requires-Dist: numpy ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-copybutton ; extra == 'dev'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'dev'
+Requires-Dist: furo ; extra == 'dev'
+Requires-Dist: sphinxcontrib-napoleon ; extra == 'dev'
+Requires-Dist: myst-parser ; extra == 'dev'
+Requires-Dist: sphinx-autoapi ; extra == 'dev'
+Requires-Dist: yapf ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-copybutton ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Requires-Dist: furo ; extra == 'docs'
+Requires-Dist: sphinxcontrib-napoleon ; extra == 'docs'
+Requires-Dist: myst-parser ; extra == 'docs'
+Requires-Dist: sphinx-autoapi ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+Requires-Dist: pytest-tmpfs ; extra == 'test'
+Requires-Dist: sklearn ; extra == 'test'
+Requires-Dist: skl2onnx ; extra == 'test'
+Requires-Dist: numpy ; extra == 'test'
+
