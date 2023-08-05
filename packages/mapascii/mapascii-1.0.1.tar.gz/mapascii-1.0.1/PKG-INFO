@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: mapascii
+Version: 1.0.1
+Summary: A small array-based class for maps
+Author: meiscool466
+Author-email: meiscool466@gmail.com
+Keywords: array class maps ascii
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+
+mapascii
+========
+
+A simple array-based class used for maps
+
+Installation
+------------
+
+.. line-block::
+
+  pip install mapascii
+
+Usage Example
+-------------
+
+.. code:: python
+
+  from mapascii import Map
+  
+  #create and display map
+  #Map(/, columns: int, rows: int, *, empty=' ', clear_screen=False, pixel_size=1)
+  map = Map(10, 10, empty='#', clear_screen=True)
+  map[5,5] = '$'
+  print(map)
+  
+  Output:
+  
+  ##########
+  ##########
+  ##########
+  ##########
+  ##########
+  #####$####
+  ##########
+  ##########
+  ##########
+  ##########
+  
+  Output was squashed because characters are half as wide as they are long.
