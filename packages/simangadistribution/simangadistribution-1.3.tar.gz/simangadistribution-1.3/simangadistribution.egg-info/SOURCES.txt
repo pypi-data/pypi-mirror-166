@@ -1,0 +1,12 @@
+README.md
+setup.py
+binomial_package/Binomialdistribution.py
+binomial_package/Gaussiandistribution.py
+binomial_package/Generaldistribution.py
+binomial_package/__init__.py
+binomial_package/test.py
+simangadistribution.egg-info/PKG-INFO
+simangadistribution.egg-info/SOURCES.txt
+simangadistribution.egg-info/dependency_links.txt
+simangadistribution.egg-info/not-zip-safe
+simangadistribution.egg-info/top_level.txt
