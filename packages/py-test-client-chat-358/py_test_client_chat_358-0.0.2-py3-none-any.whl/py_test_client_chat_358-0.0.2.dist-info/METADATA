@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: py-test-client-chat-358
+Version: 0.0.2
+Summary: Mess Client
+Author: Ivan Ivanov
+Author-email: iv.iv@yandex.ru
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycrypto
+
