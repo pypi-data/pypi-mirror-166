@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: napalm-oneaccess-oneos
+Version: 0.1.3
+Summary: NAPALM driver for Ekinops OneAccess devices over Telnet or SSH
+Home-page: https://github.com/napalm-automation/napalm-oneaccess_oneos
+Author: Robin Guillat
+Author-email: robin@guillat.com
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Networking
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+License-File: AUTHORS
+
+NAPALM driver for Ekinops OneAccess devicesConnection to the device is done through a SSH or telnet connection using the netmiko librairy.
