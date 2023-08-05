@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: salesplansuccess
+Version: 0.0.3
+Summary: This package helps estimate the probability of achieving the annual sales plan for a specific product based on historical monthly sales data with the help of ARIMA modeling and Monte Carlo simulation
+Home-page: https://github.com/yuryatin/salesplansuccess
+Download-URL: https://github.com/yuryatin/salesplansuccess/archive/refs/tags/v0.0.3.tar.gz
+License: MIT
+Keywords: sales,forecast,arima,simulation,pharma,medications,pharmacy,pharmaceutical,ics,offtake
+Platform: UNKNOWN
+
+UNKNOWN
+
