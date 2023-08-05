@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "consolechars"
+version = "0.0.3"
+authors = [
+  { name="AcronimZ", email="matvey.dibrov123@gmail.com" },
+]
+description = "Alphabet for Python"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://google.com/404/"
+"Bug Tracker" = "https://google.com/404/"
