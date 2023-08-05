@@ -1,0 +1,11 @@
+README.md
+setup.py
+dilligafDistribution/Binomialdistribution.py
+dilligafDistribution/Gaussiandistribution.py
+dilligafDistribution/Generaldistribution.py
+dilligafDistribution/__init__.py
+dilligafDistribution.egg-info/PKG-INFO
+dilligafDistribution.egg-info/SOURCES.txt
+dilligafDistribution.egg-info/dependency_links.txt
+dilligafDistribution.egg-info/not-zip-safe
+dilligafDistribution.egg-info/top_level.txt
