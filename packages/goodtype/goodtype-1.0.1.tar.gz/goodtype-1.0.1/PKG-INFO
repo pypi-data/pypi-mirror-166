@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: goodtype
+Version: 1.0.1
+Summary: A simple static type checker for the python language, created for the ClusterF*** blog
+Author: Prakhar Nagpal
+Author-email: thenextbigthingthidecade@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A simple type checker for python created to allow you to type check your python code. Developed for [this blog post on ClusterF\*\*\*](https://www.clusterf.co.uk/python/python-type-safety.html)

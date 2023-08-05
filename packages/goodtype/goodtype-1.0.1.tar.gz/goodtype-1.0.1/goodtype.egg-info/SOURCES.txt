@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+goodtype/__init__.py
+goodtype/main.py
+goodtype.egg-info/PKG-INFO
+goodtype.egg-info/SOURCES.txt
+goodtype.egg-info/dependency_links.txt
+goodtype.egg-info/entry_points.txt
+goodtype.egg-info/top_level.txt
