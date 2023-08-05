@@ -1,0 +1,3 @@
+[wai.annotations.plugins]
+from-common-voice-sp = wai.annotations.common_voice.specifier:CommonVoiceInputFormatSpecifier
+to-common-voice-sp = wai.annotations.common_voice.specifier:CommonVoiceOutputFormatSpecifier

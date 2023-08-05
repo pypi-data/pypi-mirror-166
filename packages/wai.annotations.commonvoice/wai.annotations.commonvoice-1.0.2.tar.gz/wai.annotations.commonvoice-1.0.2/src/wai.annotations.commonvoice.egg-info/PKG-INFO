@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: wai.annotations.commonvoice
+Version: 1.0.2
+Summary: Common Voice speech annotations format plugin for wai.annotations.
+Home-page: https://github.com/waikato-datamining/wai-annotations-commonvoice
+Author: Corey Sterling
+Author-email: coreytsterling@gmail.com
+License: Apache License Version 2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Common Voice speech annotations format plugin for wai.annotations.
+
+* `from-common-voice-sp`: reads speech transcriptions in the Mozilla Common-Voice TSV-format
+* `to-common-voice-sp`: writes speech transcriptions in the Mozilla Common-Voice TSV-format
+
+Changelog
+=========
+
+1.0.2 (2022-09-05)
+------------------
+
+- the expected header now uses *accents* rather than *accent* (but the reader accepts both)
+
+
+1.0.1 (2021-05-20)
+------------------
+
+- Fixed build.
+
+1.0.0 (2021-05-20)
+------------------
+
+- Initial release after separation from wai.annotations main repo.
