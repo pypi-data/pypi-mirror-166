@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: armory-api-lib
+Version: 1.1
+Summary: A Armory API Package
+Author-email: Rl242Dev <robin.lachand@gmail.com>
+Project-URL: Homepage, https://github.com/Rl242Dev/ArmoryTools
+Project-URL: documentation, https://github.com/Rl242Dev/ArmoryTools#readme
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# ArmoryAPI Python Package
+
+#### Download from Github📥 : 
+    
+    pip install
+    
+    pipy Link
+    
+
+#### Usage/Doc 🔧: 
+    
+    from ArmoryApi import armoryAPI, armoryAPIUser
+    
+    requestPage = rank/top/champions
+    user = Username
+
+    armoryAPI(requestPage)
+
+    armoryAPIUser(requestPage, user)
+
+#### Licence 📝:
+
+    (MIT LICENCE)
+
+    This is not a Package from Armory Des Buissons Staff
+    Not Official

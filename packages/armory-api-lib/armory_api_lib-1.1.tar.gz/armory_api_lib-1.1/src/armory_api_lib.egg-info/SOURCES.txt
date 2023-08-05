@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+src/ArmoryApi/__init__.py
+src/ArmoryApi/armoryAPI.py
+src/ArmoryApi/armoryAPIUser.py
+src/armory_api_lib.egg-info/PKG-INFO
+src/armory_api_lib.egg-info/SOURCES.txt
+src/armory_api_lib.egg-info/dependency_links.txt
+src/armory_api_lib.egg-info/requires.txt
+src/armory_api_lib.egg-info/top_level.txt
