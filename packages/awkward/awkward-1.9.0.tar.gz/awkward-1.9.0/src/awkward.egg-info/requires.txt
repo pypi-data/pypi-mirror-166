@@ -1,0 +1,52 @@
+numpy>=1.13.1
+setuptools
+
+[all]
+awkward-cuda-kernels==1.9.0
+pytest>=6
+pytest-cov
+autograd
+flake8
+pandas>=0.24.0
+PyYAML
+
+[all:python_version < "3.11"]
+numba>=0.50.0
+numexpr
+
+[all:python_version > "3.6" and sys_platform != "win32"]
+fsspec
+
+[all:python_version > "3.6" and sys_platform != "win32" and python_version < "3.11"]
+pyarrow>=7.0.0
+
+[all:sys_platform != "win32" and python_version > "3.6" and python_version < "3.11"]
+jax>=0.2.7
+jaxlib!=0.1.68,>=0.1.57
+
+[cuda]
+awkward-cuda-kernels==1.9.0
+
+[dev]
+autograd
+flake8
+pandas>=0.24.0
+PyYAML
+
+[dev:python_version < "3.11"]
+numba>=0.50.0
+numexpr
+
+[dev:python_version > "3.6" and sys_platform != "win32"]
+fsspec
+
+[dev:python_version > "3.6" and sys_platform != "win32" and python_version < "3.11"]
+pyarrow>=7.0.0
+
+[dev:sys_platform != "win32" and python_version > "3.6" and python_version < "3.11"]
+jax>=0.2.7
+jaxlib!=0.1.68,>=0.1.57
+
+[test]
+pytest>=6
+pytest-cov
