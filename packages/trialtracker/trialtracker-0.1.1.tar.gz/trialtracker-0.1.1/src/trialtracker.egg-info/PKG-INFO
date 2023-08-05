@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: trialtracker
+Version: 0.1.1
+Summary: Methods to extract and transform clinical trial data
+Home-page: https://github.com/zfx0726/trialtracker
+Author: Forrest
+Author-email: zfx0726@gmail.com
+License: MIT
+Download-URL: https://github.com/zfx0726/trialtracker/archive/refs/tags/v_01.1.tar.gz
+Keywords: clinical,trial,eligibility,criteria,cancer,oncology,nlp
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+
+README.rst
+
