@@ -1,0 +1,3 @@
+[console_scripts]
+pfdo_med2image = pfdo_med2image.__main__:main
+
