@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: KamTube
+Version: 0.0.1b0
+Home-page: https://github.com/kamuridesu/KamTube
+Download-URL: https://github.com/kamuridesu/KamTube/archive/refs/heads/main.zip
+Author: Kamuri Amorim
+Author-email: luiz.k.amorim@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp (==3.8.1)
+Requires-Dist: beautifulsoup4 (==4.8.2)
+
+# KamTube.py
+
+Downloads videos from YouTube via Invidious using Python
+
+# Install: 
+    `pip install --user KamTube`
+
+# Usage:
+## CLI
+`python3 -m KamTube [flags] search`
+
+Eg:
+
+`python3 -m KamTube -x -d never gonna give you up` downloads the song directly
+
+## Script
+Check EXAMPLE.md
