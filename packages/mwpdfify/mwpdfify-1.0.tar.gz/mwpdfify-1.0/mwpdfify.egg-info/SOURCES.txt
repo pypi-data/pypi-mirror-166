@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+mwpdfify.egg-info/PKG-INFO
+mwpdfify.egg-info/SOURCES.txt
+mwpdfify.egg-info/dependency_links.txt
+mwpdfify.egg-info/entry_points.txt
+mwpdfify.egg-info/requires.txt
+mwpdfify.egg-info/top_level.txt
+src/__init__.py
+src/mwpdfify.py
