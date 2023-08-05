@@ -1,0 +1,13 @@
+InquirerPy
+crillab-autograph
+dash-bootstrap-components
+deprecated
+jinja2
+jsonpickle
+loguru
+myst-parser
+pandas
+pyfiglet
+pyparsing
+pyyaml
+tenacity
