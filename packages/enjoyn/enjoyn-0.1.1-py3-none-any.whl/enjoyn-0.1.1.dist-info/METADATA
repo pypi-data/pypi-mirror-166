@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: enjoyn
+Version: 0.1.1
+Summary: Generate and animate images in parallel, enjoyably.
+Home-page: https://github.com/ahuang11/enjoyn
+Author: Andrew Huang
+License: Apache License 2.0
+Keywords: enjoy,join,scale,animation
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dask[delayed] (>=2021.03.0)
+Requires-Dist: dask[distributed] (>=2021.03.0)
+Requires-Dist: imageio (>=2.16.0)
+Requires-Dist: typing-extensions (>=4.0.1)
+Requires-Dist: pydantic (>=1.9.0)
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: interrogate ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: nbsphinx ; extra == 'dev'
+Requires-Dist: sphinx-book-theme ; extra == 'dev'
+Requires-Dist: ipykernel ; extra == 'dev'
+Requires-Dist: jupyter ; extra == 'dev'
+Requires-Dist: ipywidgets ; extra == 'dev'
+Requires-Dist: pooch ; extra == 'dev'
+Requires-Dist: xarray ; extra == 'dev'
+Requires-Dist: imageio-ffmpeg ; extra == 'dev'
+Requires-Dist: graphviz ; extra == 'dev'
+Requires-Dist: pygifsicle ; extra == 'dev'
+Requires-Dist: matplotlib ; extra == 'dev'
+Requires-Dist: netcdf4 ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: mock ; (python_version < "3.8") and extra == 'dev'
+
+<p align="center">
+   <a href="https://github.com/ahuang11/enjoyn" alt="Enjoyn Logo">
+    <img src="https://raw.githubusercontent.com/ahuang11/enjoyn/main/docs/enjoyn_white.svg" /></a>
+   <br>
+   <a href="https://pypi.python.org/pypi/enjoyn/" alt="PyPI version">
+     <img alt="PyPI" src="https://img.shields.io/pypi/v/enjoyn?color=CA2A7A&labelColor=090422"></a>
+   <a href="https://github.com/ahuang11/enjoyn/" alt="Stars">
+     <img src="https://img.shields.io/github/stars/ahuang11/enjoyn?color=CA2A7A&labelColor=090422" /></a>
+   <a href="https://pepy.tech/badge/enjoyn/" alt="Downloads">
+     <img src="https://img.shields.io/pypi/dm/enjoyn?color=CA2A7A&labelColor=090422" /></a>
+   <a href="https://github.com/ahuang11/enjoyn/pulse" alt="Activity">
+     <img src="https://img.shields.io/github/commit-activity/m/ahuang11/enjoyn?color=CA2A7A&labelColor=090422" /></a>
+   <a href="https://github.com/ahuang11/enjoyn/graphs/contributors" alt="Contributors">
+     <img src="https://img.shields.io/github/contributors/ahuang11/enjoyn?color=CA2A7A&labelColor=090422" /></a>
+   <a href="https://github.com/ahuang11/enjoyn/tree/main/tests" alt="Coverage">
+     <img src="https://raw.githubusercontent.com/ahuang11/enjoyn/main/docs/coverage.svg" /></a>
+</p>
+
+## Welcome!
+
+Generate and animate images in parallel, enjoyably.
+
+## Getting Started
+
+### Installation
+
+Install `enjoyn` with `pip`:
+
+```bash
+pip install enjoyn
+```
+
+Requires an installation of Python 3.7+.
+
+## Resources
+
+The full documentation can be found [here](https://enjoyn.readthedocs.io/en/latest/index.html).
+
+If you encounter any bugs while using `enjoyn`, feel free to [open an issue](https://github.com/ahuang11/enjoyn/issues).
+
+If you have any questions or issues while using `enjoyn`, ask away in [discussions](https://github.com/ahuang11/enjoyn/discussions/)!
+
+Don't forget to star the project if you like the project!
