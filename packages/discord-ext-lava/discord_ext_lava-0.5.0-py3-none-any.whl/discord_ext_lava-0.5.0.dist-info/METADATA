@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: discord-ext-lava
+Version: 0.5.0
+Summary: A discord.py extension for lavaplayer-based audio nodes.
+Home-page: https://github.com/Axelware/discord-ext-lava
+License: MIT
+Keywords: obsidian,lavalink,api,wrapper,async,discord,discord-ext
+Author: Axel
+Author-email: axelancerr@gmail.com
+Requires-Python: >=3.10.0,<4.0.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: aiohttp (>=3.8.0,<4.0.0)
+Requires-Dist: discord-py (>=2.0.0,<3.0.0)
+Requires-Dist: spoti-py (>=0.1.0,<0.2.0)
+Requires-Dist: typing_extensions (>=4.3.0,<5.0.0)
+Project-URL: Documentation, https://discord-ext-lava.readthedocs.io/en/latest/
+Project-URL: Discord, https://discord.com/invite/w9f6NkQbde
+Project-URL: Issue Tracker, https://github.com/Axelware/discord-ext-lava/issues
+Project-URL: Repository, https://github.com/Axelware/discord-ext-lava
+Description-Content-Type: text/markdown
+
+# discord-ext-lava
+A [discord.py](https://github.com/Rapptz/discord.py) extension for [lavaplayer](https://github.com/Walkyst/lavaplayer-fork)-based audio nodes.
+
+## Support
+- [Documentation](https://discord-ext-lava.readthedocs.io/)
+- [GitHub](https://github.com/Axelware/discord-ext-lava)
+- [Discord](https://discord.com/invite/w9f6NkQbde)
+
