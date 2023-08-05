@@ -1,0 +1,41 @@
+
+tasks:
+  util:
+    features : cxxshlib
+    source   : util/**/*.cpp
+
+  qutil:
+    features : cxxshlib qt5
+    source   : qutil/**/*.cpp qutil/**/*.ts
+    use      : QtCore
+    langdir-defname: TRANSLATIONS_DIR
+
+  myqt5app:
+    features  : cxxprogram qt5
+    source    : prog/**/*.cpp prog/**/*.qrc prog/**/*.ui prog/**/*.ts
+    moc       : prog/**/*.h # .h files can contain Q_OBJECT or not
+    rclangprefix: lang
+    #bld-langprefix : prog/i18n
+    #unique-qmpaths: true
+    use       : QtWidgets qutil util
+
+  my-test:
+    features  : cxxprogram qt5 test
+    source    : tests/my_test.cpp
+    use       : qutil QtTest
+
+GCC_BASE_FLAGS: -std=c++11 -fPIC
+
+buildtypes:
+  debug:
+    cxxflags.select:
+      default: $GCC_BASE_FLAGS -O0 -g # g++/clang++
+      msvc   : /Od /EHsc
+
+  release:
+     cxxflags.select:
+      default: $GCC_BASE_FLAGS -O2 # g++/clang++
+      msvc   : /O2 /EHsc
+
+  default: release
+

@@ -1,0 +1,67 @@
+
+# For testing of values with spaces
+
+MY_SHLIB_DIR: 'my shlib'
+
+tasks:
+  my util:
+    features  : cshlib
+    source    : '"my shlib/**/*.c"'
+    includes  : '"my includes"'
+    export    : includes
+
+  my test:
+    features  : cprogram
+    source    : '"my prog/**/*.c"'
+    use       : "'my util'"
+
+  #######
+  my util alt:
+    features  : cshlib
+    #source    : '"my shlib/my util.c" "my shlib/my util2.c"'
+    source    : '"${MY_SHLIB_DIR}/my util.c" "${MY_SHLIB_DIR}/my util2.c"'
+    includes  : '"my includes"'
+    export    : includes
+
+  my test alt:
+    features  : cprogram
+    source    : '"my prog/my test.c"'
+    use       : "'my util alt'"
+
+  ########
+  alt script:
+    run:
+      cmd: '"alt script.py"'
+      cwd: 'some scripts'
+    target : ''
+
+configure:
+  - do: check-headers
+    names : stdio.h
+    #not-for: { task: '"alt script"' }
+    if: task != "alt script"
+
+toolchains:
+  my toolchain:
+    kind : auto-c
+
+buildtypes:
+
+  my debug:
+    cxxflags.select:
+      default: -fPIC -O0 -g # g++/clang++
+      msvc   : /Od /EHsc
+
+  my release:
+    cxxflags.select:
+      default: -fPIC -O2 # g++/clang++
+      msvc   : /O2 /EHsc
+
+  default: 'my debug'
+
+byfilter:
+  - for: all
+    set:
+      toolchain : '"my toolchain"'
+      rpath     : . # to have ability to run from the build directory
+

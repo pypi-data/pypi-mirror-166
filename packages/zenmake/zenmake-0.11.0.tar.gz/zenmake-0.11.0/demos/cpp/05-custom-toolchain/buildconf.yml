@@ -1,0 +1,66 @@
+
+tasks:
+    shlib:
+        features : cxxshlib
+        source   : 'shlib/**/*.cpp'
+    stlib:
+        features : cxxstlib
+        source   : 'stlib/**/*.cpp'
+    shlibmain:
+        features : cxxshlib
+        source   : 'shlibmain/**/*.cpp'
+        use      : shlib stlib
+    test:
+        features : cxxprogram
+        source   : 'prog/**/*.cpp'
+        use      : shlibmain
+
+configure:
+  - do: check-headers
+    names : cstdio
+    for: { task: shlib stlib }
+
+toolchains:
+    custom-g++:
+        kind : auto-c++
+        CXX  : custom-toolchain/gccemu/g++
+        AR   : custom-toolchain/gccemu/ar
+    custom-clang++:
+        kind : auto-c++
+        CXX  : custom-toolchain/clangemu/clang++
+        AR   : custom-toolchain/clangemu/llvm-ar
+
+buildtypes:
+    # -fPIC is necessary to compile static lib
+
+    debug-gcc:
+        toolchain : custom-g++
+        cxxflags : -fPIC -O0 -g
+        linkflags : -Wl,--as-needed
+
+    release-gcc:
+        toolchain : custom-g++
+        cxxflags : -fPIC -O2
+        linkflags : -Wl,--as-needed
+
+    debug-clang:
+        toolchain : custom-clang++
+        cxxflags : -fPIC -O0 -g
+
+    release-clang:
+        toolchain : custom-clang++
+        cxxflags : -fPIC -O2
+
+    debug-msvc:
+        toolchain : msvc
+        cxxflags : /Od /EHsc
+
+    release-msvc:
+        toolchain : msvc
+        cxxflags : /O2 /EHsc
+
+    default:
+        no-match: debug-gcc
+        #linux: debug-gcc
+        darwin: debug-clang
+        windows: debug-msvc

@@ -1,0 +1,14 @@
+
+tasks :
+  test :
+    features : cprogram
+    source   : test.c util.c
+    includes : .
+    configure:
+      - do: check-headers
+        names: stdio.h
+
+buildtypes:
+  debug :
+    toolchain : auto-c
+  default : debug

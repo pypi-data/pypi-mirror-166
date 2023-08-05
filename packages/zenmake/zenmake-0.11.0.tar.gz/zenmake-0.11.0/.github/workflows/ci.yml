@@ -1,0 +1,173 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+  #  branches:
+  #    - master
+  workflow_dispatch: # manual trigger
+
+  schedule:
+    - cron: '3 2 8 * *'
+
+jobs:
+  test:
+    name: "test: ${{ matrix.os }}, python ${{ matrix.python }}"
+
+    strategy:
+      #max-parallel: 4
+      fail-fast: false
+      matrix:
+        include:
+          - { os: ubuntu-18.04, python: '3.5'  }
+          - { os: ubuntu-18.04, python: '3.6'  }
+          - { os: ubuntu-18.04, python: '3.7'  }
+          - { os: ubuntu-18.04, python: '3.8'  }
+          - { os: ubuntu-18.04, python: '3.9'  }
+          - { os: ubuntu-20.04, python: '3.10' }
+          - { os: macos-10.15,  python: '3.7'  }
+          - { os: windows-2019, python: '3.7'  }
+          - { os: windows-2019, python: '3.8'  }
+          - { os: windows-2019, python: '3.9'  }
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Set up Python ${{ matrix.python }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python }}
+
+    - name: Display Python version
+      run: python -c "import sys; print(sys.version)"
+
+    ########### cache
+
+    - name: Cache pip [Linux]
+      uses: actions/cache@v2
+      if: startsWith(runner.os, 'Linux')
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ matrix.python }}-${{ hashFiles('**/dev-requirements.txt', '**/requirements.txt') }}
+
+    - name: Cache pip [MacOS]
+      uses: actions/cache@v2
+      if: startsWith(runner.os, 'macOS')
+      with:
+        path: ~/Library/Caches/pip
+        key: ${{ runner.os }}-pip-${{ matrix.python }}-${{ hashFiles('**/dev-requirements.txt', '**/requirements.txt') }}
+
+    - name: Cache pip [Windows]
+      uses: actions/cache@v2
+      if: startsWith(runner.os, 'Windows')
+      with:
+        path: ~\AppData\Local\pip\Cache
+        key: ${{ runner.os }}-pip-${{ matrix.python }}-${{ hashFiles('**/dev-requirements.txt', '**/requirements.txt') }}
+
+    - name: Cache choco [Windows]
+      uses: actions/cache@v2
+      if: startsWith(runner.os, 'Windows')
+      with:
+        path: ~\AppData\Local\Temp\chocolatey
+        key: ${{ runner.os }}-choco-${{ hashFiles('**/gh-choco-install.sh') }}
+
+    - name: Cache indy deps [Windows]
+      uses: actions/cache@v2
+      if: startsWith(runner.os, 'Windows')
+      id: cache-windows-indy
+      with:
+        path: |
+          C:\local
+          C:\Qt
+        key: ${{ runner.os }}-indy-${{ hashFiles('**/gh-choco-install.sh', '**/gh-install-qt-on-windows.sh') }}
+
+    ########## deps
+
+    - name: Install dependency packages
+      #if: startsWith(matrix.os,'ubuntu')
+      env:
+        CACHE_INDY_HIT: ${{ steps.cache-windows-indy.outputs.cache-hit }}
+      run: |
+        if [[ $RUNNER_OS == "Linux" ]]; then
+          sudo apt-get update
+          sudo ACCEPT_EULA=Y DEBIAN_FRONTEND=noninteractive apt-get upgrade --no-install-recommends --yes
+          PKGS=`cat demos/deb-deps.txt`
+          sudo apt-get -y --no-install-recommends install $PKGS
+        elif [[ $RUNNER_OS == "macOS" ]]; then
+          export HOMEBREW_NO_INSTALL_CLEANUP=1
+          export HOMEBREW_NO_AUTO_UPDATE=1
+          brew install boost
+          # deprecated
+          #brew install boost-python
+          brew install qt5
+          brew install dmd
+          brew install ldc
+        elif [[ $RUNNER_OS == "Windows" ]]; then
+          chmod +x scripts/gh-choco-install.sh
+          scripts/gh-choco-install.sh
+          chmod +x scripts/gh-install-qt-on-windows.sh
+          scripts/gh-install-qt-on-windows.sh
+        fi
+      shell: bash
+
+    - name: Install pip modules
+      env:
+        PYTHON_VER: ${{ matrix.python }}
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install -r tests/requirements.txt
+        python -m pip install coveralls
+
+        if [[ $RUNNER_OS == "Linux" && $PYTHON_VER == '3.8' ]]; then
+          python -m pip install pyyaml
+        fi
+      shell: bash
+
+    ########### tests
+
+    - name: Prapare tests [Windows]
+      if: startsWith(runner.os, 'Windows')
+      run: |
+        Set-MpPreference -DisableArchiveScanning $true
+        Set-MpPreference -DisableRealtimeMonitoring $true
+        Set-MpPreference -DisableBehaviorMonitoring $true
+      shell: powershell
+
+    - name: Run tests
+      run: |
+        python -m pytest --cov zm tests -v -k "not zipapp" --maxfail=4
+        RESULT=$?
+        if (( $RESULT == 0 )); then
+          python -m pytest tests -v -k "zipapp" --maxfail=2
+        else
+          exit $RESULT
+        fi
+      shell: bash
+
+    - name: Coveralls
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        COVERALLS_PARALLEL: true
+        COVERALLS_FLAG_NAME: ${{ matrix.os }}-py-${{ matrix.python }}
+      run: coveralls --service=github
+      shell: bash
+      continue-on-error: true
+
+  complete-coveralls:
+    needs: test
+    runs-on: ubuntu-latest
+    container: python:3-slim
+
+    steps:
+    - name: Coveralls Finished
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        pip install --upgrade coveralls
+        coveralls --finish
+      continue-on-error: true

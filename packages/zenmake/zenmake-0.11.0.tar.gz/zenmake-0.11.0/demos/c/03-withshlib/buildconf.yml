@@ -1,0 +1,23 @@
+
+tasks:
+  util:
+    features : cshlib
+    source   : shlib/**/*.c
+    includes : .
+    ver-num : 0.1.2
+
+  test:
+    features : cprogram
+    source   : prog/**/*.c
+    includes : .
+    use      : util
+
+configure:
+  - do: check-headers
+    names : stdio.h
+
+buildtypes:
+  debug:
+    toolchain : auto-c
+  default : debug
+

@@ -1,0 +1,36 @@
+
+project:
+    name: mygtk3app
+
+tasks:
+    builder.ui:
+        source: gui/builder.ui
+        run: cp $(src) $(tgt)
+
+    gui:
+        features : cshlib
+        source   : gui/*.c
+        use      : builder.ui
+        ver-num  : '0.1.2'
+        configure:
+            - { do: pkgconfig, packages: gtk+-3.0 }
+
+        export: config-results
+
+        defines : 'PACKAGE_DATA_DIR="$(appdatadir)"'
+
+    gtk3demo:
+        features : cprogram
+        source   : app/*.c
+        use      : gui
+        #rpath    : .
+
+buildtypes:
+    debug   : { cflags: -O0 -g }
+    release : { cflags: -O2 }
+    default : debug
+
+install:
+    - for: { task: gui }
+      src: $(buildtypedir)/builder.ui
+      dst: $(appdatadir)

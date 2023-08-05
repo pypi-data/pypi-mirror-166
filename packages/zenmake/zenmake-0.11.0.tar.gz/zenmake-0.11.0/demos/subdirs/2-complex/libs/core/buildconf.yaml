@@ -1,0 +1,25 @@
+
+startdir: src
+
+tasks:
+  corelib :
+    features : cshlib
+    source   : '**/*.c'
+    export   : includes
+    ver-num : 0.4.0
+    configure :
+      - do: check-headers
+        names: stdio.h
+
+byfilter:
+  - for: all
+    set :
+      toolchain.select:
+        default: gcc
+        darwin:  clang
+        windows: msvc
+      cflags.select:
+        debug and (gcc or clang): -O0
+        debug and msvc: /Od
+        release and (gcc or clang): -O3
+        release and msvc: /O2

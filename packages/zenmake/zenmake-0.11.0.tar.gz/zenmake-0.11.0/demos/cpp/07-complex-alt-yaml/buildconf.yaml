@@ -1,0 +1,61 @@
+
+# This config is mostly for testing than for demonstration
+
+# -fPIC is necessary to compile static lib
+GCC_BASE_CXXFLAGS: -std=c++11 -fPIC
+MSVC_BASE_CXXFLAGS: /EHsc
+
+buildtypes:
+  debug-gcc    : { cxxflags: $GCC_BASE_CXXFLAGS -O0 -g }
+  release-gcc  : { cxxflags: $GCC_BASE_CXXFLAGS -O2 }
+  debug-clang  : { cxxflags: $GCC_BASE_CXXFLAGS -O0 -g }
+  release-clang: { cxxflags: $GCC_BASE_CXXFLAGS -O2 }
+  debug-msvc   : { cxxflags: $MSVC_BASE_CXXFLAGS /Od }
+  release-msvc : { cxxflags: $MSVC_BASE_CXXFLAGS /O2 }
+  default:
+    _: debug-gcc
+    linux: debug-gcc
+    darwin: debug-clang
+    windows: debug-msvc
+
+byfilter:
+- for: all
+  set: { includes: '.', rpath : '.', }
+
+- for: { task: shlib shlibmain }
+  set: { features: cxxshlib }
+
+- for: { task: shlib }
+  set: { source: 'shlib/**/*.cpp' }
+
+- for: { task: stlib }
+  set:
+    features : cxxstlib
+    source   : 'stlib/**/*.cpp'
+
+- for: { task: shlibmain }
+  set:
+    source : 'shlibmain/**/*.cpp'
+    use    : shlib stlib
+
+- for: { task: test }
+  set:
+    features : cxxprogram
+    source   : 'prog/**/*.cpp'
+    use      : shlibmain
+
+- if: endswith(buildtype, '-gcc') and platform == 'linux'
+  set:
+    toolchain: g++
+    linkflags: -Wl,--as-needed
+
+- if: buildtype == 'release-gcc' and platform == 'linux'
+  set: { cxxflags: $GCC_BASE_CXXFLAGS -O3 }
+
+- if: endswith(buildtype, '-clang') and platform in ('linux', 'darwin')
+  set:
+    toolchain: clang++
+
+- if: endswith(buildtype, '-msvc') and platform == 'windows'
+  set:
+    toolchain: msvc
