@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: codal-tsetmc
+Version: 1.0.2
+Summary: Data Downloader for stock market and finantial statement
+Home-page: http://github.com/mohsenebrahimyir/codal-tsetmc
+Author: Mohsen Ebrahimi
+Author-email: mohsenebrahimy.ir@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# کدال و بورس در پایتون
