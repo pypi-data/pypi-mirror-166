@@ -1,0 +1,7 @@
+[console_scripts]
+graph_validations = myvalidator.cli:cli
+
+[validation_commands]
+list_validations = myvalidator.validations:validation_list
+validate = myvalidator.cli:validate1
+
