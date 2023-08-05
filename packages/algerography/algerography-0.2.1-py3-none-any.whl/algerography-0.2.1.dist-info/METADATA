@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: algerography
+Version: 0.2.1
+Summary: 
+Author: fathibensari
+Author-email: fethibensari@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
