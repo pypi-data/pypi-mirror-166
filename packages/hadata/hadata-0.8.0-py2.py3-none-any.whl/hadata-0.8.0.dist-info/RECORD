@@ -1,0 +1,17 @@
+hadata/__init__.py,sha256=RkP5a1tFybmiULbHEaLg-sVFpcirDDNIHuXUw4uiJ3k,132
+hadata/answer.py,sha256=45PmeBxzoSjcxRkr8g22vlaDo8DywefILRRbvwQvGUg,3060
+hadata/assessment.py,sha256=OIuoYMMxihdoYrd8PAxJTM21xgV880wRiGuCzigDvI4,1810
+hadata/job.py,sha256=OlSyPcApFgwa350lMWyOMGuwZ_fWSgSLRLrxfv3oadM,1699
+hadata/meta.py,sha256=LYYBedY2N3KqkPt4AT2r1dd82FH-oUI7NWe71WZIYPY,1445
+hadata/user.py,sha256=GOdvPBs1LlkaCGpEj2brFKs2bJNrjiwRoKpIR697aiM,1428
+hareqres/__init__.py,sha256=kN17HQOIva4RxHEPN6U1lb4wMWWWLUDaWxIFo5_xEBs,134
+hareqres/assessments.py,sha256=-ShQrBOolzTJQeVwE6DxcaN4o65BrbIJKlLileZx5FA,626
+hareqres/job.py,sha256=UMwPSSfNgi0M7u3MV-ebsE6oFUBAWe6Sn1V_DdmE3fo,320
+hareqres/meta.py,sha256=fuXJwwDwnMmDP7WwYmD1cRQxOXyAVft_AeSDI0BR-DE,505
+hareqres/question.py,sha256=G9hgEux1atqFxF05OSfOu5zYTHfEXPQ2LEdf4ufB37E,526
+hareqres/user.py,sha256=SuE6Sr_sY4sTkqqOnUC15TPu-UGljWqNSD96Gy4OCxA,792
+hadata-0.8.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hadata-0.8.0.dist-info/METADATA,sha256=HNNCMoL1lZBV6EoItcuxdG2K_F58101yG8lYMD6fwMg,782
+hadata-0.8.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+hadata-0.8.0.dist-info/top_level.txt,sha256=Fj6FuYkV2jAOi8jEG-FpM8yA-qj9vvST_TdJUk6fz8k,16
+hadata-0.8.0.dist-info/RECORD,,
