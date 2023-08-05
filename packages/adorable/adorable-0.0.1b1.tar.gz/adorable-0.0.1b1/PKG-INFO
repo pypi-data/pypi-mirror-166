@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: adorable
+Version: 0.0.1b1
+License: MIT License
+Keywords: ansi,color,colour,console,style,terminal
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+
+adorable
+========
+
+At this point, this library is not well documented.
+This is a **beta release**.
+
+
+Usage
+-----
+
+```python
+import adorable
+
+RED = adorable.color.from_name("red")
+print(RED.fg("Hello adorable World"))
+```
+
