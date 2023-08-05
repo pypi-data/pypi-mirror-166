@@ -1,0 +1,12 @@
+[console_scripts]
+admin = apps.client.admin:app
+cimm = apps.client.cimm:app
+clb = apps.local.language:main
+excel = apps.local.excel:main
+files = utils.files:main
+fillpw = apps.local.fillpw:main
+imm = apps.local.imm:app
+pdf = utils.pdf:main
+prd = apps.local.prdata:main
+qa = apps.local.quickassess:main
+
