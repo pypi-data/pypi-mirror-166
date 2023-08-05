@@ -1,0 +1,8 @@
+pyobs_gemini/__init__.py,sha256=AVJdthRx3pHKUlaunJvd1Syro9hmSDiLHwBk7msuEsc,41
+pyobs_gemini/api.py,sha256=sIwtt_RpifGe3HxddcrLar0WamAI0qIAGnCSTbRzrSo,9471
+pyobs_gemini/gemini.py,sha256=O_p1SFD6RFcZj3wGSXcJ9n-CFo5I1CZpUDDtwn57_2s,17160
+pyobs_gemini/geminidriver.py,sha256=avtsFMPG4OM9YhtA6XA-cxoKP3rMRmLWcEF25W_I_mc,17608
+pyobs_gemini-0.1.0.dist-info/LICENSE,sha256=ZfAVCjLT01hkA1p25SaIKPYtLAlqU_O4ZZkaP027B-Q,1120
+pyobs_gemini-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pyobs_gemini-0.1.0.dist-info/METADATA,sha256=KiTUGVjub42h1tcCDnj0-JQKh95fss40kgJUIZQ0Ik4,498
+pyobs_gemini-0.1.0.dist-info/RECORD,,
