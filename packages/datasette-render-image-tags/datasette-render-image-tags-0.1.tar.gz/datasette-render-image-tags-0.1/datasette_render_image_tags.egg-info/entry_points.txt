@@ -1,0 +1,2 @@
+[datasette]
+render_image_tags = datasette_render_image_tags
