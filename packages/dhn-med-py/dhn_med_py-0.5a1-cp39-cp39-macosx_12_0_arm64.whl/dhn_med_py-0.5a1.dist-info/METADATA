@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dhn-med-py
+Version: 0.5a1
+Summary: Python wrapper for Dark Horse Neuro MED format
+Home-page: https://medformat.org
+Author: Dark Horse Neuro, Inc.
+License: UNKNOWN
+Download-URL: https://medformat.org
+Project-URL: Source, https://medformat.org
+Platform: any
+License-File: LICENSE.txt
+Requires-Dist: numpy
+
+UNKNOWN
+
