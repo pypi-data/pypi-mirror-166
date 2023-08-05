@@ -1,0 +1,10 @@
+asgi_cgi/__init__.py,sha256=b8vF1LFBuhAnfT16NALoKE_QkfhSiXL2b2SM6Bt_K7Q,232
+asgi_cgi/handler.py,sha256=ZxdfOHXVwf0aGnXSVISCoax0Z_3r2G4A9_Cju3VHSU0,10041
+asgi_cgi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asgi_cgi/typing.py,sha256=8nX61ELTL7rJ2Cpc1oIi9Sfr49OD68z719J5qe5XRVk,251
+asgi_cgi/utils.py,sha256=7BHU_5GmcE0fny6XrKM7z2CNcvwT_6bJ7482IURSDss,1076
+asgi_cgi/version.py,sha256=nJWIHfUu3WFiecVdzhNqnva_qrmfXtFU-P88chOi-hA,52
+asgi_cgi_handler-0.0.1.dev1.dist-info/METADATA,sha256=DaNAHrRAJFIwJENkOvHnn-A7gaQ_E8zGxD-7b8fMA6o,2626
+asgi_cgi_handler-0.0.1.dev1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+asgi_cgi_handler-0.0.1.dev1.dist-info/top_level.txt,sha256=7e9Q3GSYvl_5cP_HQXqvCI68-sxPp7pHScN-w2DAjNc,9
+asgi_cgi_handler-0.0.1.dev1.dist-info/RECORD,,
