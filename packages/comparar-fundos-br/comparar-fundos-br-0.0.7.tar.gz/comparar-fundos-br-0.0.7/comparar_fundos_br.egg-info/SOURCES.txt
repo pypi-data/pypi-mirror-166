@@ -1,0 +1,17 @@
+setup.py
+comparar_fundos_br/README.md
+comparar_fundos_br/__init__.py
+comparar_fundos_br/benchmarks.py
+comparar_fundos_br/comparador.py
+comparar_fundos_br/get_brfunds.py
+comparar_fundos_br/mypy.ini
+comparar_fundos_br/poetry.lock
+comparar_fundos_br/pyproject.toml
+comparar_fundos_br/requirements.txt
+comparar_fundos_br/setup.py
+comparar_fundos_br/version.py
+comparar_fundos_br.egg-info/PKG-INFO
+comparar_fundos_br.egg-info/SOURCES.txt
+comparar_fundos_br.egg-info/dependency_links.txt
+comparar_fundos_br.egg-info/requires.txt
+comparar_fundos_br.egg-info/top_level.txt
