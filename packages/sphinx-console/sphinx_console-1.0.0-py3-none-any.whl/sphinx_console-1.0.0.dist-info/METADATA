@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sphinx-console
+Version: 1.0.0
+Summary: an extension for sphinx to display console in sphinx documents
+Home-page: https://github.com/zqmillet/sphinx-console
+Author: kinopico
+Author-email: zqmillet@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: ansi2html
+Requires-Dist: beautifulsoup4
+Requires-Dist: colorama
+Requires-Dist: css-inline
+Requires-Dist: docutils
+Requires-Dist: pexpect
+
+UNKNOWN
+
+

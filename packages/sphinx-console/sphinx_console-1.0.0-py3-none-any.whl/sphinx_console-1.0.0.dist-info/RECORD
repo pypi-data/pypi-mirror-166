@@ -1,0 +1,8 @@
+sphinx_console/__init__.py,sha256=5xBZOEgQujGJCbUkud4QoAV7b0wYC-57HMdjHBf8zXo,45
+sphinx_console/__main__.py,sha256=pPzyXrIMyzve-_lqAkWvgY0I7T4dhfMGHW-GbBLpJbs,101
+sphinx_console/bash.py,sha256=Qnkjt2lbm5D1c4j309W_HUhuv1TVQEEJrNBW7s13Xbw,2687
+sphinx_console-1.0.0.dist-info/LICENSE,sha256=J9eazsYx4iykr4TXVbQYWCgTckalIepWmG9kN1UwGN0,1065
+sphinx_console-1.0.0.dist-info/METADATA,sha256=vrL1GHOf397kvmzQWI1bmTCT1Ja5pFtkmf4VHKsqhVI,429
+sphinx_console-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sphinx_console-1.0.0.dist-info/top_level.txt,sha256=-WujZKNvPAvAt7LqihPJSa5jarFs2Kdn3S7cHkcgg9w,15
+sphinx_console-1.0.0.dist-info/RECORD,,
