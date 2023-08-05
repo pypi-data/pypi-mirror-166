@@ -1,0 +1,10 @@
+loading_sdk/__init__.py,sha256=EEArX8uVWjuVAIXStu3oeeurSOshAxFcx2Io79Gt2lU,186
+loading_sdk/api.py,sha256=qFjYIZFGAoRi3SOycCvcqMyoAZIp2t0YEffBVgoxBZk,13869
+loading_sdk/async_api.py,sha256=tchL5fHfDb93qOg4l3oVUGMTVTsq4GIDTTiTjgHfJ9A,15976
+loading_sdk/settings.py,sha256=0kVB8xUmnbzgHY9V6ijSywCr9W2KjMcalnOSfawAyv4,285
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_api.py,sha256=3Pw3dM7A7JrikBshmJFaIfhph6QH5hgSLwDXFug88kw,143617
+python_loading_sdk-0.2.0.dist-info/LICENSE.md,sha256=XH9UVWZ2ydHJNRwW1mY2FkdMd_R1LcO6U25QZpCEWDQ,1065
+python_loading_sdk-0.2.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+python_loading_sdk-0.2.0.dist-info/METADATA,sha256=D4EN1gX3m1HLJS5EGMCU9MZi9naQ3cQ8sDVM0BMt92w,488
+python_loading_sdk-0.2.0.dist-info/RECORD,,
