@@ -1,0 +1,8 @@
+recpp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+recpp/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+recpp/cli.py,sha256=is_Q-2pLhgNuE9fZcm8C-gJ5VyJdumEOBrlrg2idGyE,14529
+recpp/preprocessor.py,sha256=FrG_w5YpMyZaZlASgf3qxpzz-XvA681lcn2jdIEKpM4,10106
+recpp-0.1.0.dist-info/entry_points.txt,sha256=TnIpNwwXIITecoO7c713LQuWfoPVyv0VmC0IiSlSY28,40
+recpp-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+recpp-0.1.0.dist-info/METADATA,sha256=gihZkKHMkIGqYo4Jgis8GoruGjfesotnghI5kxWxDnQ,639
+recpp-0.1.0.dist-info/RECORD,,
