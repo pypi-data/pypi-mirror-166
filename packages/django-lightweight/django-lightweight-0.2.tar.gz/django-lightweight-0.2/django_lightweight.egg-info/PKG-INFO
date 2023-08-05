@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: django-lightweight
+Version: 0.2
+Summary: Django lightweight package
+Home-page: https://www.djangoproject.com/
+Author: Subhransu Das
+Author-email: <subhransud525@gmail.com>
+License: BSD-3-Clause
+Project-URL: Documentation, https://docs.djangoproject.com/
+Project-URL: Release notes, https://docs.djangoproject.com/en/stable/releases/
+Project-URL: Funding, https://www.djangoproject.com/fundraising/
+Project-URL: Source, https://github.com/django/django
+Project-URL: Tracker, https://code.djangoproject.com/
+Keywords: python,django,official django,light weight
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: argon2
+Provides-Extra: bcrypt
+
+
+# django-lightweight
+As we know django is not light weighted. So i am going to make it lightweight and pushing it to docker hub.
+
+### Official Django v4.1 size = 42 MB
+### Official Django-lightweight v0.1 size = 4 MB
