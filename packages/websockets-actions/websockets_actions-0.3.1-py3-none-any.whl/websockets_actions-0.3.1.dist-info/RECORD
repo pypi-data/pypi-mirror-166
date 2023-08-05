@@ -1,0 +1,12 @@
+websockets_actions/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+websockets_actions/broadcast/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+websockets_actions/broadcast/manager.py,sha256=h0HfgLrHSr4sQkr_h0nETqGtt6ht5EpoqcTOwWiezdU,1022
+websockets_actions/fastapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+websockets_actions/fastapi/actions.py,sha256=P1QX36KIKHQostDOCrKEjoHUqcbLbnvtofLCuu1Y7SI,689
+websockets_actions/fastapi/endpoints.py,sha256=dIo5F9TrVBKndcF0CYU86LXc2CVa87aQ9P95XBjVpyQ,2976
+websockets_actions/starlette/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+websockets_actions/starlette/actions.py,sha256=mwzZyMpp5iMGzcKexzq_L0r7JjspseMIN_ivLmOgBP0,646
+websockets_actions/starlette/mixin.py,sha256=7SCTp1QDUUQwRiQ-NQ0PmuO87dd6CbDFoyEo0vL4eZA,590
+websockets_actions-0.3.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+websockets_actions-0.3.1.dist-info/METADATA,sha256=wXlEzI-1bfm3FyhsnCeQNHJhKClyPtPsYk7PsP_gDG0,1084
+websockets_actions-0.3.1.dist-info/RECORD,,
