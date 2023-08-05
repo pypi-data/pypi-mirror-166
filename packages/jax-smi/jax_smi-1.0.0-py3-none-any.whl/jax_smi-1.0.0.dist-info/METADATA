@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: jax-smi
+Version: 1.0.0
+Summary: JAX Synergistic Memory Inspector
+Home-page: https://github.com/ayaka14732/jax-smi
+Author: Ayaka Mikazuki
+Author-email: ayaka@mail.shn.hk
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/ayaka14732/jax-smi/issues
+Project-URL: Source, https://github.com/ayaka14732/jax-smi
+Keywords: jax machine-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+Requires-Dist: jax (>=0.2.16)
+
+# JAX Synergistic Memory Inspector
+
+## Usage
+
+In your JAX script:
+
+```python
+from jax_smi import initialise_tracking
+initialise_tracking()
+# some computation...
+```
+
+Open a shell and run:
+
+```sh
+jax-smi
+```
+
+
