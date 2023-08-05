@@ -1,0 +1,5 @@
+torch
+torch-vision
+h5py
+matplotlib
+pandas
