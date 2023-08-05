@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: BracketFormatter
+Version: 1.1.0
+Summary: A custom logging formatter to use a [+] style log comment
+Home-page: https://gitlab.com/Auctoris/bracketformatter
+Author: AJ Poulter
+Author-email: ajp@auctoris.co.uk
+License: MIT
+License-File: LICENSE
+
+A custom log formatter class for use with a streaming log handler to print logging messages using a [+] type symbol to denote the severity.
