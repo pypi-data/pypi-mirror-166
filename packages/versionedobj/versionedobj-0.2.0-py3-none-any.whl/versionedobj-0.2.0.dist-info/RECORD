@@ -1,0 +1,9 @@
+versionedconfig/__init__.py,sha256=C7kmr6pfaSYS1ypZ3Wf7E2ZF9lBOZDMjIuUBCyS-170,104
+versionedconfig/config.py,sha256=oZtbQU6X0gR0Qp_ip-VEHeivFEGiNTy3OO7A7fzMJPY,6004
+versionedobj/__init__.py,sha256=npOiVGGjgI3bPahzBcb0wLAem8ps6z5PJmK66TIMDf8,118
+versionedobj/object.py,sha256=6bNXbpluwika937WTFjzOqa1DHo3_QQV8j_TXfXyue8,10533
+versionedobj-0.2.0.dist-info/LICENSE,sha256=FOBJAd_xszS6fbFtMYBn7VRp2Ymk2pG-aOD9YQdJJaM,10761
+versionedobj-0.2.0.dist-info/METADATA,sha256=fHT_RBNf2oUVvD1n0HyS2AdETW3t3Q3LTCmFzcgQqlA,6799
+versionedobj-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+versionedobj-0.2.0.dist-info/top_level.txt,sha256=241kUNO3YuKrdjI3Fe9o5t-r6UdktsRLzhpJBYvoAVY,13
+versionedobj-0.2.0.dist-info/RECORD,,
