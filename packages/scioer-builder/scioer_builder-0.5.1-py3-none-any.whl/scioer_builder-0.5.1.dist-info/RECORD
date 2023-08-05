@@ -1,0 +1,12 @@
+builder/__init__.py,sha256=e3S0EcDGJlWIp2hddSFjvt633jfeZ4W7VyAeLpfTWVM,37
+builder/__version__.py,sha256=eZ1bOun1DDVV0YLOBW4wj2FP1ajReLjbIrGmzN7ASBw,22
+builder/cli.py,sha256=vk9hWdGqiYS6RzlU2h_zHdS9yKBhiRrWLGKlEd-oS4Y,28193
+builder/prompt.py,sha256=rzPTbsGCxiSJmCv0Z9neCp8r_SEMDszO1p_UDQfCRcg,1736
+builder/data/Dockerfile,sha256=YycwNDtrhtopOQ4qL0xWAjYrIH7Qfz_GCndH1nj9NtA,956
+builder/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scioer_builder-0.5.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+scioer_builder-0.5.1.dist-info/METADATA,sha256=_LpXgmrqBRMd20J2x4y0QeZ1EiVb1i3lQzZNgL2Kogo,5924
+scioer_builder-0.5.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scioer_builder-0.5.1.dist-info/entry_points.txt,sha256=SRYn7n3gl6PDH_6uoOFS2SGlDGUTld9pWfz_8bOcnho,52
+scioer_builder-0.5.1.dist-info/top_level.txt,sha256=Vb7sHU0ZHkUCfCI8eWktwE6g2xQXeY2xK5PovFineMs,8
+scioer_builder-0.5.1.dist-info/RECORD,,
