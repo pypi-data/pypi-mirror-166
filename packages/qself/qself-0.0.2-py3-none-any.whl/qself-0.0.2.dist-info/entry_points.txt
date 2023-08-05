@@ -1,0 +1,2 @@
+[nbdev]
+qself = qself._modidx:d
