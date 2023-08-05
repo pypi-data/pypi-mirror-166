@@ -1,0 +1,9 @@
+LICENSE.md
+setup.py
+ezsaver/__init__.py
+ezsaver/ezsaver.py
+ezsaver.egg-info/PKG-INFO
+ezsaver.egg-info/SOURCES.txt
+ezsaver.egg-info/dependency_links.txt
+ezsaver.egg-info/requires.txt
+ezsaver.egg-info/top_level.txt
