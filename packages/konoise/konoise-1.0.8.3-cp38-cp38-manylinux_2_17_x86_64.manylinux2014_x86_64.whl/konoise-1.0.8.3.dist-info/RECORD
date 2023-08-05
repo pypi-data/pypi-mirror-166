@@ -1,0 +1,13 @@
+konoise-1.0.8.3.dist-info/METADATA,sha256=gRCQRv6ZWXA9UyhySMvteJoTW2HzTpGhAC4ykJSKbW8,6788
+konoise-1.0.8.3.dist-info/RECORD,,
+konoise-1.0.8.3.dist-info/top_level.txt,sha256=fhQG6QSlsf1qv7wxCK11fnPM8ZaQPWcvIFw4uvy9jHw,8
+konoise-1.0.8.3.dist-info/WHEEL,sha256=-ijGDuALlPxm3HbhKntps0QzHsi-DPlXqgerYTTJkFE,148
+konoise/utils.py,sha256=oGIaSZ7mi6lplg2Y7Nysocxv7uSgZ_TfpbyfcWff6Mg,1331
+konoise/rust_generator.cpython-38-x86_64-linux-gnu.so,sha256=rSzd5tKv6NSUH1yy3SOar8HrI6MHys3VUE6WAQdxGmw,4257304
+konoise/spliter.py,sha256=hi9JetldeFZ3hTJ3WN9nOUYoQ5Na2GHgh50GLXeKTbA,3318
+konoise/phoneme.py,sha256=JQT99Nm9VEriGMEa91noscJGuoGgw62xWKZOPbD5rOY,2573
+konoise/__init__.py,sha256=Pwr0mKNlD54yaXZhaful3wmQuY6uK-SbcSCgAXkCLh0,132
+konoise/yamin.py,sha256=auTl63oHenvV0ajaTLzAPdz1IaJKPfE0TQsbko9QrH8,909
+konoise/segments.py,sha256=yHIBUvlmfiUv8XgMr5ABMfky1NO2Ngnrxy6-LeRp7tg,1172
+konoise/generator.py,sha256=nS_gm6Y08iVpuUpWNMidr6A0FnxwCqPrkRM2h0eJqP4,3367
+konoise/data/endwords.json,sha256=D2S5jQPM6LwF9chxoWHtvRc7eny_dD1Jb4mGkdqnAis,146670
