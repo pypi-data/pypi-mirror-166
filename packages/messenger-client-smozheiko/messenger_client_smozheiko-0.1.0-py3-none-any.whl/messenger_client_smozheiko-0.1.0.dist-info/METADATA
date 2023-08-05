@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: messenger-client-smozheiko
+Version: 0.1.0
+Summary: Client for messenger
+Home-page: UNKNOWN
+Author: Mozheiko Stanislav
+Author-email: mozheiko.stanislav@yandex.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: PyQt5
+Requires: sqlalchemy
+Requires: cryptography
+Requires: rsa
+Requires: pydantic
+
+UNKNOWN
+
+
