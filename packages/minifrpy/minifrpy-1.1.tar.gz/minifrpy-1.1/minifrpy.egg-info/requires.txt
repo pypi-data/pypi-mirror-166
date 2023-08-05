@@ -1,0 +1,4 @@
+sly
+beautifulsoup4
+colorama
+requests
