@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+stopwatch.py
+stopwatch.py.egg-info/PKG-INFO
+stopwatch.py.egg-info/SOURCES.txt
+stopwatch.py.egg-info/dependency_links.txt
+stopwatch.py.egg-info/top_level.txt
