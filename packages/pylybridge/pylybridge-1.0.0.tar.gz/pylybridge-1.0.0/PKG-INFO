@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pylybridge
+Version: 1.0.0
+Summary: A Poly Bridge 2 format parser
+Author: ashduino101
+Author-email: <ashduino101@gmail.com>
+License: UNKNOWN
+Keywords: python,polybridge,api,wrapper,polybridge2,polybridge2api,game
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+
+
+This is a library that allows you to easily parse Poly Bridge 2 .layout and .slot files.
+
+
