@@ -1,0 +1,42 @@
+[project]
+name = "la-deep-get"
+version = "0.0.6"
+description = "Function to get value from unknown structure"
+readme = "README.md"
+requires-python = ">=3.10"
+maintainers = [
+    { name = "thiagola92", email = "thiagola92@gmail.com" },
+]
+keywords = [
+    "function",
+    "get",
+    "structure",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+repository = "https://github.com/thiagola92/la-deep-get"
+
+[tool.pdm.scripts]
+tests = "python -m unittest discover -v -f -s tests"
+sort = "python -m isort -v --ac ."
+
+[tool.pdm.dev-dependencies]
+lint = [
+    "black",
+    "isort",
+]
+
+[build-system]
+requires = [
+    "pdm-pep517>=0.12.0",
+]
+build-backend = "pdm.pep517.api"
