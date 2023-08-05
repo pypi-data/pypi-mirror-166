@@ -1,0 +1,10 @@
+goerr/__init__.py,sha256=1ASFQpTTUW063TstuAbW2Cn8vxQUyKSODbEdh8RasUk,11458
+goerr/colors.py,sha256=0-Rx1nYNY4uzdBvWv9S1ljFlQxNc5uZGb-RPI2Wv9P8,1146
+goerr/messages.py,sha256=xJETi2GWlb1mqxgX6Y8ieIhWUH8rUrkZ_n9WAgX6Ksc,1624
+goerr/testing.py,sha256=5wRQ7rAfAljmLvELZrSK7QMQvh5w656K6x_wiQQNNOg,559
+goerr/tests.py,sha256=g7rhB8QDCyqXoBmptTYIqTMl9FyDYhLFmLnXCr1DOh8,8150
+goerr-0.10.0.dist-info/LICENSE,sha256=r7EUJuCdpAoa5Pj6F93Ma2pS0U3wTCm8W80G64cwYk0,1057
+goerr-0.10.0.dist-info/METADATA,sha256=1G-d5PpTZleX7qQNsu3-p9S-O4JDW_m4ipuNdQswAPM,3598
+goerr-0.10.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+goerr-0.10.0.dist-info/top_level.txt,sha256=9vI2FRjY4g--sb2Q3HtL0bf4WMjM4mZkq61P3dPhGAA,6
+goerr-0.10.0.dist-info/RECORD,,
