@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Bubot-CoAP
+Version: 1.0.5
+Summary: python library to the CoAP protocol.
+Home-page: https://github.com/businka/Bubot_CoAP.git
+Author: Razgovorov Mikhail
+Author-email: 1338833@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: cbor2
+Requires-Dist: aio-dtls
+Requires-Dist: Bubot-Helpers
+
