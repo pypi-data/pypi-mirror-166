@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: yolov7_d2
+Version: 0.0.3
+Summary: YOLOv7D2 is a high-level training framework based on detectron2
+Home-page: https://github.com/jinfagang/yolov7_d2
+Author: LucasJin
+Author-email: jinfagang19@163.com
+License: Apache License 2.0
+Keywords: computer vision,object detection
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+
