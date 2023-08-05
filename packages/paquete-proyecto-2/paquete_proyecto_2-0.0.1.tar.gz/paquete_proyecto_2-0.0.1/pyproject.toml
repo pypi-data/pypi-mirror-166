@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "paquete_proyecto_2"
+version = "0.0.1"
+authors = [
+  { name="Juan Bohórquez, Gerardo Pardo & Valeria Mendez", email="juan.bohorquezr@usantotomas.edu.co" },
+]
+description = "A small example package"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/juanjose1919/paquete_proyecto_2"
+"Bug Tracker" = "https://github.com/juanjose1919/paquete_proyecto_2/issues"
