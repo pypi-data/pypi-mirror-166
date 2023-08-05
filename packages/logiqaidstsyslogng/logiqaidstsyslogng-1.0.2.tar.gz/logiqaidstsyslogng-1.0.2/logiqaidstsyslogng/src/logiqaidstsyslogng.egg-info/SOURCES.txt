@@ -1,0 +1,8 @@
+README.md
+setup.py
+logiqaidstsyslogng/src/logiqaidstsyslogng.py
+logiqaidstsyslogng/src/logiqaidstsyslogng.egg-info/PKG-INFO
+logiqaidstsyslogng/src/logiqaidstsyslogng.egg-info/SOURCES.txt
+logiqaidstsyslogng/src/logiqaidstsyslogng.egg-info/dependency_links.txt
+logiqaidstsyslogng/src/logiqaidstsyslogng.egg-info/requires.txt
+logiqaidstsyslogng/src/logiqaidstsyslogng.egg-info/top_level.txt
