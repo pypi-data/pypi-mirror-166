@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: openioe
+Version: 0.1.1
+Summary: Open IoE
+Home-page: https://openioe.in/
+Author: Venkataswamy R
+Author-email: opensourceioe@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## Open IoE
+
+Open IoE is a simple IoT platform to operate IoT devices.
+
+There are two options available,
+
+1.  API creation and Consumption (REST APIs)
+2.  Python Library (Client)
+
+---
+
+### 1\. API Creation for IoT Device and Its Consumption
+
+Users are expected to take these steps,
+
+1.  Add device using [Link \<Add Device>](http://gnanodaya.org:8080/openioe/device.jsp)
+2.  (Optional) Verify device data or API using [Link \<Verify Device>](http://gnanodaya.org:8080/openioe/console.jsp)
+3.  Embed the API in your application using [Client Code/API](http://gnanodaya.org:8080/openioe/embed.jsp)
+
+#### Visit the OpenIoE 1.0 web portal at [https://v3.openioe.in](https://v3.openioe.in)
+
+#### API List:
+
+<table><tbody><tr><td><strong>No</strong></td><td><strong>API</strong></td><td><strong>Description</strong></td><td><strong>Type</strong></td><td><strong>Example</strong></td></tr><tr><td>1</td><td>showvalue</td><td>To get hardware value from web service.</td><td>http get</td><td><pre><code class="language-plaintext">&lt;endpoint&gt;/showvalue/2/433</code></pre></td></tr><tr><td>2</td><td>updatevalue</td><td>Update the hardware value passed as a parameter</td><td>http get</td><td><pre><code class="language-plaintext">&lt;endpoint&gt;/updatevalue/2/433/2</code></pre></td></tr><tr><td>3</td><td>showjson</td><td>To get hardware JSON from web service.</td><td>http get</td><td><pre><code class="language-plaintext">&lt;endpoint&gt;/showjson/2/433</code></pre></td></tr><tr><td>4</td><td>updatejson</td><td>Update the hardware JSON passed as parameter</td><td>http post</td><td><pre><code class="language-plaintext">&lt;endpoint&gt;/updatejson/2/433 &lt;Data&gt;</code></pre></td></tr><tr><td>5</td><td>showxml</td><td>To get hardware XML file from web service.</td><td>http get</td><td><pre><code class="language-plaintext">&lt;endpoint&gt;/showxml/2/433</code></pre></td></tr><tr><td>6</td><td>updatexml</td><td>Update the hardware XML passed as parameter</td><td>http post</td><td><pre><code class="language-plaintext">&lt;endpoint&gt;/updatexml/2/433 &lt;Data&gt;</code></pre></td></tr></tbody></table>
+
+---
+
+### 2\. Python Library
+
+Users are expected to take these steps,
+
+1.  Install Python Library  
+    `pip install openioe`
+2.  Write the client code using the following methods
+
+#### Method List:
+
+<table><tbody><tr><td><strong>No</strong></td><td><strong>Method</strong></td><td><strong>Description</strong></td><td><strong>Example</strong></td></tr><tr><td>1</td><td>ReadAPI</td><td>To read the sensor data from multiple nodes</td><td><pre><code class="language-python">from openioe.openioe_apis import *
+oi=openioe_apis()
+oi.UserIDPinAPIKeys=[[2, 433], [3, 986]]
+SensorData,ResposeCode=oi.ReadAPI()
+print(SensorData)
+print(ResposeCode)</code></pre></td></tr><tr><td>2</td><td>WriteAPI</td><td>To modify the control signal at multiple nodes</td><td><pre><code class="language-python">from openioe.openioe_apis import *
+oi=openioe_apis()
+oi.UserIDPinAPIKeys=[[2, 433], [3, 986]]
+
+oi.Data=[1,2]
+Confirmation,ResposeCode=oi.ReadAPI()
+print(Confirmation)
+print(ResposeCode)</code></pre></td></tr><tr><td>3</td><td>Developer</td><td>To display the developer information</td><td><pre><code class="language-python">from openioe.openioe_apis import *
+oi=openioe_apis()
+oi.Developer()</code></pre></td></tr></tbody></table>
+
+---
+
+### Developer Information
+
+<table><tbody><tr><td><img class="image_resized" style="width:20.35%;" src="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/8146430ac5a2b59450922b0d0711400c29f0d17e09ae4229.jpg" srcset="https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/8146430ac5a2b59450922b0d0711400c29f0d17e09ae4229.jpg/w_154 154w, https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/8146430ac5a2b59450922b0d0711400c29f0d17e09ae4229.jpg/w_234 234w, https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/8146430ac5a2b59450922b0d0711400c29f0d17e09ae4229.jpg/w_314 314w, https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/8146430ac5a2b59450922b0d0711400c29f0d17e09ae4229.jpg/w_394 394w, https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/8146430ac5a2b59450922b0d0711400c29f0d17e09ae4229.jpg/w_474 474w" sizes="100vw" width="474"></td><td><p>Dr. Venkataswamy R</p><p><a href="mailto:venkataswamy.r@gmail.com">venkataswamy.r@gmail.com</a></p><p>https://venkataswamy.in</p></td></tr></tbody></table>
+
