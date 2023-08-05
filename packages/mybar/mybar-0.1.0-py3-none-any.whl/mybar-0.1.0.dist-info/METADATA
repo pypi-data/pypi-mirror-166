@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mybar
+Version: 0.1.0
+Summary: attr: mybar.__description__
+Author: attr: mybar.__author__
+License: attr: mybar.__license__
+Project-URL: GitHub: repo, https://github.com/derek-yeetr/mybar
+Platform: Platform Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requirements
+
