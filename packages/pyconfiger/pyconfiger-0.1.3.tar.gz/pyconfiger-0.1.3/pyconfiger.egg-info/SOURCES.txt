@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.py
+pyconfiger/__init__.py
+pyconfiger.egg-info/PKG-INFO
+pyconfiger.egg-info/SOURCES.txt
+pyconfiger.egg-info/dependency_links.txt
+pyconfiger.egg-info/top_level.txt
