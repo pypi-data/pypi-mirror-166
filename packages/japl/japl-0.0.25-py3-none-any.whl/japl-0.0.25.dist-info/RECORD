@@ -1,0 +1,10 @@
+japl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+japl/adb.py,sha256=dae5wl7E0hdeb4rgQdKJru-wzDqLBFrvMC9HsLMe3yA,7689
+japl/decoradores.py,sha256=0OMdgZqtu_iaHC4ENirlXJIkgO8BiCYt02Oz_2lxF20,651
+japl/exceptions.py,sha256=cs4Pbm6s-yE2f_tKOCbvllYT6SojtAjGvZqDbNfG5Rc,403
+japl/tools.py,sha256=ZtwB-RtJU6M2KJ3gp6PbxS2ZO3cs1m-gLAia_GwP1CA,1509
+japl-0.0.25.dist-info/LICENSE,sha256=4B0EWAY4ahVL2deIxhxUxUzvps8WEIFZxvWBPHPW4oE,1103
+japl-0.0.25.dist-info/METADATA,sha256=DC0teDrTJqo92tFUzQ8KSi6cc1o6mJf2rjv-bXENcOY,2057
+japl-0.0.25.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+japl-0.0.25.dist-info/top_level.txt,sha256=CXqYlTWwMnu8lL4b9Nh59LQEjTCdD5khtSprlEJlQAI,5
+japl-0.0.25.dist-info/RECORD,,
