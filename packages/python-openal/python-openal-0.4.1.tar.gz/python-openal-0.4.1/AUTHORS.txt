@@ -1,0 +1,4 @@
+Authors and contributors:
+JessicaTegner
+Manuel Cortes
+Marcus von Appen <marcus@sysfault.org>
