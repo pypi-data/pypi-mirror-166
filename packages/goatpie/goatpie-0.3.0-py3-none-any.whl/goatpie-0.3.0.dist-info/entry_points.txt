@@ -1,0 +1,3 @@
+[goatpie]
+goatpie=goatpie.cli:cli
+
