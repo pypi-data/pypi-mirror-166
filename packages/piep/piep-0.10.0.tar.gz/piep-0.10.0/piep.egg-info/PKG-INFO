@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: piep
+Version: 0.10.0
+Summary: unix-style stream manipulation with python's syntax
+Home-page: http://gfxmonk.net/dist/0install/piep.xml
+License-File: LICENCE

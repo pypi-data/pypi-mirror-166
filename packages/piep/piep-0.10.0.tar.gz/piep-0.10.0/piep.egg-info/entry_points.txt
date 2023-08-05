@@ -1,0 +1,2 @@
+[console_scripts]
+piep = piep.main:main
