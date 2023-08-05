@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: Beaconet
+Version: 1.0.2
+Summary: A reference-free method for integration of multiple batches of scRNA-seq data.
+Home-page: https://github.com/xuxiaohan
+Author: Xu Han, Gao Lin
+Author-email: hxu10670@gmail.com
+Maintainer: Xu Han
+Maintainer-email: hxu10670@gmail.com
+License: MIT Licence
+Keywords: scRNA-seq,single cell,batch effect,multiple sources,reference-free
+Platform: any
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: scikit-learn
+Requires-Dist: torch
+Requires-Dist: umap-learn
+Requires-Dist: scipy
+
+the misc-tools for experiment of machine learning and bioinformatics.
+
