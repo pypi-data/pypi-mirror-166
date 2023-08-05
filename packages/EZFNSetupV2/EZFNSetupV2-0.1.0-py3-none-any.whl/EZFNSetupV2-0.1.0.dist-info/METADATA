@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: EZFNSetupV2
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://ezfn.dev
+Author: EZFN.DEV
+Author-email: admin@ezfn.dev
+License: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License
+Platform: UNKNOWN
+Requires-Python: >=3.8.5
+Requires-Dist: requests
+
+UNKNOWN
+
+
