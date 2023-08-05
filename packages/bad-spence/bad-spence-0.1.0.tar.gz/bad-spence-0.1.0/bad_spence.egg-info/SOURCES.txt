@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+bad_spence/__init__.py
+bad_spence/fetch.py
+bad_spence/generator.py
+bad_spence.egg-info/PKG-INFO
+bad_spence.egg-info/SOURCES.txt
+bad_spence.egg-info/dependency_links.txt
+bad_spence.egg-info/entry_points.txt
+bad_spence.egg-info/requires.txt
+bad_spence.egg-info/top_level.txt
