@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pix2text
+Version: 0.0.1
+Summary: Python3 package to extract information from images
+Home-page: https://github.com/breezedeus/pix2text
+Author: breezedeus
+Author-email: breezedeus@163.com
+License: MIT
+Platform: Mac
+Platform: Linux
+Platform: Windows
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: tqdm
+Requires-Dist: cnocr (>=2.2.1)
+Requires-Dist: pix2tex
+Provides-Extra: dev
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Provides-Extra: serve
+Requires-Dist: uvicorn[standard] ; extra == 'serve'
+Requires-Dist: fastapi ; extra == 'serve'
+Requires-Dist: python-multipart ; extra == 'serve'
+Requires-Dist: pydantic ; extra == 'serve'
+
+# Pix2Text
+
+
