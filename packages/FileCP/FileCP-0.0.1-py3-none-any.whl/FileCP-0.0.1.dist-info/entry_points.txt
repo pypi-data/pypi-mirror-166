@@ -1,0 +1,2 @@
+[console_scripts]
+filecp = cpfile.__main__:cpfile
