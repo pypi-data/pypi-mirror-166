@@ -1,0 +1,6 @@
+guarana/__init__.py,sha256=eZVFT9qrtbMSqfE7W5ovQ2wPhfxPDdAEaKcDgSUKMKU,908
+guarana/segment_client.py,sha256=nQD-OCNc8QNhJD2dOURkZVqCJM8f6Jvg0dPcB6SDFGs,1221
+guarana/test.py,sha256=Pj69aPUgbF2loYjsSRkXCM7Fga-H8GVz7X0zndazjdE,274
+guarana-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+guarana-1.0.0.dist-info/METADATA,sha256=G-90fniS1kgtkfAUKvZNGk8HckfVBZp3zKgWkVU5z2g,445
+guarana-1.0.0.dist-info/RECORD,,
