@@ -1,0 +1,11 @@
+mqt.syrec.dylibs/libgmpxx.4.dylib,sha256=L7MrGiSXE5AI6BrS0XMkCKdAWdu6sXIkm7p0SYPy54U,81760
+mqt.syrec.dylibs/libgmp.10.dylib,sha256=0a1zG8noHxq3wB5_9QTaXz2cqCgh9BwyEYM7jf7FLVQ,497744
+mqt.syrec-0.2.0.dist-info/RECORD,,
+mqt.syrec-0.2.0.dist-info/LICENSE,sha256=f2k1iSOlT4fngusB_IoV-EzfZZcpaMAVKT-A8Cl9q5s,1116
+mqt.syrec-0.2.0.dist-info/WHEEL,sha256=1aIKcOiZwCaey2y-OH_J-W7IhsRHMsIvvidnI8v_CqQ,110
+mqt.syrec-0.2.0.dist-info/entry_points.txt,sha256=69LY6XgpcpQxArwc57GqRRHaoBZH1VzZIph-ZriFylA,61
+mqt.syrec-0.2.0.dist-info/top_level.txt,sha256=EEAcN7dCjD768hIHwlaYu84KcowTMGQzneY8i30tatk,4
+mqt.syrec-0.2.0.dist-info/METADATA,sha256=1dw-EPQzjWa-ifTlnqlJ6ADIr2GrS5g2Xbc9Xjr2lIQ,7203
+mqt/syrec/__init__.py,sha256=O0VrpwhkKgaKr76c1hOSWWFg8l3Zraxc65qsGvP4ZQc,485
+mqt/syrec/syrec_editor.py,sha256=B7WYfctx22xzNnEYLKtAQUIyjCMIXcGRqY0udu3vkmA,22373
+mqt/syrec/pysyrec.cpython-39-darwin.so,sha256=Ap7mUEUmXAJu0NyWDse0HHr437iO0_jYtsFB__kE2Xc,650880
