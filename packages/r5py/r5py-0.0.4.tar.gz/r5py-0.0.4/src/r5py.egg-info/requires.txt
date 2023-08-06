@@ -1,0 +1,14 @@
+ConfigArgParse
+fiona
+geopandas
+joblib
+jpype1
+numpy
+pandas
+psutil
+requests
+
+[tests]
+pytest
+pytest-cov
+pytest-lazy-fixture
