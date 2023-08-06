@@ -1,0 +1,10 @@
+valcheck/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+valcheck/base_validator.py,sha256=GF8FQMxTqetHuLnywFOmsRxeZBiLMtrhCcstTgmy3aE,8261
+valcheck/errors.py,sha256=pi8kw8_xYdsNICQxUDbXK0RK1cxOyLUqyJY3B8T-77o,1170
+valcheck/fields.py,sha256=DU6BMbgD15_GYfOHuAa6oAuKbLxqt35CAAM2n6lK_sI,8317
+valcheck/utils.py,sha256=LLEzQbyfEMNSnDZRYggbm4pylJ0oa3_S2FcQWdHYzrY,1422
+valcheck-0.1.0.dist-info/LICENSE,sha256=GQyWA1RVR-LaZlw5h1r_Issy9deLEvqeKQyUtBOnUI4,1067
+valcheck-0.1.0.dist-info/METADATA,sha256=bZm_roF2GA4TzFotuBKyTqGJgVCLrtQ9HlRO_9xuX-8,751
+valcheck-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+valcheck-0.1.0.dist-info/top_level.txt,sha256=etmuGSwagtvEl69EvKZdBOcMBEXDfXyYpopxO6eRz2s,9
+valcheck-0.1.0.dist-info/RECORD,,
