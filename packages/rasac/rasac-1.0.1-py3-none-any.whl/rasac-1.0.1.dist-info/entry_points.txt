@@ -1,0 +1,2 @@
+[console_scripts]
+rasac = rasa_codeless.rasa_codeless:run_rasac
