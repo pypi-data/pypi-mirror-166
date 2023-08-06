@@ -1,0 +1,2 @@
+[console_scripts]
+antpy = ios_device.main:cli
