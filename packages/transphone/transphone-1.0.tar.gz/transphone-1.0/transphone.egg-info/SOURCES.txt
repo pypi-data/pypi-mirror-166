@@ -1,0 +1,8 @@
+README.md
+setup.py
+transphone/config.py
+transphone/g2p.py
+transphone.egg-info/PKG-INFO
+transphone.egg-info/SOURCES.txt
+transphone.egg-info/dependency_links.txt
+transphone.egg-info/top_level.txt
