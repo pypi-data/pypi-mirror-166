@@ -1,0 +1,70 @@
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+files = [
+    "ugent_food/**/*.py"
+]
+
+[tool.poetry]
+name = "ugent-food"
+version = "1.1.0"
+description = "Command-line tool to get the current menu for Ghent University restaurants"
+license = "MIT"
+authors = ["stijndcl"]
+readme = "README.md"
+homepage = "https://github.com/stijndcl/ugent-food"
+repository = "https://github.com/stijndcl/ugent-food"
+keywords = [
+    "python, food, api, wrapper, zeus, hydra, ugent, ghent, university, resto, restaurants, menu"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Dutch",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+    ]
+packages = [
+    {include = "ugent_food"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.8.1"
+click = "^8.1.3"
+dacite = "^1.6.0"
+tabulate = "^0.8.10"
+
+[tool.poetry.dev-dependencies]
+black = "^22.8.0"
+flake8 = "4.0.1"
+flake8-bugbear = "^22.8.23"
+flake8-docstrings = "^1.6.0"
+flake8-dunder-all = "^0.2.2"
+flake8-eradicate = "^1.3.0"
+flake8-isort = "^4.2.0"
+flake8-simplify = "^0.19.3"
+mypy = "^0.971"
+pre-commit = "^2.20.0"
+types-tabulate = "^0.8.11"
+
+[tool.poetry.scripts]
+ugent-food = "ugent_food:main"
+
+[tool.poetry.urls]
+issues = "https://github.com/stijndcl/ugent-food/issues"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
