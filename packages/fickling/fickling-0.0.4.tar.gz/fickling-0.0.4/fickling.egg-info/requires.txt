@@ -1,0 +1,12 @@
+astunparse~=1.6.3
+
+[dev]
+flake8
+pytest
+twine
+
+[examples]
+numpy
+pytorchfi~=0.4.1
+torch~=1.9.0
+torchvision~=0.10.0
