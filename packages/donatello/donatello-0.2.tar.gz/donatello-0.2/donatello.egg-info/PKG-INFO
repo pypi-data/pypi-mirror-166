@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: donatello
+Version: 0.2
+Summary: Donatello.py is a simple unofficial library for the Donatello API
+Home-page: https://github.com/Beengoo/donatello.py
+Author: Beengoo
+Author-email: olddft@gmail.com
+License: MIT
+Download-URL: https://github.com/Beengoo/donatello.py/archive/refs/heads/master.zip
+Description: Donatello.py is a simple unofficial library for the Donatello API
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires: requests
