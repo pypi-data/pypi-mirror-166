@@ -1,0 +1,28 @@
+numpy
+scipy
+pandas>=1.3
+xarray
+
+[develop]
+pytest
+hypothesis
+ipython
+matplotlib
+vtk
+meshio
+pygmsh
+gmsh
+quadpy
+bemio@ git+https://github.com/michaelcdevin/bemio.git@master-python3#egg=bemio
+sphinx
+sphinxcontrib-proof
+
+[extra]
+ipython
+matplotlib
+vtk
+meshio
+pygmsh
+gmsh
+quadpy
+bemio@ git+https://github.com/michaelcdevin/bemio.git@master-python3#egg=bemio
