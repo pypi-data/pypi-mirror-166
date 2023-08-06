@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: hue-color-converter
+Version: 0.2.1
+Summary: 
+License: MIT
+Author: Zachary Juang
+Author-email: zachary822@me.com
+Requires-Python: >=3.10,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Shapely (>=1.8.4,<2.0.0)
+Requires-Dist: numpy (>=1.23.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Philips Hue Color Converter  (CIE xyY)
+
+Converts RGB to CIE xyY for Philips Hue
+
+```python
+from hue_color_converter import Converter
+
+converter = Converter()  # optionally provide device id or "A", "B", "C" color gamut for more accurate colors
+
+(x, y), Y = converter.hex_to_xyY("ff00ff")
+# calculated brightness is on the scale of 0-1
+
+converter.xyY_to_hex((0.3209, 0.1541), Y=0.2848)
+```
+
+Click [here](https://developers.meethue.com/develop/hue-api/supported-devices/) to see which color gamuts are supported for your device.
+
+## Installing hue-color-converter
+
+```shell
+pip install hue-color-converter
+```
+
+## License
+
+[MIT](./LICENSE.txt)
+
