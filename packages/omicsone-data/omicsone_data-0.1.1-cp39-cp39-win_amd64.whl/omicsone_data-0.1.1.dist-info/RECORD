@@ -1,0 +1,11 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omicsone_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omicsone_data/main.py,sha256=h_gL3gQCupDrCKX82VqwBd4tauXYtaMzBaJn3kG7Q2A,1955
+omicsone_data/plugins/data.cp39-win_amd64.pyd,sha256=5aMCfMjiX0jubDwfbiENCwKkXgg2mhw3fDm4GxiXpos,75776
+omicsone_data/plugins/param.cp39-win_amd64.pyd,sha256=kJ2J5S2fX04NGaM3d2Jqim0RlB-MpOtpxfNMpsQ7ukM,52224
+omicsone_data-0.1.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+omicsone_data-0.1.1.dist-info/METADATA,sha256=0esjKJWahHKB6G9mm2YJFjMmOYoH3EAYGH_IRhSjuno,282
+omicsone_data-0.1.1.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+omicsone_data-0.1.1.dist-info/entry_points.txt,sha256=3jfBL1-Q8vLTVBuJqI-VEdnytly_DSq_Indbp2qwGh4,59
+omicsone_data-0.1.1.dist-info/top_level.txt,sha256=D08YehuyMZSk2LOwWB0fRJyLJWoMv-VuN-KwKifPV88,14
+omicsone_data-0.1.1.dist-info/RECORD,,
