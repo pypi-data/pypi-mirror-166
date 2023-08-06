@@ -1,0 +1,11 @@
+zqmtool/__init__.py,sha256=H-8y9e_yw5CfUKCRD_PAR-otV8dTstK1OkeeJuL1_ek,1094
+zqmtool/file.py,sha256=Hi_Yb494zubevSSN9x0NMh3Hxv3Bs8l-fUYSBEr2zHc,4405
+zqmtool/image.py,sha256=OnbQGSaL6QTRzMfysrlYcAsRzlOJyEwWIYM3e8QtOL4,25557
+zqmtool/point.py,sha256=onB3lUw67zfXismFdKiU535m-gDdLmPRJFlS0GwydPA,2645
+zqmtool/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zqmtool/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+zqmtool-0.0.19.dist-info/LICENSE,sha256=Oc9eFsvvQf3eVH67KxYFneiYXNW3cAKM9Vq9Z_kHMII,1063
+zqmtool-0.0.19.dist-info/METADATA,sha256=zc3zgoVdwlRo2IczG8PJ_fAniU8F6-9Qc41MfSHUeyA,240
+zqmtool-0.0.19.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+zqmtool-0.0.19.dist-info/top_level.txt,sha256=OaGI6AARS367smAdsBV96AsBGdg8CG1g7yW3bMQ5zJA,8
+zqmtool-0.0.19.dist-info/RECORD,,
