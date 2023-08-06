@@ -1,0 +1,61 @@
+from enaml.core.declarative import d_
+from atom.api import Value, Bool, Typed
+
+from enamlext.widgets import Table
+from enamlext.qt.qt_dataframe import DataFrameProxy
+from enamlext.qt.table.column import generate_columns
+
+import pandas as pd
+
+
+enamldef DataFrame(Table):
+    attr df = None  # d_(Value(factory=pd.DataFrame))
+    attr include = None   # d_(Typed(list))
+    attr exclude = None   # d_(Typed(list))
+    attr _auto_refresh_columns = False
+
+    func _refresh_internals():
+        _df = df if self.df is not None else pd.DataFrame()
+        self.items = DataFrameProxy(_df)
+        if self._auto_refresh_columns:
+            proposed_new_columns = {(c.key, c.title): c
+                                    for c in generate_columns(self.items, hints=hints,
+                                                              include=self.include, exclude=self.exclude)}
+            if self.proxy.widget is not None:
+                filters = self.proxy.widget.model().filters
+                for column in filters.filters.copy():
+                    filter_key = (column.key, column.title)
+                    filter = filters.filters.pop(column)
+
+                    if filter_key in proposed_new_columns:
+                        filter.column = proposed_new_columns[filter_key]
+                        filters.filters[filter.column] = filter
+
+            self.columns = list(proposed_new_columns.values())
+
+    func update_inplace():
+#        import time
+#        t0 = time.perf_counter()
+        self.items.update_inplace()
+        self.proxy.widget.refresh()
+#        t1 = time.perf_counter()
+#        print(f'update_inplace of {name} took {t1 - t0:.2f} s')
+
+    activated ::
+        self.proxy.widget.adjust_column_sizes()  # TODO: why we need to call this here?
+
+    initialized ::
+        self._auto_refresh_columns = not bool(self.columns)
+        self._refresh_internals()
+
+    df ::
+        self._refresh_internals()
+
+    include ::
+        self._refresh_internals()
+
+    exclude ::
+        self._refresh_internals()
+
+    hints ::
+        self._refresh_internals()
