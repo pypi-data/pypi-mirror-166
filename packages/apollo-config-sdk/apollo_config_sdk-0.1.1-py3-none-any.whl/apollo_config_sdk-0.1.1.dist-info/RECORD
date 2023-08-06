@@ -1,0 +1,9 @@
+apollo_config_sdk/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+apollo_config_sdk/appdirs.py,sha256=hiBKRM_Qqmjkz2_FvWNAB0ylK8hvxFPJgjwN-Gah1-k,24526
+apollo_config_sdk/client.py,sha256=UbIhjW83RnBuFo08xL6sVKV-fd7CcwEw0csJU3WpNvw,11916
+apollo_config_sdk/filecache.py,sha256=gtVmcTttB2rIKqkOttTisboT9fLFHrRmGFaz1He2Aq4,15240
+apollo_config_sdk/main.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apollo_config_sdk/readwritelock.py,sha256=1pzKRkBPflW4daJc5AVo7fcr_xiv_G4zod3MyJ9aM1I,2603
+apollo_config_sdk-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+apollo_config_sdk-0.1.1.dist-info/METADATA,sha256=e5FprXHr0Nco8lq0lEnUfNjxKUBfwdccMP8SMQF1rsU,448
+apollo_config_sdk-0.1.1.dist-info/RECORD,,
