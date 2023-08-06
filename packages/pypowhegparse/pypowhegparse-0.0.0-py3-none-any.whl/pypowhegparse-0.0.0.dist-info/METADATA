@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pypowhegparse
+Version: 0.0.0
+Summary: parse and check powheg outputs
+Home-page: https://github.com/APN-Pucky/pypowhegparse
+Author: APN
+Author-email: APN-Pucky@no-reply.github.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: uncertainties
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: smpl
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Provides-Extra: docs
+
+# pypowhegparse
+
+Analyse POWHEG output files for potential errors.
