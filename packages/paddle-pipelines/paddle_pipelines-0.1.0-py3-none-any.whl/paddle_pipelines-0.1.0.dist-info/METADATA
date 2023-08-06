@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: paddle-pipelines
+Version: 0.1.0
+Summary: PIPELINES: An End to End Natural Language Proceessing Development Kit Based on ERNIE
+Home-page: https://github.com/PaddlePaddle/PaddleNLP
+Author: PaddlePaddle Speech and Language Team
+Author-email: paddlenlp@baidu.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/plain
+Requires-Dist: paddlenlp
+Requires-Dist: paddleocr
+Requires-Dist: requests
+Requires-Dist: pydantic
+Requires-Dist: mmh3
+Requires-Dist: more-itertools
+Requires-Dist: elasticsearch (<=7.10,>=7.7)
+Requires-Dist: sqlalchemy (<2,>=1.4.2)
+Requires-Dist: sqlalchemy-utils
+Requires-Dist: langdetect
+Requires-Dist: python-docx
+Requires-Dist: nltk
+Requires-Dist: pdfplumber
+Requires-Dist: faiss-cpu (>=1.7.2)
+Requires-Dist: opencv-python (>=4.4)
+Requires-Dist: opencv-contrib-python-headless
+Requires-Dist: python-multipart
+Requires-Dist: st-annotated-text
+Requires-Dist: streamlit (==1.9.0)
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: markdown
+Requires-Dist: numba
+
+PIPELINES: An End to End Natural Language Proceessing Development Kit Based on ERNIE
+
