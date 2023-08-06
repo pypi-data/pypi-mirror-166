@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: noldor
+Version: 0.1.2
+Summary: A validation library easy to extend.
+Author: Nicolò Sala
+Author-email: nicolo.sala@protonmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# Noldor
+
+Noldor is a validation library easy to extend.
