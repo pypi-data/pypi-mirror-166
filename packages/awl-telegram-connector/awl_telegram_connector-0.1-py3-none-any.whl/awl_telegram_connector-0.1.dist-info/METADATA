@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: awl-telegram-connector
+Version: 0.1
+Home-page: https://github.com/levinandrey/awl-telegram-connector
+Author: Andrew Levin
+Author-email: email@example.com
+License: None
+Keywords: example project
+Requires-Python: >=3.6
+Requires-Dist: pyaml
+Requires-Dist: awesome-slugify
+Requires-Dist: python-telegram-bot (>=20.0a4)
+
