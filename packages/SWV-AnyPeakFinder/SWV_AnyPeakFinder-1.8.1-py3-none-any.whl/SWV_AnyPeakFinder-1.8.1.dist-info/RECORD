@@ -1,0 +1,11 @@
+SWV_AnyPeakFinder/__init__.py,sha256=GFYfnnqXZM2v6YOKdvIejWAos1MaJk4UcmTWs47e5qg,56
+SWV_AnyPeakFinder/__main__.py,sha256=q4Cac0wEqz6JgqYZAp_1pqXtOmB6WAWKEob63y0Z-t4,136
+SWV_AnyPeakFinder/__version__.py,sha256=9g7E9AdRiLChSTXTc4Zsy31ykfaZFI9G1skPwLNsPz0,527
+SWV_AnyPeakFinder/gui.py,sha256=0bSYSABV5ZkOecZ5vzVOsyBPz3IqRlzgYoE8EDz2VBc,15878
+SWV_AnyPeakFinder/logic.py,sha256=iUguwjBl8QAJhhC6HT80HK1yAIq4KBqbqXnNXBfsvqQ,17888
+SWV_AnyPeakFinder-1.8.1.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+SWV_AnyPeakFinder-1.8.1.dist-info/METADATA,sha256=-dm4auJbkeclaRarWrbXbaBYiPbulM7vRF0UZw88LvU,2601
+SWV_AnyPeakFinder-1.8.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SWV_AnyPeakFinder-1.8.1.dist-info/entry_points.txt,sha256=ht8237J7K2AUtl16uKtI4c9D8CkyJB63MhvSDBstUH4,70
+SWV_AnyPeakFinder-1.8.1.dist-info/top_level.txt,sha256=Oj2Uu29VB00wShPFiqXOKNrHEkpZS8D9QiOwqnZ0Fx4,18
+SWV_AnyPeakFinder-1.8.1.dist-info/RECORD,,
