@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: lwg_jack_project_demo
+Version: 1.0.0
+Summary: test Python packaging
+Home-page: https://www.baidu.com/
+Author: jacky
+Author-email: jacky@g.com
+Requires-Python: >=3.6
+License-File: LICENSE
