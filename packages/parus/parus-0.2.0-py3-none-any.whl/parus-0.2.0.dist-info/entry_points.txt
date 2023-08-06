@@ -1,0 +1,3 @@
+[console_scripts]
+parus = parus.main:entry_point
+
