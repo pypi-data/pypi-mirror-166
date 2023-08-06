@@ -1,0 +1,10 @@
+teke/__about__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+teke/__init__.py,sha256=GPCThGy-MmFIel9kMJf0B0riVnA_AhfCkUEw9Up5R4o,195
+teke/connection.py,sha256=JI50ph7E2ZRP7ZE_LCZgEr-hass6yzi2VKfiO3gQMes,6084
+teke/response.py,sha256=hVVAO9fhnkIQcwsrIYUQVwfy7F44LDEEdp9C9-0vFxY,1295
+teke/router.py,sha256=IPIZ-0umna_13tLrFVZroXxGshh3mkxczbuL1HUHwwk,2733
+teke/utils.py,sha256=2UQ4WLWb1pEoPDzvFDPPO0ZBXAjh3gBqvZRFyTHR1Bg,562
+teke-0.0.1.dist-info/METADATA,sha256=yZwa2-0suHrhlHHgBX0FU0iBxe5oXBwvebg6fS32m-0,1968
+teke-0.0.1.dist-info/WHEEL,sha256=09RFlvY3aVzvCNk4AXPZt-N-AI7GY_KktGsTb2IqIBU,86
+teke-0.0.1.dist-info/licenses/LICENCE,sha256=QdlRNgLBSV-9GTeAp0xV0Pm4gxvnEQKuT8FIl1s--Y4,1067
+teke-0.0.1.dist-info/RECORD,,
