@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: gaama
+Version: 0.1.0
+Summary: GitHub-as-Artifactory for Model Artifacts
+Home-page: https://github.com/prabhuomkar/bitbeast
+Author: Omkar Prabhu
+Author-email: prabhuomkar@pm.me
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gaama
+GaAMA: GitHub-as-Artifactory for Model Artifacts
+
+## About
+
+
+## Usage
+
+
+## License
+This project is licensed under [Apache License 2.0](LICENSE).
+
