@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+office_word_count/__init__.py
+office_word_count/counter.py
+office_word_count/patterns.py
+office_word_count/statistics.py
+office_word_count/text.py
+office_word_count.egg-info/PKG-INFO
+office_word_count.egg-info/SOURCES.txt
+office_word_count.egg-info/dependency_links.txt
+office_word_count.egg-info/requires.txt
+office_word_count.egg-info/top_level.txt
+tests/__init__.py
