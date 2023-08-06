@@ -1,0 +1,69 @@
+from typing import Any, Dict, List, Optional, Sequence, Set
+
+from dagster import Field, In, OpDefinition, OpExecutionContext, Out, Output
+
+
+class BaseComponent:
+    input_defs: Dict[str, In] = {}
+    output_defs: Dict[str, Out] = {}
+    config_schema: Dict[str, Field] = {}
+    required_resource_keys: Set[str] = set()
+    tags: Dict[str, str] = {}
+
+    @classmethod
+    def _compute_hook(cls, step_context: OpExecutionContext, inputs: Dict[str, Any]):
+        """The compute hook that runs the actual compute function.
+            Needs to overridden by the descendant classes.
+
+        Args:
+            step_context (OpExecutionContext): The Dagster execution context.
+            inputs (Dict[str, Any]): The inputs that are supplied to the op as a dictionary.
+
+        Raises:
+            NotImplementedError: The compute hook is not implemented by default.
+        """
+        # Load the required resources defined in the required_resource_keys attribute
+        resources = {
+            resource_key: resource
+            for resource_key, resource in step_context.resources._asdict().items()
+            if resource_key in cls.required_resource_keys
+        }
+
+        # Run the compute function ("cls.compute_function" needs to be defined by the children)
+        # The inputs of the previous op, resources and op config are injected into the compute function
+        results = getattr(cls, cls.compute_function)(
+            **inputs,
+            **resources,
+            **step_context.op_config,
+        )
+
+        # If the results are not a sequence, wrap it in a list
+        if not isinstance(results, Sequence):
+            results = [results]
+
+        # Zip the results with the output definitions and yield the results
+        for result, output_def in zip(results, cls.output_defs):
+            yield Output(result, output_def.name)
+
+    @classmethod
+    def to_op(cls, name: str, description: Optional[str] = None) -> OpDefinition:
+        """Generates a op definition for this component.
+
+        Args:
+            name (str): The name of the op.
+            input_defs (List[In], optional): The list of Dagster input values. Defaults to [].
+            output_defs (List[Out], optional): The list of Dagster output values. Defaults to [].
+
+        Returns:
+            OpDefinition: The operator that is used by Dagster to execute this component.
+        """
+        return OpDefinition(
+            name=name,
+            description=description,
+            ins=cls.input_defs,
+            outs=cls.output_defs,
+            required_resource_keys=cls.required_resource_keys,
+            config_schema=cls.config_schema,
+            compute_fn=cls._compute_hook,
+            tags=cls.tags,
+        )
