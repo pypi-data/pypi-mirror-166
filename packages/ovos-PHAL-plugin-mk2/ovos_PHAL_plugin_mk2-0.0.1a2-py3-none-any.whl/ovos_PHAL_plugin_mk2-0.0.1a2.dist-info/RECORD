@@ -1,0 +1,11 @@
+ovos_PHAL_plugin_mk2/__init__.py,sha256=K6bD9fP82R9_C2t6_klDRQOnHqwnfVKteA7uS997uS4,4467
+ovos_PHAL_plugin_mk2/fan.py,sha256=Q_a6-4NLHmQY_KlgZzOH-DgrF2Aw408ZNTVaCt6aYhY,4749
+ovos_PHAL_plugin_mk2/leds.py,sha256=Kicx9xu2CAqf5QJRlj5seViUd0uEctmciavheDeu76Y,10163
+ovos_PHAL_plugin_mk2/switch.py,sha256=E74uQCvs4ltp-ab4OSohus4hz4SRtUAuYh4kLYmqWP4,6273
+ovos_PHAL_plugin_mk2/version.py,sha256=QabbAoPiuLIjnxlTrr_3_4mlDBN2PLYjBj91Rbb2DJc,177
+ovos_PHAL_plugin_mk2-0.0.1a2.dist-info/METADATA,sha256=j0fpZrjixWWDR8fEFXLpXpX6Fm_X1a7N-ps93hNlcYU,650
+ovos_PHAL_plugin_mk2-0.0.1a2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ovos_PHAL_plugin_mk2-0.0.1a2.dist-info/entry_points.txt,sha256=WJraliHmNS2MdPVppn7md1yY64VdlD3RUYxz2raORPw,68
+ovos_PHAL_plugin_mk2-0.0.1a2.dist-info/top_level.txt,sha256=FJrqIPkd4j2vsaC2NOI6nkJBqFVQiBX7Gesyd-qHoHM,21
+ovos_PHAL_plugin_mk2-0.0.1a2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ovos_PHAL_plugin_mk2-0.0.1a2.dist-info/RECORD,,
