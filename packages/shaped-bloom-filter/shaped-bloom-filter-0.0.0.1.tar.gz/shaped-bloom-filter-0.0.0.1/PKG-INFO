@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: shaped-bloom-filter
+Version: 0.0.0.1
+Summary: Python-importable bloom filter within bindings in Go.
+Home-page: https://github.com/shaped-ai/bloom
+Author: Shaped Team
+Author-email: support@shaped.ai
+Keywords: bloom-filter,shaped-ai
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
