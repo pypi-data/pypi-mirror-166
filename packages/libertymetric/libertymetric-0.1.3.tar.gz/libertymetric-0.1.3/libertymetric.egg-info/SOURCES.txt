@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+libertymetric/__init__.py
+libertymetric/classLiberty.py
+libertymetric.egg-info/PKG-INFO
+libertymetric.egg-info/SOURCES.txt
+libertymetric.egg-info/dependency_links.txt
+libertymetric.egg-info/top_level.txt
