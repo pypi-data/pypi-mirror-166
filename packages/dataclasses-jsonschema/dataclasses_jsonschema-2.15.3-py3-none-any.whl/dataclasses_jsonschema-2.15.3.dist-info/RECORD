@@ -1,0 +1,11 @@
+dataclasses_jsonschema/__init__.py,sha256=NzNXOhOkOxjt_t5fctdaMi1ef3OpY_isuvGuJZmBWQs,41192
+dataclasses_jsonschema/apispec.py,sha256=cH2-cSjjiZD0XwwmFFvOJVGWEQa0zcvPxlf93aMcWZ0,2798
+dataclasses_jsonschema/field_types.py,sha256=hhv_GgSFIHedY4Yc5xfiM0yWr0V8HZZOHYvu3Vxhc5E,3420
+dataclasses_jsonschema/py.typed,sha256=DtCsIDq6KOv2NOEdQjTbeMWJKRh6ZEL2E-6Mf1RLeMA,59
+dataclasses_jsonschema/type_defs.py,sha256=qnx7GCxF6gOOBYLB8EKzzMEHS28dxtn6HwRd0D2d37I,1478
+dataclasses_jsonschema/type_hints.py,sha256=1TpB2Ajjb7_NflR0e_gpU_FKz8ZzwM44RDDb8dlQxCg,3811
+dataclasses_jsonschema-2.15.3.dist-info/LICENSE,sha256=3I5cW5ZgMC3je7dPVE8lC21QYxTn2H4qUYq6NUrAhIY,1071
+dataclasses_jsonschema-2.15.3.dist-info/METADATA,sha256=5L4FQRaJQC0k_8a-1PblhpBsYMX-9FT5Iy0uoKRLJYU,7202
+dataclasses_jsonschema-2.15.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dataclasses_jsonschema-2.15.3.dist-info/top_level.txt,sha256=6rM2GAyls_T44S79ZRtnCekI-ptDd7-1ncuB6w6zyXI,23
+dataclasses_jsonschema-2.15.3.dist-info/RECORD,,
