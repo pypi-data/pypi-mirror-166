@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: deployme
+Version: 0.0.1
+Summary: minimalistic ML-models auto deployment tool
+Author-email: Konstantin Templin <1qnbhd@gmail.com>, Kristina Zheltova <masterkristall@gmail.com>, Semen Zabrodin <semenzabrodin@mail.ru>, Popov Maxim <maximpop1@yandex.ru>
+Maintainer-email: Konstantin Templin <1qnbhd@gmail.com>, Kristina Zheltova <masterkristall@gmail.com>, Semen Zabrodin <semenzabrodin@mail.ru>, Popov Maxim <maximpop1@yandex.ru>
+License: MIT
+Project-URL: Repository, https://github.com/qnbhd/deployme
+Keywords: ML,deploy,AutoDeploy
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS
+
+# deployme
+
+[![Actions Status](https://github.com/qnbhd/deployme/actions/workflows/checks.yml/badge.svg)](https://github.com/qnbhd/deployme/actions)
+[![Actions Status](https://github.com/qnbhd/deployme/actions/workflows/deployme.yml/badge.svg)](https://github.com/qnbhd/deployme/actions)
+
+Minimalistic ML-models auto deployment tool

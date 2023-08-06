@@ -1,0 +1,8 @@
+click
+pandas
+numpy
+scikit-learn
+executor
+rich
+pipreqsnb
+merge-requirements
