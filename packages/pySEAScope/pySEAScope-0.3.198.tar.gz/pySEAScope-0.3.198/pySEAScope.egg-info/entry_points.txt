@@ -1,0 +1,3 @@
+[console_scripts]
+seascope-processor = SEAScope.cli.server:seascope_processor
+
