@@ -1,0 +1,13 @@
+cloud_os_desktop/AboutDialog.py,sha256=np42yHdyNw-mziKQKxxQIlzo2TYNwF7BxYHIfAIheVE,4644
+cloud_os_desktop/ConnectDialog.py,sha256=G0iSvzjrhszd7O3Tl9FNoF9N2D7Cb9GSMR7cw9tPFQk,2088
+cloud_os_desktop/EditConnectionDialog.py,sha256=ZF-T1P_MvHs3yB40XORCX616pWmHFW3MVuHQ2jAq7ig,3730
+cloud_os_desktop/MainWindow.py,sha256=znk_HWUFIncxogFMcxHSdIksBxVRRD5zAZ7u_wKnbEk,2723
+cloud_os_desktop/WebBrowser.py,sha256=TAwSD9Th8ZnxD1iuDHsOoBbpm9RwctgSkiqA-rl5ZAA,1698
+cloud_os_desktop/__init__.py,sha256=QO0fSpLQ5zkUHbAB1TL7xiUbuQHlfiplxlUpW8-GFKY,88
+cloud_os_desktop/app.py,sha256=-EBI7nK21hVbL4kTW_dwp354UrNOjx48fFzmZhBB68k,12276
+cloud_os_desktop-0.4.2.post2.data/scripts/cloud_os_desktop,sha256=pM_X_TsbHDXXwtAHKPwg8hTkoAHDZou338xYQOkzBcw,77
+cloud_os_desktop-0.4.2.post2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cloud_os_desktop-0.4.2.post2.dist-info/METADATA,sha256=1n81GN21Mse1p8n-i8Fvl7GCXouLcsQn0msPgUIUuPA,1102
+cloud_os_desktop-0.4.2.post2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cloud_os_desktop-0.4.2.post2.dist-info/top_level.txt,sha256=QcqawAxm6H4BO7oStCwVBeECvbrVOmas1_LucNAJRYo,17
+cloud_os_desktop-0.4.2.post2.dist-info/RECORD,,

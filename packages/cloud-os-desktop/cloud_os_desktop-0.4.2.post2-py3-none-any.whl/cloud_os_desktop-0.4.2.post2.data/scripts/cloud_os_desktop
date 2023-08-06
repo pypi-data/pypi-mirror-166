@@ -1,0 +1,5 @@
+#!python
+# -*- coding: utf-8 -*-
+
+from cloud_os_desktop.app import run
+run()
