@@ -1,0 +1,24 @@
+# pipenv and pytest execution inspired by
+# https://github.com/okeeffed/hello-pytest-github-actions/
+
+name: Windows
+on:
+  push:
+    branches: [develop]
+  pull_request:
+    branches: [develop]
+
+  workflow_dispatch:
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+
+      - name: install tools, run selftests and create package (w/o deploying)
+        run: .\build.ps1 -installMandatory
+        shell: powershell

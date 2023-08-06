@@ -1,0 +1,5 @@
+cmake
+python
+mingw-winlibs-llvm-ucrt
+plantuml
+umlet
