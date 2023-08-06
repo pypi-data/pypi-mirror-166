@@ -1,0 +1,17 @@
+compas_cloud/__init__.py,sha256=ejdVSlYG8DIgJRl-WhvEol-ERrdXCzAZZ32_1N-yBDc,322
+compas_cloud/__main__.py,sha256=kKulQ_QTv9VsOI7J8QnuN6apZxVyWsKsvK4rZLv5ZRQ,85
+compas_cloud/client_net.py,sha256=VS_QG8RTDARIa5FcOra-DNIqVkqGFfTzykUXpYiIYtg,3278
+compas_cloud/client_websockets.py,sha256=0Qb84U_DB9BJ9V_rIOWkfF9PIlsyERjF2IVseQtnQPQ,1334
+compas_cloud/install.py,sha256=ttMQwYlWbWrbqFMXrkL9GARQ3xcvDxPy_KYlOy1n4oM,141
+compas_cloud/proxy.py,sha256=MGCOAyq3fR7ph_Oi15Cp93Dn-wJcoIJk65xGOUaSlkQ,11414
+compas_cloud/server.py,sha256=VZyvpgXhm06cOb1LAurUBpFqTzXIkqI6nDrzcehKlkQ,8097
+compas_cloud/server_websockets.py,sha256=GlDhKlEhN-BTGeESxzefR3OR4hexM-OepZsG0RsODag,7489
+compas_cloud/sessions.py,sha256=cffPqlrbcHS6vSafLrMV5psHD-p54cRjpuv-eyWl_UE,7082
+compas_cloud/speckle/__init__.py,sha256=jijTFZuMGSAkOpa3Nhw5vS3z1EgesI58wCmjvdX_6xA,41
+compas_cloud/speckle/data.py,sha256=g1k1gmH_IMd6UgaZgBxZ-RCWpzW46G_jhe6gTYhGX9c,339
+compas_cloud/speckle/speckle.py,sha256=GzbiJPjrUMtXFnsu9JsSioR7WUQrOqUPbiW8L2vnT-M,2815
+compas_cloud-0.4.1.dist-info/LICENSE,sha256=QHZ4M2p_0JjSQm-S3_TQWmwN64Ibkt8Y2bjODM15sI4,1067
+compas_cloud-0.4.1.dist-info/METADATA,sha256=qxCeroQT7yHKnpgCpMuUhB7-E0x_BY0fQXOCpWmVnYQ,8648
+compas_cloud-0.4.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+compas_cloud-0.4.1.dist-info/top_level.txt,sha256=9C8ptfXJjfOCkfdaTvovEgIfABfa9jLxbf_ajA6MLfc,13
+compas_cloud-0.4.1.dist-info/RECORD,,
