@@ -1,0 +1,12 @@
+examples/1minimal_example.py,sha256=PJLK8txSb8lu4AEWTqfzFOFt0ol_XZIs_oGsI8Fi350,680
+examples/2tests_showcase.py,sha256=Fc2UhYjVMn8nS5GrpgyW8RCcW2PEp72mG1SMqDzTtd0,803
+examples/3recommended_installation.py,sha256=45BSHPCpeW9P15bzlHOQD0_X58iVTfoHp0YS70dKX_I,304
+examples/4how_it_works.py,sha256=dPSJ9gKH1ta-cerBLNRWLa3W6KPGTlfxdKv6E7nfiqw,498
+generalimport/__init__.py,sha256=_jP_2uPyxuMrCliXHo-LeWzCUkt5vzMd_eKFLcyryZs,323
+generalimport/optional_import.py,sha256=8BNGtWYTPH90dhweOJBGx58pIEjozowfSn74jstvg1I,7376
+generalimport/test/test_generalimport.py,sha256=jEughIxZjRMWZdQHq7isBQ-hYgtW9opvPwTku_lBuzg,7033
+generalimport-0.2.dist-info/LICENSE,sha256=lR7a-qESifjD5ON36wQgA1eoLQIJnXxsM_RB88vSnsg,1078
+generalimport-0.2.dist-info/METADATA,sha256=3U7UecTI_E2KK8QfCc2sFsVZ_QnJ-c6cDV3BxGEaNOg,8660
+generalimport-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+generalimport-0.2.dist-info/top_level.txt,sha256=lcoDoxn04-i-2-LKZnSrkTqyK4giyU10sLlHhCdyv00,23
+generalimport-0.2.dist-info/RECORD,,
