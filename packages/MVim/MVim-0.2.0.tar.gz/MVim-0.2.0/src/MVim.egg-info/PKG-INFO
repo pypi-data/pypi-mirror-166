@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: MVim
+Version: 0.2.0
+Summary: Tool to rename files using vim to edit their names
+Author-email: Élie Bouttier <elie+mvim@bouttier.eu>
+Project-URL: Source, https://github.com/bouttier/mvim
+Project-URL: Tracker, https://github.com/bouttier/mvim/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MVim
+
+MVim is a small tool to rename or move files by editing their names with
+vim.
+
+[![image](https://asciinema.org/a/Z6JVSnX0noQxZULZhSKdc5k5n.png)](https://asciinema.org/a/Z6JVSnX0noQxZULZhSKdc5k5n)
+
+## Requirements
+
+  - Python \>= 3.6
+
+## Known issues
+
+  - Can not remove directories
