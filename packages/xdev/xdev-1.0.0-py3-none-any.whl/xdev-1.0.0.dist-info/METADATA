@@ -1,0 +1,154 @@
+Metadata-Version: 2.1
+Name: xdev
+Version: 1.0.0
+Summary: An excellent developer tool for excellent developers
+Home-page: https://github.com/Erotemic/xdev
+Author: Jon Crall
+Author-email: erotemic@gmail.com
+License: Apache 2
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: IPython (>=5.8.0)
+Requires-Dist: numpy (>=1.1)
+Requires-Dist: parse (>=1.12.1)
+Requires-Dist: pyfiglet (>=0.7)
+Requires-Dist: pyflakes
+Requires-Dist: pygments (>=2.4.2)
+Requires-Dist: scriptconfig (>=0.6.5)
+Requires-Dist: ubelt (>=0.5.0)
+Requires-Dist: xinspect (>=0.0.1)
+Provides-Extra: all
+Requires-Dist: IPython (>=5.8.0) ; extra == 'all'
+Requires-Dist: Levenshtein ; extra == 'all'
+Requires-Dist: autoflake ; extra == 'all'
+Requires-Dist: coverage (>=4.3.4) ; extra == 'all'
+Requires-Dist: fire ; extra == 'all'
+Requires-Dist: numpy (>=1.1) ; extra == 'all'
+Requires-Dist: parse (>=1.12.1) ; extra == 'all'
+Requires-Dist: pyfiglet (>=0.7) ; extra == 'all'
+Requires-Dist: pyflakes ; extra == 'all'
+Requires-Dist: pygments (>=2.4.2) ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: pytest (>=3.3.1) ; extra == 'all'
+Requires-Dist: scriptconfig (>=0.6.5) ; extra == 'all'
+Requires-Dist: ubelt (>=0.5.0) ; extra == 'all'
+Requires-Dist: xdoctest (>=0.3.0) ; extra == 'all'
+Requires-Dist: xinspect (>=0.0.1) ; extra == 'all'
+Requires-Dist: yapf ; extra == 'all'
+Requires-Dist: line-profiler (<=3.1.0,>=3.0.0) ; (python_version < "3.5" and python_version >= "2.7") and extra == 'all'
+Requires-Dist: line-profiler (<=3.3.1,>=3.0.0) ; (python_version < "3.6" and python_version >= "3.5") and extra == 'all'
+Requires-Dist: line-profiler (>=3.4.0) ; (python_version < "3.7" and python_version >= "3.6") and extra == 'all'
+Requires-Dist: line-profiler (>=3.4.0) ; (python_version >= "3.7") and extra == 'all'
+Provides-Extra: tests
+Requires-Dist: coverage (>=4.3.4) ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pytest (>=3.3.1) ; extra == 'tests'
+Requires-Dist: xdoctest (>=0.3.0) ; extra == 'tests'
+
+Xdev - Excellent Developer
+--------------------------
+
+|GithubActions| |CircleCI| |Codecov| |Pypi| |Downloads| |ReadTheDocs|
+
+Xdev is an excellent developer tool for excellent developers.
+It contains miscellaneous and/or interactive debugging tools.
+
+I mostly maintain this for myself, but I could see polishing it up in the
+future.
+
+
+Remarks
+-------
+
+Perhaps I should just use `ipdb` but I often just like to directly embed with
+IPython whenever I want:
+
+
+.. code:: python
+
+    import xdev
+    xdev.embed()
+
+
+Or wherever I want whenever there is an exception.
+
+.. code:: python
+
+    import xdev
+    with xdev.embed_on_exception_context:
+        some_code()
+
+
+I don't feel like I need  ``ipdb``'s other features. 
+
+
+I also like to 
+
+
+.. code:: python
+
+    def func(a=1, b=2, c=3):
+        """
+        Example:
+            >>> from this.module import *  # import contextual namespace
+            >>> import xinspect
+            >>> globals().update(xinspect.get_func_kwargs(func))  # populates globals with default kwarg value
+            >>> print(a + b + c)
+            6
+        """
+
+But I know these things are a little dirty. 
+
+But these aren't production practices. These are development tricks and life
+hacks to make working faster.
+
+
+Also see ``xinspect`` for things like ``autogen_imports``
+
+
+.. code:: python
+
+    >>> import ubelt as ub
+    >>> source = ub.codeblock(
+    >>>     '''
+    >>>     p = os.path.dirname(join('a', 'b'))
+    >>>     glob.glob(p)
+    >>>     ''')
+    >>> # Generate a list of lines to fix the name errors
+    >>> lines = autogen_imports(source=source)
+    >>> print(lines)
+    ['import glob', 'from os.path import join', 'import os']
+
+
+https://github.com/Erotemic/xinspect
+
+
+.. |CircleCI| image:: https://circleci.com/gh/Erotemic/xdev.svg?style=svg
+    :target: https://circleci.com/gh/Erotemic/xdev
+.. |Travis| image:: https://img.shields.io/travis/Erotemic/xdev/master.svg?label=Travis%20CI
+   :target: https://travis-ci.org/Erotemic/xdev?branch=master
+.. |Appveyor| image:: https://ci.appveyor.com/api/projects/status/github/Erotemic/xdev?branch=master&svg=True
+   :target: https://ci.appveyor.com/project/Erotemic/xdev/branch/master
+.. |Codecov| image:: https://codecov.io/github/Erotemic/xdev/badge.svg?branch=master&service=github
+   :target: https://codecov.io/github/Erotemic/xdev?branch=master
+.. |Pypi| image:: https://img.shields.io/pypi/v/xdev.svg
+   :target: https://pypi.python.org/pypi/xdev
+.. |Downloads| image:: https://img.shields.io/pypi/dm/xdev.svg
+   :target: https://pypistats.org/packages/xdev
+.. |ReadTheDocs| image:: https://readthedocs.org/projects/xdev/badge/?version=latest
+    :target: http://xdev.readthedocs.io/en/latest/
+.. |GithubActions| image:: https://github.com/Erotemic/xdev/actions/workflows/tests.yml/badge.svg?branch=main
+    :target: https://github.com/Erotemic/xdev/actions?query=branch%3Amain
+
+
