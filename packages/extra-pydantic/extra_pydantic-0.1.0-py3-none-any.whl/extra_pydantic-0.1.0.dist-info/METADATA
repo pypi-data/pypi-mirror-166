@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: extra-pydantic
+Version: 0.1.0
+Summary: Parametrized Generic support for pydantic
+Author: Talley Lambert, Lorenzo Gaifas
+Author-email: talley.lambert@gmail.com, brisvag@gmail.com
+License: BSD 3-Clause License
+Project-URL: homepage, https://github.com/brisvag/extra-pydantic
+Project-URL: repository, https://github.com/brisvag/extra-pydantic
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: cruft ; extra == 'dev'
+Requires-Dist: flake8-pyprojecttoml ; extra == 'dev'
+Requires-Dist: flake8-typing-imports ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pdbpp ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: rich ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0) ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+# extra-pydantic
+
+[![License](https://img.shields.io/pypi/l/extra-pydantic.svg?color=green)](https://github.com/brisvag/extra-pydantic/raw/main/LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/extra-pydantic.svg?color=green)](https://pypi.org/project/extra-pydantic)
+[![Python Version](https://img.shields.io/pypi/pyversions/extra-pydantic.svg?color=green)](https://python.org)
+[![CI](https://github.com/brisvag/extra-pydantic/actions/workflows/ci.yml/badge.svg)](https://github.com/brisvag/extra-pydantic/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/brisvag/extra-pydantic/branch/main/graph/badge.svg)](https://codecov.io/gh/brisvag/extra-pydantic)
+
+Better and more consistent pydantic support for (parametrized) generics, custom builtin-like classes, protocols, dataclasses.
