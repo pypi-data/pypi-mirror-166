@@ -1,0 +1,3 @@
+[console_scripts]
+sdkcpc = sdkcpc.__main__:main
+
