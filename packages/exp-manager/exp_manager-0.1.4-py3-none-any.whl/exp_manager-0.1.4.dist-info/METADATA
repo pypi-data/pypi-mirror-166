@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: exp-manager
+Version: 0.1.4
+Summary: 
+Author: Arun Ramachandran
+Author-email: arun.jhurricane@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Description-Content-Type: text/markdown
+
+# Usage instructions for experiment manager
+This document describes to how use the experiment manager.
+
+## Overview
+The experiment manager is a CLI tool that helps keep track of and annotate training runs. It works by maintaining the following directory structure:
+```
+out/
+|_____current_run.txt
+|_____run1/
+|_____run2/
+|_____run3/
+.
+.
+.
+```
+where `runN` contains the results and logs for a single training run. The folder names are sortable timestamps to aid navigation and are suffixed by the training run's title. The timestamp for each folder is also the run's ID. The folder name for the current/active run is stored in `current_run.txt`.
+
+Each training run folder contains a YAML file with name, description and experiment group name. The experiment manager can:
+- Show run metadata
+- Create a new run
+- Edit/delete an existing run
+- Pick an existing run to be the active run
+
+Each run can be annotated with a title, description and group name. The group name is used to group together runs when displaying a list of all runs.
+
+Run `python -m exp_manager -h` to see a list of commands:
+```
+usage: exp_manager.py [-h] [--exp_dir EXP_DIR] {show,new,edit,delete,set} ...
+
+positional arguments:
+  {show,new,edit,delete,set}
+    show                show run(s)
+    new                 create new run
+    edit                edit existing run
+    delete              delete a run
+    set                 set a run as the current run
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --exp_dir EXP_DIR     parent directory containing all runs
+```
+
+Each command has a help option as well. e.g. run `python -m exp_manager -h`
+```
+usage: exp_manager.py show [-h] [--all | --current | --id ID]
+
+optional arguments:
+  -h, --help     show this help message and exit
+  --all, -a      show all runs
+  --current, -c  show current run
+  --id ID        run ID
+```
+
