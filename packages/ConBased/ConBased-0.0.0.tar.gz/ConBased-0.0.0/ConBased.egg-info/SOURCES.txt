@@ -1,0 +1,6 @@
+README.md
+setup.py
+ConBased.egg-info/PKG-INFO
+ConBased.egg-info/SOURCES.txt
+ConBased.egg-info/dependency_links.txt
+ConBased.egg-info/top_level.txt
