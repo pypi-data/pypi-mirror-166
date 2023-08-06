@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+pyrs_py.egg-info/PKG-INFO
+pyrs_py.egg-info/SOURCES.txt
+pyrs_py.egg-info/dependency_links.txt
+pyrs_py.egg-info/top_level.txt
