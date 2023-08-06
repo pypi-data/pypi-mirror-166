@@ -1,0 +1,10 @@
+README.md
+setup.py
+prikarsartamContents/__init__.py
+prikarsartamContents/content_generation.py
+prikarsartamContents/model_load.py
+prikarsartamGeneratesContents.egg-info/PKG-INFO
+prikarsartamGeneratesContents.egg-info/SOURCES.txt
+prikarsartamGeneratesContents.egg-info/dependency_links.txt
+prikarsartamGeneratesContents.egg-info/requires.txt
+prikarsartamGeneratesContents.egg-info/top_level.txt
