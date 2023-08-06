@@ -1,0 +1,3 @@
+[console_scripts]
+china-datasets = china_datasets.command.main:main
+
