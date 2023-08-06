@@ -1,0 +1,16 @@
+tinytim/__init__.py,sha256=n30EOED0SBvdSkjB_xFF1IEOezUOwlMRCPti8RPtd4g,215
+tinytim/columns.py,sha256=3N9ELlvx6rjgtZVg-xzwopHo8uDJt_PpdUW1c-51RZI,882
+tinytim/copy.py,sha256=pohGvQaG8QFAkFu38hFsmP_lkuiZoLpvhDEeeG2pZzE,408
+tinytim/data.py,sha256=ul0KevB9PnJDMIjpgShhqdDraSHAC0IXIIvsK5PArf4,3033
+tinytim/edit.py,sha256=FltSDMEG1NqvaBDMGM8vlufAdp3K0KR18C3j3mnaldw,7428
+tinytim/filter.py,sha256=7kvr_dB11FueRgnXAMTA2BROgZCG4KsGKbFys7z04ro,3936
+tinytim/group.py,sha256=6Tj4F4QuGPjDePL5N0ZJx1LkVQIsYlJqbGl-g9GSvqU,2033
+tinytim/json.py,sha256=xCGY8Y1qeAvPJXSHLVAlhq_EEu4pYKIiO7OoIURhwz8,1513
+tinytim/rows.py,sha256=H-POKcCRQNg6TDPheWO3ZdSl73v2HLtFewbBNe5Kis8,2343
+tinytim/utils.py,sha256=BBSWCmD24sei1WxQ1LPryc2dUk5hh1m4pjR_24UgMdc,5096
+tinytim/validate.py,sha256=d-pzfDkl5OX_MiF8QwDjvCmThSo7AR_B5OgTT_JrNvA,574
+tinytim-1.1.0.dist-info/LICENSE.md,sha256=1pE569s9d8U87JIZhE80lo9skpJm49AKQicwCRwlf-8,1101
+tinytim-1.1.0.dist-info/METADATA,sha256=Cdfk9swsn1jMZYLLJfc_l4NQX2ltLGyeHqvhr-kviks,1094
+tinytim-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tinytim-1.1.0.dist-info/top_level.txt,sha256=-yi6FeB_3uS8qAU3Qk6MmedasS6g8z_ZgixIjnHJvWE,8
+tinytim-1.1.0.dist-info/RECORD,,
