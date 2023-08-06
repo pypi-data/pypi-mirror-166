@@ -1,0 +1,9 @@
+setup.py
+yava247ai/__init__.py
+yava247ai/experiment.py
+yava247ai/experiment_2.py
+yava247ai.egg-info/PKG-INFO
+yava247ai.egg-info/SOURCES.txt
+yava247ai.egg-info/dependency_links.txt
+yava247ai.egg-info/requires.txt
+yava247ai.egg-info/top_level.txt
