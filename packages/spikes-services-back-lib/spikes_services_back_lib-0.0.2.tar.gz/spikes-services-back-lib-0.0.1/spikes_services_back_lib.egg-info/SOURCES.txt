@@ -1,0 +1,11 @@
+.gitignore
+README.md
+setup.py
+spikes_services_back_lib.egg-info/PKG-INFO
+spikes_services_back_lib.egg-info/SOURCES.txt
+spikes_services_back_lib.egg-info/dependency_links.txt
+spikes_services_back_lib.egg-info/top_level.txt
+src/stores/config.ini
+src/stores/streamer_store.py
+src/stores/twitch_store.py
+src/utils/utils.py
