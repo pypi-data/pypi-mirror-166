@@ -1,0 +1,2 @@
+from MathP import *
+MathP()
