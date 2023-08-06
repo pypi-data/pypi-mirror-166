@@ -1,0 +1,11 @@
+include *.txt
+include *.joblib
+include *.md
+include classification_model/VERSION
+include classification_model/config.yml
+
+exclude *.cfg
+exclude .gitignore
+
+recursive-exclude *__pycache__
+recursive-exclude * *.py[co]
