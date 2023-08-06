@@ -1,0 +1,13 @@
+xwrf/__init__.py,sha256=VpGIrvAZimYDYFMyq5zZraiL8KVEdABHQ6FLmoluWhk,456
+xwrf/accessors.py,sha256=FmAO0yj23g0lyWgIzXEzb2mqgMCRSV3EXebTn2jwkKo,3098
+xwrf/config.py,sha256=PshYt7xFJ--EGCiOIzAuOiYwae0XU5ngCuKagfK_ERg,248
+xwrf/config.yaml,sha256=JqoRGdwQ8gLLgUMUgFhLmGSsuzi4NjRLhSm2llzwpW8,3667
+xwrf/grid.py,sha256=LKjWAsKCw6LuuZhiAxFN4OZuP1i-lXC_apqZnQ_b3DM,2387
+xwrf/postprocess.py,sha256=7HtnGAsQdGZeHQs6xH8s0r-V_ciEjUgtB-tVuvLfhFE,7325
+xwrf/tutorial.py,sha256=m8yGbfQSiEBIv5cYEGsnr6wW31NxsF4MX9mRIwuWjLw,3448
+xwrf/version_report.py,sha256=TDjbup9hpM76ACsdjevzCjcmNIzgpJtJN6ShuUwC7ew,3473
+xwrf-0.0.1.dist-info/LICENSE,sha256=LecEep_VUGE1Ujmnk9Em5Csf07lQYAhhHTIm7LdR9_s,11351
+xwrf-0.0.1.dist-info/METADATA,sha256=v55Hj1GuQKosvOio0ffI3gg2wb95gTYu_6qF5osXJfA,4060
+xwrf-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xwrf-0.0.1.dist-info/top_level.txt,sha256=R1cIvicRbT-cLpMb9Tl0zsu9W2g5-F-DWGwOhDuGIVY,5
+xwrf-0.0.1.dist-info/RECORD,,
