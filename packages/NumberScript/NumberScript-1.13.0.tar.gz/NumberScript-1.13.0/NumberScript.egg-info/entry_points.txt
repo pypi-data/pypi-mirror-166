@@ -1,0 +1,3 @@
+[console_scripts]
+NumberScript = NumberScript.main:main
+nspm = NumberScript.nspm:main
