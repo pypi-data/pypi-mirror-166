@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/renamewheel/__init__.py
+src/renamewheel/main.py
+src/renamewheel.egg-info/PKG-INFO
+src/renamewheel.egg-info/SOURCES.txt
+src/renamewheel.egg-info/dependency_links.txt
+src/renamewheel.egg-info/entry_points.txt
+src/renamewheel.egg-info/requires.txt
+src/renamewheel.egg-info/top_level.txt
