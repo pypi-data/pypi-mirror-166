@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: numcertainties
+Version: 0.0.1
+Summary: uncertainty quantification for numerical computations
+Home-page: https://github.com/APN-Pucky/numcertainties
+Author: APN
+Author-email: APN-Pucky@no-reply.github.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: docs
+License-File: LICENSE
+
+# numcertainties
+
+This project aims to unify the use of several error propagation libraries in python:
+
+- <https://github.com/HDembinski/jacobi>
+- <https://github.com/lebigot/uncertainties/>
+- <https://github.com/tisimst/mcerp>
