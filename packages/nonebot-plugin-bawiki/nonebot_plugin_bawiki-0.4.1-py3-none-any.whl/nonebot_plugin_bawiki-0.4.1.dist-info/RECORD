@@ -1,0 +1,12 @@
+nonebot_plugin_bawiki/__init__.py,sha256=YoonSUb4KD_UgmTucOHZay1ExjTboiO65eeiWaoE_to,4478
+nonebot_plugin_bawiki/__main__.py,sha256=JqL1Z5-gGQDh_9kLZx_tQ-GuIFoKuVF6iqHzaoKOJJk,6396
+nonebot_plugin_bawiki/const.py,sha256=vsjiB9fef0YsXVkEESj8lQobjHlwKKQ63xw-pFK5o_k,16536
+nonebot_plugin_bawiki/data_gamekee.py,sha256=AO3HzMz2KyZ1CqFQIwlq4ZJPRV56RKeMaImtCy4iAjA,3108
+nonebot_plugin_bawiki/data_schaledb.py,sha256=JPHyYPn9JJBD9j8worCTxXvCgoEcku7-yA0yzc8_b6s,4222
+nonebot_plugin_bawiki/res/SourceHanSansSC-Bold-2.otf,sha256=O6rk19pa94EzwtuEmBThwMqWLkkPaBcUkizEmcaus1U,17002512
+nonebot_plugin_bawiki/res/calender.html.jinja,sha256=rtfz7J99KlRtpyOZSuNfThirtKOoT2HK7oEKkLMPsqA,3915
+nonebot_plugin_bawiki/util.py,sha256=no5pMUJIjzI4-hvg-McBl-1N5hPe-xpnBsSQSrxfyg4,1079
+nonebot_plugin_bawiki-0.4.1.dist-info/LICENSE,sha256=I1G-OSMcuXsr5hhx5xw3VhkynSBMfXyoLyzh3OXgnog,1068
+nonebot_plugin_bawiki-0.4.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+nonebot_plugin_bawiki-0.4.1.dist-info/METADATA,sha256=ljba9-0MP3-bSvczsWekO-gVnbizonnt0q1KekwmY3M,6908
+nonebot_plugin_bawiki-0.4.1.dist-info/RECORD,,
