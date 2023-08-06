@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: mediawiki-api-wrapper
+Version: 0.0.2
+Summary: A small wrapper around mediawiki API
+Home-page: https://github.com/matkoniecz/mediawiki_api_python_wrapper
+Author: Mateusz Konieczny
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Taginfo
+
+It is an unofficial Python wrapper over available API.
+
+It is a Python wrapper for a tiny part of mediawiki API.
+
+Note that the taginfo API is intended for the use of the OpenStreetMap community. Do not use it for other services. ([source](https://wiki.openstreetmap.org/wiki/Taginfo/API))
+
+# Examples
+<!-- in case of editing or adding samples here, change also tests -->
+
+## How often give key is used?
+
+```
+import mediawiki_api_wrapper
+
+???TODO
+```
+
+# Development
+
+Contributions are welcome to cover larger part of taginfo API.
+
+## Run tests
+
+`python3 -m unittest`
+
