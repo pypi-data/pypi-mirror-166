@@ -1,0 +1,3 @@
+numba_mpi>=0.14
+PySDM
+PyMPDATA

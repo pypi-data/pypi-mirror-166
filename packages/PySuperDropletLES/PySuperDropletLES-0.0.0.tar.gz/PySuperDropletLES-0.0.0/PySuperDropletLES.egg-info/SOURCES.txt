@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/test+artifacts+pypi.yml
+PySuperDropletLES/__init__.py
+PySuperDropletLES.egg-info/PKG-INFO
+PySuperDropletLES.egg-info/SOURCES.txt
+PySuperDropletLES.egg-info/dependency_links.txt
+PySuperDropletLES.egg-info/requires.txt
+PySuperDropletLES.egg-info/top_level.txt
+tests/test_initial.py
