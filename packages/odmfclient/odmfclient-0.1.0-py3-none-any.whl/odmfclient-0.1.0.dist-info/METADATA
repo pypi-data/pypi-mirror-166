@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: odmfclient
+Version: 0.1.0
+Summary: A Python client for ODMF's REST-API
+Project-URL: Homepage, https://github.com/jlu-ilr-hydro/odmfclient
+Project-URL: Bug Tracker, https://github.com/jlu-ilr-hydro/odmfclient/issues
+Author-email: Philipp Kraft <philipp.kraft@envr.jlug.de>
+License: MIT License
+        
+        Copyright (c) 2022 Chair of Landscape, Water and Biogeochemical Cycles at Justus Liebig University
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: pandas~=1.4.0
+Requires-Dist: pyarrow
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# API client for ODMF
+
+This package allows programatic access to [ODMF](https://github.com/jlu-ilr-hydro/odmf) databases with Python. 
+It is based on [requests](https://pypi.org/project/requests/). Data analyses in R use [the httr module](https://cran.r-project.org/web/packages/httr/vignettes/quickstart.html) 
+
+## Installation
+
+Missing setup.py, installation not yet working
+
+    pip install https://github.com/jlu-ilr-hydro/odmfclient/archive/main.zip
+
+
+## Usage
+
+~~~~~~~~~~py
+from odmfclient import login
+with login('https://path/to/odmf', 'user', 'password') as api:
+    print(api)
+    # Get all datasets at site #1 with valuetype 1
+    datasets = api.dataset.list(site=1, valuetype=1)
+    # Get values for the first dataset found as pandas.DataFrame
+    df = api.dataset.values_parquet(dsid=datasets[0])
+~~~~~~~~~~
