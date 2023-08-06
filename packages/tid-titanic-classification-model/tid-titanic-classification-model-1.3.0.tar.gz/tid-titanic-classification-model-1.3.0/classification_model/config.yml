@@ -1,0 +1,45 @@
+package_name: titanic_classification_model
+
+pipeline_save_file: titanic_classification_model_output_v
+
+features:
+  - pclass
+  - sex
+  - age
+  - sibsp
+  - parch
+  - fare
+  - cabin
+  - embarked
+  - title
+
+target: survived
+
+numerical_variables:
+  - age
+  - fare
+  - sibsp
+  - parch
+  - pclass
+
+categorical_variables:
+  - sex
+  - embarked
+  - title
+  - cabin
+
+unused_fields:
+  - name
+  - ticket
+  - boat
+  - body
+  - home.dest
+
+cabin:
+  - cabin
+
+test_size: 0.2
+
+seed: 0
+
+path_dataset: https://www.openml.org/data/get_csv/16826755/phpMYEkMl
