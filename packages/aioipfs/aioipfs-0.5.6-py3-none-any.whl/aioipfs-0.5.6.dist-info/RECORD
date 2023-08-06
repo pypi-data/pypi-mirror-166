@@ -1,0 +1,17 @@
+aioipfs/__init__.py,sha256=rKRFWNu077lsMwzYezirIiMXfURE-kiCqIay9OvpOBU,8445
+aioipfs/api.py,sha256=qRlg7E5gk8XonPS0cDUVwOkkfxpShRiCI_pRiTMBQek,58737
+aioipfs/exceptions.py,sha256=CNJUXuBCj9OxtSkM3Bft9uHismY79utTrMhJbmT5sVo,2106
+aioipfs/gitignore_parser.py,sha256=8o30PrKI_mpl5pvbDQ0uWYmdb_uwqQms7GJCexVy_EM,6929
+aioipfs/helpers.py,sha256=84dA6DuHz_oRAA7p49NYJIlGwiXzuftbj7rb0EslUM4,1379
+aioipfs/multi.py,sha256=Muuz2ZFagdu5RsI_cn5Kqjc395R1WgSD4ldOJP7qTVA,10626
+aioipfs/apis/__init__.py,sha256=FzTUX8eul23Cpxe29ybVEvWQzVzcT4mRoU63JPEWqM0,6724
+aioipfs/apis/dag.py,sha256=sD87pbKe-J6a0c3aVaqnAE4-TsKtA-9bXtUQJXPpeEw,5269
+aioipfs/apis/multibase.py,sha256=dqGnnpOi0a14_bnPkdNJRcFnhwGgM8vhtDyC7UVBtAA,2109
+aioipfs/apis/pin.py,sha256=NSUHR2COUI2tye7D7Z15WaMskIHEtkMLXeKIRIY9fNo,6452
+aioipfs/apis/pubsub.py,sha256=6AgKt-46EwRWerRZXOD1ahKuKIYgc6AuLNv7AdfYA1g,3403
+aioipfs/apis/swarm.py,sha256=ooB08MV1RT1olT7NkBeHe0oXTILpXy0erAKX8yIloTs,4553
+aioipfs-0.5.6.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+aioipfs-0.5.6.dist-info/METADATA,sha256=E5uDdr0cjMwQcsCTfl8D0o5BNUUrc9b7JW3uBxiE38w,4733
+aioipfs-0.5.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aioipfs-0.5.6.dist-info/top_level.txt,sha256=rQ6TSZJwiC_ZuCC_BASj-mqFZj08Y0nE7b3WI6mt4mc,8
+aioipfs-0.5.6.dist-info/RECORD,,
