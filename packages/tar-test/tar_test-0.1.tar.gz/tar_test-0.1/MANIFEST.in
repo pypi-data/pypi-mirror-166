@@ -1,0 +1,3 @@
+# MANIFEST.in
+
+include tar_test/*.sh

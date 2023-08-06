@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+tar_test/nvidia-hgx-a100-software-installer.sh
+tar_test.egg-info/PKG-INFO
+tar_test.egg-info/SOURCES.txt
+tar_test.egg-info/dependency_links.txt
+tar_test.egg-info/top_level.txt
