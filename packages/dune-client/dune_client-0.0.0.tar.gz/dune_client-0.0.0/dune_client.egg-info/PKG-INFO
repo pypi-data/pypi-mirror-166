@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dune-client
+Version: 0.0.0
+Summary: A simple framework for interacting with Dune Analytics official API service.
+Home-page: https://github.com/cowprotocol/dune-client
+Author: Benjamin H. Smith
+Author-email: ben@cow.fi
+License: Apache License Version 2.0
+Project-URL: Tracker, https://github.com/cowprotocol/dune-client/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+
+# dune-client
