@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pkg/drift_client/VERSION
+pkg/drift_client/__init__.py
+pkg/drift_client/drift_client.py
+pkg/drift_client/drift_data_package.py
+pkg/drift_client/influxdb_client.py
+pkg/drift_client/minio_client.py
+pkg/drift_client/mqtt_client.py
+pkg/drift_python_client.egg-info/PKG-INFO
+pkg/drift_python_client.egg-info/SOURCES.txt
+pkg/drift_python_client.egg-info/dependency_links.txt
+pkg/drift_python_client.egg-info/requires.txt
+pkg/drift_python_client.egg-info/top_level.txt
