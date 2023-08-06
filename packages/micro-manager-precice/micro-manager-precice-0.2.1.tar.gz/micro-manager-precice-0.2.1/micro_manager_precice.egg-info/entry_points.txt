@@ -1,0 +1,2 @@
+[console_scripts]
+micro_manager = micro_manager.micro_manager:main
