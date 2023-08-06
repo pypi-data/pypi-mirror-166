@@ -1,0 +1,12 @@
+appdirs
+cf_xarray
+dask
+datetimerange
+intake
+intake-xarray
+netcdf4
+numpy
+pandas
+pip
+siphon
+xarray
