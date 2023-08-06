@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "py2graphql"
+version = "0.18.0"
+description = "Pythonic GraphQL Client"
+readme = "README.rst"
+authors = ["Willem Thiart <himself@willemthiart.com>"]
+keywords = ["graphql"]
+license = "MIT"
+include = ["py2graphql/py.typed"]
+homepage = "https://github.com/willemt/py2graphql"
+repository = "https://github.com/willemt/py2graphql"
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+addict = "^2.2.1"
+aiohttp = "^3.6.2"
+requests = "^2.24.0"
+tenacity = "^6.2.0"
+
+[tool.poetry.dev-dependencies]
+asynctest = "^0.13.0"
+graphql-core = "^3.2.1"
+hypothesis = "^6.46.9"
+mock = "^4.0.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
