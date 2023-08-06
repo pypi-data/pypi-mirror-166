@@ -1,0 +1,12 @@
+django_multi_mail_backend/__init__.py,sha256=0MuYOZTN93Qnnj-L3p2mkZf40v1fKm3fcl3QYnE04ac,318
+django_multi_mail_backend/mail.py,sha256=MuIPqFCM7q3bsROk8CsP_ar26MeoOvTLK54SLLFqslM,2339
+django_multi_mail_backend/message.py,sha256=MOVVDHWK4sXwhZaCsDd1DAz_2pHpxpLRrxwLzUVkqmM,770
+django_multi_mail_backend/backend/__init__.py,sha256=EVj9XxpH3A_4TV49kG7PyuR7fpnEnwCow7Lik5IZLSM,317
+django_multi_mail_backend/backend/multi.py,sha256=MQHWgLo0NSjQ1CN6Z48aIp_BQ22GuNY8_ecrPYv7j2k,808
+django_multi_mail_backend/backend/ses.py,sha256=9qof7eYp2218iuvpSUKifNZYk-wBFFSvT7OAjT0qa7c,2143
+django_multi_mail_backend/backend/smtp.py,sha256=CJX-LfwFjHXoh-j-Ai0yKihyg24Dhfwrl7kS6hCkfzY,1516
+django_multi_mail_backend-1.0.1.dist-info/LICENSE,sha256=recvx6KEyths4_ZAJzNEg04Bx7bGIXcIxwX907VL9HQ,1076
+django_multi_mail_backend-1.0.1.dist-info/METADATA,sha256=GVWGd30bCEoQ0bG8O1HKWoRAwgVu86dWtE4gwBxMgeY,6383
+django_multi_mail_backend-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_multi_mail_backend-1.0.1.dist-info/top_level.txt,sha256=UVRDgdes1Q_HaMgoY8adqubfB-y6_NOVm2qZYg9xOes,26
+django_multi_mail_backend-1.0.1.dist-info/RECORD,,
