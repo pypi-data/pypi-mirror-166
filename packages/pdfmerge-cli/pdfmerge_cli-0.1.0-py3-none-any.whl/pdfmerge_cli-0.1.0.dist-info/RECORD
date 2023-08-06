@@ -1,0 +1,7 @@
+pdfmerge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdfmerge/main.py,sha256=WSMVQ4Hx2G0iwt9qJp9yc7Mj4fhUGynJMUjmZaQuURc,661
+pdfmerge_cli-0.1.0.dist-info/entry_points.txt,sha256=yCFbWuMVESFnJQNSyXKh7LtLItQaheuVwBjkQm1xkFk,52
+pdfmerge_cli-0.1.0.dist-info/LICENSE,sha256=zYxh8GGZKvDjnqH1VB9NznogIeSmA7yg0EW9QAMGpWw,1065
+pdfmerge_cli-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+pdfmerge_cli-0.1.0.dist-info/METADATA,sha256=-305bLvq0O-ESnOgA8ua_P0nVhMXmT9UdZ_ExNhINKI,850
+pdfmerge_cli-0.1.0.dist-info/RECORD,,
