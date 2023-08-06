@@ -1,0 +1,7 @@
+colorama
+java
+minecraft
+mint
+scripts
+shulkr
+tests
