@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: olinda
+Version: 0.1.0
+Summary: A model distillation library
+Author: Ankur Kumar
+Author-email: ank@leoank.me
+Requires-Python: >=3.8,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cbor (>=1.0.0,<2.0.0)
+Requires-Dist: cbor2 (>=5.4.3,<6.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: gin-config (>=0.5.0,<0.6.0)
+Requires-Dist: griddify (>=0.0.1,<0.0.2)
+Requires-Dist: joblib (>=1.1.0,<2.0.0)
+Requires-Dist: onnx (>=1.12.0,<2.0.0)
+Requires-Dist: onnx-tf (>=1.10.0,<2.0.0)
+Requires-Dist: pandas (>=1.4.4,<2.0.0)
+Requires-Dist: pydantic (>=1.9.2,<2.0.0)
+Requires-Dist: pytorch-lightning (>=1.7.2,<2.0.0)
+Requires-Dist: torch (>=1.12.1,<2.0.0)
+Requires-Dist: webdataset (>=0.2.18,<0.3.0)
+Requires-Dist: xdg (>=5.1.1,<6.0.0)

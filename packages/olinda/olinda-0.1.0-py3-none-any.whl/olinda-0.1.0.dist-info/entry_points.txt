@@ -1,0 +1,3 @@
+[console_scripts]
+olinda=olinda.cli.main:main
+
