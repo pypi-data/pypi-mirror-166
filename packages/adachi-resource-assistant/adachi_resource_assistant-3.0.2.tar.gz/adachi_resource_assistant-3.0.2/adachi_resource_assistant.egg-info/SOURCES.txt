@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+adachi_resource_assistant/__init__.py
+adachi_resource_assistant/names.py
+adachi_resource_assistant/utils.py
+adachi_resource_assistant.egg-info/PKG-INFO
+adachi_resource_assistant.egg-info/SOURCES.txt
+adachi_resource_assistant.egg-info/dependency_links.txt
+adachi_resource_assistant.egg-info/entry_points.txt
+adachi_resource_assistant.egg-info/requires.txt
+adachi_resource_assistant.egg-info/top_level.txt
+adachi_resource_assistant.egg-info/zip-safe
+tests/__init__.py
+tests/test_true.py
