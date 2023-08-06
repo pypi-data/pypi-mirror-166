@@ -1,0 +1,7 @@
+MANIFEST.in
+setup.py
+mypackjcal/__init__.py
+mypackjcal.egg-info/PKG-INFO
+mypackjcal.egg-info/SOURCES.txt
+mypackjcal.egg-info/dependency_links.txt
+mypackjcal.egg-info/top_level.txt
