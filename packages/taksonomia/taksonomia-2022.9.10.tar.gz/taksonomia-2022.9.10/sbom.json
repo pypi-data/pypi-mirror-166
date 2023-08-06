@@ -1,0 +1,93 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:88ff353f-331a-4844-bcf1-bb5b92a5100f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2022-09-10T12:25:56.245908+00:00",
+    "tools": [
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-bom",
+        "version": "3.5.0"
+      },
+      {
+        "vendor": "CycloneDX",
+        "name": "cyclonedx-python-lib",
+        "version": "2.7.1",
+        "externalReferences": [
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/actions",
+            "type": "build-system"
+          },
+          {
+            "url": "https://pypi.org/project/cyclonedx-python-lib/",
+            "type": "distribution"
+          },
+          {
+            "url": "https://cyclonedx.github.io/cyclonedx-python-lib/",
+            "type": "documentation"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/issues",
+            "type": "issue-tracker"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE",
+            "type": "license"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md",
+            "type": "release-notes"
+          },
+          {
+            "url": "https://github.com/CycloneDX/cyclonedx-python-lib",
+            "type": "vcs"
+          },
+          {
+            "url": "https://cyclonedx.org",
+            "type": "website"
+          }
+        ]
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "7f1cbdb9-3ab3-4526-bc0d-62c3dba735f7",
+      "name": "orjson",
+      "version": "3.8.0",
+      "purl": "pkg:pypi/orjson@3.8.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "3b65f4ae-c81f-4146-97b0-4b741084f71c",
+      "name": "psutil",
+      "version": "5.9.2",
+      "purl": "pkg:pypi/psutil@5.9.2"
+    },
+    {
+      "type": "library",
+      "bom-ref": "ba1ec309-a719-4ef7-8c62-9739b35cb51b",
+      "name": "py-cpuinfo",
+      "version": "8.0.0",
+      "purl": "pkg:pypi/py-cpuinfo@8.0.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "7f1cbdb9-3ab3-4526-bc0d-62c3dba735f7",
+      "dependsOn": []
+    },
+    {
+      "ref": "3b65f4ae-c81f-4146-97b0-4b741084f71c",
+      "dependsOn": []
+    },
+    {
+      "ref": "ba1ec309-a719-4ef7-8c62-9739b35cb51b",
+      "dependsOn": []
+    }
+  ]
+}
