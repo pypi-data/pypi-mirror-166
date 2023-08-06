@@ -1,0 +1,5 @@
+jsonschema==4.15.*
+sanic==21.12.*
+
+[dev]
+sanic-testing==0.8.3
