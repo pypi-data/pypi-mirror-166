@@ -1,0 +1,9 @@
+setup.py
+Binomial_Dist/Binomialdistribution_challenge.py
+Binomial_Dist/Generaldistribution.py
+Binomial_Dist/__init__.py
+Binomial_Dist.egg-info/PKG-INFO
+Binomial_Dist.egg-info/SOURCES.txt
+Binomial_Dist.egg-info/dependency_links.txt
+Binomial_Dist.egg-info/not-zip-safe
+Binomial_Dist.egg-info/top_level.txt
