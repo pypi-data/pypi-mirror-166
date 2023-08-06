@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: didi-eda
+Version: 1.0.0
+Summary: didi nlp eda
+Home-page: https://www.zql.com
+Author: zql
+Author-email: zql@didiglobal.com
+Maintainer: zql
+Maintainer-email: zql@didiglobal.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+
+# DIDI EDA
+
+------
+
+## Description
+
+NLP EDA
+
+## Function
+
+1. eda
+2. word2vec
+
