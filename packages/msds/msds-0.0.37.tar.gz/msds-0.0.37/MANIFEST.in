@@ -1,0 +1,3 @@
+graft msds
+prune msds/**/__pycache__
+prune msds/**/__dacache__
