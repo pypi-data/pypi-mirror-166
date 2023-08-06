@@ -1,0 +1,10 @@
+README.md
+setup.py
+ConcordanceMMA.egg-info/PKG-INFO
+ConcordanceMMA.egg-info/SOURCES.txt
+ConcordanceMMA.egg-info/dependency_links.txt
+ConcordanceMMA.egg-info/requires.txt
+ConcordanceMMA.egg-info/top_level.txt
+bin/c_annotate_emobs_with_predictions.py
+bin/c_annotate_samples_matter.py
+bin/concordance_ILE_batchmode

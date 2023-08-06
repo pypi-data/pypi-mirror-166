@@ -1,0 +1,26 @@
+# Concordance
+
+Draft release of Concordance multimessenger, multiobject framework
+
+
+
+## Dependencies
+We're working on getting these all pip-installable and set up in our requirements, if you strictly need them.  Others will be useful important data sources.  In the meantime, we recommend you create a virtual environment
+```
+ python -m venv Concordance_local
+ source Concordance_local/bin/activate
+ # for concordance and all dependencies, go to their directories and do this
+ pip install -e .
+```
+
+* Sample and GW data retrieval
+  * https://git.ligo.org/daniel.wysocki/gwtc-explorer
+  * gwosc https://pypi.org/project/gwosc/
+* PopModels: https://git.ligo.org/daniel.wysocki/bayesian-parametric-population-models
+  * https://gitlab.com/dwysocki/pop-models-o3a-aps-april-2021   # tutorial
+  * https://gitlab.com/dwysocki/pop-models-examples
+* EM_PE: https://github.com/markoris/EM_PE
+
+* surrogate_kne
+* gwalk: https://gitlab.com/xevra/gwalk.git
+* nal-data: https://gitlab.com:xevra/nal-data.git
