@@ -1,0 +1,4 @@
+{
+  "test_options.py::test_find_strike": true,
+  "test_metrics.py::test_sharpe_ratio_daily[returns0]": true
+}
