@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: zawn_workflow
+Version: 0.0.1
+Summary: zawn's private utils.
+Home-page: https://gitee.com/zawn/workflow.git
+Author: zawn
+Author-email: zawn@qq.com
+License: MIT Licence
+Keywords: zawn,workflow
+Platform: any
+
+zawn's private utils.
