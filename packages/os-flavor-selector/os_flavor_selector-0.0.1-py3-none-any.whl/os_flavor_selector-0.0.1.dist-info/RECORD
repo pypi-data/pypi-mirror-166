@@ -1,0 +1,10 @@
+os_flavor_selector/__init__.py,sha256=FJEAfdw_gVbblHLMQ7z4GYQY1Dp7u2UbIjCnPWRZJr4,80
+os_flavor_selector/flavors.py,sha256=chDIXeoeoYsscUz7Dw1xej9E1COsESrA7RbIA-YBg8Q,3373
+os_flavor_selector/os_flavor_selector.py,sha256=Gp7UGbh9jaj-YkJaRlIIjhUWMmYqBOHH0niVHvrZxnI,7688
+os_flavor_selector/utils.py,sha256=Zuk4GDNNVWM240PXtB69DYR_MaGfSjppeTrC3nqzSdQ,1594
+os_flavor_selector-0.0.1.dist-info/LICENSE,sha256=Zdg2en-8j365zRlEkv-5wSoId7uY7a9eyTwiOVnS6Ws,1081
+os_flavor_selector-0.0.1.dist-info/METADATA,sha256=h_m9cocV9uIeNJVNlc3sm6avNYGEtxRwKn0fzm3McjU,1560
+os_flavor_selector-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+os_flavor_selector-0.0.1.dist-info/entry_points.txt,sha256=F0_PRSC1yxegsDjo4A5CfvsRVWK-wg3uaRVXPSGZv6k,82
+os_flavor_selector-0.0.1.dist-info/top_level.txt,sha256=5SnbC7oUVHVd0Ma6_gW1ckmrbc2U7AWXMywLemCG3bk,19
+os_flavor_selector-0.0.1.dist-info/RECORD,,
