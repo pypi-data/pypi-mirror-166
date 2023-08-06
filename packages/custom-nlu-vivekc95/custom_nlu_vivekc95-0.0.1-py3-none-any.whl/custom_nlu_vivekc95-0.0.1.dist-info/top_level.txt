@@ -1,0 +1,6 @@
+data
+html
+libs
+main
+settings
+touchnote
