@@ -1,0 +1,15 @@
+
+[:python_version < "3.8"]
+importlib-metadata>=2.0
+
+[docs]
+sphinx
+sphinx-automodapi
+numpydoc
+
+[test]
+pytest
+pytest-doctestplus
+flake8
+codecov
+pytest-cov
