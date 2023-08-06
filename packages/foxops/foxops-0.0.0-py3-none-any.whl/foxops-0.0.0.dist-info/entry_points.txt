@@ -1,0 +1,4 @@
+[console_scripts]
+fengine=foxops.fengine.__main__:app
+foxops=foxops.cli.__main__:main_dev
+
