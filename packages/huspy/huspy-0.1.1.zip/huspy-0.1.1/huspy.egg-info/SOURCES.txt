@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+huspy/__init__.py
+huspy/__main__.py
+huspy/cli.py
+huspy.egg-info/PKG-INFO
+huspy.egg-info/SOURCES.txt
+huspy.egg-info/dependency_links.txt
+huspy.egg-info/entry_points.txt
+huspy.egg-info/requires.txt
+huspy.egg-info/top_level.txt

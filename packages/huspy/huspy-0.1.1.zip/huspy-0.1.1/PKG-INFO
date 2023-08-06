@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: huspy
+Version: 0.1.1
+Summary: A git hooks for Python.
+Author: Shawn
+Maintainer: SethWen
+Maintainer-email: coolrainerseth@gmail.com
+License: Apache License, Version 2.0
+Project-URL: Source, https://github.com/SethWen/huspy
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Description-Content-Type: text/markdown
+Provides-Extra: pyproject
+License-File: LICENSE
+
+# huspy
+
+Git hooks for python.
+
+Huspy is inspired by [Husky](https://github.com/typicode/husky). 
+
+The code is transfered from Husky's typscript to python.
+
+### Usage
+
+```
+pip install huspy
+
+# In a git repository, this command will generate `./.huspy` directory, which is the git hooks directory.
+huspy install
+
+# This command will add a pre-commit hook.
+huspy set ./huspy/pre-commit python test.py
+
+# This command will uninstall the git hooks.
+huspy uninstall
+```
+
