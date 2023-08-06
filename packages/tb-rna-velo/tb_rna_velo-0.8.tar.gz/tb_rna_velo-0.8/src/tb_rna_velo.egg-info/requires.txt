@@ -1,0 +1,9 @@
+setuptools==59.8.0
+tensorflow
+anndata
+matplotlib
+pandas
+scikit_learn
+scipy
+scvelo
+seaborn
