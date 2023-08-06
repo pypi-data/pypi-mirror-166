@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+src/ansiconverter.py
+src/ansiconverter.egg-info/PKG-INFO
+src/ansiconverter.egg-info/SOURCES.txt
+src/ansiconverter.egg-info/dependency_links.txt
+src/ansiconverter.egg-info/requires.txt
+src/ansiconverter.egg-info/top_level.txt
