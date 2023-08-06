@@ -1,0 +1,12 @@
+orjson>=3.8.0
+
+[dev]
+black
+coverage
+flake8
+hypothesis
+mypy
+pytest
+pytest-cov
+pytest-flake8
+types-jmespath
