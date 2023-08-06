@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: hatch-fancy-pypi-readme
+Version: 22.5.0
+Summary: Fancy PyPI READMEs with Hatch
+Project-URL: Documentation, https://github.com/hynek/hatch-fancy-pypi-readme#readme
+Project-URL: Changelog, https://github.com/hynek/hatch-fancy-pypi-readme/blob/main/CHANGELOG.md
+Project-URL: Source Code, https://github.com/hynek/hatch-fancy-pypi-readme
+Project-URL: Funding, https://github.com/sponsors/hynek
+Project-URL: Ko-fi, https://ko-fi.com/the_hynek
+Author-email: Hynek Schlawack <hs@ox.cx>
+License: MIT
+License-File: AUTHORS.md
+License-File: LICENSE.txt
+Keywords: documentation,hatch,pypi,readme
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Hatch
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.7
+Requires-Dist: hatchling
+Requires-Dist: jsonschema
+Requires-Dist: tomli; python_version < '3.11'
+Requires-Dist: typing-extensions; python_version < '3.8'
+Provides-Extra: dev
+Requires-Dist: hatch-fancy-pypi-readme[tests]; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Provides-Extra: tests
+Requires-Dist: build; extra == 'tests'
+Requires-Dist: pytest; extra == 'tests'
+Requires-Dist: wheel; extra == 'tests'
+Description-Content-Type: text/markdown
+
+# Your ✨Fancy✨ Project Deserves a ✨Fancy✨ PyPI Readme! 🧐
+
+[![PyPI - Version](https://img.shields.io/pypi/v/hatch-fancy-pypi-readme.svg)](https://pypi.org/project/hatch-fancy-pypi-readme)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/hatch-fancy-pypi-readme.svg)](https://pypi.org/project/hatch-fancy-pypi-readme)
+[![Hatch project](https://img.shields.io/badge/%F0%9F%A5%9A-Hatch-4051b5.svg)](https://github.com/pypa/hatch)
+[![License: MIT](https://img.shields.io/badge/license-MIT-C06524)](https://github.com/hynek/hatch-fancy-pypi-readme/blob/main/LICENSE.txt)
+
+*hatch-fancy-pypi-readme* is a [*Hatch*] metadata plugin for everyone who cares about the first impression of their project’s PyPI landing page.
+It allows you to define your PyPI project description in terms of concatenated fragments that are based on **static strings**, **files**, and most importantly:
+**parts of files** defined using **cut-off points** or **regular expressions**.
+
+Once you’ve assembled your readme, you can additionally run regular-expression substitutions over it. For instance to make relative links absolute or to linkify users and issue numbers in your changelog.
+
+Do you want your PyPI readme to be the project readme, but without badges, followed by the license file, and the changelog section for *only the last* release?
+You’ve come to the right place!
+
+> **Note**
+> “PyPI project description”, “PyPI landing page”, and “PyPI readme” all refer to the same thing.
+> In *setuptools* it’s called `long_description` and is the text shown on a project’s PyPI page.
+> We refer to it as “readme” because that’s how it’s called in [PEP 621](https://peps.python.org/pep-0621/)-based `pyproject.toml` files.
+
+
+### Showcases
+
+<!-- Please add your project in alphabetic order, except leave hatch-fancy-pypi-readme last. -->
+- [*jsonschema*](https://pypi.org/project/jsonschema/) ([`pyproject.toml`](https://github.com/python-jsonschema/jsonschema/blob/main/pyproject.toml))
+- [*pytermgui*](https://pypi.org/project/pytermgui/) ([`pyproject.toml`](https://github.com/bczsalba/pytermgui/blob/master/pyproject.toml))
+- And of course [*hatch-fancy-pypi-readme*](https://pypi.org/project/hatch-fancy-pypi-readme/) itself ([`pyproject.toml`](https://github.com/hynek/hatch-fancy-pypi-readme/tree/main/pyproject.toml)).
+
+
+## Project Links
+
+- **License**: [MIT](https://github.com/hynek/hatch-fancy-pypi-readme/tree/main/LICENSE.txt)
+- **Documentation**:  https://github.com/hynek/hatch-fancy-pypi-readme#readme
+- **Changelog**: [CHANGELOG.md](https://github.com/hynek/hatch-fancy-pypi-readme/tree/main/CHANGELOG.md)
+- **PyPI**: https://pypi.org/project/hatch-fancy-pypi-readme/
+- **Source Code**: https://github.com/hynek/hatch-fancy-pypi-readme
+- **Supported Python Versions**: 3.7 and later (follows [*Hatch*])
+
+[example-config]: tests/example_pyproject.toml
+[*Hatch*]: https://hatch.pypa.io/
+
+
+## Credits
+
+*hatch-fancy-pypi-readme* is written and maintained by [Hynek Schlawack](https://hynek.me/) and released under the [MIT license](https://github.com/hynek/hatch-fancy-pypi-readme/blob/main/LICENSE.txt).
+
+The development is kindly supported by [Variomedia AG](https://www.variomedia.de/) and all my amazing [GitHub Sponsors](https://github.com/sponsors/hynek).
+
+A full list of contributors can be found on GitHub’s [overview](https://github.com/hynek/hatch-fancy-pypi-readme/graphs/contributors).
+
+
+## Release Information for [22.5.0](https://github.com/hynek/hatch-fancy-pypi-readme/compare/22.4.0...22.5.0) - 2022-09-10
+
+### Changed
+
+- Absolutely nothing -- just working around the hen-egg problem to use substitutions in the PyPI readme!
+
+
+---
+
+Full changelog can be found [here](https://github.com/hynek/hatch-fancy-pypi-readme/blob/main/CHANGELOG.md).
