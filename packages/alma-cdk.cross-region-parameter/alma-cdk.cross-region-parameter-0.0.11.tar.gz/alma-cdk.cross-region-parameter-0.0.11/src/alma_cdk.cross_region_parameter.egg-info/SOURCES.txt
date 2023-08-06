@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/alma_cdk.cross_region_parameter.egg-info/PKG-INFO
+src/alma_cdk.cross_region_parameter.egg-info/SOURCES.txt
+src/alma_cdk.cross_region_parameter.egg-info/dependency_links.txt
+src/alma_cdk.cross_region_parameter.egg-info/requires.txt
+src/alma_cdk.cross_region_parameter.egg-info/top_level.txt
+src/alma_cdk/cross_region_parameter/__init__.py
+src/alma_cdk/cross_region_parameter/py.typed
+src/alma_cdk/cross_region_parameter/_jsii/__init__.py
+src/alma_cdk/cross_region_parameter/_jsii/cross-region-parameter@0.0.11.jsii.tgz
