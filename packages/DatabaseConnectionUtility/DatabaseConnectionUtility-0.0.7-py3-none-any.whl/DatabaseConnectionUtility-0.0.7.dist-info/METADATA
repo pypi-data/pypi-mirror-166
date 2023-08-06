@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: DatabaseConnectionUtility
+Version: 0.0.7
+Summary: Proteus DBC File
+Home-page: UNKNOWN
+Author: Proteus Technology PVT. LTD.
+Author-email: <apps@baseinformation.com>
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: cx-Oracle
+Requires-Dist: loggerutility
+Requires-Dist: pyodbc
+Requires-Dist: mysql-connector-python
+Requires-Dist: hdbcli
+Requires-Dist: flask
+Requires-Dist: psycopg2
+Requires-Dist: pymssql
+
+Proteus Database Connection File
+
+
