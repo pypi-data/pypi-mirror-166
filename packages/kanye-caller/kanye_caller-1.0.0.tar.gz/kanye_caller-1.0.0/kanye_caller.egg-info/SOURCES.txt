@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+kanye_caller/__init__.py
+kanye_caller/main.py
+kanye_caller.egg-info/PKG-INFO
+kanye_caller.egg-info/SOURCES.txt
+kanye_caller.egg-info/dependency_links.txt
+kanye_caller.egg-info/top_level.txt

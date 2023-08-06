@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: kanye-caller
+Version: 1.0.0
+Summary: Call kanye.rest api
+Author: Dawid Mielewczyk
+Author-email: MDDawid0323@gmail.com
+Description-Content-Type: text/markdown
+
+# Kanye caller
+
+Simple tool utilizing the "*kanye.rest*" API
