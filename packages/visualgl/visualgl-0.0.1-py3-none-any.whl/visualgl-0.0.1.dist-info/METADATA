@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: visualgl
+Version: 0.0.1
+Summary: A Python library for visualizations with OpenGL.
+Home-page: https://github.com/jbschwartz/visualgl
+License: MIT
+Keywords: opengl,glfw,3d,scene,mesh
+Author: James Schwartz
+Author-email: james@schwartz.engineer
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Provides-Extra: extras
+Requires-Dist: PyOpenGL (>=3.1.6,<4.0.0)
+Requires-Dist: PyOpenGL-accelerate (>=3.1.6,<4.0.0); extra == "extras"
+Requires-Dist: glfw (>=2.5.4,<3.0.0)
+Requires-Dist: numpy (>=1.23.1,<2.0.0)
+Requires-Dist: spatial3d (>=0.7.0,<0.8.0)
+Project-URL: Repository, https://github.com/jbschwartz/visualgl
+Description-Content-Type: text/markdown
+
+# visualgl v0.0.1 ![Badge](https://github.com/jbschwartz/visualgl/actions/workflows/ci.yml/badge.svg)
+A Python library for visualizations with OpenGL.
+
+**Note: This library is currently being factored out from the [robotpy](https://github.com/jbschwartz/robotpy) application and is still very experimental.**
+
+## Installation
+
+Install using `pip`:
+
+```
+python -m pip install visualgl
+```
+
+Install using `poetry`:
+
+```
+poetry add visualgl
+```
+
