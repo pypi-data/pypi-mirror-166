@@ -1,0 +1,494 @@
+import os, os.path
+import datetime
+import pickle
+import re
+import shutil
+
+import warnings
+from pprint import pprint
+
+
+def find(self, name, in_folder=None, is_folder=None, in_trash=False, mime_type=None, unique=False):
+    # by default, don't consider trash
+    
+    q="name='" + filename + "'"
+    
+    if is_folder is not None:
+        if is_folder:
+            q += "and mimeType='application/vnd.google-apps.folder'"
+        else:
+            q += "and mimeType<>'application/vnd.google-apps.folder'"
+
+    if mime_type:
+        q += "and mimeType='"+mime_type+"'"
+        
+    if in_folder:
+        q += " and '" + in_folder + "' in parents"
+
+    # in_trash can be True (in trash), False (NOT in trash) or None (find any files, regardless of trash status)
+    if in_trash:
+        q += " and trashed=true"        
+    elif in_trash is False:
+        q += " and trashed=false"
+        
+        #---- NEEDS TO BE A SINGLETON!!!
+    response = GoogleApps.Service.self.drive_files.list(
+        q=q,
+        spaces='drive',
+        fields='files(id, name)'
+    ).execute().get('files', [])
+
+    if not len(response):
+        return(None)
+    
+    ids = []
+    for resp in response:
+        ids.append(resp.get('id'))
+        
+    if unique and len(ids) > 1:
+        raise Exception("find request for " + str(name) + " asked for a unique result, but there are multiple Drive entities with these parameters")
+    return(ids)
+
+
+
+class Object:
+    cache_directory = '.cache'
+
+    def __init__(self, id, service=None, readonly=True, defer_load=True):
+        # Get the files objects. files() is a Drive API Instance method
+        # httpviewed://developers.google.com/resources/api-libraries/documentation/drive/v3/python/latest/
+
+        self.id = id
+        self.readonly = readonly
+        if not service:
+            if readonly:
+                service = GoogleApps.Service(permission_scope='drive.readonly')
+            else:
+                service = GoogleApps.Service(permission_scope='drive')
+        self.service = drive_service
+        
+        # now refresh the connection (for the first time :) )
+        self.resources = {}
+
+        if not defer_load:
+            self.get_metadata()
+        
+        
+    def _resource_service(self, service_name):
+        
+        # load if not done
+        if service_name not in self.resources:
+            func = getattr(self, service_name)
+            self.resources[service_name] = func()
+        return(self.resources[service_name])
+
+
+    def sync(self):
+        # commit changes
+        # TODO. Not implemented
+        raise Exception("Not implemented yet.");
+
+
+    def copy(self, name=None, folder_id=None):
+        if self.readonly:
+            raise Exception(self.__name__ + " called, which modifies the object, but the object was created under a readonly service.")
+
+        if name:
+            body = { 'name': name }
+        else:
+            body = {}
+
+        if folder_id:
+            body['parents'] = [ folder_id ]
+
+        response = self._resource_service('files').copy(
+            fileId=self.id,
+            body=body,
+            fields='id'
+        ).execute()
+        
+        return(response.get('id'))
+
+    def move(self, to_folder):
+        self.get_metadata()
+        
+        # Move the file to the new folder
+        result = self._resource_service('files').update(
+            fileId=self.id,
+            addParents=to_folder,
+            removeParents=','.join(self.parents),
+            fields='id, parents')
+        .execute()
+        
+        return(result)
+
+    def rename(self, new_name):
+        self._resource_service('files').update(
+            fileId=self.id,
+            body={ 'name': new_name },
+            fields='name',
+        ).execute()
+        return(True)
+    
+    def delete(self):
+        #print("Attempting to delete file id ", file_id)
+        self._resource_service('files').delete( fileId=self.id ).execute()
+        return(True)
+        
+    def remove_from_folder(self, *folder_ids):
+
+        google_string = ','.join(old_folder_ids)
+        
+        result = self._resource_service('files').update(
+            fileId=self.id,
+            removeParents=google_string,
+        ).execute()
+        
+        return(result)
+
+    def add_to_folder(self, *folder_ids):
+
+        google_string = ','.join(old_folder_ids)
+        
+        result = self._resource_service('files').update(
+            fileId=self.id,
+            addParents=google_string,
+        ).execute()
+        
+        return(result)
+
+    def cache(self):
+        # TODO
+        # THIS IS NOT UPDATED 
+        
+        
+        path = self.cache_directory
+        if not os.path.exists(path):
+             os.makedirs(path)
+
+        dt = datetime.datetime.now()
+        folder_name = 'cache/' + dt.strftime('%Y-%m-%d %H.%M.%S')
+                     
+        os.makedirs(folder_name)
+
+        for network in self.get_networks():
+            os.makedirs(folder_name + '/' + network.dirname)
+            print("\nDownload and cache files for " + network.dirname)
+            for plan in network.get_school_plans():
+                fn = plan.filename
+                if not re.search(r'\.xlsx$', fn, re.I):
+                    fn += '.xlsx'
+                self.download_file(plan.id,
+                                   fn,
+                                   format='xl',
+                                   dir=folder_name + '/' + network.dirname)
+
+        # if we get here, we are done!
+        if os.path.exists('cache/current'):
+            os.remove('cache/current')
+        os.symlink(os.path.realpath(folder_name), 'cache/current', target_is_directory=True)
+        # cache updated!
+
+    def download(self, output_filename, dir='.', format=None, output_mimetype=None):
+        # SOMEDAY THIS SHOULD ALL BE UPDATED TO INTUIT THE OUTPUT TYPE
+        if format is not None:
+            format = format.lower()
+            
+        if not output_mimetype:
+            if format == 'xl' or format == 'excel' or format == 'xls' or format == 'xlsx' or re.search(r'\.(xlsx?|ods)$', output_filename, re.I):
+                # default, I'm sorry to say, is Excel
+                output_mimetype = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+            elif format == 'pdf' or re.search(r'\.pdf$', output_filename, re.I):
+                output_mimetype = 'aaplication/pdf'
+            else:
+                raise Exception("I don't know this filetype, but I'm not that sophisticated:", output_filename)
+            
+        request = self._resource_service('files').export_media(fileId=self.id, mimeType=output_mimetype)
+
+        fh = open(dir + '/' + output_filename, "wb")
+        downloader = googleapiclient.http.MediaIoBaseDownload(fh, request)
+        done = False
+        while done is False:
+            # problem: this can stall out.
+            status, done = downloader.next_chunk()
+        fh.close()
+
+
+    def change_owner(self, new_owner):
+        pass
+            
+
+    def share(self, role, auth_type, share_with=None, domain=None,
+            allow_discovery=None, expiration_date=None, with_link=None,
+            message=None, notify=True, transfer_owner=False, domain_admin=False):
+
+        #---- General args, but the real action happens in the body (defined below)
+        overall_args = {
+            'fileId':self.id,
+            'useDomainAdminAccess':domain_admin,
+            'transferOwnership':transfer_owner,
+        }
+        
+        # special case ??
+        body = { 'role': role, 'type': auth_type }
+#        if role == 'commenter':
+#            body = { 'role': role, 'type': auth_type, 'additionalRoles': [ 'commenter' ] }
+#        else:
+#            body = { 'role': role, 'type': auth_type }
+
+        if share_with:
+            # email addresses
+            body['value'] = share_with
+            # associated notification-related parameters
+            overall_args['sendNotificationEmail'] = notify
+            overall_args['emailMessage'] = message
+
+        if domain:
+            body['domain'] = domain
+        if expiration_date:
+            # this should be in RFC 3339 date-time
+            body['expirationDate'] = expiration_date
+        if with_link is not None:
+            body['withLink'] = with_link
+        if allow_discovery is not None:
+            body['allowFileDiscovery'] = allow_discovery
+            
+        overall_args['body'] = body
+        response = self.service.permissions().create( **overall_args).execute()
+        
+        return(response)
+    
+
+    def metadata(self, metadata=None, refresh=False):
+        if self._metadata and not refresh:
+            return(self._metadata)
+        
+        if not existing_metadata:
+            # https://developers.google.com/resources/api-libraries/documentation/drive/v3/python/latest/drive_v3.files.html#get
+            metadata = self._resource_service('files').get(fileId=self.id)
+
+        self._metadata = metadata
+
+        # -- create the current instance variable set based on the response.
+        #    At the moment this is minimal. See the api-libraries for the full scope
+        #    of information.
+        
+        # -- determine the type
+        self._mime_type = metadata['mimeType']
+        
+        ## DETERIME
+        # is_file
+        # is_folder
+        # ...
+        if metadata['mimeType'] == '':
+            self.is_file = 'file'
+        elif metadata['mimeType'] == '':
+            self.file_type = 'folder'
+        elif metadata['mimeType'] == '':
+            self.file_type = 'spreadsheet'
+        elif metadata['mimeType'] == '':
+            self.file_type = 'document'
+        else:
+            raise Exception("what?")
+
+
+        # Whether the file has been explicitly trashed, as opposed to recursively trashed from a parent folder.
+        self._name = metadata["name"] # The name of the file. This is not necessarily unique within a folder. Note that for immutable items such as the top level folders of Team Drives, My Drive root folder, and Application Data folder the name is constant.
+        self._description = metadata['description'] # A short description of the file.
+        # Whether the file has been trashed, either explicitly or from a trashed parent folder. Only the owner may trash a file, and other users cannot see files in the owner's trash.
+        self._trashed = metadata['trashed']
+        self._size = metadata['size']
+        self._parent_folder_ids = metadata['parents']        
+
+        self._user_is_owner = metadata['ownedByMe']
+        self._is_shared = metadata['shared']
+        self._writers_can_share = metadata['writersCanShare']
+
+        self._modified_user = metadata['lastModifyingUser']['permissionId']
+        self._last_modified_user_email = metadata['lastModifyingUser']['emailAddress']
+            #'is_me': metadata['lastModifyingUser']['me'],
+        }
+        
+        self._created_time = metadata["createdTime"] # The time at which the file was created (RFC 3339 date-time).
+        self._modified_time = metadata["modifiedTime"] # The last time the file was modified by anyone (RFC 3339 date-time).
+
+        self._ever_accessed_by_me = metadata["viewedByMe"] # Whether the file has been viewed by this user.
+        self._ever_modified_by_me = metadata["modifiedByMe"] # Whether the file has been modified by this user.
+        self._access_time_by_me = datetime.datetime( metadata["viewedByMeTime"] )
+        self._modified_time_by_me = datetime.datetime( metadata["modifiedByMeTime"] )
+
+        ###### DOES THIS WORK ON FILES AND NOT FOLDERS?
+        self._folder_color = metadata["folderColorRgb"] # The color for a folder as an RGB hex string. The supported colors are published in the folderColorPalette field of the About resource.
+            # If an unsupported color is specified, the closest color in the palette will be used instead.
+
+        self._capabilities = {
+         # Capabilities the current user has on this file. Each capability corresponds to a fine-grained action that a user may take.
+          'can_read_revisions': metadata['capabilities']["canReadRevisions"], # Whether the current user can read the revisions resource of this file. For a Team Drive item, whether revisions of non-folder descendants of this item, or this item itself if it is not a folder, can be read.
+          'can_trash': metadata['capabilities']["canTrash"], # Whether the current user can move this file to trash.
+          'can_copy': metadata['capabilities']["canCopy"], # Whether the current user can copy this file. For a Team Drive item, whether the current user can copy non-folder descendants of this item, or this item itself if it is not a folder.
+          'can_share': metadata['capabilities']["canShare"], # Whether the current user can modify the sharing settings for this file.
+          'can_delete': metadata['capabilities']["canDelete"], # Whether the current user can delete this file.
+          'can_move_teamdrive': metadata['capabilities']["canMoveTeamDriveItem"], # Whether the current user can move this Team Drive item by changing its parent. Note that a request to change the parent for this item may still fail depending on the new parent that is being added. Only populated for Team Drive files.
+          'can_rename': metadata['capabilities']["canRename"], # Whether the current user can rename this file.
+          'can_list_children': metadata['capabilities']["canListChildren"], # Whether the current user can list the children of this folder. This is always false when the item is not a folder.
+          'can_move_into_teamdrive': metadata['capabilities']["canMoveItemIntoTeamDrive"], # Whether the current user can move this item into a Team Drive. If the item is in a Team Drive, this field is equivalent to canMoveTeamDriveItem.
+          'can_download': metadata['capabilities']["canDownload"], # Whether the current user can download this file.
+          'can_comment': metadata['capabilities']["canComment"], # Whether the current user can comment on this file.
+          'can_edit': metadata['capabilities']["canEdit"], # Whether the current user can edit this file.
+          'can_remove_children': metadata['capabilities']["canRemoveChildren"], # Whether the current user can remove children from this folder. This is always false when the item is not a folder.
+          'can_read_teamdrvie': metadata['capabilities']["canReadTeamDrive"], # Whether the current user can read the Team Drive to which this file belongs. Only populated for Team Drive files.
+          'can_add_children': metadata['capabilities']["canAddChildren"], # Whether the current user can add children to this folder. This is always false when the item is not a folder.
+          'can_change_viewers_can_copy_content': metadata['capabilities']["canChangeViewersCanCopyContent"], # Whether the current user can change whether viewers can copy the contents of this file.
+          'can_untrash': metadata['capabilities']["canUntrash"], # Whether the current user can restore this file from trash.
+        }
+        
+        
+        # The owners of the file. Currently, only certain legacy files may have more than one owner. Not populated for Team Drive files.
+        if len(metadata['owners']):            
+            self._owners = [
+                {'is_me' : owner["me"], # Whether this user is the requesting user.
+                'user_display_name': owner["display_name"],  # A plain text displayable name for this user.
+                'user_id': owner["permissionId"], # The user's ID as visible in Permission resources.
+                'user_email': owner["emailAddress"]} # The email address of the user. This may not be present in certain contexts if the user has not made their email address visible to the requester.
+                for owner in metadata['owners']]
+        else:
+            self._owner = None
+        
+        self._md5 = metadata["md5Checksum"] # The MD5 checksum for the content of the file. This is only applicable to files with binary content in Drive.
+        self._download_link = metadata["webContentLink"] # A link for downloading the content of the file in a browser. This is only available for files with binary content in Drive.
+        self._users_with_access = metadata["permissionIds"]
+        
+        # The final component of fullFileExtension. This is only available for files with binary content in Drive.
+        # The full file extension extracted from the name field. May contain multiple concatenated extensions, such as "tar.gz". This is only available for files with binary content in Drive.
+        self._full_file_extension = metadata['fullFileExtension']
+        # This is automatically updated when the name field changes, however it is not cleared if the new name does not contain a valid extension.
+        self._file_extension = metadata["fileExtension"]
+
+        return(self._metadata)
+         
+       
+     @property
+    def mime_type(self):
+       self.metadata()
+       return(self._mime_type)
+    @property
+    def is_file(self):
+		self.metadata()
+		return(self._object_type == 'file')
+    @property
+    def is_folder(self):
+		self.metadata()
+		return(self._object_type == 'folder')
+    @property
+    def filename(self):
+		self.metadata()
+		return(self._name)
+    @property
+    def description(self):
+		self.metadata()
+		return(self._description)
+    @property
+    def is_trashed(self):
+		self.metadata()
+		return(self._trashed)
+    @property
+    def size(self):
+		self.metadata()
+		return(self._size)
+    @property
+    def parent_ids(self):
+		self.metadata()
+		return(self._parent_folder_ids)
+    @property
+     def parents(self):
+		self.metadata()
+        parents = []
+        for folder_id in self.parent_ids:
+           parents.append(GoogleApps.Drive.Folder(folder_id))
+        return(parents)
+    @property
+    def owned_by_me(self):
+		self.metadata()
+		return(self._owned_by_me)
+    @property
+    def owner(self):
+		self.metadata()
+		
+       if len(self._owners == 1):
+           return(self._owners[0])
+       elif self._owners is None:
+           return(None)
+       else:
+           raise Exception("owner() called on Google Drive object for which there are multiple owners")
+    @property
+    def owners(self):
+		self.metadata()
+		return(self._owners)
+    @property
+    def is_shared(self):
+		self.metadata()
+		return(self._is_shared)
+    @property
+    def writers_can_share(self):
+		self.metadata()
+		return(self._writers_can_share)
+
+    @property
+    def modified_time(self):
+		self.metadata()
+		return(self._modified_time)
+    @property
+    def modifed_user(self):
+		self.metadata()
+		return(self._modified_user)
+    @property
+    def modified_user_email(self):
+		self.metadata()
+		return(self._modified_user_email)
+    @property
+    def created_time(self):
+		self.metadata()
+		return(self._created_time)
+    @property
+    def my_last_access_time(self):
+		self.metadata()
+		return(self._access_time_by_me)
+    @property
+    def ever_accessed_by_me(self):
+		self.metadata()
+		return(self._ever_accessed_by_me)
+    @property
+    def ever_modified_by_me(self):
+		self.metadata()
+		return(self._ever_modified_by_me)
+    @property
+    def my_last_modified_time(self):
+        self.metadata()
+        return(self._modified_time_by_me)
+    @property
+    def folder_color(self):
+        self.metadata()
+        return(self._folder_color)
+    
+    @property
+    def md5(self):
+        self.metadata()
+        return(self._md5)
+    @property
+    def download_link(self):
+        self.metadata()
+        return(self._download_link)
+    @property
+    def users_with_access(self):
+        self.metadata()
+        return(self._users_)
+    @property
+    def file_extension(self):
+        self.metadata()
+        return(self._file_extension)
+    @property
+    def full_file_extension(self):
+        self.metadata()
+        return(self._full_file_extension)
+    
+    
