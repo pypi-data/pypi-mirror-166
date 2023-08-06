@@ -1,0 +1,4 @@
+[console_scripts]
+mr_proto_compl = compliance.cli:main
+protocol_compliance = compliance.cli:main
+

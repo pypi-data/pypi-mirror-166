@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: mrQA
+Version: 0.1.0
+Summary: Temporary container for library
+Home-page: https://github.com/openmindslab/compliance
+Author: Pradeep Raamana
+Author-email: raamana@gmail.com
+License: Apache Software License 2.0
+Keywords: mrQA
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: mrdataset
+Requires-Dist: pydicom
+Requires-Dist: nibabel
+Requires-Dist: pyyaml
+Requires-Dist: dictdiffer
+Requires-Dist: jinja2
+
+==========
+Compliance
+==========
+
+
+.. image:: https://img.shields.io/pypi/v/imagingqa.svg
+        :target: https://pypi.python.org/pypi/imagingqa
+
+.. image:: https://img.shields.io/travis/Open-Minds-Lab/imagingqa.svg
+        :target: https://travis-ci.com/Open-Minds-Lab/imagingqa
+
+.. image:: https://readthedocs.org/projects/imagingqa/badge/?version=latest
+        :target: https://imagingqa.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Temporary container for library
+
+
+* Free software: Apache Software License 2.0
+* Documentation: https://imagingqa.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2022-05-20)
+------------------
+
+* First release on PyPI.
+
+
