@@ -1,0 +1,59 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hiveplotlib"
+version = "0.19"
+authors = [
+    {name="Gary Koplik", email="gary.koplik@geomdata.com"}
+]
+description = "Visualize Network Data with Hive Plots"
+readme = "README.md"
+license = {file = "LICENSE"}
+urls = {Documentation="https://geomdata.gitlab.io/hiveplotlib/", Source="https://gitlab.com/geomdata/hiveplotlib" }
+
+
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "pandas"
+]
+
+[project.optional-dependencies]
+
+networkx = [
+    "networkx"
+]
+
+datashader = [
+    "datashader"
+]
+dev = [
+    "datashader",
+    "jupyter",
+    "networkx",
+    "seaborn",
+    "tqdm",
+]
+testing = [
+    "pytest",
+    "pytest-cov",
+    "pytest-html",
+    "pytest-timeout",
+    "pytest-xdist"
+]
+
+docs = [
+    "nbsphinx",
+    "sphinx",
+    "sphinx-rtd-theme",
+    "toml"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["hiveplotlib*"]
