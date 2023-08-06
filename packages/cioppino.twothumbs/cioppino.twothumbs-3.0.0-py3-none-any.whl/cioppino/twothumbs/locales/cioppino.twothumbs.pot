@@ -1,0 +1,103 @@
+#--- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+#SOME DESCRIPTIVE TITLE.
+#FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-08-08 15:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: cioppino.twothumbs\n"
+
+#: ./browser/templates/login_to_rate.pt:18
+msgid "${login} to rate ${close-link}"
+msgstr ""
+
+#: ./configure.zcml:38
+msgid "Adds the ability to rate content based on facebook-like thumbs."
+msgstr ""
+
+#: ./browser/like.py:109
+#: ./browser/templates/login_to_rate.pt:18
+msgid "Close"
+msgstr ""
+
+#: ./configure.zcml:23
+msgid "Content Ratings (cioppino.twothumbs)"
+msgstr ""
+
+#: ./browser/templates/thumbs.pt:32
+msgid "I dislike this (click again to undo)"
+msgstr ""
+
+#: ./browser/templates/thumbs.pt:22
+msgid "I like this (click again to undo)"
+msgstr ""
+
+#: ./browser/templates/thumbs.pt:22
+msgid "Like"
+msgstr ""
+
+#: ./browser/templates/login_to_rate.pt:15
+msgid "Log in"
+msgstr ""
+
+#: ./configure.zcml:91
+msgid "Object disliked"
+msgstr ""
+
+#: ./configure.zcml:79
+msgid "Object liked"
+msgstr ""
+
+#: ./configure.zcml:97
+msgid "Object undisliked"
+msgstr ""
+
+#: ./configure.zcml:85
+msgid "Object unliked"
+msgstr ""
+
+#: ./browser/templates/thumbs.pt:32
+msgid "Ugh"
+msgstr ""
+
+#: ./browser/like.py:92
+msgid "We don't like ambiguity around here. Check yo self before you wreck yo self."
+msgstr ""
+
+#: ./browser/like.py:132
+msgid "You dislike this. Thanks for the feedback!"
+msgstr ""
+
+#: ./browser/like.py:130
+msgid "You liked this. Thanks for the feedback!"
+msgstr ""
+
+#: ./browser/like.py:134
+msgid "Your vote has been removed."
+msgstr ""
+
+#: ./configure.zcml:38
+msgid "cioppino.twothumbs"
+msgstr ""
+
+#: ./configure.zcml:52
+msgid "cioppino.twothumbs (uninstall)"
+msgstr ""
+
+#: ./configure.zcml:30
+msgid "cioppino.twothumbs base profile"
+msgstr ""
+
+#: ./configure.zcml:45
+msgid "cioppino.twothumbs uninstall base profile"
+msgstr ""

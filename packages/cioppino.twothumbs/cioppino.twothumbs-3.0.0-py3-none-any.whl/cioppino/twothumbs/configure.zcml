@@ -1,0 +1,119 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="cioppino.twothumbs">
+
+  <five:registerPackage package="." initialize=".initialize" />
+  <i18n:registerTranslations directory="locales" />
+  <include package=".browser" />
+  <include package=".viewlets" />
+
+  <adapter name="positive_ratings" factory="cioppino.twothumbs.indexers.positive_ratings" />
+
+  <include package="plone.behavior" file="meta.zcml" />
+
+  <plone:behavior
+    title="Content Ratings (cioppino.twothumbs)"
+    name="cioppino.twothumbs"
+    provides="cioppino.twothumbs.interfaces.ILoveThumbsDontYou"
+    />
+
+  <genericsetup:registerProfile
+      name="install-base"
+      title="cioppino.twothumbs base profile"
+      directory="profiles/base"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="cioppino.twothumbs"
+      directory="profiles/plone5"
+      description="Adds the ability to rate content based on facebook-like thumbs."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall-base"
+      title="cioppino.twothumbs uninstall base profile"
+      directory="profiles/uninstall-base"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="cioppino.twothumbs (uninstall)"
+      directory="profiles/uninstall-plone5"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:upgradeSteps
+      source="1000"
+      destination="1001"
+      profile="cioppino.twothumbs:default">
+      <genericsetup:upgradeDepends
+          title="Register positive ratings criterion for collections"
+          import_profile="cioppino.twothumbs:install-base"
+          import_steps="plone.app.registry"
+          />
+      <genericsetup:upgradeDepends
+          title="Update resource registry"
+          import_profile="cioppino.twothumbs:default"
+          import_steps="plone.app.registry"
+          />
+  </genericsetup:upgradeSteps>
+
+  <utility factory=".setuphandlers.HiddenProfiles" name="cioppino.twothumbs" />
+  <utility factory=".setuphandlers.HiddenProducts" name="cioppino.twothumbs" />
+
+  <!-- Triggers -->
+
+  <interface
+      interface=".event.ILikeEvent"
+      type="plone.contentrules.rule.interfaces.IRuleEventType"
+      name="Object liked"
+      />
+
+  <interface
+      interface=".event.IUnlikeEvent"
+      type="plone.contentrules.rule.interfaces.IRuleEventType"
+      name="Object unliked"
+      />
+
+  <interface
+      interface=".event.IDislikeEvent"
+      type="plone.contentrules.rule.interfaces.IRuleEventType"
+      name="Object disliked"
+      />
+
+  <interface
+      interface=".event.IUndislikeEvent"
+      type="plone.contentrules.rule.interfaces.IRuleEventType"
+      name="Object undisliked"
+      />
+
+  <subscriber
+      for=".event.ILikeEvent"
+      handler=".triggers_handlers.like"
+      />
+
+  <subscriber
+      for=".event.IUnlikeEvent"
+      handler=".triggers_handlers.unlike"
+      />
+
+  <subscriber
+      for=".event.IDislikeEvent"
+      handler=".triggers_handlers.dislike"
+      />
+
+  <subscriber
+      for=".event.IUndislikeEvent"
+      handler=".triggers_handlers.undislike"
+      />
+
+</configure>

@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-08-08 15:26+0000\n"
+"PO-Revision-Date: 2011-09-28 16:30+0000\n"
+"Last-Translator: Simone Orsi <simahawk@gmail.com>\n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: it\n"
+"Language-Name: Italian\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: ./browser/templates/login_to_rate.pt:18
+msgid "${login} to rate ${close-link}"
+msgstr "${login} per votare ${close-link}"
+
+#: ./configure.zcml:38
+msgid "Adds the ability to rate content based on facebook-like thumbs."
+msgstr ""
+
+#: ./browser/like.py:109
+#: ./browser/templates/login_to_rate.pt:18
+msgid "Close"
+msgstr "Chiudi"
+
+#: ./configure.zcml:23
+msgid "Content Ratings (cioppino.twothumbs)"
+msgstr ""
+
+#: ./browser/templates/thumbs.pt:32
+msgid "I dislike this (click again to undo)"
+msgstr "Non mi piace (clicca nuovamente per annullare)"
+
+#: ./browser/templates/thumbs.pt:22
+msgid "I like this (click again to undo)"
+msgstr "Mi piace (clicca nuovamente per annullare)"
+
+#: ./browser/templates/thumbs.pt:22
+msgid "Like"
+msgstr "Piace"
+
+#: ./browser/templates/login_to_rate.pt:15
+msgid "Log in"
+msgstr "Entra"
+
+#: ./configure.zcml:91
+msgid "Object disliked"
+msgstr ""
+
+#: ./configure.zcml:79
+msgid "Object liked"
+msgstr ""
+
+#: ./configure.zcml:97
+msgid "Object undisliked"
+msgstr ""
+
+#: ./configure.zcml:85
+msgid "Object unliked"
+msgstr ""
+
+#: ./browser/templates/thumbs.pt:32
+msgid "Ugh"
+msgstr ""
+
+#: ./browser/like.py:92
+msgid "We don't like ambiguity around here. Check yo self before you wreck yo self."
+msgstr ""
+
+#: ./browser/like.py:132
+msgid "You dislike this. Thanks for the feedback!"
+msgstr "Questo non ti piace. Grazie per il tuo feedback"
+
+#: ./browser/like.py:130
+msgid "You liked this. Thanks for the feedback!"
+msgstr "Questo ti piace. Grazie per il tuo feedback"
+
+#: ./browser/like.py:134
+msgid "Your vote has been removed."
+msgstr "Il tuo voto è stato rimosso"
+
+#: ./configure.zcml:38
+msgid "cioppino.twothumbs"
+msgstr ""
+
+#: ./configure.zcml:52
+msgid "cioppino.twothumbs (uninstall)"
+msgstr ""
+
+#: ./configure.zcml:30
+msgid "cioppino.twothumbs base profile"
+msgstr ""
+
+#: ./configure.zcml:45
+msgid "cioppino.twothumbs uninstall base profile"
+msgstr ""
