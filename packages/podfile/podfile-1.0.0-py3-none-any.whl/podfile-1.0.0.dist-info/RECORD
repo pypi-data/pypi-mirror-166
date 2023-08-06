@@ -1,0 +1,11 @@
+podfile/__init__.py,sha256=v8rEBxUSDi9dc3aP5AyLQf8DEzao1O8XUbdyM7BuIQU,104
+podfile/__version__.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+podfile/module.py,sha256=ZLnaS0hskXevz96VU4VzR9FtakAOQMawvKN2ytxMsqs,1326
+podfile/podfile.py,sha256=HnplKWV7GrjfENNemu9qY6nFFPuCh1mwGN9shSfRgaY,2193
+podfile/target.py,sha256=_ARdQVEomFuN82tDg5x7nKgg5UE-G22YAepng4Igzyk,1640
+podfile/util.py,sha256=erfPKI4R3N5GKZGCeh0bLu2qw88illXeHyJCAuX7EoM,224
+podfile-1.0.0.dist-info/LICENSE,sha256=4FxkpXsZehVhpPuNuR__WuBk0R5XFK3cwF1RaYsUxXQ,1062
+podfile-1.0.0.dist-info/METADATA,sha256=HjGvJNsd2HGy_6R2bPS905BvEBP-NI-Mi2VOLB1Tedk,870
+podfile-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+podfile-1.0.0.dist-info/top_level.txt,sha256=Bj3oKwsXlyzr0K9HGxKg8NPPVJRxNqd5hWOdBOpJGqs,8
+podfile-1.0.0.dist-info/RECORD,,
