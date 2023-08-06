@@ -1,0 +1,4 @@
+[console_scripts]
+confenv=confspawn.cli:config_value
+confspawn=confspawn.cli:spawner
+
