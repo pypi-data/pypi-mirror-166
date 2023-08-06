@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/rust_detect/__init__.py
+src/rust_detect/detect_rust.py
+src/rust_detect.egg-info/PKG-INFO
+src/rust_detect.egg-info/SOURCES.txt
+src/rust_detect.egg-info/dependency_links.txt
+src/rust_detect.egg-info/requires.txt
+src/rust_detect.egg-info/top_level.txt
