@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: simplebot-manga
+Version: 0.1.0
+Summary: Read manga in Delta Chat (SimpleBot plugin)
+Home-page: https://github.com/adbenitez/simplebot_manga
+Author: adbenitez
+Author-email: adbenitez@nauta.cu
+License: MIT
+Keywords: simplebot plugin deltachat
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: simplebot (>=3.2.0)
+Requires-Dist: requests (>=2.28.1)
+Requires-Dist: beautifulsoup4 (>=4.11.1)
+Requires-Dist: Jinja2 (>=3.1.2)
+Requires-Dist: Pillow (>=9.0.1)
+Requires-Dist: fpdf2 (>=2.5.6)
+Requires-Dist: cachelib (>=0.7.0)
+Provides-Extra: dev
+Requires-Dist: simplebot (>=3.2.0) ; extra == 'dev'
+Requires-Dist: requests (>=2.28.1) ; extra == 'dev'
+Requires-Dist: beautifulsoup4 (>=4.11.1) ; extra == 'dev'
+Requires-Dist: Jinja2 (>=3.1.2) ; extra == 'dev'
+Requires-Dist: Pillow (>=9.0.1) ; extra == 'dev'
+Requires-Dist: fpdf2 (>=2.5.6) ; extra == 'dev'
+Requires-Dist: cachelib (>=0.7.0) ; extra == 'dev'
+Requires-Dist: pytest (==7.1.3) ; extra == 'dev'
+Requires-Dist: black (==22.8.0) ; extra == 'dev'
+Requires-Dist: mypy (==0.971) ; extra == 'dev'
+Requires-Dist: isort (==5.10.1) ; extra == 'dev'
+Requires-Dist: pylint (==2.15.0) ; extra == 'dev'
+Requires-Dist: pylama (==8.4.1) ; extra == 'dev'
+Requires-Dist: types-requests (==2.28.9) ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest (==7.1.3) ; extra == 'test'
+
+# Manga Downloader Plugin
+
+[![Latest Release](https://img.shields.io/pypi/v/simplebot_manga.svg)](https://pypi.org/project/simplebot_manga)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/simplebot_manga.svg)](https://pypi.org/project/simplebot_manga)
+[![Downloads](https://pepy.tech/badge/simplebot_manga)](https://pepy.tech/project/simplebot_manga)
+[![License](https://img.shields.io/pypi/l/simplebot_manga.svg)](https://pypi.org/project/simplebot_manga)
+[![CI](https://github.com/adbenitez/simplebot_manga/actions/workflows/python-ci.yml/badge.svg)](https://github.com/adbenitez/simplebot_manga/actions/workflows/python-ci.yml)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+A [SimpleBot](https://github.com/simplebot-org/simplebot) plugin that allow users to read manga in [Delta Chat](https://delta.chat)
+
+## Install
+
+To install run:
+
+```
+pip install simplebot-manga
+```
