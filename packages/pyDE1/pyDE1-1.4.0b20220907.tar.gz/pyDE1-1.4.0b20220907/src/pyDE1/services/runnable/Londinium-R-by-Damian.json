@@ -1,0 +1,92 @@
+{
+  "version": 2.1,
+  "title": "Londonium",
+  "notes": "This profile simulates a Londinium R machines extraction style. This is an advanced profile with some added steps to assist with less than ideal puck prep. Christee-Lee described it as like having a milkshake with extra syrup. Great body and flavour range.  By Damian Brakel https://www.diy.brakel.com.au/londinium-r-style-profile/",
+  "author": "Decent",
+  "beverage_type": "espresso",
+  "steps": [
+    {
+      "name": "Fill",
+      "pump": "pressure",
+      "pressure": 2,
+      "transition": "fast",
+      "exit": {
+        "type": "pressure",
+        "condition": "over",
+        "value": 1.5
+      },
+      "volume": 100,
+      "seconds": 25,
+      "temperature": 89,
+      "sensor": "coffee"
+    },
+    {
+      "name": "Infuse",
+      "pump": "pressure",
+      "pressure": 3,
+      "transition": "fast",
+      "volume": 100,
+      "seconds": 12,
+      "temperature": 88.5,
+      "sensor": "coffee"
+    },
+    {
+      "name": "Pressure Up",
+      "pump": "pressure",
+      "pressure": 9,
+      "transition": "fast",
+      "volume": 100,
+      "seconds": 8,
+      "temperature": 88.5,
+      "sensor": "coffee"
+    },
+    {
+      "name": "Pressure Decline",
+      "pump": "pressure",
+      "pressure": 3,
+      "transition": "smooth",
+      "exit": {
+        "type": "flow",
+        "condition": "over",
+        "value": 2.5
+      },
+      "volume": 100,
+      "seconds": 55,
+      "temperature": 88,
+      "sensor": "coffee"
+    },
+    {
+      "name": "Pressure Hold",
+      "pump": "pressure",
+      "pressure": 3,
+      "transition": "fast",
+      "exit": {
+        "type": "flow",
+        "condition": "over",
+        "value": 2.5
+      },
+      "volume": 100,
+      "seconds": 127,
+      "temperature": 88,
+      "sensor": "coffee"
+    },
+    {
+      "name": "Flow Limit",
+      "pump": "flow",
+      "flow": 2,
+      "transition": "fast",
+      "volume": 100,
+      "seconds": 127,
+      "temperature": 88,
+      "sensor": "coffee"
+    }
+  ],
+  "target_volume": 0,
+  "target_weight": 36,
+  "target_volume_count_start": 2,
+  "tank_temperature": 0,
+  "reference_file": "/Volumes/miniup-users/jeff/Documents/DecentEspresso/applications-de1plus/profiles/Londinium-R-by-Damian.tcl",
+  "lang": "en",
+  "legacy_profile_type": "settings_2c",
+  "type": "advanced"
+}
