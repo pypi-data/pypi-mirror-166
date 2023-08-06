@@ -1,0 +1,7 @@
+README.md
+setup.py
+dripverse/__init__.py
+dripverse.egg-info/PKG-INFO
+dripverse.egg-info/SOURCES.txt
+dripverse.egg-info/dependency_links.txt
+dripverse.egg-info/top_level.txt
