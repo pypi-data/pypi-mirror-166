@@ -1,0 +1,10 @@
+vis_method/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vis_method/delta.py,sha256=jsJU_AqYRoRCmV52ENgbE_w6MTDIaW8U6Hitv4piE54,30268
+vis_method/feature_selection.py,sha256=4tPNipSBpFGb840vTmmfmlz5NNUlEE2Q1zbFO7MyteM,1948
+vis_method/twins.py,sha256=40j6PEXApzKR2y5hYn6iHPYonSRpHwwwTnPU1okJ4uE,32367
+vis_method/value.py,sha256=vgdzQbwFKnTQvvgRL6nKct21fgC9HLH7qVnMpXR6ygo,29613
+vis_method/yearAndLastYear.py,sha256=vRiom3d1-P1saEdOXB9w-f4OU3x7JBykt34HwQoP7oc,36891
+vis_method-2.8.3.dist-info/METADATA,sha256=gUdy2tULYuugSEvRiPFuyx4aiqji8peKHJeiP44iBy0,444
+vis_method-2.8.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vis_method-2.8.3.dist-info/top_level.txt,sha256=9WOOB6pvT5n8cvMFRyTL3N0xgvM4GoH6T7ZRu3YHE8k,11
+vis_method-2.8.3.dist-info/RECORD,,
