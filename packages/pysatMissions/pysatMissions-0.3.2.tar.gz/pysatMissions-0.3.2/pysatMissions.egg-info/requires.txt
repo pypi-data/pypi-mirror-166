@@ -1,0 +1,15 @@
+geospacepy
+numpy
+pandas
+pysat
+pyEphem
+sgp4
+
+[OMMBV]
+OMMBV
+
+[aacgmv2]
+aacgmv2
+
+[apexpy]
+apexpy
