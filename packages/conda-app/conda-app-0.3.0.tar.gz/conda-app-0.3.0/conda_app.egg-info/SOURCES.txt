@@ -1,0 +1,16 @@
+.hgignore
+.hgtags
+CONTRIBUTING.md
+LICENSE.txt
+Makefile
+README.md
+appveyor.yml
+conda_app.py
+setup.cfg
+setup.py
+.github/workflows/ci.yml
+conda_app.egg-info/PKG-INFO
+conda_app.egg-info/SOURCES.txt
+conda_app.egg-info/dependency_links.txt
+conda_app.egg-info/entry_points.txt
+conda_app.egg-info/top_level.txt
