@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+logdriver/__init__.py
+logdriver/cli.py
+logdriver/server.py
+logdriver.egg-info/PKG-INFO
+logdriver.egg-info/SOURCES.txt
+logdriver.egg-info/dependency_links.txt
+logdriver.egg-info/entry_points.txt
+logdriver.egg-info/requires.txt
+logdriver.egg-info/top_level.txt

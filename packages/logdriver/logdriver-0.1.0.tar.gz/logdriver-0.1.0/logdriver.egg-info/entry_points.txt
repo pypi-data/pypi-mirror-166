@@ -1,0 +1,2 @@
+[console_scripts]
+logdriver = logdriver.cli:main
