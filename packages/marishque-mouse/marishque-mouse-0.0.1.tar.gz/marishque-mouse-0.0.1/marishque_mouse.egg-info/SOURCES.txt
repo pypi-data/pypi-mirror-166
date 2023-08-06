@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+marishque_mouse/__init__.py
+marishque_mouse/_modidx.py
+marishque_mouse/core.py
+marishque_mouse/mouse.py
+marishque_mouse.egg-info/PKG-INFO
+marishque_mouse.egg-info/SOURCES.txt
+marishque_mouse.egg-info/dependency_links.txt
+marishque_mouse.egg-info/entry_points.txt
+marishque_mouse.egg-info/not-zip-safe
+marishque_mouse.egg-info/requires.txt
+marishque_mouse.egg-info/top_level.txt
