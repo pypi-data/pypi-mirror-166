@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/ynam/__init__.py
+src/ynam/api.py
+src/ynam/config.py
+src/ynam/main.py
+src/ynam/quickstart.py
+src/ynam/utils.py
+src/ynam.egg-info/PKG-INFO
+src/ynam.egg-info/SOURCES.txt
+src/ynam.egg-info/dependency_links.txt
+src/ynam.egg-info/requires.txt
+src/ynam.egg-info/top_level.txt
