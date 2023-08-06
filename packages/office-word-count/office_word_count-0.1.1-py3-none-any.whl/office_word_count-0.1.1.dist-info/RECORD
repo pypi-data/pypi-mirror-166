@@ -1,0 +1,10 @@
+office_word_count/__init__.py,sha256=9Wam_gJiFzqB8Bt9Kk8klr3EdXNIvJ1Vx0jn22BkU3k,141
+office_word_count/counter.py,sha256=a_c-moXUUN8kjMDl70OS0VIxdevLqZY9XXsaYLHnqrE,1361
+office_word_count/patterns.py,sha256=VLoFtnW65hDaHD3WrL-ZgtUaNYh3qIfEC8j5VqKW1qI,1123
+office_word_count/statistics.py,sha256=1JJzEZfbdf049BWIa3IfsE9Z3YLuvIBuZhZRi6DKgoI,204
+office_word_count/text.py,sha256=uc2wb9LLV8ewkbIBBYtpC6GFTT7_W7aKiPcclIo5SLw,1142
+office_word_count-0.1.1.dist-info/LICENSE.txt,sha256=FJhJYSBLjcFUrPVyb1vVBRkftaGRfLFsflpXEG-KwaY,1072
+office_word_count-0.1.1.dist-info/METADATA,sha256=e7Zqb5UOBIrPKVG_RpguO0KyC0f3_xds_xoMVJ3ZcD8,840
+office_word_count-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+office_word_count-0.1.1.dist-info/top_level.txt,sha256=CQ-cFMkNiyHdJpbBe62URvP5uDfgkuhPfMXTD10_Xvg,18
+office_word_count-0.1.1.dist-info/RECORD,,
