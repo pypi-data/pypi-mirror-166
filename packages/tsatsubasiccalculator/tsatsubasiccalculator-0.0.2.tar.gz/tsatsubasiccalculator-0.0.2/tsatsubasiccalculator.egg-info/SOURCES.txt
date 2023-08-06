@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+tsatsubasiccalculator/__init__.py
+tsatsubasiccalculator.egg-info/PKG-INFO
+tsatsubasiccalculator.egg-info/SOURCES.txt
+tsatsubasiccalculator.egg-info/dependency_links.txt
+tsatsubasiccalculator.egg-info/top_level.txt
