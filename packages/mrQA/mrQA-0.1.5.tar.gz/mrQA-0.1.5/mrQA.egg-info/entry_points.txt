@@ -1,0 +1,4 @@
+[console_scripts]
+mr_proto_compl = mrQA.cli:main
+protocol_compliance = mrQA.cli:main
+
