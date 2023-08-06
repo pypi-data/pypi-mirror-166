@@ -1,0 +1,2 @@
+[simplebot.plugins]
+simplebot_manga = simplebot_manga
