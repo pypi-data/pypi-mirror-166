@@ -1,0 +1,7 @@
+cbor
+configparser
+cryptography
+ipaddress
+protobuf==3.20
+requests
+secp256k1
