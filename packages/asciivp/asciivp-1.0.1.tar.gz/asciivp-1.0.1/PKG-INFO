@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: asciivp
+Version: 1.0.1
+Summary: Convert any video or GIF to ASCII play it in the terminal
+Home-page: https://github.com/malkiAbdoo/ascii-vp
+Author: Malki Abderrahman
+Author-email: abdo.malkiep@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/malkiAbdoo/ascii-vp
+Project-URL: Tracker, https://github.com/joelibaceta/ascii-vp/issues
+Description: UNKNOWN
+Keywords: ascii,video,gif,linux,python,terminal
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
