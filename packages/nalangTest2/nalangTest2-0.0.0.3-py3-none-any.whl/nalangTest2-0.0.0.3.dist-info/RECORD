@@ -1,0 +1,11 @@
+test1.py,sha256=5Jg5h4lZpL4IAQflorGKFCijG2sy7ceKTRyVlMH5GbM,105
+test2.py,sha256=uN8bKL_KV8glg2f4gF9aj6Wg01C1RAsRpzqu6wfFnSw,133
+nalangTest/test1.py,sha256=5Jg5h4lZpL4IAQflorGKFCijG2sy7ceKTRyVlMH5GbM,105
+nalangTest/test2.py,sha256=uN8bKL_KV8glg2f4gF9aj6Wg01C1RAsRpzqu6wfFnSw,133
+nalangTest2/bmi.py,sha256=A5Z58sgCb15jjX4Npe4bbMvn4N_9QcY27eSMK5V1j84,674
+nalangTest2/test1.py,sha256=e2ooW3mfX0tCwjL5h6s7JqgeE3nYRTB9a0yV0rRqAIA,127
+nalangTest2/test2.py,sha256=Pg1TOrdsM42aMHoOqIMg9SyCcroRyNDn30giDR7pAlM,154
+nalangTest2-0.0.0.3.dist-info/METADATA,sha256=wWU9QXNhuNl5S-gqKUBPuJCH2gVS6PfAVgtFqhtpJNM,233
+nalangTest2-0.0.0.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+nalangTest2-0.0.0.3.dist-info/top_level.txt,sha256=5XXsQ_zwC4YFPzkLRMUbY6ZIjW_L7ag9YlpMlomEwvo,28
+nalangTest2-0.0.0.3.dist-info/RECORD,,
