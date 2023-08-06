@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flace"
+version = "0.3.0"
+description = "flace - Find and repLACE editing tools for python"
+readme = "README.rst"
+license = {text = "GNU General Public License v3 (GPLv3) (LICENSE)"}
+dependencies = []
+
+[tool.semantic_release]
+branch = "main"
+version_variable = ["flace/__init__.py:__version__","pyproject.toml:version"]
+version_pattern = ["README.rst:VERSION {version}"]
+changelog_file = "CHANGELOG.md"
+#changelog_placeholder = "NEXTVERSIONPLACEHOLDER"
+version_source = "commit"
+major_on_zero = false
