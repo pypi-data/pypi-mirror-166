@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: reduce-memory-usage
+Version: 0.0.1
+Summary: Python scripts to reduce memory usage
+Home-page: https://github.com/nakabeppu/reduce_memory_usage.git
+Author: Taichi Nakabeppu
+Author-email: nakabepputaichi@gmail.com
+Keywords: reduce,memory
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# reduce_memory_usage
+
+
+
+## install
+
+```
+pip install reduce_memory_usage
+```
+
+## How to use
+
+```python
+import reduce_memory_usage
+
+df_origin = pd.read_csv('<FILE>')
+df = reduce_memory_usage.reduce_memory_usage(df_origin)
+
+```
