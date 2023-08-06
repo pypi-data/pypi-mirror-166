@@ -1,0 +1,6 @@
+setup.py
+purplequery/__init__.py
+purplequery.egg-info/PKG-INFO
+purplequery.egg-info/SOURCES.txt
+purplequery.egg-info/dependency_links.txt
+purplequery-info/top_level.txt
