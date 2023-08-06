@@ -1,0 +1,8 @@
+appdirs
+colorama>=0.3.3
+jinja2
+pep517<0.7.0
+toml
+
+[:sys_platform != "nt"]
+sh>=1.10
