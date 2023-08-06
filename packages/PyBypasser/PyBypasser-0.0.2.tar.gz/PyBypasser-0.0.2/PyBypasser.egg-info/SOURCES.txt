@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PyBypasser/__init__.py
+PyBypasser/linkvertise.py
+PyBypasser/utils.py
+PyBypasser.egg-info/PKG-INFO
+PyBypasser.egg-info/SOURCES.txt
+PyBypasser.egg-info/dependency_links.txt
+PyBypasser.egg-info/top_level.txt
