@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: PyOfficeRobot
+Version: 0.0.3
+Summary: pip install PyOfficeRobot
+Home-page: https://www.python-office.com/
+Author: CoderWanFeng
+Author-email: 1957875073@qq.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/CoderWanFeng/PyOfficeRobot/issues
+Project-URL: Documentation, https://github.com/CoderWanFeng/PyOfficeRobot/blob/main/README.md
+Project-URL: Source Code, https://github.com/CoderWanFeng/PyOfficeRobot
+Platform: any
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# PyOfficeRobot
+pip install PyOfficeRobot，微信/钉钉/QQ/企业，各种应用的机器人
