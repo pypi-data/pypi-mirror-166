@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: unstructured
+Version: 0.0.1.dev0
+Summary: A library that prepares raw documents for downstream ML tasks.
+Home-page: UNKNOWN
+Author: Unstructured Technologies
+Author-email: devops@unstructuredai.io
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: pdf
