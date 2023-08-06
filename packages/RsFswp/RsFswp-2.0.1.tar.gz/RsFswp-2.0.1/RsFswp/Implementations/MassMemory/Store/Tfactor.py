@@ -1,0 +1,52 @@
+from ....Internal.Core import Core
+from ....Internal.CommandsGroup import CommandsGroup
+from ....Internal.Types import DataType
+from ....Internal.StructBase import StructBase
+from ....Internal.ArgStruct import ArgStruct
+from ....Internal.ArgSingleList import ArgSingleList
+from ....Internal.ArgSingle import ArgSingle
+from .... import repcap
+
+
+# noinspection PyPep8Naming,PyAttributeOutsideInit,SpellCheckingInspection
+class Tfactor:
+	"""Tfactor commands group definition. 1 total commands, 0 Subgroups, 1 group commands"""
+
+	def __init__(self, core: Core, parent):
+		self._core = core
+		self._cmd_group = CommandsGroup("tfactor", core, parent)
+
+	def set(self, filename: str, transd_name: str, store=repcap.Store.Default) -> None:
+		"""SCPI: MMEMory:STORe<n>:TFACtor \n
+		Snippet: driver.massMemory.store.tfactor.set(filename = '1', transd_name = '1', store = repcap.Store.Default) \n
+		No command help available \n
+			:param filename: No help available
+			:param transd_name: No help available
+			:param store: optional repeated capability selector. Default value: Pos1 (settable in the interface 'Store')
+		"""
+		param = ArgSingleList().compose_cmd_string(ArgSingle('filename', filename, DataType.String), ArgSingle('transd_name', transd_name, DataType.String))
+		store_cmd_val = self._cmd_group.get_repcap_cmd_value(store, repcap.Store)
+		self._core.io.write(f'MMEMory:STORe{store_cmd_val}:TFACtor {param}'.rstrip())
+
+	# noinspection PyTypeChecker
+	class TfactorStruct(StructBase):
+		"""Response structure. Fields: \n
+			- Filename: str: No parameter help available
+			- Transd_Name: str: No parameter help available"""
+		__meta_args_list = [
+			ArgStruct.scalar_str('Filename'),
+			ArgStruct.scalar_str('Transd_Name')]
+
+		def __init__(self):
+			StructBase.__init__(self, self)
+			self.Filename: str = None
+			self.Transd_Name: str = None
+
+	def get(self, store=repcap.Store.Default) -> TfactorStruct:
+		"""SCPI: MMEMory:STORe<n>:TFACtor \n
+		Snippet: value: TfactorStruct = driver.massMemory.store.tfactor.get(store = repcap.Store.Default) \n
+		No command help available \n
+			:param store: optional repeated capability selector. Default value: Pos1 (settable in the interface 'Store')
+			:return: structure: for return value, see the help for TfactorStruct structure arguments."""
+		store_cmd_val = self._cmd_group.get_repcap_cmd_value(store, repcap.Store)
+		return self._core.io.query_struct(f'MMEMory:STORe{store_cmd_val}:TFACtor?', self.__class__.TfactorStruct())
