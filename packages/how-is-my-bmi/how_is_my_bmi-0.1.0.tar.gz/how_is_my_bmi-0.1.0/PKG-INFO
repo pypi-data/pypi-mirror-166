@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: how_is_my_bmi
+Version: 0.1.0
+Summary: a python library to calculate one's body mass index
+Home-page: https://how_is_my_bmi.readthedocs.io/
+Author: Lare Samuel Adeola
+Author-email: laresamdeola@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+how_is_my_bmi
+
+A small library to be able to generate your BMI Index - Body Mass Index.
+
+Installation
+
+pip install bmi
+
+Get Started
+
+How to get the BMI Index:
+
+from bmi import Bmi
+
+### Instantiate the BMI Object
+user_2 = Bmi(105, 6)
+
+### Call the BMI Calculator method
+print(user_2.calc_bmi())
+
