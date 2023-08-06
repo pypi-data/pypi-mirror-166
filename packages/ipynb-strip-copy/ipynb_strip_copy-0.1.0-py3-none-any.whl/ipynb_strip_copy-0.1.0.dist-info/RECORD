@@ -1,0 +1,10 @@
+ipynb_strip_copy/__init__.py,sha256=OEWG-4BmSwRqnGGcJ8aIjfWnIih5JxY3v2O-Y0JcLn4,77
+ipynb_strip_copy/__main__.py,sha256=mgIZPARJoHJmm-s9RdXXbwDlvqXviguqQW0IRFTYhoA,1104
+ipynb_strip_copy/command.py,sha256=5ZDBIypIjBR9IzXGQFga5ssgZWDxsCRvau9XCVqEKHA,2847
+ipynb_strip_copy/file_ipynb.py,sha256=N_yk0JiZgAEWD8SuUSc3FPnv1eNqzH2twwL_DJg96kQ,1757
+ipynb_strip_copy/search_apply.py,sha256=96GzW8pS66sfLN_Qq7iHKAhpx9SsJFH_QfLlPHz3g-g,3558
+ipynb_strip_copy-0.1.0.dist-info/LICENSE,sha256=T1d5Y-9zDM7ta0YBqvZ-uBNYvjH13Jyi_D-lkR0SAv0,1068
+ipynb_strip_copy-0.1.0.dist-info/METADATA,sha256=HyDCE2G_p4RBk7nUEWAPqwynwoM6z9x_uzeOFc1qs8s,3205
+ipynb_strip_copy-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ipynb_strip_copy-0.1.0.dist-info/top_level.txt,sha256=3ln0_PY7s6hkRiBsP-uZKS7o2FnwkXO-7fpRs4woEik,17
+ipynb_strip_copy-0.1.0.dist-info/RECORD,,
