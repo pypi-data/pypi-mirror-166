@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: arkserver
+Version: 0.0.34
+Summary: This application accesses the Ark system.
+Home-page: https://github.com/GameServerGurus/Ark-Server
+Author: Mauricio
+Author-email: dev.mauricio.lomeli@gmail.com
+Project-URL: Bug Tracker, https://github.com/GameServerGurus/Ark-Server/issues
+Platform: win32
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: arklibrary
+Provides-Extra: testing
+Requires-Dist: pytest (>=6.0) ; extra == 'testing'
+Requires-Dist: pytest-cov (>=2.0) ; extra == 'testing'
+Requires-Dist: mypy (>=0.971) ; extra == 'testing'
+Requires-Dist: flake8 (>=3.9) ; extra == 'testing'
+Requires-Dist: tox (>=3.24) ; extra == 'testing'
+
+# Ark-Server
+
+## Connect
+### Start Listening (connect)
+Starts the server
+### Receive Connect Request (accept_wrapper)
+Connects to a client
+
+
+## Disconnect
+Disconnects the server
+### Send Disconnect (send_disconnect)
+Sends to a client to disconnect with the server
+### Receive Disconnect (parsed from read)
+If the server was remotely asked to shut down, it will then
+initiate disconnecting to all remote clients too.
+
+
+
+## Run
+### Receive Connect Request
+Accept the incoming connection
+### Service the connection
+#### Read
+Read from the incoming connection
+#### Write
+Write to the incoming connection after reading
+
+
