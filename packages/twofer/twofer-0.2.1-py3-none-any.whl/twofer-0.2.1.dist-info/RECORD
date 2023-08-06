@@ -1,0 +1,12 @@
+twofer/__init__.py,sha256=7gYRzbWToIMtwpjEzqdWB6h-_c7mkZnQHknSaKbMIXI,1783
+twofer/client.py,sha256=ttJ01wAlSKyaxLpLAX_bNo3_w-F1gtowTpQgQkiaoaw,4376
+twofer/functools.py,sha256=cBH-3k8dIZe6KJCg7dBDEllvR-kBEdAy-iXFq1d6ljk,997
+twofer/server.py,sha256=-lLpksQvQxw4ZfM1OFHjwh6PMTMkNdpY50fqbnV8CaI,8876
+twofer/templates/callback.html,sha256=nSDlcQVhN_QNlYKNBxL9i-mXz4D6eHhNSwl2daGVvV4,714
+twofer/templates/index.html,sha256=MmZsLQQU8zlekXHk6uhRXD2lYny-9Cl_xT2FSkDUSw0,929
+twofer-0.2.1.dist-info/LICENSE,sha256=_Y0SE2HplUk2shI3mlefXkCKVy-D7CUzLVMn1QRaIz8,1066
+twofer-0.2.1.dist-info/METADATA,sha256=wLFUJOI_UawxmQ1S3mksjjpeYPw72rc59wTMxcN7I60,10422
+twofer-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+twofer-0.2.1.dist-info/entry_points.txt,sha256=hDo2tnu-dxI4Sh9uyBChbqP9zENBTTGoOie-stEXnhk,70
+twofer-0.2.1.dist-info/top_level.txt,sha256=ZAX9b1sVBFXF5ILPypwAuQXo5F3iwPpBezk4pXb-ZIE,7
+twofer-0.2.1.dist-info/RECORD,,
