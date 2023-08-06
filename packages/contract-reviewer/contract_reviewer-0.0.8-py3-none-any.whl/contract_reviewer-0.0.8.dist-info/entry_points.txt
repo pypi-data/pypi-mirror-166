@@ -1,0 +1,3 @@
+[console_scripts]
+contract-reviewer=contract_reviewer.contractreviewer:main
+

@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: contract-reviewer
+Version: 0.0.8
+Summary: Using NLP to tag contracts across 12 different fields
+License: MIT
+Author: Alex-apostolo
+Author-email: alex-apostolo@hotmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: datasets (>=2.4.0,<3.0.0)
+Requires-Dist: pdfminer.six (>=20220524,<20220525)
+Requires-Dist: protobuf (==3.20.1)
+Requires-Dist: sentencepiece (>=0.1.97,<0.2.0)
+Requires-Dist: spacy (>=3.4.1,<4.0.0)
+Requires-Dist: torch (>=1.12.1,<2.0.0)
+Requires-Dist: transformers (>=4.21.1,<5.0.0)
