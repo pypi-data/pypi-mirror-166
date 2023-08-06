@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: scikit-teach
+Version: 0.1.0
+Summary: An Active Learning Approach
+Home-page: https://koaning.github.io/scikit-teach/
+Author: Vincent D. Warmerdam
+Project-URL: Documentation, https://koaning.github.io/scikit-teach/
+Project-URL: Source Code, https://github.com/koaning/scikit-teach/
+Project-URL: Issue Tracker, https://github.com/koaning/scikit-teach/issues
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn (>=1.0.0)
+Provides-Extra: dev
+
+# scikit-teach
+
+> Pardon the pun. 
+
+This repository contains some active learning benchmarks based on [modAL](https://modal-python.readthedocs.io/en/latest/). The experimental loop that collects data can be found in the `skteach.py` file.
+
+The "base-example.ipynb" file is a good starting point.
