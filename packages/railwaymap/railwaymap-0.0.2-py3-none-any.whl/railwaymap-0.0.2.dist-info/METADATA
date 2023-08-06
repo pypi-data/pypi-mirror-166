@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: railwaymap
+Version: 0.0.2
+Summary: 中国铁路局地图可视化
+Home-page: 
+Author: 60464
+Author-email: huanglujiang@126.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pyecharts (>=1.9.0)
+
+基于中国地图的各路局管辖范围地图可视化包
