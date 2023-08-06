@@ -1,0 +1,8 @@
+build
+dist
+prestapyt.egg-info
+*.pyc
+tags
+
+*.swp
+.vscode
