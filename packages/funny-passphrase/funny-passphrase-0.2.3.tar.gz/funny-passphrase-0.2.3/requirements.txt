@@ -1,0 +1,3 @@
+python-xz
+typing-extensions
+python-magic
