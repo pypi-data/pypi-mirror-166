@@ -1,0 +1,18 @@
+from setuptools import setup
+
+setup(
+    name='umsg-gen',
+    version='0.1.4',
+    author="Alex Pabouctsidis",
+    author_email='alex.pabouct@gmail.com',
+    url='https://github.com/Amcolex/umsg_gen.git',
+    py_modules=['umsg_gen'],
+    package_dir={'':'umsg_gen'},
+    install_requires=[
+        'jinja2',
+    ],
+    entry_points='''
+        [console_scripts]
+        umsg-gen=umsg_gen:main
+    ''',
+)
