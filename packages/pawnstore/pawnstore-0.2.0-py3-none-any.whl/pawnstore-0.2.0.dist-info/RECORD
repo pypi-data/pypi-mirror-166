@@ -1,0 +1,9 @@
+pawnstore/__init__.py,sha256=JSAGSHJ4I4kGaic0vPV79otlWN8YpgXOZNN5jPSEZOA,659
+pawnstore/chesscom.py,sha256=TBJAEjOIGpI4DS9KkLH2Ebco0yPr2jp44uDPQ-ZbF9Y,3367
+pawnstore/lichess.py,sha256=tKWj2KekhegPoqYMJoNNJ-xChQsu0njmbC4E6AFC1p8,2642
+pawnstore/models.py,sha256=CNpWbuF6567WR-RElzKgH1xeHS8lp8mhGqhs0JH9KXI,1751
+pawnstore/services.py,sha256=QmM6qKu0dcOlHu67aLv3JG5XFH9K_p4qDr0V8kkGzYo,1264
+pawnstore-0.2.0.dist-info/METADATA,sha256=Smlrou7w2ABiG78NBR31KTmT7ER270eASqpru-AVpuA,1996
+pawnstore-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pawnstore-0.2.0.dist-info/top_level.txt,sha256=gcSKsdNDCX3-70QM6rjSmgm1wo9ckPiVoGFMjj4LIQg,10
+pawnstore-0.2.0.dist-info/RECORD,,
