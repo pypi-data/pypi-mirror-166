@@ -1,0 +1,2 @@
+aiozipkin<2
+starlette<21,>0.14
