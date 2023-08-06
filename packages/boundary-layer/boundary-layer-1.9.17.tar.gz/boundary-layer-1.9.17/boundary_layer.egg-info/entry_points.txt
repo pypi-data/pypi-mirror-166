@@ -1,0 +1,2 @@
+[boundary_layer_plugins]
+default = boundary_layer_default_plugin.plugin:DefaultPlugin
