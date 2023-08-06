@@ -1,0 +1,11 @@
+mini_photoshop/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mini_photoshop/gui.py,sha256=2uT6XLksF0n0Cqz8OVNkTyTWbXHn5wKFd05BlrOIMyw,5646
+mini_photoshop/utils.py,sha256=EInyGIt0QRxclIMnmVg4W984N-VnffT1rmLqCXdPijE,4517
+mini_photoshop/model/__init__.py,sha256=1dV9UN7jLm5xO8c6S3L6RlEXJYZEdanOFywsiQiiHm0,164
+mini_photoshop/model/lama.py,sha256=KcmUeYquyoIttIVprRHeJyqNQvv1s4HKqCx5f_de42s,4375
+mini_photoshop/model/u2net.py,sha256=9VXD171A6uROdp8Cszz1TjZWwDq26KyP-tw223FQzXA,10024
+mini_photoshop-0.1.1.dist-info/METADATA,sha256=hSBLUxIAGv4oRp2I7eErZYroW7XOmoKkeRWSDJWCfdk,2498
+mini_photoshop-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mini_photoshop-0.1.1.dist-info/entry_points.txt,sha256=fcurRm0UHd5t-HjqnxTKO6a0fDDWdvkAUwqELEdIz10,66
+mini_photoshop-0.1.1.dist-info/top_level.txt,sha256=KCrVCrLczxM2uaWJIzisGbctFa_RavH1sGAaQ4vWLeU,15
+mini_photoshop-0.1.1.dist-info/RECORD,,

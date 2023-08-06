@@ -1,0 +1,2 @@
+[console_scripts]
+mini-photoshop = mini_photoshop.gui:entry_point
