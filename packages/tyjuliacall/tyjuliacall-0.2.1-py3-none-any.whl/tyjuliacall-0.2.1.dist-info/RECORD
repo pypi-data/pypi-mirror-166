@@ -1,0 +1,10 @@
+tyjuliacall/__init__.py,sha256=qxl7RGQDOZYimN87nPtQacCRcT7PXHFUN5L_nclrwhA,95
+tyjuliasetup/__init__.py,sha256=fZsLSAyiP7-lyXR4DMgdjVnSnqNID8Y4CLjyv-H8CeQ,6597
+tyjuliasetup/compat.py,sha256=3JOdDzZh_LXOobS9m0aMf5BjG_QT9ei0RevLg7n2ozM,1289
+tyjuliasetup/Project.toml,sha256=_mjRUQ_2e_tC8NEmcDsIDw-6KiWIj3Up6bF_ifz9Vwo,80
+tyjuliasetup/src/TyJuliaSetup.jl,sha256=Mm6As8inJy3ZBtw45gfObdB8-M6e145mqnF6qBWMHIU,1671
+tyjuliacall-0.2.1.dist-info/entry_points.txt,sha256=Elv5JfQSaDNhTIlDqX18TLG56anyng9LRdVsykuecAU,59
+tyjuliacall-0.2.1.dist-info/LICENSE,sha256=zTG8mlosZQAj2Dt4fOADHjfZB4p3TTHBATwhsJ2N-MY,1123
+tyjuliacall-0.2.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tyjuliacall-0.2.1.dist-info/METADATA,sha256=jzKMA89DeQ8zKQ69I21bMpRzoPuKSb7VZsWbcuHzydM,536
+tyjuliacall-0.2.1.dist-info/RECORD,,

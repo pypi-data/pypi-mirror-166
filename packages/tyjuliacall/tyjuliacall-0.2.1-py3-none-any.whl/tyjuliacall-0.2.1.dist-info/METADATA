@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tyjuliacall
+Version: 0.2.1
+Summary: A Python package for Tongyuan-hacked PyCall as an engineerization for Python-Julia interops.
+Author: Suzhou-Tongyuan
+Author-email: support@tongyuan.cc
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: julia-numpy (>=0.2.0,<0.3.0)
