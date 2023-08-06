@@ -1,0 +1,15 @@
+import requests
+from make_zip import make_zip
+
+api_url_test= "http://34.168.0.37:8778/api"
+
+def api(key, main_name, func):
+  main_pyfilename = make_zip(key, main_name, func)
+  
+  values = {"key": key, "modelname": main_pyfilename}
+  res = requests.post(api_url_test, files = {'file': open("./aif.zip",'rb', )}, data=values)  
+  if res.status_code == 200 or res.status_code == 201: 
+    print("success")
+    return
+  print(res.status_code)  
+  print(res.text)
