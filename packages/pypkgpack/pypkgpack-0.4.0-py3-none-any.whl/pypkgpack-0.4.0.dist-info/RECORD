@@ -1,0 +1,8 @@
+pypkgpack/__init__.py,sha256=FSKjOON_hZr3IWVkzyNop7BX99wGZfI_7BMv_GAcOqY,76
+pypkgpack/bundle.py,sha256=iPcbipICjDnmJReGA6TuamLuNHasWvB-1e8qSdJte-4,3831
+pypkgpack/importer.py,sha256=Ql-k9-Ryy75mdC1R63PzrkQ4TUzxZtaoNCDz-AisGf8,4628
+pypkgpack-0.4.0.dist-info/entry_points.txt,sha256=4Vs0j50_hEROhWKHKe4UQVderpCt1OzvIR3vSrX6tbs,50
+pypkgpack-0.4.0.dist-info/LICENSE,sha256=zaHug7_a_mHboOl4zuRxoTp7NYigE0AXlJWxPfsU0hM,1364
+pypkgpack-0.4.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pypkgpack-0.4.0.dist-info/METADATA,sha256=gjvvAXozeGPXOcy-ywwLhAFY2JsPIqp4MIBBiLgJct4,1762
+pypkgpack-0.4.0.dist-info/RECORD,,
