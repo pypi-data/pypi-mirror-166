@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: divbrowse
+Version: 1.0.0
+Summary: A web application for interactive visualization and analysis of genotypic variant matrices
+License: MIT
+Author: Patrick König
+Author-email: koenig@ipk-gatersleben.de
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: bioblend (>=0.16.0,<0.17.0)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: flask (>=2.0.1,<3.0.0)
+Requires-Dist: numpy (>=1.21.1,<2.0.0)
+Requires-Dist: pandas (>=1.3.0,<2.0.0)
+Requires-Dist: pyyaml (>=5.4.1,<6.0.0)
+Requires-Dist: scikit-allel (>=1.3.5,<2.0.0)
+Requires-Dist: scikit-learn (>=0.24.2,<0.25.0)
+Requires-Dist: simplejson (>=3.17.3,<4.0.0)
+Requires-Dist: sphinx (>=4.0.2,<5.0.0); extra == "docs"
+Requires-Dist: sphinx-autoapi (>=1.6.0,<2.0.0); extra == "docs"
+Requires-Dist: sphinx-click (>=3.0.1,<4.0.0); extra == "docs"
+Requires-Dist: sphinx_rtd_theme (>=0.5.2,<0.6.0); extra == "docs"
+Requires-Dist: tables (>=3.6.1,<4.0.0)
+Requires-Dist: umap-learn (>=0.5.2,<0.6.0)
+Requires-Dist: waitress (==2.0.0)
+Requires-Dist: zarr (>=2.8.3,<3.0.0)
