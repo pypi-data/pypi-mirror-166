@@ -1,0 +1,10 @@
+pfmisc
+pftree
+pfdo
+mgz2imgslices
+scikit-image
+nibabel
+pandas
+numpy
+imageio
+matplotlib
