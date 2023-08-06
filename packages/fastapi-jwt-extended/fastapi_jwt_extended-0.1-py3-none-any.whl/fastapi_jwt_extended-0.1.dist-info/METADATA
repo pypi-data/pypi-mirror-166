@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: fastapi-jwt-extended
+Version: 0.1
+Summary: test package
+Author: rhcproc
+Author-email: rhcproc@email.re.kr
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
