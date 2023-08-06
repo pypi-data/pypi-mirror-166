@@ -1,0 +1,5 @@
+binaryornot
+flask==2.2.2
+pillow
+requests
+PyGithub==1.55
