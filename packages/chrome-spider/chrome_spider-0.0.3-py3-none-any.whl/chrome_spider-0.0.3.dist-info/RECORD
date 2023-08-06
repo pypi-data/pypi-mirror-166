@@ -1,0 +1,12 @@
+chrome_spider/__init__.py,sha256=w4jszLkVcu5_989G7MxHcESpUW5tYYC4-SG2jIuG4QU,45
+chrome_spider/__main__.py,sha256=cPkxOZsiOgJrtts6TMmfR8q33QyA2vpR2eGh4I-it5E,74
+chrome_spider/app.py,sha256=BoYmLl9NysCBoaJD2N6K70ng2EeIK3s-u4d0_xqBcDk,78
+chrome_spider/spider/__init__.py,sha256=w4jszLkVcu5_989G7MxHcESpUW5tYYC4-SG2jIuG4QU,45
+chrome_spider/spider/cookie.py,sha256=sY_AiIAVtnF27eEmaWVE_l5Kmo-6rZf-DVAu4IGSets,2427
+chrome_spider/spider/main.py,sha256=0YJAltwKvgdFYku16tXWIPMGqzH8-atT8KbGIwjrN7o,2126
+chrome_spider-0.0.3.dist-info/LICENSE,sha256=GPFFMOpg5XpyqR_rgCnmUtTIJRNhOc3dQY65okZtsDU,1065
+chrome_spider-0.0.3.dist-info/METADATA,sha256=ZFa2Dyc8Wi23nW-coXuqGPCjFk8qhV35myCOmsGN_Nw,916
+chrome_spider-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+chrome_spider-0.0.3.dist-info/entry_points.txt,sha256=d-ynuRCiykaM6Q5bWCDcqDY1X1elPXElbrwQIKv4p-g,57
+chrome_spider-0.0.3.dist-info/top_level.txt,sha256=B-q5wIx5oZdTZZLeTEwrN7FOKKsKEN1vUNJZ5yoGp5Y,14
+chrome_spider-0.0.3.dist-info/RECORD,,
