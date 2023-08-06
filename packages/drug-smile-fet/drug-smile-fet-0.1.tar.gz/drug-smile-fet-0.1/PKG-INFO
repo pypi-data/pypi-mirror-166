@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: drug-smile-fet
+Version: 0.1
+Summary: This tool provides methods to extract meaningful features from drug SMILES for Machine Learning operation
+Home-page: https://github.com/rahulsharma-rs/drug-smile-fet
+Author: Rahul Sharma
+Author-email: rahul_rs.sharma@hotmail.com
+License: MIT
+Keywords: Drug SMILE,Feature Extraction,NLP
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Usage
+
+- Make sure you have Python installed in your system.
+- Run Following command in the CMD.
+ ```
+  pip install drug-smile-fet
+  ```
+## Example
+
+ ```
+# example.py
+from  DSFET import oneMolFeatureExtraction
+
+
