@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: PasswordGeneratorTool
+Version: 0.1.0
+Summary: Tool that will generate password from given length
+Author: Daniel Czarnecki
+Author-email: Daniel.Czarnecki.94@wp.pl
+Description-Content-Type: text/markdown
+
+# PasswordGeneratorTool
+
+Simple tool that will generate strong password for You.
+Remember that input should be in 'int' format.
