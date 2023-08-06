@@ -1,0 +1,15 @@
+query ($machine: String!) {
+  builds(machine: $machine) {
+    id
+    machine
+    submitted
+    completed
+    published
+    tags
+    notes
+    keep
+    packagesBuilt {
+      cpv
+    }
+  }
+}
