@@ -1,0 +1,8 @@
+setup.py
+test/__init__.py
+test/test.py
+w24thr.egg-info/PKG-INFO
+w24thr.egg-info/SOURCES.txt
+w24thr.egg-info/dependency_links.txt
+w24thr.egg-info/not-zip-safe
+w24thr.egg-info/top_level.txt
