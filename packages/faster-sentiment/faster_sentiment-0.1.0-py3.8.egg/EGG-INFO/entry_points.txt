@@ -1,0 +1,2 @@
+[console_scripts]
+faster_sentiment = faster_sentiment.cli:main
