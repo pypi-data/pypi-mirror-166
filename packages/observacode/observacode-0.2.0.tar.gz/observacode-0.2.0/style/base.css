@@ -1,0 +1,76 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+
+.name-label {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+.select-box {
+    background-color: aqua;
+    border-color: black;
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+}
+
+.overcode-cluster-members {
+    display: none;
+}
+
+#left-panel {
+    overflow-y: scroll;
+    height: 700px;
+    width: 33%;
+    display: inline-block;
+}
+
+#middle-panel {
+    overflow-y: scroll;
+    height: 700px;
+    width: 33%;
+    display: inline-block;
+}
+
+#right-panel {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    height: 700px;
+    overflow-y: scroll;
+}
+
+.solution-group-tag {
+    border-radius: 10px;
+    display: inline-block;
+    width: fit-content;
+    padding: 1px;
+    margin: 1px;
+}
+
+.solution-group-tag.selected {
+    background-color: peachpuff;
+}
+
+.code-group-block{
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    vertical-align: top;
+    overflow-y: scroll;
+}
+
+.x-axis.focus {
+    stroke-width: 5;
+}
+
+.timeline-button {
+    fill: silver;
+}
+
+li.highlighted {
+    background-color: lightblue;
+}
