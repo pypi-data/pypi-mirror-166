@@ -1,0 +1,9 @@
+README.rst
+setup.py
+lib/op.py
+lib/oplib.egg-info/PKG-INFO
+lib/oplib.egg-info/SOURCES.txt
+lib/oplib.egg-info/dependency_links.txt
+lib/oplib.egg-info/not-zip-safe
+lib/oplib.egg-info/top_level.txt
+test/test_op.py
