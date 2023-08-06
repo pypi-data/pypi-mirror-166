@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "notes50"
+authors = [
+  { name="Zed", email="zeeshantechnical9128@gmail.com" },
+]
+version = "0.0.5"
+description = "CS50 Notes And Psets Reader"
+readme = "README.md"
+license = { file="LICENSE" }
+keywords = ["CS50", "CS50P", "Notes", "Psets"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+scripts = { notes50="notes50.notes50:main"}
+dependencies = [  
+"appdirs==1.4.4",
+"beautifulsoup4==4.11.1",
+"bs4==0.0.1",
+"commonmark==0.9.1",
+"joblib==1.1.0",
+"lxml==4.9.1",
+"markdownify==0.11.6",
+"Pygments==2.13.0",
+"rich==12.5.1",
+"six==1.16.0",
+"soupsieve==2.3.2.post1",
+]

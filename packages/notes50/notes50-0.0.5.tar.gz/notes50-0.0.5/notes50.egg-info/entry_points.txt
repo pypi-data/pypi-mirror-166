@@ -1,0 +1,2 @@
+[console_scripts]
+notes50 = notes50.notes50:main
