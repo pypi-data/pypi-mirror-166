@@ -1,0 +1,19 @@
+httpx
+packaging>=20.4
+toml
+typer[all]>=0.3.2
+
+[:python_version < "3.7"]
+importlib_resources
+
+[:python_version < "3.8"]
+typing-extensions
+
+[mypy]
+mypy==0.800
+
+[test]
+pytest
+pytest-cov
+pytest-xdist
+virtualenv
