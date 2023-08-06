@@ -1,0 +1,3 @@
+[distutils.commands]
+prebuilt_binary = prebuilt_binaries:prebuilt_binary
+
