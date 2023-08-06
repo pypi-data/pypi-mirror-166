@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9389b1a6-3c56-4bf3-933d-c4e8c77b9aab" name="Changes" comment="updated resize_imgs.py and save_frames.py&#10;fixed bug in cv2">
+      <change afterPath="$PROJECT_DIR$/src/ormedian_utils/resize_folders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ormedian_utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ormedian_utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ormedian_utils/move_spec_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ormedian_utils/move_spec_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ormedian_utils/resize_imgs.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ormedian_utils/resize_imgs.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DxRk3hiFZpnH4Kx8bVBCtClZWG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/previous_versions" />
+      <recent name="$PROJECT_DIR$/deprecatedPackage" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="resize_folders" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="ormedian-utils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../Ideas/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ormedian_utils" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ormedian_utils/resize_folders.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9389b1a6-3c56-4bf3-933d-c4e8c77b9aab" name="Changes" comment="" />
+      <created>1661638891357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661638891357</updated>
+    </task>
+    <task id="LOCAL-00001" summary="updated package&#10;resize_imgs&#10;move_spec_files&#10;collect_frames">
+      <created>1661839628763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661839628763</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated package&#10;resize_imgs&#10;move_spec_files&#10;collect_frames">
+      <created>1661843358232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661843358233</updated>
+    </task>
+    <task id="LOCAL-00003" summary="README.md file updated">
+      <created>1661843498386</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661843498386</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated resize_imgs.py and save_frames.py&#10;fixed bug in cv2">
+      <created>1661850342413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661850342413</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated resize_imgs.py and save_frames.py&#10;fixed bug in cv2">
+      <created>1661853417064</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661853417064</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated resize_imgs.py and save_frames.py&#10;fixed bug in cv2">
+      <created>1662062018913</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662062018914</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated resize_imgs.py and save_frames.py&#10;fixed bug in cv2">
+      <created>1662144235536</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662144235537</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated package&#10;resize_imgs&#10;move_spec_files&#10;collect_frames" />
+    <MESSAGE value="README.md file updated" />
+    <MESSAGE value="updated resize_imgs.py and save_frames.py&#10;fixed bug in cv2" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated resize_imgs.py and save_frames.py&#10;fixed bug in cv2" />
+  </component>
+</project>
