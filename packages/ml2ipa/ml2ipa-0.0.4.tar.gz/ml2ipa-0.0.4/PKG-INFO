@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ml2ipa
+Version: 0.0.4
+Summary: A linguistic tool that generates IPA pronounciation for Malayalam words
+Home-page: https://github.com/erose311/ml2ipa
+Download-URL: https://github.com/erose311/ml2ipa
+Author: Elaine Mary Rose
+Author-email: ammuelaine@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.9
