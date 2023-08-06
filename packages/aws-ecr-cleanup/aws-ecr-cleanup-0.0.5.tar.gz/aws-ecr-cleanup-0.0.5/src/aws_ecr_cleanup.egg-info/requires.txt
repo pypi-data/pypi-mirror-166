@@ -1,0 +1,4 @@
+objectpath
+boto3
+jsonpath-ng
+pyyaml

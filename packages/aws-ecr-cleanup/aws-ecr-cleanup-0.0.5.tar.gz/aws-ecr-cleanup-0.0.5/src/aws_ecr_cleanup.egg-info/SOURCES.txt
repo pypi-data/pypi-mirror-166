@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/aws_ecr_cleanup/__init__.py
+src/aws_ecr_cleanup/configure_logging.py
+src/aws_ecr_cleanup/main.py
+src/aws_ecr_cleanup.egg-info/PKG-INFO
+src/aws_ecr_cleanup.egg-info/SOURCES.txt
+src/aws_ecr_cleanup.egg-info/dependency_links.txt
+src/aws_ecr_cleanup.egg-info/entry_points.txt
+src/aws_ecr_cleanup.egg-info/requires.txt
+src/aws_ecr_cleanup.egg-info/top_level.txt
