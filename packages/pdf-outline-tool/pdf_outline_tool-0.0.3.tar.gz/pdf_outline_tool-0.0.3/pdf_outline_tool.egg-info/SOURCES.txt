@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pdf_outline/__init__.py
+pdf_outline/main.py
+pdf_outline/pdf.py
+pdf_outline_tool.egg-info/PKG-INFO
+pdf_outline_tool.egg-info/SOURCES.txt
+pdf_outline_tool.egg-info/dependency_links.txt
+pdf_outline_tool.egg-info/entry_points.txt
+pdf_outline_tool.egg-info/requires.txt
+pdf_outline_tool.egg-info/top_level.txt
