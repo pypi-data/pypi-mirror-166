@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+MVim.egg-info/PKG-INFO
+MVim.egg-info/SOURCES.txt
+MVim.egg-info/dependency_links.txt
+MVim.egg-info/top_level.txt
+bin/mvim
+mvim/__init__.py
+mvim/mvim.py
