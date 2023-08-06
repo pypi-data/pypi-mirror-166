@@ -1,0 +1,11 @@
+README.md
+setup.py
+sql_records/__init__.py
+sql_records/connection.py
+sql_records/table.py
+sql_records/utils.py
+sql_records.egg-info/PKG-INFO
+sql_records.egg-info/SOURCES.txt
+sql_records.egg-info/dependency_links.txt
+sql_records.egg-info/requires.txt
+sql_records.egg-info/top_level.txt
