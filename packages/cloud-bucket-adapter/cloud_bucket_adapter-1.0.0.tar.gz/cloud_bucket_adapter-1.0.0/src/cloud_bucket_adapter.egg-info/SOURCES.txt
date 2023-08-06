@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/cloud_bucket_adapter/__init__.py
+src/cloud_bucket_adapter/adapter.py
+src/cloud_bucket_adapter/custom_blob.py
+src/cloud_bucket_adapter/django_adapter.py
+src/cloud_bucket_adapter.egg-info/PKG-INFO
+src/cloud_bucket_adapter.egg-info/SOURCES.txt
+src/cloud_bucket_adapter.egg-info/dependency_links.txt
+src/cloud_bucket_adapter.egg-info/top_level.txt
+src/cloud_bucket_adapter/aws/__init__.py
+src/cloud_bucket_adapter/aws/adapter.py
+src/cloud_bucket_adapter/gcp/__init__.py
+src/cloud_bucket_adapter/gcp/adapter.py
