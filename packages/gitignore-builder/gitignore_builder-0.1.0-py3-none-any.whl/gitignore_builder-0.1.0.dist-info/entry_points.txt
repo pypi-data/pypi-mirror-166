@@ -1,0 +1,2 @@
+[console_scripts]
+gitignore-builder = gitignore_builder.cli:gitignore_builder
