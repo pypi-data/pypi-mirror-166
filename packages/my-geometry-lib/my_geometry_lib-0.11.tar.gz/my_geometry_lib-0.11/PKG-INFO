@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: my_geometry_lib
+Version: 0.11
+Summary: Test library
+Home-page: https://github.com/Xorsiphus
+Author: Evgeniy
+License: UNKNOWN
+Platform: UNKNOWN
+
+# Test library
+### Allows you to create instances of classes of geometric shapes
+
