@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: candyland
+Version: 0.1.0
+Summary: Candyland is a simple python package for quickly processing data-streams
+Home-page: https://gitlab.com/FL03/candyland
+License: MIT
+Author: FL03
+Author-email: jo3mccain@icloud.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: numpy
+Requires-Dist: plotly
+Requires-Dist: pydantic
+Project-URL: Repository, https://gitlab.com/FL03/candyland
+Description-Content-Type: text/markdown
+
+

@@ -1,0 +1,23 @@
+[tool.poetry]
+authors = ["FL03 <jo3mccain@icloud.com>"]
+description = "Candyland is a simple python package for quickly processing data-streams"
+license = "MIT"
+name = "candyland"
+packages = [{include = "candyland", from = "src"}]
+readme = "README.md"
+repository = "https://gitlab.com/FL03/candyland"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+numpy = "latest"
+plotly = "latest"
+pydantic = "latest"
+python = ">=3.8,<3.11"
+
+[tool.poetry.dev-dependencies]
+black = "latest"
+pytest = "latest"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
