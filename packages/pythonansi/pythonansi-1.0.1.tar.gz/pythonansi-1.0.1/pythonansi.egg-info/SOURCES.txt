@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pythonansi/__init__.py
+pythonansi.egg-info/PKG-INFO
+pythonansi.egg-info/SOURCES.txt
+pythonansi.egg-info/dependency_links.txt
+pythonansi.egg-info/top_level.txt
