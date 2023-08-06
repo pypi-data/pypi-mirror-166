@@ -1,0 +1,8 @@
+GOL_Simulator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+GOL_Simulator/cpu.py,sha256=Jr2VomhPEfRDP1a6YcuC4Z0yy2xJrmu9VaZxf8ZkWZ4,1050
+GOL_Simulator/gpu.py,sha256=5kBiyIN3syVC6gUEdWIBbMgD_6atby2SSMSd04dIkSc,1356
+GOL_Simulator-0.0.1.dist-info/METADATA,sha256=IrESJxCNmQjDDKnnrY3qTmuhvpfPh19yq7Kone4nVkk,382
+GOL_Simulator-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+GOL_Simulator-0.0.1.dist-info/top_level.txt,sha256=0gMoPbg88Kx0EeBwfTVxSbTTq9_KpME9UW7_Xz9YbS0,14
+GOL_Simulator-0.0.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+GOL_Simulator-0.0.1.dist-info/RECORD,,
