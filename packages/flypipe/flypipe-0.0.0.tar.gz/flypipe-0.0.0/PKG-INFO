@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: flypipe
+Version: 0.0.0
+Summary: Data and Feature store transformations manager
+Home-page: https://github.com/flypipe/flypipe.git
+Author: Jose Helio de Brum Muller
+Author-email: josemuller.flypipe@gmail.com
+License: apache-2.0
+Description: UNKNOWN
+Keywords: feature,pipeline,data,ml,ds,machine learning,data science,data engineering
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
