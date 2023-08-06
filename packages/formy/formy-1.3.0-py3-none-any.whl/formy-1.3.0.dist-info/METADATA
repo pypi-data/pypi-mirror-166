@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: formy
+Version: 1.3.0
+Summary: Valley is a Python forms library that allows you to use Jinja2 templates to create and manage the HTML of your forms.
+License: Apache-2.0
+Author: Brian Jinwright
+Author-email: bjinwright@qwigo.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: valley (>=1.5.8,<2.0.0)
