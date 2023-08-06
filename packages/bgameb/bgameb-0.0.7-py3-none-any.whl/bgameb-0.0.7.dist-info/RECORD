@@ -1,0 +1,12 @@
+bgameb/__init__.py,sha256=CqwfVdfi6-HDxXKCvtw70pAvsDXk2iJiZj0C8-Un8v4,253
+bgameb/_version.py,sha256=OkjAxKuCUGR46ptGA6uR6lxWXsE7GeCoFMAabTZqNco,256
+bgameb/games.py,sha256=7fL8ZM3RoqnPgfGIEmFEgTFACsqgeEieOIWsOTlmTvw,1491
+bgameb/players.py,sha256=-UoS9vyxhRqMibIyZfxH9ppCYHoVVeUBql2ayRSGJiQ,292
+bgameb/rollers.py,sha256=Xx_wPnyVpxi_mfH6zYCSY8D2vMEBGEPonGl8hSG2XV4,2660
+bgameb/shakers.py,sha256=c3lWXaTkDvAluY5e8H8j6vx5rONvIssi9d-PaHIZoEU,6804
+bgameb/utils.py,sha256=bjvC9FN9FuiGddSPjZBj88L_wO77CNWlG2cqG_VkZxk,717
+bgameb-0.0.7.dist-info/LICENSE,sha256=_dzTCKEeIEivgwldfTAgIGAE3e_38f9vTMCl3_YitGg,1076
+bgameb-0.0.7.dist-info/METADATA,sha256=inmkyz4-6-nv5wrxS6piXEHo2Z951jfEm-RerAW-GGk,6145
+bgameb-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bgameb-0.0.7.dist-info/top_level.txt,sha256=j-0V0dvzTd3L1DG_0oM4yncbUy889zeiSqtLF1MYH58,7
+bgameb-0.0.7.dist-info/RECORD,,
