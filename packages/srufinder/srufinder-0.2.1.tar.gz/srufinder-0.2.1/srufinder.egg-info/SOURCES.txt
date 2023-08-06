@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+bin/srufinder
+srufinder/__init__.py
+srufinder/blast.py
+srufinder/cluster.py
+srufinder/controller.py
+srufinder/prodigal.py
+srufinder.egg-info/PKG-INFO
+srufinder.egg-info/SOURCES.txt
+srufinder.egg-info/dependency_links.txt
+srufinder.egg-info/requires.txt
+srufinder.egg-info/top_level.txt
