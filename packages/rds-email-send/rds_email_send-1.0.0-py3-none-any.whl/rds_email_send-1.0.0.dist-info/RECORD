@@ -1,0 +1,7 @@
+dist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rds_email_send/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rds_email_send/rds_email_send.py,sha256=EbWNU_azFX3az-r85CzrAZV7Ufukmk33l8JgGnCeP9k,1885
+rds_email_send-1.0.0.dist-info/METADATA,sha256=QeOYsLtvL5USmNwdrWTv45Hz9bZnLFkOshFUIEj_8a0,289
+rds_email_send-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rds_email_send-1.0.0.dist-info/top_level.txt,sha256=AD9Q0iaaspLPlDtMxhOHszq6X314aLFKfgE02GYAARQ,15
+rds_email_send-1.0.0.dist-info/RECORD,,
