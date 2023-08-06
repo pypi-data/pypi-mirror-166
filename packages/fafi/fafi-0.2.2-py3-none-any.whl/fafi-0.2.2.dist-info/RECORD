@@ -1,0 +1,10 @@
+fafi/__init__.py,sha256=m6kyaNpwBcP1XYcqrelX2oS3PJuOnElOcRdBa9pEb8c,22
+fafi/appdata.py,sha256=9-pYkgw5qUVhEVo3yF47KNRJWYthTlHayXljLuGC3Do,2382
+fafi/core.py,sha256=f_4rjMIfQWI731OQZKPl5LewWK4PkPJeS7olUw5WkvM,1614
+fafi/db.py,sha256=kXHKO0KYsoSNEpAjOj_yVwIT6SoDm9N31WuwIGAUdc0,1668
+fafi/input.py,sha256=SvlNIGk_LEtmX8Mb2V5pu1Q1kXIcQay4061QcNEzdWo,296
+fafi/main.py,sha256=Vp-hKEs9AbwSGK-oRzNjGnXnd059lAnnQc4_F_BOEsU,1751
+fafi-0.2.2.dist-info/entry_points.txt,sha256=_W35LMy9Nw3P5KIYTySRysIlUPySnf-LJ47l8piXA8w,39
+fafi-0.2.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fafi-0.2.2.dist-info/METADATA,sha256=jsePEkAa03_X0ul_uDWEhgF2sWHS0D6n5PDf_5pWQ_Q,1938
+fafi-0.2.2.dist-info/RECORD,,
