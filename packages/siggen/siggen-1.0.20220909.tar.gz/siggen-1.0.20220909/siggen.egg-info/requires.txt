@@ -1,0 +1,4 @@
+glom
+
+[cli]
+requests<3
