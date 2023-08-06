@@ -1,0 +1,3 @@
+[console_scripts]
+softi-xmcd-view = command_line:main
+
