@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyautoppt
+Version: 0.1.1
+Summary: 这是一个简单的 PPT 自动化
+Home-page: https://python-poetry.org/
+Keywords: ppt
+Author: wn0x00
+Author-email: 320753691@qq.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pywin32 (>=304,<305)
+Project-URL: Documentation, https://github.com/wn0x00/pyautoppt
+Project-URL: Repository, https://github.com/wn0x00/pyautoppt
+Description-Content-Type: text/markdown
+
+# pyautoppt
+
+## 基本用法
+
+```python
+from pyautoppt import ppt
+
+# 新建 ppt文件
+pre_ref = ppt.add()
+# 添加幻灯片
+pre_ref.slides.add(1,12)
+
+```
+
