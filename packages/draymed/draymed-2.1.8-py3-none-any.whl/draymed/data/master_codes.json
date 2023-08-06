@@ -1,0 +1,1052 @@
+[
+  {
+    "category": "accessibility_considerations",
+    "values": [
+      {
+        "code": "105597003",
+        "short": "blind",
+        "long": "Blindness or visual impairment"
+      },
+      {
+        "code": "15188001",
+        "short": "deaf",
+        "long": "Deafness or hearing impairment"
+      },
+      {
+        "code": "82971005",
+        "short": "mobility",
+        "long": "Impaired Mobility"
+      },
+      {
+        "code": "889211000000104",
+        "short": "learning",
+        "long": "Learning difficulty"
+      },
+      {
+        "code": "161148002",
+        "short": "language",
+        "long": "Low levels of English Language"
+      },
+      {
+        "code": "D0000032",
+        "short": "other",
+        "long": "Other"
+      }
+    ]
+  },
+  {
+    "category": "diabetes_type",
+    "values": [
+      {
+        "code": "11687002",
+        "short": "gdm",
+        "long": "GDM"
+      },
+      {
+        "code": "46635009",
+        "short": "type1",
+        "long": "Type 1"
+      },
+      {
+        "code": "44054006",
+        "short": "type2",
+        "long": "Type 2"
+      },
+      {
+        "code": "237604008",
+        "short": "mody",
+        "long": "MODY"
+      },
+      {
+        "code": "702737001",
+        "short": "preGdm",
+        "long": "Pre GDM"
+      },
+      {
+        "code": "D0000001",
+        "short": "other",
+        "long": "Other"
+      }
+    ]
+  },
+  {
+    "category": "management_type",
+    "values": [
+      {
+        "code": "D0000007",
+        "short": "dietAndExercise",
+        "long": "Diet and Exercise"
+      },
+      {
+        "code": "386359008",
+        "short": "oralMeds",
+        "long": "Oral meds"
+      },
+      {
+        "code": "67866001",
+        "short": "insulin",
+        "long": "Insulin"
+      },
+      {
+        "code": "D0000008",
+        "short": "oralMedsAndInsulin",
+        "long": "Oral meds and insulin"
+      }
+    ]
+  },
+  {
+    "category": "routine_sct_code",
+    "values": [
+      {
+        "code": "1751000175104",
+        "short": "breakfast",
+        "long": "Breakfast"
+      },
+      {
+        "code": "1761000175102",
+        "short": "lunch",
+        "long": "Lunch"
+      },
+      {
+        "code": "1771000175105",
+        "short": "eveningMeal",
+        "long": "Evening meal"
+      },
+      {
+        "code": "396142006",
+        "short": "bedtime",
+        "long": "Before bed"
+      }
+    ]
+  },
+  {
+    "category": "observable_entity",
+    "values": [
+      {
+        "code": "443911005",
+        "short": "HbA1cTest",
+        "long": "HbA1c test"
+      },
+      {
+        "code": "D0000020",
+        "short": "HbA1cTest01",
+        "long": "First HbA1c test"
+      },
+      {
+        "code": "D0000021",
+        "short": "HbA1cTest02",
+        "long": "Second HbA1c test"
+      },
+      {
+        "code": "D0000022",
+        "short": "HbA1cTest03",
+        "long": "Third HbA1c test"
+      },
+      {
+        "code": "D0000023",
+        "short": "HbA1cTest04",
+        "long": "Fourth HbA1c test"
+      },
+      {
+        "code": "997671000000106",
+        "short": "bloodGlucoseTest",
+        "long": "Blood glucose test"
+      },
+      {
+        "code": "113076002",
+        "short": "glucoseToleranceTest",
+        "long": "Glucose tolerance test"
+      }
+    ]
+  },
+  {
+    "category": "pregnancy_complications",
+    "values": [
+      {
+        "code": "48194001",
+        "short": "gestationalHypertension",
+        "long": "Gestational hypertension"
+      },
+      {
+        "code": "283380005",
+        "short": "perinealTrauma",
+        "long": "Perineal trauma"
+      },
+      {
+        "code": "178280004",
+        "short": "postpartumInfection",
+        "long": "Postpartum infection"
+      },
+      {
+        "code": "398254007",
+        "short": "preEclampsia",
+        "long": "Pre-eclampsia"
+      },
+      {
+        "code": "47821001",
+        "short": "postpartumHaemorrhage",
+        "long": "Postpartum haemorrhage"
+      }
+    ]
+  },
+  {
+    "category": "birth_outcome",
+    "values": [
+      {
+        "code": "45718005",
+        "short": "avd",
+        "long": "Vaginal Instrument Assisted"
+      },
+      {
+        "code": "48782003",
+        "short": "svd",
+        "long": "Vaginal Spontaneous"
+      },
+      {
+        "code": "177141003",
+        "short": "electiveCaesarean",
+        "long": "Elective Caesarian Section"
+      },
+      {
+        "code": "274130007",
+        "short": "emergencyCaesarean",
+        "long": "Emergency Caesarian Section"
+      },
+      {
+        "code": "D0000033",
+        "short": "na",
+        "long": "Not Applicable"
+      }
+    ]
+  },
+  {
+    "category": "outcome_for_baby",
+    "values": [
+      {
+        "code": "169826009",
+        "short": "alive",
+        "long": "Live birth"
+      },
+      {
+        "code": "237364002",
+        "short": "stillborn",
+        "long": "Still birth"
+      },
+      {
+        "code": "17369002",
+        "short": "miscarriage",
+        "long": "Miscarriage"
+      },
+      {
+        "code": "6251000119101",
+        "short": "top",
+        "long": "Termination of Pregnancy less than 24 weeks"
+      },
+      {
+        "code": "6261000119104",
+        "short": "topGt24",
+        "long": "Termination of Pregnancy equal to or greater than 24 weeks"
+      },
+      {
+        "code": "276506001",
+        "short": "neonatalDeath",
+        "long": "Neonatal Death"
+      },
+      {
+        "code": "34801009",
+        "short": "other",
+        "long": "Other including vanishing/papyraceous twin, or ectopic"
+      }
+    ]
+  },
+  {
+    "category": "neonatal_complications",
+    "values": [
+      {
+        "code": "D0000025",
+        "short": "neoNatalNone",
+        "long": "None"
+      },
+      {
+        "code": "52767006",
+        "short": "hypoglycemia",
+        "long": "Hypoglycemia"
+      },
+      {
+        "code": "281610001",
+        "short": "hyperbilirubinemia",
+        "long": "Hyperbilirubinemia"
+      },
+      {
+        "code": "D0000019",
+        "short": "neonatalOther",
+        "long": "Other"
+      },
+      {
+        "code": "199783004",
+        "short": "shoulderDystocia",
+        "long": "Shoulder dystocia"
+      },
+      {
+        "code": "125605004",
+        "short": "boneFracture",
+        "long": "Bone fracture"
+      },
+      {
+        "code": "D0000026",
+        "short": "nervePalsy",
+        "long": "Nerve palsy"
+      },
+      {
+        "code": "46775006",
+        "short": "respiratoryDistressSyndrome",
+        "long": "Respiratory distress syndrome"
+      }
+    ]
+  },
+  {
+    "category": "feeding_method",
+    "values": [
+      {
+        "code": "226789007",
+        "short": "breast",
+        "long": "Breast"
+      },
+      {
+        "code": "386127005",
+        "short": "artificial",
+        "long": "Artificial"
+      },
+      {
+        "code": "D0000006",
+        "short": "mixed",
+        "long": "Mixed"
+      }
+    ]
+  },
+  {
+    "category": "education_level",
+    "values": [
+      {
+        "code": "224297003",
+        "short": "oLevel",
+        "long": "High school / secondary qualification (e.g. GCSE / GED)"
+      },
+      {
+        "code": "722465008",
+        "short": "technical",
+        "long": "Technical or vocational training"
+      },
+      {
+        "code": "224302000",
+        "short": "further",
+        "long": "College or further education (e.g. A-level / Associate degree)"
+      },
+      {
+        "code": "426769009",
+        "short": "graduate",
+        "long": "Bachelors degree (e.g. BA, BSc)"
+      },
+      {
+        "code": "440344006",
+        "short": "postGrad",
+        "long": "Postgraduate degree and higher (e.g. Masters / Doctorate)"
+      },
+      {
+        "code": "365460000",
+        "short": "other",
+        "long": "Other"
+      }
+    ]
+  },
+  {
+    "category": "ethnicity",
+    "values": [
+      {
+        "code": "315236000",
+        "short": "whiteBritish",
+        "long": "British / American"
+      },
+      {
+        "code": "315237009",
+        "short": "whiteIrish",
+        "long": "Irish"
+      },
+      {
+        "code": "401214002",
+        "short": "whiteOther",
+        "long": "Other white background"
+      },
+      {
+        "code": "315634007",
+        "short": "mixedCaribbean",
+        "long": "White and Black Caribbean"
+      },
+      {
+        "code": "315635008",
+        "short": "mixedAfrican",
+        "long": "White and Black African"
+      },
+      {
+        "code": "92441000000109",
+        "short": "mixedAsian",
+        "long": "White and Asian"
+      },
+      {
+        "code": "186019001",
+        "short": "mixedOther",
+        "long": "Other mixed background"
+      },
+      {
+        "code": "414481008",
+        "short": "indian",
+        "long": "Indian"
+      },
+      {
+        "code": "186002003",
+        "short": "pakistani",
+        "long": "Pakistani"
+      },
+      {
+        "code": "186003008",
+        "short": "bangladeshi",
+        "long": "Bangladeshi"
+      },
+      {
+        "code": "315281001",
+        "short": "otherAsian",
+        "long": "Other Asian background"
+      },
+      {
+        "code": "185988007",
+        "short": "caribbean",
+        "long": "Caribbean"
+      },
+      {
+        "code": "18167009",
+        "short": "african",
+        "long": "African"
+      },
+      {
+        "code": "15086000",
+        "short": "blackAmerican",
+        "long": "Black or African American"
+      },
+      {
+        "code": "315279003",
+        "short": "otherBlack",
+        "long": "Other Black background"
+      },
+      {
+        "code": "33897005",
+        "short": "chinese",
+        "long": "Chinese"
+      },
+      {
+        "code": "414408004",
+        "short": "hispanicLatino",
+        "long": "Hispanic or Latino"
+      },
+      {
+        "code": "413490006",
+        "short": "americanNative",
+        "long": "American or Alaskan Native"
+      },
+      {
+        "code": "186023009",
+        "short": "other",
+        "long": "Any other ethnic group"
+      },
+      {
+        "code": "1024701000000100",
+        "short": "unknown",
+        "long": "Not stated"
+      }
+    ]
+  },
+  {
+    "category": "sex",
+    "values": [
+      {
+        "code": "248153007",
+        "short": "male",
+        "long": "Male"
+      },
+      {
+        "code": "248152002",
+        "short": "female",
+        "long": "Female"
+      },
+      {
+        "code": "32570681000036106",
+        "short": "indeterminate",
+        "long": "Indeterminate"
+      },
+      {
+        "code": "184115007",
+        "short": "unknown",
+        "long": "Unknown"
+      }
+    ]
+  },
+  {
+    "category": "closed_reason",
+    "values": [
+      {
+        "code": "289256000",
+        "short": "delivered",
+        "long": "Delivered"
+      },
+      {
+        "code": "59283008",
+        "short": "maternalDeath",
+        "long": "Maternal death"
+      },
+      {
+        "code": "D0000029",
+        "short": "movedOutOfArea",
+        "long": "Moved out of area"
+      },
+      {
+        "code": "D0000030",
+        "short": "movedOutOfCountry",
+        "long": "Moved out of country"
+      },
+      {
+        "code": "D0000035",
+        "short": "preGdmOnly",
+        "long": "Pre GDm only"
+      },
+      {
+        "code": "D0000028",
+        "short": "otherReason",
+        "long": "Other reason"
+      },
+      {
+        "code": "D0000031",
+        "short": "patientWithdrewConsent",
+        "long": "Patient withdrew consent"
+      },
+      {
+        "code": "D0000034",
+        "short": "patientCreatedInError",
+        "long": "Patient created in error"
+      }
+    ]
+  },
+  {
+    "category": "skip_closed_reason",
+    "values": [
+      {
+        "code": "59283008",
+        "short": "maternalDeath",
+        "long": "Maternal death"
+      },
+      {
+        "code": "D0000029",
+        "short": "movedOutOfArea",
+        "long": "Moved out of area"
+      },
+      {
+        "code": "D0000030",
+        "short": "movedOutOfCountry",
+        "long": "Moved out of country"
+      },
+      {
+        "code": "D0000028",
+        "short": "otherReason",
+        "long": "Other reason"
+      },
+      {
+        "code": "D0000031",
+        "short": "patientWithdrewConsent",
+        "long": "Patient withdrew consent"
+      },
+      {
+        "code": "D0000034",
+        "short": "patientCreatedInError",
+        "long": "Patient created in error"
+      },
+      {
+        "code": "D0000035",
+        "short": "preGdmOnly",
+        "long": "Pre GDm only"
+      }
+    ]
+  },
+  {
+    "category": "risk_factor",
+    "values": [
+      {
+        "code": "199228009",
+        "short": "previousGdm",
+        "long": "Previous gestational diabetes"
+      },
+      {
+        "code": "162864005",
+        "short": "bmi",
+        "long": "BMI > 30"
+      },
+      {
+        "code": "416855002",
+        "short": "relative",
+        "long": "1st degree relative with diabetes"
+      },
+      {
+        "code": "38206000",
+        "short": "previousBaby",
+        "long": "Previous baby > 4.5kg"
+      },
+      {
+        "code": "398089004",
+        "short": "ethnicity",
+        "long": "Ethnicity"
+      },
+      {
+        "code": "86203003",
+        "short": "polyhydramnios",
+        "long": "Polyhydramnios"
+      },
+      {
+        "code": "45154002",
+        "short": "glycosuria",
+        "long": "Glycosuria"
+      },
+      {
+        "code": "D00000032",
+        "short": "macrosomia",
+        "long": "Macrosomia"
+      },
+      {
+        "code": "D0000004",
+        "short": "missedGtt",
+        "long": "Missed GTT"
+      },
+      {
+        "code": "D0000005",
+        "short": "noGtt",
+        "long": "Unable to have GTT"
+      },
+      {
+        "code": "69878008",
+        "short": "polycysticOvaries",
+        "long": "Polycystic ovaries"
+      },
+      {
+        "code": "38341003",
+        "short": "hypertensiveDisorder",
+        "long": "Hypertensive disorder"
+      }
+    ]
+  },
+  {
+    "category": "diagnosis_tool",
+    "values": [
+      {
+        "code": "D0000011",
+        "short": "nice20080hr",
+        "long": "NICE 2008 0hr"
+      },
+      {
+        "code": "D0000012",
+        "short": "nice20092hr",
+        "long": "NICE 2009 2hr"
+      },
+      {
+        "code": "D0000013",
+        "short": "nice20150hr",
+        "long": "NICE 2015 0hr"
+      },
+      {
+        "code": "D0000014",
+        "short": "nice20152hr",
+        "long": "NICE 2015 2hr"
+      },
+      {
+        "code": "D0000015",
+        "short": "iadpsg20100hr",
+        "long": "IADPSG 2010 0hr"
+      },
+      {
+        "code": "D0000016",
+        "short": "iadpsg20101hr",
+        "long": "IADPSG 2010 1hr"
+      },
+      {
+        "code": "D0000017",
+        "short": "iadpsg20102hr",
+        "long": "IADPSG 2010 2hr"
+      },
+      {
+        "code": "D0000030",
+        "short": "ownGtt",
+        "long": "Hospital own GTT"
+      },
+      {
+        "code": "D0000018",
+        "short": "other",
+        "long": "Other"
+      }
+    ]
+  },
+  {
+    "category": "delivery_location",
+    "values": [
+      {
+        "code": "D0000009",
+        "short": "hospital",
+        "long": "Hospital"
+      },
+      {
+        "code": "310586008",
+        "short": "home",
+        "long": "Home"
+      },
+      {
+        "code": "D0000010",
+        "short": "other",
+        "long": "Other"
+      }
+    ]
+  },
+  {
+    "category": "location",
+    "values": [
+      {
+        "code": "22232009",
+        "short": "hospital",
+        "long": "Hospital"
+      },
+      {
+        "code": "D0000009",
+        "short": "clinic",
+        "long": "GDM clinic"
+      },
+      {
+        "code": "225746001",
+        "short": "ward",
+        "long": "Ward"
+      },
+      {
+        "code": "225730009",
+        "short": "bay",
+        "long": "Bay"
+      },
+      {
+        "code": "229772003",
+        "short": "bed",
+        "long": "Bed"
+      },
+      {
+        "code": "723231000000104",
+        "short": "organisation",
+        "long": "Organisation"
+      }
+    ]
+  },
+  {
+    "category": "published_messages",
+    "values": [
+      {
+        "code": "DM000001",
+        "short": "na",
+        "long": "HL7 processing message"
+      },
+      {
+        "code": "DM000002",
+        "short": "na",
+        "long": "Check for orphaned observations"
+      },
+      {
+        "code": "DM000003",
+        "short": "na",
+        "long": "Merge orphaned observations"
+      },
+      {
+        "code": "DM000004",
+        "short": "na",
+        "long": "Observation set updated"
+      },
+      {
+        "code": "DM000005",
+        "short": "na",
+        "long": "Observation set with encounter"
+      },
+      {
+        "code": "DM000006",
+        "short": "na",
+        "long": "Process Observation Set"
+      },
+      {
+        "code": "DM000007",
+        "short": "na",
+        "long": "Encounter Updated"
+      },
+      {
+        "code": "DM000008",
+        "short": "na",
+        "long": "Aggregated Send Data"
+      },
+      {
+        "code": "DM000009",
+        "short": "na",
+        "long": "Process HL7 message request"
+      },
+      {
+        "code": "DM000010",
+        "short": "na",
+        "long": "SEND ward reports request"
+      },
+      {
+        "code": "DM000011",
+        "short": "na",
+        "long": "SEND ward report for location request"
+      },
+      {
+        "code": "DM000012",
+        "short": "na",
+        "long": "SEND ward report aggregated data"
+      },
+      {
+        "code": "DM000013",
+        "short": "na",
+        "long": "GDM message status counts"
+      },
+      {
+        "code": "DM000014",
+        "short": "na",
+        "long": "GDM message clinician logins counts"
+      },
+      {
+        "code": "DM000015",
+        "short": "na",
+        "long": "Seven days of bg readings per patient"
+      },
+      {
+        "code": "423779001",
+        "short": "na",
+        "long": "Continuity of care management"
+      }
+    ]
+  },
+  {
+    "category": "observation_type",
+    "values": [
+      {
+        "code": "248241002",
+        "short": "consciousnessGcs",
+        "long": "Consciousness GCS"
+      },
+      {
+        "code": "431314004",
+        "short": "spo2",
+        "long": "SPO2"
+      },
+      {
+        "code": "444433005",
+        "short": "nurseConcern",
+        "long": "Nurse concern"
+      },
+      {
+        "code": "859161000000101",
+        "short": "consciousnessAcvpu",
+        "long": "Consciousness ACVPU"
+      },
+      {
+        "code": "16206004",
+        "short": "o2Therapy",
+        "long": "O2 therapy status"
+      },
+      {
+        "code": "86290005",
+        "short": "respiratoryRate",
+        "long": "Respiratory rate"
+      },
+      {
+        "code": "364075005",
+        "short": "heartRate",
+        "long": "Heart rate"
+      },
+      {
+        "code": "271649006",
+        "short": "systolicBp",
+        "long": "Systolic blood pressure"
+      },
+      {
+        "code": "271650006",
+        "short": "diastolicBp",
+        "long": "Diastolic blood pressure"
+      },
+      {
+        "code": "703421000",
+        "short": "temperature",
+        "long": "Temperature"
+      }
+    ]
+  },
+  {
+    "category": "medications",
+    "values": [
+      {
+        "code": "9489901000001108",
+        "short": "humalogMix25",
+        "long": "Humalog Mix25"
+      },
+      {
+        "code": "9512801000001102",
+        "short": "humalogMix50",
+        "long": "Humalog Mix50"
+      },
+      {
+        "code": "9530701000001100",
+        "short": "humulinM3",
+        "long": "Humulin M3"
+      },
+      {
+        "code": "9483001000001106",
+        "short": "novomix30",
+        "long": "Novomix 30"
+      },
+      {
+        "code": "9450101000001108",
+        "short": "humulinI",
+        "long": "Humulin I"
+      },
+      {
+        "code": "9484401000001103",
+        "short": "insulatard",
+        "long": "Insulatard"
+      },
+      {
+        "code": "9196601000001105",
+        "short": "actrapid",
+        "long": "Actrapid"
+      },
+      {
+        "code": "9530801000001109",
+        "short": "humulinS",
+        "long": "Humulin S"
+      },
+      {
+        "code": "9518101000001108",
+        "short": "novoRapid",
+        "long": "NovoRapid"
+      },
+      {
+        "code": "13017301000001108",
+        "short": "fiasp",
+        "long": "Fiasp"
+      },
+      {
+        "code": "11706801000001105",
+        "short": "tresiba",
+        "long": "Tresiba"
+      },
+      {
+        "code": "D0000040",
+        "short": "admelog",
+        "long": "Admelog"
+      },
+      {
+        "code": "9211101000001108",
+        "short": "apidra",
+        "long": "Apidra"
+      },
+      {
+        "code": "D0000041",
+        "short": "basaglar",
+        "long": "Basaglar"
+      },
+      {
+        "code": "D0000042",
+        "short": "diabeta",
+        "long": "Diabeta"
+      },
+      {
+        "code": "D0000043",
+        "short": "fortamet",
+        "long": "Fortamet"
+      },
+      {
+        "code": "D0000044",
+        "short": "glucophage",
+        "long": "Glucophage"
+      },
+      {
+        "code": "D0000045",
+        "short": "glyburide",
+        "long": "Glyburide"
+      },
+      {
+        "code": "D0000046",
+        "short": "glynase",
+        "long": "Glynase"
+      },
+      {
+        "code": "D0000048",
+        "short": "humulin",
+        "long": "Humulin"
+      },
+      {
+        "code": "D0000049",
+        "short": "humulinR",
+        "long": "Humulin R"
+      },
+      {
+        "code": "D0000050",
+        "short": "novolin",
+        "long": "Novolin"
+      },
+      {
+        "code": "D00000451",
+        "short": "novolinR",
+        "long": "Novolin R"
+      },
+      {
+        "code": "D0000052",
+        "short": "novoLog",
+        "long": "NovoLog"
+      },
+      {
+        "code": "9538601000001108",
+        "short": "humalog",
+        "long": "Humalog"
+      },
+      {
+        "code": "12759201000001105",
+        "short": "lantus",
+        "long": "Lantus"
+      },
+      {
+        "code": "9520901000001101",
+        "short": "levemir",
+        "long": "Levemir"
+      },
+      {
+        "code": "109081006",
+        "short": "metformin",
+        "long": "Metformin"
+      }
+    ]
+  },
+  {
+    "category": "blood_glucose_reading_plan",
+    "values": [
+      {
+        "code": "33747003",
+        "short": "bloodGlucose",
+        "long": "Glucose measurement from blood"
+      }
+    ]
+  },
+  {
+    "category": "conditions",
+    "values": [
+      {
+        "code": "73211009",
+        "short": "diabetes",
+        "long": "Diabetes"
+      }
+    ]
+  }
+]
