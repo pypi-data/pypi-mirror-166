@@ -1,0 +1,16 @@
+bz3/__init__.py,sha256=2Ubc6b0vu1CWDQmSAW7I6R6Mo6GdjlFwrQ4fixNQv4A,212
+bz3/bz3.py,sha256=TmyH2jHhjbCNJ3exOcNNiYm32LmnPEYnBuG47tCHgpY,10518
+bz3/compression.py,sha256=FsVLavgooiGQwUUEY1yVx1HUKnZj35zTkKx1Jb8TV-0,5366
+bz3/backends/__init__.py,sha256=mgzfS7-GOzzZz8hZ_-I3I-OLBCZkCnsgT7VyTUQMmxU,673
+bz3/backends/cffi/__init__.py,sha256=56fG4L1EPY_WfeokF28TT9l7FObSNUkaDMsRn25pTv0,14546
+bz3/backends/cffi/_bz3_cffi.abi3.so,sha256=sTpyfoF4IcqDm7vNKjaBG-LSpl-2R_C0V5zyMVDKtGo,119416
+bz3/backends/cffi/build.py,sha256=I1mxPCm0k7cm3GkgSasrxF2HLbqF2uzeoZz1HMY-g5w,3406
+bz3/backends/cython/__init__.py,sha256=7j7kHmV4TQZSl34TaGYe4JTGovMd86g4HC5HG9GPZQM,205
+bz3/backends/cython/_bz3_cy.c,sha256=1hmAWsirzo7uzxC0XUMw6Ttxf_8qmMjHOPh2LgaceqI,1068946
+bz3/backends/cython/_bz3_cy.cpython-39-darwin.so,sha256=oiS-YLDYS6MPNqlsgJ_6s2Jd7qJzntE1iagi4GwcBNU,266544
+bz3/backends/cython/_bz3_cy.pyx,sha256=2h1LPdd5GBTlvpdzcm4jtLo_OtacBhOo9L3LTWXRMEE,15659
+bz3/backends/cython/bzip3.pxd,sha256=U74FTucliGeY8GAE6e3oiGmnpCNlFs65zpdmWeoP0kE,1399
+bzip3-0.0.6.dist-info/METADATA,sha256=QSVjCmrwwcHS-J8AgetKwjZig5GP0oUZ3h33yQAhu-w,3510
+bzip3-0.0.6.dist-info/WHEEL,sha256=1aIKcOiZwCaey2y-OH_J-W7IhsRHMsIvvidnI8v_CqQ,110
+bzip3-0.0.6.dist-info/top_level.txt,sha256=ko8So6pdpxW18e5QcjoL-fwOc9ePcBemwRlxqS15Mto,4
+bzip3-0.0.6.dist-info/RECORD,,
