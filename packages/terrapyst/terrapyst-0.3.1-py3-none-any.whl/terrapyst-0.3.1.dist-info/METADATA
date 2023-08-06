@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: terrapyst
+Version: 0.3.1
+Summary: My package description
+License: MIT
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: glom ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+
+# terrapyst
+
+A Python Library that wraps around the Terraform CLI.
