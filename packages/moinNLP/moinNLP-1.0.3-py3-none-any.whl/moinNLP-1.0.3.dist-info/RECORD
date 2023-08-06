@@ -1,0 +1,10 @@
+moinNLP/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moinNLP/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moinNLP/utils/zh_num2int.py,sha256=SBpidFrFtEZ0lolg-rgooPO9D4Y1SAYXUbfuBc3ZDRs,3982
+moinNLP/utils/repetition/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+moinNLP/utils/repetition/repetition.py,sha256=x1q0yLUgoFaM69ozy3OaWqOMSd06c3INcxogQ_3s6vM,2578
+moinNLP/utils/repetition/white.txt,sha256=K2arYtDII_GYrHQOdATdt0N1hN7HRxyGSk91c9Xv9Nc,209
+moinNLP-1.0.3.dist-info/METADATA,sha256=rEJAzQbmz3JLNsyvLmMRv862yF8HyJNdxjuZni8SvVc,214
+moinNLP-1.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+moinNLP-1.0.3.dist-info/top_level.txt,sha256=qQSrTn_s4rq3GNGfDemqbtRmEHI4GJBNU0h-7oDZmFw,8
+moinNLP-1.0.3.dist-info/RECORD,,
