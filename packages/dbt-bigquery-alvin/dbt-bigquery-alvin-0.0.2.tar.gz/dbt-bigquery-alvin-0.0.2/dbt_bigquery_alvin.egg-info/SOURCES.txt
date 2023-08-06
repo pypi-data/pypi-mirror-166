@@ -1,0 +1,7 @@
+setup.py
+dbt/adapters/bigquery/__init__.py
+dbt_bigquery_alvin.egg-info/PKG-INFO
+dbt_bigquery_alvin.egg-info/SOURCES.txt
+dbt_bigquery_alvin.egg-info/dependency_links.txt
+dbt_bigquery_alvin.egg-info/requires.txt
+dbt_bigquery_alvin.egg-info/top_level.txt

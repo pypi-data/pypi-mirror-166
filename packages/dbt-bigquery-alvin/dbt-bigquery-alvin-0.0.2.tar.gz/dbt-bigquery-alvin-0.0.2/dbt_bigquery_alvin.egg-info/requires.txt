@@ -1,0 +1,1 @@
+alvin-integration[dbt]>=0.15.14

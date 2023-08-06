@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dbt-bigquery-alvin
+Version: 0.0.2
+Summary: The alvinadapter bigquery adapter plugin for dbt
+Home-page: http://alvin.ai
+Author: Alvin
+Author-email: tech@alvin.ai
+
+The alvinadapter bigquery adapter plugin for dbt
