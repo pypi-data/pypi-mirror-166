@@ -1,0 +1,78 @@
+#
+# Copyright © 2022 Peter M. Stahl pemistahl@gmail.com
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either expressed or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+[tool.poetry]
+name = "lingua-language-detector"
+version = "1.1.2"
+description = "An accurate natural language detection library, suitable for long and short text alike"
+authors = ["Peter M. Stahl <pemistahl@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://pemistahl.github.io/lingua-py"
+repository = "https://github.com/pemistahl/lingua-py"
+packages = [
+    { include = "lingua" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.23.2"
+regex = "^2022.8.17"
+fasttext = { version = "^0.9.2", optional = true }
+langdetect = { version = "^1.0.9", optional = true }
+langid = { version = "^1.1.6", optional = true }
+gcld3 = { version = "^3.0.13", optional = true }
+pycld2 = { version = "^0.41", optional = true }
+pandas = { version = "^1.4.3", optional = true }
+matplotlib = { version = "^3.5.3", optional = true }
+seaborn = { version = "^0.11.2", optional = true }
+pdoc3 = { version = "^0.10.0", optional = true }
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.971"
+pytest = "^7.1"
+black = "^22.8"
+coverage = "^6.4"
+psutil = "^5.9.2"
+scalene = "^1.5.10"
+
+[tool.poetry.extras]
+fasttext = ["fasttext"]
+langdetect = ["langdetect"]
+langid = ["langid"]
+gcld3 = ["gcld3"]
+pycld2 = ["pycld2"]
+pandas = ["pandas"]
+matplotlib = ["matplotlib"]
+seaborn = ["seaborn"]
+pdoc3 = ["pdoc3"]
+
+[tool.mypy]
+files = ["lingua", "scripts", "tests"]
+ignore_missing_imports = true
+pretty = true
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules --ignore=scripts"
+
+[tool.coverage.run]
+source = ["lingua"]
+
+[tool.black]
+include = '(lingua|scripts|tests)/.*\.py'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
