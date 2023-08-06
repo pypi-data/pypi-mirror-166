@@ -1,0 +1,14 @@
+query ($machine: String!, $key: String!) {
+  searchNotes(machine: $machine, key: $key) {
+    id
+    machine
+    keep
+    published
+    notes
+    submitted
+    completed
+    packagesBuilt {
+      cpv
+    }
+  }
+}

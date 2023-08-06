@@ -1,0 +1,28 @@
+{
+   "data" : {
+      "diff" : {
+         "items" : [
+            {
+               "item" : "app-misc/tracker-miners-3.1.2-4",
+               "status" : "REMOVED"
+            },
+            {
+               "item" : "app-misc/tracker-miners-3.1.3-1",
+               "status" : "ADDED"
+            }
+         ],
+         "left" : {
+            "id": "lighthouse.311",
+            "machine" : "lighthouse",
+            "built" : "2021-10-02T16:31:48.478864+00:00",
+            "submitted" : "2021-10-02T16:32:48.478864+00:00"
+         },
+         "right" : {
+            "id" : "lighthouse.3112",
+            "machine": "lighthouse",
+            "built" : "2021-10-02T18:23:43.006780+00:00",
+            "submitted" : "2021-10-02T18:24:43.006780+00:00"
+         }
+      }
+   }
+}
