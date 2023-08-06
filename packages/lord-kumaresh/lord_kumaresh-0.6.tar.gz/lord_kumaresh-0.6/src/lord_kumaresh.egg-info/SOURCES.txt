@@ -1,0 +1,10 @@
+LICENCE
+README.txt
+setup.py
+src/lord_kumaresh/__init__.py
+src/lord_kumaresh/exe.py
+src/lord_kumaresh.egg-info/PKG-INFO
+src/lord_kumaresh.egg-info/SOURCES.txt
+src/lord_kumaresh.egg-info/dependency_links.txt
+src/lord_kumaresh.egg-info/requires.txt
+src/lord_kumaresh.egg-info/top_level.txt
