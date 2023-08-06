@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+remotemanager/__init__.py
+remotemanager.egg-info/PKG-INFO
+remotemanager.egg-info/SOURCES.txt
+remotemanager.egg-info/dependency_links.txt
+remotemanager.egg-info/requires.txt
+remotemanager.egg-info/top_level.txt
