@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: sendtomail
+Version: 0.0.3
+Summary: Free SMTP email sender using virtual email address.
+Author: MishaKorzhik_He1Zen
+Author-email: developer.mishakorzhik@gmail.com
+License: Apache 2.0
+Keywords: smtp,pip,pypi,email,virtual,send,server,sender,emails,email address,imap,pop3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+
+## Usage
+
+#### Send free message to email, without your email!
+
+```python
+# Send free message to email, debug OFF
+>>> from sendtomail import *
+>>> server.send("he1zen@null.net", "hello, its a test message!")
+b'200'
+>>>
+
+# Send free message to email, debug ON
+>>> from sendtomail import *
+>>> server.send("he1zen@null.net", "hello, its a test message!")
+[3%] Debug mode ON
+[7%] Using urllib3
+[11%] Starting to get URL
+[20%] Getting json from URL
+[40%] URL json data decode
+[60%] Server IP 18.189.106.45
+[80%] Server connected!
+[100%] Data send to server
+b'200'
+>>>
+
+```
