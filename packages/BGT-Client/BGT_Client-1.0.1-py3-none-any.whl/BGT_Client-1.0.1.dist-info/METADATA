@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: BGT-Client
+Version: 1.0.1
+Summary: This package provides a client for the BGT transaction family
+Home-page: https://github.com/Mishark-dev/DGT-Client
+Author: Misha Khvatov
+Author-email: misha.khvatov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: cbor
+Requires-Dist: configparser
+Requires-Dist: cryptography
+Requires-Dist: ipaddress
+Requires-Dist: protobuf (==3.20)
+Requires-Dist: requests
+Requires-Dist: secp256k1
+
+UNKNOWN
+
+
