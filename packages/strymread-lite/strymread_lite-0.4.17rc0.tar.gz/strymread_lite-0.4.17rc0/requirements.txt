@@ -1,0 +1,8 @@
+pandas
+setuptools
+setuptools_scm
+importlib-resources
+importlib_metadata
+numpy
+cantools>=32.20.1
+vin_parser
