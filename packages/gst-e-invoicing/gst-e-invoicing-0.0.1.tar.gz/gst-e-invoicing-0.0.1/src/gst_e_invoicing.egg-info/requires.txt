@@ -1,0 +1,14 @@
+python-dotenv
+requests
+cryptography
+PyJWT
+qrcode
+Pillow
+
+[dev]
+flake8
+black
+ipdb
+bumpver
+build
+twine
