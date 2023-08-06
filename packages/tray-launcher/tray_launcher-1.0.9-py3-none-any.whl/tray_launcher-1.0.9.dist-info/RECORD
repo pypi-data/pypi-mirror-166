@@ -1,0 +1,15 @@
+tray_launcher/__init__.py,sha256=5fdKqtSBBDvdwuTWCGoh62x6-wR269e8DEQnOPkCHWg,23
+tray_launcher/child_script.py,sha256=vaIYl7RKnY4EToPHRKB0fZPxZRNdYMMSE2ZEQW9jDhw,4531
+tray_launcher/child_script_manager.py,sha256=6--GnXqIkR5K9hmNYoo1xe7FebBwy8LCqRvmoiAQErw,3333
+tray_launcher/cli.py,sha256=A8rNkBdJqoUhxFKcxj24e0ZGzxKUNfgaPIb8KeGxCS4,10662
+tray_launcher/gui.py,sha256=T4QgBnBBkCTbuUcPQC-1n4krpdNO6apkueawVNV2YDA,20460
+tray_launcher/launcher_parser.py,sha256=7YkAJBOpgqXuusJDJ2_VnpDvQdSF1Evmf36iMLPQ2L8,4346
+tray_launcher/tray_launcher_client.py,sha256=k-Y-lwibXpuo2KcVT9tivdTwf5U8XENy7QygeNyN-NY,2638
+tray_launcher/icons/check_mark.png,sha256=dk-9JlnybkvvOF6FvhqOneJzmHphwslnJ82yJY6uHKU,34306
+tray_launcher/icons/tray_icon.png,sha256=eibpTxthx2372CK02SbG1Xeym6GUfqu0q8zky0bhIC8,1251
+tray_launcher-1.0.9.dist-info/LICENSE,sha256=VCK-z4lch6pYTROnz0C66kguGE7s3-zJ3WbNqEsTG7c,1088
+tray_launcher-1.0.9.dist-info/METADATA,sha256=V2wei0-9IUFttHKFBbDaSdexlqugDGS3NPoqTopMNTU,3359
+tray_launcher-1.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tray_launcher-1.0.9.dist-info/entry_points.txt,sha256=5_MRdhn3AmH3oogoLnUuDEGdJ8hZWrca8UeCBJt7bNk,64
+tray_launcher-1.0.9.dist-info/top_level.txt,sha256=3iA7ZDho6AC-LzRLCz5ztoqUhM3eizuFx2E1LAI3M2c,14
+tray_launcher-1.0.9.dist-info/RECORD,,
