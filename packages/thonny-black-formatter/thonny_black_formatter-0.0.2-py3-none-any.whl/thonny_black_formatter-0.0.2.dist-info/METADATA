@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: thonny-black-formatter
+Version: 0.0.2
+Summary: Read the latest Real Python tutorials
+Author-email: Ettore Galli <ettore.galli@nospamplease.com>
+License: MIT License        
+        Copyright (c) 2022 Ettore Galli        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.        
+Project-URL: Homepage, https://github.com/ettore-galli/thonny-black-formatter
+Keywords: thonny,black,formatter
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: black
+Provides-Extra: dev
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: thonny ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+
+# thonny-black-formatter
+Thonny plugin for source formatting with black (Thonny >= 4.x)
+
+This plugin enables formatting with black tool inside Thonny python editor.
+## History and rationale
+
+Originally there was this plugin available:
+
+https://pypi.org/project/thonny-black-format/
+
+From Thonny release 4.0.0 the plugin stopped working and has been found in an abandoned project state (dead github project home page link) but still installable from PyPI repository.
+
+This is an adptation built from the sources installes and modified in order to make it work for Thonny release 4.0.0 and - hopefully - subsequent.
+
+## Credits
+
+All credits go to the author "Franccisco" of the original plugin.
+
+All information available to me related to the original plugin is in the following two links.
+
+Github repo: https://github.com/Franccisco/thonny-black-code-format [dead link]
+Docs: https://pypi.org/project/thonny-black-format/
+
+## How the plugin works
+
+### Install the plugin
+
+The plugin must be installed using the Thonny menu:
+
+```Tools -> Manage plug-ins... ```
+ 
+### Format your code
+
+The plugin adds the following menu entry:
+
+```Tools -> Format with black... ```
+
+Use this command to format the current source being edited in the active window.
+
+
+
+
