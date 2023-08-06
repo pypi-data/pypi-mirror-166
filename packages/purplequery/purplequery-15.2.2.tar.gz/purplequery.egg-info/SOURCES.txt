@@ -1,0 +1,6 @@
+setup.py
+vitaminpy/__init__.py
+vitaminpy.egg-info/PKG-INFO
+vitaminpy.egg-info/SOURCES.txt
+vitaminpy.egg-info/dependency_links.txt
+vitaminpy-info/top_level.txt
