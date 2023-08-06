@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+boxdist/__init__.py
+boxdist/__init__.pyi
+boxdist/geodetic.c
+boxdist/geodetic.pyx
+boxdist/planar.c
+boxdist/planar.pyx
+boxdist/py.typed
+boxdist.egg-info/PKG-INFO
+boxdist.egg-info/SOURCES.txt
+boxdist.egg-info/dependency_links.txt
+boxdist.egg-info/requires.txt
+boxdist.egg-info/top_level.txt

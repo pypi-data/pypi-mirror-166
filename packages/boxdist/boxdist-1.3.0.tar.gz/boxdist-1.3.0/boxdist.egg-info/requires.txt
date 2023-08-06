@@ -1,0 +1,5 @@
+
+[tests]
+haversine
+geojson
+mypy
