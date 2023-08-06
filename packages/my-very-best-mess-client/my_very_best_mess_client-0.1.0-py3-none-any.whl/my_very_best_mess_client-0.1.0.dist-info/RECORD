@@ -1,0 +1,12 @@
+client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+client/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+client/common/decos.py,sha256=pfvXTkFTJINIHW7Y5Gh2KQmNMcoc16oWHUE-BnlchnQ,3057
+client/common/descriptors.py,sha256=m_fsPXVEyqGwg03El5FdI9kF7u5nSlfOXa5-zRNrHsQ,950
+client/common/errors.py,sha256=B6jH57FDbhXWPsyDQ5Se_vDLmvQKf5QGJ0ClkOkDOkk,592
+client/common/metaclasses.py,sha256=C1jqTJr-LRyqlvzOaZEqniwwwCoUi-GotBl-hkYB7Q8,3777
+client/common/utils.py,sha256=M9T9Wh0I1BEOpRC_52WK9sJxviuOpsKueq1DgP5W6iw,767
+client/common/variables.py,sha256=AQl_ypFKeJ7ZeM5BPajZqxZG4Uv9l26IJgnZ--xrc_c,1379
+my_very_best_mess_client-0.1.0.dist-info/METADATA,sha256=ogO_idfN_O3CDSoDEBG6O1greDhhrx1w3yp4lI15sm4,321
+my_very_best_mess_client-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+my_very_best_mess_client-0.1.0.dist-info/top_level.txt,sha256=DJiuN0ty6vOMYewH87cxtQ0LWVaJpE0bZ1Blm0e3RCE,7
+my_very_best_mess_client-0.1.0.dist-info/RECORD,,
