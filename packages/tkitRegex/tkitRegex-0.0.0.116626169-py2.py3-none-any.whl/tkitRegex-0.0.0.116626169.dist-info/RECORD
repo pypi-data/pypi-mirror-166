@@ -1,0 +1,11 @@
+tkitRegex/__init__.py,sha256=aXFFmMSqEwaa9Y56YhLOFjhJ2h9qFCFZxH_slCJicQA,281
+tkitRegex/email.py,sha256=2z5eiprSNbcWoGy7Laq37HqfPv8tN52tYdfRiONHZVQ,677
+tkitRegex/re_scan.py,sha256=R5qWWJ3yI5yD_IDYzwgGTZAKkpTCdBZsalqaORQKFjc,3874
+tkitRegex/regex_dict.py,sha256=d3Rcs95wuEKhBIJe7wKGDor08DxZ9mgw-7lBeJSa2rc,11644
+tkitRegex/regex_plus.py,sha256=khO4mXEVTny_Jsw45hVYvpFXBNFE4xRpegnS2wL8GFI,6359
+tkitRegex/spam.py,sha256=rZ8fq-LQyf-DxYF-YIm35mskaGN2oTlQGgyoorYzuCk,1079
+tkitRegex-0.0.0.116626169.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tkitRegex-0.0.0.116626169.dist-info/METADATA,sha256=Q86UowJooPHgiAlo2gdYQBn9LlHXv6x5uYTxogpbPxY,1266
+tkitRegex-0.0.0.116626169.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+tkitRegex-0.0.0.116626169.dist-info/top_level.txt,sha256=Mz5UEpb5NecHkaHVdfkJASCL-3XIkfrGfdtzEQAy-64,10
+tkitRegex-0.0.0.116626169.dist-info/RECORD,,
