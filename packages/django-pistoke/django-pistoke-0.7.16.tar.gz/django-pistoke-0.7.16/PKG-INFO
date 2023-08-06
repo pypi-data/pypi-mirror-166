@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: django-pistoke
+Version: 0.7.16
+Summary: Django-Websocket-laajennos
+Home-page: https://github.com/an7oine/django-pistoke.git
+Author: Antti Hautaniemi
+Author-email: antti.hautaniemi@pispalanit.fi
+License: MIT
+Provides-Extra: runserver
