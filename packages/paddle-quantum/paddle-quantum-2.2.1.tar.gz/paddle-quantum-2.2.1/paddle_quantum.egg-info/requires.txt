@@ -1,0 +1,14 @@
+paddlepaddle<=2.3.0
+scipy>=1.8.1
+protobuf<=3.20.1
+networkx>=2.5
+qcompute
+matplotlib>=3.3.0
+tqdm
+openfermion
+opencv-python
+scikit-learn
+fastdtw
+
+[:platform_system == "Linux" or platform_system == "Darwin"]
+pyscf
