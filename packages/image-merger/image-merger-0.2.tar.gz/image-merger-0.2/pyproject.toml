@@ -1,0 +1,19 @@
+[project]
+name = "image-merger"
+version = "0.2"
+authors = [
+  { name="Gaetan GOUZI", email="gouzi.gaetan@gmail.com" },
+]
+description = "A small Python library to merge images easily"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ggouzi/image-merger"
+"Bug Tracker" = "https://github.com/ggouzi/image-merger/issues"
