@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/aicaliber/__init__.py
+src/aicaliber.egg-info/PKG-INFO
+src/aicaliber.egg-info/SOURCES.txt
+src/aicaliber.egg-info/dependency_links.txt
+src/aicaliber.egg-info/requires.txt
+src/aicaliber.egg-info/top_level.txt
+src/aicaliber/tensorflow/__init__.py
+src/aicaliber/tensorflow/cv/__init__.py
+src/aicaliber/tensorflow/cv/callbacks.py
+src/aicaliber/tensorflow/cv/common.py
+src/aicaliber/tensorflow/cv/data_management.py
+src/aicaliber/tensorflow/cv/model.py
+src/aicaliber/tensorflow/cv/model_zoo.py
