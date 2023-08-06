@@ -1,0 +1,14 @@
+metricspaces/R1.py,sha256=Qos_JFuMSHF8ua7ozMeRkUbGIyUgI6uOSBXzFsCEHeU,240
+metricspaces/__init__.py,sha256=N1JWvT1bzqo5TOges9kfU48EzWtYnRwcIXXADZIv5XU,129
+metricspaces/cli.py,sha256=E9lQdKHft9zcosGiDJjBFB29wUHv4AByjqWkvIH2BZ4,172
+metricspaces/decorators.py,sha256=9Lno5Q9h0YkzEd4osPPm57TVhPiv6ODGTZZi9W7Tl7U,286
+metricspaces/mds.py,sha256=ISRZsLZLMbRLHMfPmiSoT1UBn_liSgxE6tUlYGHbOcs,1877
+metricspaces/metricspace.py,sha256=AxpugerMcZc9SaUnleTAczsPYUIYjYL5UF1W18TCv74,5384
+metricspaces/np_point.py,sha256=hu-3or5G-uU2pIdEHoEjTXQbijfP75njKR600BUeKcU,406
+metricspaces/numpypoint.py,sha256=38UhFsoqSac_L3BnmwhDLCOEoceGyOm8i_oOyXlsyhg,827
+metricspaces/quotientspace.py,sha256=mJH0r_jrVcMYjpjnneBuPpB0sBwbQiZv70bbyi_oz2k,668
+metricspaces-0.4.0.dist-info/LICENSE,sha256=bBb5Spz5vFD_ZiMhXJR4Ucqm3t13Kb1_lEuN91aNQuY,1067
+metricspaces-0.4.0.dist-info/METADATA,sha256=Mwm7KYMinJLJMtMynEhenWHoA-BfanuUNyMv_MT6PcY,689
+metricspaces-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+metricspaces-0.4.0.dist-info/top_level.txt,sha256=Ww702KQS7uHUCmLKQaNjDY1Yb_bLQM5QvadbX8SxnxA,13
+metricspaces-0.4.0.dist-info/RECORD,,
