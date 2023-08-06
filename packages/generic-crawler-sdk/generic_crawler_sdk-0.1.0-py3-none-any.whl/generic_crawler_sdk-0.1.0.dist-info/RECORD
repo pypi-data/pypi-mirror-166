@@ -1,0 +1,10 @@
+generic_crawler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generic_crawler/actions.py,sha256=CnVqO0TGjYUT4c-A5z0bpZaTDnc-T99H_vT10BsHAEY,1834
+generic_crawler/config.py,sha256=FOtj8_L8cz4Cj_IvdMHxYg9pxLOx9zwUB4dJXo66Mm0,303
+generic_crawler/core.py,sha256=GUE1o8Fzh4QE2X821qhFi3H2K5oYbT1YswbVWxCOUBc,3347
+generic_crawler/sample.py,sha256=s4uxksr1wTQdYcnOu02mlg0EVDemSacyBq9C9tbs-10,474
+generic_crawler_sdk-0.1.0.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generic_crawler_sdk-0.1.0.dist-info/METADATA,sha256=ftwSB5m-ItEjnpBS7diHsSu6Zue71Wkvy33FvVL7ZGE,12909
+generic_crawler_sdk-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+generic_crawler_sdk-0.1.0.dist-info/top_level.txt,sha256=5UXVP1qKDmnlq0yeRlunfwgwBnU8YdDX8Uh_H9F0k3s,16
+generic_crawler_sdk-0.1.0.dist-info/RECORD,,
