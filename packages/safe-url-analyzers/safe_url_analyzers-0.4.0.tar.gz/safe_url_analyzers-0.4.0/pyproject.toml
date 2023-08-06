@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "safe_url_analyzers"
+version = "0.4.0"
+description = ""
+authors = ["Tùng Đỗ Sơn <svtt.tungds@vccloud.vn>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+google-cloud-webrisk = "^1.6.1"
+dataclasses-serialization = "^1.3.1"
+pydantic = "^1.7"
+
+[[tool.poetry.source]]
+name = "bizfly"
+url = "https://private-repo.vccloud.vn/pypi-hosted/simple/"
+secondary = true
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
