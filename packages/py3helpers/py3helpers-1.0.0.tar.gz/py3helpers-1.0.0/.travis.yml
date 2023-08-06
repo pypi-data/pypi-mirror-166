@@ -1,0 +1,64 @@
+language: python
+python:
+  - 3.7
+dist: xenial
+cache: false
+env:
+  global:
+  - LD_PRELOAD=/lib/x86_64-linux-gnu/libSegFault.so
+  - SEGFAULT_SIGNALS=all
+  - secure: "U3iYei6ufyiYQY2NrzgRmDtIkQ0D1KaGD8gtrbXGjHn4+HsBvZwmvUhwNxMPAPx4b6H4FQoBG6urV/cfNf4uHMy36Rsp2lWJHH5iy8iWKym1lNaqWb7QEpOQoLzLvjPqvujknrsECBDRaPM9wBWMCComBJy4YlBjGXSmCj5G4ELoh2R8KjJZmcvRx0tVstjI5zL2NDSl5rTl5LdICPGV4yPApw89+d3ayAWZp6PQkCYTAcpzgJHl54y7dyq13wrKvIqMo54U0pAfIytTcbtG9zyidVj1WkBj04fRnPAp/Lo759qbbP8CfK/b7qNCiJgmp7CbC2lnBzAn9k7kQUFfn3uWS1mKkeIliql8hTWE5uRUULGbM7Km+Ec2du6YosyRytasrQhtquLZ+xeJiDnT/D84z1pzPUgq+dpjNjbj2CXfwgfNt4Ij38INyev6ejxoXuqYa5id4v3yCdb/rdpFQ0QeZqfKU4b4HDtMoDx3XLJI8ZvGVaH25mS7bkyDfiU6cpvS9jJ1Ac6Y48lZaJOYKSTM3p/GiuuHV2mYg2+9embXJOV4WrSWhlnH7PjoqWf/haOcZU7iQgoF02jCUsWaVwC73/URUrx3PaMVirB8GrslbP/8q41sDLYXEiPZrvEC4MtYzcPrVOsVKHsDncq0PTfPuXNPtEPGRfYLc7tEGIk="
+
+matrix:
+  include:
+  - python: '3.7'
+    env:
+    - TOXENV=check
+  - python: '3.7'
+    env:
+    - TOXENV=docs
+  - env:
+    - TOXENV=py37,codecov
+    python: '3.7'
+  - env:
+    - TOXENV=py38,codecov
+    python: '3.8'
+  - stage: PyPi Release
+    script: echo "Deploying to PyPi ..."
+    deploy:
+      provider: pypi
+      username: __token__
+      password:
+        secure: Cnu0c/bX0f+n4Z1L7aPKfo0MsbYk+49LYv1hVGmcT5GhklHdchGM6dzi5X/hluid6qwUKVWlSThAxouvWXuWxYgsVT2ZUJPnf8rOa2g3ZBnePBwlezLpqB+9+agw/3FQac8iMbor1DpPQn63oZxth7becarE/dx287FY9OnwsE5f7Mp659skg/b4G3Z8fq+r4ioT/bsdY1AH+i3ZqRNpVj3qquoh51LY6Smy8JV01kR6vacvev/xs9gMIHdpor/0QUBokbvpGzGSzpJZfmF5nn51H6EVrsvIXruYOBnyWispGCMln8a9tWnrctjGbAzR+ty1sE+3Bq+vRi3/VD9yEBPoTNRt1kwqof40jj/z0fOylAc7ylzLx9GtxkJkIC+6/IZgwfvBQ70mQit40OHwkSFmMforSe4TjMbJFKqTQmwaCPplB65/IDxfMer3nMcfBf9mjwTlUWS7iUlisAPpPslvv1j+qtiGXRTPBByP8u8x2B9dqEZ4+WPh6q4oWCaKDlEh1YCWdlK4bJR8Tak2dMz1lnLC0AAjWXCzWfLeKRizpNXY40D2WqAj4z8VuJS3nGhQ50lLJp28Rz1zogdMYiZ5MEtm12cL+/C3qIO76qEpIeh8gbZyQDpewC/KDSKlBodmEn10Z8Yupn+pwq+bgvHR9lt4m+nHphw91hVCCAU=
+      on:
+        tags: true
+
+  - stage: GitHub Release
+    script: echo "Deploying to GitHub releases ..."
+    deploy:
+      provider: releases
+      api_key: $GITHUB_OAUTH_TOKEN
+      skip_cleanup: true
+      on:
+        tags: true
+before_install:
+- python --version
+- uname -a
+- lsb_release -a || true
+- |
+  if [[ $TRAVIS_OS_NAME == 'osx' ]]; then
+    [[ $TOXENV =~ py3 ]] && brew upgrade python
+    [[ $TOXENV =~ py2 ]] && brew install python@2
+    export PATH="/usr/local/opt/python/libexec/bin:${PATH}"
+  fi
+- python --version
+install:
+- python -mpip install --progress-bar=off --upgrade tox virtualenv pip setuptools six
+- virtualenv --version
+- pip --version
+- tox --version
+script:
+- tox -v
+after_failure:
+- more .tox/log/* | cat
+- more .tox/*/log/* | cat

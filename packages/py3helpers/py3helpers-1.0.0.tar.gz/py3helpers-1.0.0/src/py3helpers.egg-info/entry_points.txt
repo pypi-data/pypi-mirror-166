@@ -1,0 +1,2 @@
+[console_scripts]
+py3helpers = py3helpers.cli:main
