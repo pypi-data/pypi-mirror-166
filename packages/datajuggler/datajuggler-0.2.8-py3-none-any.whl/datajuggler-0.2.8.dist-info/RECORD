@@ -1,0 +1,12 @@
+datajuggler/__init__.py,sha256=x3cnEZDvHeuDNSUWFKovmEU9JHpCAVDhEbc8Y4KrH6U,784
+datajuggler/dict.py,sha256=4l4s7Btt_zkPW8o1XSH2YIlMSX9WL2yPhxdnUh6lgQw,32605
+datajuggler/strings.py,sha256=bbcQyNi2aqYThdvI8ZXSuMfZ1ojHgxwcCOqKB-bBA7o,2605
+datajuggler/toml.py,sha256=QemfyeuER1M2YJ5X-YC_cuBflqRRDKK3imnc5opmzVM,856
+datajuggler/utils.py,sha256=UKZBoPQong-0oFRritOz40OSq-uGSXIZmxvlZW2jwwI,20690
+datajuggler/versions.py,sha256=ByiiV_RhjGzMZxzgC7NximYcWkHQ8bfD8pHV2ZZ4kOc,74
+datajuggler/yaml.py,sha256=2I1995WLVw_uRDios27W74SlgaZn6Kp7rsNHRjliFSM,3087
+datajuggler-0.2.8.dist-info/LICENSE,sha256=56Se6nY3_l30xFuZDFX1THfaataxgy3S5_JnHK0d-_E,1079
+datajuggler-0.2.8.dist-info/METADATA,sha256=cpOPPrGjYBD0RNP7BN1G2smmzrSrJdQcl9cTfveosvg,75292
+datajuggler-0.2.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+datajuggler-0.2.8.dist-info/top_level.txt,sha256=NYYPL7yrzs2uOUNXQZVxMuOPRmqy4FsjdWlXpSSS1D0,12
+datajuggler-0.2.8.dist-info/RECORD,,
