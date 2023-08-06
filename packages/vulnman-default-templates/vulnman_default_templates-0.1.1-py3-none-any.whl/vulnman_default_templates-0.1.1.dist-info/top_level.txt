@@ -1,0 +1,1 @@
+vulnman_default_templates
