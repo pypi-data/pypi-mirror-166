@@ -1,0 +1,12 @@
+bump_testclient/__init__.py,sha256=SDP4ahGEWlXs2coqVeWKR87Afifswjrh5t6XYoxTz9Y,58
+bump_testclient/__main__.py,sha256=MvDx6lDp1_r5sV1nlNxc4cScAvHwLxyP6cThpAJHQCg,75
+bump_testclient/command.py,sha256=KN5jo_qadyX2QN-YqwGy_MJN45K1GZ6l_rBWq45WR5c,3607
+bump_testclient/main.py,sha256=5szO27bDYSpHTIL0pjuNPLn_3uDY88yEXkg0OUkv-wM,1189
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_transformer.py,sha256=60_bCvr6NZvRgPW-Y2snQHI5xVsuZDpYYC06wGlFypw,7157
+bump_testclient-0.2.0.dist-info/LICENSE,sha256=2skiIwuQvJYucCCAYR85MDANtka-ifzXBl-AH5Cj8Gc,1076
+bump_testclient-0.2.0.dist-info/METADATA,sha256=uzp6RbchxcBvBvVxmt8yRbLpdDwAiL4Q-WCUD9WKId4,3365
+bump_testclient-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bump_testclient-0.2.0.dist-info/entry_points.txt,sha256=QluRnu8oKcymunMIVRQ7JY752HiLyReZB1bXQRmMkpg,61
+bump_testclient-0.2.0.dist-info/top_level.txt,sha256=2QgcqLM0iVE3Z8Z6Z9h4LFuGbm7I7MelO3ofBgO7_XY,22
+bump_testclient-0.2.0.dist-info/RECORD,,
