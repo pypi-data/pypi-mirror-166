@@ -1,0 +1,14 @@
+generalimport
+packaging
+pyperclip
+tabulate
+pytz
+dill
+matplotlib
+networkx
+
+[full]
+pandas
+
+[table]
+pandas
