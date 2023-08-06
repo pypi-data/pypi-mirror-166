@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pymtl3-prbs
+Version: 0.0.0
+Summary: PyMTL3-PRBS: an open-source PyMTL3 IP for pseudorandom binary sequence generator/verifier.
+Home-page: https://github.com/pymtl/pymtl3-prbs
+Author: Batten Research Group
+Author-email: brg-pymtl@csl.cornell.edu
+License: BSD
+Description: # pymtl3-prbs
+        PyMTL3 pseudorandom random binary sequence generator/verifier IPs.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
