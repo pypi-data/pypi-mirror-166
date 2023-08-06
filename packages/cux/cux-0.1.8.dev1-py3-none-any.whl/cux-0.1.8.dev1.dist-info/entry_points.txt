@@ -1,0 +1,7 @@
+[console_scripts]
+check_intelligence = cux.main:check_intelligence_result
+display_it = cux.main:display_intelligence_time_periods
+eloop = cux.jupytersql:eloop
+jql = cux.main:gate
+nsqstatus = cux.nsqstatus:cli
+redo = cux.redo:entry
