@@ -1,0 +1,8 @@
+README.md
+setup.py
+aditya_custom_package/__init__.py
+aditya_custom_package/uppercase_string.py
+aditya_string_uppercase.egg-info/PKG-INFO
+aditya_string_uppercase.egg-info/SOURCES.txt
+aditya_string_uppercase.egg-info/dependency_links.txt
+aditya_string_uppercase.egg-info/top_level.txt

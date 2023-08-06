@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: aditya-string-uppercase
+Version: 0.0.1
+Summary: make strings uppercase and concatenate them
+Author: Aditya Gupta
+Author-email: adityagupta9293@gmail.com
+Requires-Python: >=3.6
