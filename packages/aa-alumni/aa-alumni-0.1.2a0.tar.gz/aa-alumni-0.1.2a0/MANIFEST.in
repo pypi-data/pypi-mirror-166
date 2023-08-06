@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+graft alumni
+
+recursive-include alumni *.py
+recursive-include alumni/static *
+recursive-include alumni/templates *
