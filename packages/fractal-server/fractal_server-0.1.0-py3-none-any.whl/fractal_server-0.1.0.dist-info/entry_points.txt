@@ -1,0 +1,3 @@
+[console_scripts]
+server=scripts.testserver:run_testserver
+
