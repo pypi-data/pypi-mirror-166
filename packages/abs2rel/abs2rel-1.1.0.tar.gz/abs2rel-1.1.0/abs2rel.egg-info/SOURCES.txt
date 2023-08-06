@@ -1,0 +1,9 @@
+README.md
+abs2rel.py
+pyproject.toml
+setup.cfg
+abs2rel.egg-info/PKG-INFO
+abs2rel.egg-info/SOURCES.txt
+abs2rel.egg-info/dependency_links.txt
+abs2rel.egg-info/entry_points.txt
+abs2rel.egg-info/top_level.txt
