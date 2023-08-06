@@ -1,0 +1,105 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['vega_sim',
+ 'vega_sim.api',
+ 'vega_sim.environment',
+ 'vega_sim.grpc',
+ 'vega_sim.parameter_test',
+ 'vega_sim.parameter_test.parameter',
+ 'vega_sim.proto',
+ 'vega_sim.proto.data_node',
+ 'vega_sim.proto.data_node.api',
+ 'vega_sim.proto.data_node.api.v1',
+ 'vega_sim.proto.data_node.api.v2',
+ 'vega_sim.proto.vega',
+ 'vega_sim.proto.vega.api',
+ 'vega_sim.proto.vega.api.v1',
+ 'vega_sim.proto.vega.checkpoint',
+ 'vega_sim.proto.vega.checkpoint.v1',
+ 'vega_sim.proto.vega.commands',
+ 'vega_sim.proto.vega.commands.v1',
+ 'vega_sim.proto.vega.events',
+ 'vega_sim.proto.vega.events.v1',
+ 'vega_sim.proto.vega.oracles',
+ 'vega_sim.proto.vega.oracles.v1',
+ 'vega_sim.proto.vega.snapshot',
+ 'vega_sim.proto.vega.snapshot.v1',
+ 'vega_sim.proto.vega.wallet',
+ 'vega_sim.proto.vega.wallet.v1',
+ 'vega_sim.reinforcement',
+ 'vega_sim.reinforcement.full_market_sim',
+ 'vega_sim.reinforcement.full_market_sim.utils',
+ 'vega_sim.scenario',
+ 'vega_sim.scenario.common',
+ 'vega_sim.scenario.common.utils',
+ 'vega_sim.scenario.comprehensive_market',
+ 'vega_sim.scenario.ideal_market_maker',
+ 'vega_sim.scenario.ideal_market_maker.utils',
+ 'vega_sim.scenario.ideal_market_maker_v2',
+ 'vega_sim.scenario.ideal_market_maker_v2.utils',
+ 'vega_sim.scenario.market_crash',
+ 'vega_sim.wallet']
+
+package_data = \
+{'': ['*'],
+ 'vega_sim': ['vegahome/config/data-node/*',
+              'vegahome/config/faucet/*',
+              'vegahome/config/node/*',
+              'vegahome/config/wallet-service/networks/*',
+              'vegahome/data/*',
+              'vegahome/data/faucet/wallets/*',
+              'vegahome/data/node/wallets/ethereum/*',
+              'vegahome/data/node/wallets/vega/*',
+              'vegahome/data/wallet-service/rsa-keys/*',
+              'vegahome/data/wallets/*',
+              'vegahome/genesis.json',
+              'vegahome/genesis.json',
+              'vegahome/passphrase-file',
+              'vegahome/passphrase-file']}
+
+install_requires = \
+['PyNaCl>=1.5.0,<2.0.0',
+ 'grpc-gateway-protoc-gen-openapiv2>=0.1.0,<0.2.0',
+ 'grpcio-tools>=1.48.0,<2.0.0',
+ 'inflection>=0.5.1,<0.6.0',
+ 'requests>=2.28.0,<3.0.0',
+ 'toml>=0.10.2,<0.11.0']
+
+extras_require = \
+{':python_full_version >= "3.7.13" and python_version < "3.8"': ['scipy>=1.7.1,<2.0.0',
+                                                                 'pandas>=1.3,<2.0',
+                                                                 'numpy>=1.21,<2.0'],
+ ':python_version >= "3.8" and python_version < "4.0"': ['scipy>=1.8.1,<2.0.0',
+                                                         'pandas>=1.4.2,<2.0.0',
+                                                         'numpy>=1.22.4,<2.0.0'],
+ 'jupyter': ['jupyterlab>=3.4.3,<4.0.0',
+             'jupyter>=1.0.0,<2.0.0',
+             'matplotlib>=3.5.2,<4.0.0',
+             'ipywidgets>=7.7.1,<8.0.0',
+             'plotly>=5.10.0,<6.0.0'],
+ 'learning': ['torch>=1.11.0,<2.0.0',
+              'tqdm>=4.64.0,<5.0.0',
+              'matplotlib>=3.5.2,<4.0.0'],
+ 'profile': ['snakeviz>=2.1.1,<3.0.0', 'pytest-profiling>=1.7.0,<2.0.0']}
+
+setup_kwargs = {
+    'name': 'vega-sim',
+    'version': '0.1.2',
+    'description': 'Simulator for running self-contained Vega chain on local PC',
+    'long_description': 'None',
+    'author': 'Vega',
+    'author_email': 'hi@vega.xyz',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'https://github.com/vegaprotocol/vega-market-sim',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'extras_require': extras_require,
+    'python_requires': '>=3.7.13,<3.11',
+}
+
+
+setup(**setup_kwargs)
