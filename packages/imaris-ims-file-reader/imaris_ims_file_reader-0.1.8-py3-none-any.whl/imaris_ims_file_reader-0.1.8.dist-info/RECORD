@@ -1,0 +1,11 @@
+imaris_ims_file_reader/__init__.py,sha256=lvd2jiFyDsB5h7mdlTJE0S0nbb_k2PpsnGsYp47Aa20,125
+imaris_ims_file_reader/_version.py,sha256=cnzoqjvOWzhwWIeQk9XzR2wVUDbYWw5nmEpvOU9fB08,176
+imaris_ims_file_reader/ims.py,sha256=wi_In8039apA3srMyT11heDcRMpEmPAW8q53edO3vqk,28837
+imaris_ims_file_reader/ims_zarr_store.py,sha256=Oz3dSs_nVbT_zNNhQgeAX-J2XSuLLMj72CTvqcSIosQ,8667
+imaris_ims_file_reader/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imaris_ims_file_reader/_tests/test_imsClass.py,sha256=_dAudSv9zmUqx-_t0Dz22gWHCRTPZtsTU_bMsWDUrFg,776
+imaris_ims_file_reader-0.1.8.dist-info/LICENCE,sha256=dWiyEOunlrbZOvqIl6Yya4OBfQWc4etIqb0y4UY0IrE,1493
+imaris_ims_file_reader-0.1.8.dist-info/METADATA,sha256=GuJcXcopNvjmCoe8dLx9XXiGNbU_6_ygA6OTvyS4_Kk,5032
+imaris_ims_file_reader-0.1.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+imaris_ims_file_reader-0.1.8.dist-info/top_level.txt,sha256=75nzvIcvUsp0ECavHElwINkGSP-Zw2jtlGjEYvh-EPM,23
+imaris_ims_file_reader-0.1.8.dist-info/RECORD,,
