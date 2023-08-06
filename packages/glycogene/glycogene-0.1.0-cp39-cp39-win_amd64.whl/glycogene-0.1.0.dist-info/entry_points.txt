@@ -1,0 +1,4 @@
+[console_scripts]
+genz-bars = glycoenz.main:plot_stacked_bars_for_glycogenes
+genz-filter = glycoenz.main:find_glycogenes
+

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: glycogene
+Version: 0.1.0
+Summary: Glycogene: data visualization for glycogenes expressed in proteomics data
+Home-page: UNKNOWN
+Author: Yingwei Hu
+Author-email: yhu39@jhmi.edu
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+
+UNKNOWN
+

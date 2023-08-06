@@ -1,0 +1,11 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+glycoenz/main.cp39-win_amd64.pyd,sha256=KVu_9lpzlX3L2OgaFlbWOXDORgw0LRhuZNzn0lyaej4,124928
+glycoenz/plugins/enzyme.cp39-win_amd64.pyd,sha256=zGgtINVzPICKhE9ISwZdqHLZ_ZraAm6ck6clJbC78kI,56832
+glycoenz/plugins/param.cp39-win_amd64.pyd,sha256=5Hmb4WiUt9ZjOrs4w0NO3jZuukFCwKxQ0AUMJd6vFRE,52736
+glycoenz/plugins/visual.cp39-win_amd64.pyd,sha256=qflm8O_k5NfjxHQJUuCR2cfRqcAAxJnayZm-Tcjqodo,56320
+glycogene-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+glycogene-0.1.0.dist-info/METADATA,sha256=9DB60O4RaaIGz6seqNh4TVf_hgEgIcP6eemji1VcUb8,358
+glycogene-0.1.0.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+glycogene-0.1.0.dist-info/entry_points.txt,sha256=HSQtuZj5ifPxzljrNOvWSp5dwjg0kDyEwAa5u275100,122
+glycogene-0.1.0.dist-info/top_level.txt,sha256=Hj7RBmFkyS8wkpfCXr43g-TmwP8LLku_yqoQUIrmCtY,9
+glycogene-0.1.0.dist-info/RECORD,,
