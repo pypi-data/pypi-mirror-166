@@ -1,0 +1,2 @@
+[console_scripts]
+cookdir = cookdir.main:cli
