@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: mrQA
+Version: 0.1.1
+Summary: Temporary container for library
+Home-page: https://github.com/openmindslab/compliance
+Author: Pradeep Raamana
+Author-email: raamana@gmail.com
+License: Apache Software License 2.0
+Keywords: mrQA
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+==============================
+mrQA Protocol Compliance
+==============================
+
+.. image:: https://img.shields.io/pypi/v/imagingqa.svg
+        :target: https://pypi.python.org/pypi/mrQA
+
+.. image:: https://img.shields.io/travis/Open-Minds-Lab/imagingqa.svg
+        :target: https://travis-ci.com/Open-Minds-Lab/mrQA
+
+
+mrQA suite of tools offering
+ - automatic evaluation of protocol compliance
+
+
+
+=======
+History
+=======
+
+0.1.0 (2022-05-20)
+------------------
+
+* First release on PyPI.
+
+
