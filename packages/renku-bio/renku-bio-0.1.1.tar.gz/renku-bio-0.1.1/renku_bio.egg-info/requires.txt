@@ -1,0 +1,7 @@
+calamus
+click
+pyld
+questionary
+rdflib
+renku
+tabulate
