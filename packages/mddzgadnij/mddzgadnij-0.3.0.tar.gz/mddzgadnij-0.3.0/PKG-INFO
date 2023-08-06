@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mddzgadnij
+Version: 0.3.0
+Summary: Tool that will try to guess your number
+Author: Dawid Mielewczyk
+Author-email: MDDawid0323@gmail.com
+Description-Content-Type: text/markdown
+
+# mddzgadnij
+
+Simple tool that will try to guess your number.
+Whole functionality of this project is **guess()** function.
