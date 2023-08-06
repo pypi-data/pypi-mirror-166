@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "org-template-builder"
+version = "0.1.1"
+description = "Python Org-Mode Template Builder."
+authors = ["AlbertoV5 <58243333+AlbertoV5@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    {include = "orgtemp", from = "src"}, 
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "2.28.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "22.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
