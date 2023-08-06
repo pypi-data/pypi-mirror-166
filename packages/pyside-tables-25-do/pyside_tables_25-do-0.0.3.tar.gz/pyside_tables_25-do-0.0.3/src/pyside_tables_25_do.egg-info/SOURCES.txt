@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/pyside_tables_25-do/__init__.py
+src/pyside_tables_25-do/pyside_tables.py
+src/pyside_tables_25_do.egg-info/PKG-INFO
+src/pyside_tables_25_do.egg-info/SOURCES.txt
+src/pyside_tables_25_do.egg-info/dependency_links.txt
+src/pyside_tables_25_do.egg-info/requires.txt
+src/pyside_tables_25_do.egg-info/top_level.txt
