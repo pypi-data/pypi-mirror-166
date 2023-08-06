@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyserverless
+Version: 0.0.6.dev1
+Summary: ok
+Home-page: https://github.com/private_repo/uuidentifier
+Author: slipper
+Author-email: r2fscg@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: codefast
+Requires-Dist: authc
+Requires-Dist: jieba
+Requires-Dist: expiringdict
+Requires-Dist: redis
+Requires-Dist: pika
+Requires-Dist: hashids
+
+serverless lib
+
+

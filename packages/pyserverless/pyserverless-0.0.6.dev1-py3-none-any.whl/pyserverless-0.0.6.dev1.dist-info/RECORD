@@ -1,0 +1,12 @@
+pyserverless/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyserverless/clientless.py,sha256=uNaoi3hN4SyH8PWPR0n9T9Y-kFCvnvY4DGFkI3Iq_Tg,3638
+pyserverless/const.py,sha256=wJmaXK01SqYfeRvgepyGSffCTKs6uCOu67DV-OTuvds,576
+pyserverless/serverless.py,sha256=lMEZZeHKVcO5HehmwuUgLn8Md-7Q7ReyLfwx8Nvxe_o,4505
+pyserverless/apps/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyserverless/apps/bird.py,sha256=7S5Gpg_c5acLdIppr3d0jUzHYykttA2h0uRO8RX-4XA,1174
+pyserverless/apps/message_scheduler.py,sha256=IBdQW9KbL8FFhDmCEkqv1dvZ7GXwhv3w5ieMVUMDKiY,2377
+pyserverless/apps/rabbitmq.py,sha256=lbkHNFVHlWyCRAoAz1hRk8G2QUoibWRnrGfBGv3yi1k,2086
+pyserverless-0.0.6.dev1.dist-info/METADATA,sha256=MnmUpNoalgPONsqdnbebCJkfIvDRFYAwtKcmW4x0rnI,573
+pyserverless-0.0.6.dev1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyserverless-0.0.6.dev1.dist-info/top_level.txt,sha256=KuElfiA7K4xzZrQUZG7HqysXaK9AtPF0Zc3n5sWJDlQ,13
+pyserverless-0.0.6.dev1.dist-info/RECORD,,
