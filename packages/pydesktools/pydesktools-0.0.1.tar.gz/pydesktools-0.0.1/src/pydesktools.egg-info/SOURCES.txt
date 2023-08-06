@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pydesktools/__init__.py
+src/pydesktools/core.py
+src/pydesktools/default.py
+src/pydesktools/main.py
+src/pydesktools.egg-info/PKG-INFO
+src/pydesktools.egg-info/SOURCES.txt
+src/pydesktools.egg-info/dependency_links.txt
+src/pydesktools.egg-info/requires.txt
+src/pydesktools.egg-info/top_level.txt
