@@ -1,0 +1,3 @@
+[console_scripts]
+gitlabci-lint = gitlabci_lint.validate:validateCiConfig
+
