@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "editorconfig-checker.python"
+version = "2.4.0"
+description = "Python wrapper around invoking editorconfig-checker (https://github.com/editorconfig-checker/editorconfig-checker)"
+authors = ["Marco <mmicu.github00@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
