@@ -1,0 +1,10 @@
+README.md
+setup.py
+IDD_Iterator.egg-info/PKG-INFO
+IDD_Iterator.egg-info/SOURCES.txt
+IDD_Iterator.egg-info/dependency_links.txt
+IDD_Iterator.egg-info/requires.txt
+IDD_Iterator.egg-info/top_level.txt
+idd_iterator/__init__.py
+idd_iterator/__main__.py
+idd_iterator/idd_multimodal_iterator.py
