@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pysatchel
+Version: 0.0.0a1
+Summary: Satchel is a compendium of pure python functions to carry with you and get things done.
+Home-page: https://github.com/theelderbeever/satchel
+License: MIT
+Author: Taylor Beever
+Author-email: taybeever@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/theelderbeever/satchel
+Description-Content-Type: text/markdown
+
+# Satchel
+
+Satchel is a compendium of pure python functions to carry with you and get things done.
+
+## Installation
+
+```
+pip install PySatchel
+```
+
+## Usage
+
+```python
+>>> import satchel.iterable import chunk
+
+>>> some_list = [1, 2, 3, 4, 5]
+>>> chunk(some_list, 2, "length", True)
+# [[1, 2], [3, 4], [5]]
+
+>>> chunk(some_list, 2, "count", True)
+# [[1, 2, 3], [3, 5]]
+```
+
