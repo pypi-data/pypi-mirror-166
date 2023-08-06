@@ -1,0 +1,9 @@
+tensorfaux/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorfaux/layers.py,sha256=nF9swvkELV9-VgbjEKPr8bgV_Pg3ICzULIF2DKIpgHI,3318
+tensorfaux/models.py,sha256=3Y9LuZzuda5CUBqzWC_1YXhrhuSWaqtbOp_wW4Z2ol4,1755
+tensorfaux/optimizers.py,sha256=poyYDH6PMFxrQRyV2Avbjr8JW39IRyXAVSB6ZtpErlc,1448
+tensorfaux/util.py,sha256=RFvpZWAJ2Wjqbn_fR_wgd7IZ9SL90LSxsYjRnRscLUw,165
+tensorfaux-0.0.1.dist-info/METADATA,sha256=HZvXsrKw3hXRWS90_y-o2S9HgOpCgKG_D9-xAA9S84w,4915
+tensorfaux-0.0.1.dist-info/WHEEL,sha256=09RFlvY3aVzvCNk4AXPZt-N-AI7GY_KktGsTb2IqIBU,86
+tensorfaux-0.0.1.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+tensorfaux-0.0.1.dist-info/RECORD,,
