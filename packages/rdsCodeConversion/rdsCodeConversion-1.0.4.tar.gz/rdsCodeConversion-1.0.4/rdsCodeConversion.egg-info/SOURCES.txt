@@ -1,0 +1,8 @@
+setup.py
+rdsCodeConversion.egg-info/PKG-INFO
+rdsCodeConversion.egg-info/SOURCES.txt
+rdsCodeConversion.egg-info/dependency_links.txt
+rdsCodeConversion.egg-info/requires.txt
+rdsCodeConversion.egg-info/top_level.txt
+rdscodeconversion/__init__.py
+rdscodeconversion/codeConversion.py
