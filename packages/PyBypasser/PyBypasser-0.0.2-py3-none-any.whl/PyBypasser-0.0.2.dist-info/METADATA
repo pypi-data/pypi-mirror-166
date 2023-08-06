@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PyBypasser
+Version: 0.0.2
+Home-page: https://github.com/HForGames/PyBypasser
+Download-URL: https://github.com/HForGames/PyBypasser
+Author: Hugo GALAN
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+PyBypasser is a package to Bypass everything that can be Bypass
