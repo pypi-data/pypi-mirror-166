@@ -1,0 +1,16 @@
+README.md
+setup.py
+fugen/__init__.py
+fugen/enums.py
+fugen/random_module.py
+fugen.egg-info/PKG-INFO
+fugen.egg-info/SOURCES.txt
+fugen.egg-info/dependency_links.txt
+fugen.egg-info/top_level.txt
+fugen.egg-info/zip-safe
+fugen/data/ifns_branches.json
+fugen/data/okved_codes.json
+fugen/generators/__init__.py
+fugen/generators/company.py
+fugen/generators/ifns.py
+fugen/generators/okved.py

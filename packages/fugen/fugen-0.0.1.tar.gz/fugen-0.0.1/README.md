@@ -1,0 +1,1 @@
+Financial University package for synthetic data generation
