@@ -1,0 +1,10 @@
+salesforce_tools/__init__.py,sha256=yEPZXMm9hUhMXxpYkjKNScRW103irOusQtM08VyLavY,548
+salesforce_tools/auth.py,sha256=BAJP2KAglwGQYv6z9uFpzmqFzNl0zroPanXFRFaRQ-s,6029
+salesforce_tools/bulk.py,sha256=fLpA7b6XtoiHH0p-S4FtI76_hFz67_Tu0KMEL7sb4RY,6280
+salesforce_tools/bulk_models.py,sha256=zamZFbMbZTiYZMi2Lcoubp0j9tR55kg5paVIe0u3hxw,5879
+salesforce_tools/oauth_server.py,sha256=OmH5CEX06PnT0lOpDGQu9cb8Xfxft9zJ4vEszIRNI0Y,1519
+salesforce_tools/salesforce.py,sha256=lc1SK96I0jRenoLFu2wtd05x6pTH_tUjC7t8iX8MvjQ,81262
+salesforce_tools/util.py,sha256=1dcspWphRN9HKDHMaO3O8DFkHOuMkRGqfwiqziMfLZU,1511
+salesforce_tools-0.1.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+salesforce_tools-0.1.5.dist-info/METADATA,sha256=QUytjqGAPP-AE5m6Ks_N_YAjm3eSV2gXVMOIDw7DH5o,844
+salesforce_tools-0.1.5.dist-info/RECORD,,
