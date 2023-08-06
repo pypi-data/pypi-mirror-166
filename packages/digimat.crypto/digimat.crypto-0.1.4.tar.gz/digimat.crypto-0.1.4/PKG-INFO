@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: digimat.crypto
+Version: 0.1.4
+Summary: Digimat Crypto
+Home-page: http://www.digimat.ch
+Author: Frederic Hess
+Author-email: fhess@splust.ch
+License: PSF
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
