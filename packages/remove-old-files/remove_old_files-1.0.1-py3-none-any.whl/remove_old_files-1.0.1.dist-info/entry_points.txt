@@ -1,0 +1,2 @@
+[console_scripts]
+remove-old-files = remove_old_files.main:main
