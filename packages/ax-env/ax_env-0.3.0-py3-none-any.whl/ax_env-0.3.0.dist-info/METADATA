@@ -1,0 +1,255 @@
+Metadata-Version: 2.1
+Name: ax-env
+Version: 0.3.0
+Summary: dependency manager for XENONnT package
+Home-page: https://github.com/XENONnT/ax_env
+Author: J. R. Angevaare
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: awkward (==1.9.0)
+Requires-Dist: blosc (==1.10.6)
+Requires-Dist: bokeh (==2.4.3)
+Requires-Dist: boltons (==21.0.0)
+Requires-Dist: commentjson (==0.9.0)
+Requires-Dist: coverage (==6.4.4)
+Requires-Dist: coveralls (==3.3.1)
+Requires-Dist: dask (==2022.5.2)
+Requires-Dist: dask-jobqueue (==0.8.0)
+Requires-Dist: datashader (==0.14.2)
+Requires-Dist: dill (==0.3.5.1)
+Requires-Dist: distributed
+Requires-Dist: flake8 (==5.0.4)
+Requires-Dist: fsspec (==2022.8.2)
+Requires-Dist: gitpython (==3.1.26)
+Requires-Dist: holoviews (==1.15.0)
+Requires-Dist: hypothesis (==6.46.2)
+Requires-Dist: immutabledict (==2.2.1)
+Requires-Dist: ipywidgets (==8.0.2)
+Requires-Dist: jinja2 (==3.1.2)
+Requires-Dist: jupyter-client (==7.3.4)
+Requires-Dist: keras (==2.10.0)
+Requires-Dist: lz4 (==4.0.2)
+Requires-Dist: matplotlib (==3.5.3)
+Requires-Dist: memory-profiler (==0.60.0)
+Requires-Dist: mongomock (==4.1.2)
+Requires-Dist: multihist (==0.6.5)
+Requires-Dist: nestpy (==2.0.0)
+Requires-Dist: npshmex (==0.2.1)
+Requires-Dist: numba (==0.56.2)
+Requires-Dist: numexpr (==2.8.3)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pandas (==1.4.4)
+Requires-Dist: panel (==0.13.1)
+Requires-Dist: pdmongo (==0.1.0)
+Requires-Dist: psutil (==5.9.2)
+Requires-Dist: pymongo (==3.12.3)
+Requires-Dist: pytest (==7.1.3)
+Requires-Dist: pytest-cov (==3.0.0)
+Requires-Dist: scikit-learn (==1.1.2)
+Requires-Dist: scipy (==1.9.1)
+Requires-Dist: tensorflow (==2.10.0)
+Requires-Dist: typing-extensions (==4.3.0)
+Requires-Dist: tqdm (==4.63.1)
+Requires-Dist: uproot (==4.3.5)
+Requires-Dist: utilix (==0.7.2)
+Requires-Dist: xarray (==2022.6.0)
+Requires-Dist: zarr (==2.12.0)
+Requires-Dist: zstd (==1.5.2.6)
+
+# Ax env
+[![Test package](https://github.com/XENONnT/ax_env/actions/workflows/pytest.yml/badge.svg?branch=master)](https://github.com/XENONnT/ax_env/actions/workflows/pytest.yml) 
+[![PyPI version shields.io](https://img.shields.io/pypi/v/ax_env.svg)](https://pypi.python.org/pypi/ax_env/) 
+[![Python Versions](https://img.shields.io/pypi/pyversions/ax_env.svg)](https://pypi.python.org/pypi/ax_env)
+[![PyPI downloads](https://img.shields.io/pypi/dm/ax_env.svg)](https://pypistats.org/packages/ax_env)
+
+
+j.angevaare@nikhef.nl
+
+Managed dependencies for strax, straxen, wfsim and pema
+
+## Managed dependacies tracked by dependabot
+This repository is a container for tracking the dependencies of the latest versions of the strax, straxen, wfsim and pema - packages. The idea is to maintain the [requirements-tests.txt](./extra_requirements/requirements-tests.txt) file that serves as the shared requirements file of each. To avoid having to maintain several very similar files for each of the packages, we just maintain only this file. The packages all download this file when performing tests to assure that we know tests are always performed on fixed software versions.
+
+## Interacting with dependabot
+Since this repository's only purpose is to facilitate a requirements file for other testing infrastructures, the testing on this specific repo is set rather flexible. In contrast to the packages mentioned above one can easily let dependabot merge PRs (we don't require an approving review or anything). Hencem one can savely tell dependabot to merge PRs which it will automatically merge as soon as the tests pass. Just add this comment to a PR:
+```bash
+@dependabot squash and merge
+```
+
+## Note of causion on testing on dependabot PRs.
+One side note is that one should keep in mind that dependabot's PRs don't have access to our required secrets. This means that the tests are only _really_ fully run when a PR is merged to master (and has access to the secrets there). This can lead to the unlikely situation that an issue with one dependency is uncovered then. The offending PR should be reverted as soon as possible to prevent tests on the repsective packages to fail too (they usually rely on the code on the master branch of this repository).
+
+
+0.3.0 / 2022-09-09
+------------------
+* Bump ipywidgets from 7.7.1 to 8.0.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/162
+* Bump coverage from 6.4.2 to 6.4.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/163
+* Bump pandas from 1.4.3 to 1.4.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/169
+* Bump fsspec from 2022.7.1 to 2022.8.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/168
+* Bump scipy from 1.9.0 to 1.9.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/167
+* Bump dask-jobqueue from 0.7.4 to 0.8.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/166
+* Bump fsspec from 2022.8.1 to 2022.8.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/170
+* Bump numba from 0.55.2 to 0.56.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/173
+* Bump utilix from 0.7.0 to 0.7.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/172
+* Bump pytest from 7.1.2 to 7.1.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/171
+* Bump ipywidgets from 8.0.1 to 8.0.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/178
+* Bump tensorflow from 2.9.1 to 2.9.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/177
+* Bump psutil from 5.9.1 to 5.9.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/174
+* Bump uproot from 4.3.4 to 4.3.5 by @dependabot in https://github.com/XENONnT/ax_env/pull/175
+* Bump nestpy from 1.5.4 to 2.0.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/182
+* Bump awkward from 1.8.0 to 1.9.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/179
+* Bump zstd from 1.5.2.5 to 1.5.2.6 by @dependabot in https://github.com/XENONnT/ax_env/pull/181
+* Bump tf by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/183
+* Bump strax by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/184
+
+
+**Full Changelog**: https://github.com/XENONnT/ax_env/compare/v0.2.7...v0.3.0
+
+
+0.2.7 / 2022-08-19
+------------------
+* Bump dask-jobqueue from 0.7.3 to 0.7.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/139
+* Bump coverage from 6.4.1 to 6.4.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/138
+* Bump straxen from 1.8.1 to 1.8.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/137
+* Bump straxen from 1.8.2 to 1.8.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/140
+* Bump lz4 from 4.0.1 to 4.0.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/142
+* Bump xarray from 2022.3.0 to 2022.6.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/141
+* Bump numba from 0.55.2 to 0.56.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/144
+* Bump fsspec from 2022.5.0 to 2022.7.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/145
+* Bump fsspec from 2022.7.0 to 2022.7.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/146
+* Bump scipy from 1.8.1 to 1.9.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/147
+* Restart tests by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/148
+* Bump flake8 from 4.0.1 to 5.0.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/154
+* Bump uproot from 4.3.3 to 4.3.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/157
+* Bump scikit-learn from 1.1.1 to 1.1.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/156
+* Bump flake8 from 5.0.3 to 5.0.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/155
+* Bump matplotlib from 3.5.2 to 3.5.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/160
+* Bump datashader from 0.14.1 to 0.14.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/159
+* Bump epix from 0.3.1 to 0.3.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/161
+
+
+**Full Changelog**: https://github.com/XENONnT/ax_env/compare/v0.2.6...v0.2.7
+
+0.2.6 / 2022-07-12
+------------------
+* Bump jupyter-client from 7.3.1 to 7.3.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/116
+* Bump strax from 1.2.2 to 1.2.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/117
+* Bump straxen from 1.7.1 to 1.8.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/118
+* Bump wfsim by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/119
+* Bump jupyter-client from 7.3.3 to 7.3.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/120
+* Bump uproot from 4.2.3 to 4.3.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/129
+* Bump actions/setup-python from 3 to 4 by @dependabot in https://github.com/XENONnT/ax_env/pull/128
+* Bump ipywidgets from 7.7.0 to 7.7.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/126
+* Bump datashader from 0.14.0 to 0.14.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/122
+* Bump epix from 0.3.0 to 0.3.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/121
+* Bump zarr from 2.11.1 to 2.12.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/127
+* Bump pandas from 1.4.2 to 1.4.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/134
+* Bump mongomock from 4.0.0 to 4.1.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/133
+* Bump wfsim from 1.0.0 to 1.0.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/132
+* Bump holoviews from 1.14.9 to 1.15.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/131
+* Bump typing-extensions from 4.2.0 to 4.3.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/136
+* Bump numexpr from 2.8.1 to 2.8.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/135
+
+
+**Full Changelog**: https://github.com/XENONnT/ax_env/compare/v0.2.5...v0.2.6
+
+0.2.5 / 2022-06-07
+------------------
+* Bump pytest from 7.1.1 to 7.1.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/80
+* Bump datashader from 0.13.0 to 0.14.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/82
+* Bump jupyter-client from 7.2.2 to 7.3.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/81
+* Bump jinja2 from 3.0.3 to 3.1.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/83
+* Bump straxen from 1.6.1 to 1.6.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/86
+* Bump zstd from 1.5.2.4 to 1.5.2.5 by @dependabot in https://github.com/XENONnT/ax_env/pull/84
+* Bump matplotlib from 3.5.1 to 3.5.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/85
+* Bump holoviews from 1.14.8 to 1.14.9 by @dependabot in https://github.com/XENONnT/ax_env/pull/87
+* Bump jupyter-client from 7.3.0 to 7.3.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/88
+* Bump straxen from 1.6.2 to 1.7.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/92
+* Bump scikit-learn from 1.0.2 to 1.1.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/91
+* Bump uproot from 4.2.2 to 4.2.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/90
+* Bump strax from 1.2.1 to 1.2.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/89
+* Bump coverage from 6.3.2 to 6.3.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/93
+* Bump straxen from 1.7.0 to 1.7.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/94
+* bump tf by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/96
+* Bump scipy from 1.8.0 to 1.8.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/97
+* Bump bokeh from 2.4.2 to 2.4.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/99
+* Bump scikit-learn from 1.1.0 to 1.1.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/98
+* Bump epix from 0.2.2 to 0.3.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/102
+* Bump dill from 0.3.4 to 0.3.5.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/101
+* Bump fsspec from 2022.3.0 to 2022.5.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/100
+* Bump tensorflow from 2.9.0 to 2.9.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/106
+* Bump panel from 0.13.0 to 0.13.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/107
+* Bump psutil from 5.9.0 to 5.9.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/105
+* Bump lz4 from 4.0.0 to 4.0.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/104
+* Bump coverage from 6.3.3 to 6.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/103
+* Bump numba from 0.55.1 to 0.55.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/108
+* Bump numpy by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/109
+* Update requirements.txt by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/113
+* Bump coverage from 6.4 to 6.4.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/115
+
+
+**Full Changelog**: https://github.com/XENONnT/ax_env/compare/v0.2.4...v0.2.5
+
+
+0.2.2 / 2022-04-18
+------------------
+**Full Changelog**: https://github.com/XENONnT/ax_env/compare/v0.2.1...v0.2.2
+
+0.2.2 / 2022-04-18
+------------------
+* Bump nestpy by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/74
+
+**Full Changelog**: https://github.com/XENONnT/ax_env/compare/v0.2.0...v0.2.1
+
+0.2.1 / 2022-04-18
+------------------
+* Bump pandas from 1.4.1 to 1.4.2 in /extra_requirements by @dependabot in https://github.com/XENONnT/ax_env/pull/46
+* WFSIm bump by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/58
+* Bump pymongo from 3.12.1 to 3.12.3 in /extra_requirements by @dependabot in https://github.com/XENONnT/ax_env/pull/59
+* Bump jupyter-client from 7.2.1 to 7.2.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/61
+* Update requirements.txt by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/63
+* Bump numpy from 1.21.4 to 1.21.6 by @dependabot in https://github.com/XENONnT/ax_env/pull/65
+* Update README.md by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/67
+* Bump utilix from 0.6.7 to 0.7.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/73
+
+**Full Changelog**: https://github.com/XENONnT/ax_env/compare/v0.1.0...v0.2.0
+
+0.1.0
+------------------
+* upload CI by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/1
+* Bump zstd from 1.5.0.4 to 1.5.1.0 in /extra_requirements by @dependabot in https://github.com/XENONnT/ax_env/pull/3
+* Bump dask from 2022.2.1 to 2022.3.0 in /extra_requirements by @dependabot in https://github.com/XENONnT/ax_env/pull/2
+* Bump jupyter-client from 7.1.2 to 7.2.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/4
+* Bump panel from 0.12.6 to 0.12.7 in /extra_requirements by @dependabot in https://github.com/XENONnT/ax_env/pull/5
+* Bump straxen from 1.5.0 to 1.6.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/8
+* Bump scipy from 1.7.3 to 1.8.0 in /extra_requirements by @dependabot in https://github.com/XENONnT/ax_env/pull/12
+* add auto approve by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/19
+* Bump utilix from 0.6.6 to 0.6.7 in /extra_requirements by @dependabot in https://github.com/XENONnT/ax_env/pull/13
+* Auto approve by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/25
+* Bump sphinx from 4.4.0 to 4.5.0 in /extra_requirements by @dependabot in https://github.com/XENONnT/ax_env/pull/43
+* Bump hypothesis from 6.39.0 to 6.40.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/38
+
+New Contributors
+* @JoranAngevaare made their first contribution in https://github.com/XENONnT/ax_env/pull/1
+* @dependabot made their first contribution in https://github.com/XENONnT/ax_env/pull/3
+
+**Full Changelog**: https://github.com/XENONnT/ax_env/commits/v0.1.0
+
+
+0.0.0 / 2022-04-01
+------------------
+
+- First commits
+
+
