@@ -1,0 +1,16 @@
+gancio_telegram_bot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gancio_telegram_bot/__main__.py,sha256=f-eYmP8IHv2rocbCcvZHS4D7aJRJPWPe7kqay-ED9Jg,664
+gancio_telegram_bot/callbacks/__init__.py,sha256=4tN6NzTVR6IkqEpS2i71xj-nw2Zot4mEbzv13pQCJhk,25
+gancio_telegram_bot/callbacks/page_turn.py,sha256=9J2ipK6GnaDQt1j4rX9wRgIilYgyISDYBW9FzI_zdKw,4534
+gancio_telegram_bot/config.py,sha256=7YQBASaey-mLfTxGSbH8OvE3VgrP5K-XO6z9mW6xwps,580
+gancio_telegram_bot/handlers/__init__.py,sha256=ot6CaAS9xeYbqEKcSq22_yuvhHyMyKtI_cdZGc6jxY4,49
+gancio_telegram_bot/handlers/help.py,sha256=u1jiwMuLIOEd9r0D_PBkiy2i7i0ZALJIWIVlL1dC-D8,270
+gancio_telegram_bot/handlers/show_calendar.py,sha256=Spm7tbZjY0j6X5MH9giLmLmGlx6IetYQRQjYGl6ZoWo,1461
+gancio_telegram_bot/utils/__init__.py,sha256=pG-YPVG0gJIJ6s4xcAz9S_CnUxpUcz33wl9eNUSgxGk,20
+gancio_telegram_bot/utils/utils.py,sha256=-0zOJ_N-dFGEFiQ-28AaMfalx7_TheHyk_sRXfniMxY,2763
+gancio_telegram_bot/viz/__init__.py,sha256=UIKcKQo7fx6utRjG2yLy87HEX2nUlcPHbQbEZhkzKC8,21
+gancio_telegram_bot/viz/plots.py,sha256=49Ea6Po5-dRWr2N9Gvs87PHaoIpXJcF5_CyvDQnQKDc,1206
+gancio_telegram_bot-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gancio_telegram_bot-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+gancio_telegram_bot-0.1.0.dist-info/METADATA,sha256=W_w_vgzeRQp5sdVEAUJCggxwzr-dmZ54lnz5Cd1e0MA,3770
+gancio_telegram_bot-0.1.0.dist-info/RECORD,,

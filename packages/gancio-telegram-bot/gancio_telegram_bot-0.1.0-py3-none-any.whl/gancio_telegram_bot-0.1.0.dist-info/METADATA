@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: gancio-telegram-bot
+Version: 0.1.0
+Summary: A Telegram bot to interact with Gancio instances
+Home-page: https://github.com/bendico765/gancio_telegram_bot
+License: AGPL-3.0-only
+Author: Gianluca Morcaldi
+Author-email: bendico765@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiohttp-client-cache (>=0.7.3,<0.8.0)
+Requires-Dist: aiosqlite (>=0.17.0,<0.18.0)
+Requires-Dist: gancio-requests (>=0.1.2,<0.2.0)
+Requires-Dist: matplotlib (>=3.5.3,<4.0.0)
+Requires-Dist: pandas (>=1.4.4,<2.0.0)
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0)
+Requires-Dist: python-telegram-bot (==20.0a4)
+Requires-Dist: seaborn (>=0.12.0,<0.13.0)
+Project-URL: Repository, https://github.com/bendico765/gancio_telegram_bot
+Description-Content-Type: text/markdown
+
+# gancio_telegram_bot
+
+``gancio_telegram_bot`` is a bot which allows to interact with a specified Gancio instance.
+[Gancio](https://gancio.org/) is a shared agenda for local communities, a project which wants to provide
+a self-hosted solution to host and organize events.  
+
+![screen-gif](./assets/bot_overview.gif)
+
+## Installation
+To install the latest version of the bot just download (or clone) the current project,
+open a terminal and run the following commands:
+```shell
+pip install -r requirements.txt
+pip install .
+```
+
+Alternatively, use pip:
+```shell
+pip install gancio_telegram_bot
+```
+
+It's also possible to create a docker image and run the application in a container; see [Docker usage](#docker). 
+
+### Dependencies
+At the moment I have tested the bot only on _python == 3.10.4_  
+The bot requires the dependencies specified in _requirements.txt_ and I haven't still tested
+other versions.
+
+## Usage
+
+### Configuration file (.env)
+
+The bot relies on environment variables for its configuration; some parameters are strictly required 
+(e.g. AUTH_TOKEN, INSTANCE_URL), while others just allow to personalize the bot appearance.
+
+| Parameter                     | Function                                                                                             |
+|-------------------------------|------------------------------------------------------------------------------------------------------|
+| AUTH_TOKEN                    | Telegram bot authentication token                                                                    |
+| INSTANCE_URL                  | Url of the gancio instance from which fetch the events                                               |
+| SHOW_EVENT_URL                | Set to "True" if each event must be accompanied by its url on the Gancio instance (default is False) |
+| MENU_ELEMENTS                 | Number of events to show in a single message (default is 3)                                          |
+| CACHE_NAME                    | Path to the database used for caching (default disable the cache mechanism)                          |
+| HTTP_CACHE_EXPIRATION_SECONDS | How many seconds the cache lasts (default is 10 minutes)                                             |
+
+
+### Command line interface
+
+```shell
+python3 -m gancio_telegram_bot
+```
+
+### Docker
+
+```shell
+docker compose up -d
+```
+
+## Visualisation
+The package comes up with some functions to allow the parsing of the
+logfile and the visualisation of statistics related to the usage of the bot.
+
+![](./assets/visualisation_example.png)
+
+## Todolist
+- Better define which versions of python and dependency packages are compatible.
+- Create some tests.
+- Allow to define more fine-grained queries for the events (e.g. display just the events in a specific date).
+- Make more visualisation plots.
