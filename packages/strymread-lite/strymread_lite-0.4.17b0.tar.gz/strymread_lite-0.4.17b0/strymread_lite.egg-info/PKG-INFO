@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: strymread-lite
+Version: 0.4.17b0
+Summary: A real time CAN data logging tool that is a stripped down version from strym.
+Home-page: https://github.com/jmscslgroup/strymread_lite
+Author: Alex Richardson
+Author-email: william.a.richardson@vanderbilt.edu
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: candata,can,autonomous vehicle,ACC,adaptive cruise control,USB,Panda,Traffic,Transportation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: AsyncIO
+Classifier: Topic :: Communications
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
