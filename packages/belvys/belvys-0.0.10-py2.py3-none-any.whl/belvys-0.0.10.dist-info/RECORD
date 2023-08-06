@@ -1,0 +1,17 @@
+belvys/__init__.py,sha256=P5ONSZXUDyC5N0EkLyLheiYenyJ1kGTCoUeXJS8Xj20,363
+belvys/_version.py,sha256=iRGcgVhzuPlfWKkBz4zH5q8gNiQz2RQQEzAF_QRbC9c,498
+belvys/aftercarestore.py,sha256=FWZ0NJ-apt_TjLUZFa_mryjQ2P8aEHcVAE5FM0pL_sA,1824
+belvys/api.py,sha256=OfIEj6hzUy9pAs8a3rr6d3KLSpG09FX7wCjMtiBXwBk,13744
+belvys/common.py,sha256=TnhaRg8Mt1qwVBz5PDEBS-p1cx9NhDhuWqYy99iJ4iw,178
+belvys/example.py,sha256=Bvp-uRJqBYZiXCsyxlCSj0dhcEn65FN9svR5zcZDO4Q,2272
+belvys/example_api_basic.yaml,sha256=sIFDxeoxTZRGoZFOjJc2Wtvlz95l6UM4FYjgNQwfJq0,138
+belvys/example_api_complex.yaml,sha256=-vZX3wZb9L88OIiULyEm1YREdQ0Txs41R7MeuAw875g,711
+belvys/example_structure_basic.yaml,sha256=nGMoUO99VYbyU9BbgeA73aJWjd-zMHyBqIDoH8S7otY,2497
+belvys/example_structure_complex.yaml,sha256=zmDHartNCsEL3ZxuO478b6EzBV-UPXGQJeXIcFTl_Mg,5477
+belvys/structure.py,sha256=ByhhE5pvINcna24EvzuSPQ4IfwfPF8uy-rhz_3cZ5ro,11533
+belvys/tenant.py,sha256=hX3ePLJGPd3dgGBqm_th4gexpu94Vos1xm_XjdahEfc,9761
+belvys-0.0.10.dist-info/LICENSE,sha256=jeQQiPkjkO40IX62yLR7tx0osBcaLXD17PTRvk23zgk,1518
+belvys-0.0.10.dist-info/METADATA,sha256=Fzsa6CmS5KDMnJ89iEssJBnBOxGoFPg1JWqI_rCdmFw,2694
+belvys-0.0.10.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+belvys-0.0.10.dist-info/top_level.txt,sha256=ifDbgQc64Sd4oZ0EtqvUIyqHGH_JhSEC9-1blbHdmDU,7
+belvys-0.0.10.dist-info/RECORD,,
