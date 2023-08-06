@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: linguarita_lucien-rowan
+Version: 0.0.1
+Summary: A small package for translating Python applications
+Author-email: Nicolas Lucien <nicolas62974@gmail.com>
+Project-URL: Homepage, https://codeberg.org/lucien-rowan/linguarita
+Project-URL: Bug Tracker, https://codeberg.org/lucien-rowan/linguarita/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Linguarita
+
+When gettext doesn't work and you are sick of writing your own language engine for every program, you came to the right place! Linguarita is a generic language engine retrieving translations from JSON files. I also made a very simple Hello World application which simply prints out "Hello, world" in English, German and Ukrainian with Linguarita.

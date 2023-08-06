@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linguarita_lucien-rowan"
+version = "0.0.1"
+authors = [
+  { name="Nicolas Lucien", email="nicolas62974@gmail.com" },
+]
+description = "A small package for translating Python applications"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://codeberg.org/lucien-rowan/linguarita"
+"Bug Tracker" = "https://codeberg.org/lucien-rowan/linguarita/issues"
