@@ -1,0 +1,12 @@
+beautifulsoup4
+rich
+argparse
+validators
+unittest-xml-reporting
+
+[dev]
+pdoc3
+flake8
+twine
+setuptools
+autopep8
