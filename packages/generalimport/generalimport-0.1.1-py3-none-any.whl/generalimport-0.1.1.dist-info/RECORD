@@ -1,0 +1,12 @@
+examples/1minimal_example.py,sha256=X2UE_IZVoYUbd08bwbfXRNFzV-gbduTUOnZXxmGyMFY,693
+examples/2tests_showcase.py,sha256=xlChdYjiJzfT9t3n_xaQyO_KdN-IR1-Xnrk1__O4YbQ,808
+examples/3recommended_installation.py,sha256=Krf_S3fGAjfnmckh2VEre544E5q4ZgPi1J3EotdddZQ,310
+examples/4how_it_works.py,sha256=LdcUVU28Pjl00r4a5KG01DALSk-Se7qEvGpEzXNgsBc,500
+generalimport/__init__.py,sha256=M22gTCAnJkNy-QmI1C4aTrsxfrs9NX_RqlLHFRqfuao,208
+generalimport/optional_import.py,sha256=6j_WGwJWcamZY3016TyOJjMeATJ9XPPIBaKzk04U_1g,4895
+generalimport/test/test_generalimport.py,sha256=Ki_peDaOIXbGQe-5FtfrYeq5qGRZ6k9POgJ1yGyWAhk,4904
+generalimport-0.1.1.dist-info/LICENSE,sha256=lR7a-qESifjD5ON36wQgA1eoLQIJnXxsM_RB88vSnsg,1078
+generalimport-0.1.1.dist-info/METADATA,sha256=t1sHvMc0Se6ils_9G8jbeaLJNJ4lLSvZ05wPa45PLz4,7596
+generalimport-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+generalimport-0.1.1.dist-info/top_level.txt,sha256=lcoDoxn04-i-2-LKZnSrkTqyK4giyU10sLlHhCdyv00,23
+generalimport-0.1.1.dist-info/RECORD,,
