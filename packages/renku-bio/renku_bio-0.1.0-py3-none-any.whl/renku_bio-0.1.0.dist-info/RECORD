@@ -1,0 +1,11 @@
+renkubio/__init__.py,sha256=kR10gOeDo4qFD-oWnrMN56twI-49qRVudAU-Lt4dxWQ,67
+renkubio/biosample.py,sha256=ayLaYQ53Ak49ksWpJGVgrUdC59V0q4K1cRaHeNIVs3o,1996
+renkubio/cli.py,sha256=AhLVKTh4vc0VsoH9TT1MgdT5P8F0cSLRhUlQkL7MsQI,7301
+renkubio/common_entities.py,sha256=iRHL73kqZtvsGdfbUe2ztEnKf7041j7PulUVBs-J-64,4852
+renkubio/rdf.py,sha256=7CydV9nke5SuZFwmQHtw4xTR2h_klk8h-q2x8Y4R0kg,4815
+renkubio/utils.py,sha256=upedRjlaU13-krBvUrAJxNm3_xYQHVw3Qe0QM0xPIYI,6105
+renku_bio-0.1.0.dist-info/METADATA,sha256=TuMrs1ozSgU2WvfxvaQuD64QH3INO1bQg7ZhxPg1prU,838
+renku_bio-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+renku_bio-0.1.0.dist-info/entry_points.txt,sha256=sPqUM766l3fZErZ12Bs7ovB1mhx_XFqYseyl4rKew88,72
+renku_bio-0.1.0.dist-info/top_level.txt,sha256=Vo677V45RobLQC24vqLK3KLg5QWXimOvGW4pfbDiUpE,9
+renku_bio-0.1.0.dist-info/RECORD,,
