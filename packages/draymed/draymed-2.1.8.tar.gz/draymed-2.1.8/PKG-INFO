@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: draymed
+Version: 2.1.8
+Summary: Draymed library for SNOMED codes and more
+Home-page: https://github.com/polaris-foundation/draymed
+Keywords: Polaris,SNOMED
+Author: Adam Romano
+Author-email: adam.romano@sensynehealth.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/polaris-foundation/draymed

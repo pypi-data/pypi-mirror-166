@@ -1,0 +1,3 @@
+Do not edit master_codes.json in this folder directly. This is a local copy.
+Instead edit the source master_codes.json in the root folder of the draymed repository.
+Then use the Makefile in the root folder to copy the file to the Python and Javascript projects.
