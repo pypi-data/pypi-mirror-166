@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: datastuff
+Version: 0.1.0
+Summary: A package that provides functions for a collection of common data science tasks
+Author: benthecoder
+Author-email: benthecoder07@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pandas (>=1.4.4,<2.0.0)

@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "datastuff"
+version = "0.1.0"
+description = "A package that provides functions for a collection of common data science tasks"
+authors = ["benthecoder <benthecoder07@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.4.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pre-commit = "^2.20.0"
+scriv = "^0.16.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
