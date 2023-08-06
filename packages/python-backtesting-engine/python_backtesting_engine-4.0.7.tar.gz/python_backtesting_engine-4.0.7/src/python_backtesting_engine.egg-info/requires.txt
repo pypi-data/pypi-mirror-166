@@ -1,0 +1,7 @@
+setuptools
+matplotlib
+numpy
+pandas
+scipy
+requests
+PyQt5
