@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: presleys-motivate
+Version: 0.0.1
+Summary: A ptyhon module to motivate you
+Home-page: UNKNOWN
+Author: Presley Acuna
+Author-email: presleyacuna@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: motivation,python,presley's programs
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
