@@ -1,0 +1,8 @@
+License.txt
+setup.py
+softi_xmcd_view.egg-info/PKG-INFO
+softi_xmcd_view.egg-info/SOURCES.txt
+softi_xmcd_view.egg-info/dependency_links.txt
+softi_xmcd_view.egg-info/entry_points.txt
+softi_xmcd_view.egg-info/requires.txt
+softi_xmcd_view.egg-info/top_level.txt
