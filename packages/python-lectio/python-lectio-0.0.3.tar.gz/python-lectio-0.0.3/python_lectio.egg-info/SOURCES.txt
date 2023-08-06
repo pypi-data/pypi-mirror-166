@@ -1,0 +1,9 @@
+README.md
+setup.py
+lectio/__init__.py
+lectio/lectio.py
+python_lectio.egg-info/PKG-INFO
+python_lectio.egg-info/SOURCES.txt
+python_lectio.egg-info/dependency_links.txt
+python_lectio.egg-info/requires.txt
+python_lectio.egg-info/top_level.txt
