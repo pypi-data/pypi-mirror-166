@@ -1,0 +1,38 @@
+NC_012453	EMBL/GenBank/SwissProt	D-loop	1	1176	.	+	. note=control region
+NC_012453	EMBL/GenBank/SwissProt	tRNA	1177	1244	.	+	. product=tRNA-Phe
+NC_012453	EMBL/GenBank/SwissProt	rRNA	1224	1244	.	+	. note=12S ribosomal RNA product=s-rRNA
+NC_012453	EMBL/GenBank/SwissProt	tRNA	2225	2296	.	+	. product=tRNA-Val
+NC_012453	EMBL/GenBank/SwissProt	rRNA	2297	3919	.	+	. note=16S ribosomal RNA product=l-rRNA
+NC_012453	EMBL/GenBank/SwissProt	tRNA	3920	3993	.	+	. codon_recognized=UUR product=tRNA-Leu
+NC_012453	EMBL/GenBank/SwissProt	gene	4003	4974	.	+	. db_xref=GeneID:7671897 gene=ND1
+NC_012453	EMBL/GenBank/SwissProt	tRNA	4975	5045	.	+	. product=tRNA-Ile
+NC_012453	EMBL/GenBank/SwissProt	tRNA	5051	5121	.	-	. product=tRNA-Gln
+NC_012453	EMBL/GenBank/SwissProt	tRNA	5121	5189	.	+	. product=tRNA-Met
+NC_012453	EMBL/GenBank/SwissProt	gene	5190	6228	.	+	. db_xref=GeneID:7671885 gene=ND2
+NC_012453	EMBL/GenBank/SwissProt	tRNA	6229	6305	.	+	. product=tRNA-Trp
+NC_012453	EMBL/GenBank/SwissProt	tRNA	6312	6380	.	-	. product=tRNA-Ala
+NC_012453	EMBL/GenBank/SwissProt	tRNA	6383	6455	.	-	. product=tRNA-Asn
+NC_012453	EMBL/GenBank/SwissProt	tRNA	6458	6524	.	-	. product=tRNA-Cys
+NC_012453	EMBL/GenBank/SwissProt	tRNA	6524	6594	.	-	. product=tRNA-Tyr
+NC_012453	EMBL/GenBank/SwissProt	gene	6596	8146	.	+	. db_xref=GeneID:7671886 gene=COX1 gene_synonym=COI
+NC_012453	EMBL/GenBank/SwissProt	tRNA	8138	8212	.	-	. codon_recognized=UCN product=tRNA-Ser
+NC_012453	EMBL/GenBank/SwissProt	tRNA	8215	8283	.	+	. product=tRNA-Asp
+NC_012453	EMBL/GenBank/SwissProt	gene	8285	8968	.	+	. db_xref=GeneID:7671887 gene=COX2 gene_synonym=COII
+NC_012453	EMBL/GenBank/SwissProt	tRNA	8970	9037	.	+	. product=tRNA-Lys
+NC_012453	EMBL/GenBank/SwissProt	gene	9039	9203	.	+	. db_xref=GeneID:7671888 gene=ATP8
+NC_012453	EMBL/GenBank/SwissProt	gene	9194	9877	.	+	. db_xref=GeneID:7671889 gene=ATP6
+NC_012453	EMBL/GenBank/SwissProt	gene	9877	10651	.	+	. db_xref=GeneID:7671890 gene=COX3 gene_synonym=COIII
+NC_012453	EMBL/GenBank/SwissProt	tRNA	10661	10730	.	+	. product=tRNA-Gly
+NC_012453	EMBL/GenBank/SwissProt	gene	10731	11081	.	+	. db_xref=GeneID:7671891 gene=ND3
+NC_012453	EMBL/GenBank/SwissProt	tRNA	11083	11150	.	+	. product=tRNA-Arg
+NC_012453	EMBL/GenBank/SwissProt	gene	11151	11447	.	+	. db_xref=GeneID:7671892 gene=ND4L
+NC_012453	EMBL/GenBank/SwissProt	gene	11441	12819	.	+	. db_xref=GeneID:7671893 gene=ND4
+NC_012453	EMBL/GenBank/SwissProt	tRNA	12820	12888	.	+	. product=tRNA-His
+NC_012453	EMBL/GenBank/SwissProt	tRNA	12891	12954	.	+	. codon_recognized=AGY product=tRNA-Ser
+NC_012453	EMBL/GenBank/SwissProt	tRNA	12955	13025	.	+	. codon_recognized=CUN product=tRNA-Leu
+NC_012453	EMBL/GenBank/SwissProt	gene	13026	14840	.	+	. db_xref=GeneID:7671894 gene=ND5
+NC_012453	EMBL/GenBank/SwissProt	gene	14845	15987	.	+	. db_xref=GeneID:7671895 gene=CYTB
+NC_012453	EMBL/GenBank/SwissProt	tRNA	15990	16059	.	+	. product=tRNA-Thr
+NC_012453	EMBL/GenBank/SwissProt	tRNA	16062	16131	.	-	. product=tRNA-Pro
+NC_012453	EMBL/GenBank/SwissProt	gene	16138	16659	.	-	. db_xref=GeneID:7671896 gene=ND6
+NC_012453	EMBL/GenBank/SwissProt	tRNA	16661	16728	.	-	. product=tRNA-Glu

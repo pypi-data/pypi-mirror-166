@@ -1,0 +1,376 @@
+# cmsearch :: search a sequence database with an RNA CM
+# INFERNAL 1.0.2 (October 2009)
+# Copyright (C) 2009 HHMI Janelia Farm Research Campus
+# Freely distributed under the GNU General Public License (GPLv3)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command:    /home/pacosy/maze/progz/infernal-1.0.2/src//cmsearch -g --fil-no-hmm --fil-no-qdb /home/pacosy/maze/workspace/mtdb/data//modelle-v1/Metazoa_Y-1.0.cm /home/pacosy/maze/workspace/mtdb/output/5xMjJDQY/sequence.fas
+# date:       Thu Apr 11 10:01:44 2013
+# num seqs:   1
+# dbsize(Mb): 0.033456
+#
+# Pre-search info for CM 1: Y.seed25-1
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+    1   cm  ins  glc  1e-15       1.000     5.98   0.0020  00:00:18.93
+
+CM: Y.seed25-1
+>NC_012453
+
+  Plus strand results:
+
+ Query = 1 - 68, Target = 4975 - 5045
+ Score = 34.51, E = 5.204e-06, P = 5.077e-09, GC =  41
+
+           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<___....__>
+         1 gguaggaUGGCugAauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUua....auc 56      
+           GG:AG :UG CUGAAUA+ AAG  ::A:: UG  AA::U::  AU:G:GGU+A    AUC
+      4975 GGAAGCGUGCCUGAAUAU-AAGGAUCACUAUGAUAAAGUGAGCAUAGAGGUAAaacaAUC 5033    
+
+           >>>>))))))):
+        57 cccCuccuaccA 68      
+           C:C:: CU:CC 
+      5034 CUCUCACUUCCU 5045    
+
+
+ Query = 1 - 68, Target = 8970 - 9037
+ Score = 33.35, E = 8.548e-06, P = 8.34e-09, GC =  44
+
+           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<_____>>>>>
+         1 gguaggaUGGCugAauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUuaauccccC 60      
+           ::U:::: +GCU  +UAA  AGC :UAG +U U AA CUA:+ A G:GGG +  +CCC:C
+      8970 CAUUAAGAAGCUAUGUAACCAGCACUAGCCUUUUAAGCUAGAGAAGAGGGCACUCCCCUC 9029    
+
+           ))))))):
+        61 uccuaccA 68      
+           ::::A::A
+      9030 CUUAAUGA 9037    
+
+
+ Query = 1 - 68, Target = 12820 - 12886
+ Score = 32.44, E = 1.261e-05, P = 1.231e-08, GC =  36
+
+           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<___..__>>>
+         1 gguaggaUGGCugAauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUua..auccc 58      
+           G +AG:AU+G:U:AA  A :A:C :UAGAUUGU A UCUA:+ A+ GG:GUU+  A+C:C
+     12820 GUAAGCAUAGUUUAACCA-AAACAUUAGAUUGUGAUUCUAAAGACAGGAGUUUaaACCUC 12878   
+
+           >>))))))):
+        59 cCuccuaccA 68      
+           C U:CU  CA
+     12879 CCUGCU--CA 12886   
+
+
+ Query = 1 - 68, Target = 15990 - 16059
+ Score = 29.33, E = 4.748e-05, P = 4.632e-08, GC =  36
+
+           (((((((,,<<<<______>>>>,<<<<<._______>>>>>.,,,,<<<<<___..__>
+         1 gguaggaUGGCugAauaaUaaGCGauaga.UUGUAAAucuau.uuAuGggggUua..auc 56      
+           ::U:::AU+G:U:A  AA :A:C :U:G  UUGUAAA C:A: ++ UG::G   +  A+ 
+     15990 ACUCUAAUAGUUUAUGAA-AAACAUUGGUcUUGUAAA-CCAAaAACUGAAGCCCUccACC 16047   
+
+           >>>>))))))):
+        57 cccCuccuaccA 68      
+           C::CU:::A::A
+     16048 CUUCUUAGAGUA 16059   
+
+
+ Query = 1 - 68, Target = 3920 - 3993
+ Score = 28.92, E = 5.648e-05, P = 5.51e-08, GC =  49
+
+           (((((((,,<<<<______....>>>>,<<<<<_______>>>>>,,,,<<<<<___.._
+         1 gguaggaUGGCugAauaaU....aaGCGauagaUUGUAAAucuauuuAuGggggUua..a 54      
+           G:UAG :UGGC:GA+ ++     A:GC A:AG:+U  AA :CU:U+U +:G:GGUU   A
+      3920 GCUAGCGUGGCAGAGCUUGgcaaAUGCAAAAGGCUUAAACCCUUUAUCCAGAGGUUCaaA 3979    
+
+           _>>>>>))))))):
+        55 uccccCuccuaccA 68      
+           UCC:C:: CUA:C 
+      3980 UCCUCUCCCUAGCU 3993    
+
+
+ Query = 1 - 68, Target = 1177 - 1244
+ Score = 28.30, E = 7.373e-05, P = 7.193e-08, GC =  51
+
+           (((((((,,<<<<______.>>>>,<<<<<_______>>>>>,,,,<<<<<_____>>>>
+         1 gguaggaUGGCugAauaaU.aaGCGauagaUUGUAAAucuauuuAuGggggUuaaucccc 59      
+           G::: :AU+GCU:AA  AU :AGC ::::A+UG A AU::::+ AUGG   U+ AU   C
+      1177 GCCCACAUAGCUUAACCAUaAAGCAUGGCACUGAAGAUGCCAAGAUGGCACUA-AUCCAC 1235    
+
+           >))))))):
+        60 CuccuaccA 68      
+           CU: :::CA
+      1236 CUGCGGGCA 1244    
+
+
+ Query = 1 - 68, Target = 11083 - 11150
+ Score = 26.82, E = 0.0001382, P = 1.349e-07, GC =  40
+
+           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<___.__>>>>
+         1 gguaggaUGGCugAauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUua.aucccc 59      
+           :G:A:G:U+G:::AAU+A :::C :::G:UU   A :C:::++AU :::G    A+C:::
+     11083 AGAAAGUUAGUCUAAUUA-AGACAGCUGGUUUCGACCCAGCAAAUUAUAGCCCcACCUAU 11141   
+
+           >))))))):
+        60 CuccuaccA 68      
+            :C:U:C: 
+     11142 AACUUUCUC 11150   
+
+
+ Query = 1 - 68, Target = 5121 - 5189
+ Score = 19.11, E = 0.00371, P = 3.619e-06, GC =  48
+
+           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<___..__>>>
+         1 gguaggaUGGCugAauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUua..auccc 58      
+           :GUAG :U : ::AAU A :: : :::G:+    A :C:::++AUG: GGUU+   +CC 
+      5121 AGUAGAGUCAGCUAAUCA-AGCUAUCGGGCCCAUACCCCGAAAAUGAUGGUUUaaCCCCU 5179    
+
+           >>))))))):
+        59 cCuccuaccA 68      
+           :C: CUAC:A
+      5180 UCCCCUACUA 5189    
+
+
+ Query = 1 - 68, Target = 8215 - 8283
+ Score = 17.90, E = 0.00622, P = 6.068e-06, GC =  38
+
+           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<___..__>>>
+         1 gguaggaUGGCugAauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUua..auccc 58      
+           G::A G:U+G:: A U+A  ::C :::  + GU AA  :::++  :::GGU +  AUCC:
+      8215 GAGACGUUAGUAAACUUA-UUACAUAGGCCCGUCAAGACUAAAUAACAGGUGUaaAUCCU 8273    
+
+           >>))))))):
+        59 cCuccuaccA 68      
+           :::C U::CA
+      8274 GUACAUCUCA 8283    
+
+
+ Query = 1 - 68, Target = 6229 - 6305
+ Score = 15.89, E = 0.01462, P = 1.426e-05, GC =  39
+
+           (((((((,,<<<<......______.>>>>,<<<<<_______>>>>>,,,,<<<<<___
+         1 gguaggaUGGCug......AauaaU.aaGCGauagaUUGUAAAucuauuuAuGggggUua 53      
+           :G:A:::U+G  :             :  C A::G +U  AAA C::U++AU::G:GUUA
+      6229 AGAAACUUAGGAUuaacccGCCGCCaAACCAAAGGCCUUCAAAGCCUUAAAUAAGAGUUA 6288    
+
+           ..__>>>>>))))))):
+        54 ..auccccCuccuaccA 68      
+              UC:C:::::U:C: 
+      6289 aaUUCUCUUAGUUUCUG 6305    
+
+
+ Query = 1 - 68, Target = 12955 - 13025
+ Score = 11.70, E = 0.08746, P = 8.533e-05, GC =  37
+
+           (((((((,,<<<<______.>>>>,<<<<<_______>>>>>,,,,<<<<<___..__>>
+         1 gguaggaUGGCugAauaaU.aaGCGauagaUUGUAAAucuauuuAuGggggUua..aucc 57      
+           ::U:::A +G ::AA+A U :: C  U:G +U    A C:A U AU ::GGU     UCC
+     12955 ACUUUUAAAGGAUAAAAGUaAUCCACUGGUCUUAGGAGCCAUUCAUCUUGGUGCaaCUCC 13014   
+
+           >>>))))))):
+        58 ccCuccuaccA 68      
+           :: U:::A::A
+     13015 AAGUAAAAGUA 13025   
+
+
+ Query = 1 - 68, Target = 10661 - 10730
+ Score = 11.61, E = 0.0907, P = 8.849e-05, GC =  40
+
+           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<___...__>>
+         1 gguaggaUGGCugAauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUua...aucc 57      
+           G:U::: U+G:: A U+A  ::C A  GA+U   AAUC  U++A  ::GGU+     +CC
+     10661 GCUCUUCUAGUAUACUUA-UUACAAUUGACUUCCAAUCUCUAAAAUCUGGUACccaGCCC 10719   
+
+           >>>))))))):
+        58 ccCuccuaccA 68      
+           ::  :::A:CA
+     10720 AGAGAAGAGCA 10730   
+
+
+ Query = 1 - 68, Target = 2225 - 2296
+ Score = 10.29, E = 0.1595, P = 0.0001556, GC =  44
+
+           (((((((,,<<<<.______>>>>,<<<<<_______>>>>>,,,,<<<<<___...__>
+         1 gguaggaUGGCug.AauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUua...auc 56      
+           :::: ::U+GCU  AA     AGC :U:::+U   A :::A:+ AU:::::      A+:
+      2225 CAAGACGUAGCUAuAACCCAAAGCAUUCAGCUUACACCUGAAAGAUAUCUCCCCuaaACG 2284    
+
+           >>>>))))))):
+        57 cccCuccuaccA 68      
+           :::::: ::::A
+      2285 AGAUCGCCUUGA 2296    
+
+
+ Query = 1 - 68, Target = 12889 - 12954
+ Score = 7.81, E = 0.4587, P = 0.0004476, GC =  47
+
+           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<___...__>>
+         1 gguaggaUGGCugAauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUua...aucc 57      
+           :::::G  G      ++A   ++ A:::A+UG  AAU:::U  AU :G:G  +   A+C:
+     12889 AAGGAGUGG-----UAUAACCAACAAGAACUGCUAAUUCUUGCAUCCGAGCCUaagACCU 12943   
+
+           >>>))))))):
+        58 ccCuccuaccA 68      
+           C:  C:::::A
+     12944 CGGCCUCCUUA 12954   
+
+
+  Minus strand results:
+
+ Query = 1 - 68, Target = 6594 - 6525
+ Score = 43.57, E = 1.097e-07, P = 1.071e-10, GC =  43
+
+           (((((((,,<<<<______.>>>>,<<<<<_______>>>>>,,,,<<<<<___..__>>
+         1 gguaggaUGGCugAauaaU.aaGCGauagaUUGUAAAucuauuuAuGggggUua..aucc 57      
+           G:UA:GAUGGCUGA+U +  AAGCG  AG:+UGUA  :CU  UUA+:G:GGUU    UCC
+      6594 GGUAAGAUGGCUGAGUGUCaAAGCGUUAGGCUGUAGUCCUUUUUACAGAGGUUCaaUUCC 6535    
+
+           >>>))))))):
+        58 ccCuccuaccA 68      
+           :C:UC:UA:C 
+      6534 UCUUCUUAUC- 6525    
+
+
+ Query = 1 - 68, Target = 16131 - 16062
+ Score = 30.07, E = 3.459e-05, P = 3.375e-08, GC =  37
+
+           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<___..__>>>
+         1 gguaggaUGGCugAauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUua..auccc 58      
+           :::A: :U+G:U:A U++ :A:C  :AG UU    A CU: + AU:::GGUU+   UCC:
+     16131 CAGAAGGUAGUUUAUUUUAAAACAUCAGCUUUGGGAGCUGGAGAUAGAGGUUUaaGUCCU 16072   
+
+           >>))))))):
+        59 cCuccuaccA 68      
+           ::: :U:::A
+     16071 UUCUUUCUGA 16062   
+
+
+ Query = 1 - 68, Target = 5121 - 5051
+ Score = 29.91, E = 3.709e-05, P = 3.619e-08, GC =  34
+
+           (((((((,,<<<<______.>>>>,<<<<<_______>>>>>,,,,<<<<<___..__>>
+         1 gguaggaUGGCugAauaaU.aaGCGauagaUUGUAAAucuauuuAuGggggUua..aucc 57      
+           :::A::AU+::::A++    ::::G:::::UU U A ::::: U UG::GGUU    UCC
+      5121 UAGAAAAUAAUAUAGAGGGaGUAUGGAGAGUUUUGAUCUCUUCUGUGUAGGUUCgaUUCC 5062    
+
+           >>>))))))):
+        58 ccCuccuaccA 68      
+           ::CU::U:::A
+      5061 UACUUUUCUAA 5051    
+
+
+ Query = 1 - 68, Target = 8212 - 8138
+ Score = 29.32, E = 4.766e-05, P = 4.649e-08, GC =  41
+
+           (((((((,,<<<<..______...>>>>,<<<<<_______>>>>>,,,,<<<<<___..
+         1 gguaggaUGGCug..AauaaU...aaGCGauagaUUGUAAAucuauuuAuGggggUua.. 53      
+           :::A::: +GC::  AAU  U   ::GCG: :G:+U  AAA:C: :+U UG: GGUU   
+      8212 AAGAAAGAAGCAUuaAAUGGUuugAUGCGGUUGGCUUGAAACCAGCAUGUGAGGGUUCaa 8153    
+
+           __>>>>>))))))):
+        54 auccccCuccuaccA 68      
+            UCC :C:::U::: 
+      8152 UUCCUUCCUUUCUUG 8138    
+
+
+ Query = 1 - 68, Target = 6380 - 6312
+ Score = 25.90, E = 0.0002047, P = 1.997e-07, GC =  38
+
+           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<___..__>>>
+         1 gguaggaUGGCugAauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUua..auccc 58      
+           :::    U+GCU:AAU+A :AGCG:::GAUU   A UC:::  AU:::GGUUA  AUCC:
+      6380 GAGGCUUUAGCUUAAUUA-AAGCGUCUGAUUUGCAUUCAGAGGAUACAGGUUAauAUCCU 6322    
+
+           >>))))))):
+        59 cCuccuaccA 68      
+           ::    :::A
+      6321 GUUGGUCUUA 6312    
+
+
+ Query = 1 - 68, Target = 6524 - 6458
+ Score = 23.05, E = 0.0006913, P = 6.745e-07, GC =  49
+
+           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<___..__>>>
+         1 gguaggaUGGCugAauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUua..auccc 58      
+           G:::  :U+::: A+U    ::: :U:::UUG AA :::A:U AUG :::UU     :::
+      6524 GGCCCUGUAGUGAAGU---UCAUAGUGAGUUGCAAGCUCAUUGAUGUACAUUGaaGGUGU 6468    
+
+           >>))))))):
+        59 cCuccuaccA 68      
+            C:  :::C 
+      6467 GCCGGGGUCU 6458    
+
+
+ Query = 1 - 68, Target = 16728 - 16661
+ Score = 18.71, E = 0.004398, P = 4.291e-06, GC =  49
+
+           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<___..__>>>
+         1 gguaggaUGGCugAauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUua..auccc 58      
+           ::U: ::U+G:U A++A   A:C A :G UU U AA C: U+  + ::GG     AUCC:
+     16728 GUUCCCGUAGUUGAGAA--CAACAAUGGCUUUUCAAGCCGUAGUCCUUGGGGCuaAUCCA 16671   
+
+           >>))))))):
+        59 cCuccuaccA 68      
+           : :: :A::A
+     16670 AGCGGGAAUA 16661   
+
+
+ Query = 1 - 68, Target = 6455 - 6383
+ Score = 17.62, E = 0.006987, P = 6.817e-06, GC =  52
+
+           (((((((,,<<<<______..>>>>,<<<<<_______>>>>>.,,,,<<<<<___..__
+         1 gguaggaUGGCugAauaaU..aaGCGauagaUUGUAAAucuau.uuAuGggggUua..au 55      
+           :::: :: +GC: A    U   :GC :::::+UGU AA::::: UU U::GGG U   A 
+      6455 UAGGCAGGAGCCAAUGGGUagCGGCAUCUAGCUGUUAACUAGAgUUGUAUGGGAUCgaAG 6396    
+
+           >>>>>))))))):
+        56 ccccCuccuaccA 68      
+           CCC:::: :::: 
+      6395 CCCAUCUGCCUAG 6383    
+
+
+ Query = 1 - 68, Target = 3988 - 3927
+ Score = 6.72, E = 0.7313, P = 0.0007135, GC =  47
+
+           (((((((,,<<<<______>>>>,<<<<<_______>>>>>,,,,<<<<<_____>>>>>
+         1 gguaggaUGGCugAauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUuaauccccC 60      
+           GG AG:: +  : AA  +  :   A:AG: U UAA :CU:UU    ::G      CC:: 
+      3988 GGGAGAGGAUUUGAACCUCUGGAUAAAGGGUUUAAGCCUUUUGCAUUUG------CCAAG 3935    
+
+           ))))))):
+        61 uccuaccA 68      
+           ::CU CCA
+      3934 CUCUGCCA 3927    
+
+
+ Query = 1 - 68, Target = 11147 - 11084
+ Score = 6.04, E = 0.9742, P = 0.0009505, GC =  39
+
+           (((((((,,<<<<.______>>>>,<<<<<_______>>>>>,,,,<<<<<_____>>>>
+         1 gguaggaUGGCug.AauaaUaaGCGauagaUUGUAAAucuauuuAuGggggUuaaucccc 59      
+           ::::::AU+: UG  + +AUAA : :::G: U  AAA:C:::U   G::::  AAU::::
+     11147 AAAGUUAUAGGUGgGGCUAUAAUUUGCUGGGUCGAAACCAGCU---GUCUU--AAUUAGA 11093   
+
+           >))))))):
+        60 CuccuaccA 68      
+           CU:::::: 
+     11092 CUAACUUUC 11084   
+
+
+#
+# Post-search info for CM 1: Y.seed25-1
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+    1   cm  ins  glc  1e-15       1.000       24    0.0020   0.0499
+#
+# expected time    actual time
+# -------------  -------------
+    00:00:18.93    00:00:17.00
+//
+#
+# CPU time: 17.83u 0.00s 00:00:17.82 Elapsed: 00:00:18

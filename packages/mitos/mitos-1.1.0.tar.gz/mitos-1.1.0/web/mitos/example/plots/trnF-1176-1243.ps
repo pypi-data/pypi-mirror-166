@@ -1,0 +1,189 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: PS_dot.c,v 1.38 2007/02/02 15:18:13 ivo Exp $, ViennaRNA-1.8.2
+%%CreationDate: Thu Apr 11 11:08:13 2013
+%%Title: RNA Secondary Structure Plot
+%%BoundingBox: 66 210 518 662
+%%DocumentFonts: Helvetica
+%%Pages: 1
+%%EndComments
+
+%Options: 
+% to switch off outline pairs of sequence comment or
+% delete the appropriate line near the end of the file
+
+%%BeginProlog
+/RNAplot 100 dict def
+RNAplot begin
+/fsize  14 def
+/outlinecolor {0.2 setgray} bind def
+/paircolor    {0.2 setgray} bind def
+/seqcolor     {0   setgray} bind def
+/cshow  { dup stringwidth pop -2 div fsize -3 div rmoveto show} bind def
+/min { 2 copy gt { exch } if pop } bind def
+/max { 2 copy lt { exch } if pop } bind def
+/drawoutline {
+  gsave outlinecolor newpath
+  coor 0 get aload pop 0.8 0 360 arc % draw 5' circle of 1st sequence
+  currentdict /cutpoint known        % check if cutpoint is defined
+  {coor 0 cutpoint getinterval
+   {aload pop lineto} forall         % draw outline of 1st sequence
+   coor cutpoint get aload pop
+   2 copy moveto 0.8 0 360 arc       % draw 5' circle of 2nd sequence
+   coor cutpoint coor length cutpoint sub getinterval
+   {aload pop lineto} forall}        % draw outline of 2nd sequence
+  {coor {aload pop lineto} forall}   % draw outline as a whole
+  ifelse
+  stroke grestore
+} bind def
+/drawpairs {
+  paircolor
+  0.7 setlinewidth
+  [9 3.01] 9 setdash
+  newpath
+  pairs {aload pop
+     coor exch 1 sub get aload pop moveto
+     coor exch 1 sub get aload pop lineto
+  } forall
+  stroke
+} bind def
+% draw bases
+/drawbases {
+  [] 0 setdash
+  seqcolor
+  0
+  coor {
+    aload pop moveto
+    dup sequence exch 1 getinterval cshow
+    1 add
+  } forall
+  pop
+} bind def
+
+/init {
+  /Helvetica findfont fsize scalefont setfont
+  1 setlinejoin
+  1 setlinecap
+  0.8 setlinewidth
+  72 216 translate
+  % find the coordinate range
+  /xmax -1000 def /xmin 10000 def
+  /ymax -1000 def /ymin 10000 def
+  coor {
+      aload pop
+      dup ymin lt {dup /ymin exch def} if
+      dup ymax gt {/ymax exch def} {pop} ifelse
+      dup xmin lt {dup /xmin exch def} if
+      dup xmax gt {/xmax exch def} {pop} ifelse
+  } forall
+  /size {xmax xmin sub ymax ymin sub max} bind def
+  72 6 mul size div dup scale
+  size xmin sub xmax sub 2 div size ymin sub ymax sub 2 div
+  translate
+} bind def
+end
+%%EndProlog
+RNAplot begin
+% data start here
+/sequence (\
+GCCCACAUAGCUUAACCAUAAAGCAUGGCACUGAAGAUGCCAAGAUGGCACUAAUCCACCUGCGGGCA\
+) def
+/coor [
+[110.132 222.123]
+[109.449 207.139]
+[108.766 192.154]
+[108.084 177.170]
+[99.775 164.808]
+[106.876 150.670]
+[106.194 135.685]
+[89.202 132.658]
+[76.396 122.448]
+[70.356 108.177]
+[55.360 108.518]
+[40.364 108.860]
+[25.367 109.201]
+[15.733 121.518]
+[0.425 124.710]
+[-13.329 117.270]
+[-19.035 102.710]
+[-13.998 87.906]
+[-0.597 79.847]
+[14.841 82.339]
+[25.026 94.205]
+[40.022 93.864]
+[55.018 93.522]
+[70.014 93.181]
+[77.526 79.011]
+[91.150 70.550]
+[90.468 55.565]
+[89.785 40.581]
+[89.102 25.596]
+[88.420 10.612]
+[75.886 1.260]
+[72.347 -13.972]
+[79.472 -27.891]
+[93.898 -33.927]
+[108.813 -29.228]
+[117.175 -16.014]
+[115.035 -0.524]
+[103.404 9.929]
+[104.087 24.914]
+[104.769 39.898]
+[105.452 54.882]
+[106.135 69.867]
+[116.153 72.556]
+[125.029 78.587]
+[131.647 87.485]
+[135.089 98.404]
+[134.751 110.207]
+[149.561 112.587]
+[159.191 100.622]
+[173.520 95.091]
+[188.692 97.481]
+[200.626 107.149]
+[206.112 121.494]
+[203.675 136.658]
+[193.970 148.562]
+[179.607 154.004]
+[164.451 151.519]
+[152.577 141.777]
+[147.181 127.397]
+[132.371 125.017]
+[121.178 135.003]
+[121.861 149.987]
+[130.218 163.421]
+[123.068 176.487]
+[123.751 191.472]
+[124.434 206.456]
+[125.116 221.441]
+[128.181 240.578]
+] def
+/pairs [
+[1 67]
+[2 66]
+[3 65]
+[4 64]
+[6 62]
+[7 61]
+[10 24]
+[11 23]
+[12 22]
+[13 21]
+[26 42]
+[27 41]
+[28 40]
+[29 39]
+[30 38]
+[47 60]
+[48 59]
+] def
+
+init
+
+% switch off outline pairs or bases by removing these lines
+drawoutline
+drawpairs
+drawbases
+% show it
+showpage
+end
+%%EOF

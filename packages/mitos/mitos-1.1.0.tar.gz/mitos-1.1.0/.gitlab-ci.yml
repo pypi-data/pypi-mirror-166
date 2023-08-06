@@ -1,0 +1,43 @@
+image: continuumio/miniconda3:latest
+
+# Columns of the pipeline
+stages:
+  - static_analysis
+  - build
+  # - test
+  - deploy
+
+# Static code analysis job via Pylint
+static analysis:
+  stage: static_analysis
+  before_script:
+    - pip install flake8 flake8-import-order
+  script:
+    - flake8
+  allow_failure: true
+
+# Compilation job
+build:
+  stage: build
+  before_script:
+    - conda env create --file environment.yaml -n mitos
+    - source activate mitos
+    - python -m pip install . --no-deps --ignore-installed -vv 
+  script:
+    # simple test showing help
+    - runmitos.py -h
+    # get refseq63 reference data and run on small sequence
+    - mkdir refdata && wget https://zenodo.org/record/2683856/files/mitos1-refdata.tar.bz2?download=1 -O refdata/refseq39.tar.bz2 && cd refdata && tar -xf refseq39.tar.bz2 && pwd && ls -la mitos1-refdata && cd -
+    - mkdir NC_012920 && runmitos.py -i test/NC_012920.fasta -o NC_012920 -r refdata/mitos1-refdata -c 2
+
+deploy_production:
+  stage: deploy
+  image: python:3.7
+  script:
+    - cat $PYPIRC > /tmp/.pypirc
+    - pip install twine
+    - python setup.py  sdist
+    - python -m twine upload --repository pypi dist/mitos-${CI_COMMIT_TAG}.tar.gz --config-file /tmp/.pypirc
+  only:
+    - tags
+

@@ -1,0 +1,5 @@
+PythonPath "['/u/mitos/MITOS/src']+sys.path"
+#AddHandler mod_python .py 
+#PythonHandler mod_python.publisher
+PythonHandler index
+PythonDebug On

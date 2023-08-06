@@ -1,0 +1,182 @@
+# cmsearch :: search a sequence database with an RNA CM
+# INFERNAL 1.0.2 (October 2009)
+# Copyright (C) 2009 HHMI Janelia Farm Research Campus
+# Freely distributed under the GNU General Public License (GPLv3)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# command:    /home/pacosy/maze/progz/infernal-1.0.2/src//cmsearch -g --fil-no-hmm --fil-no-qdb /home/pacosy/maze/workspace/mtdb/data//modelle-v1/16smito-1.0.cm /home/pacosy/maze/workspace/mtdb/output/5xMjJDQY/sequence.fas
+# date:       Thu Apr 11 10:15:33 2013
+# num seqs:   1
+# dbsize(Mb): 0.033456
+#
+# Pre-search info for CM 1: 16snew_curated.81-1
+#
+#                                  cutoffs            predictions     
+#                            -------------------  --------------------
+# rnd  mod  alg  cfg   beta     E value   bit sc     surv     run time
+# ---  ---  ---  ---  -----  ----------  -------  -------  -----------
+    1   cm  ins  glc  1e-15       1.000  -201.61   0.0474  00:14:24.92
+
+CM: 16snew_curated.81-1
+>NC_012453
+
+  Plus strand results:
+
+ Query = 1 - 1630, Target = 2300 - 3918
+ Score = 1236.31, E = 7.031e-35, P = 3.906e-36, GC =  46
+
+           ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+         1 gcaaaAaAgCUAGCccAAacAaaaaaaaaaaaaaaaaaaaaaaaAAaaaaaaaaaaaaaa 60      
+           GC+++   +CUAGCCCAA++AA+A    A   A  A  A AA A AA   A  A  A+A 
+      2300 GCCCUUCCUCUAGCCCAACUAACACCUCAUCCACUACCAUAA-ACAACUCACCACCAUAC 2358    
+
+           :::::<<<____>>>,,...,,<<-<<----<<_____>>---->>>>,,,,,,,,,,,,
+        61 uaAAagAAAaCAUUcuu...caacccuAGUAuaGGaGAuaGAAAagguaaauugGaGCaA 117     
+             AA  AAAACAUU U+   C+::CC AGUAUAGG GAUAGAAA G::  + +GG+GCAA
+      2359 CCAAUCAAAACAUUCUAacuCCGUCCCAGUAUAGGUGAUAGAAAAGAC-CUCAGGCGCAA 2417    
+
+           ,,,,,,....,,,,,<<____>>,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+       118 UAGAaA....aAGUACCGcAAGGGAAAGaUGAAAgAgAAAUGAAAAaaaAuuaAAGcAaa 173     
+           UAGA+A      GUACCG+AAGGGAAAGAUGAAA A+ AAUGAAAA  + +U+AAGC AA
+      2418 UAGAGAccacCCGUACCGUAAGGGAAAGAUGAAAUAACAAUGAAAA--CUAUUAAGCCAA 2475    
+
+           ,,,,,,,,<<<_______>>>,,,,,,,,,,,,,,,,,,{{{{{{{,,,,,,,,<<<<<-
+       174 AAAAAGCAgAGAUuAAacCUcGUACCUUUUGCAUcAUGAuuuAGCaAGaAaAaucaagCA 233     
+           AA  AG A:AGA UAA+CCU:GUACCUUUUGCAUCAUGAUUUAGCAAGAA AA+CAA:CA
+      2476 AAGUAGUAAAGACUAACCCUUGUACCUUUUGCAUCAUGAUUUAGCAAGAACAACCAAGCA 2535    
+
+           <<<____>>>-->>>>>,,,,[[---[[[[[.[[[,,,,,((((((((((,<<<<..___
+       234 aAgAGAAcUuuAGcuugaaacCCCGAaACca.aGcGAGCUACucaaagaCAGCcc..aaa 290     
+            AG G ACU +AG:UUG + CCCCGA:ACC: AGCGAGCUACU :: ::CAGC:   AA+
+      2536 AAGCGGACUAAAGUUUGCCCCCCCGAAACCCaAGCGAGCUACUUGCGAGCAGCUAaaAAU 2595    
+
+           __>>>>,,,<<<-<<<<<________>>>>>>>>,,)-))))))))),,,<<<_____>>
+       291 uAggGCaAACCCGuCuCUGUgGCAAAAGaGuGGGAAGAucuuugaGUAGAGGuGAaAAaC 350     
+           U  :GC AACCCGUCUCUGU GCAAAAGAGUGGGA GA:: :: AGUAGAGG:GAAAA:C
+      2596 UUGAGCGAACCCGUCUCUGUCGCAAAAGAGUGGGAUGACUUGCCAGUAGAGGUGAAAAGC 2655    
+
+           >,,,,,,]]]]]]]]------]],,[[[[[[,,,,<<<<<____>>>>>,,<<<<<<<<<
+       351 CUAcCGAgCuugGUuAUAGCUGGUUGCCcaagAAAuGaAuauAAgUuCaaCcuuaaauuu 410     
+           C+A+CGAGCU:GGU:AUAGCUGGUU:CC::: AAA GAAU+UAAGUUC AC:UUAA :: 
+      2656 CAAUCGAGCUGGGUGAUAGCUGGUUACCUGCCAAAUGAAUUUAAGUUCUACUUUAACCCG 2715    
+
+           <<<<<<<<<<________........>>>>>>>>>>>->>>>>>>>,,,,,<<<<<<<<<
+       411 ucuuuaaaaaaaaaaaAA........uuuuuaaagaaAaauuuaagAGuUAuuCaAagGg 462     
+            :  : A:   A  A+A           :U :  :   :: UUAA:AG  A UC:A GG:
+      2716 CUUCAAAGGACACCAUAGccccgaacCACUAUACAUUGGGAUUAAAAGCAACUCGACGGA 2775    
+
+           <______>>>>>>>>>>,,<<<______>>>,,,((((-((((--(((------------
+       463 GGUACAGCcCcuUuGaaAaAGGAuACAACCUuaauaggAGgauAAagaucAuAauaaaaa 522     
+           GGUACAGC:CC U:GA AAAG:A ACAA:CU   : :G GGA AA :A +A  +U+    
+      2776 GGUACAGCUCCAUCGAAAAAGAACACAAUCUCCCCUAGCGGAUAAUAACUACUUUUCCCC 2835    
+
+           ------((((<<<-<<<<_________>>>->>>>,,,,<<--<<______>>>>,,)))
+       523 AaaaauauguuaGUgGGCCUAAAAGCAGCCAcCuaaaaAgAAAGCGUUAAAGCUcAAaca 582     
+                 :     GU:GGCCU  AAGCAGCCA:C   AAAGAA GCGU AAAGCUCA    
+      2836 ------UCCCCCGUAGGCCUUCAAGCAGCCAUCAACAAAGAAUGCGUCAAAGCUCACCCC 2889    
+
+           )---------------------------)))--)))))))),,,,,,]]]]]],,<<<<<
+       583 uaaaaaaaaauauAAUaccaAaAaaaaAucuaAaucCccuaaaaauAuugGGCcAuuCcA 642     
+           :  AAAAA+++++AAU CCA        U:  A UCCC: :+  A A:::GG:+A  C:A
+      2890 ACUAAAAAUCAUAAAUCCCA--------UUUGACUCCCUCAUCCAAAGCAGGUUAACCUA 2941    
+
+           <<____>>>>>>>,,,,,,,}}}}}}},,,,,,,{{,,<<<<____>>>>((((.(((((
+       643 uaaaaauaUgGaaGAaAuaAuGCUaaaAUgAGUAAcAAGaaaaaaauuuCuCcu.aGCaC 701     
+           U  A A AU:G  GAA UAAUGCUAAAAU AGUAAC  G:::    :::CUC U AGC:C
+      2942 U-GACA-AUAGAAGAACUAAUGCUAAAAUAAGUAACUUGGGGCC--CCCCUCAUcAGCGC 2997    
+
+           ,,,,,,,,<<<<<_____________>>>>>,,,,,,<<<____________________
+       702 AAGugUAaauCagAAcGGAaaaaccAcuGauAAUUAACgaacccaaaaaaaaaaAaaaAa 761     
+           AA  +UA :              CCAC++ : AUUAAC::AC CAA ++ A A    +A 
+      2998 AAACUUACGC-------------CCACAAACUAUUAACAGACUCAACUU-AUACUUCUAC 3043    
+
+           ______________________________>>>,,.,,,<<______.>>,)))))----
+       762 AAaaaAacAAaAAAAaaauuaaaaaaaaaAucGUU.AACCCaACACA.GGAGuGCuaaaA 819     
+             A +  +A AA A   AU  AA A AA  ::GUU A  CCAAC C  GGAG:GCU  A 
+      3044 CUACCGCAAGAACACGUAUCUAACACAAGCCUGUUgAGACCAACUCCgGGAGCGCU-CAC 3102    
+
+           )))),[[[[---[[[[[[[[[-[[[[[-----------[[[[[[[[[,,<<<<<_____>
+       820 agGaAaGAcUAAaagaaaaagAAGGaACUCGGCAAACauaagcCCCGcCUGUUUACCAAA 879     
+           A GA  GA:UAAAA:: ::AGAAGGAACUCGGCAAAC   AG:CCCG+CUGUUU CCAAA
+      3103 AAGA-CGAUUAAAAUCCGCAGAAGGAACUCGGCAAACCAAAGACCCGACUGUUUCCCAAA 3161    
+
+           >>>>,,,<<<<<<<____...._______>>>>>>>,,,((((,<<<--<<<<<..____
+       880 AACAUcGCCuCuaGcAaa....aaAAguAUuaGaGGUacuGCCUGCCCAGUGAC..uAua 933     
+           AACAU+GCCU::AGC AA    A+AAGUAUU::AGGU + GCCUGCCCAGUGAC  +A+A
+      3162 AACAUAGCCUUCAGCCAAaccaACAAGUAUUGAAGGUGAUGCCUGCCCAGUGACccAAAA 3221    
+
+           _>>>-->>>>><<<<<<______>>>>>>,,<<<____________>>><<<<<<_____
+       934 aGUUuAACGGCCGCGGuAUuuUgaCCGUGCAAAGGUAGCGuAAUCACUUGuCccuUAAAU 993     
+           +GUU AACGGCCGCGGUAU++U+ACCGUGCAAA GUAGCG+AAUCA UUGUC:C UAAAU
+      3222 UGUUCAACGGCCGCGGUAUCCUAACCGUGCAAAGGUAGCGCAAUCAAUUGUCUCGUAAAU 3281    
+
+           >>>>>>,,,,,,,,,,)))),,,]]-]]]]]]]--]]]]]-]]]]]]]]]]]]]}},,,,
+       994 aggGaCcuGUAUGAAUGGCaaaACGAGGgcuuaACUgUCUCcuuuuucuagUCagUGAAA 1053    
+            G:GAC+UGUAUGAA GGC AAACGAGG:CU  ACUGUCU CU:: ::UA:UC GUGAAA
+      3282 UGAGACUUGUAUGAAAGGCUAAACGAGGUCUCAACUGUCUUCUGCUGAUAAUCAGUGAAA 3341    
+
+           ,,,,,,<<<<<<________>>>>>>,,,,,,{{{-{{{-{{,,,,,{{{{{-{{{{{{{
+      1054 UUGAUCucCCCGUGcAGAAGCGGGgaUAaaaacAuAAGACGAGAAGACCCuaUGGAgCUu 1113    
+           UU  U U:::CGUG+A AA CG:::AU     CAUAAGACGAGAAGACCCU:UGGA CUU
+      3342 UUAGUAUUUUCGUGAAAAAACGAAAAUGUGUUCAUAAGACGAGAAGACCCUGUGGAACUU 3401    
+
+           ,<<<<<-<<<<<<<<_____________________________________________
+      1114 uAgacaaaaaaaccaauaaaaaaaAAaaaaaaacaaaaAAggaaaaaAAaaaaaaaaaaa 1173    
+            A:A::+ ::AACCA ++    A  AA A+AA C+A    GG   +AA  +A+AAAA AA
+      3402 CAAAAUCAUCAACCACCCUCGCACUAACAUAACCCACCCCGGGCCUAACCCAUAAAACAA 3461    
+
+           _>>>>>>>>>>>>>,,<<<<<___>>>>><<<<<<___________>>>>>>[,((,,,,
+      1174 augguuuuuugucUUuGGuuGGGGCgaCCucGGaGaAAAAaAAAACCuCCgagaggAaua 1233    
+           +UGGUU:: ::U:UU+GGUUGGGGCGACCU:GGAGAAAAA AAA CCUCC:A:  :A ++
+      3462 CUGGUUGACAUUUUUCGGUUGGGGCGACCUUGGAGAAAAACAAACCCUCCAAACCCAUAG 3521    
+
+           ,,,,,,,,,,<--<<<<<<<<<____>>>>>>>>>>,<________>,)),,,,,,,,,,
+      1234 ggaaaaucuuuaAacuuaGAguaACaacUCuaaguaacAgAaauaugAccAauAauGAuC 1293    
+           +  A A+CU U+ ACU::GA   AC   UC::AGUA        A+ A: AA  ++GA C
+      3522 ACCACAACUCUUUACUAAGACCCACUUCUCAAAGUACU------AAUAGUAACCUAGACC 3575    
+
+           <<<<___>>>>,,,,,],,,,,}}}}}--}}}}}}},,,,,,,<<<<<<<<<<<<---<<
+      1294 CggcAaagccGAUCAAcGaAcCaAGuUACCCuaGGGAUAACAGCGcAAuCCccuccaAGA 1353    
+           C:::A A:::GA CAA:G+ACCAAG UACCC:AGGGAUAACAGCGCAAUC:CCU:CAAGA
+      3576 CAAUACAAUUGACCAAUGGACCAAGCUACCCCAGGGAUAACAGCGCAAUCUCCUUCAAGA 3635    
+
+           _______>>--->>>>>>>>>->>>,,,,,,,,,(((((-((((((,,<<<<<<<<<___
+      1354 GuCCAUAUCGACgaggGGgUUUaCGACCUCGAUGUUGGAUCAGGACAUCcuAAugGuGCA 1413    
+           G+CCAUAUCGAC:AGG:GGUUUACGACCUCGAUGUUGGAUCAGGACA CCUAAUGGUGCA
+      3636 GCCCAUAUCGACAAGGAGGUUUACGACCUCGAUGUUGGAUCAGGACAACCUAAUGGUGCA 3695    
+
+           ___>>>>>>->>>,,<<<<<_____>>>>>,,,,.,)))))--)---))))),,,,,<<<
+      1414 GCcgCuaUUAagGGUuCGUUUGUUCAACGaUUAA.AGUCCUACGUGAUCUGAGUUCAGAC 1472    
+           GCCGCUAUUAAGGGUUCGUUUGUUCAACGAUUAA AGUCCUACGUGAUCUGAGUUCAGAC
+      3696 GCCGCUAUUAAGGGUUCGUUUGUUCAACGAUUAAcAGUCCUACGUGAUCUGAGUUCAGAC 3755    
+
+           <<<<____>>>->>>>,,,,}}--}}}}}},(((((<<<<<<<_______________>>
+      1473 CGGAGuAAUCCAGGUCgGUUUCUAUCUaUgaagauauuuuucCuAGUACGAAAGGACcGg 1532    
+           CGGAGUAAUCCAGGUCGGUUUCUAUCUAUG  ::  :U :UCCUAGUACGAAAGGACCGG
+      3756 CGGAGUAAUCCAGGUCGGUUUCUAUCUAUGUAUGCACUCCUCCUAGUACGAAAGGACCGG 3815    
+
+           >>>>>,<<<<<---<<<_____>>>->>>>>,..<<<<---<<<<<____________>>
+      1533 aaaaaaggGGCCaAugcuaaAagcacGCCcca..cccuuAauuaauGAAaacAAcUaAau 1590    
+           A: A:+:GGG:CAAU C A  AG AC:CCC:A   C:: AA:: AUGA   CAACU AAU
+      3816 AGAAGUAGGGUCAAUACCACCAGCACACCCUAacCCUCCAAGCAAUGAGCCCAACUCAAU 3875    
+
+           >>>---->>>>)))-)--),,,....,<<<<_______>>>>::
+      1591 uaaaaAAaggguauacaauaaa....aacCcaAGAaAAgGguau 1630    
+            :: +AA::G   : :+  A+A    A :CC+AGAAAAGG: AU
+      3876 CGC-UAAGAGAACUCACCCACAccccACUCCUAGAAAAGGACAU 3918    
+
+
+#
+# Post-search info for CM 1: 16snew_curated.81-1
+#
+#                              number of hits       surv fraction  
+#                            -------------------  -----------------
+# rnd  mod  alg  cfg   beta    expected   actual  expected   actual
+# ---  ---  ---  ---  -----  ----------  -------  --------  -------
+    1   cm  ins  glc  1e-15       1.000        1    0.0474   0.0484
+#
+# expected time    actual time
+# -------------  -------------
+    00:14:24.92    00:49:40.00
+//
+#
+# CPU time: 3014.53u 0.72s 00:50:15.25 Elapsed: 00:50:16
