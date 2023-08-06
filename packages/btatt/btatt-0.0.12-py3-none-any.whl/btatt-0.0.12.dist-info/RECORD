@@ -1,0 +1,12 @@
+btatt/__init__.py,sha256=rQL5LeVJYeeNQhqGh3Qa7KeLYIr5mIR_SFH3-v_I_qw,7705
+btatt/att.py,sha256=gl3yMezZLGnUbJw01fx8U_PhI9iIi5ZM95KSFKkK5vA,106971
+btatt/client.py,sha256=LacpFOAenQunMfaM4JrU9b86INfHni0qjXzh-c4l8HA,46507
+btatt/server.py,sha256=96lLybefYE-68S_TtziD-WY0k5n_IPXsxl45iz9Jqjo,4871
+btatt/pytransform/__init__.py,sha256=OAwIt1kGBC0Y5zsNJlTrAwQwmJhMqierRUVI_ZOjqgg,13587
+btatt/pytransform/platforms/linux/aarch64/_pytransform.so,sha256=ZT621IlyRiF65tJySlgN6V8_DIwv3jCyCAS7KuhIN9w,1087608
+btatt/pytransform/platforms/linux/x86_64/_pytransform.so,sha256=NgdsQ5RSqNyn6P1M3-SdYLD38eQcoD4Ep90VEnl__GU,1198080
+btatt-0.0.12.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+btatt-0.0.12.dist-info/METADATA,sha256=xRB3Tf99lNwRENGbRlPlKvCNxQwUNOzCq-MVXY_jecU,801
+btatt-0.0.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+btatt-0.0.12.dist-info/top_level.txt,sha256=nYrX5ChEW64yd06B1LaAJkFbWF7l0_d-qGKO_Sc2W14,6
+btatt-0.0.12.dist-info/RECORD,,
