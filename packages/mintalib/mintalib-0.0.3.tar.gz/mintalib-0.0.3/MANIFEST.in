@@ -1,0 +1,5 @@
+# Exclude all pyx files
+# recursive-exclude * *.pyx
+
+# Include testing data files
+# include src/mintalib/testing/data/*.csv
