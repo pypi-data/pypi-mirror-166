@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: zh-num2int
+Version: 1.0.0
+Summary: 中文大写数字转为阿拉伯数字
+Home-page: https://pypi.org/
+Author: shaozhuquan
+Author-email: shaozqzq@sina.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3
+
+UNKNOWN
+
