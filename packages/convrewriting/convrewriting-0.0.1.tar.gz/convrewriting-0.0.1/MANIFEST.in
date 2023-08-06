@@ -1,0 +1,2 @@
+include *.txt
+recursive-include convrewriting *.txt *.py *.csv *.tsv *.pkl
