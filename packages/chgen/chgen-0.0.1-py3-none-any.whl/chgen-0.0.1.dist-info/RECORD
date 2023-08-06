@@ -1,0 +1,9 @@
+chgen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chgen/analysis.py,sha256=P-hPh_B9j_g8jgvVx5au1WzGv_Z8YhmzSx2Ab_hYxBA,7390
+chgen/functions.py,sha256=WpnPCBAz1vZ20qBmm6iT4xiRuS190U4ZFHYsVp_Emvk,11746
+chgen/wrapper.py,sha256=B-LWXvqIjATn4rit4v71PcxyaMoNlpjm3qbNHnSK4hY,15751
+chgen-0.0.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+chgen-0.0.1.dist-info/METADATA,sha256=-tTWGQBDwWmNKdgkQ3tgpEjLadDOBHMM5InwCt21Jg8,2519
+chgen-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+chgen-0.0.1.dist-info/top_level.txt,sha256=tejz6-XS2EF7K62Ycr1-HutSEbE45G5KE5iZwk_JHD4,6
+chgen-0.0.1.dist-info/RECORD,,
