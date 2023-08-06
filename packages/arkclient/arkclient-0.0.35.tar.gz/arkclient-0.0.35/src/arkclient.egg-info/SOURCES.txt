@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/arkclient/__init__.py
+src/arkclient/config.ini
+src/arkclient/main.py
+src/arkclient.egg-info/PKG-INFO
+src/arkclient.egg-info/SOURCES.txt
+src/arkclient.egg-info/dependency_links.txt
+src/arkclient.egg-info/requires.txt
+src/arkclient.egg-info/top_level.txt
+src/arkclient/client/__init__.py
+src/arkclient/client/api_client.py
+src/arkclient/client/game_bot_client.py
+src/arkclient/client/multi_client.py
+src/arkclient/client/single_client.py
