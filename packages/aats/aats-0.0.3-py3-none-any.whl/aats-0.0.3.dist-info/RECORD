@@ -1,0 +1,16 @@
+aats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aats/base_strategy.py,sha256=VFakgvqHFn3hdPvROkNFmKEXgMlqfe6ass3WFJLCFg0,3704
+aats/control_service.py,sha256=Ary0fUVqVnBrPXfMsy07Y5BZMBrz7-MeqyjZLEeqPZU,1986
+aats/manager.py,sha256=YaUO2tlzmTXBHfBTODdLzvpWvZ-Gq5XIGFmXHfMPDBk,10436
+aats/market_service.py,sha256=TlUTXOZCMDfQw8wXgB3uw_VO9gLwnHhkz3_zvTGkFE4,2527
+aats/trade_service.py,sha256=ms0VctzuSRUK_t-ItiDujiTHXVs44yqnxqVE6tqQ9_k,3077
+aats/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aats/base/const.py,sha256=cZUK1NOtbkawOhGyCHut_VJbcftpYZXasY0gCZH0VEQ,726
+aats/base/order.py,sha256=1nsIa4h9LAZ6pSk3XMsahFrNP4QTbvtD8jO0DXQ3KqU,970
+aats/base/singleton.py,sha256=hHo2oJKyf7wFyDI-jUy72Fs804S7PmvpmMmqrSKRPco,180
+aats/base/symbolinfo.py,sha256=dJXz_FHiR8KD7AClNgd-lq9RMN7U2JiO1rR7IeTpAF4,547
+aats/base/utils.py,sha256=EQlos0X28Y1ovxZR9BB1N0U0sf5ovoYZvUUiVORrgbQ,782
+aats-0.0.3.dist-info/METADATA,sha256=Vv8KV1l-KdUkIl7HPxBSmAesNgbKxjqledPuFO_Jsi8,6474
+aats-0.0.3.dist-info/WHEEL,sha256=09RFlvY3aVzvCNk4AXPZt-N-AI7GY_KktGsTb2IqIBU,86
+aats-0.0.3.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+aats-0.0.3.dist-info/RECORD,,
