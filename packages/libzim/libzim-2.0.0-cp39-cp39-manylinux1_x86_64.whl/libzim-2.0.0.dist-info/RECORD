@@ -1,0 +1,14 @@
+libzim.cpython-39-x86_64-linux-gnu.so,sha256=g0ywbi8XBuuvg4HM30JODuwBHiwTUJj1tLVqyVT_Y-M,4486360
+libzim.so.8,sha256=pCt_Ekpn3NhDdqb_BH0eOh5oLKDGZO_d-4SJU0p_j9w,19927152
+libzim/libwrapper.cpp,sha256=vXnLNyYifQAEOvTNaoue3k2JQHxiRpRix_2UoP3Dt4o,4657
+libzim/libwrapper.h,sha256=Z4Cxjl1UsFjMKNdh9277HFL-zXQpwMC41IJ39pdelX8,10479
+libzim/libzim.cpp,sha256=GJG4t8UxY76pwU1qTORcd5H0XcitFf3YCRAipitfUHQ,1282908
+libzim/libzim.h,sha256=5FA39UMBQsFuaokfGp94G2BxXhoVHcQSUrZtKNmOKIU,1248
+libzim/libzim.pyx,sha256=dypGHUXv1hgL0v8rOcScBWrPqf1g2gICR2YAcNQdChw,40611
+libzim/libzim_api.h,sha256=xFKIH4uhao6sp8javoULltrEY6DWxvEUd24GewXiCtM,4512
+libzim/zim.pxd,sha256=6bsXt6LYQHowuWvr1Wf7vncLLOUMB-LEUrupA48Gycw,7267
+libzim-2.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+libzim-2.0.0.dist-info/METADATA,sha256=jIU2qAeVYNC-hNHRNqONcuS7aAunQ-E64Y-EnvALUxc,5995
+libzim-2.0.0.dist-info/WHEEL,sha256=XGG5hFQRBvPg_AbQ9Tz-vXqq83wWYxtnoPYl6-1tPj4,108
+libzim-2.0.0.dist-info/top_level.txt,sha256=GdZ3eu3o1TZ8u4YE89CdUK2IPSei-1_pQ0Ipw32EMmo,7
+libzim-2.0.0.dist-info/RECORD,,
