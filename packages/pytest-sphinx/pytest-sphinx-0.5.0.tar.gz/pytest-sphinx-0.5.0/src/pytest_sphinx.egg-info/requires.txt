@@ -1,0 +1,6 @@
+pytest>=7.0.0
+
+[lint]
+isort>=5
+flake8
+black
