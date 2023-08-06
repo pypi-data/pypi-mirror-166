@@ -1,0 +1,5 @@
+zenoml_image_classification/__init__.py,sha256=lPAePZzosqVDXkeFI8-w1USUOloqsS0Twk8AtcaFWlM,108
+zenoml_image_classification/frontend/index.mjs,sha256=hgBbTQniplds0M57PdPyaZJ2fLpMApoZJi5FnARHuv8,18797
+zenoml_image_classification-0.0.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+zenoml_image_classification-0.0.3.dist-info/METADATA,sha256=7L59uPi8uAAg9kCWcTwATiNQgpGXpmS0jlouv-mtd7w,899
+zenoml_image_classification-0.0.3.dist-info/RECORD,,
