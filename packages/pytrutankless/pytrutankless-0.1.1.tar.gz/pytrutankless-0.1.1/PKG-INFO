@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: pytrutankless
+Version: 0.1.1
+Summary: A Python client library for the TruTankless API
+Home-page: https://github.com/colemamd/pytrutankless
+Author: @colemamd
+License: MIT
+Project-URL: Source, https://github.com/colemamd/pytrutankless
+Project-URL: Bug Reports, https://github.com/colemamd/pytrutankless/issues
+Project-URL: Release Notes, https://github.com/colemamd/pytrutankless/releases/)
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pytrutankless
+
+Python interface for TRUTANKLESS branded water heaters
+
+## Installation
+
+```
+pip install pytrutankless
+```
+
+## Usage
+
+```python
+from pytrutankles.api import TruTanklessApiInterface
+
+email = "your_email"
+password = "your_password"
+
+api = await TruTanklessApiInterface.login(email, password)
+```
+
+### Methods
+
+### `login(email, password)`
+
+```
+api.login(email, password)
+```
+
+Given email and password, logs into service and retrieves `access_token`
+
+### `get_devices()`
+
+```
+api.get_devices()
+```
+
+Updates list of locations and devices. Returns dictionary of device objects.
+
+### `refresh_device(device_id)`
+
+```
+api.refresh_device(device_id)
+```
+
+Given `device_id`, updates usage data for that device.
