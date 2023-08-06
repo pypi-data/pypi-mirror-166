@@ -1,0 +1,10 @@
+test1.py,sha256=5Jg5h4lZpL4IAQflorGKFCijG2sy7ceKTRyVlMH5GbM,105
+test2.py,sha256=uN8bKL_KV8glg2f4gF9aj6Wg01C1RAsRpzqu6wfFnSw,133
+nalangTest/test1.py,sha256=5Jg5h4lZpL4IAQflorGKFCijG2sy7ceKTRyVlMH5GbM,105
+nalangTest/test2.py,sha256=uN8bKL_KV8glg2f4gF9aj6Wg01C1RAsRpzqu6wfFnSw,133
+nalangTest2/test1.py,sha256=e2ooW3mfX0tCwjL5h6s7JqgeE3nYRTB9a0yV0rRqAIA,127
+nalangTest2/test2.py,sha256=Pg1TOrdsM42aMHoOqIMg9SyCcroRyNDn30giDR7pAlM,154
+nalangTest2-0.0.0.2.dist-info/METADATA,sha256=H393yd-fJ0ro70EsY41fJFMPtYIQ3glWDRupSxwTqAg,233
+nalangTest2-0.0.0.2.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+nalangTest2-0.0.0.2.dist-info/top_level.txt,sha256=tYC75r9B0rf7AdQbZXiZIcyK6sgzk6RJwcp1hvtqW2M,24
+nalangTest2-0.0.0.2.dist-info/RECORD,,
