@@ -1,0 +1,13 @@
+dashboard_client.cpython-38-darwin.so,sha256=t6XUcBgXNxyTAt90O4S_CrTIfEAmqKT9bsB_YuyF3L0,1415384
+librtde.1.5.4.dylib,sha256=wLoy8pSTa5DeAeo81zQv6xnPmktxRCjd6lI0DvMc5cA,1264656
+librtde.1.5.dylib,sha256=wLoy8pSTa5DeAeo81zQv6xnPmktxRCjd6lI0DvMc5cA,1264656
+librtde.dylib,sha256=wLoy8pSTa5DeAeo81zQv6xnPmktxRCjd6lI0DvMc5cA,1264656
+rtde_control.cpython-38-darwin.so,sha256=jqq58iD6MWOK14r3giIm9JIboAf_yrSoRWCoUE2uwJw,1415384
+rtde_io.cpython-38-darwin.so,sha256=ONwvbMEJT7B_WZ3O_zTySwfaArfmOJ8W6Jp4Klr4NdA,1415384
+rtde_receive.cpython-38-darwin.so,sha256=MHJd1q6-lu8AQckKc0wIFfAXiB2kQIPsdnvZhS4Gjsw,1415384
+script_client.cpython-38-darwin.so,sha256=1jVdSDciAzdGS8zVKbg3x9KQuF2bObvuA1uP0dkefU8,1415384
+ur_rtde-1.5.4.dist-info/LICENSE,sha256=YX8LoHj7cTRVoVIH4hWazlEdOgvBslYWTGEv0OstRsw,1092
+ur_rtde-1.5.4.dist-info/METADATA,sha256=rsX8IosmCSWmgDy20VB8PQi7ajxJpRpCuI5GuyeC8WA,4578
+ur_rtde-1.5.4.dist-info/WHEEL,sha256=RA4ju32EWHpO-G1BhxTQ3AwXQWjnnrzYGkM9skoN7_I,109
+ur_rtde-1.5.4.dist-info/top_level.txt,sha256=cQHKhzqRqcreja5_610bk4zuPL8gRTlbyD9EqDEkiy8,8
+ur_rtde-1.5.4.dist-info/RECORD,,
