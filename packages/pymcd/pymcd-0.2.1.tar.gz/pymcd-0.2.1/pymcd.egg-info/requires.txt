@@ -1,0 +1,6 @@
+librosa
+numpy
+pyworld
+pysptk
+fastdtw
+scipy
