@@ -1,0 +1,13 @@
+lectioscraper/__init__.py,sha256=OH7w7Ge_-f2abN2IxBchCRCZZ8IDcucLjn5Bc8_dQ3o,574
+lectioscraper/getAbsence.py,sha256=efFi_tANiXJnQvDeEf_NN_twp3j-7i3OLoEiuMb27TU,2578
+lectioscraper/getAllHomework.py,sha256=4FzlSbJeTyTvMK11pb9HBY1yddYZqwqd2C-fjcwCPyo,3563
+lectioscraper/getAssignments.py,sha256=trBM_Ywn10tgMKEp6woKwGx60HQaYHWr7NjmO3coIE8,5381
+lectioscraper/getSchedule.py,sha256=gblIFYdoCCMUU08wM_TXk0C4yHDaubRctYhpm1Tw-kc,4647
+lectioscraper/getTodaysSchedule.py,sha256=iVa46oGGNWss6s1RY-JzPvl0BeWvELr2N_D6PFr_mAk,784
+lectioscraper/getUnreadMessages.py,sha256=ykzJxIcEDzXFEfC2zHBj5EEoSRhEzSKX-8wHFayCcds,6049
+lectioscraper/lectioscraper.py,sha256=zSOmA708z2uWu8-EgFDs2njxzc-md6_b0R64HlZlSfA,8759
+lectioscraper-0.0.6.1.dist-info/LICENSE,sha256=a6iVjKURyrvqI7y1fhc3arWI0QFifhj-gR0ryQERZWk,35150
+lectioscraper-0.0.6.1.dist-info/METADATA,sha256=1BvIZZuiMhhQ1lYN8lK1v5Auh8N6A7_cdVppiGxrTGc,1834
+lectioscraper-0.0.6.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lectioscraper-0.0.6.1.dist-info/top_level.txt,sha256=wiqErfw2LZKfoS1Fn-hVnfnU_5x0KaNobdyUkjIUOY0,14
+lectioscraper-0.0.6.1.dist-info/RECORD,,
