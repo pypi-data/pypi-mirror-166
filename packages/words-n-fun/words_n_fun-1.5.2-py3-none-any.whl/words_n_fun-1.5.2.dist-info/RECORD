@@ -1,0 +1,17 @@
+words_n_fun/__init__.py,sha256=CAqiZ7VvTxmIdabhmIpUh7zpS4qKVaylVVIiLk9Ez2s,1066
+words_n_fun/utils.py,sha256=oWShLPF6TUpz-vnDe3yJscR5B5dWmprbbLAPp16L9aQ,38087
+words_n_fun/configs/pipeline_usage_order.json,sha256=LQbbXQXSrrncwgvypJsVybJR8LIuGicb4ivQkCqjMLc,7230
+words_n_fun/nltk_data/corpora/stopwords/french,sha256=WKx_fAdLcNwPyG9vz0Cywifp-VYn6Q5Xlx1czh4w4uk,813
+words_n_fun/preprocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+words_n_fun/preprocessing/api.py,sha256=pOboxzCgIJe5wH9mfNg5uFftpUQ4eilQMUPLFBNuWnw,23626
+words_n_fun/preprocessing/basic.py,sha256=rfb8J9HNFWIBTm9-8kvL1VAKHneb0F2lOlAUlFfyqV8,13586
+words_n_fun/preprocessing/lemmatizer.py,sha256=OpIQ9HSo_g3Y2r2Pop8teFnLo72ajRz2bSG7xFBS-_8,3659
+words_n_fun/preprocessing/split_sentences.py,sha256=D_-G_HEjvClFE2nVAOL_VR-Q_eJJ9YhrhcOKKu3FHBA,3246
+words_n_fun/preprocessing/stopwords.py,sha256=4tNab5KoiOIfDLy8qciJ_2bn2zygNT4FEkSxDZ_18JY,13075
+words_n_fun/preprocessing/synonym_malefemale_replacement.py,sha256=p33Q4r9Cl59dNREuJ0oWvBLV0rpuegidvLBmkTyIvkU,7997
+words_n_fun/preprocessing/vectorization_tokenization.py,sha256=d5erVNoccfh0yGhpAEEcfT-2P92NqsR6Qj7PNbjk82c,3726
+words_n_fun-1.5.2.dist-info/LICENSE,sha256=D2jNBrNfrwIscsSAzkLMhz7swrIp487Wwtak2aEusS8,31709
+words_n_fun-1.5.2.dist-info/METADATA,sha256=C-zUJ03nELOQtwnu3n3jVX5eqZPHVTfs7WTRa7CUPow,5397
+words_n_fun-1.5.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+words_n_fun-1.5.2.dist-info/top_level.txt,sha256=jBitbXSTs_o3AQCmI2xF2G9zmxvN6tKtCwpbfxQ7Pmk,12
+words_n_fun-1.5.2.dist-info/RECORD,,
