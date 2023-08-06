@@ -1,0 +1,3 @@
+[console_scripts]
+layer_manage = zappa_layer.layer_manage:cli
+

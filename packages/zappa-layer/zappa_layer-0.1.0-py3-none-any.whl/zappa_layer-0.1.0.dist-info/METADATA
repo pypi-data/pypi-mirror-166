@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: zappa-layer
+Version: 0.1.0
+Summary: A tool for managing AWS Lambda layers for Zappa
+Home-page: https://github.com/esc5221/zappa_layer
+Author: Byungwook Choi
+Author-email: esc5221@gmail.com
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Requires-Python: >=3.6,!=3.10.*,!=3.11.*
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+
+# zappa-layer
+
