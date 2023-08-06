@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tasket
+Version: 0.0.4
+Summary: Maintain a list of needful things to do.
+License: BSD 3-Clause
+Author: Damien Calloway
+Author-email: damiencalloway@fastmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: SQLAlchemy (>=1.4.40,<2.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: coverage[toml] (>=6.4.4,<7.0.0)
+Requires-Dist: rich (>=12.5.1,<13.0.0)
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)

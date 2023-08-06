@@ -1,0 +1,3 @@
+[console_scripts]
+tasket=tasket.main:app
+

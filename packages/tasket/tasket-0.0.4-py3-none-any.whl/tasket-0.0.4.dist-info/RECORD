@@ -1,0 +1,11 @@
+tasket/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tasket/constants.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tasket/database.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tasket/tasket.py,sha256=-3VwHYs403l2FUzXqPtCIz717KYEe_f9CE5TCGH1BG0,1038
+tasket/ttasket.py,sha256=LAMq9tfTczoDZbKcFmZXrKnz7rW6jA6Yx-VH6Ow9A6g,1073
+tasket/typer-tasket.py,sha256=fcZTPsuUaSXaj4zXC5Bu-tsL_q1PuPrg7KTVILdfPn4,867
+tasket-0.0.4.dist-info/entry_points.txt,sha256=p-hWXc4Om2zq3D-VMhvs34LXTRgmoT-BcFIufZ4uKFA,42
+tasket-0.0.4.dist-info/LICENSE,sha256=9cfZP8I5Rzj9VeRiLkSjM345vN5e9LQ6vs9xdZUnLdg,1515
+tasket-0.0.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tasket-0.0.4.dist-info/METADATA,sha256=xFxuFyNwaoBuFut--6iG06B7Cqi76HNYhL3eoS7gpAA,576
+tasket-0.0.4.dist-info/RECORD,,
