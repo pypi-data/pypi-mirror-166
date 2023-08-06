@@ -1,0 +1,10 @@
+poverty/__init__.py,sha256=f95dQ82G_bmjvQB915BrUMtamRUnkWGsg3EkgAjnEFU,64
+poverty/__version__.py,sha256=Pl9o40CDD3kn4AhQLuKWzEzOAs71Zql1Rccwg8xtHfw,299
+poverty/guidelines.py,sha256=vpvy9m3cO59TdHaANFiVbkRC365cBeaDW7O4zjhHi24,568
+poverty/povertylevel.py,sha256=1LFiaPYFZRB4pTM1EQ2jPs8kyAXC3Hdqih3A1H9Abhc,1714
+poverty/state.py,sha256=2W2EJ9e7m-79HdAPjkB7sXHAOaBdaIQ7nF7h4pQeL1A,210
+povertylevel-0.0.5.dist-info/LICENSE,sha256=Nw6fP0RwgYmCvjeZfWdDSSGspiYxA74xKxd_SUZVT94,1052
+povertylevel-0.0.5.dist-info/METADATA,sha256=g8rr-AASQ9SnoXLLlkj1MthGZFkuG-1rsT4yy17gvvQ,1533
+povertylevel-0.0.5.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+povertylevel-0.0.5.dist-info/top_level.txt,sha256=unCJX2bil6jiriBhuMOCz6cl0uFmHIClT1mY-2VjHbI,8
+povertylevel-0.0.5.dist-info/RECORD,,
