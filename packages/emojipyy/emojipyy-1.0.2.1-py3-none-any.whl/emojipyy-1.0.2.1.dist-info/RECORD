@@ -1,0 +1,12 @@
+emojipy/__init__.py,sha256=W1tlc4uG4Y3ZJQW0EhEV3rUGJR5R_b43augg2m1gKdg,259
+emojipy/emojipy.py,sha256=aODkVYJ_5emWExB7jSSivkIXN9uHzY6yQRah1aMzajI,729
+emojipy/unicode.py,sha256=gjigG-_jga6PAbBFUNb7CsVIJxT11Y8bUSFp3wTu6CQ,862273
+emojipyy/__init__.py,sha256=W1tlc4uG4Y3ZJQW0EhEV3rUGJR5R_b43augg2m1gKdg,259
+emojipyy/emojipyy.py,sha256=aODkVYJ_5emWExB7jSSivkIXN9uHzY6yQRah1aMzajI,729
+emojipyy/unicode.py,sha256=gjigG-_jga6PAbBFUNb7CsVIJxT11Y8bUSFp3wTu6CQ,862273
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_emojipy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emojipyy-1.0.2.1.dist-info/METADATA,sha256=VRSWvpIZlggtjYt-LF8Mzl8bwhVPqrQNH0CQUQmKCZA,177
+emojipyy-1.0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+emojipyy-1.0.2.1.dist-info/top_level.txt,sha256=TnBQEFBseB-_aAqjSFJllBqsqCgV3knG8HdaeSOOgSM,9
+emojipyy-1.0.2.1.dist-info/RECORD,,
