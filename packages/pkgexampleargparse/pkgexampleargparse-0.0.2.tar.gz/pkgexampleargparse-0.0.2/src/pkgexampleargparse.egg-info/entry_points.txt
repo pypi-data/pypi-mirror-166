@@ -1,0 +1,8 @@
+[console_scripts]
+rexadd = pkgexampleargparse:my_argparse_module.my_int_list
+rexanimal = pkgexampleargparse:my_argparse_module.my_store_const
+rexbool = pkgexampleargparse:my_argparse_module.my_bool
+rexconcat = pkgexampleargparse:my_argparse_module.my_string_list
+rexgroups = pkgexampleargparse:my_argparse_module.my_groups
+rexhello = pkgexampleargparse:my_argparse_module.my_store
+rexsub = pkgexampleargparse:my_argparse_module.my_subparser

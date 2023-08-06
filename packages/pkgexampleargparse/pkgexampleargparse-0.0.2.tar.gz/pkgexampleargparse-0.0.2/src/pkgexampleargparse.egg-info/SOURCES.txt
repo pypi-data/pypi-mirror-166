@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+src/pkgexampleargparse/__init__.py
+src/pkgexampleargparse/my_argparse_module.py
+src/pkgexampleargparse.egg-info/PKG-INFO
+src/pkgexampleargparse.egg-info/SOURCES.txt
+src/pkgexampleargparse.egg-info/dependency_links.txt
+src/pkgexampleargparse.egg-info/entry_points.txt
+src/pkgexampleargparse.egg-info/top_level.txt

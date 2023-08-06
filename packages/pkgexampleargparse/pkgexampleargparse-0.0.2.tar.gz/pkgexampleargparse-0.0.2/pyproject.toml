@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkgexampleargparse"
+version = "0.0.2"
+authors = [
+  { name="Good Boy", email="pythonic@rexbytes.com" },
+]
+description = "A simple argparse package example"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/RexBytes/pkgexampleargparse"
+"Bug Tracker" = "https://github.com/RexBytes/pkgexampleargparse/issues"
+"Download URL" ="https://github.com/RexBytes/pkgexampleargparse/archive/refs/tags/v0.0.2.tar.gz"
+
+[project.scripts]
+rexconcat = "pkgexampleargparse:my_argparse_module.my_string_list"
+rexadd  = "pkgexampleargparse:my_argparse_module.my_int_list"
+rexhello = "pkgexampleargparse:my_argparse_module.my_store"
+rexanimal = "pkgexampleargparse:my_argparse_module.my_store_const"
+rexbool = "pkgexampleargparse:my_argparse_module.my_bool"
+rexgroups = "pkgexampleargparse:my_argparse_module.my_groups"
+rexsub = "pkgexampleargparse:my_argparse_module.my_subparser"
