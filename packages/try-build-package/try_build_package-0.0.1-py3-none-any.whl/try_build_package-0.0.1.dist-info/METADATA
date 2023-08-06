@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: try-build-package
+Version: 0.0.1
+Summary: For doing some mathematical operations
+Home-page: https://github.com/Ritaj19Zamel/try_build_package.git
+Author: Ritaj Zamel
+Author-email: ritaj.zamel@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# try_build_package
+trying build package that do some mathematical operations

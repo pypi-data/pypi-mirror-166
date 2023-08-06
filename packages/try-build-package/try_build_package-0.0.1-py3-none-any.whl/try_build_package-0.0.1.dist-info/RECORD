@@ -1,0 +1,7 @@
+try_build_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+try_build_package/math.py,sha256=XQjEX_-swEdPmTHFiRAgxnB2ksVAhxbPj3ueF1og00A,195
+try_build_package-0.0.1.dist-info/LICENSE,sha256=icMGRCIMrI94Cgyz0q8N1-J0vFSZQ-X7GYx7nA0jn9Q,1089
+try_build_package-0.0.1.dist-info/METADATA,sha256=W2oFBlswJ_9z-Gh2xCfcRtu0VysIUNYStQV_DAm23q8,540
+try_build_package-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+try_build_package-0.0.1.dist-info/top_level.txt,sha256=rBJjL3sxV7CdgikaNAnt9ri33vQ_jdsfv6CAljUzfUY,18
+try_build_package-0.0.1.dist-info/RECORD,,
