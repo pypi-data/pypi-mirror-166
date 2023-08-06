@@ -1,0 +1,2 @@
+[console_scripts]
+aws-ecr-cleanup = aws_ecr_cleanup.main:main
