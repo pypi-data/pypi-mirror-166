@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+bjontegaard/__init__.py
+bjontegaard/bd_akima.py
+bjontegaard/bd_cubic.py
+bjontegaard/bd_piecewise_cubic.py
+bjontegaard/evaluate.py
+bjontegaard/functions.py
+bjontegaard.egg-info/PKG-INFO
+bjontegaard.egg-info/SOURCES.txt
+bjontegaard.egg-info/dependency_links.txt
+bjontegaard.egg-info/requires.txt
+bjontegaard.egg-info/top_level.txt
