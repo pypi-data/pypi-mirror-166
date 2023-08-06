@@ -1,0 +1,13 @@
+sri/__init__.py,sha256=WOBfKrfSp_qNTBZXh9XADvSIUVSKhnf8EXsuXG8yL44,194
+sri/algorithm.py,sha256=QOJ3pfYdWldVNjbDP5Vw6KEa89vkymBVUBbcbWiJLvc,249
+sri/hashers.py,sha256=NYTDx3ywCxZ7M5RGV7ErliwNB0cnFUG8O8vkYFWRy-Q,1067
+sri/integrity.py,sha256=D5GaM8PlJJaOR5ZOyjiN_ric0LfBAzYcECQAmf3N6Cc,494
+sri/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sri/utils.py,sha256=3ArheMXuU5SQHJBC5x7p2y6DrMevZOh3pL58Ot7lXsM,1012
+sri/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sri/templatetags/sri.py,sha256=QLARPsc4jldG-wrc0FXoDKo2xVmOwejr1VSrbXAKVUc,1559
+django_sri-0.5.0.dist-info/LICENSE,sha256=5UJfhupRVjl2mSquLc2-os_0NUm17D-Ggi5y531wkQk,1519
+django_sri-0.5.0.dist-info/METADATA,sha256=hiJ1Eh0cstPa0w1rYcuTueLoJYRi4BGGoIcSQrGu7Qo,4049
+django_sri-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_sri-0.5.0.dist-info/top_level.txt,sha256=I0LH88PAx1XzF-VhXI6l_Q9ePj6Zo2IA1FbInuyXEj0,4
+django_sri-0.5.0.dist-info/RECORD,,
