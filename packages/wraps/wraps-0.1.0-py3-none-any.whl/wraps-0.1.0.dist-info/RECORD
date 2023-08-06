@@ -1,0 +1,14 @@
+wraps/__init__.py,sha256=1Obv_kB4pakIwVfqZC1Ua0UB2fEpvlHEy0Vo9UAve1w,1327
+wraps/errors.py,sha256=DSjpf_NWLbvrObcK4_ys6ZIeB5C_sm8TZxTV0Tny7XY,1069
+wraps/future.py,sha256=iH3PGTkDgRsJgEBrdXCQo_loVG2pP3MGxP6NmRvjJ7Y,5885
+wraps/future_option.py,sha256=OzgJBeFoc0rhvAh6zJ1x0D7-W2D-JdTuzv68U85m0rM,11879
+wraps/future_result.py,sha256=7ofUAWhQYAv_0NcDhehanzRJeEmmgAYJZ6-y-2ZHYfs,17377
+wraps/option.py,sha256=TCfsNM0qU8QvuCaPl3W_G1bOyu49yHAAkCZ-jvXJrB4,46884
+wraps/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wraps/result.py,sha256=ifvbmRPK_Y13zRolx672N2K1SaR6Lr9bICaEWivUPss,62839
+wraps/shortcuts.py,sha256=6dqsVStldapc1SI-OCOwbg3esY9SBspNN3nCPSQboNc,1484
+wraps/typing.py,sha256=ua5NBsxr9Twg9et-AXx8fUVCpwnE9cOm4Z_9qRXtYUQ,712
+wraps-0.1.0.dist-info/LICENSE,sha256=_kIl46jHcJ-DeQRsAc7Kadkvzj0D7OxWxF-PE9gcIeE,1092
+wraps-0.1.0.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+wraps-0.1.0.dist-info/METADATA,sha256=VgwyYCAbB2PPqhUd30RwDjTmyTMXs1zS1-Og5BpChDI,7830
+wraps-0.1.0.dist-info/RECORD,,
