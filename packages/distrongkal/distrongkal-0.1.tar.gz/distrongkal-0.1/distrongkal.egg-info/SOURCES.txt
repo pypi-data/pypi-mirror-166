@@ -1,0 +1,10 @@
+setup.py
+distrongkal/Binomialdistribution.py
+distrongkal/Gaussiandistribution.py
+distrongkal/Generaldistribution.py
+distrongkal/__init__.py
+distrongkal.egg-info/PKG-INFO
+distrongkal.egg-info/SOURCES.txt
+distrongkal.egg-info/dependency_links.txt
+distrongkal.egg-info/not-zip-safe
+distrongkal.egg-info/top_level.txt
