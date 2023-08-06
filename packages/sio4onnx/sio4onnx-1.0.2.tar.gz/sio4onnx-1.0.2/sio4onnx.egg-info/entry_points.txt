@@ -1,0 +1,2 @@
+[console_scripts]
+sio4onnx = sio4onnx:main
