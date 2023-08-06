@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+chaoxing/__init__.py
+chaoxing/datas.py
+chaoxing/utils.py
+chaoxingapis.egg-info/PKG-INFO
+chaoxingapis.egg-info/SOURCES.txt
+chaoxingapis.egg-info/dependency_links.txt
+chaoxingapis.egg-info/top_level.txt
