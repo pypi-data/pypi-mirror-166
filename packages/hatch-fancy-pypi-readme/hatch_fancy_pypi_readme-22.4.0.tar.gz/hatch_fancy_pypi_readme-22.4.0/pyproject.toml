@@ -1,0 +1,168 @@
+[build-system]
+requires = ["hatchling", "hatch-fancy-pypi-readme"]
+build-backend = "hatchling.build"
+
+
+[project]
+dynamic = ["readme"]
+name = "hatch-fancy-pypi-readme"
+version = "22.4.0"
+description = "Fancy PyPI READMEs with Hatch"
+requires-python = ">=3.7"
+keywords = ["hatch", "pypi", "readme", "documentation"]
+authors = [{ name = "Hynek Schlawack", email = "hs@ox.cx" }]
+license = { file = "LICENSE.txt" }
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Framework :: Hatch",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Build Tools",
+
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = [
+  "hatchling",
+  "jsonschema",
+  "tomli; python_version<'3.11'",
+  "typing-extensions; python_version<'3.8'",
+]
+
+[project.entry-points.hatch]
+fancy-pypi-readme = "hatch_fancy_pypi_readme.hooks"
+
+
+[project.scripts]
+hatch-fancy-pypi-readme = "hatch_fancy_pypi_readme.__main__:main"
+
+
+[project.optional-dependencies]
+tests = ["pytest", "build", "wheel"]
+dev = ["hatch-fancy-pypi-readme[tests]", "mypy"]
+
+
+[project.urls]
+Documentation = "https://github.com/hynek/hatch-fancy-pypi-readme#readme"
+Changelog = "https://github.com/hynek/hatch-fancy-pypi-readme/blob/main/CHANGELOG.md"
+"Source Code" = "https://github.com/hynek/hatch-fancy-pypi-readme"
+Funding = "https://github.com/sponsors/hynek"
+Ko-fi = "https://ko-fi.com/the_hynek"
+
+
+[tool.pytest.ini_options]
+addopts = ["-ra", "--strict-markers", "--strict-config"]
+xfail_strict = true
+testpaths = "tests"
+markers = ["slow: marks tests as slow (deselect with '-m \"not slow\"')"]
+filterwarnings = ["once::Warning"]
+
+[tool.coverage.run]
+parallel = true
+branch = true
+source = ["hatch_fancy_pypi_readme"]
+
+[tool.coverage.paths]
+source = ["src", ".tox/*/site-packages"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+omit = ["src/hatch_fancy_pypi_readme/hooks.py"]
+exclude_lines = [
+  # a more strict default pragma
+  "\\# pragma: no cover\\b",
+
+  # allow defensive code
+  "^\\s*raise AssertionError\\b",
+  "^\\s*raise NotImplementedError\\b",
+  "^\\s*return NotImplemented\\b",
+  "^\\s*raise$",
+
+  # typing-related code
+  "^if (False|TYPE_CHECKING):",
+  ": \\.\\.\\.(\\s*#.*)?$",
+  "^ +\\.\\.\\.$",
+  "-> ['\"]?NoReturn['\"]?:",
+]
+partial_branches = [
+  "pragma: no branch",
+  # _cli._fail never returns, creating uncovered branches as far as coverage.py
+  # is concerned. See
+  # https://github.com/nedbat/coveragepy/issues/1433#issuecomment-1211465570
+  "^\\s*_fail\\(",
+]
+
+
+[tool.black]
+line-length = 79
+
+
+[tool.isort]
+profile = "attrs"
+
+
+[tool.mypy]
+show_error_codes = true
+enable_error_code = ["ignore-without-code"]
+strict = true
+follow_imports = "normal"
+warn_no_return = true
+ignore_missing_imports = true
+
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+ignore_errors = true
+
+
+[tool.hatch.metadata.hooks.fancy-pypi-readme]
+content-type = "text/markdown"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+path = "README.md"
+end-before = "\n<!-- start docs -->"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+path = "README.md"
+start-after = "\n<!-- end docs -->"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+text = "\n\n## Credits\n"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+path = "AUTHORS.md"
+start-after = "# Authors\n"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+text = """
+
+
+## Release Information for """
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+path = "CHANGELOG.md"
+start-after = "<!-- changelog follows -->"
+pattern = "## ([^\n]+?\n\n)###"
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+path = "CHANGELOG.md"
+start-after = "<!-- changelog follows -->"
+pattern = "\n(###.+?\n)## "
+
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.fragments]]
+text = """---
+
+Full changelog can be found [here](https://github.com/hynek/hatch-fancy-pypi-readme/blob/main/CHANGELOG.md).
+"""
+
+# Make GitHub-relative links absolute.
+[[tool.hatch.metadata.hooks.fancy-pypi-readme.substitutions]]
+pattern = '\[(.+?)\]\(((?!https?://)\S+?)\)'
+replacement = '[\1](https://github.com/hynek/hatch-fancy-pypi-readme/tree/main/\g<2>)'
