@@ -1,0 +1,10 @@
+imstack/__init__.py,sha256=C69ADlbQREQlR15trneyA2sk8x0-oH4rDAX5fsv19_U,22
+imstack/_modidx.py,sha256=60txGqK729vJYxdt3oX2mTK6lBY50Rtv6MUFKCivuWw,1128
+imstack/_nbdev.py,sha256=-UjpryAWCysmaonHSJOO5NmveqBfeA4KSPtfO0POwLI,323
+imstack/core.py,sha256=ppXBmOb7o9LVg2NZ5lsEA1WC1KWiW6_xPDaLHe_ffC4,4724
+imstack-0.1.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+imstack-0.1.8.dist-info/METADATA,sha256=mSjzP21-Lak7gXblZ4M9obkDwcbK7fiBI_4W8jvibn0,4331
+imstack-0.1.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+imstack-0.1.8.dist-info/entry_points.txt,sha256=9CNjMnPxKeSmjXby8vB24YGvPErgRi7XI9M7xhge3sA,100
+imstack-0.1.8.dist-info/top_level.txt,sha256=qs6s74h76NiMYXrFflRC-wX96N7b7k84yAI8KtWbJ9U,8
+imstack-0.1.8.dist-info/RECORD,,
