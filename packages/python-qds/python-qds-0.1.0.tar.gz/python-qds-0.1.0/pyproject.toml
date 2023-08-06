@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "python-qds"
+version = "0.1.0"
+description = "A Python wrapper for Quartz Display Services."
+authors = ["Kamil Turek <kamil.turek@hotmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/kamilturek/qds"
+packages = [
+    { include = "qds" },
+]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+
+[tool.isort]
+profile = "black"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^2.20.0"
+scriv = {extras = ["toml"], version = "^0.16.0"}
+
+[tool.scriv]
+format = "md"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
