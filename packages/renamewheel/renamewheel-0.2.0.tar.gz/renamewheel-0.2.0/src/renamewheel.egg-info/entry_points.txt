@@ -1,0 +1,3 @@
+[console_scripts]
+renamewheel = renamewheel.main:main
+
