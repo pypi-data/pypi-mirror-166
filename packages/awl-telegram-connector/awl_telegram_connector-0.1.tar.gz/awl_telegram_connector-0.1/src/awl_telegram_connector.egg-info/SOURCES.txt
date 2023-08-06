@@ -1,0 +1,11 @@
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/awl_telegram_connector.egg-info/PKG-INFO
+src/awl_telegram_connector.egg-info/SOURCES.txt
+src/awl_telegram_connector.egg-info/dependency_links.txt
+src/awl_telegram_connector.egg-info/requires.txt
+src/awl_telegram_connector.egg-info/top_level.txt
+src/awltelcon/__init__.py
+src/awltelcon/__main__.py
