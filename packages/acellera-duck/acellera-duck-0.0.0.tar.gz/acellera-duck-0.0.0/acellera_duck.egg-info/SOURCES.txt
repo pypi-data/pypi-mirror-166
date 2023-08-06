@@ -1,0 +1,7 @@
+setup.py
+acellera_duck.egg-info/PKG-INFO
+acellera_duck.egg-info/SOURCES.txt
+acellera_duck.egg-info/dependency_links.txt
+acellera_duck.egg-info/not-zip-safe
+acellera_duck.egg-info/requires.txt
+acellera_duck.egg-info/top_level.txt
