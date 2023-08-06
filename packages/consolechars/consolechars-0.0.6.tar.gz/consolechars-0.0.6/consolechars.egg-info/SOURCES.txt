@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+consolechars/__init__.py
+consolechars/consolechars.py
+consolechars.egg-info/PKG-INFO
+consolechars.egg-info/SOURCES.txt
+consolechars.egg-info/dependency_links.txt
+consolechars.egg-info/not-zip-safe
+consolechars.egg-info/top_level.txt
