@@ -1,0 +1,2 @@
+[console_scripts]
+ABlooper = ABlooper.command_line:main
