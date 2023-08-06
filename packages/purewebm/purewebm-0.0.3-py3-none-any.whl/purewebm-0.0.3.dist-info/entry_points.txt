@@ -1,0 +1,2 @@
+[console_scripts]
+purewebm = purewebm.purewebm:main
