@@ -1,0 +1,7 @@
+cryptography
+requests
+clickhouse-driver==0.1.5
+pytz
+paho-mqtt
+sqlite3
+psutil
