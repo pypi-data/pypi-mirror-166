@@ -1,0 +1,4 @@
+include Readme.md
+include setup.py
+include main.py
+include __init__.py

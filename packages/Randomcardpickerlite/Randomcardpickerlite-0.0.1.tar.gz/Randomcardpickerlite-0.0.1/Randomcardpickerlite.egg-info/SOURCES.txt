@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+Readme.md
+setup.py
+Randomcardpickerlite/__init__.py
+Randomcardpickerlite/main.py
+Randomcardpickerlite.egg-info/PKG-INFO
+Randomcardpickerlite.egg-info/SOURCES.txt
+Randomcardpickerlite.egg-info/dependency_links.txt
+Randomcardpickerlite.egg-info/top_level.txt
