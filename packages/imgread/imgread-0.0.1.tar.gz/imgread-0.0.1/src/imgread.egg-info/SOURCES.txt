@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/imgread/__init__.py
+src/imgread/version.py
+src/imgread.egg-info/PKG-INFO
+src/imgread.egg-info/SOURCES.txt
+src/imgread.egg-info/dependency_links.txt
+src/imgread.egg-info/requires.txt
+src/imgread.egg-info/top_level.txt
