@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: funcs
+Version: 0.1.6
+Home-page: https://github.com/the-beee/utils
+Author: Ayoub Assis
+Author-email: assis.ayoub@gmail.com
+License: LICENSE
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lgg (==0.2.0)
+Requires-Dist: numpy (==1.23.3)
+Requires-Dist: opencv-python (==4.6.0.66)
+Requires-Dist: Pillow (==9.2.0)
+
