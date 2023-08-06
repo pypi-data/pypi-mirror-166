@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Excel_Trans/Excel_translator.py
+Excel_Trans/__init__.py
+Excel_Trans/transliterate.py
+Excel_Trans.egg-info/PKG-INFO
+Excel_Trans.egg-info/SOURCES.txt
+Excel_Trans.egg-info/dependency_links.txt
+Excel_Trans.egg-info/requires.txt
+Excel_Trans.egg-info/top_level.txt
