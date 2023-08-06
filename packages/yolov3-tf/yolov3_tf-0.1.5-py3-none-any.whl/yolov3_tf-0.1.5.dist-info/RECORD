@@ -1,0 +1,10 @@
+LICENSE,sha256=c16F8Xlw1Bz85nrNMQFcVw1KaSIugusvOsXn2YBOIjo,1070
+yolov3_tf/__init__.py,sha256=rPSfWgIeq2YWVPyESOAwCBt8vftsTpIkuLAGDEzyRQc,22
+yolov3_tf/dataset.py,sha256=9WY7lAqmLU9MeEKPNV-HA-ysOMcCvaU1P_eOapDRYh0,4096
+yolov3_tf/evaluate.py,sha256=T1FaBFqkkpxVAkqvKuYW99cQNKDm-sEkH-XNegYHX5I,8217
+yolov3_tf/models.py,sha256=IwB7L5y6LUHx0zLUuthipA5JizLQgDJ-KOGqMMHUh-s,13424
+yolov3_tf/utils.py,sha256=By5pFgAxxAKrBR7wmxtIOIVQ5NLjlo8AcYxLlRuH8ws,6283
+yolov3_tf-0.1.5.dist-info/LICENSE,sha256=c16F8Xlw1Bz85nrNMQFcVw1KaSIugusvOsXn2YBOIjo,1070
+yolov3_tf-0.1.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+yolov3_tf-0.1.5.dist-info/METADATA,sha256=YGfbmxFWu_ZKNlJIS34gZ_Vh9-Qw5G2aq0Pi4Y0rvBI,2384
+yolov3_tf-0.1.5.dist-info/RECORD,,
