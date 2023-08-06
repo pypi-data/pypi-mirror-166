@@ -1,0 +1,13 @@
+setup.py
+Federated_Learning_Server.egg-info/PKG-INFO
+Federated_Learning_Server.egg-info/SOURCES.txt
+Federated_Learning_Server.egg-info/dependency_links.txt
+Federated_Learning_Server.egg-info/top_level.txt
+Server/ClientsRepository.py
+Server/app_servers.py
+Server/bla.py
+Server/datachannel_server.py
+Server/ping_server.py
+Server/server_controller.py
+Server/utils.py
+Server/yaml_validator.py
