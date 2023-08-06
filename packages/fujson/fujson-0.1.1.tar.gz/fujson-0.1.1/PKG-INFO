@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: fujson
+Version: 0.1.1
+Summary: Float formatting control for JSON encoding.
+Project-URL: Homepage, https://github.com/soxofaan/fujson
+Project-URL: Bug Tracker, https://github.com/soxofaan/fujson/issues
+Author-email: Stefaan Lippens <soxofaan@gmail.com>
+License: MIT License
+        
+        Copyright (c) [2022] [Stefaan Lippens]
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+
+![PyPI](https://img.shields.io/pypi/v/fujson)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/fujson)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/fujson)
+[![Tests](https://github.com/soxofaan/fujson/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/soxofaan/fujson/actions/workflows/test.yaml)
+
+# FuJSON: less decimals, more fuzzy JSON
+
+FuJSON is a Python module that allows to control the 
+formatting of floats when JSON encoding, 
+typically to dial down the number of decimals.
+
+It builds on the *standard library*'s `json.JSONEncoder`
+and *monkey-patches* it to inject custom float formatting.
+
+
+## Usage
+
+Simple `dumps` call:
+
+    >>> from fujson import dumps
+    >>> dumps({"x": 1.23456789}, float_format=".2f")
+    '{"x": 1.23}'
+
+Reusable encoder:
+
+    >>> from fujson import FuJsonEncoder
+    >>> encoder = FuJsonEncoder(float_format=".2f")
+    >>> encoder.encode({"x": 1.23456789})
+    '{"x": 1.23}'
+    >>> encoder.encode([1.1, 2.22, 3.333, 4.4444])
+    '[1.10, 2.22, 3.33, 4.44]'
+
+Do JSON dump with floats in scientific notation:
+
+    >>> from fujson import FuJsonEncoder
+    >>> encoder = FuJsonEncoder(float_format=".2e")
+    >>> encoder.encode([.123, 0.0000123, 12345678.9])
+    '[1.23e-01, 1.23e-05, 1.23e+07]'
+
+
