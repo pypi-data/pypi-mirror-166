@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: django-jwt-auth-middleware
+Version: 0.1.1
+Summary: Django middleware for utilizing JWT for authentication.
+Home-page: https://www.example.com/
+Author: Jarod Latta
+Author-email: Jarod Latta <jrlatta512@gmail.com>
+License: MIT License        
+        Copyright (c) 2022 Jarod Latta        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.        
+Project-URL: Homepage, https://gitlab.com/sithon512/django-jwt-auth-middleware
+Project-URL: Bug Tracker, https://gitlab.com/sithon512/django-jwt-auth-middleware/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: asgiref (>=3.5)
+Requires-Dist: Django (>=4.0)
+Requires-Dist: django-appconf (>=1.0.5)
+Requires-Dist: pyjwt (>=2.4)
+Requires-Dist: sqlparse (==0.4.2)
+Requires-Dist: tzdata (>=2022.1)
+
+# Django JWT Auth Middlware
+
+## Installation
+
+1. Add the configuration for `django_jwt_auth_middleware` to your settings as follows:
+
+```python
+INSTALLED_APPS = [
+    # ...,
+    "django_jwt_auth_middlware",
+    # ...,
+]
+
+# ...
+
+AUTHENTICATION_BACKENDS = [
+    "django.contrib.auth.backends.ModelBackend",  # default
+    "django_jwt_auth_middleware.auth.JWTAuthenticationBackend",
+]
+
+# ...
+
+# the middleware must go after django's SecurityMiddleware, SessionMiddleware,
+# and AuthenticationMiddleware. Putting it at the end is always safe.
+MIDDLEWARE = [
+    # ...,
+    "django_jwt_auth_middleware.auth.JWTAuthenticationMiddleware",
+]
+```
+
+2. If you wish to use the default URL paths (`/jwt/...`), then in `urls.py`, make the changes below. Alternatively, you can import the views `Login`, `Logout`, and `Refresh` views (class-based) directly and attach URL patterns to them however you wish. **NOTE:** the default paths do not have URL names specified for referencing.
+
+```python
+# using default paths
+from django_jwt_auth_middleware.urls import urlpatterns as jwt_auth_patterns
+from django.urls import path, include
+
+urlpatterns = [
+    # ...,
+    path('', include(jwt_auth_patterns))
+]
+
+# using custom paths
+from django_jwt_auth_middleware.views import Login, Logout, Refresh
+
+urlpatterns = [
+    # ...,
+    path('login/', Login.as_view(), name='login'),
+    path('logout/', Logout.as_view(), name='logout'),
+    path('refresh/', Refresh.as_view(), name='refresh'),
+]
+```
+
+You're now ready to start authenticating!
+
+## Usage
+
+> This section assumes you have at least one user defined for your application.
+
+### Login
+
+In order to log in, send a POST request to the associated view (default: `/jwt/login/`) with the POST body specifying two keys: `username`, and `password`. If the username and password authenticate successfully, then a token will be issued and stored in the client's browser containing the value `Bearer <tok>` and a `200` is returned, where `<tok>` here is the JWT that corresponds to the newly authenticated user. If the provided credentials do not match, a `400` is returned. The cookie name/header value that is used for the JWT corresponds to the `JWT_ACCESS_HEADER` setting (default: `Authorization`).
+
+### Refresh
+
+This package is intended to implement best practices for JWT authentication and this includes utilizing two separate tokens, refresh and access, which are both issued during login. The access token is sent on every request and lasts only a short time and is used to identify the client to the server. The refresh token is sent only occasionally to acquire a new access token.
+
+In order to refresh the access token, send a POST request to the associated view (default: `/jwt/refresh/`) with an empty POST body. As long as a valid refresh token exists in the browser, a new access token will be generated and stored securely in the browser. If a token is generated, a `200` is returned, otherwise a `403` is returned.
+
+### Logout
+
+When utilizing JWT authentication, logout is functionally identically to forgetting the refresh token (and potentially also the access token, but that will expire shortly anyway so the necessity of this depends on your threat model). By default the logout functionality removes both the access and refresh tokens. To perform the logout, simply send a POST request to the associated view (default: `/jwt/logout/`) with an empty POST body. As long as a valid access token exists in the browser, the client will be logged out. If the log out is successful, a `200` is returned, otherwise a `401` is returned.
+
+## Configuration
+
+A list of Django settings are provided here that describes the configuration options for this package.
+
+| SETTING                | DEFAULT           | DESCRIPTION                                                                                                                                                                                                                                         |
+| ---------------------- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `JWT_ACCESS_DURATION`  | 5                 | The duration in minutes that access tokens should remain valid after they are issued.                                                                                                                                                               |
+| `JWT_ACCESS_HEADER`    | `"Authorization"` | The name of the header that should be used for storing the access token. NOTE: If referencing this value within `request.META`, the header is prefixed with `HTTP_` and is in all caps (e.g. `HTTP_AUTHORIZATION`)                                  |
+| `JWT_ALGORITHM`        | `"HS256"`         | The algorithm to use for signing the JWTs.                                                                                                                                                                                                          |
+| `JWT_COOKIE_HTTPONLY`  | `True`            | Whether or not the `httponly` attribute should be set on the cookies stored in the browser. NOTE: if testing with [Postman][postman], disable this value in development or this package won't function correctly.                                   |
+| `JWT_COOKIE_SAMESITE`  | `"Strict"`        | What the `samesite` attribute of the cookies should be set to. Options are `"Strict"` or `"Lax"`.                                                                                                                                                   |
+| `JWT_COOKIE_SECURE`    | `True`            | Whether or not the `secure` attribute should be set on the cookies stored in the browser. NOTE: if testing with [Postman][postman], disable this value in development or this package won't function correctly.                                     |
+| `JWT_LOGOUT_ACCESS`    | `True`            | Whether or not to remove the access token when logging out. If this is set to `False`, only the refresh token is removed and user access will continue until the access token expires.                                                              |
+| `JWT_REFRESH_DURATION` | `14`              | The duration in days that refresh tokens should remain valid after they are issued.                                                                                                                                                                 |
+| `JWT_REFRESH_PATH`     | `"/jwt/refresh/"` | The `path` attribute that is set on the refresh token cookies. The controls when the cookies is sent. If the path is not a prefix of the current request, the browser won't send the token. This helps prevent the refresh token from being leaked. |
+
+[postman]: https://www.postman.com/

@@ -1,0 +1,11 @@
+django_jwt_auth_middleware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_jwt_auth_middleware/apps.py,sha256=_CUzC0o1YkrNDatGg7sL5SffXtxup80lHo6y2f416TE,187
+django_jwt_auth_middleware/auth.py,sha256=TL1AY555rdB6Gly9rzFGhClSWIF866cE_PKrSsH7YY0,3813
+django_jwt_auth_middleware/settings.py,sha256=RQxl6HKZI_CVF5e6hhvywebi9jXa4Xqbej1w1BXBBlU,2443
+django_jwt_auth_middleware/urls.py,sha256=IKURsEcFjyQxXTKplO3hhyLmy-gjT4zq0tnfk5gabc0,266
+django_jwt_auth_middleware/views.py,sha256=GGkfCFz_Hq7gvfxIfPrGParkoFjo4jtViyq64Tmgj6k,3780
+django_jwt_auth_middleware-0.1.1.dist-info/LICENSE,sha256=5OaMpOtooa2nAKaLTc1SUmi3i_ydU-ABfnE7aUe-rvw,1068
+django_jwt_auth_middleware-0.1.1.dist-info/METADATA,sha256=LqwCqcqRQU9HW1ngEznWhqlDYQniMrEswufoVwEnN88,9041
+django_jwt_auth_middleware-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_jwt_auth_middleware-0.1.1.dist-info/top_level.txt,sha256=r8pcOZNLrJAGdb8qHiuXvDK3qUUlfsW_WOR7a4e0gks,27
+django_jwt_auth_middleware-0.1.1.dist-info/RECORD,,
