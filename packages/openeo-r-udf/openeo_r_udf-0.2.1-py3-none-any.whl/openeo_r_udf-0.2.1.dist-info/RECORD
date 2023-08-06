@@ -1,0 +1,7 @@
+openeo_r_udf/__init__.py,sha256=nx8uT9NOkkA2KzjU9Q36cvZlTi-7bCHVPIkXCQkwZf8,21
+openeo_r_udf/executor.R,sha256=vYFUocaPbDRJTwmIBfi9C_UPYsKz-jnuPRUcVKLVoWk,1873
+openeo_r_udf/udf_lib.py,sha256=fTVS3WyaBMGuHwtamGQX2dx394ivBvVh71s8Ia1jZ-o,4781
+openeo_r_udf-0.2.1.dist-info/METADATA,sha256=EkL4WF8rkohRQ1MNNtOiW2YetVqeJO6ZsOljKYoOs8k,8363
+openeo_r_udf-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+openeo_r_udf-0.2.1.dist-info/top_level.txt,sha256=abdaZDMIjd68hpPxB97KLWU1EhFp_DUlCOpg9WKkDeQ,13
+openeo_r_udf-0.2.1.dist-info/RECORD,,
