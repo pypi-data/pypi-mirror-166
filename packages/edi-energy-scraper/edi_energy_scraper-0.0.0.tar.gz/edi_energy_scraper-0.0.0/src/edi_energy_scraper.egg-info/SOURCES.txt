@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/edi_energy_scraper/__init__.py
+src/edi_energy_scraper/py.typed
+src/edi_energy_scraper.egg-info/PKG-INFO
+src/edi_energy_scraper.egg-info/SOURCES.txt
+src/edi_energy_scraper.egg-info/dependency_links.txt
+src/edi_energy_scraper.egg-info/not-zip-safe
+src/edi_energy_scraper.egg-info/requires.txt
+src/edi_energy_scraper.egg-info/top_level.txt
