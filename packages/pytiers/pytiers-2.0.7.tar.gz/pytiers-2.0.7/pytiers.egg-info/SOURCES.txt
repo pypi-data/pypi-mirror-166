@@ -1,0 +1,7 @@
+README.md
+setup.py
+pytiers.egg-info/PKG-INFO
+pytiers.egg-info/SOURCES.txt
+pytiers.egg-info/dependency_links.txt
+pytiers.egg-info/requires.txt
+pytiers.egg-info/top_level.txt
