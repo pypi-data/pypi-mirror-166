@@ -1,0 +1,9 @@
+gc2/__init__.py,sha256=o-JgU9IY7QOi4mkRbm_cANgB8T-oEV40sEBreyxVNig,48
+gc2/gc2.py,sha256=kuKFbjeQTvMIbmU_89mr3OMFap6jH2n4sU3toGsgQ9A,1954
+gc2/meta.py,sha256=vLHQMldkmcpkQyknRrP7UUO2svoQM5gpcGLvLPjXu4c,230
+gc2/sql.py,sha256=W5FiQIzf4x-OEdki8Su1_4of03a-mKuWeukI5923h_c,1219
+gc2_python_client-2022.8.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+gc2_python_client-2022.8.1.dist-info/METADATA,sha256=yyu1gJKHdMXZ7hnVDvJcb493vVRnSrmBkkvIMzKplA8,40924
+gc2_python_client-2022.8.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gc2_python_client-2022.8.1.dist-info/top_level.txt,sha256=lrcapCgkgWt67v2ZzlDNFwQliMPZ4JzaAiV315rHl4Y,4
+gc2_python_client-2022.8.1.dist-info/RECORD,,
