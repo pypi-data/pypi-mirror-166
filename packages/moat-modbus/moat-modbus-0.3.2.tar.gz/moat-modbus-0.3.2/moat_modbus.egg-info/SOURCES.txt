@@ -1,0 +1,16 @@
+.gitignore
+Makefile
+README.rst
+setup.cfg
+setup.py
+examples/test_client
+examples/test_server
+moat/modbus/__init__.py
+moat/modbus/client.py
+moat/modbus/server.py
+moat/modbus/types.py
+moat_modbus.egg-info/PKG-INFO
+moat_modbus.egg-info/SOURCES.txt
+moat_modbus.egg-info/dependency_links.txt
+moat_modbus.egg-info/requires.txt
+moat_modbus.egg-info/top_level.txt
