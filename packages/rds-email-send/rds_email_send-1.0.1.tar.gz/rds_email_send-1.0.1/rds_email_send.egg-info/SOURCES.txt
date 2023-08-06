@@ -1,0 +1,7 @@
+setup.py
+rds_email_send/rds_email_send.py
+rds_email_send.egg-info/PKG-INFO
+rds_email_send.egg-info/SOURCES.txt
+rds_email_send.egg-info/dependency_links.txt
+rds_email_send.egg-info/requires.txt
+rds_email_send.egg-info/top_level.txt
