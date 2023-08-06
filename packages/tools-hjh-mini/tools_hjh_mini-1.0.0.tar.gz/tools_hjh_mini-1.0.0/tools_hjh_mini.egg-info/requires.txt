@@ -1,0 +1,7 @@
+dbutils
+pymysql
+cx_Oracle
+paramiko
+zipfile36
+crypto
+requests
