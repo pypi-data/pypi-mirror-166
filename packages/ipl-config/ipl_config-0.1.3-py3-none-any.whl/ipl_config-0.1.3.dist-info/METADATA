@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ipl-config
+Version: 0.1.3
+Summary: InPlat config adapters
+Home-page: https://github.com/koi8-r/ipl-config
+License: MIT
+Keywords: config,settings,pydantic,json,toml,yaml,hcl2
+Author: InPlat
+Requires-Python: >=3.10,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: dotenv
+Provides-Extra: hcl2
+Provides-Extra: toml
+Provides-Extra: yaml
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0); extra == "dotenv"
+Requires-Dist: python-hcl2 (>=3.0.5,<4.0.0); extra == "hcl2"
+Requires-Dist: pyyaml (>=6.0,<7.0); extra == "yaml"
+Requires-Dist: toml (>=0.10.2,<0.11.0); extra == "toml"
+Project-URL: Repository, https://github.com/koi8-r/ipl-config
+Description-Content-Type: text/markdown
+
+[![tests](https://github.com/koi8-r/ipl-config/actions/workflows/ci.yml/badge.svg)](https://github.com/koi8-r/ipl-config/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/koi8-r/ipl-config/branch/master/graph/badge.svg?token=OKURU75Y7A)](https://codecov.io/gh/koi8-r/ipl-config)
+[![pypi](https://img.shields.io/pypi/v/ipl-config.svg)](https://pypi.python.org/pypi/ipl-config)
+[![versions](https://img.shields.io/pypi/pyversions/ipl-config.svg)](https://github.com/koi8-r/ipl-config)
+
+
+# Config adapters with pydantic behavior
+- json
+- yaml
+- toml
+- hcl2
+- environ
+- .env
+
+## Examples
+- [yaml config with env, dotenv and args overrides](/examples/config_yaml_dump.py)
+
