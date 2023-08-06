@@ -1,0 +1,7 @@
+README.md
+setup.py
+JONNY/simple.py
+JONNY.egg-info/PKG-INFO
+JONNY.egg-info/SOURCES.txt
+JONNY.egg-info/dependency_links.txt
+JONNY.egg-info/top_level.txt
