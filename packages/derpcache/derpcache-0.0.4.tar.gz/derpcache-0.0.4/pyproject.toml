@@ -1,0 +1,15 @@
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version = "0.0.1"
+
+[tool.black]
+line-length = 88
+skip-string-normalization = true
+
+[tool.flakeheaven]
+exclude = ["build", "venv", "README.md"]
+format = "grouped"
+
+[tool.mypy]
+exclude = ["build", "venv"]

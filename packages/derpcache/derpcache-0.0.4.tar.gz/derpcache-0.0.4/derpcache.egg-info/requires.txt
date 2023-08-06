@@ -1,0 +1,15 @@
+
+[dev]
+commitizen
+pre-commit
+
+[lint]
+black
+flakeheaven
+mypy
+types-setuptools
+
+[test]
+faker
+pytest
+pytest-freezegun
