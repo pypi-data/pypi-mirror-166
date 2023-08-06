@@ -1,0 +1,4 @@
+[console_scripts]
+container=testutils.container:run
+octomizer=octomizer.octomizer_cli:cli
+
