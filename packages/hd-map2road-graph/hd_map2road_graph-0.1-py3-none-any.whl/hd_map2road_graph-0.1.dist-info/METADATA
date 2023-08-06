@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hd-map2road-graph
+Version: 0.1
+Summary: xodr file to road graph object
+Home-page: https://github.com/dk-kling/HDMap2RoadGraph/hd-map2road-graph
+Author: dk-kling
+Author-email: deokk1112@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/dk-kling/HDMap2RoadGraph/hd-map2road-graph/archive/master.zip
+Keywords: hd map,road graph,convert
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
