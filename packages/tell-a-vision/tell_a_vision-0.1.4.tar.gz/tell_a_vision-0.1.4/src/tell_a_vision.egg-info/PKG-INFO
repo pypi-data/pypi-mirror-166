@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: tell-a-vision
+Version: 0.1.4
+Summary: TV (tell_a_vision) is a tool that provides explanatory analysis for object detection tasks in computer vision.
+Home-page: https://github.com/rezmansouri/tell_a_vision
+Author: Reza Mansouri
+Author-email: std_reza_mansouri@khu.ac.ir
+License: MIT
+
+TV (tell_a_vision) is a package that takes object detection algorithms' (such as YOLO) output as input and provides explanatory data such as the location, number, and size (distance) of the objects found with respect to their classification in a descriptive format along with audio output.
