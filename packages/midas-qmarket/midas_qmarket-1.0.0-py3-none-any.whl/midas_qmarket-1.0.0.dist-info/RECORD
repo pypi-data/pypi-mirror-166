@@ -1,0 +1,11 @@
+midas/modules/qmarket/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+midas/modules/qmarket/meta.py,sha256=qqOyfMZaqFcw0IF8Bs5HmfwhSzpCVIYSnCkFHjO0K9c,327
+midas/modules/qmarket/model.py,sha256=sNhvM472pzdYh8lhX8nchLqULN149iro0Pgtd3DF-hM,12438
+midas/modules/qmarket/module.py,sha256=Tqbl8kPF5sTao2ZgULpQwTNKQR-RPVD1UCjq7HnZBRI,8289
+midas/modules/qmarket/rewards.py,sha256=eGvi95BjlDoZIiVSApohz6C2TKT1W63Om9ZjLOCrbu4,1978
+midas/modules/qmarket/simulator.py,sha256=CVTpMRzmTSiDcghNsuBeZDOnEBRbB2-lhiQd0gw2PLM,4335
+midas_qmarket-1.0.0.dist-info/LICENSE,sha256=adm0bP3Oct0QajMMTL3NBtwd_yyhhZFiPc4YVPwmofE,7648
+midas_qmarket-1.0.0.dist-info/METADATA,sha256=d6ufjn-Qmm5M6y4Zf3U8LpCm0HxxFNSTfBzvzTakhEc,4478
+midas_qmarket-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+midas_qmarket-1.0.0.dist-info/top_level.txt,sha256=n8dkPfm_amUh86KWKdyQFSehtTdf2SnUDp54AX6RcE0,6
+midas_qmarket-1.0.0.dist-info/RECORD,,
