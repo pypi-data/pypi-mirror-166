@@ -1,0 +1,14 @@
+DatabaseCatlogUtility/DatabaseDremio.py,sha256=99lJeth892TyK0vhqbgRqP6Bck43wxIVgl0Obemk1aE,9989
+DatabaseCatlogUtility/DatabaseInMemory.py,sha256=4wsWnavoV262yfsm2SAQOJkdvBSrTzzh1Qu_oXPPQHo,10120
+DatabaseCatlogUtility/DatabaseMySql.py,sha256=_NQiTQEQ2zN3agyG5Mit6KeSHFSgpCpHaJ2bGNO2fIo,10446
+DatabaseCatlogUtility/DatabaseOracle.py,sha256=d08NE9WdGKYhc5sBPzw852kykhsE7IA-xM7YO4E-kZI,10305
+DatabaseCatlogUtility/DatabasePostgress.py,sha256=Qxn840ZRukae1PMy4at_z0dHloD0aOJp8RJFqTeAoek,10360
+DatabaseCatlogUtility/DatabaseSAPHANA.py,sha256=xdW6FVpVV8XaJTfhSyvlYASar4te0Op72qdCg61Jx38,9827
+DatabaseCatlogUtility/DatabaseSQLServer.py,sha256=fFDQpdTlZo1wsS1KfO2_G_1cvoUAW-f1PRlp31gGPws,10333
+DatabaseCatlogUtility/Databasecatlog.py,sha256=eEpBzRrP-nGGV1BELSaY9zW3bDRCq7BI1PypXPldiE4,3352
+DatabaseCatlogUtility/__init__.py,sha256=aeI9oVHDheiHRUiNqeCpWgkMsiPQj6te3_o3ZyKUmcU,362
+DatabaseCatlogUtility-0.0.1.dist-info/LICENCE.txt,sha256=2qX9IkEUBx0VJp1Vh9O2dsRwE-IpYId0lXDyn7OVsJ8,1073
+DatabaseCatlogUtility-0.0.1.dist-info/METADATA,sha256=e43W-8mMe9kbFLamKUM_95bpszuRN1BGzq2mqH6012Y,621
+DatabaseCatlogUtility-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+DatabaseCatlogUtility-0.0.1.dist-info/top_level.txt,sha256=x-nXLKPqMuM_w4Bn35VbWLTDWjVG8RiYYYFXYl7C1rM,22
+DatabaseCatlogUtility-0.0.1.dist-info/RECORD,,
