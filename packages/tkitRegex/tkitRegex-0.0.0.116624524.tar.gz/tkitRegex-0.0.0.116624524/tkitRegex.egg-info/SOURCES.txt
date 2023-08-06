@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+tkitRegex/__init__.py
+tkitRegex/regex_plus.py
+tkitRegex/spam.py
+tkitRegex.egg-info/PKG-INFO
+tkitRegex.egg-info/SOURCES.txt
+tkitRegex.egg-info/dependency_links.txt
+tkitRegex.egg-info/top_level.txt
