@@ -1,0 +1,5 @@
+acct>=6.4.1
+aiohttp[speedups]
+pop>=20.0.0
+pop-config>=7.0.2
+pop-loop>=1.0.4
