@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: exampleSWIG
+Version: 0.1
+Summary: Simple swig C++/Python example
+Home-page: https://www.thorlabs.com
+Author: zc
+Author-email: hliu2@thorlabs.com

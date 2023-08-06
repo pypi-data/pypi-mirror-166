@@ -1,0 +1,13 @@
+MANIFEST.in
+README.txt
+example.cpp
+example.h
+exampleSWIG.py
+example_wrap.cxx
+pyproject.toml
+setup.py
+exampleSWIG.egg-info/PKG-INFO
+exampleSWIG.egg-info/SOURCES.txt
+exampleSWIG.egg-info/dependency_links.txt
+exampleSWIG.egg-info/not-zip-safe
+exampleSWIG.egg-info/top_level.txt
