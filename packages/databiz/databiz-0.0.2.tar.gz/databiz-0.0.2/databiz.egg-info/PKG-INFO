@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: databiz
+Version: 0.0.2
+Summary: Testing installation of Package
+Home-page: https://github.com/databizx/databiz
+Author: DataBizx
+Author-email: databizx@gmail.com
+License: MIT
+Download-URL: https://github.com/databizx/databiz/archive/refs/tags/databiz.tar.gz
+Project-URL: Bug Tracker, https://github.com/databizx/databiz/issues
+Description: Databizx created databiz
+        
+        
+Keywords: pandas,manipulation,databiz
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
