@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+metadata.json
+setup.py
+examples/1minimal_example.py
+examples/2tests_showcase.py
+examples/3recommended_installation.py
+examples/4how_it_works.py
+generalimport/__init__.py
+generalimport/optional_import.py
+generalimport.egg-info/PKG-INFO
+generalimport.egg-info/SOURCES.txt
+generalimport.egg-info/dependency_links.txt
+generalimport.egg-info/requires.txt
+generalimport.egg-info/top_level.txt
+generalimport/test/test_generalimport.py

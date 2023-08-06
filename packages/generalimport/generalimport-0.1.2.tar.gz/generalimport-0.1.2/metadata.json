@@ -1,0 +1,14 @@
+{
+    "install_requires": [
+        "setuptools"
+    ],
+    "extras_require": {},
+    "enabled": true,
+    "private": false,
+    "name": "generalimport",
+    "target": "python",
+    "version": "0.1.2",
+    "description": "Handle all your optional dependencies with a single call!",
+    "topics": [],
+    "manifest": []
+}
