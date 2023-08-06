@@ -1,0 +1,9 @@
+cfn_sync/__init__.py,sha256=rbxhc0URIgBTKChiAXSbpmobWaxjuFeDPDJCI4LSZLY,4124
+cfn_sync/cloudformation.py,sha256=KvguSOmxjThNlz2nEzbp5-HsA5UL0N-8ty4cWsxqYvQ,6349
+cfn_sync/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cfn_sync-0.0.11.dist-info/LICENSE,sha256=Om3YaBhkqNO9mPBAUz_gNXX9lqb40y-r5S_dVkBXD6o,1068
+cfn_sync-0.0.11.dist-info/METADATA,sha256=hMgHQCWFXBs-FHO4FPfmoy3ikh9rS3qfGBfVUZSbc1M,1292
+cfn_sync-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cfn_sync-0.0.11.dist-info/entry_points.txt,sha256=oox__5ZVSjledWUhY0PQyFRWKJbIdXyAqf_l2doBPvI,43
+cfn_sync-0.0.11.dist-info/top_level.txt,sha256=caRN1VcOJrM0QW-6N8d6F9Dr_htNoRvbq6PPbK1UrNA,9
+cfn_sync-0.0.11.dist-info/RECORD,,
