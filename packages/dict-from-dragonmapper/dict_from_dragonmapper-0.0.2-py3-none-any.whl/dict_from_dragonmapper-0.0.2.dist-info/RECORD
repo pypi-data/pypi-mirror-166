@@ -1,0 +1,12 @@
+dict_from_dragonmapper/__init__.py,sha256=M0NZuQ7-112l8K2h1eayVvSmvQrufrOcD5AYKgIf_Is,1
+dict_from_dragonmapper/argparse_helper.py,sha256=h_Q_u8Xno8lzeakD-J01DTz2EAsELr73XSSOFj9ZCbU,6519
+dict_from_dragonmapper/cli.py,sha256=ERbfIuUOFsxwgUHURHH6BR6Tr89MKegMZOzopnuiDTk,2160
+dict_from_dragonmapper/ipa2symb.py,sha256=Pc9DxE-5Zf1EdiOgdy22tqfNxpFbZMkzGmiBAor4L5g,6644
+dict_from_dragonmapper/ipa_symbols.py,sha256=y9EOovPqgncJv4c7CC_H0fi4NwEBpZHXFPO5FZMCtFE,3266
+dict_from_dragonmapper/main.py,sha256=WHeS-sWG60LRmdOfCEBQ2wVTs4bXpPeq3Afzz7-4FGE,10619
+dict_from_dragonmapper-0.0.2.dist-info/LICENSE,sha256=eu_EojY-yOBFiUJjoOpAyoguAqCfopYosNabwxz6fLc,1071
+dict_from_dragonmapper-0.0.2.dist-info/METADATA,sha256=nExelO3FDsiWChTSamxNHj-Vu1itIe6ZXmH5p_jDy5Y,4233
+dict_from_dragonmapper-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dict_from_dragonmapper-0.0.2.dist-info/entry_points.txt,sha256=p5WIZQE_47Dcj2We2p_a0HbOpjNrRlBGaWxv7hj11DA,83
+dict_from_dragonmapper-0.0.2.dist-info/top_level.txt,sha256=G8oyeS5uy1G0rQVqi5lPx07d4Fj_mSQUgVfoU3m6D_I,23
+dict_from_dragonmapper-0.0.2.dist-info/RECORD,,
