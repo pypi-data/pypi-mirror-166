@@ -1,0 +1,6 @@
+dist
+lib
+midi_generator
+note
+pybind11
+test
