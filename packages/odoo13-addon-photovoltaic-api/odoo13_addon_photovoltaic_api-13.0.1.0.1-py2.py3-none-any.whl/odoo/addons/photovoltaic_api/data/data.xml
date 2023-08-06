@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="access_res_partner" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">res.partner.portal</field>
+        <field name="model_id" ref="account.model_res_partner" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+        <field name="perm_write">True</field>
+    </record>
+
+    <record id="access_res_partner_type" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">res.partner.type.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_res_partner_type" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+
+    <record id="access_contract_participation" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">contract.participation.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_contract_participation" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+        <field name="perm_write">True</field>
+    </record>
+
+    <record id="access_contract_participation_line" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">contract.participation.line.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_contract_participation_line" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+    
+    <record id="access_contract_participation_production" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">contract.participation.production.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_contract_participation_production" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+    
+    <record id="access_contract_participation_stage" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">contract.participation.stage.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_contract_participation_stage" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+
+    <record id="access_participant_activities" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">participant.activities.portal</field>
+        <field name="model_id" ref="photovoltaic_participant_activities.model_participant_activities" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+        <field name="perm_write">True</field>
+        <field name="perm_create">True</field>
+    </record>
+
+    <record id="access_participant_liquidations" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">participant.liquidations.portal</field>
+        <field name="model_id" ref="photovoltaic_participant_liquidations.model_participant_liquidations" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+
+    <record id="access_product_template" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">product.template.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_product_template" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+
+    <record id="access_account_allocation" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">account.allocation.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_account_allocation" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+
+    <record id="access_account_period_type" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">account.period.type.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_account_period_type" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+
+    <record id="access_res_partner_bank" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">res.partner.bank.portal</field>
+        <field name="model_id" ref="account.model_res_partner_bank" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+        <field name="perm_write">True</field>
+        <field name="perm_create">True</field>
+        <field name="perm_unlink">True</field>
+    </record>
+
+    <record id="access_photovoltaic_power_station" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">photovoltaic.power.station.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_photovoltaic_power_station" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+
+    <record id="access_photovoltaic_power_energy" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">photovoltaic.power.energy.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_photovoltaic_power_energy" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+
+    <record id="access_account_allocation" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">account.allocation.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_account_allocation" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+
+    <record id="access_mail_tracking_value" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">mail.tracking.value</field>
+        <field name="model_id" ref="mail.model_mail_tracking_value" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+
+    <record id="access_snailmail_letter" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">snailmail.letter</field>
+        <field name="model_id" ref="snailmail.model_snailmail_letter" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+
+    <record id="access_mail_activity" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">mail.activity</field>
+        <field name="model_id" ref="mail.model_mail_activity" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+        <field name="perm_create">True</field>
+    </record>
+
+    <record id="access_plant_expense" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">plant.expense</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_plant_expense" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+
+    <record id="access_plant_income" model="ir.model.access">
+        <field name="active">True</field>
+        <field name="name">plant.income</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_plant_income" />
+        <field name="group_id" ref="base.group_portal" />
+        <field name="perm_read">True</field>
+    </record>
+
+
+    <record id="rule_res_partner" model="ir.rule">
+        <field name="active">True</field>
+        <field name="name">res.partner.portal</field>
+        <field name="model_id" ref="account.model_res_partner" />
+        <field name="domain_force">[('id', '=', user.partner_id.id)]</field>
+        <field name="groups" eval="[(6, 0, [ref('base.group_portal')])]"/>
+        <field name="perm_read">True</field>
+        <field name="perm_write">True</field>
+        <field name="perm_create">True</field>
+        <field name="perm_unlink">True</field>
+    </record>
+
+    <record id="rule_contract_participation" model="ir.rule">
+        <field name="active">True</field>
+        <field name="name">contract.participation.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_contract_participation" />
+        <field name="domain_force">[('partner_id.id', '=', user.partner_id.id)]</field>
+        <field name="groups" eval="[(6, 0, [ref('base.group_portal')])]"/>
+        <field name="perm_read">True</field>
+        <field name="perm_write">True</field>
+        <field name="perm_create">True</field>
+        <field name="perm_unlink">True</field>
+    </record>
+
+    <record id="rule_contract_participation_production" model="ir.rule">
+        <field name="active">True</field>
+        <field name="name">contract.participation.production.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_contract_participation_production" />
+        <field name="domain_force">[('contract_id.partner_id.id', '=', user.partner_id.id)]</field>
+        <field name="groups" eval="[(6, 0, [ref('base.group_portal')])]"/>
+        <field name="perm_read">True</field>
+        <field name="perm_write">True</field>
+        <field name="perm_create">True</field>
+        <field name="perm_unlink">True</field>
+    </record>
+
+    <record id="rule_account_allocation" model="ir.rule">
+        <field name="active">True</field>
+        <field name="name">account.allocation.portal</field>
+        <field name="model_id" ref="photovoltaic_mgmt.model_account_allocation" />
+        <field name="domain_force">[('partner_id.id', '=', user.partner_id.id)]</field>
+        <field name="groups" eval="[(6, 0, [ref('base.group_portal')])]"/>
+        <field name="perm_read">True</field>
+        <field name="perm_write">True</field>
+        <field name="perm_create">True</field>
+        <field name="perm_unlink">True</field>
+    </record>
+
+    <record id="rule_participant_liquidations" model="ir.rule">
+        <field name="active">True</field>
+        <field name="name">participant.liquidations.portal</field>
+        <field name="model_id" ref="photovoltaic_participant_liquidations.model_participant_liquidations" />
+        <field name="domain_force">[('partner_id.id', '=', user.partner_id.id)]</field>
+        <field name="groups" eval="[(6, 0, [ref('base.group_portal')])]"/>
+        <field name="perm_read">True</field>
+        <field name="perm_write">True</field>
+        <field name="perm_create">True</field>
+        <field name="perm_unlink">True</field>
+    </record> 
+
+    <record id="rule_partner_bank" model="ir.rule">
+        <field name="active">True</field>
+        <field name="name">res.partner.bank.portal</field>
+        <field name="model_id" ref="account.model_res_partner_bank" />
+        <field name="domain_force">[('partner_id.id', '=', user.partner_id.id)]</field>
+        <field name="groups" eval="[(6, 0, [ref('base.group_portal')])]"/>
+        <field name="perm_read">True</field>
+        <field name="perm_write">True</field>
+        <field name="perm_create">True</field>
+        <field name="perm_unlink">True</field>
+    </record>
+
+
+    <record id="auth_signup_uninvited" model="res.config.settings">
+        <field name="auth_signup_uninvited">b2c</field>
+    </record>
+
+</odoo>
