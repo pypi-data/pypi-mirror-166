@@ -1,0 +1,9 @@
+alma_cdk/cross_region_parameter/__init__.py,sha256=nfr5US4qTZXTFw0yk8TEH_oSCVhtEx0Da3C4dzme2mk,21339
+alma_cdk/cross_region_parameter/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+alma_cdk/cross_region_parameter/_jsii/__init__.py,sha256=oi0torvzJHpUc4zY8vixuRL6B2ZoZMWOBlKHWK8kJTI,436
+alma_cdk/cross_region_parameter/_jsii/cross-region-parameter@0.0.11.jsii.tgz,sha256=lP8YtbeNTfln-BKOs6xw4wNXKGDSOHBbAR4Etr0s2Yk,9993930
+alma_cdk.cross_region_parameter-0.0.11.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+alma_cdk.cross_region_parameter-0.0.11.dist-info/METADATA,sha256=ZvhEAy-Dn-f2uqJZdgiM0avnWcA70wFfmQnfVNVzKeg,2425
+alma_cdk.cross_region_parameter-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+alma_cdk.cross_region_parameter-0.0.11.dist-info/top_level.txt,sha256=Xm1yYhea99Axgvnzjj0zQcO1fjDREkOpLOlLTnLSUGo,9
+alma_cdk.cross_region_parameter-0.0.11.dist-info/RECORD,,

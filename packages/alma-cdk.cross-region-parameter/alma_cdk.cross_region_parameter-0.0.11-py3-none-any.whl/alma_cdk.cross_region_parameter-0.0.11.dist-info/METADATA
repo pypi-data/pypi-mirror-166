@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: alma-cdk.cross-region-parameter
+Version: 0.0.11
+Summary: Store AWS SSM Parameter Store Parameters into another AWS Region with AWS CDK
+Home-page: https://github.com/alma-cdk/cross-region-parameter.git
+Author: Alma Media<opensource@almamedia.dev>
+License: Apache-2.0
+Project-URL: Source, https://github.com/alma-cdk/cross-region-parameter.git
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aws-cdk-lib (<3.0.0,>=2.24.1)
+Requires-Dist: constructs (<11.0.0,>=10.0.0)
+Requires-Dist: jsii (<2.0.0,>=1.65.0)
+Requires-Dist: publication (>=0.0.3)
+Requires-Dist: typeguard (~=2.13.3)
+
+<div align="center">
+	<br/>
+	<br/>
+  <h1>
+	<img height="140" src="assets/alma-cdk-cross-region-parameter.svg" alt="Alma CDK Cross-Region Parameter" />
+  <br/>
+  <br/>
+  </h1>
+
+```sh
+npm i -D @alma-cdk/cross-region-parameter
+```
+
+  <div align="left">
+
+Store [AWS SSM Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) Parameters into another AWS Region with AWS CDK.
+
+  </div>
+  <br/>
+</div><br/><div align="center">
+
+![diagram](assets/diagram.svg)
+
+</div><br/>
+
+## 🚧   Project Stability
+
+![experimental](https://img.shields.io/badge/stability-experimental-yellow)
+
+This construct is still versioned with `v0` major version and breaking changes might be introduced if necessary (without a major version bump), though we aim to keep the API as stable as possible (even within `v0` development). We aim to publish `v1.0.0` soon and after that breaking changes will be introduced via major version bumps.
+
+<br/>
+
+## Getting Started
+
+```python
+import { CrossRegionParameter } from "@alma-cdk/cross-region-parameter";
+
+new CrossRegionParameter(this, 'SayHiToSweden', {
+  region: 'eu-north-1',
+  name: '/parameter/path/message',
+  description: 'Some message for the Swedes',
+  value: 'Hej då!',
+});
+```
