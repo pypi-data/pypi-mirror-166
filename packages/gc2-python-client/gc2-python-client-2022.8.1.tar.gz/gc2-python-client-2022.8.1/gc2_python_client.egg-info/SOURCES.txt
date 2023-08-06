@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+gc2/__init__.py
+gc2/gc2.py
+gc2/meta.py
+gc2/sql.py
+gc2_python_client.egg-info/PKG-INFO
+gc2_python_client.egg-info/SOURCES.txt
+gc2_python_client.egg-info/dependency_links.txt
+gc2_python_client.egg-info/top_level.txt

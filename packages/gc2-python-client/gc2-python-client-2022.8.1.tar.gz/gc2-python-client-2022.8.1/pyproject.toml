@@ -1,0 +1,26 @@
+[project]
+name = "gc2-python-client"
+version = "2022.8.1"
+authors = [
+  { name="Martin Høgh", email="mh@mapcentia.com" },
+]
+description = "Python client for GC2"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mapcentia/gc2-python-client"
+"Bug Tracker" = "https://github.com/mapcentia/gc2-python-client/issues"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+#addopts = "-ra -q"
+testpaths = [
+    "tests",
+]
