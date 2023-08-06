@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pools-dashboard
+Version: 0.1.1
+Summary: analyze bets
+Home-page: https://github.com/galenhew/pool-analytics
+Keywords: bets,streamlit
+Author: ghew
+Author-email: galenhew@gmail.com
+Requires-Python: >=3.8, !=2.7.*, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, !=3.6.*, !=3.7.*
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: lxml (>=4.9.1,<5.0.0)
+Requires-Dist: numpy (>=1.23.2,<2.0.0)
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: plotly (>=5.10.0,<6.0.0)
+Requires-Dist: streamlit (>=1.12.2,<2.0.0)
+Requires-Dist: tabula-py (>=2.5.0,<3.0.0)
+Requires-Dist: xlrd (>=2.0.1,<3.0.0)
+Project-URL: Repository, https://github.com/galenhew/pool-analytics
+Description-Content-Type: text/markdown
+
+# pools-analytics
+
+### Deployed at
+https://galenhew-pool-analytics-srcpools-dashboarddashboard-3ao0eg.streamlitapp.com/
+
+### Scope
+1. dashboard for bets 
+2. poisson odds model
+3. other models
+4. add DB 
+
+### Code
+- FE prototyping on streamlit
+
+- to install dependencies via poetry
+  - ```poetry install```
+
+- to run streamlit locally
+  - ```streamlit run dashboard.py ```
+
+
