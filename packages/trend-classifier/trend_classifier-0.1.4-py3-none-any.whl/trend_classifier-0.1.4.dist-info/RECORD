@@ -1,0 +1,10 @@
+trend_classifier/__init__.py,sha256=ZpWnkKehEsml4Xd1KVYPk96VBqfMd0x0UdK88SFZIkU,433
+trend_classifier/configuration.py,sha256=tjEG5O8uJLVSKYXmd2WlE24mnjtqGkLaPByAA7_wH-E,1018
+trend_classifier/models.py,sha256=OAzrsYxEoLHAcKuWFkpBjScNtK65tcf5wZJGbrUZ1Dk,270
+trend_classifier/segment.py,sha256=84tJgViUDu-UbAvFCLCooEu1puO5X2H1oCmnLsalErI,2442
+trend_classifier/segmentation.py,sha256=Jvm_imqsv9tMzY751iqmFSh7vDPfgrVxv1v97DevES4,12691
+trend_classifier/types.py,sha256=mERmOXk21IZ2POmTL3BgSxOs9DuPQwyOJPwzHDzyHqI,80
+trend_classifier-0.1.4.dist-info/LICENSE,sha256=_1LupFIUizbK_dHPY0xsX5C_aV5SvUqduB7yyItMvCs,1088
+trend_classifier-0.1.4.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+trend_classifier-0.1.4.dist-info/METADATA,sha256=jJQLRcxjb5qcXF2iv2mj9jiiDQW8zec-VyubkAXaEhY,4255
+trend_classifier-0.1.4.dist-info/RECORD,,
