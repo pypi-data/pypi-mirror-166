@@ -1,0 +1,5 @@
+[tool.poetry]
+name = "pptu"
+version = "0.0.1"
+description = "Reserved"
+authors = ["nyuszika7h <nyuszika7h@gmail.com>"]
