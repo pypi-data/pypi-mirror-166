@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: papai-public
+Version: 0.0.1
+Summary: Public papAI minio writer/reader
+Author: Datategy
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyarrow (==9.0.0)
+Requires-Dist: minio (==7.1.9)
+
+UNKNOWN
+
