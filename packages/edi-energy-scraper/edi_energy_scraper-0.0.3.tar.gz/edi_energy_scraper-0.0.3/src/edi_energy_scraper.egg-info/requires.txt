@@ -1,0 +1,3 @@
+PyPdf2
+beautifulsoup4
+requests
