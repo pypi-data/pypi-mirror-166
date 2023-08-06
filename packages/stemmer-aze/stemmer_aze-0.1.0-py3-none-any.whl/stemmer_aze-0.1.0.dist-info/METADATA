@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: stemmer-aze
+Version: 0.1.0
+Summary: A word stemmer for Azerbaijani language
+Author: Samir Mammadov, Shahnur Isgandarli, Ali Mustafali, Ziyaddin Sadigov
+Author-email: Jafar Isbarov <cefer.isbarov@gmail.com>
+Project-URL: Homepage, https://github.com/ceferisbarov/stemmer
+Project-URL: Bug Tracker, https://github.com/ceferisbarov/stemmer/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
