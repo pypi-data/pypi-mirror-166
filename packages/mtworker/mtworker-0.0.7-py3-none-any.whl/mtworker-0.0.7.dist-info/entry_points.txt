@@ -1,0 +1,5 @@
+[console_scripts]
+mtwoker = mtworker.celery:main
+
+[flask.commands]
+cmd1 = mtxp.commands:cli
