@@ -1,0 +1,11 @@
+{% if request.user.is_authenticated %}
+<script type="text/javascript">
+    function analytics_identify() {
+        analytics.identify('{{ request.user.id }}', { 
+            name: '{{ request.user.full_name }}',
+            email: '{{ request.user.email }}'
+        });
+    }
+    analytics_identify();
+</script>
+{% endif %}
