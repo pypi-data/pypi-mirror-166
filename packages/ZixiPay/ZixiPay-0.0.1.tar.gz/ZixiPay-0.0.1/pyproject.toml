@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ZixiPay"
+version = "0.0.1"
+authors = [
+  { name="lyteloli", email="me@lyteloli.space" },
+]
+description = "An asynchronous ZixiPay API wrapper"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License (GPL)",
+    "Operating System :: OS Independent",
+    "Framework :: aiohttp",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development"
+]
+dependencies = [
+    "aiohttp"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/lyteloli/ZixiPay"
+"Bug Tracker" = "https://github.com/lyteloli/ZixiPay/issues"
