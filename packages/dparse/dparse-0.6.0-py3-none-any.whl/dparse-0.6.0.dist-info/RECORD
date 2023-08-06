@@ -1,0 +1,12 @@
+dparse/__init__.py,sha256=BA92SgTE5z2Y5He9erlhOzp9yZ1PrXPwAJYHxkPmUBY,250
+dparse/dependencies.py,sha256=3OtPPPw9dzA7xOft3qHXIW9wYJHXaAx-x1iQx2dysMI,6491
+dparse/errors.py,sha256=2RIka1JnfEgnFGmtvG3vJYZTSL5jlzg28chC8Hh6KUQ,517
+dparse/filetypes.py,sha256=uo6L7OkodXwoMSZAtANAW1ONSRjjftKO4XiVJsI7e34,266
+dparse/parser.py,sha256=RiC999h7twlz96t9jC3Z7PHNj2_cvvnHbFUSlDay-tI,16401
+dparse/regex.py,sha256=whCzAWtay08y3wOO1OLwZIr-AJ41muEQ_4iHfzhO-iU,133
+dparse/updater.py,sha256=aCXy9y0f-IzlkmGw-K_x5xCvPsEfRbSnZRPlyHYDcsk,4708
+dparse-0.6.0.dist-info/LICENSE,sha256=ar0PbA_0X4CQeStmtJmu5WMr9t8_geMafO3DNpZatu4,1074
+dparse-0.6.0.dist-info/METADATA,sha256=0CTGBRE9Sh3zmuPkoKpBwrnbK7J1ri-q63xYIkpslMA,6976
+dparse-0.6.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dparse-0.6.0.dist-info/top_level.txt,sha256=8NceeVLFu78mZvy2kE5EdLidhEujS8Ece2V6l5VqRbw,7
+dparse-0.6.0.dist-info/RECORD,,
