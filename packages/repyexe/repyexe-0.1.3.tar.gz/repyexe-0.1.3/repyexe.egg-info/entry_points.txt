@@ -1,0 +1,3 @@
+[console_scripts]
+repyexe = repyexe.__main__:main
+
