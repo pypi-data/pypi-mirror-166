@@ -1,0 +1,5 @@
+argparse
+rich
+setuptools
+twine
+wheel
