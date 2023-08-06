@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tid-titanic-classification-model
+Version: 1.1.0
+Summary: Example Titanic classification model package
+Home-page: https://github.com/edcalderin/deployment-titanic-classification-model
+Author: Edcalderin
+Author-email: edcm.erick@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Titanic Classifier
