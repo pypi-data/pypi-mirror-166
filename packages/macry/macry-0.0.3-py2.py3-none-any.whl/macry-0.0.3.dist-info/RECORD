@@ -1,0 +1,9 @@
+macry/__init__.py,sha256=9NBc5RUJuJjPZqn_CeRwsreHWxQDq7cgQSFF3rTe_oU,139
+macry/builder.py,sha256=FnSGAh1ARwNDz3-ClBoC9dyrYDsWrlL6-nt_76mioII,2911
+macry/fields.py,sha256=eXLqz5U3tCwY-fS66i0E9eLGsvlm0SUkF1ur40WNwvE,7214
+macry/connects/__init__.py,sha256=fdw2eidVsNqZB5G38o3w6OKwcgNesEbZyRh7MiRkjJg,41
+macry/connects/firestore_connect.py,sha256=Qoij5rTr0yUXG52JHiW5LrjnsLwUa2vJhSMER6M7QME,3711
+macry-0.0.3.dist-info/LICENSE,sha256=JQBmsl0PZk_Dv6WTPMjrINsSjfKIMD0cheoZRtfJ0Ec,1073
+macry-0.0.3.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+macry-0.0.3.dist-info/METADATA,sha256=Vi7z4u4fn1ucrimp6iO1GGPsBSpO9nvpLZUvwJvA1mM,631
+macry-0.0.3.dist-info/RECORD,,
