@@ -1,0 +1,10 @@
+utilities/__init__.py,sha256=2h72sKHUCzBdoE-eWuvVW5PzjKppMW787L5aKeLS60A,53
+utilities/db_tools.py,sha256=EXhjqmLHqrur18vxb5zE6CqZu9Dx_v7SlKxLz-qArPs,2600
+utilities/primary_tools.py,sha256=pEOoMk-JtJqqfP9fQKoT5oIlcKby03FoARqiadTnZ0k,12431
+utilities/tools.py,sha256=CDE3sxx7WPKNDsW_0vsIixU3UGN6Bn2qdPDjGqONLSU,12425
+utilities/utilities.py,sha256=vrqLAKCPKq4EOX_Vq84s4PlRvp-dwcq54w3x0RJRtCk,9147
+clemoni_utilities-1.2.0.dist-info/LICENSE,sha256=P54a64IUtuk1DPIrg4ZmTrEqmRvBzERr6mlEDlvrUiY,1072
+clemoni_utilities-1.2.0.dist-info/METADATA,sha256=Z96gZpAddRBcBLv_0D4WPsBh96yx7SvXWSmSzZlfXGA,1225
+clemoni_utilities-1.2.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+clemoni_utilities-1.2.0.dist-info/top_level.txt,sha256=xfbyt_LD6gjXpAxs_NK0_ey3ZifACbsrf513Fh-ZKeM,33
+clemoni_utilities-1.2.0.dist-info/RECORD,,
