@@ -1,0 +1,8 @@
+proxycurl-py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proxycurl-py/asyncio/base.py,sha256=3GaoKoRwXLF-wT26zEIWHnBpT0YMfyw-9lWOfBkFifk,4706
+proxycurl-py/config.py,sha256=ZWQo2HSxPFnXmo_o1QZbDdwp8ZGGGE_3LenWtZX8G4M,283
+proxycurl-py/gevent/base.py,sha256=CKbWZAQTynqKTwwcL5VwMvQtlWGkVOFzf9iQXxj7LuQ,4168
+proxycurl-py/twisted/base.py,sha256=z_kX7IhSLHckPhpZk9ECS338QDHmI_QCt1nA2zOrXCc,4992
+proxycurl_py-0.0.14.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+proxycurl_py-0.0.14.dist-info/METADATA,sha256=VZ-h841WosbedKug95PjOE6U9ZFjeuMcFhL3Gq-TG9A,11584
+proxycurl_py-0.0.14.dist-info/RECORD,,
