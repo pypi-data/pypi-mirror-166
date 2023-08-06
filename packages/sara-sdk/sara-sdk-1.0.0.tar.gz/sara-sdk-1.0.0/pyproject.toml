@@ -1,0 +1,29 @@
+[build-system]
+requires = [
+  "setuptools>=54",
+  "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sara-sdk"
+version = "1.0.0"
+description = "Synkar SARA REST API SDK"
+readme = "README.md"
+authors = [{ name = "Synkar Autonomous", email = "synkar@synkar.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["synkar", "sara", "python-sdk", "sdk"]
+dependencies = [
+    "python-dotenv >= 0.19.2",
+    "requests >= 2.27.1",
+    "urllib3 >= 1.26.9",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/Synkar/Sara-SDK-Python"
