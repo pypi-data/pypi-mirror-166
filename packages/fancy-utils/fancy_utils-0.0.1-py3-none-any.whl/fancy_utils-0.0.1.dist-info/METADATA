@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: fancy-utils
+Version: 0.0.1
+Summary: miscellaneous utils for plotting, colors, slicing, nested dictionaries and more
+Home-page: https://github.com/imagirom/fancy
+Author: Roman Remme
+Author-email: roman.remme@gmx.de
+Project-URL: Source, https://github.com/imagirom/fancy/
+Keywords: fancy,utils,ipywidgets
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: plotting
+Requires-Dist: numpy ; extra == 'plotting'
+Requires-Dist: matplotlib ; extra == 'plotting'
+Requires-Dist: ipywidgets ; extra == 'plotting'
+
+# fancy
+
+Miscellaneous utils for plotting, colors, slicing, nested dictionaries and more.
+
+Install via setuptools or pip, but note that no dependencies are included 
+(install what you need and import from submodules).
