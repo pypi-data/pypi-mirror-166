@@ -1,0 +1,12 @@
+njet/__init__.py,sha256=2roQM6mp9cbzeLDH59ozPhxoRuWYI6UZ8CKpRRH-j1E,891
+njet/_version.py,sha256=J0I0c7-a50EOnWXMryTu_E6xhXSYFBPjVpeYP_a3vRI,22
+njet/ad.py,sha256=ZZgM9CaOVJfoSLpNAuLqLCIvQgaVO-PSrfZh8caHJZ4,4921
+njet/common.py,sha256=uGhhrTjEF8h-KWJCMneHnhw8-yu9Nle3BT_OlgZ6H7I,1814
+njet/functions.py,sha256=H10vZw--Sagoeeu4xdW79Cd44vjAxQ0CKkxX4jnzE78,5179
+njet/jet.py,sha256=kAsDkhKWigkfRwlG7ujyHjMDwQ3JyhS-kS_gRq0u4Pg,17040
+njet/poly.py,sha256=GKE7-rVBB0KIVedsA4Ay3yrKIPoI7QvfIkhwhqasW5s,10517
+njet-0.3.7.dist-info/LICENSE.txt,sha256=j_f4LOp0rTE3W4hX4BOAPFdbjeIHoLez5KuPzPtf5Gw,718
+njet-0.3.7.dist-info/METADATA,sha256=xTv3LzX9Pq7bpAYhjo2Qyz6nZr1H2iMQyBMYs-g0dL0,3579
+njet-0.3.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+njet-0.3.7.dist-info/top_level.txt,sha256=E9NKPB7XFbRXJS3ho-vIJN9yzjp4_kbfNumhMLmvEyQ,5
+njet-0.3.7.dist-info/RECORD,,
