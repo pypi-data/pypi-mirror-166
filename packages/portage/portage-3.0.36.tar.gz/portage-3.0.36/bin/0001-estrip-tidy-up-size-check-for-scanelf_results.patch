@@ -1,0 +1,27 @@
+From f35bf4828ac56b4ab4f7fb4ccc846ebdee33767d Mon Sep 17 00:00:00 2001
+From: Sam James <sam@gentoo.org>
+Date: Sat, 13 Aug 2022 18:48:43 +0100
+Subject: [PATCH] estrip: tidy up size check for scanelf_results
+
+Thanks-to: Kerin Millar <kfm@plushkava.net>
+Signed-off-by: Sam James <sam@gentoo.org>
+---
+ bin/estrip | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/bin/estrip b/bin/estrip
+index b8764039b..d7be51743 100755
+--- a/bin/estrip
++++ b/bin/estrip
+@@ -104,7 +104,7 @@ while [[ $# -gt 0 ]] ; do
+ 			while IFS= read -r path; do
+ 				>> "${path}.estrip" || die
+ 			done < <(
+-				[[ -n ${scanelf_results[@]} ]] && printf "%s\n" "${scanelf_results[@]}"
++				(( ${#scanelf_results[@]} )) && printf "%s\n" "${scanelf_results[@]}"
+ 				find "${find_paths[@]}" -type f ! -type l -name '*.a'
+ 			)
+ 
+-- 
+2.37.2
+
