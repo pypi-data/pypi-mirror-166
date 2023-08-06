@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/__init__.py
+xayah.egg-info/PKG-INFO
+xayah.egg-info/SOURCES.txt
+xayah.egg-info/dependency_links.txt
+xayah.egg-info/requires.txt
+xayah.egg-info/top_level.txt
