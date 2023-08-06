@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: terrapyst
+Version: 0.3.3
+Summary: My package description
+License: MIT
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# terrapyst
+
+A Python Library that wraps around the Terraform CLI.
