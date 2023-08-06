@@ -1,0 +1,23 @@
+# PyPETL
+
+PyPETL (Python Pipeline Extract Transform Load) is an unofficial fork of [PETL by Juarez Rudsatz and teams](https://github.com/petl-developers/petl). This for extending the capabilities of the PETL package by optimizing IO process of the pipeline and an engine that capable on dynamically retrieve connection credential and manage several cloud services (only AWS Secret Manager for now).
+<br/><br/>
+## Requirements
+In order to use this package, the installer will install the following required package and its dependencies in your system:
+- [pandas](https://pypi.org/project/pandas/) >= 1.4.3
+- [petl](https://pypi.org/project/petl/) >= 1.7.11
+- [redshift-connector](https://pypi.org/project/redshift-connector/) >= 2.0.908
+- [psycopg2-binary](https://pypi.org/project/psycopg2-binary/) >= 2.9.3
+- [paramiko](https://pypi.org/project/paramiko/) >= 2.11.0
+- [sshtunnel](https://pypi.org/project/sshtunnel/) >= 0.4.0
+<br/><br/>
+## Installation
+You cannot install this python package normally because this package can only be installed by build it from the source, not from PyPi Package Repositories. You can use the following command to install this package to your system:
+```bash
+git clone https://github.com/Renos-id/pypetl.git
+cd pypetl
+pip install setuptools wheel
+pip uninstall pypetl
+python setup.py install --prefix ~/.local/
+```
+Please remember that you need to logged in to renos github beforehand.
