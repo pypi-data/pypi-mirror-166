@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "master_strange_mol_rep"
+version = "0.0.1"
+authors = [
+  { name="Stiv Llenga", email="stiv.llenga@h-its.org" },
+]
+description = "Stiv Llenga (Master Strange) created this simple package to assist master students and other researchers who are working on generating molecular representations and manipulating arrays in various forms."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
