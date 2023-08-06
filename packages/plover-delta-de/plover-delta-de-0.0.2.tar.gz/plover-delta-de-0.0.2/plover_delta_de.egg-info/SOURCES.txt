@@ -1,0 +1,14 @@
+.gitignore
+README.md
+setup.cfg
+setup.py
+plover_delta_de/__init__.py
+plover_delta_de/dictionary.py
+plover_delta_de/system.py
+plover_delta_de.egg-info/PKG-INFO
+plover_delta_de.egg-info/SOURCES.txt
+plover_delta_de.egg-info/dependency_links.txt
+plover_delta_de.egg-info/entry_points.txt
+plover_delta_de.egg-info/requires.txt
+plover_delta_de.egg-info/top_level.txt
+plover_delta_de.egg-info/zip-safe
