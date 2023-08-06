@@ -1,0 +1,7 @@
+
+[docs]
+sphinx<5,>=4.4.0
+sphinx-toolbox<3,>=2.18.0
+sphinxcontrib_trio<2,>=1.1.2
+sphinx_book_theme==0.2.0
+sphinxext-opengraph<1,>=0.6.2
