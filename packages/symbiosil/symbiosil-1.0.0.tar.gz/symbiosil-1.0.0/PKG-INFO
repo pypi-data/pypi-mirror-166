@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: symbiosil
+Version: 1.0.0
+Summary: Symbiosil is living AI bot framework.
+Home-page: https://github.com/stacknix/symbiosil
+Author: Ashish Sahu
+Author-email: spiraldeveloper@gmail.com
+License: MIT
+Keywords: python package symbiosil
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Symbiosil is open source AI bot framework. Our goal is to make living like symbiosis which can run on any platform and device.
+
