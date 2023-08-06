@@ -1,0 +1,16 @@
+facturapi/__init__.py,sha256=Of31LGjbRnRd58WdZ5kXnSNxpWPMwUxYYir_BlIjdAg,56
+facturapi/customers.py,sha256=HMzN1rBfxKDyzPx4XTLELzQFHmj9xgfERFn0Q48Yv2c,3286
+facturapi/enums.py,sha256=zKEBt-pZZlGbwEMg35oOuaYnDG72u75oXNQMMi4DgZQ,1259
+facturapi/exceptions.py,sha256=GUXEfMMzQ250ZpUmSRmTQjAKOEnGPW1Q7ESuu-Ujq5A,101
+facturapi/http.py,sha256=fftbKg2rkeHdh7bnfirHxhpT5cZnb83HeTj0h5baj7Y,3631
+facturapi/invoices.py,sha256=ponbLWTNQkdBKXIGirAXUACecq1ve7LMibdIE-XcC_E,5540
+facturapi/organizations.py,sha256=KbMhIIBqDDMqHNyWmK1WzlTGwAmwdlGAKlIcwYpO_Gc,9595
+facturapi/products.py,sha256=b8M0GrWEXgbGo0OVx0qZDTGtIjQ4a4wbJ7ltUrHbwGU,2471
+facturapi/receipts.py,sha256=MptfkwhA1nzM6GMh16eFed-6kwypEl2wATsKybuonc8,3784
+facturapi/retentions.py,sha256=b1NUJgtVeRGixiTBzyhd08-git086rF273dgs43a4bY,4750
+facturapi/tools.py,sha256=k1LrtdK5vMw_MNv7NNyu4jHXz33ZsCOMn-_ciHwY724,1335
+facturapi/wrapper.py,sha256=s7J6phJSSuadaSqJLr4BkS2WkaEDApBN4R7LDas6b5w,1275
+facturapi_python-0.0.2.dist-info/METADATA,sha256=mr5tnh6piudZZrNPoHGBMpvgzlOBkWVcR96EI4bD5Us,5570
+facturapi_python-0.0.2.dist-info/WHEEL,sha256=09RFlvY3aVzvCNk4AXPZt-N-AI7GY_KktGsTb2IqIBU,86
+facturapi_python-0.0.2.dist-info/licenses/LICENSE,sha256=yXFEgKg7YrPICsS4wn5HnCT3CrUlqjjgwezQoDiIjas,1075
+facturapi_python-0.0.2.dist-info/RECORD,,

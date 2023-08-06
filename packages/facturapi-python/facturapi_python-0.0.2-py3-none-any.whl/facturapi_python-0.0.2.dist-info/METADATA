@@ -1,0 +1,169 @@
+Metadata-Version: 2.1
+Name: facturapi-python
+Version: 0.0.2
+Summary: Unofficial Facturapi.io Python wrapper
+Project-URL: Homepage, https://github.com/TI-Sin-Problemas/facturapi-python
+Project-URL: Bug Tracker, https://github.com/TI-Sin-Problemas/facturapi-python/issues
+Author-email: TI Sin Problemas <pypi@tisinproblemas.com>
+License: MIT License
+        
+        Copyright (c) 2022 Alfredo Altamirano
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Keywords: cfdi,factura,mexico,sat
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Requires-Dist: requests<3,>=2.28
+Description-Content-Type: text/markdown
+
+# FacturAPI Unofficial Python client
+
+![PyPI - Downloads](https://img.shields.io/pypi/dm/facturapi-python?logoColor=yellow&style=for-the-badge) ![PyPI](https://img.shields.io/pypi/v/facturapi-python?label=Latest&logo=pypi&logoColor=yellow&style=for-the-badge) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/facturapi-python?logo=python&logoColor=yellow&style=for-the-badge) ![GitHub Repo stars](https://img.shields.io/github/stars/TI-Sin-Problemas/facturapi-python?logo=github&style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues/TI-Sin-Problemas/facturapi-python?logo=github&style=for-the-badge)
+
+This is an unofficial Python wrapper for [FacturAPI](https://facturapi.io/)
+
+FacturAPI makes it easy for developers to generate valid Invoices in Mexico (known as Factura Electrónica or CFDI).
+
+If you've ever used [Stripe](https://stripe.com/) or [Conekta](https://conekta.io/), you'll find FacturAPI very straightforward to understand and integrate in your server app.
+
+## Install
+
+```bash
+pip install facturapi-python
+```
+
+## Getting started
+
+### Create a customer
+
+```python
+from facturapi import Facturapi
+
+api = facturapi("FACTURAPI_SECRET_KEY")
+
+new_customer = api.customers.create({
+  "legal_name": "Dunder Mifflin",
+  "tax_id": "ABC101010111",
+  "tax_system": "601",
+  "email": "email@example.com",
+  "phone": 6474010101,
+  "address": {
+    "street": "Blvd. Atardecer",
+    "exterior": 142,
+    "interior": 4,
+    "neighborhood": "Centro",
+    "city": "Huatabampo",
+    "municipality": "Huatabampo",
+    "zip": 86500,
+    "state": "Sonora",
+    "country": "MEX"
+  }
+})
+
+```
+
+### Create a product
+
+```python
+from facturapi import Facturapi
+
+api = facturapi("FACTURAPI_SECRET_KEY")
+
+new_product = api.products.create({
+    "description": "Ukelele",
+    "product_key": 60131324,
+    "price": 345.6,
+    "tax_included": true,
+    "taxability": "01",
+    "taxes": [{
+        "type": "IVA",
+        "rate": 0.16
+        }],
+    "local_taxes": [],
+    "unit_key": "H87",
+    "unit_name": "Elemento",
+    "sku": "string"
+})
+
+```
+
+### Create an invoice
+
+```python
+from facturapi import Facturapi
+
+api = facturapi("FACTURAPI_SECRET_KEY")
+
+new_invoice = api.invoices.create({
+    "customer": "YOUR_CUSTOMER_ID", # You can also use a customer object instead
+    "payment_form": api.catalogs.payment_forms.TRANSFERENCIA_ELECTRONICA,
+    "items": [{
+    "quantity": 1,
+    "product": 'YOUR_PRODUCT_ID' # You can also use a product object instead
+  }]
+})
+
+```
+
+#### Download your invoice
+
+```python
+from facturapi import Facturapi
+
+api = facturapi("FACTURAPI_SECRET_KEY")
+
+with open("invoice.zip", "wb") as binary_file:
+    invoice = api.invoices.download_zip("INVOICE_ID")
+    binary_file.write(invoice)
+
+```
+
+#### Send your invoice by email
+
+```python
+from facturapi import Facturapi
+
+api = facturapi("FACTURAPI_SECRET_KEY")
+
+message = api.invoices.send_by_email("INVOICE_ID", "customer@email.com")
+
+```
+
+## Documentation
+
+You can find more on what to do on the [official documentation](http://docs.facturapi.io.)
+
+## Help
+
+:warning: This is an unofficial project, the maintainers does not have any affiliation with FacturAPI or their developers. Any error with the service itself should be reported to the official support channels
+
+### Found a bug?
+
+If you find a bug for this API client, please create an issue on the [project's github page](https://github.com/TI-Sin-Problemas/facturapi-python/issues)
+
+### Contribute
+
+All PRs are welcome!
