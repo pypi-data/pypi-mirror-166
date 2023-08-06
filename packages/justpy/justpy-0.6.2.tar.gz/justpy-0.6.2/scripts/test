@@ -1,0 +1,22 @@
+#!/bin/bash
+# WF 2022-08-20
+install_packages() {
+  # install test packages
+  pip install aiohttp asynctest green psutil selenium  testfixtures webdriver-manager
+  # install example packages
+  pip install bokeh pandas pydeck
+}
+
+modulewise_test() {
+  for testmodule in tests/test*.py
+  do
+    echo "testing $testmodule ..."
+    #green $testmodule
+    python -m unittest $testmodule
+  done
+}
+
+install_packages
+modulewise_test
+# test importability might fail if we do this ...
+# green tests
