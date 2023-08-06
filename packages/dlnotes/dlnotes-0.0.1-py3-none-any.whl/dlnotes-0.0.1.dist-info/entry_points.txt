@@ -1,0 +1,2 @@
+[nbdev]
+dlnotes = dlnotes._modidx:d
