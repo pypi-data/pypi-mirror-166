@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+retico_googletts/__init__.py
+retico_googletts/googletts.py
+retico_googletts/version.py
+retico_googletts.egg-info/PKG-INFO
+retico_googletts.egg-info/SOURCES.txt
+retico_googletts.egg-info/dependency_links.txt
+retico_googletts.egg-info/requires.txt
+retico_googletts.egg-info/top_level.txt
