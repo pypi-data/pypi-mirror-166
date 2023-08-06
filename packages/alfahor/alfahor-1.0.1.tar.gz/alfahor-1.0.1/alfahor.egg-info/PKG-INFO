@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: alfahor
+Version: 1.0.1
+Summary: Vertical structure from masked channel maps.
+Home-page: https://github.com/teresapaz/alfahor
+Author: Teresa Paneque-Carreño
+Author-email: tpaneque@eso.org
+License: LICENSE.md
+Description: # ALFAHOR - ALgorithm For Accurate H/R
+        Trace the vertical structure of protoplanetary disks by masking line emission. Based on Pinte et al. 2018.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
