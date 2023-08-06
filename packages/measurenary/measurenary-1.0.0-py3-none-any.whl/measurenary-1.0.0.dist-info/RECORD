@@ -1,0 +1,11 @@
+measurenary/__init__.py,sha256=25ueanKz9sqNyIrfoQPrmp6eqEqvXLipu-e2ob_VAQ8,96
+measurenary/agglomerative_best.py,sha256=ha8OdpgXJJ_jwWwDTQqueX7BPFz6th-hxUc2tOdDOsc,10580
+measurenary/distance.py,sha256=RiIijvuGwKyBTFu4IYRUVsAFbatEuxULGvJJqGCtUA4,12023
+measurenary/pair_best.py,sha256=YkVRH_nA6JjrVfuYqIzFENudUtjD0itON_PKPTt4xQI,11168
+measurenary/similarity.py,sha256=vLHYZyaLQ5L92jx4uQ2gAL1ufhNfj7lD9PFF_XaEg48,54681
+measurenary/utility.py,sha256=2OgpElVUgVrz_WKYST6GY9Iq2VsMu2joALYBPPq5Fcw,5554
+measurenary-1.0.0.dist-info/LICENSE,sha256=zzvUoZoTiIOQ5cuPCV4wbi-Pk8F40_yD63pDIeHYU88,1101
+measurenary-1.0.0.dist-info/METADATA,sha256=sOA11FQO1ZE9_9PBoAKYtAg-Xx9xm1Z07ugEdOCrIeM,1380
+measurenary-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+measurenary-1.0.0.dist-info/top_level.txt,sha256=AvtgPECQJP4Sa6lH3Rmf3oKGE2JmPU41Ib3oyR8_rjY,12
+measurenary-1.0.0.dist-info/RECORD,,
