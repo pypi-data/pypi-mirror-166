@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bazaarpy
+Version: 0.1
+Summary: A Python wrapper for the Hypixel Skyblock Bazaar API
+Author: PuffCode
+License: GPL-3.0
+License-File: LICENSE
+Requires-Dist: requests
+
