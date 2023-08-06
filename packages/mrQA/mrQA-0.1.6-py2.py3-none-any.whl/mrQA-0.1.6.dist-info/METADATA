@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: mrQA
+Version: 0.1.6
+Summary: mrQA suite of tools offering automatic evaluation of protocol compliance
+Home-page: https://github.com/Open-Minds-Lab/mrQA
+Author: Pradeep Raamana
+Author-email: raamana@gmail.com
+License: Apache Software License 2.0
+Keywords: mrQA
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: mrdataset
+Requires-Dist: pydicom
+Requires-Dist: nibabel
+Requires-Dist: dictdiffer
+Requires-Dist: jinja2
+
+==============================
+Quickstart
+==============================
+
+.. image:: https://img.shields.io/pypi/v/mrQA.svg
+        :target: https://pypi.python.org/pypi/mrQA
+
+.. image:: https://img.shields.io/travis/Open-Minds-Lab/mrQA.svg
+        :target: https://travis-ci.com/Open-Minds-Lab/mrQA
+
+
+mrQA suite of tools offering
+ - automatic evaluation of protocol compliance
+
+
+To use  mrQA in a project::
+
+    import  mrQA
+
+The most important methods for checking protocol compliance is
+``mrQA.project.check_compliance``. It calls all the required functions.
+
+* To infer the most frequent values for each acquisition parameter
+* Aggregate the non-compliance information to generate an HTML report
+
+
+First of all, you have to import the relevant modules and classes::
+
+    from MRdataset import import_dataset
+    from mrQA import check_compliance
+
+Given a dataset of MR images, (e.g. DICOM images), we create
+``MRdataset.base.Project`` object. This can be achieved simply by
+``MRdataset.import_dataset`` method, which requires a valid folder path.
+For details on ``MRdataset``, please see its documentation. ::
+
+    data_root = '/home/user/datasets/ABCD'
+    output_dir = '/home/user/MR_reports/'
+    dataset = import_dataset(data_root=data_root,
+                             style='xnat',
+                             name='ABCD')
+
+    check_compliance(dataset=dataset, output_dir=output_dir)
+
+And that's it! Please note some important points:
+
+* It will generate a corresponding HTML file in the ``output_dir`` which contains the complete report.
+* ``style`` denotes the specific format of neuroimaging dataset. For example, use *xnat* for DICOM datasets and *bids* for BIDS datasets
+* ``name`` is an identifier which can be used to reload the the cached files later.If no name is specified, it uses a random identifier.
+
+
+
+=======
+History
+=======
+
+0.1.0 (2022-05-20)
+------------------
+
+* First release on PyPI.
+
+
