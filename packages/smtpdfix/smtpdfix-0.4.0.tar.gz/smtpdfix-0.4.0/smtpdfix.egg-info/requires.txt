@@ -1,0 +1,14 @@
+aiosmtpd
+cryptography
+pytest
+python-dotenv
+
+[dev]
+flake8
+isort
+pytest-cov
+pytest-timeout
+tox
+
+[typing]
+mypy
