@@ -1,0 +1,15 @@
+mrQA/__compliance__.py,sha256=PtaDQtvgcPtE6lisxMWX87T4ThF9eHr4JvxvlTqb7fM,336
+mrQA/__init__.py,sha256=SC-riomdht0K32aeMNNvBVHCOxDI9m3GbmhAOxnXr2U,172
+mrQA/cli.py,sha256=4PLaFSuyvV2y90UuqNLAPxsnI0b084N_uSf150AeMwU,4173
+mrQA/common.py,sha256=czLWLfkudPXhWImb19bX8KFMI0lcGJL1LBUsJxc8hnw,266
+mrQA/config.py,sha256=-V1mEqrFvkICon_7SBQT0PXhqgjq5SctxJbcehhiO1o,1049
+mrQA/formatter.py,sha256=0LqFD7l4liaNQhvtefDNNqLTn_uR-_-nc9rli1a45sc,3962
+mrQA/project.py,sha256=64ytl_einyeTbFLValngVm9Yd_6O4JBantkCQMDaqwk,4288
+mrQA/utils.py,sha256=skv7lQlykJ6QWJrkI4nxykSrWpt_N13k9pnsXzhiFbE,2096
+mrQA-0.1.1.dist-info/AUTHORS.rst,sha256=k308G6f0x9f9NYquiL0Xi0cxupzhJ3BEEe3E9_mnNjs,177
+mrQA-0.1.1.dist-info/LICENSE,sha256=NyoZN62au4U59lZZbHhhOPO_4iPqs8HF-Y1-U5y0Rp0,583
+mrQA-0.1.1.dist-info/METADATA,sha256=NO1GXgcJnuBNMG2jjtl2ciEzA7DQ1wZAAnOpKhBhiAY,1371
+mrQA-0.1.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+mrQA-0.1.1.dist-info/entry_points.txt,sha256=xiAPXaDJqSxEVY8dzEmU3XzS9k28O4T6mwzJPVSlTm0,86
+mrQA-0.1.1.dist-info/top_level.txt,sha256=W4QQkfqvBoEhmG6-rAL0slxFQmSd_-plr64lGiQpxII,5
+mrQA-0.1.1.dist-info/RECORD,,
