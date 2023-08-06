@@ -1,0 +1,2 @@
+[console_scripts]
+pw_cli = pw_cli:main
