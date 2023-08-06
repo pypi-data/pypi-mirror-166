@@ -1,0 +1,82 @@
+# aipalettenlp
+```aipalettenlp``` python package is a package that contains a list of NLP functions that will be used for future tasks in Ai Palette. Many useful modules and functions will be included in the package. For now, it has a module that consists of tokenizers of different languages, and another module that has several functions for text preprocessing.   
+<br>
+
+## How to Install  
+
+Before using this package please make sure you have the following dependencies installed in your system.  
+* **nltk==3.7**
+* **fastai==2.7.9**  
+* **Janome==0.4.2**  
+* **jieba==0.42.1**  
+* **numpy==1.23.2**  
+* **pythainlp==3.0.8**  
+* **tensorflow==2.9.2**
+* **torch==1.12.1**  
+* **SoMaJo==2.2.1**  
+* **pyvi==0.1.1**  
+* **emoji==2.0.0**
+* **pykotokenizer==0.0.3**  
+* **konlpy==0.6.0**
+
+Use the following command to install the package:   
+```pip install aipalettenlp==0.0.7```      
+
+<br>
+        
+## Modules 
+    
+### *Module1: tokenizer*    
+Below is an example of how you can use the ```tokenize``` function in the tokenizer module.    
+from aipalettenlp import tokenizer
+```
+text = "우아아 제 요리에 날개를 달아주는 아름다운 <키친콤마> 식품들이 도착했어요. 저당질, 저탄수화물로 만들어져 건강과 다이어트 그리고 맛까지 한꺼번에 챙길 수 있는 필수템입니다! 처음 호기심에서 시작한 저탄고지 키토식단을 유지한지 어느덧 2년 가까이 되었어요. 저탄고지는 살을 빼기위해 무작정 탄수화물을 끊는다거나 몸에 무리가 갈 수 있는 저칼로리 / 저염식이 아니에요. 내 몸에서 나타나는 반응에 좀더 귀기울이고 끊임없이 공부하고 좋은 음식을 섭취하려고 노력하는 라이프스타일 입니다."  
+          
+language = "korean"
+
+print(tokenizer.tokenize(text,language)) 
+```
+**Output:**
+
+{'tokenized_text': ['우아아', '제', '요리에', '날개를', '달아주는', '아름다운', '<키친콤마>', '식품들이', '도착했어요', '저당질,', '저탄수화물로', '만들어져', '건강과', '다이어트', '그리고', '맛까지', '한꺼번에', '챙길', '수', '있는', '필수템입니ᄃ', 'ᅡ!', '처음', '호기심에서', '시작 한', '저탄고지', '키토식단을', '유지한지', '어느덧', '2년', '가까이', '되었어요', '저탄고지는', '살을', '빼기위해', '무작정', '탄수화물을', '끊는다거나', '몸에', '무리가', '갈', '수', '있는', '저칼로리', '/', '', '저염식이', '아니에요', '내', '몸에서', '나타나는', '반응에', '좀더', '귀기울이고', '끊임없이', '공부하고', '좋은', '음식을', '섭취하려고', '노력하는', '라이프스타일', '입니다']}
+
+### *Module2: text_cleaning* 
+Below is an example of how you can use the functions in the text_cleaning module.    
+```
+from aipalettenlp import text_cleaning as tc
+text1 = """Dinner at @docksidevancouver . Patio season is definitely here!Support your local restaurants.
+
+#foodie #facestuffing #scoutmagazine #vancouvermagazine #dailyhivevancouver #ediblevancouver #eatmagazine #vancouverisawesome #vancouverfoodie #food #foodlover
+#curiocityvancouver #foodporn #foodlover #eat #foodgasm #foodinsta #foodinstagram #instafood #instafoodie #foodlover #foodpics  #foodiesofinstagram #restaurant #homechef #foodphotography #nomnomnom #georgiastraight #docksiderestaurant #granvilleisland #gnocchi #dinner"""
+
+print(tc.hashtags(text1))
+print(tc.clean_text(text1,"english"))
+print(tc.text_length(text1,"english"))
+print(tc.clean_data(text1,"english"))
+```  
+   
+**Output:** 
+
+{'hashtags': ['foodie', 'facestuffing', 'scoutmagazine', 'vancouvermagazine', 'dailyhivevancouver', 'ediblevancouver', 'eatmagazine', 'vancouverisawesome', 'vancouverfoodie', 'food', 'foodlover', 'curiocityvancouver', 'foodporn', 'foodlover', 'eat', 'foodgasm', 'foodinsta', 'foodinstagram', 'instafood', 'instafoodie', 'foodlover', 'foodpics', 'foodiesofinstagram', 'restaurant', 'homechef', 'foodphotography', 'nomnomnom', 'georgiastraight', 'docksiderestaurant', 'granvilleisland', 'gnocchi', 'dinner']}
+
+{'clean_text': 'dinner \<username> patio season definitely support local restaurants'}
+
+{'text_length': 67}   
+
+{'hashtags': ['foodie', 'facestuffing', 'scoutmagazine', 'vancouvermagazine', 'dailyhivevancouver', 'ediblevancouver', 'eatmagazine', 'vancouverisawesome', 'vancouverfoodie', 'food', 'foodlover', 'curiocityvancouver', 'foodporn', 'foodlover', 'eat', 'foodgasm', 'foodinsta', 'foodinstagram', 'instafood', 'instafoodie', 'foodlover', 'foodpics', 'foodiesofinstagram', 'restaurant', 'homechef', 'foodphotography', 'nomnomnom', 'georgiastraight', 'docksiderestaurant', 'granvilleisland', 'gnocchi', 'dinner'], 'clean_text': 'dinner \<username> patio season definitely support local restaurants', 'text_length': 67}   
+
+<br>
+
+## Complete list of tokenizers supported:
+
+['english', 'french', 'italian', 'portuguese', 'spanish', 'swedish', 'turkish', 'russian', 'mandarin', 'thai', 'japanese', 'korean', 'vietnamese','german']    
+
+<br>
+
+## Text Processing/Cleaning Functions   
+The ```clean_text``` function from module text_cleaning does the following steps:   
+
+* replace the hashtags (#______) in the main caption with the original form of the word.
+* replace all the mentioned usernames (@_______) with the word “\<username>”.
+* remove punctuations
+* remove stopwords (use nltk package)
