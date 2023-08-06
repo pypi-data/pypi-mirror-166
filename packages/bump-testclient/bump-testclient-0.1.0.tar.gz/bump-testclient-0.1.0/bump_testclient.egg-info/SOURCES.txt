@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bump_testclient/__init__.py
+bump_testclient/__main__.py
+bump_testclient/command.py
+bump_testclient/main.py
+bump_testclient.egg-info/PKG-INFO
+bump_testclient.egg-info/SOURCES.txt
+bump_testclient.egg-info/dependency_links.txt
+bump_testclient.egg-info/entry_points.txt
+bump_testclient.egg-info/requires.txt
+bump_testclient.egg-info/top_level.txt
+tests/__init__.py
+tests/test_transformer.py
