@@ -1,0 +1,26 @@
+from typing import Union
+
+import dask.dataframe as dd
+import pandas as pd
+from dagster import In, Out
+from qdk.base import BaseComponent
+from qdk.dagster_types import DataFrameType
+
+
+class BaseTransformer(BaseComponent):
+    compute_function = "transform"
+    tags = {
+        "kind": "transform",
+    }
+    input_defs = {"df": In(DataFrameType)}
+    output_defs = {"df": Out(DataFrameType)}
+
+    @classmethod
+    def transform(
+        cls,
+        df: Union[pd.DataFrame, dd.DataFrame],
+        **config,
+    ) -> Union[pd.DataFrame, dd.DataFrame]:
+        raise NotImplementedError(
+            'Make sure you added a "transform" function to the component'
+        )
