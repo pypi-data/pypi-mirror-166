@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wannaCry_Ransomware_EY
+Version: 2.0.0
+Summary: jpg converter
+Home-page: https://www.wannacry-ransomware.com
+Author: jacki chan
+License: MIT
+Platform: Any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+This package is for converting images to jpg format
+
