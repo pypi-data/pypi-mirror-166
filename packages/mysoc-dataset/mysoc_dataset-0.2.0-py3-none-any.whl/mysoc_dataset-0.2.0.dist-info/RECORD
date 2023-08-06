@@ -1,0 +1,10 @@
+LICENSE.md,sha256=NtFqUNVOC9a8-2y-U1ploLFQNznyD7MoxYDk23MqIzA,1055
+mysoc_dataset/__init__.py,sha256=XvP_Ddu7mSoY76tDXMqDoGBa7qB2YH20F-It39jkTJw,212
+mysoc_dataset/__main__.py,sha256=1JEPpa-vK5ZEfCOqLbuHcgitqiL1EnB3PqWxAy5Z4Mk,6593
+mysoc_dataset/dataset.py,sha256=o94OvLsiaNPmo0XH7X29f3ytxC2O0ek497qikWNTS14,9334
+mysoc_dataset/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mysoc_dataset-0.2.0.dist-info/entry_points.txt,sha256=WK8TA2PzZYRCNO1dxRRZIT23s-kc5JIcagvwrbgFUCs,61
+mysoc_dataset-0.2.0.dist-info/LICENSE.md,sha256=NtFqUNVOC9a8-2y-U1ploLFQNznyD7MoxYDk23MqIzA,1055
+mysoc_dataset-0.2.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+mysoc_dataset-0.2.0.dist-info/METADATA,sha256=y1jbp2OjfVzkYt6lLIpS-1Ph3_fTATVaZZ9i85O2ipg,3746
+mysoc_dataset-0.2.0.dist-info/RECORD,,
