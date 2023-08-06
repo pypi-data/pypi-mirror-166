@@ -1,0 +1,15 @@
+memhax/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memhax/constants.py,sha256=xtV4I9EuCxiH1i7plMy9uSnCPNy8XVvgV_yf3Arg8YA,490
+memhax/native.py,sha256=aTupGhbCuEnHHMucgX_sLvzLrHVxUROiQhg4Ty5Zt3M,8163
+memhax/proxy.py,sha256=5VjZjF7Y869AtUnQdoG9KFbbEKRm68KwiTUCqXnvpDQ,7435
+memhax/cpython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memhax/cpython/collections.py,sha256=iO4IRtfSqrudgv0HBL4BAGZ30-ByDXtxd8ytCcNTOso,2249
+memhax/cpython/methods.py,sha256=Sy0nUtwxofF9iZmdEC0qFJTBtwxAP2-OmXk9wDmUvDQ,2586
+memhax/cpython/object.py,sha256=ZJVg4Wp5zair7pnCMj4C2iqIIXJmEjA3DHkk2C4MSJ4,3103
+memhax/cpython/primitives.py,sha256=1HQ5cxxmdUp-mP33ev5VATYfaZMCG1H1pbScSj3SHQ0,3848
+memhax/cpython/type.py,sha256=mggM6KgSRkmZSvcWta7RsV-iLJZXDIhQ1pNj04WFOyE,904
+memhax-0.0.1.dist-info/LICENSE,sha256=HW8a2aBmO2hLiaR7bGvLUCCF4Bq-vrr_zlxVbqlV_UQ,1517
+memhax-0.0.1.dist-info/METADATA,sha256=cSSfS1GEXaedbioZlF5qaKy6o0zoh_56miWRlJrXBn8,1609
+memhax-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+memhax-0.0.1.dist-info/top_level.txt,sha256=TCukq1LH8Ooafj1pBbYtM9rZpuvKpfpZ--63H7DpZXw,7
+memhax-0.0.1.dist-info/RECORD,,
