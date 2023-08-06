@@ -1,0 +1,17 @@
+TotalSegmentator-1.3.data/scripts/TotalSegmentator,sha256=FRqrvMl3Tosu0AoVLCeMZLhf1H-Inj9X913xzmuf-KE,5385
+TotalSegmentator-1.3.data/scripts/totalseg_combine_masks,sha256=bQ1bAu0wVJ8O62lCjHmMsazsiHS1JEZNBOAfmWNCSxw,2974
+totalsegmentator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+totalsegmentator/alignment.py,sha256=ou2haQ9wd8UpkzLaB9WNE30x-prT3N1NBwURz-E5rKk,1287
+totalsegmentator/download_pretrained_weights.py,sha256=qWbshZHZJFBNjTn1AFCEyKBsOy5gt17v7zohJwusGFk,262
+totalsegmentator/libs.py,sha256=75CAMieqLEMmqQ1NZ5xk5uby2K2hua8lGa1Hd3PKZKc,6437
+totalsegmentator/map_to_binary.py,sha256=9X2hRhmJribOKh02eBPeDF6TJffPqnFyDHRCHL9y0lg,6593
+totalsegmentator/nnunet.py,sha256=BDiKB3RvnAAbz6h0YCGyZnjjN5VL_jy9cLwewK6_i5A,10896
+totalsegmentator/preview.py,sha256=FBL8sMgjpqUc_AUayuhEHuMcAiVOjvHRRopURtg-RSk,5105
+totalsegmentator/resampling.py,sha256=JSvR84OLWlcw_ccA8aQRyj1Cr6qRvdWutHm_ZCLpqz4,6990
+totalsegmentator/statistics.py,sha256=Q1KYkS9XPNfpG3wCcLyW4ltiM8FgfPWT64iwRC8m_lM,6469
+totalsegmentator/vtk_utils.py,sha256=uNFUc0A-HGTJGMbsZGKbjC3unX87WqlC0sAbi8R2OZY,6126
+TotalSegmentator-1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+TotalSegmentator-1.3.dist-info/METADATA,sha256=ujUBY5vj2Uw9Y1NZjf5TXZ4HNTx02gXUtvZm6Z1TeOo,861
+TotalSegmentator-1.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+TotalSegmentator-1.3.dist-info/top_level.txt,sha256=p6EADz5Db7QKwpi-6Qg0FlDPXF3wCaz94QHEbK0qy_4,17
+TotalSegmentator-1.3.dist-info/RECORD,,
