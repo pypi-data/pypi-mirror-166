@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/discord_slim/__init__.py
+src/discord_slim/discord_slim.py
+src/discord_slim/websockethandler.py
+src/discord_slim.egg-info/PKG-INFO
+src/discord_slim.egg-info/SOURCES.txt
+src/discord_slim.egg-info/dependency_links.txt
+src/discord_slim.egg-info/requires.txt
+src/discord_slim.egg-info/top_level.txt
