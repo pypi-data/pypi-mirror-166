@@ -1,0 +1,3 @@
+[console_scripts]
+nonemoji=nonemoji.__main__:main
+
