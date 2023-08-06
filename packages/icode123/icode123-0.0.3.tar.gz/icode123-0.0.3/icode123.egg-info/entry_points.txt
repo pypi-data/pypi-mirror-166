@@ -1,0 +1,3 @@
+[console_scripts]
+icode123 = icode123:main
+
