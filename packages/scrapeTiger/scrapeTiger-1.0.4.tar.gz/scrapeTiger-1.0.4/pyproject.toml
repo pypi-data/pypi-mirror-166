@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scrapeTiger"
+version = "1.0.4"
+authors = [
+  { name="FARHAN AHMED", email="contact@farhyn.com" },
+]
+description = "scrapeTiger is an python package for web scraping."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+keywords = ["web scraping","data mining","scraping tools","scraping tiger","farhyn.com"]
+dependencies = ["selenium","webdriver-manager"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MDFARHYN/scrapeTiger"
+ 
+"Bug Tracker" = "https://github.com/MDFARHYN/scrapeLion/scrapeTiger"

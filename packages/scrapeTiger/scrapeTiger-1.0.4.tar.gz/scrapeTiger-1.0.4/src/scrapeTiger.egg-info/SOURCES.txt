@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/__init__.py
+src/scrapeTiger.py
+src/scrapeTiger.egg-info/PKG-INFO
+src/scrapeTiger.egg-info/SOURCES.txt
+src/scrapeTiger.egg-info/dependency_links.txt
+src/scrapeTiger.egg-info/requires.txt
+src/scrapeTiger.egg-info/top_level.txt
