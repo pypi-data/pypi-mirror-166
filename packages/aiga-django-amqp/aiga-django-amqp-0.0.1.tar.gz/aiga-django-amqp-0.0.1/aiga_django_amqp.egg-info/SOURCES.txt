@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+aiga_amqp/__init__.py
+aiga_amqp/apps.py
+aiga_amqp/core.py
+aiga_amqp/tests.py
+aiga_django_amqp.egg-info/PKG-INFO
+aiga_django_amqp.egg-info/SOURCES.txt
+aiga_django_amqp.egg-info/dependency_links.txt
+aiga_django_amqp.egg-info/requires.txt
+aiga_django_amqp.egg-info/top_level.txt
