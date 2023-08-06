@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: twofer
+Version: 0.1
+Summary: Twofer is a 'tweet transfer agent' server / client.
+Home-page: https://bitbucket.org/emptypage/twofer/
+Author: Masaaki Shibata
+Author-email: mshibata@emptypage.jp
+License: MIT
+Keywords: twitter
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: appdirs
+Requires-Dist: flask
+Requires-Dist: python-dotenv
+Requires-Dist: tweepy
+
+# Twofer
+
+Twofer is a 'tweet transfer agent' server / client.
+
+## Features
+
+- Server / client architecture &mdash; It helps you creating various Twitter bots easily.
+- Pure Twitter API v2 &mdash; You can run your Twofer server with a [Twitter Essential Access](https://developer.twitter.com/en/docs/twitter-api/getting-started/about-twitter-api) account.
+
+## Requirements
+
+- Python 3.10 or later.
+
+# Install
+
+Twofer is written in [Python](https://www.python.org) and prvided as a Python package through [PyPI](https://pypi.org). To install:
+
+    $ pip install twofer
+
+The command above will install:
+
+- The `twofer` package, which contains server and client scripts.
+- The command-line script, `twofer` for the server and `tf` for the client.
+
+
+# Usage
+
+## Server
+
+### Starting the server
+
+First of all, you will need to set up a Twofer server for clients unless you will use the other Twofer server which is already ready for you.
+
+To launch the server:
+
+    $ python3 -m twofer.server
+
+or just:
+
+    $ twofer
+
+These are the equivalent.
+
+You may see some errors / exceptions when you just type the command above. It is essential to configure environment values on `.env` or `twofer-server.env` file on the working directory. See the next section.
+
+
+### Environment files
+
+
+
+
+### TLS gateway
+
+The Twofer server has to be connected via HTTPS connection because the OAuth 2.0 protocol (which the Twitter API v2 uses) requires to do so, and the `twofer` package itself doesn't have any implementation for SSL / TLS connection.
+
+What does that mean? **It means that you have to set up a so-called reverse-proxy server which works for the backend Twofer server (even if you are going to run the server on `localhost`).** I recommend [Nginx](https://nginx.org) for its purpose, but any program you favor will be OK to do the job.
+
+Let's talk about the certifications for TLS. If you want to run the server on a public Internet domain, [Let's Encrypt](https://letsencrypt.org) is always your best friend. If you plan to set up the server on `localhost`, I recommend to consider using [Minica](https://github.com/jsha/minica). Don't waste your time fighting with complex `openssl` arguments!
+
+Here's an example of `default.conf` for Nginx:
+
+    server {
+        listen 443 ssl;
+        server_name localhost;
+        ssl_certificate /etc/nginx/ssl/localhost/cert.pem;
+        ssl_certificate_key /etc/nginx/ssl/localhost/key.pem;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Server $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        location / {
+            proxy_pass "http://localhost:8080";
+        }
+    }
+
+
+## Client
+
+# License
