@@ -1,0 +1,23 @@
+[build-system]
+requires = ['setuptools>=65.3.0', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "django-jwt-auth-middleware"
+version = '0.1.1'
+authors = [
+    {name="Jarod Latta", email="jrlatta512@gmail.com"},
+]
+description = "Django middleware for utilizing JWT for authentication."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/sithon512/django-jwt-auth-middleware"
+"Bug Tracker" = "https://gitlab.com/sithon512/django-jwt-auth-middleware/-/issues"
