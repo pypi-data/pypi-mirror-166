@@ -1,0 +1,5 @@
+setup.py
+icq.egg-info/PKG-INFO
+icq.egg-info/SOURCES.txt
+icq.egg-info/dependency_links.txt
+icq.egg-info/top_level.txt
