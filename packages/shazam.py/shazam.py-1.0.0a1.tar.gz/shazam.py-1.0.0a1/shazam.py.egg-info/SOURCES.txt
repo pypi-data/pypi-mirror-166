@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+shazam/__init__.py
+shazam/algorithm.py
+shazam/api.py
+shazam/signature_format.py
+shazam.py.egg-info/PKG-INFO
+shazam.py.egg-info/SOURCES.txt
+shazam.py.egg-info/dependency_links.txt
+shazam.py.egg-info/requires.txt
+shazam.py.egg-info/top_level.txt
