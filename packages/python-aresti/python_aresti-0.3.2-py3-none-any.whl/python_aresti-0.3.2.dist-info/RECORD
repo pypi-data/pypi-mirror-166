@@ -1,0 +1,15 @@
+aresti/__init__.py,sha256=pRfzXcbz99R0IX4xVEftVfhAfZSOR0-h_4JVBjZzyvg,141
+aresti/rest.py,sha256=DP9Gs6TMk21e1encM9DisFNdbux3NacFfnFLKJoilIA,3299
+aresti/sanoma.py,sha256=XizG701jnNKU8rQ4RZL8Vd617PrLfQZ1bXMnWz-Z7ck,1822
+aresti/testi.py,sha256=lFQrexdn3aAcAwm1y7oHAZdF7aCJaTqrfZx1n8fwF9Q,1582
+aresti/tyokalut.py,sha256=GOKyWKJT_7fiJtXrx66XklADBm5PNmwZUJdcotANdFM,2192
+aresti/yhteys.py,sha256=lDN7e-cLkJ4F9AwNdtdKXtUog2Re_u0EfmrIrJo6cWs,4870
+aresti/rajapinta/__init__.py,sha256=mMav6Z-LTc60PoaMd6yzS0OBRgEvnDN3-bnTrBs0vO0,1556
+aresti/rajapinta/meta.py,sha256=LDy2FUWfbLvybndge6OSYEPzx47-T7RYHCXuUVtWIQE,913
+aresti/rajapinta/nakyma.py,sha256=6KVXtumiJCqCRwEXfFq0lHl27JQU9QiRMxNb1EansrU,3870
+aresti/rajapinta/vierasavain.py,sha256=Cbcl9Vf_iDa-Ap9-jH08YWtFHhH7bipgqGyP9NhQgBU,729
+python_aresti-0.3.2.dist-info/METADATA,sha256=wFTGSx3kTXDXCfnFYDSTivQ-BpikBcoFQPfGl2XnDrI,271
+python_aresti-0.3.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_aresti-0.3.2.dist-info/historia.json,sha256=WAhLmgFnRyXs-TnsZi9up2dJMZz5JDi8Bzs4Al_rM2s,3819
+python_aresti-0.3.2.dist-info/top_level.txt,sha256=8YL_LIWSOVZZeyl63r79h_z6OjDhqCqvG-kQOqC7534,7
+python_aresti-0.3.2.dist-info/RECORD,,
