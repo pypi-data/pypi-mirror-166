@@ -1,0 +1,15 @@
+LICENSE-2.0.txt
+README.md
+pyproject.toml
+setup.py
+SR29.egg-info/PKG-INFO
+SR29.egg-info/SOURCES.txt
+SR29.egg-info/dependency_links.txt
+SR29.egg-info/entry_points.txt
+SR29.egg-info/not-zip-safe
+SR29.egg-info/top_level.txt
+sr29/SR29.c
+sr29/__init__.py
+sr29/base.c
+sr29/sr29Exception.py
+sr29/ver.py
