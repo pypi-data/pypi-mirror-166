@@ -1,0 +1,15 @@
+README.md
+setup.py
+cloud_os_desktop/AboutDialog.py
+cloud_os_desktop/ConnectDialog.py
+cloud_os_desktop/EditConnectionDialog.py
+cloud_os_desktop/MainWindow.py
+cloud_os_desktop/WebBrowser.py
+cloud_os_desktop/__init__.py
+cloud_os_desktop/app.py
+cloud_os_desktop.egg-info/PKG-INFO
+cloud_os_desktop.egg-info/SOURCES.txt
+cloud_os_desktop.egg-info/dependency_links.txt
+cloud_os_desktop.egg-info/requires.txt
+cloud_os_desktop.egg-info/top_level.txt
+scripts/cloud_os_desktop
