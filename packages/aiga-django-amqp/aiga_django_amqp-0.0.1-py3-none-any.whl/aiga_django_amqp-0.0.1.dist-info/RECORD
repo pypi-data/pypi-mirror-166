@@ -1,0 +1,9 @@
+aiga_amqp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiga_amqp/apps.py,sha256=tAKZBdPKkGgtCmL5C2bl1C-3XCsnFp7DDgIFdqN2EfA,155
+aiga_amqp/core.py,sha256=xTAGvszmSBg36TzbqLTJX0oFnbe6T5VTReUb6q5CckE,4793
+aiga_amqp/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+aiga_django_amqp-0.0.1.dist-info/LICENSE,sha256=o_DdoVKTACBJV8CZ--kHs1t0ryg-z7tdL-VucmoR6KA,1088
+aiga_django_amqp-0.0.1.dist-info/METADATA,sha256=LExiTlfoelpvcHYPqyGlouhXiYZMeccPuNvBhezbifs,3071
+aiga_django_amqp-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aiga_django_amqp-0.0.1.dist-info/top_level.txt,sha256=Zlc9_YaR1C9kWmFSDO2WZ73ZHD49Vxih9Ona0QGoU8M,10
+aiga_django_amqp-0.0.1.dist-info/RECORD,,
