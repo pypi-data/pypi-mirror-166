@@ -1,0 +1,5 @@
+Click>=7.0
+charset-normalizer>=2.1.1
+rich>=12.5.0
+tree-sitter>=0.20.0
+typing-extensions>=4.3.0
