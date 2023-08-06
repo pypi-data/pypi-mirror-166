@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+instagram-scraper-it/Ibot.py
+instagram-scraper-it/auth.py
+instagram-scraper-it/followersid.py
+instagram-scraper-it/folsid.py
+instagram-scraper-it/main.py
+instagram_scraper_it.egg-info/PKG-INFO
+instagram_scraper_it.egg-info/SOURCES.txt
+instagram_scraper_it.egg-info/dependency_links.txt
+instagram_scraper_it.egg-info/requires.txt
+instagram_scraper_it.egg-info/top_level.txt
