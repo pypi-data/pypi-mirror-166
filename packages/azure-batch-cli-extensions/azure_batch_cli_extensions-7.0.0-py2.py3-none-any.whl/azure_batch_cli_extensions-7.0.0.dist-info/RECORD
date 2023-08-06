@@ -1,0 +1,13 @@
+azext_batch/__init__.py,sha256=zZbkT7jIfdGO_BnXWRyKtp4SggA2o6c19RII_9d3Xg8,1740
+azext_batch/_client_factory.py,sha256=9tM0CqFFyAqGmICapOHa1_BPlXOrYftW7l1umB3kSZk,1104
+azext_batch/_help.py,sha256=35ql3fZxMWgEA4MxzNPztg5QrDhycH0VEc6J9rrqFT8,1464
+azext_batch/_params.py,sha256=pE8K4KRH7xmDykhNT_CaA9qXehqhkM2MgFv_97rXgb0,12903
+azext_batch/_validators.py,sha256=olBu27HSEYudfzDwEwxlGUU-bEdmAGWicExdd--PSn4,3004
+azext_batch/azext_metadata.json,sha256=gbDZZYItMtZ3aD4dLHzPQVBnwssny18Ew6GoYcu0sIM,82
+azext_batch/commands.py,sha256=iQ0ATDW-xXAZg-XbClzogMtmkiMomT6vxoJg1hzDuAw,1860
+azext_batch/custom.py,sha256=XAWHg3y_Wz7WdHsUGldyqX-k9IfeRUJByKiF12Um7Zs,12588
+azext_batch/version.py,sha256=ff6n6jiUipD_5hdcGolqeSZrElJ3KKLPNUE-yFXJ9G0,370
+azure_batch_cli_extensions-7.0.0.dist-info/METADATA,sha256=zieCSTGe0PKPlGHXk-IME_iSpd0iK6y5xWJHFOkjXUE,9853
+azure_batch_cli_extensions-7.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+azure_batch_cli_extensions-7.0.0.dist-info/top_level.txt,sha256=xR_SHyaCDMz_DugKKeDcDpzq-4HTSOEsu5KoLaaMng8,12
+azure_batch_cli_extensions-7.0.0.dist-info/RECORD,,
