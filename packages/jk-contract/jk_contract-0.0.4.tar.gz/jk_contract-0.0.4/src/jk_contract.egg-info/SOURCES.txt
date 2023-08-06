@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/jk_contract/__init__.py
+src/jk_contract.egg-info/PKG-INFO
+src/jk_contract.egg-info/SOURCES.txt
+src/jk_contract.egg-info/dependency_links.txt
+src/jk_contract.egg-info/top_level.txt
+src/jk_contract/main/__init__.py
+src/jk_contract/main/main.py
+src/jk_contract/regex_dict/__init__.py
+src/jk_contract/regex_dict/regex_dictionary.py
