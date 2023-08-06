@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: fastcrawler
+Version: 0.0.1
+Summary: Fast Crawler
+Home-page: https://github.com/amirbahador-hub/crawler
+Author: AmirBahadorBahadori
+Author-email: amirbahador.pv@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 7 - Inactive
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# FastCrawler
+
+

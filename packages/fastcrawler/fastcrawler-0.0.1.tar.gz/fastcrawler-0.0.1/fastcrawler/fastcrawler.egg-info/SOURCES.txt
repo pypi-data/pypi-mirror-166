@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fastcrawler/__init__.py
+fastcrawler/crawler.py
+fastcrawler/fastcrawler.egg-info/PKG-INFO
+fastcrawler/fastcrawler.egg-info/SOURCES.txt
+fastcrawler/fastcrawler.egg-info/dependency_links.txt
+fastcrawler/fastcrawler.egg-info/requires.txt
+fastcrawler/fastcrawler.egg-info/top_level.txt
