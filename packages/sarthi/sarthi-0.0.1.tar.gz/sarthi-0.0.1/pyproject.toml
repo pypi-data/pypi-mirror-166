@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sarthi"
+version = "0.0.1"
+authors = [
+  { name="sandesh rathod", email="sandeshrathod09@gmail.com" },
+]
+description = "Sarthi B2B AES encrypt cryptodome for SSO"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sandeshrathod09/sarthi"
+"Bug Tracker" = "https://github.com/pypa/sandeshrathod09/sarthi/issues"

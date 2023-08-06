@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/sarthi.egg-info/PKG-INFO
+src/sarthi.egg-info/SOURCES.txt
+src/sarthi.egg-info/dependency_links.txt
+src/sarthi.egg-info/top_level.txt
+src/sarthi_sandeshrathod09/__init__.py
+src/sarthi_sandeshrathod09/app.py
