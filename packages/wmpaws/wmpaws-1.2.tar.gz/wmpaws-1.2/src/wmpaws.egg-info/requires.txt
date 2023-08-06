@@ -1,0 +1,6 @@
+ipython
+pandas
+pymysql
+requests
+requests_oauthlib
+sqlalchemy
