@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: anycodes_python_ui
+Version: 0.0.3
+Summary: Anycodes 在线编程 Python 运行时调试 UI
+Home-page: https://www.anycodes.cn
+Author: Anycodes
+Author-email: service@anycodes.cn
+License: MIT Licence
+Keywords: python ui,anycodes
+Platform: any
+License-File: LICENSE
+
+Anycodes 在线编程 Python 运行时调试 UI

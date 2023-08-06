@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+anycodes_python_ui/__init__.py
+anycodes_python_ui/anycodes_python_ui.py
+anycodes_python_ui/python_ui_encoder.py
+anycodes_python_ui/python_ui_run.py
+anycodes_python_ui.egg-info/PKG-INFO
+anycodes_python_ui.egg-info/SOURCES.txt
+anycodes_python_ui.egg-info/dependency_links.txt
+anycodes_python_ui.egg-info/top_level.txt
