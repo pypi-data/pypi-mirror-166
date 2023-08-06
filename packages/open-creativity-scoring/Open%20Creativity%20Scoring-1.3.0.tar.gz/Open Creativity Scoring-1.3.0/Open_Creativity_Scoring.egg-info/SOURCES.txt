@@ -1,0 +1,10 @@
+README.md
+setup.py
+Open_Creativity_Scoring.egg-info/PKG-INFO
+Open_Creativity_Scoring.egg-info/SOURCES.txt
+Open_Creativity_Scoring.egg-info/dependency_links.txt
+Open_Creativity_Scoring.egg-info/requires.txt
+Open_Creativity_Scoring.egg-info/top_level.txt
+open_scoring/__init__.py
+open_scoring/file.py
+open_scoring/scoring.py

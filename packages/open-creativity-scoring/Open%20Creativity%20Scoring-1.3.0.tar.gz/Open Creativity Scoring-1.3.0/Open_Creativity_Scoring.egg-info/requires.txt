@@ -1,0 +1,7 @@
+numpy
+pandas
+spacy
+gensim
+inflect
+openai
+tqdm
