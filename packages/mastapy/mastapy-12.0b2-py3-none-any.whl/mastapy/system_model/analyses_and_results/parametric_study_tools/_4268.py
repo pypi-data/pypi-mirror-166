@@ -1,0 +1,149 @@
+﻿"""_4268.py
+
+CouplingConnectionParametricStudyTool
+"""
+
+
+from mastapy.system_model.connections_and_sockets.couplings import (
+    _2291, _2287, _2289, _2293,
+    _2295, _2297
+)
+from mastapy._internal import constructor
+from mastapy._internal.cast_exception import CastException
+from mastapy.system_model.analyses_and_results.parametric_study_tools import _4303
+from mastapy._internal.python_net import python_net_import
+
+_COUPLING_CONNECTION_PARAMETRIC_STUDY_TOOL = python_net_import('SMT.MastaAPI.SystemModel.AnalysesAndResults.ParametricStudyTools', 'CouplingConnectionParametricStudyTool')
+
+
+__docformat__ = 'restructuredtext en'
+__all__ = ('CouplingConnectionParametricStudyTool',)
+
+
+class CouplingConnectionParametricStudyTool(_4303.InterMountableComponentConnectionParametricStudyTool):
+    """CouplingConnectionParametricStudyTool
+
+    This is a mastapy class.
+    """
+
+    TYPE = _COUPLING_CONNECTION_PARAMETRIC_STUDY_TOOL
+
+    __hash__ = None
+
+    def __init__(self, instance_to_wrap: 'CouplingConnectionParametricStudyTool.TYPE'):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def connection_design(self) -> '_2291.CouplingConnection':
+        """CouplingConnection: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.ConnectionDesign
+
+        if temp is None:
+            return None
+
+        if _2291.CouplingConnection.TYPE not in temp.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to CouplingConnection. Expected: {}.'.format(temp.__class__.__qualname__))
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
+
+    @property
+    def connection_design_of_type_clutch_connection(self) -> '_2287.ClutchConnection':
+        """ClutchConnection: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.ConnectionDesign
+
+        if temp is None:
+            return None
+
+        if _2287.ClutchConnection.TYPE not in temp.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to ClutchConnection. Expected: {}.'.format(temp.__class__.__qualname__))
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
+
+    @property
+    def connection_design_of_type_concept_coupling_connection(self) -> '_2289.ConceptCouplingConnection':
+        """ConceptCouplingConnection: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.ConnectionDesign
+
+        if temp is None:
+            return None
+
+        if _2289.ConceptCouplingConnection.TYPE not in temp.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to ConceptCouplingConnection. Expected: {}.'.format(temp.__class__.__qualname__))
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
+
+    @property
+    def connection_design_of_type_part_to_part_shear_coupling_connection(self) -> '_2293.PartToPartShearCouplingConnection':
+        """PartToPartShearCouplingConnection: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.ConnectionDesign
+
+        if temp is None:
+            return None
+
+        if _2293.PartToPartShearCouplingConnection.TYPE not in temp.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to PartToPartShearCouplingConnection. Expected: {}.'.format(temp.__class__.__qualname__))
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
+
+    @property
+    def connection_design_of_type_spring_damper_connection(self) -> '_2295.SpringDamperConnection':
+        """SpringDamperConnection: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.ConnectionDesign
+
+        if temp is None:
+            return None
+
+        if _2295.SpringDamperConnection.TYPE not in temp.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to SpringDamperConnection. Expected: {}.'.format(temp.__class__.__qualname__))
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
+
+    @property
+    def connection_design_of_type_torque_converter_connection(self) -> '_2297.TorqueConverterConnection':
+        """TorqueConverterConnection: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.ConnectionDesign
+
+        if temp is None:
+            return None
+
+        if _2297.TorqueConverterConnection.TYPE not in temp.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to TorqueConverterConnection. Expected: {}.'.format(temp.__class__.__qualname__))
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
