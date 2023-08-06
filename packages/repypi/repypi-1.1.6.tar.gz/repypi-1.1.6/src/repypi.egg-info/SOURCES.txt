@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/repypi/__init__.py
+src/repypi/main.py
+src/repypi.egg-info/PKG-INFO
+src/repypi.egg-info/SOURCES.txt
+src/repypi.egg-info/dependency_links.txt
+src/repypi.egg-info/entry_points.txt
+src/repypi.egg-info/requires.txt
+src/repypi.egg-info/top_level.txt
