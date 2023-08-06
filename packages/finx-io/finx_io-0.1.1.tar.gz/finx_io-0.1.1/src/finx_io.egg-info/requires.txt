@@ -1,0 +1,4 @@
+nest-asyncio
+websocket-client
+websockets
+lru-dict
