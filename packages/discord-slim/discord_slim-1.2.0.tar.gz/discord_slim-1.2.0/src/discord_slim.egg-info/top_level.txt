@@ -1,0 +1,2 @@
+discord_slim
+discord_slim/classes
