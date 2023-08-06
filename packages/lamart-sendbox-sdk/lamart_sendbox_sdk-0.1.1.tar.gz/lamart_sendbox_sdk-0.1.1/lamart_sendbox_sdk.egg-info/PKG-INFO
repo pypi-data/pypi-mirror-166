@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: lamart-sendbox-sdk
+Version: 0.1.1
+Summary: SDK for Mail.ru Sendbox rest api / re-uploaded by lamart 
+Home-page: https://github.com/Jacob-ru/PySendboxSDK
+Author: Yasha Mikhoparkin
+Author-email: tb@lamart.site
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+
+sendbox_sdk
+===========
+
+.. image:: https://img.shields.io/pypi/v/lamart-sendbox_sdk.svg
+    :target: https://pypi.python.org/pypi/lamart-sendbox-sdk
+    :alt: Latest PyPI version
+
+
+SDK for Mail.ru Sendbox rest api
+
+Usage
+-----
+
+.. code-block:: python
+
+    from sendbox_sdk.api import SendBoxApi
+
+    sendbox_api = SendBoxApi("sendbox_account_id", "sendbox_account_secret")
+    sendbox_api.send_templated_email(
+        context={
+            'template_parameter1': 'test',
+            'template_parameter2': 'test',
+        },
+        from_email='test@example.come',
+        from_name="Example",
+        to_email='user@example.com',
+        to_name="Username",
+        subject="Subject"
+    )
+
+
+Installation
+------------
+
+Requirements
+^^^^^^^^^^^^
+requests
+
+Compatibility
+-------------
+
+Licence
+-------
+MIT
+
+Authors
+-------
+
+`sendbox_sdk` was written by `Yasha Mikhoparkin <ja.mix@mail.ru>`_.
+
+
