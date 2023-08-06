@@ -1,0 +1,12 @@
+bumpreqs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bumpreqs/__main__.py,sha256=qoGbznAazRhzKZgT-8ehcC-nYjdeYkOs2M2fDbtDqvY,81
+bumpreqs/cli.py,sha256=_HstXBfBGenzW_aoLwv5IZet5pd3O28kW0FKuq4VNH8,796
+bumpreqs/core.py,sha256=fUXuJahONltb0bM8HzpvbBNYRYFden4NVsjKLuM5Igs,3818
+bumpreqs/marker_extract.py,sha256=midIhS3vfyUm_HHUslsspC5zamfD6gtqG2XHl5drNZo,1935
+bumpreqs/vrange.py,sha256=A2TbgtO2AgEgF9p3SHamYmZu-HIIRej6r5h7q1spNg8,5376
+bumpreqs-0.9.1.dist-info/LICENSE,sha256=SlvwFNvo58Wz1h8Nc5A5r_WoOGztySNSWiC9proAwUw,1066
+bumpreqs-0.9.1.dist-info/METADATA,sha256=bC6u12qLKO9c6yiffhAD5jeeu3U7ZOfsx2nPKFBFAQk,1642
+bumpreqs-0.9.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bumpreqs-0.9.1.dist-info/entry_points.txt,sha256=X3HzWiIpb2JefMogLMUlC0GkVMVj-R_LqWmcr1I9uHg,48
+bumpreqs-0.9.1.dist-info/top_level.txt,sha256=RFQCHJkN4rDwXndaxdW2CQV0dKUosDi-fxX3ztVQ6RM,9
+bumpreqs-0.9.1.dist-info/RECORD,,
