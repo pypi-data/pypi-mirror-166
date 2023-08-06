@@ -1,0 +1,4 @@
+assets
+create_words_txt
+main
+stemmer

@@ -1,0 +1,9 @@
+LICENSE.md
+pyproject.toml
+src/create_words_txt.py
+src/main.py
+src/stemmer.py
+src/stemmer_aze.egg-info/PKG-INFO
+src/stemmer_aze.egg-info/SOURCES.txt
+src/stemmer_aze.egg-info/dependency_links.txt
+src/stemmer_aze.egg-info/top_level.txt

@@ -1,0 +1,23 @@
+[project]
+name = "stemmer_aze"
+version = "0.1.0"
+authors = [
+    { name="Samir Mammadov"},
+    { name="Shahnur Isgandarli"},
+    { name="Ali Mustafali"},
+    { name="Ziyaddin Sadigov"},
+    { name="Jafar Isbarov", email="cefer.isbarov@gmail.com" },
+    ]
+description = "A word stemmer for Azerbaijani language"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ceferisbarov/stemmer"
+"Bug Tracker" = "https://github.com/ceferisbarov/stemmer/issues"
