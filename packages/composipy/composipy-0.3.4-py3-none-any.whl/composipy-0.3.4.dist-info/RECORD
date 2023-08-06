@@ -1,0 +1,16 @@
+composipy/__init__.py,sha256=C7MZrBPvnKTlmsoSVxmHxSPPzasnmc7OippUrCn_zKo,264
+composipy/_plot_surface_function.py,sha256=fNCQcAx0eUyYS9bzQpdFQBR82GY2iHk_B68QbqijJ5w,1146
+composipy/_pre_integrated_component.py,sha256=BUKmaR2e7eP_WvEdC99rDxFSWYkYD_kOC6mkrsIHciE,20918
+composipy/_version.py,sha256=6qhulwTVk4R1wOl-Jck2qe0RqXXps3-6fWJbkRL2jTU,17
+composipy/buckling_load_function.py,sha256=24hZBJaOmGOHyhycVnvx59Txn-Xp776uVdiDvMzA0r4,5830
+composipy/laminate_class.py,sha256=mjTkq611vCG7MkO5ummE28gdP915tw6EzdOv_uD5XgQ,8074
+composipy/load_class.py,sha256=IfGCJzVbx4blA78FP6pMA0NLx6F7PPg_zR7hXbcTJhA,3631
+composipy/ply_class.py,sha256=PhcpnHXrZwNguLRm4CKiAX3cnPwJejY54422btr8m7w,6189
+composipy/strength_class.py,sha256=5SiIWWcP3oARCkYPJHb3mqolmqBk6OeP_jlXkwZEVbA,9609
+composipy/nastranapi/__init__.py,sha256=iut2o46TWElcoE58qDEoRUmPIKSxi36-ogVGOB0xLEA,58
+composipy/nastranapi/pcomp_generator.py,sha256=ses8pZfcQBUWcqP4CnGLgfa-rCn8xWitCW2E4LAgs-o,6325
+composipy-0.3.4.dist-info/LICENSE,sha256=zsnAPo7kNJB1fY7AKyabEgMLXtLjCoU3_TclCKH-uIc,1092
+composipy-0.3.4.dist-info/METADATA,sha256=LzpR-NJZEQinCWC1fGbmwSzdplFZKMBewQ6vBqyS5m8,1739
+composipy-0.3.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+composipy-0.3.4.dist-info/top_level.txt,sha256=Alu9kwIbTTcksz03MQwjgwkdycOLhqtKwOv0_Ra-KFg,10
+composipy-0.3.4.dist-info/RECORD,,

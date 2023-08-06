@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: composipy
+Version: 0.3.4
+Summary: This package intends to perform composite material calculations
+Home-page: https://github.com/rafaelpsilva07/mimo_composipy.git
+Author: Rafael Pereira
+Author-email: rafaelpsilva07@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.0)
+Requires-Dist: scipy (>=1.0)
+
+![composipy Logo](docs/static/composipy_logo.PNG)
+
+# Overview
+
+**composipy** is a python library to calculate composite plates using the classical laminate theory. This library is designed to be simple, userfriendly and helpfull.
+
+This library is for learning purposes. 
+
+
+## Download using PYPI
+```shell
+pip install composipy
+```
+
+Access the PYPI project:
+
+https://pypi.org/project/composipy/
+
+## Documentation
+
+- [Documentation](https://rafaelpsilva07.github.io/composipydocs/index.html)
+
+
+## Whats new in composipy?
+
+### 0.3.2
+- PCOMP NASTRAN API added
+- documentation improvements
+
+### 0.3.1
+- Class Load added
+- Class Strength added, wich allows the user calculate stresses and check failure criterias of a composite
+- Documentation was updated with jupyter notebook examples
+
+### 0.2.0
+ - composipy is simpler and more robust!
+ - Documentation added.
+ - Validation tests added.
+ - Rayleigh Ritz method for buckling calculation has been removed for simplification purposes. But it can be founded in realease 0.1.3.
+ 
+## Roadmap
+- Theoretical manual
+- Failure criteria functions
+- Mechanical calculations utils
+- Jupyter notebooks with exploratory examples
+
