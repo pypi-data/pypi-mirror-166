@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "draymed"
+version = "2.1.9"
+description = "Draymed library for SNOMED codes and more"
+authors = ["Adam Romano <adam.romano@sensynehealth.com>"]
+keywords = ["Polaris", "SNOMED"]
+repository = "https://github.com/polaris-foundation/draymed"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+bandit = "*"
+black = "*"
+coverage = "*"
+isort = "*"
+mock = "*"
+mypy = "*"
+pytest = "*"
+safety = "*"
+tox = "*"
