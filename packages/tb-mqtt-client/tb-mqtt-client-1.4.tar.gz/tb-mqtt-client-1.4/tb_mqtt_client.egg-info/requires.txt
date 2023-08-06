@@ -1,0 +1,4 @@
+mmh3
+paho-mqtt
+requests
+simplejson
