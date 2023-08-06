@@ -1,0 +1,5 @@
+setup.py
+pystack.egg-info/PKG-INFO
+pystack.egg-info/SOURCES.txt
+pystack.egg-info/dependency_links.txt
+pystack.egg-info/top_level.txt
