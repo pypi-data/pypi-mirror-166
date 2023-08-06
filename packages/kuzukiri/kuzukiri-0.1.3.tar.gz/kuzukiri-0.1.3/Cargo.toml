@@ -1,0 +1,15 @@
+[package]
+name = "kuzukiri"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+name = "kuzukiri"
+crate-type = ["cdylib"]
+
+[dependencies]
+unicode-normalization = "0.1.8"
+
+[dependencies.pyo3]
+version = "0.15.0"
+features = ["extension-module"]
