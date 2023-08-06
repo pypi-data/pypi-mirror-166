@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gancio_requests"
+version = "0.1.0"
+description = "Asynchronous functions for making HTTP requests to Gancio istances"
+authors = ["Gianluca Morcaldi <bendico765@gmail.com>"]
+license = "GNU General Public License v3 (GPLv3)"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.1"
+aiohttp-client-cache = "^0.7.3"
+aiosignal = "^1.2.0"
+beautifulsoup4 = "^4.11.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
