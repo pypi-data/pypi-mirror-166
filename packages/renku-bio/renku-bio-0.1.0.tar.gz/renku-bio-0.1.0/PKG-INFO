@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: renku-bio
+Version: 0.1.0
+Summary: Renku plugin to add metadata about biological samples
+Home-page: https://renkulab.io/gitlab/cyril.matthey-doret/renku-bio
+Author: Cyril Matthey-Doret
+Author-email: cyril.matthey-doret@epfl.ch
+License: MIT
+Keywords: renku,biology,metadata
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+
+UNKNOWN
+
