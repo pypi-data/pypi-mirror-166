@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+trode/__init__.py
+trode.egg-info/PKG-INFO
+trode.egg-info/SOURCES.txt
+trode.egg-info/dependency_links.txt
+trode.egg-info/not-zip-safe
+trode.egg-info/top_level.txt
