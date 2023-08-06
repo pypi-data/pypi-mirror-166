@@ -1,0 +1,5 @@
+[console_scripts]
+clean=scripts:clean
+develop=scripts:develop
+test-scripts=scripts:test_scripts
+
