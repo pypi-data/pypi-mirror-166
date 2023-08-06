@@ -1,0 +1,10 @@
+certbot_dns_cloudxns/__init__.py,sha256=NBV20ppN2SR-9105x1Ffbo7nNDaBMU3juFyGkZ9pgpE,3698
+certbot_dns_cloudxns/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_cloudxns/_internal/__init__.py,sha256=iKKHkbDDeKTo9TfaCnqxZa86aNsJKamnuEOTbb2wRHY,78
+certbot_dns_cloudxns/_internal/dns_cloudxns.py,sha256=cTDX59NookuRkd3nabWN31jKFEK_7e-PjvbzHbQ-vzc,3786
+certbot_dns_cloudxns-1.30.0.dist-info/LICENSE.txt,sha256=LMXecVrlqXbwhvukkwiAyeQhkUFz_IURG_9RTUdXEj8,10786
+certbot_dns_cloudxns-1.30.0.dist-info/METADATA,sha256=6u8gHh2YGNQnX6Eu0Iu5Q4_M8k1son71-kIa9pVArK4,1357
+certbot_dns_cloudxns-1.30.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+certbot_dns_cloudxns-1.30.0.dist-info/entry_points.txt,sha256=S0rEZ1xZik-xxPoYHThIQxT-JsNq6kTWXlzAFXqjzk8,91
+certbot_dns_cloudxns-1.30.0.dist-info/top_level.txt,sha256=S68Lm7d3Rbx7j__1hC5hL-F7lmGNkcxNa6UF6YQWazs,21
+certbot_dns_cloudxns-1.30.0.dist-info/RECORD,,
