@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ldmud-efun-virtual-interactives
+Version: 0.0.2
+Summary: Implements virtual interactives
+Home-page: https://github.com/unitopia-de/python-interactives
+Author: UNItopia Administration
+Author-email: mudadm@UNItopia.DE
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+Allows objects without network connections to behave as interactives.
+
+

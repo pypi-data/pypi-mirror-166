@@ -1,0 +1,24 @@
+[ldmud_efun]
+binary_message = ldmudinteractives.message:efun_binary_message
+caller_stack = ldmudinteractives.input:efun_caller_stack
+configure_interactive = ldmudinteractives.interactive:efun_configure_interactive
+exec = ldmudinteractives.interactive:efun_exec
+find_input_to = ldmudinteractives.input:efun_find_input_to
+input_to = ldmudinteractives.input:efun_input_to
+input_to_info = ldmudinteractives.input:efun_input_to_info
+interactive = ldmudinteractives.interactive:efun_interactive
+interactive_info = ldmudinteractives.interactive:efun_interactive_info
+make_interactive = ldmudinteractives.control:efun_make_interactive
+object_info = ldmudinteractives.interactive:efun_object_info
+printf = ldmudinteractives.message:efun_printf
+remove_input_to = ldmudinteractives.input:efun_remove_input_to
+remove_interactive = ldmudinteractives.interactive:efun_remove_interactive
+say = ldmudinteractives.message:efun_say
+send_interactive_input = ldmudinteractives.input:efun_send_interactive_input
+snoop = ldmudinteractives.message:efun_snoop
+tell_object = ldmudinteractives.message:efun_tell_object
+tell_room = ldmudinteractives.message:efun_tell_room
+this_interactive = ldmudinteractives.input:efun_this_interactive
+users = ldmudinteractives.control:efun_users
+write = ldmudinteractives.message:efun_write
+
