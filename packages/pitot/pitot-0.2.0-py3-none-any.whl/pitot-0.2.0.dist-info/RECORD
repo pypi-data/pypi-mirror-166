@@ -1,0 +1,14 @@
+license.txt,sha256=Ti57dyVHTappeNJHlhEO-z-jWoJmzZN1nIiY6AeWVO0,1080
+pitot/__init__.py,sha256=y2kN4tgpJJEsqiktouUvrR_tKxwboe9L2L7hQ_l4kcA,403
+pitot/aero.py,sha256=H1hBxx64q3L_7LFXMw5Cp2B_rGHdraIoNW5vFhJc56c,3277
+pitot/aero.pyi,sha256=DZfnIW1FCWOAuhhH-yEXatls2L49kmPqPdz-5OWFtKQ,1305
+pitot/geodesy.py,sha256=wX-O0QSsg7SsMo59TIKW3oDhAufEc8vfVZ34I9BylTY,2791
+pitot/geodesy.pyi,sha256=BIFY1d-Zkuf-DSj8ZU88orYx_FuFKTd6Q3WwcSzNBao,1453
+pitot/isa.py,sha256=M2408F_J99SY5eaoACT48A0sAszPzFsV1AF5FZuMQ0I,3236
+pitot/isa.pyi,sha256=Ck1hK91TlxBCbnD0tmR5-mE3Mb9cl-KNW4-L_BmyMr0,1044
+pitot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pitot/types.py,sha256=L1PinCmQGu84D0ody2skrJ0vauo_OiCqAJiX6_rv1go,429
+pitot/wrapper.py,sha256=zCzEZgMaIwFffAV8LaqQ5egSl5BDYchOLn2olRzTYMU,1784
+pitot-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pitot-0.2.0.dist-info/METADATA,sha256=DxDtyDxGQ77SHN-yGBsBm6Bkv4I-zsyWFBDxx4VLIjg,4564
+pitot-0.2.0.dist-info/RECORD,,
