@@ -1,0 +1,40 @@
+![Tests](https://github.com/Simbold/HawkesPyLib/actions/workflows/tests.yml/badge.svg)
+[![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+# HawkesPyLib
+A simple Python Library for simulation and inference of Hawkes processes. The library is currently under active development. More methods and functionality will be introduced shortly.
+
+## Installation
+
+    $ pip install HawkesPyLib
+
+## Documentation
+
+A detailed description of the package can be found in the [documentation](https://simbold.github.io/HawkesPyLib/).
+
+## Description
+The library allows for simulation and fitting of Hawkes processes. Hawkes processes are self-exciting point processes and can be used to model or analyse event arrivals. Hawkes processes can be defined in terms of the conditional intensity function:
+
+     $$ \lambda(t) = \mu + \sum_{t_i < t} g(t-t_i)}, $$
+
+where $\mu$ is a constant background intensity and the memory kernel function $g(t)$ specifies how past event arrivals influence the current state of the process. 
+
+The following Hawkes process models are currently available:
+- Univariate Hawkes process with single exponential memory kernel
+- Univariate Hawkes process with P-sum exponential memory kernel
+- Univariate Hawkes process with approximate power-law memory kernel
+- Univariate Hawkes process with approximate power-law memory kernel with smooth cutoff
+
+For each of the models there is a simulator class for generating Hawkes process samples using Ogata's thining algorithm.
+The estimator class allows for maximum likelihood estimation of the model as well as the calculation of the corresponding compensator, and evaluation of the conditional intensity function.
+
+A quick example of simulating and estimating Hawkes processes can be found in the Examples folder.
+
+The core simulation and estimation algorithms are optimized for speed
+by recursively calculating the state of the memory kernel and further accelerated by using
+[numba's](https://numba.pydata.org/) JIT compiler.
+
+## License
+
+HawkesPyLib is distributed under the terms of the [MIT](https://opensource.org/licenses/MIT) license.
