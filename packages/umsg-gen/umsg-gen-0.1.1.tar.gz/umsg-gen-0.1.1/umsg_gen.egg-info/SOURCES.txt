@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+umsg_gen.py
+umsg_gen.egg-info/PKG-INFO
+umsg_gen.egg-info/SOURCES.txt
+umsg_gen.egg-info/dependency_links.txt
+umsg_gen.egg-info/entry_points.txt
+umsg_gen.egg-info/requires.txt
+umsg_gen.egg-info/top_level.txt
