@@ -1,0 +1,8 @@
+setup.py
+fristPackge.egg-info/PKG-INFO
+fristPackge.egg-info/SOURCES.txt
+fristPackge.egg-info/dependency_links.txt
+fristPackge.egg-info/requires.txt
+fristPackge.egg-info/top_level.txt
+packageHello/HelloWorldByTeam1.py
+packageHello/__init__.py
