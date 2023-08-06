@@ -1,0 +1,15 @@
+outfit418_backup_ratting/__init__.py,sha256=ZuBDapmzj_rIKLCIE7u8c3Y1nUeWostot6hZpTYhrM8,143
+outfit418_backup_ratting/apps.py,sha256=CCv9Fb1ngk-B5j6YN8A8R22WDQTNTcaWSN9cOzQpo98,178
+outfit418_backup_ratting/auth_hooks.py,sha256=6BoN-1BAZr-IuW2L9nVhkCvAc0sVtfUL6v3NcALHCdM,767
+outfit418_backup_ratting/forms.py,sha256=laFc5Ey5Pt2qa5XEFZ0H5SciMSh84O_BLjuht_g-3AI,108
+outfit418_backup_ratting/models.py,sha256=HT7pWqDMsqa5gP4hMr93VyURPUgpCvyNF1ZZ9HH8UeI,584
+outfit418_backup_ratting/tasks.py,sha256=lcQKaLrzSbtZgnINpk2yQ7QstwjV-3tu3O81t0WQCUg,3441
+outfit418_backup_ratting/urls.py,sha256=v-SJyk5yrw0GHC4x2b29bdKTabKJgsviG7-j-WFtjfs,199
+outfit418_backup_ratting/utils.py,sha256=eh5Jiu5i1SGvoSVUQo8o_B5kzCn_7IBf4FLr55x9sEI,982
+outfit418_backup_ratting/views.py,sha256=o1Y6cAPBnBh-WR4Y37uTSuWLqtcGJMRmlGAdclJHO-w,1070
+outfit418_backup_ratting/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+outfit418_backup_ratting-0.0.5.dist-info/LICENSE,sha256=3SOrC4kFHu1acvOfjM5jY0KtMJ-vJNacmIwYOwpd9tQ,1539
+outfit418_backup_ratting-0.0.5.dist-info/METADATA,sha256=AfK5SyaYZlYDkFM_QqbZzYttMTwU0SMBAzBhOXdY_IE,497
+outfit418_backup_ratting-0.0.5.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+outfit418_backup_ratting-0.0.5.dist-info/top_level.txt,sha256=aT7pob25tkOZPZ5nLsEkT8L_LScEumf6nZP7Vn3gCgE,25
+outfit418_backup_ratting-0.0.5.dist-info/RECORD,,
