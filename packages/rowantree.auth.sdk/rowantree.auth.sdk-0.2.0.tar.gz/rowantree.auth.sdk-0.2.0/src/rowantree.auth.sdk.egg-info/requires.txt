@@ -1,0 +1,6 @@
+pydantic~=1.10
+requests~=2.28
+python-jose~=3.3
+fastapi~=0.81
+starlette~=0.19
+rowantree.common.sdk~=0.1
