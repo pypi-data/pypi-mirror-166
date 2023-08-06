@@ -1,0 +1,7 @@
+docarray[common]>=0.13.25
+jina-hubble-sdk>=0.15.2
+rich>=12.4.4
+torchvision==0.13.0
+torch==1.12.0
+transformers==4.20.1
+onnxruntime==1.11.1
