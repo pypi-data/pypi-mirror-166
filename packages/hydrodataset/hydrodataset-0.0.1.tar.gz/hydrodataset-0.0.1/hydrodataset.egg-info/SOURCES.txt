@@ -1,0 +1,15 @@
+AUTHORS.rst
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+hydrodataset/__init__.py
+hydrodataset/hydrodataset.py
+hydrodataset.egg-info/PKG-INFO
+hydrodataset.egg-info/SOURCES.txt
+hydrodataset.egg-info/dependency_links.txt
+hydrodataset.egg-info/not-zip-safe
+hydrodataset.egg-info/top_level.txt
+test/test_hydrodataset.py
