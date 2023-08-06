@@ -1,0 +1,11 @@
+nestpy/__init__.py,sha256=tVyKoS-Ppht-lBPFDJznm5iqYttf6iIzE29EmplUZJs,472
+nestpy/bindings.cpp,sha256=MZlV6rREm4FG1KpSl9K6AOHEK2r2PJBURH9cus0tFEI,26343
+nestpy/helpers.py,sha256=kmoE5gm3FAp94uSrKYLUPPXNKXk4ZYyZku-z2JLI16Y,5913
+nestpy/nestpy.cpython-38-darwin.so,sha256=eFtNNbdEW-S06kkwKIC2XeNJyBM1nR1ZAMvL83sIh0A,620568
+nestpy-2.0.0.dist-info/AUTHORS.md,sha256=b4GB9jDklPRfL3XEsJjeqCvYFtxPwhpCoLAyeUG1F2s,407
+nestpy-2.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+nestpy-2.0.0.dist-info/METADATA,sha256=kheEMTbmyJUfS-Xk0GfKy_lA1cFrP1QpHuEJ7D2hc8A,20691
+nestpy-2.0.0.dist-info/WHEEL,sha256=Xef0RX1Qvdjy_5jt7Yyx0_n-AElw_MqIc3pRe31htEU,109
+nestpy-2.0.0.dist-info/top_level.txt,sha256=W5nMyRFQVKigGUUdwVD-i5qzMRq3IX4qZIDbqfMLQmU,21
+nestpy-2.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+nestpy-2.0.0.dist-info/RECORD,,
