@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: rust_detect
+Version: 0.1
+Summary: a simple rust detection technique using opencv tool which detects paricular rust from an image
+Home-page: UNKNOWN
+Author: ['rohan']
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

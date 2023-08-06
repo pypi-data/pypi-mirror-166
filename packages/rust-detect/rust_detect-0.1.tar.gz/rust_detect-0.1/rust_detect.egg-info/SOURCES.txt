@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+rust_detect.egg-info/PKG-INFO
+rust_detect.egg-info/SOURCES.txt
+rust_detect.egg-info/dependency_links.txt
+rust_detect.egg-info/requires.txt
+rust_detect.egg-info/top_level.txt
