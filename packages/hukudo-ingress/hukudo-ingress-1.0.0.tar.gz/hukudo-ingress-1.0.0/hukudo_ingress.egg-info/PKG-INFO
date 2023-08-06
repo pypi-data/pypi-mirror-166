@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: hukudo-ingress
+Version: 1.0.0
+Home-page: https://gitlab.com/hukudo/ingress
+Author: hukudo GmbH
+Author-email: hukudo-ingress@hukudo.de
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: dev
+Provides-Extra: include_package_data
