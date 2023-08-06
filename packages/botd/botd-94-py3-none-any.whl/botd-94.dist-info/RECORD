@@ -1,0 +1,11 @@
+botd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+botd-94.data/data/share/botd/botd.service,sha256=2X2mS1LvoA64tMFdbPUlZE7WQJaRVYt_9hFHC2gETDs,260
+botd-94.data/data/share/doc/botd/README.rst,sha256=f9GS4HU0R5hHu4ZJxgS8-E8K5zIFChQtmYE32vg5314,3085
+botd-94.data/scripts/bot,sha256=i1BOmYNAWSd6KqlL2ePSbDf94UDmoVEqgSEOnRo6ljU,1995
+botd-94.data/scripts/botcmd,sha256=TAYmWUC6NDt_lfkjAiC0l9xtsV_PIrU4IFlc8voH8cg,622
+botd-94.data/scripts/botctl,sha256=b3ujgDDoADgGzg8UdYXPEB21KGn9ofpOKe1gaPpD1Ow,192
+botd-94.data/scripts/botd,sha256=TbY8e6N6-vYQRk07SMRlBZZtdJcSHH-ccfi0U0m7xz0,1104
+botd-94.dist-info/METADATA,sha256=mjM8cfaqCdGBckV-sayngpOBpQIgzFtrVh6w_ek0yuE,3547
+botd-94.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+botd-94.dist-info/top_level.txt,sha256=yzzJ5SH4oRVkswiIEcfuPYqq4SmCaUGvTt7y7IEN1Kw,5
+botd-94.dist-info/RECORD,,
