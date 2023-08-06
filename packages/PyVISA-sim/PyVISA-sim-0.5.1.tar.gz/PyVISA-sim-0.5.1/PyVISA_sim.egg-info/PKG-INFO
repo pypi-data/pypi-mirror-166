@@ -1,0 +1,189 @@
+Metadata-Version: 2.1
+Name: PyVISA-sim
+Version: 0.5.1
+Summary: Simulated backend for PyVISA implementing TCPIP, GPIB, RS232, and USB resources
+Home-page: https://github.com/pyvisa/pyvisa-sim
+Author: Hernan E. Grecco
+Author-email: hernan.grecco@gmail.com
+Maintainer: Matthieu C. Dartiailh
+Maintainer-email: m.dartiailh@gmail.com
+License: MIT License
+Keywords: Remote,VISA,GPIB,USB,serial,RS232,measurement,acquisition,simulator,mock
+Platform: Linux; Windows; Mac
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+License-File: AUTHORS.rst
+
+PyVISA-sim
+==========
+
+.. image:: https://github.com/pyvisa/pyvisa-sim/workflows/Continuous%20Integration/badge.svg
+    :target: https://github.com/pyvisa/pyvisa-sim/actions
+    :alt: Continuous integration
+.. image:: https://github.com/pyvisa/pyvisa-sim/workflows/Documentation%20building/badge.svg
+    :target: https://github.com/pyvisa/pyvisa/actions
+    :alt: Documentation building
+.. image:: https://codecov.io/gh/pyvisa/pyvisa-sim/branch/main/graph/badge.svg
+    :target: https://codecov.io/gh/pyvisa/pyvisa-sim
+    :alt: Code Coverage
+.. image:: https://readthedocs.org/projects/pyvisa-sim/badge/?version=latest
+    :target: https://pyvisa-sim.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+.. image:: https://img.shields.io/pypi/l/PyVISA-sim
+    :target: https://pypi.python.org/pypi/pyvisa-sim
+    :alt: PyPI - License
+.. image:: https://img.shields.io/pypi/v/PyVISA-sim
+    :target: https://pypi.python.org/pypi/pyvisa-sim
+    :alt: PyPI
+
+PyVISA-sim is a PyVISA backend that simulates a large part of the
+"Virtual Instrument Software Architecture" (`VISA`_).
+
+Description
+-----------
+
+PyVISA started as a wrapper for the NI-VISA library and therefore you
+need to install the National Instruments VISA library in your system.
+This works most of the time, for most people. But sometimes you need to
+test PyVISA without the physical devices or even without NI-VISA.
+
+Starting from version 1.6, PyVISA allows to use different backends.
+These backends can be dynamically loaded. PyVISA-sim is one of such
+backends. It implements most of the methods for Message Based
+communication (Serial/USB/GPIB/Ethernet) in a simulated environment. The
+behaviour of simulated devices can be controlled by a simple plain text
+configuration file.
+
+VISA and Python
+---------------
+
+Python has a couple of features that make it very interesting for
+measurement controlling:
+
+-  Python is an easy-to-learn scripting language with short development
+   cycles.
+-  It represents a high abstraction level, which perfectly blends with
+   the abstraction level of measurement programs.
+-  It has a very rich set of native libraries, including numerical and
+   plotting modules for data analysis and visualisation.
+-  A large set of books (in many languages) and on-line publications is
+   available.
+
+Requirements
+------------
+
+-  Python (tested with 3.6 to 3.9)
+-  PyVISA 1.6+
+
+Installation
+------------
+
+Using ``pip``:
+
+   $ pip install -U pyvisa-sim
+
+or install the development version:
+
+   $ pip install -U
+   `https://github.com/pyvisa/pyvisa-sim/zipball/master`_
+
+PyVISA is automatically installed if needed.
+
+
+Documentation
+-------------
+
+The documentation can be read online at
+`https://pyvisa-sim.readthedocs.org`_
+
+.. _VISA: http://www.ivifoundation.org/Downloads/Specifications.htm
+.. _`https://github.com/pyvisa/pyvisa-sim/zipball/master`: https://github.com/pyvisa/pyvisa-sim/zipball/master
+.. _`https://pyvisa-sim.readthedocs.org`: https://pyvisa-sim.readthedocs.org
+
+pyvisa-sim is written and maintained by Hernan E. Grecco
+hernan.grecco@gmail.com.
+
+Other contributors, listed alphabetically, are:
+
+-  Adam Vaughn avaughn@intersil.com
+-  Colin Marquardt github@marquardt-home.de
+-  Huan Nguyen famish99@gmail.com
+-  Matthieu Dartiailh marul@laposte.net
+
+PyVISA-sim Changelog
+====================
+
+0.5.1 (2022-09-08)
+------------------
+
+- fix rendering issues in the README
+
+0.5 (2022-09-08)
+----------------
+
+- add support for secondary GPIB addresses
+- remove last uses of the six package and of ``__future__`` imports
+
+0.4 (2020-10-26)
+----------------
+
+- Use SCM based version number PR #53
+- Work with PyVISA >= 1.11 PR #53
+- Drop support for Python 2, 3.4 and 3.5 PR #53
+- Drop support for Python 3.2 (EOL 2016-02-27)
+- Drop support for Python 3.3 (EOL 2017-09-29)
+- Add support for Python 3.7 and 3.8
+- Add tox for project setup and test automation
+- Switch from unittest to pytest
+
+.. _03-2015-08-25:
+
+0.3 (2015-08-25)
+----------------
+
+-  Fixed bug in get_device_dict. (Issue #37)
+-  Move resource name parsing to pyvisa.rname.
+-  Implemented query in list_resources.
+-  Add support for USB RAW.
+-  Warn the user when no eom is specified for device type and use LF.
+
+.. _02-2015-05-19:
+
+0.2 (2015-05-19)
+----------------
+
+-  Add support for channels. (Issue #9, thanks MatthieuDartiailh)
+-  Add support for error queue. (Issue #26, thanks MatthieuDartiailh)
+-  Add support for TCPIP SOCKET. (Issue #29, thanks MatthieuDartiailh)
+-  Removed resource string parsing in favour of to pyvisa.rname.
+-  Changed find_resource and find_next in favour of list_resources.
+-  Implemented new loader with bases and versioning enforcing. (Issue
+   #16)
+-  Renamed is_resource to bundled in yaml files.
+-  Added support for an empty response. (Issue #15, thanks famish99)
+-  Several small fixes and better VISA compliance.
+-  Better error reporting and debug info.
+
+.. _01-2015-02-12:
+
+0.1 (2015-02-12)
+----------------
+
+-  First public release.
+-  Basic ASRL INSTR functionality.
+-  Basic USB INSTR functionality.
+-  Basic TCPIP INSTR functionality.
