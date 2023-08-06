@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: Excel-Trans
+Version: 1.22
+Summary: Excel file format
+Author: Quvonchbek Bobojonov
+Author-email: quvonchbek212006@gmail.com
+Keywords: python,Quvonchbek,excel,Excel-Trans
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: deep-translator
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+
+
+## Excel_Trans
+
+
+
+Developed by Quvonchbek Bobojonov (c) 2022
+
+
+
+## Examples of How To Use (Buggy Alpha Version)
+
+
+
+Uzbek Translate
+
+
+
+```python
+
+from Excel_Trans import Translator
+
+
+
+trans = Translator()
+
+
+
+#Uzbek Translate
+
+
+
+trans.UzbekTranslate(file='test.xlsx', to_variant='latin', save_file='test1.xlsx')
+
+
+
+#['latin','cyrillic']
+
+
+
+```
+
+
+
+Global Translate
+
+```python
+
+from Excel_Trans import Translator
+
+trans = Translator()
+
+
+
+#Global Translate
+
+
+
+trans.GlobalTranslate(file='test.xls', target='ru', save_file='test1.xlsx')
+
+
+
+#get supported languages
+
+
+
+trans.get_supported_languages(as_dict=True)
+
+
+
+```
+
+
+
