@@ -1,0 +1,2 @@
+[console_scripts]
+taccjm = taccjm.cli.cli:cli
