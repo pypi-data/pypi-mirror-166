@@ -1,0 +1,10 @@
+docker_printer/__init__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+docker_printer/__main__.py,sha256=KHILRykxtARyxrDqJHapqtbdMkSI7U6A4C0YtkBHFPQ,1773
+docker_printer/cli.py,sha256=HTItOMT3Ppx_qWnLnnYjeCaitysu41Yb6Xu4oJQW7Pc,1927
+docker_printer/models.py,sha256=FZxdr7NcgkVDKzMY0eBdG9fSKoT_XYg2vt9Yv2ISmJM,10427
+docker_printer/utils.py,sha256=bxU43zscE7EZ6LUkS8pdW3jCWt3WOVmdeO2XLYPCUog,2785
+docker_printer-0.1.2.dist-info/METADATA,sha256=oScBmZJnwEs9G8-SrJ1NUt-JZ1ub_oMoHgHEWUfG16k,1587
+docker_printer-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+docker_printer-0.1.2.dist-info/entry_points.txt,sha256=hZL6qtqXG-Jj7ymLwbdTxcbV77lDa1yQ79yRQvUfupU,64
+docker_printer-0.1.2.dist-info/top_level.txt,sha256=D8RR5d8-IG8mK13PxFyGn45ek_Ij1zuzss_pXQjRa5Q,15
+docker_printer-0.1.2.dist-info/RECORD,,
