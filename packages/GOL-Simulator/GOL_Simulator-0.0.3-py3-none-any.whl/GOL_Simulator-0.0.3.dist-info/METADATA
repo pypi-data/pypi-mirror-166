@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: GOL-Simulator
+Version: 0.0.3
+Summary: Simulator of GOL(Game of Life) written with Python on both cpu and gpu(cuda)
+Home-page: https://github.com/HellOwhatAs/GOL_Simulator
+Author: xjq
+Author-email: xjq701229@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numba
+Requires-Dist: numpy
+
+UNKNOWN
+
