@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: scGCO
+Version: 1.1.2
+Summary: single-cell graph cuts optimization
+Home-page: https://github.com/WangPeng-Lab/scGCO
+Author: Peng Wang
+Author-email: wangpeng@pb.ac.cn
+License: MIT
