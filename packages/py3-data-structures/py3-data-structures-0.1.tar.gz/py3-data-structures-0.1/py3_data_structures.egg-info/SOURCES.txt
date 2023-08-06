@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+datastructs/__init__.py
+datastructs/stack.py
+datastructs/trees/__init__.py
+datastructs/trees/node.py
+datastructs/trees/test.py
+datastructs/trees/walks/__init__.py
+datastructs/trees/walks/walk.py
+py3_data_structures.egg-info/PKG-INFO
+py3_data_structures.egg-info/SOURCES.txt
+py3_data_structures.egg-info/dependency_links.txt
+py3_data_structures.egg-info/top_level.txt
+py3_data_structures.egg-info/zip-safe
