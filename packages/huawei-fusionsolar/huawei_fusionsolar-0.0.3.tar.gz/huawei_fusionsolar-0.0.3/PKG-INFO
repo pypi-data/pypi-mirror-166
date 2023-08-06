@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: huawei_fusionsolar
+Version: 0.0.3
+Summary: API to the Huawei Fusion Solar web interface.
+Author-email: Jan Molemans <jan.molemans@gmail.com>
+Project-URL: Homepage, https://github.com/janmolemans/FusionSolarPy
+Project-URL: Bug Tracker, https://github.com/janmolemans/FusionSolarPy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
