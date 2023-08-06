@@ -1,0 +1,7 @@
+include README.md LICENSE pybind11/LICENSE
+include midi_generator/*.py
+graft pybind11/include
+graft pybind11/tools
+graft lib/include
+graft lib
+global-include CMakeLists.txt *.cmake
