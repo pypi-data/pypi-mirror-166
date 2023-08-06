@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+spss_converter/Metadata.py
+spss_converter/__init__.py
+spss_converter/__version__.py
+spss_converter/errors.py
+spss_converter/read.py
+spss_converter/write.py
+spss_converter.egg-info/PKG-INFO
+spss_converter.egg-info/SOURCES.txt
+spss_converter.egg-info/dependency_links.txt
+spss_converter.egg-info/not-zip-safe
+spss_converter.egg-info/requires.txt
+spss_converter.egg-info/top_level.txt
