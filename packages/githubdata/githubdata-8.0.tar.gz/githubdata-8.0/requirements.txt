@@ -1,0 +1,8 @@
+giteasy~=1.1
+pandas~=1.4.4
+IPython
+pyarrow
+fastparquet
+openpyxl
+build
+twine
