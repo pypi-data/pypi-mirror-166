@@ -1,0 +1,8 @@
+numpy>=1.21.1
+matplotlib
+plotly
+kaleido
+pint
+
+[tests]
+pytest>=5.4.3
