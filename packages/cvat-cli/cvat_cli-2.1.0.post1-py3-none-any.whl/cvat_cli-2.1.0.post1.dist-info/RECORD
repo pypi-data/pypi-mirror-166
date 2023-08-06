@@ -1,0 +1,10 @@
+cvat_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cvat_cli/__main__.py,sha256=j_zwH91Vk2z487kRDczMISx1IcVZwn9OAhk14s2xMmM,1703
+cvat_cli/cli.py,sha256=KhP35Vd4HxWgT0NAm-bOL807oKLKxtDWojKB7e_FOo8,4715
+cvat_cli/parser.py,sha256=JRd6-VnAqrmOh5flDJoz74IET2vmhA9OFgrugz8m5Kg,11912
+cvat_cli/version.py,sha256=WAan5AcTH92hQ2c52F6cKKkp5gP04BX2zJ24NdhPN2w,24
+cvat_cli-2.1.0.post1.dist-info/METADATA,sha256=7odYOsD3bV3FS45D7inqPKzSUaOYAHslwNTunzyS1FA,2397
+cvat_cli-2.1.0.post1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cvat_cli-2.1.0.post1.dist-info/entry_points.txt,sha256=9xo0PDxKUPoASg3d-ZAe-faH9H8lOkiFP1lKjrRlJbI,52
+cvat_cli-2.1.0.post1.dist-info/top_level.txt,sha256=45N8wshdXSAkrv7-ohVE7jBSXPhhVpaRIpGTMxllrsI,9
+cvat_cli-2.1.0.post1.dist-info/RECORD,,
