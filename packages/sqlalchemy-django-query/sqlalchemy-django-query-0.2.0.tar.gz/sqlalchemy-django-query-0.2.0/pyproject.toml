@@ -1,0 +1,44 @@
+[build-system]
+requires = ["flit_core >=3.7,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "sqlalchemy-django-query"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "BSD 3-Clause License"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+authors = [
+    {name = "Armin Ronacher"}, 
+    {name = "Mike Bayer"},
+]
+maintainers = [
+    {name = "Artur Mruk"}, 
+    {name = "Martín Gaitán", email = "gaitan@gmail.com"}, 
+]
+dependencies = [
+    "SQLAlchemy<1.4",
+]
+dynamic = ["version", "description"]
+
+[project.urls]
+Source = "https://github.com/mgaitan/sqlalchemy-django-query"
+
+[tool.flit.module]
+name = "sqlalchemy_django_query"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black"
+]
+
+[tool.ipdb]
+context=5
+
+[tool.black]
+line-length = 120
+target-version = ["py37"]
+color = true
