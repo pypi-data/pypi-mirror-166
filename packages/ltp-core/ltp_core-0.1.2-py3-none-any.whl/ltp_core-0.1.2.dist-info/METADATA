@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: ltp-core
+Version: 0.1.2
+Summary: Language Technology Platform
+Home-page: https://github.com/HIT-SCIR/ltp
+Author: Yunlong Feng
+Author-email: ylfeng@ir.hit.edu.cn
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6.*, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (>=1.0.0)
+Requires-Dist: transformers (>=4.0.0)
+Provides-Extra: train
+Requires-Dist: pytorch-lightning (>=1.0.0) ; extra == 'train'
+Requires-Dist: torchmetrics (>=0.7.0) ; extra == 'train'
+Requires-Dist: datasets (>=1.0.0) ; extra == 'train'
+Requires-Dist: rich ; extra == 'train'
+Requires-Dist: pyrootutils ; extra == 'train'
+Requires-Dist: hydra-core (>=1.1.0) ; extra == 'train'
+Requires-Dist: hydra-colorlog (>=1.1.0) ; extra == 'train'
+
+| Language                             | version                                                                                                                                                                                                                                                                                                                   |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Python](python/interface/README.md) | [![LTP](https://img.shields.io/pypi/v/ltp?label=LTP)](https://pypi.org/project/ltp) [![LTP-Core](https://img.shields.io/pypi/v/ltp-core?label=LTP-Core)](https://pypi.org/project/ltp-core)   [![LTP-Extension](https://img.shields.io/pypi/v/ltp-extension?label=LTP-Extension)](https://pypi.org/project/ltp-extension) |
+| [Rust](rust/ltp/README.md)           | [![LTP](https://img.shields.io/crates/v/ltp?label=LTP)](https://crates.io/crates/ltp)                                                                                                                                                                                                                                     |
+
+# LTP Core
+
+为 LTP 神经网络模型提供支持。
