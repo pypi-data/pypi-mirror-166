@@ -1,0 +1,10 @@
+_swmm5.cp310-win_amd64.pyd,sha256=s2rZV0MnolJpPttqnkGPgu7UWBPmqfZasoCA9XfxLaQ,536064
+swmm5/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+swmm5/swmm5.py,sha256=TSmHeRVUE3xrmIx6yDj3ZugFCoRVe5jysPDrJ6fk9Z4,7726
+swmm5/swmm5tools.py,sha256=wChTmjLUkdjH091y2hlx5XmdfwwYYR-9Py4fXZbX67w,8968
+swmm5/tmp.py,sha256=hfaMWsCJxWXmYuBQUzBL15pAcu88F0CjeLshNCGHlnM,106
+swmm5/examples/simple/swmm5Example.inp,sha256=MQktbDhsibPsCSQhb7gLPkl-ZHvUXJ9gvK6LskoVFLU,19777
+SWMM5-5.2.1.dist-info/METADATA,sha256=dSbzgplV1BD_jjmX8GhnjcbWuPMY9zizLIrGRE_Z2cQ,12137
+SWMM5-5.2.1.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+SWMM5-5.2.1.dist-info/top_level.txt,sha256=PiugOfrm7HQYovWR04z-DnRZ8IUBHp1aVjEq461Wex8,13
+SWMM5-5.2.1.dist-info/RECORD,,
