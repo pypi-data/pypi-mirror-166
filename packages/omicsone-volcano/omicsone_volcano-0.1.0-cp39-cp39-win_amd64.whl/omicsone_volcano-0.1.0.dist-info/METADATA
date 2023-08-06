@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: omicsone-volcano
+Version: 0.1.0
+Summary: OmicsOneVolcano: volcano plot for omics data analysis
+Home-page: UNKNOWN
+Author: Yingwei Hu
+Author-email: yhu39@jhmi.edu
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: tqdm
+Requires-Dist: seaborn
+Requires-Dist: adjustText
+
+UNKNOWN
+

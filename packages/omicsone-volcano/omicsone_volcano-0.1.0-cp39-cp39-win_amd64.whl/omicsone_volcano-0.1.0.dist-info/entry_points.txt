@@ -1,0 +1,3 @@
+[console_scripts]
+omicsone_volcano = omicsone_volcano.main:main
+
