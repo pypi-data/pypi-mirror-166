@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pango-collapse
+Version: 0.1.0
+Summary: 
+Author: wytamma
+Author-email: wytamma.wirth@me.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.4.4,<2.0.0)
+Requires-Dist: pango-aliasor (>=0.2.0,<0.3.0)
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# Pango-collapse 
+
+CLI to collapse Pango linages for reporting
+
+## Install 
+
+Install from pypi with pip.
+
+```
+pip install pango-collapse
+```
+
+
