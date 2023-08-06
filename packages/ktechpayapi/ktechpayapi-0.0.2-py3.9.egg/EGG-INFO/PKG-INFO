@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ktechpayapi
+Version: 0.0.2
+Summary: A python library to consume KtechPay API
+Home-page: https://github.com/ktechhub/ktechpay-python
+Author: KtechHub
+Author-email: info@ktechhub.com
+License: MIT
+Keywords: ktechpay python library
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+
+# ktechpay-python
+KtechHub Pay Api
+
+Testing Pipeline
+
