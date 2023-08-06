@@ -1,0 +1,2 @@
+[console_scripts]
+pipu = pipu:entry
