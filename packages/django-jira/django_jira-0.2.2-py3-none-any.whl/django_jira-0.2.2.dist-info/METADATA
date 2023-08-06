@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: django-jira
+Version: 0.2.2
+Summary: Intergrates Jira library into django microservices
+Author: Antoine Wood
+Author-email: antoinewood@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Django (>=3.2.0,<4.0.0)
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: djangorestframework (>=3.13.1,<4.0.0)
+Requires-Dist: jira (>=3.4.1,<4.0.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
+Requires-Dist: python-dotenv (>=0.21.0,<0.22.0)
+Description-Content-Type: text/markdown
+
+# Django-Jira
+
+Allows for creating issues in Jira with Django RestFramework
+
