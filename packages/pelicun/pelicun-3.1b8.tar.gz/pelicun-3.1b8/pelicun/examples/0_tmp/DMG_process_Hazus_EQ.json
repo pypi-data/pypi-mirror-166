@@ -1,0 +1,8 @@
+[
+    {"liq_h": {"DS1":"struct_LS3",
+               "DS2":"struct_LS4"}},
+    {"liq_v": {"DS1":"struct_LS3",
+               "DS2":"struct_LS4"}},
+    {"struct":{"DS5":["NSA_LS4",
+                      "NSD_LS4"]}}
+]
