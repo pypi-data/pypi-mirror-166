@@ -1,0 +1,8 @@
+colorama
+pyyaml
+pycryptodome
+requests
+tabulate
+psutil<=5.9.1
+ipwhois
+pykeepass
