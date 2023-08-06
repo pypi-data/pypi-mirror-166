@@ -1,0 +1,11 @@
+nswcaselaw/__init__.py,sha256=pH5i4Fj1tbXLqLtTVIdoojiplZssQn0nnud8-HXodRE,577
+nswcaselaw/constants.py,sha256=6zqGC4rRoVE3-aZsMQRAo3epOPER6IkiMVA_mEtw85A,3832
+nswcaselaw/decision.py,sha256=WeKiNS_ERy-DfBiJYLAhfVAtP6P4Mw_rxXznA7DIkHY,18348
+nswcaselaw/nswcaselaw.py,sha256=JDYmkhqJV59Bmku1-lIxzwHJ9BFP16g9wHwk9DZmcNA,8034
+nswcaselaw/search.py,sha256=WUTp0MOTEBnqFrD0erBBYT8d0pAv8CP8CjosdO3dgtA,6248
+nswcaselaw-0.1.2.dist-info/LICENSE.txt,sha256=Enrdgk4at6SntF4P74McC1-QKR5CBGFIwEDalYoaIcY,1087
+nswcaselaw-0.1.2.dist-info/METADATA,sha256=I-rG5sqhWXpX4nwlU04-XwamO0Vw-0oOA7ZaPSlj-78,2979
+nswcaselaw-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nswcaselaw-0.1.2.dist-info/entry_points.txt,sha256=6Q4A1R4LPtLmyINxRsNUL6FA-lm3KFz3AJ6alAjdSeY,57
+nswcaselaw-0.1.2.dist-info/top_level.txt,sha256=yLkz1tug2Hh1r2v7agW_OOkVFAqEledmdFOQZ_jiXCk,11
+nswcaselaw-0.1.2.dist-info/RECORD,,
