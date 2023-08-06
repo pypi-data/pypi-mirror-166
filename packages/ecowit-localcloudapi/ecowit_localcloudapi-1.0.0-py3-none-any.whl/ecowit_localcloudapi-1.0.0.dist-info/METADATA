@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ecowit-localcloudapi
+Version: 1.0.0
+Summary: Ecowitt Weather
+Home-page: https://github.com/EcowittWeather/ecowit-localcloudapi
+Author: ecowitt
+Author-email: admin@ecowitt.net
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Ecowitt get data
+ 
+Data access for some ecowitt models.
+ 
+- LAN data acquisition: request_loc_allinfo().
+- Device data acquisition on ecowitt website: get_data_real_time(mac).
