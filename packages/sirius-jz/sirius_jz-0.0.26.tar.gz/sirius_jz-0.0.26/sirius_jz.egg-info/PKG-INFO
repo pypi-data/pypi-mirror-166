@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sirius-jz
+Version: 0.0.26
+Summary: Sirius Studio for development
+Home-page: https://github.com/
+Author: LUIZ GUILHERME C S PADUA
+Author-email: jzguipadua@gmail.com
+License: MIT
+Project-URL: Código fonte, https://github.com/
+Project-URL: Download, https://github.com/
+Keywords: JackZafira Sirius Studio si Bifrost
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Em manutenção
+
+## Sirius Studios 
+Pacote de recursos, documentação e funções serão liberadas em breve.
+
