@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+coinex/__init__.py
+coinex/client.py
+coinex_python.egg-info/PKG-INFO
+coinex_python.egg-info/SOURCES.txt
+coinex_python.egg-info/dependency_links.txt
+coinex_python.egg-info/requires.txt
+coinex_python.egg-info/top_level.txt
+requirements/base.txt
