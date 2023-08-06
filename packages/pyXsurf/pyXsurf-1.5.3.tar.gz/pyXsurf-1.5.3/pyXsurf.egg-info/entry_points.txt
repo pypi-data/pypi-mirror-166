@@ -1,0 +1,2 @@
+[nbdev]
+source = source._modidx:d
