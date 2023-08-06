@@ -1,0 +1,8 @@
+README.md
+setup.py
+kamini/__init__.py
+kamini/simple.py
+kamini.egg-info/PKG-INFO
+kamini.egg-info/SOURCES.txt
+kamini.egg-info/dependency_links.txt
+kamini.egg-info/top_level.txt
