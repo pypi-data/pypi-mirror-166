@@ -1,0 +1,21 @@
+[project]
+name = "azlog"
+version = "0.1.1"
+description = "Python module to ease Azure DevOps pipelines logging commands"
+authors = [
+    { name = "Jonathan Scherrer", email = "jonathan.s.scherrer@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.7"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[tool.pdm]
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
