@@ -1,0 +1,2 @@
+include src/boxdist/py.typed
+include src/boxdist/boxdist.*

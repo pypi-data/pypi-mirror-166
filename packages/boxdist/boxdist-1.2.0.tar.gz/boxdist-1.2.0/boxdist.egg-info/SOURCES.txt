@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+boxdist.egg-info/PKG-INFO
+boxdist.egg-info/SOURCES.txt
+boxdist.egg-info/dependency_links.txt
+boxdist.egg-info/requires.txt
+boxdist.egg-info/top_level.txt
+src/boxdist/boxdist.c
+src/boxdist/boxdist.pyi
+src/boxdist/boxdist.pyx
+src/boxdist/py.typed
