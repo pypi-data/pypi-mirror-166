@@ -1,0 +1,16 @@
+umsg_gen/umsg_gen.py,sha256=q-xcMpJ9FeC4Lj-EOKtpB-tVuYhB8Q9NjJIJ4XtkCLw,2702
+umsg_gen/core/inc/umsg.h,sha256=TeZsC6HOVJGa_v-URUD-UpJjgzDD8rCbN15Htm-dj2w,682
+umsg_gen/core/inc/umsg_port.h,sha256=NEe7sBjs3XHlm7fhomIevfQh75YPBUDmk59bPmEe79w,388
+umsg_gen/core/inc/umsg_types.h,sha256=BTkgFSAd16X0Rxc9rwW-an-2J3CrEXZDi3FDBhYW8_s,194
+umsg_gen/core/src/port_freertos.c,sha256=8WewkiTfV-iithT5_1CHbhtj098LZ7hn1blk2hGcASY,575
+umsg_gen/core/src/port_posix.c,sha256=wYirVqFNdiDuQTDX2OL1hDQQAnYG21KGc9q5cgvHilw,388
+umsg_gen/core/src/umsg.c,sha256=m-KlS4kzizcqaHVmf9LOyHKaWlupx5HQtqMeY2My_5I,1725
+umsg_gen/templates/CMakeLists.txt.j2,sha256=TlB3hXj9UNwNtcfN9WnIjzbCefUNUMlNZq5am9KJWWk,586
+umsg_gen/templates/msg.c.j2,sha256=9_RxRn_1ixi-OJ8EdkYjn84As0ZTtc83OVk4M4jZHLw,971
+umsg_gen/templates/msg.h.j2,sha256=yKhnLbk8ixXm5iEi_ylHgO_QtMcLeBq85B2spt_hTH8,1796
+umsg_gen-0.1.10.dist-info/LICENSE,sha256=V8P3wvDAhBJwINOnSUXsPGCnsHgk-drFmIojB-7dH4A,1061
+umsg_gen-0.1.10.dist-info/METADATA,sha256=6xc3cCCElavGcQPJRThJhNCflGcBGXNJ5RThaMKzVE8,337
+umsg_gen-0.1.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+umsg_gen-0.1.10.dist-info/entry_points.txt,sha256=fRjyyr385KXhxDD9hKCvk1tiI1CVOEh4AbwXuBDtOq0,52
+umsg_gen-0.1.10.dist-info/top_level.txt,sha256=uiGy4vfr3bQ9f7bDeml7TbQmpsSRzesP7zUQuVTeixQ,9
+umsg_gen-0.1.10.dist-info/RECORD,,
