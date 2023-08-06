@@ -1,0 +1,11 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+mynameisnui/__init__.py
+mynameisnui/nui.py
+mynameisnui.egg-info/PKG-INFO
+mynameisnui.egg-info/SOURCES.txt
+mynameisnui.egg-info/dependency_links.txt
+mynameisnui.egg-info/top_level.txt

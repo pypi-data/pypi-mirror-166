@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: mynameisnui
+Version: 0.0.2
+Summary: Who is NuiZiLLa?
+Home-page: https://github.com/nuizilla/mynameisnui
+Author: NuiZiLLa
+Author-email: nuizilla39@gmail.com
+License: MIT
+Download-URL: https://github.com/nuizilla/mynameisnui
+Keywords: NuiZiLLa,ASCII ART
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+License-File: LICENSE.txt
+
+Package Python ที่โชว์ข้อมูลเกี่ยวกับ กะเทยแดง
+==============================================
+
+PyPi: https://pypi.org/project/mynameisnui/
+
+สวัสดีจ้าาาา แพ็คนี้คือแพ็คเกจที่สร้างตามลุงจย้าาาาาา
+ท่านไม่สามารถดูอะไรได้เลย เพราะมันไม่มีอะไรจริงสักอย่าง
+
+วิธีติดตั้ง
+~~~~~~~~~~~
+
+เปิด CMD / Terminal
+
+.. code:: python
+
+   pip install mynameisnui
+
+วิธีใช้งานแพ็คเพจนี้
+~~~~~~~~~~~~~~~~~~~~
+
+-  เปิด IDLE ขึ้นมาแล้วพิมพ์…
+
+.. code:: python
+
+   from mynamisnui import NuiZiLLa
+
+   nui = NuiZiLLa() #ประกาศชื่อclass
+   nui.show_name() # โชว์ชื่อ
+   nui.show_youtube()
+   nui.about()
+   nui.show_art()
+
+พัฒนาโดย: กะเทยแดง FB: https://www.facebook.com/nuizilla
+
+YouTube: https://www.youtube.com/nuizilla
+
+
