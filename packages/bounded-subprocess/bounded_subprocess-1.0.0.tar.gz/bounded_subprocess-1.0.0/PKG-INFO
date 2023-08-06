@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: bounded_subprocess
+Version: 1.0.0
+Summary: A small example package
+Author: Arjun Guha, Ming-Ho Yee
+Project-URL: Homepage, https://github.com/nuprl/bounded_subprocess
+Project-URL: Bug Tracker, https://github.com/nuprl/bounded_subprocess
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# bounded_subprocess
+
+[![PyPI - Version](https://img.shields.io/pypi/v/bounded-subprocess.svg)](https://pypi.org/project/bounded-subprocess)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/bounded-subprocess.svg)](https://pypi.org/project/bounded-subprocess)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install bounded-subprocess
+```
+
+## License
+
+`bounded-subprocess` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
