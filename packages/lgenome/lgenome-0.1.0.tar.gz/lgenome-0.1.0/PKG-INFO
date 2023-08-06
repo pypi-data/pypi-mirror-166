@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: lgenome
+Version: 0.1.0
+Summary: A python package to manage curated genomic resources for bioinformatics workflows.
+Author-email: kenny@latch.bio
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
