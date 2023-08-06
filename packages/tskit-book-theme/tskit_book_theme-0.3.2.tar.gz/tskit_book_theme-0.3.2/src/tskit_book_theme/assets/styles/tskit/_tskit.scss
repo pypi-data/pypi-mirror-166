@@ -1,0 +1,287 @@
+@import "../tskit/palette";
+
+/* TYPOGRAPHY */
+
+$font-family-sans-serif: rothwood, serif;
+$font-family-sans-serif-2: sofia-pro, sans-serif;
+
+@media screen {
+  ::-moz-selection {
+    background-color: $brand-color-1;
+    color: $color-1;
+  }
+
+  ::selection {
+    background-color: $brand-color-1;
+    color: $color-1;
+  }
+
+  html {
+    font-size: 100%; // 16px
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: $font-family-sans-serif-2;
+  }
+
+  /* TYPOGRAPHY COLOURS*/
+
+  .main-content {
+    color: $color-1;
+  }
+
+  p {
+    color: inherit;
+  }
+
+  .content-container a,
+  .content-container a:visited {
+    color: $brand-color-2;
+  }
+
+  .content-container h1,
+  .content-container h2,
+  .content-container h3,
+  .content-container h4,
+  .content-container h5 {
+    color: $brand-color-2;
+  }
+
+  /* DESIGN */
+
+  body {
+    background-color: $brand-color-7;
+    color: $color-1;
+  }
+
+  #site-navigation {
+    box-shadow: $box-shadow-2;
+  }
+
+  nav.bd-links p.caption,
+  #site-navigation nav ul.nav li a,
+  #site-navigation nav ul.nav ul li a {
+    color: $brand-color-6;
+  }
+  #site-navigation nav ul.nav a:hover,
+  #site-navigation nav ul.nav li.active > a,
+  #site-navigation nav ul.nav li.active > a:hover {
+    color: $brand-color-8;
+  }
+
+  .sticky-top {
+    .tocsection {
+      border-color: $brand-color-2;
+    }
+
+    .bd-toc {
+      box-shadow: $box-shadow-2;
+      background-color: $brand-color-2;
+
+      nav {
+        background-color: $brand-color-2;
+      }
+    }
+
+    .bd-toc nav > .nav {
+      border-color: $brand-color-2;
+    }
+
+    box-shadow: $box-shadow-2;
+    background-color: $brand-color-2;
+
+    .headerbtn {
+      background-color: transparent;
+    }
+  }
+
+  .bd-toc nav li.active > a.active {
+    border-left: $brand-color-8;
+  }
+
+  .bd-toc nav a:hover,
+  .bd-toc nav li.active > a.active {
+    color: $brand-color-8;
+  }
+
+  .bd-toc .toc-entry a,
+  .bd-toc div.onthispage {
+    color: $brand-color-6;
+  }
+
+  .sd-fs-3,
+  .sd-fs-3 > p {
+    color: $brand-color-2;
+  }
+
+  span.highlighted {
+    background-color: transparentize($brand-color-2, 0.6);
+  }
+
+  code,
+  .sig-name {
+    color: $color-11;
+  }
+
+  .admonition,
+  div.admonition {
+    box-shadow: $box-shadow-1;
+    background-color: $brand-color-8;
+  }
+
+  .admonition.seealso {
+    border-color: $brand-color-2;
+
+    .admonition-title {
+      background-color: transparentize($brand-color-2, 0.9);
+    }
+
+    .admonition-title:before {
+      color: $brand-color-2;
+    }
+  }
+
+  .admonition.note,
+  div.admonition.note {
+    border-color: $brand-color-4;
+
+    .admonition-title {
+      background-color: transparentize($brand-color-4, 0.9);
+    }
+
+    .admonition-title:before {
+      color: $brand-color-4;
+    }
+  }
+
+  .table {
+    color: inherit;
+  }
+
+  pre,
+  div.contents,
+  div.topic {
+    background-color: $brand-color-8;
+    border-radius: 5px;
+    border: inherit;
+    box-shadow: $box-shadow-1;
+    color: $color-1;
+  }
+
+  blockquote {
+    color: $color-1;
+  }
+
+  blockquote div > p + p.attribution,
+  caption {
+    color: $color-11;
+  }
+
+  div.header-article-main .header-article__left a,
+  div.header-article-main .header-article__left button,
+  div.header-article-main .header-article__left label,
+  div.header-article-main .header-article__right a,
+  div.header-article-main .header-article__right button,
+  div.header-article-main .header-article__right label {
+    color: $brand-color-6;
+  }
+
+  span.guilabel {
+    color: $brand-color-8;
+  }
+
+  //Notebook stuff, here be dragons
+  pre,
+  div.contents,
+  div.topic,
+  div.cell {
+    background-color: $brand-color-8;
+    border-radius: 5px;
+    border: inherit;
+    box-shadow: $box-shadow-1;
+    color: $color-1;
+  }
+
+  div.cell div.cell_input {
+    border-width: 0 0 0 4px !important;
+    border-radius: 0px !important;
+    border-style: solid !important;
+    border-color: $brand-color-6 !important;
+  }
+
+  div.cell div.cell_output pre,
+  .cell_output .output.text_plain,
+  .cell_output .output.stream,
+  .cell_output .output.stderr {
+    border-width: 0 0 0 4px !important;
+    border-radius: 0px !important;
+    border-style: solid !important;
+    border-color: $brand-color-9 !important;
+  }
+
+  div.cell_output,
+  div.cell_input {
+    background-color: $brand-color-9 !important;
+  }
+
+  .cell_output .output.text_plain,
+  .cell_output .output.traceback,
+  .cell_output .output.stream,
+  .cell_output .output.stderr {
+    background: inherit !important;
+  }
+
+  .cell_output,
+  section {
+    img {
+      background-color: white;
+    }
+  }
+
+  .tskit-table {
+    img {
+      filter: inherit;
+    }
+  }
+
+  div.cell_output table {
+    color: inherit !important;
+  }
+
+  div.cell_output thead {
+    border-bottom: 1px solid white !important;
+  }
+  div.cell_output tbody tr:nth-child(odd) {
+    background: rgba(66, 165, 245, 0.2) !important;
+  }
+  div.cell_output tbody tr:nth-child(odd):hover {
+    background: rgba(66, 165, 245, 0.2) !important;
+  }
+
+  div.cell_output tbody tr:nth-child(even):hover {
+    background: inherit !important;
+  }
+
+  details.toggle-details {
+    color: black !important;
+  }
+
+  .sig.c .k,
+  .sig.c .kt,
+  .sig.c .m,
+  .sig.c .s,
+  .sig.c .sc,
+  .sig.cpp .k,
+  .sig.cpp .kt,
+  .sig.cpp .m,
+  .sig.cpp .s,
+  .sig.cpp .sc {
+    color: $color-11 !important;
+  }
+
+  .prev-next-area a p.prev-next-title {
+    color: inherit !important;
+  }
+}
