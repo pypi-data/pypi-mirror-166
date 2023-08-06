@@ -1,0 +1,8 @@
+README.md
+setup.py
+xfyun_tts/__init__.py
+xfyun_tts/version.py
+xfyun_tts.egg-info/PKG-INFO
+xfyun_tts.egg-info/SOURCES.txt
+xfyun_tts.egg-info/dependency_links.txt
+xfyun_tts.egg-info/top_level.txt
