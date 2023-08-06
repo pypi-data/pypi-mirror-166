@@ -1,0 +1,14 @@
+structured/__init__.py,sha256=Izq65UwqEvuD2ULebmDkbgFkmam5it35gIL0IPtpiFs,264
+structured/base_types.py,sha256=MddTEpYjmdT5wmfbWU2Ph_op6-TOKL9zHLfjeny1E_8,9232
+structured/basic_types.py,sha256=ZEllGHMh-YOICvoOpPReLqr1o-FpaXjExDNo_eY4QsQ,3933
+structured/structured.py,sha256=NwMY5UvEzF_EbAJCf5J10qlJEeEdwy4teeuzxvF9lbM,12205
+structured/type_checking.py,sha256=c7T5hbJA9wrTMFGewRKhMJ-sQvmBb9lyhI3XICrAK3E,1799
+structured/utils.py,sha256=LLrDRP_P2Lx5coKhCUMZDzG0_yAJXp882zATcZKK0jk,1490
+structured/complex_types/__init__.py,sha256=LdDQh4632T1-Rw_cBihznb1HkIV0gj6fOc4swvzExHg,45
+structured/complex_types/arrays.py,sha256=nFwX87pl2YLxxV_4GF7zpPkRTes_1CCqjwVea0WeocA,34365
+structured/complex_types/strings.py,sha256=23zJKAi43lN3xLOMdlKAc8TUVCzrfB0QuPr4Uk2p4UM,14919
+structured_classes-2.0.1.dist-info/LICENSE,sha256=X1-oQow2-ESQkCyL1Rh1G-qJIjf9vH7kHemiu-mw5Zw,1514
+structured_classes-2.0.1.dist-info/METADATA,sha256=lfV-xwMQfKbiRsBiIQK0WHuWHJfQbdaMdKgrqORsuWY,12772
+structured_classes-2.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+structured_classes-2.0.1.dist-info/top_level.txt,sha256=exTAxPKh1S71ZrY3PJ7PTnmRbnQEBRE09OPnyIpDJ28,11
+structured_classes-2.0.1.dist-info/RECORD,,
