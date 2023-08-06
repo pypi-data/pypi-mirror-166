@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+blab.egg-info/PKG-INFO
+blab.egg-info/SOURCES.txt
+blab.egg-info/dependency_links.txt
+blab.egg-info/entry_points.txt
+blab.egg-info/requires.txt
+blab.egg-info/top_level.txt
