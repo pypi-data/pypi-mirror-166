@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+scikit_teach.egg-info/PKG-INFO
+scikit_teach.egg-info/SOURCES.txt
+scikit_teach.egg-info/dependency_links.txt
+scikit_teach.egg-info/requires.txt
+scikit_teach.egg-info/top_level.txt
+skteach/__init__.py
