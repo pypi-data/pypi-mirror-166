@@ -1,0 +1,15 @@
+archetypes/__init__.py,sha256=i7U5Tgvzlt7URVBMUZ8mW2j1yXfGbjFO-tR2nbFEORc,116
+archetypes/version.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+archetypes/algorithms/__init__.py,sha256=EOYcphahKNK7O20Rdpmhcnt9jm2Bq0YyzJeYpFVEImg,96
+archetypes/algorithms/archetypes.py,sha256=WEKgE4RHNJzkuw89AzeQmhUQT-p-rbe6VznkXbNBtp0,7942
+archetypes/algorithms/biarchetypes.py,sha256=Wqo6I6-vA6Z7Yq_NE4hycDe7uJiEZbx7UttkOJ9k8kI,10137
+archetypes/algorithms/furthest_sum.py,sha256=fNB_YotjlJCTJ6vRRZPUvFTGN0n37DWL461sXqRn2JM,2437
+archetypes/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+archetypes/tests/test_common.py,sha256=HOUHWJZsiyPHRImbCERLXX54Upfb9Iqz9Z3XVrNAujk,267
+archetypes/visualization/__init__.py,sha256=EqERoo84j2-ZxbDJxX07JflRcCsrDLHr16d0j9lCME8,28
+archetypes/visualization/simplex.py,sha256=JySuZeKQbUQ-Qo7X5oqXnQPp803MOR8wJ9q2h6twPkY,3272
+archetypes-0.2.0.dist-info/LICENSE,sha256=5glE2s_9AqCqHHgrGUAs_WpS6lgf1BEyjQMbtEX8oX8,1527
+archetypes-0.2.0.dist-info/METADATA,sha256=1q-XeBoqMTop6EZPKRbcLti1hY_9lehpj0LCeXJeZlE,2150
+archetypes-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+archetypes-0.2.0.dist-info/top_level.txt,sha256=edSbrsqe43guVcN9Mq2Az7Fh4PRqYii_3-eofMqODiA,11
+archetypes-0.2.0.dist-info/RECORD,,
