@@ -1,0 +1,11 @@
+.gitignore
+README.md
+requirements.txt
+setup.py
+graphlogger/__init__.py
+graphlogger.egg-info/PKG-INFO
+graphlogger.egg-info/SOURCES.txt
+graphlogger.egg-info/dependency_links.txt
+graphlogger.egg-info/not-zip-safe
+graphlogger.egg-info/requires.txt
+graphlogger.egg-info/top_level.txt
