@@ -1,0 +1,9 @@
+resotodata/__init__.py,sha256=U7mdBHvDA6PriHqttZbFSwz3XRXikOC3rlWiLG3w12M,404
+resotodata/__main__.py,sha256=P7zz6YhXNX64nwRKpVo09D-KD3ujZ9_Oyk1ldT5zIZ8,2433
+resotodata/cloud.py,sha256=UNlMm9idy8mZfKrq0OGxGMEmraG_0KJnQWA-J78HbIA,182
+resotodata/data/regions.json,sha256=r3_IraxeUljJvwtRp-8DKP4hAj5fZ3eb1h1F8hRGoGo,4594
+resotodata-0.0.4.dist-info/METADATA,sha256=OPxjMiHFrbEh76B_FMJpxqzkzTUAv1hayP2n0rshyMA,837
+resotodata-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+resotodata-0.0.4.dist-info/entry_points.txt,sha256=cPnPtLo0KphBzri9exNkzKJ7r_xT7evjWwO-EhvYgJ0,80
+resotodata-0.0.4.dist-info/top_level.txt,sha256=FO2DummqDTYRli1-EoePl0KmYS1spASwCHR3p7zIfpE,11
+resotodata-0.0.4.dist-info/RECORD,,
