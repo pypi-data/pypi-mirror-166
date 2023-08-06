@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: thai-id-descriptor
+Version: 0.1.2
+Summary: A helper package to describe about the province or area using Thai nationality ID card
+Home-page: https://github.com/noppGithub/thai_id_descriptor
+Author: Nopporn Phantawee
+Author-email: n.phantawee@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: black (>=22.0.0)
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+# thai-id-descriptor
+A helper package to describe about the province or area using Thai nationality ID card
