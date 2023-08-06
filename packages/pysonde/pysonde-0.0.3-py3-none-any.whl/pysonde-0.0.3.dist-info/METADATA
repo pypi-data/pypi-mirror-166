@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pysonde
+Version: 0.0.3
+Home-page: https://github.com/observingClouds/pysonde
+Author: Hauke Schulz
+Author-email: 
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: mock ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-pycodestyle ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-pydocstyle ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+Requires-Dist: pytest-isort ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: pytest-pep8 ; extra == 'dev'
+Requires-Dist: pytest-pylint ; extra == 'dev'
+Requires-Dist: pytest-yapf3 (>=0.4.0) ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pylint (<2.3.0) ; extra == 'dev'
+Requires-Dist: yapf ; extra == 'dev'
+
+Post-processing tool for atmospheric sounding data
