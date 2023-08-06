@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "choicetypes"
+version = "0.1.0rc1"
+description = "Powerful and simple algebraic sum types in Python."
+license = "MIT"
+authors = ["Sam Waterbury <samwaterbury1@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/samwaterbury/choicetypes"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.6.0"
+isort = "^5.10.1"
+pytest = "^7.1.2"
+mypy = "^0.971"
+pylint = "^2.13.0"
+mkdocs-material = "^8.4.2"
+pre-commit = "^2.20.0"
+coverage = "^6.4.4"
+
+[tool.isort]
+profile = "black"
+src_paths = ["."]
+
+[tool.black]
+preview = true
+
+[tool.mypy]
+files = "."
+namespace_packages = true
+strict = true
+
+[tool.pylint.messages_control]
+disable = ["C0301", "R0903"]
+
+[tool.coverage.report]
+omit = ["tests/*"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
