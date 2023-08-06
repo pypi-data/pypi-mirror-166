@@ -1,0 +1,1 @@
+from how_is_my_bmi.bmi import Bmi
