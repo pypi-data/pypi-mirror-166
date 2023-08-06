@@ -1,0 +1,10 @@
+phones/__init__.py,sha256=kchX2beDIiZgy8-sOWUd1TzQ5ay2LC7aEIPH80dPtJc,19614
+phones/convert.py,sha256=d11bsGqdrhhdkkvhGG5Rf10MKJSp-wB1n5tcTlyq93U,3291
+phones/features.py,sha256=bEuG7OF7t3UVq1_de9k7Vr3XFO22AGzUCBF_W9sbEKQ,6663
+phones/normalize.py,sha256=RKUWanQ9hOZPXEFI3h5XcIPwChNPH1pZ6lFh0KbA2ho,167
+phones/plots.py,sha256=FhuTVXorlYq9riUxGynBQSxGi3SWNMFWP64jqmHYVxk,4837
+phones/sources.py,sha256=ap1jJZBzi0BURr5IJaYH3MH0T9XBGfgRZqBubbJBsys,3395
+phones-0.0.3.dist-info/WHEEL,sha256=g_UdFZqm-k6b0W64OcndB0YT_D2mFFPAYBj7-_YsSPA,87
+phones-0.0.3.dist-info/METADATA,sha256=KQ7etURtH5dFTEOaYtduVTLFa24Ye9rHyt9ThCjshqA,618
+phones-0.0.3.dist-info/license_files/LICENSE,sha256=2OwUZTiywXdvQpDhpWkpclg6A6zxvSG5biBr2JAOCxU,1077
+phones-0.0.3.dist-info/RECORD,,
