@@ -1,0 +1,17 @@
+estruttura/__init__.py,sha256=qaAALIipsZdbiY6wAawz0nohrGmR-vIXfCLzYNPHqf8,1271
+estruttura/_bases.py,sha256=3kgrC76sSWgvbnVu_NQap8nHhwzk04hRGHKmIEtmdS0,12407
+estruttura/_dict.py,sha256=0b5aFdLJHCO1SAO2HLgaEdCBfdO3MJ6GofWFtgwqlD8,6792
+estruttura/_list.py,sha256=fVJGp6SDij6HKmN7noS_8JraVVEu8d7Knz3I40gq6Eg,9972
+estruttura/_set.py,sha256=dOTyi9kP0Rk6pl7qZo794JNIJUuPJgP-0wdTBFZXqkA,7422
+estruttura/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+estruttura/utils.py,sha256=DiII2S9zfmyD6BAdBlknO8D6BVKDV-vnGSkxLf00tDc,2284
+estruttura/bases/__init__.py,sha256=XS-EMF-nYqo255rVyebYJsOS3TMOsYRryEBJeFspn80,1173
+estruttura/bases/_bases.py,sha256=Hf3Nn1MIzq9ugAKCf1TsLotwGth21UiVx6OIWGvY9eM,6936
+estruttura/bases/_dict.py,sha256=azWtaDgApcEdmkZ_inVSPSikOv__LlOqBfwD2MYcRLA,9738
+estruttura/bases/_list.py,sha256=86hzJD4QciXfY6r8aNnRLBeJpFZqaUHwdbR5JEG3Xfg,12169
+estruttura/bases/_set.py,sha256=Fwv1AB7_qXvGLrl2ENzwiDJre9GPM0FCKT8IQ9jkN-k,14834
+estruttura-0.1.0.dist-info/LICENSE,sha256=ItKR_tYlKxnPQ5mVzbe1YRs8uDevTAcwT4DgrPXPPMs,1068
+estruttura-0.1.0.dist-info/METADATA,sha256=GZDztXxTzPY_TXRUZcwmvUqrYoscYrhQ3opLLOhdRIU,2129
+estruttura-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+estruttura-0.1.0.dist-info/top_level.txt,sha256=J1w2CgCyClgHirEuaeTrowPEoSFOUij1yWv-FN2FVxM,11
+estruttura-0.1.0.dist-info/RECORD,,

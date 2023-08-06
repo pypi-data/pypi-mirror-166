@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: estruttura
+Version: 0.1.0
+Summary: Abstract structures.
+Home-page: https://github.com/brunonicko/estruttura
+Author: Bruno Nicko
+Author-email: brunonicko@gmail.com
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >= 2.7, != 3.0.*, != 3.1.*, != 3.2.*, != 3.3.*, != 3.4.*, != 3.5.*, != 3.6.*
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: tippo
+Requires-Dist: basicco
+Requires-Dist: slotted
+Requires-Dist: six
+Requires-Dist: pyrsistent
+
+Estruttura
+==========
+.. image:: https://github.com/brunonicko/estruttura/workflows/MyPy/badge.svg
+   :target: https://github.com/brunonicko/estruttura/actions?query=workflow%3AMyPy
+
+.. image:: https://github.com/brunonicko/estruttura/workflows/Lint/badge.svg
+   :target: https://github.com/brunonicko/estruttura/actions?query=workflow%3ALint
+
+.. image:: https://github.com/brunonicko/estruttura/workflows/Tests/badge.svg
+   :target: https://github.com/brunonicko/estruttura/actions?query=workflow%3ATests
+
+.. image:: https://readthedocs.org/projects/estruttura/badge/?version=stable
+   :target: https://estruttura.readthedocs.io/en/stable/
+
+.. image:: https://img.shields.io/github/license/brunonicko/estruttura?color=light-green
+   :target: https://github.com/brunonicko/estruttura/blob/main/LICENSE
+
+.. image:: https://static.pepy.tech/personalized-badge/estruttura?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=Downloads
+   :target: https://pepy.tech/project/estruttura
+
+.. image:: https://img.shields.io/pypi/pyversions/estruttura?color=light-green&style=flat
+   :target: https://pypi.org/project/estruttura/
+
+Overview
+--------
+Abstract data structure classes.
