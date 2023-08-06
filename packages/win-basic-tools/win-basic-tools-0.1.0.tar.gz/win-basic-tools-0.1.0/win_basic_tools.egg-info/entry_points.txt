@@ -1,0 +1,3 @@
+[console_scripts]
+grep = win_basic_tools.sources.grep:main
+win-basic-tools = win_basic_tools.setup_cmd:main
