@@ -1,0 +1,8 @@
+scribit_build_instruments/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scribit_build_instruments/diagnostics.py,sha256=KCoYg0oYUAj_Sj3GZ0PGmvhW9UI5650nkxzxddiEGFM,868
+scribit_build_instruments/filesystem_helpers.py,sha256=KsWljPx2-ZzwvAYE42MH2zvRe2mmBEr1n2E7HpAQnew,2508
+scribit_build_instruments/platform_helpers.py,sha256=HDN1cp6Fc_gicK_ZO5gU5cu9PpeAJ9PEQOUrDlU6wp4,951
+scribit_build_instruments-0.0.3.dist-info/METADATA,sha256=kPqN_sYwwOQaf2g-dhduvCqMrXDXm5elU5R362HcseU,1840
+scribit_build_instruments-0.0.3.dist-info/WHEEL,sha256=09RFlvY3aVzvCNk4AXPZt-N-AI7GY_KktGsTb2IqIBU,86
+scribit_build_instruments-0.0.3.dist-info/licenses/LICENSE,sha256=r1y-LMQf16KxZldDpawMbEt8CXSi7eNyVCPZ4W1IU18,1051
+scribit_build_instruments-0.0.3.dist-info/RECORD,,
