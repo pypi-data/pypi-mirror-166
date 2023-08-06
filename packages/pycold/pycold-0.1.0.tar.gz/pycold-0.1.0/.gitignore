@@ -1,0 +1,15 @@
+.DS_Store
+tool/python/.DS_Store
+*.egg-info
+__pycache__
+*.cpython-*-*-*.so
+dist 
+_skbuild
+src/python/pycold/_pycold_cython*.so
+dist/*.whl
+build
+.idea
+wheelhouse
+tests/coverage.xml
+tests/.coverage
+tmpfile

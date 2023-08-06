@@ -1,0 +1,155 @@
+joblib
+pyyaml
+
+[:python_version < "3.10"]
+numpy
+scikit_learn
+scikit_image
+
+[:python_version < "3.10" and python_version >= "3.9"]
+pandas
+
+[:python_version < "3.7.1" and python_version >= "3.6.1"]
+pandas
+
+[:python_version < "3.8" and python_version >= "3.7.1"]
+pandas
+
+[:python_version < "3.9" and python_version >= "3.8"]
+pandas
+
+[:python_version >= "3.10"]
+numpy
+scikit_learn
+scikit_image
+pandas
+
+[all]
+scikit-build
+cmake
+cython
+joblib
+pyyaml
+matplotlib
+Seaborn
+click
+
+[all:python_version < "3.10"]
+numpy
+scikit_learn
+scikit_image
+
+[all:python_version < "3.10" and python_version >= "3.9"]
+pandas
+
+[all:python_version < "3.7.1" and python_version >= "3.6.1"]
+pandas
+
+[all:python_version < "3.8" and python_version >= "3.7.1"]
+pandas
+
+[all:python_version < "3.9" and python_version >= "3.8"]
+pandas
+
+[all:python_version >= "3.10"]
+numpy
+scikit_learn
+scikit_image
+pandas
+
+[build]
+scikit-build
+cmake
+cython
+
+[graphics]
+
+[graphics:python_version < "3.10" and python_version >= "3.9"]
+opencv-python
+
+[graphics:python_version < "3.4" and python_version >= "2.7"]
+opencv-python
+
+[graphics:python_version < "3.5" and python_version >= "3.4"]
+opencv-python
+
+[graphics:python_version < "3.6" and python_version >= "3.5"]
+opencv-python
+
+[graphics:python_version < "3.7" and python_version >= "3.6"]
+opencv-python
+
+[graphics:python_version < "3.8" and python_version >= "3.7"]
+opencv-python
+
+[graphics:python_version < "3.9" and python_version >= "3.8"]
+opencv-python
+
+[graphics:python_version >= "3.10"]
+opencv-python
+
+[headless]
+
+[headless:python_version < "3.10" and python_version >= "3.9"]
+opencv-python-headless
+
+[headless:python_version < "3.4" and python_version >= "2.7"]
+opencv-python-headless
+
+[headless:python_version < "3.5" and python_version >= "3.4"]
+opencv-python-headless
+
+[headless:python_version < "3.6" and python_version >= "3.5"]
+opencv-python-headless
+
+[headless:python_version < "3.7" and python_version >= "3.6"]
+opencv-python-headless
+
+[headless:python_version < "3.8" and python_version >= "3.7"]
+opencv-python-headless
+
+[headless:python_version < "3.9" and python_version >= "3.8"]
+opencv-python-headless
+
+[headless:python_version >= "3.10"]
+opencv-python-headless
+
+[optional]
+matplotlib
+Seaborn
+click
+
+[tests]
+xdoctest
+ubelt
+astropy
+pytest-timeout
+codecov
+requests
+
+[tests:python_version < "3.10" and python_version >= "3.9"]
+coverage
+
+[tests:python_version < "3.10.0" and python_version >= "3.7.0"]
+pytest
+
+[tests:python_version < "3.7" and python_version >= "3.6"]
+coverage
+
+[tests:python_version < "3.7.0" and python_version >= "3.6.0"]
+pytest
+
+[tests:python_version < "3.8" and python_version >= "3.7"]
+coverage
+
+[tests:python_version < "3.9" and python_version >= "3.8"]
+coverage
+
+[tests:python_version >= "3.10"]
+coverage
+
+[tests:python_version >= "3.10.0"]
+pytest
+
+[tests:python_version >= "3.6.0"]
+pytest-cov
