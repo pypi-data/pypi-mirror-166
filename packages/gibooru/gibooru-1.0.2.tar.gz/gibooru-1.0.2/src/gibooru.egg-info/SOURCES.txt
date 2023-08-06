@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/gibooru/__init__.py
+src/gibooru/booru.py
+src/gibooru/danbooru.py
+src/gibooru/gelbooru.py
+src/gibooru.egg-info/PKG-INFO
+src/gibooru.egg-info/SOURCES.txt
+src/gibooru.egg-info/dependency_links.txt
+src/gibooru.egg-info/top_level.txt
