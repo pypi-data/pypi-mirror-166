@@ -1,0 +1,11 @@
+README.rst
+setup.py
+mum/__init__.py
+mum/abstractsingleton.py
+mum/noduplicates.py
+mum/singleton.py
+myusefulmetaclasses.egg-info/PKG-INFO
+myusefulmetaclasses.egg-info/SOURCES.txt
+myusefulmetaclasses.egg-info/dependency_links.txt
+myusefulmetaclasses.egg-info/requires.txt
+myusefulmetaclasses.egg-info/top_level.txt
