@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: k-samplers
+Version: 1.0.0
+Summary: Samplers from crowsonkb/k-diffusion
+Home-page: https://github.com/nousr/k-samplers
+Author: Katherine Crowson
+Author-email: crowsonkb@gmail.com
+Maintainer: Zion English
+Maintainer-email: zion.m.english@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: torch
+Requires-Dist: torchdiffeq
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+
+# k-samplers
+
+A simple export of the samplers, utilities, and external functions from https://github.com/crowsonkb/k-diffusion
+
+`pip install k-samplers`
