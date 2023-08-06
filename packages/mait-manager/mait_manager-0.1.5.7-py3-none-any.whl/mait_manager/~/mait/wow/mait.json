@@ -1,0 +1,9 @@
+{
+    "short": "Test package.",
+    "long": "I'm a teapot.",
+    
+    "creator": "@Porplax",
+    "name": "WOW!",
+    
+    "exec": "python3 main.py"
+}
