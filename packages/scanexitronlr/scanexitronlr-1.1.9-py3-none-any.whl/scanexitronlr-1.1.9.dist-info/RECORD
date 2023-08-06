@@ -1,0 +1,13 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/__main__.py,sha256=YJGp9k4Xt94SfjrmOwnbfMXstuUZH4sm1Br2hdclqLc,1250
+src/annotate.py,sha256=Amn7TmpYHY_Ovl2XFX8GfGSDJGzUjwxp3j9H3xnCA0c,24563
+src/arabidopsis_pfam.tsv,sha256=qqTdxTYwN0PeRhPRQRZAvgsFM5Nohqy626Uu3iUUGI0,1920748
+src/blacklist.tsv,sha256=wEmvblJcqBnHF7zEJSMAwUG9im6HkyUnsQWCE8c1sko,1093
+src/extract.py,sha256=-KTVhNpGiR5tj6EkkWXQD5-TTNhug7Nil5QSYoc8CKQ,35490
+src/human_pfam.tsv,sha256=SJgEfLhfh1IfzRXYss_pDs51yRYLHg2x221jIdsnusg,5756859
+scanexitronlr-1.1.9.dist-info/LICENSE,sha256=lVVSddVs4egtN1bQx8NzYnurTjr6VWoOPyVdIbkDwBg,1067
+scanexitronlr-1.1.9.dist-info/METADATA,sha256=HG_1BMJxHPOdLyF0ZeI0YwC_pXC4XTFf_H_F2Hg0_OE,11235
+scanexitronlr-1.1.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scanexitronlr-1.1.9.dist-info/entry_points.txt,sha256=0ARXFyZY5G-CHVlqVxQElm-7fls3_rg7lf7MLdbKuoY,77
+scanexitronlr-1.1.9.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+scanexitronlr-1.1.9.dist-info/RECORD,,
