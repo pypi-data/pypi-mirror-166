@@ -1,0 +1,11 @@
+localc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+localc/node.py,sha256=3vrFOMxbkZbG6bC72fr-4jVLYbyxFezysNxkT7dvlK4,6431
+localc/operators.py,sha256=hrmCbFkZg9ky6tJkvBMdZeZDSftGsT3NfN_HxZIEuYs,96
+localc/parser.py,sha256=5PM5Pi6AWonrtw6sLzkgqBGleUDD9yrNRv__RAsh41k,1657
+localc/proposition.py,sha256=GybrltgdCALeVEWvW7M9nxYpv0XwWv9qthilKyS5muQ,2298
+localc/scanner.py,sha256=J5S_U66JplaIqsph0ZDKAfN8MrxDY0SSLEm3xmeoubY,377
+localc-1.0.2.dist-info/LICENSE,sha256=LdCIhN39Ie2OUYKHYtInAT7Hakr3cTvkEPH-App2Da0,1084
+localc-1.0.2.dist-info/METADATA,sha256=po0B0ipb1RFjOmX1GS6nXzMoYdrR-iAN5xgiTMgU21A,1632
+localc-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+localc-1.0.2.dist-info/top_level.txt,sha256=n-yT-3eLp73H30dedpa9MZepYo-Wg2m55Ucajj2ATsg,7
+localc-1.0.2.dist-info/RECORD,,
