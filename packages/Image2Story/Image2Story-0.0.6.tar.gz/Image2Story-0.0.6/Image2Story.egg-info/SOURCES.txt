@@ -1,0 +1,10 @@
+README.md
+setup.py
+Image2Story/__init__.py
+Image2Story/class_caption.py
+Image2Story/image2caption.py
+Image2Story.egg-info/PKG-INFO
+Image2Story.egg-info/SOURCES.txt
+Image2Story.egg-info/dependency_links.txt
+Image2Story.egg-info/requires.txt
+Image2Story.egg-info/top_level.txt
