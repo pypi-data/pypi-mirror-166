@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+kalkulatorxxx/__init__.py
+kalkulatorxxx/kalkulator.py
+kalkulatorxxx.egg-info/PKG-INFO
+kalkulatorxxx.egg-info/SOURCES.txt
+kalkulatorxxx.egg-info/dependency_links.txt
+kalkulatorxxx.egg-info/top_level.txt
