@@ -1,0 +1,3 @@
+paddleocr
+getmac
+paddlepaddle
