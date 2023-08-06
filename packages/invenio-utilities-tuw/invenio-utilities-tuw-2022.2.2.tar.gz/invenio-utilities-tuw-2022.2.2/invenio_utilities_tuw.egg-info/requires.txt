@@ -1,0 +1,11 @@
+invenio-app-rdm>=9.0.6
+
+[all]
+Sphinx>=4.2.0
+pytest-invenio>=1.4.0
+
+[docs]
+Sphinx>=4.2.0
+
+[tests]
+pytest-invenio>=1.4.0
