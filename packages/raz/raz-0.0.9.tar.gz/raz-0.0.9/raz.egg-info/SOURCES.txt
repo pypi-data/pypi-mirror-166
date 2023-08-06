@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+raz/__init__.py
+raz/razi.py
+raz.egg-info/PKG-INFO
+raz.egg-info/SOURCES.txt
+raz.egg-info/dependency_links.txt
+raz.egg-info/requires.txt
+raz.egg-info/top_level.txt
