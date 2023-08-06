@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: citrees
+Version: 0.2.0
+Summary: conditional inference tree
+Home-page: https://github.com/rmill040/citrees
+Author: Robert Milletich(rmill040)
+Author-email: rmill040@gmail.com
+License: MIT Licence
+Keywords: pip,citree,,regression,classification
+Platform: any
+
+Bayesian conditional inference trees and forests in Python
