@@ -1,0 +1,87 @@
+version: 2.1
+
+workflows:
+  rest-auth-toolkit:
+    jobs:
+      - test:
+          name: test-py<< matrix.python >>-dj<< matrix.django >>
+          matrix:
+            parameters:
+              python: ["3.10", "3.9"]
+              django: ["4.1", "4.0", "3.2"]
+      - check
+
+jobs:
+
+  test:
+    parameters:
+      python:
+        type: string
+      django:
+        type: string
+    docker:
+      - image: cimg/python:<< parameters.python >>
+      - image: cimg/postgres:14.0
+        environment:
+          POSTGRES_DB: circle_test
+          POSTGRES_USER: testapp
+          POSTGRES_PASSWORD: "wordpass"
+    working_directory: ~/rest-auth-toolkit
+    environment:
+      DATABASE_URL: postgres://testapp:wordpass@localhost/circle_test
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - py<< parameters.python >>-dj<< parameters.django >>-v1-{{ arch }}-{{ checksum "requirements-test.txt" }}-{{ checksum "demo/requirements.txt" }}
+            - py<< parameters.python >>-dj<< parameters.django >>-v1-{{ arch }}-{{ checksum "requirements-test.txt" }}-
+            - py<< parameters.python >>-dj<< parameters.django >>-v1-{{ arch }}-
+      - run:
+          name: Install CI tools
+          command: |
+            python3 -m venv venv
+            venv/bin/pip install tox
+      - run:
+          name: Test with Python << parameters.python >> and Django << parameters.django >>
+          command: |
+            python="<< parameters.python >>"
+            pyshort="${python//./}"
+            venv/bin/tox -e py${pyshort}-dj<< parameters.django >> -- --junitxml=~/reports/tox/coverage.xml
+      - when:
+          condition:
+            and:
+              - equal: [<< parameters.python >>, "3.10"]
+              - equal: [<< parameters.django >>, "4.0"]
+          steps:
+            - run:
+                name: Check coverage with Python << parameters.python >>
+                command: venv/bin/tox -e coverage
+      - save_cache:
+          key: py<< parameters.python >>-dj<< parameters.django>>-v2-{{ arch }}-{{ checksum "requirements-test.txt" }}-{{ checksum "demo/requirements.txt" }}
+          paths:
+            - venv
+            - .tox
+      - store_test_results:
+          path: ~/reports
+
+  check:
+    docker:
+      - image: cimg/python:3.10
+    working_directory: ~/rest-auth-toolkit
+    steps:
+      - checkout
+      - restore_cache:
+          key: check-v2
+      - run:
+          name: Install CI tools
+          command: |
+            python3 -m venv venv
+            venv/bin/pip install tox
+      - run:
+          name: Check packaging and dependencies
+          command: venv/bin/tox -e pkg
+      - save_cache:
+          key: check-v2
+          paths:
+            - venv
+            - .tox
