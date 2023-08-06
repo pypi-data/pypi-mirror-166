@@ -1,0 +1,14 @@
+structlog_sentry_logger/__init__.py,sha256=zOFz3z1aYuOwWFuU0Sz6uHJgRX1HzFekeqU5ouw-Uz0,423
+structlog_sentry_logger/_config.py,sha256=Akt7cct8KyCPhtjsEbWnWn4H4rec1rwO86Ao7C7AK28,15915
+structlog_sentry_logger/_feature_flags.py,sha256=TYfg4_ni3KDPeATzB_lmDZZN8qCU7aKqjNlL2uAJUkw,3182
+structlog_sentry_logger/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+structlog_sentry_logger/structlog_sentry.py,sha256=3a2W-543N4X_8YJNTJQ8UtYx34BYyTl-xmddDnaQrjI,7156
+451ad3e1dda0bf230bf3__mypyc.cpython-38-darwin.so,sha256=fIgVpj8dV5tVj8okn8sd2Ol1QuKBNF_5Ry4HYGWzQp8,256096
+structlog_sentry_logger/structlog_sentry.cpython-38-darwin.so,sha256=EbNvGw9Cv72iYpN-eEqODpr8WqmAPn0mZxtISwG7zXY,33848
+structlog_sentry_logger/_config.cpython-38-darwin.so,sha256=B9DrNwaKZfZxwbRBayqiYP7-7gxmkuq11OzcQ-yGC8k,33792
+structlog_sentry_logger/__init__.cpython-38-darwin.so,sha256=dzrQkCTVZ9r-saRn0JJCUZABN8tFKr7Vp1xJbtiP9IM,33816
+structlog_sentry_logger/_feature_flags.cpython-38-darwin.so,sha256=Wx4mDuUmR9xnpV3dhsyXDf3dfH7hbtXrCELLMmAPyw0,33840
+structlog_sentry_logger-0.17.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+structlog_sentry_logger-0.17.5.dist-info/WHEEL,sha256=btc046we6_e3ki4ndpOQ2IjF9Ybhdhnomx24Bn6HqkQ,105
+structlog_sentry_logger-0.17.5.dist-info/METADATA,sha256=cmf8SSbh0ZtG472HRNldcFC7WI8CqQDfznPjH5ektzw,19585
+structlog_sentry_logger-0.17.5.dist-info/RECORD,,
