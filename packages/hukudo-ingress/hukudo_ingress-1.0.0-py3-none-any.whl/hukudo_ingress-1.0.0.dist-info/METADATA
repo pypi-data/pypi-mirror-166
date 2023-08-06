@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hukudo-ingress
+Version: 1.0.0
+Home-page: https://gitlab.com/hukudo/ingress
+Author: hukudo GmbH
+Author-email: hukudo-ingress@hukudo.de
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: backoff
+Requires-Dist: click
+Requires-Dist: docker
+Requires-Dist: httpx
+Requires-Dist: ipython
+Requires-Dist: jinja2
+Requires-Dist: logfmter
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpversion ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: types-setuptools ; extra == 'dev'
+Provides-Extra: include_package_data
+Requires-Dist: True ; extra == 'include_package_data'
+
