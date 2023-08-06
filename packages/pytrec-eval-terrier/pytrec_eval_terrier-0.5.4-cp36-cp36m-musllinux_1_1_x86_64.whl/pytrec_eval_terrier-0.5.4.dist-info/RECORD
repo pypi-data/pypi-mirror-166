@@ -1,0 +1,9 @@
+pytrec_eval_ext.cpython-36m-x86_64-linux-gnu.so,sha256=t1BrDYlPhid2rSsUVLy_ie5ACFTUQaW8i22n028aXpw,988968
+pytrec_eval_terrier.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
+pytrec_eval_terrier.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
+pytrec_eval_terrier-0.5.4.dist-info/top_level.txt,sha256=A0p5dmQFCEMc4etKus3pSkji8P6X_9NsKAv4TAXy89A,28
+pytrec_eval_terrier-0.5.4.dist-info/WHEEL,sha256=rbVfYZzJiOCEiiKDVkaog3MWj3SC9SfTJ-H92vzqnHY,112
+pytrec_eval_terrier-0.5.4.dist-info/METADATA,sha256=DGfLbGYksXC9MJI1lSGI0ymJeQQkiZ5brW6QGwr7fyg,821
+pytrec_eval_terrier-0.5.4.dist-info/RECORD,,
+pytrec_eval_terrier-0.5.4.dist-info/LICENSE,sha256=jul1y04B4xdQkK4TNyS29CzHf05s3YszmoL-YGNT4oE,1086
+pytrec_eval/__init__.py,sha256=BWOE4D1VsDnBXXbQMQFrQB5KjzDnepUlUwTH5BmAMis,3463
