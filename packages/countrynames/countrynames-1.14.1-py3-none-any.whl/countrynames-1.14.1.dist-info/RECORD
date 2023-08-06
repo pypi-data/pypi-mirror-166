@@ -1,0 +1,14 @@
+countrynames/__init__.py,sha256=57islzTPHWStPLJBmB65ylJNSMMDJ1ikvnQ7DykcoUk,2622
+countrynames/compile.py,sha256=tKoSeR_7OZP_7EEO8YtW2EYTPNj7JzofdcFyHtHd4r0,1671
+countrynames/data.py,sha256=Xs4rHioyKI_H_tN2O1mBLxtr44sM5AixO3qvU24EiPc,583757
+countrynames/data.yaml,sha256=rvvEL0LrnUZNf5R1YbZqnSbhL18DtsaVfGv9E4vnKng,608045
+countrynames/mappings.py,sha256=BeKEdzdvIxUPRJjbSC6cEcSe0c0UjDXF3ntGIqXGnzk,4391
+countrynames/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+countrynames/util.py,sha256=DgG1wjKIXBBWtzrEQZqRTocXPrZvmo36ftbIoxeGHOo,731
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_countrynames.py,sha256=iPsDl8qUoBcPoV1fxr3KS4MxbrOZak5or0hWk0gao4k,1371
+countrynames-1.14.1.dist-info/METADATA,sha256=RIJGRdLQY0O9JWpVsZ9zF8JDjfSb7r4VRrV6hC0qMTM,3123
+countrynames-1.14.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+countrynames-1.14.1.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+countrynames-1.14.1.dist-info/top_level.txt,sha256=ePM7oVaKN2N-JBqgnH2tas-yuALyb1mPWHL83aJeCWk,19
+countrynames-1.14.1.dist-info/RECORD,,
