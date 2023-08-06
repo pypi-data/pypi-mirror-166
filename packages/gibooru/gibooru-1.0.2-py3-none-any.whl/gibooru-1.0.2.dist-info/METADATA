@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gibooru
+Version: 1.0.2
+Summary: Gibs access to many booru APIs
+Home-page: https://github.com/fitebone/gibooru
+Author: Fitebone
+Author-email: fitebone@pm.me
+Project-URL: Bug Tracker, https://github.com/fitebone/gibooru/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gibooru
+A PyPi package for asynchronously accessing image board APIs

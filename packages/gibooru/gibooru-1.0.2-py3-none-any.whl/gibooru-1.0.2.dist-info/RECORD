@@ -1,0 +1,9 @@
+gibooru/__init__.py,sha256=IMkcYHXzT2R5CnBC50wCjSn5unG1Hj40CHnvAix5zcY,145
+gibooru/booru.py,sha256=Zp-rK-Hoc8RARS_JAlim4pNrmUsU-FHIC3t1WN7L6Rw,7225
+gibooru/danbooru.py,sha256=LdwJJHsidxYiOrvwdcvvSjlckjAYixJ2CvF6ak-73Yw,10999
+gibooru/gelbooru.py,sha256=7VbZeDXk-r2SJK5rr3Q1jtoJxe8TfppoR-K5o7YPnBk,4576
+gibooru-1.0.2.dist-info/LICENSE,sha256=BRK3LTY_ha_QgqL8O0h1ryUtaborBWD5zDkPLRhy05w,1083
+gibooru-1.0.2.dist-info/METADATA,sha256=-VHxD63t1AN5qhD0oqyjY3Eiea0c0-EFby1Fq905a3Q,556
+gibooru-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gibooru-1.0.2.dist-info/top_level.txt,sha256=QOkQOoEcohcHjHyDcEZz4tTa7ar-XEB01_8B_i04XF8,8
+gibooru-1.0.2.dist-info/RECORD,,
