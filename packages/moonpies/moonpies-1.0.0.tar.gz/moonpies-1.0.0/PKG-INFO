@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: moonpies
+Version: 1.0.0
+Summary: Moon Polar Ice and Ejecta Stratigraphy model
+License: MIT
+Author: Christian J. Tai Udovicic
+Author-email: cjtu@nau.edu
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.3,<4.0)
+Requires-Dist: numpy (>=1.17,<2.0)
+Requires-Dist: pandas (>=1.0,<2.0)
