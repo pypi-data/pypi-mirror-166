@@ -1,0 +1,2 @@
+[console_scripts]
+filtersam = filtersam.cli:main
