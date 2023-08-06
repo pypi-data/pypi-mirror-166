@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+olexiybakum.egg-info/PKG-INFO
+olexiybakum.egg-info/SOURCES.txt
+olexiybakum.egg-info/dependency_links.txt
+olexiybakum.egg-info/top_level.txt
