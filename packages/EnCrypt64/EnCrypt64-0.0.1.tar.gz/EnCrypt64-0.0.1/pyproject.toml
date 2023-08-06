@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "EnCrypt64"
+version = "0.0.1"
+authors = [
+  { name="jacoblightning3", email="t00niyf5@duck.com" },
+]
+description = "A Encrypting and Decrypting Package"
+dependencies = ['cryptography==37.0.4']
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+classifiers = [
+	"Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Jacoblightning/EnCrypt"
+"Bug Tracker" = "https://github.com/Jacoblightning/EnCrypt/issues"

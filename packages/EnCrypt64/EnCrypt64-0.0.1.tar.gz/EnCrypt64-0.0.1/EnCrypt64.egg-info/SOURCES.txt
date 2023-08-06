@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+EnCrypt64.egg-info/PKG-INFO
+EnCrypt64.egg-info/SOURCES.txt
+EnCrypt64.egg-info/dependency_links.txt
+EnCrypt64.egg-info/requires.txt
+EnCrypt64.egg-info/top_level.txt
+src/EnCrypt64/__init__.py
+src/EnCrypt64/encrypt64.py
