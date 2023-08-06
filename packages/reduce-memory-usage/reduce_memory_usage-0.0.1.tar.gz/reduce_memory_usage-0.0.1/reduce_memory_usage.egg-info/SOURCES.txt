@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+reduce_memory_usage/__init__.py
+reduce_memory_usage/reduce_memory_usage.py
+reduce_memory_usage.egg-info/PKG-INFO
+reduce_memory_usage.egg-info/SOURCES.txt
+reduce_memory_usage.egg-info/dependency_links.txt
+reduce_memory_usage.egg-info/top_level.txt
