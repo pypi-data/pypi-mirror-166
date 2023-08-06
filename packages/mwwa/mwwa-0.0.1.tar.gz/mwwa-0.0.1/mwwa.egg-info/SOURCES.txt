@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+mwa/__init__.py
+mwa/mwa.py
+mwwa.egg-info/PKG-INFO
+mwwa.egg-info/SOURCES.txt
+mwwa.egg-info/dependency_links.txt
+mwwa.egg-info/top_level.txt
