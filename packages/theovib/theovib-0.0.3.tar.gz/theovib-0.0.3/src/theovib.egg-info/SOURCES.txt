@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+src/theovib/__init__.py
+src/theovib/aimall_tools.py
+src/theovib/input.py
+src/theovib/internal.py
+src/theovib/ir.py
+src/theovib/matrices.py
+src/theovib/molecule.py
+src/theovib/ptable.py
+src/theovib.egg-info/PKG-INFO
+src/theovib.egg-info/SOURCES.txt
+src/theovib.egg-info/dependency_links.txt
+src/theovib.egg-info/top_level.txt
