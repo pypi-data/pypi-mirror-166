@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: redframes
+Version: 0.0
+Summary: [re]ctangular[d]ata[frames]
+Home-page: https://github.com/maxhumber/redframes
+Author: Max Humber
+Author-email: max.humber@gmail.com
+License: BSD 2
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas (>=1.4.4)
+
+# redframes 
+[re]ctangular[d]ata[frames]
+
