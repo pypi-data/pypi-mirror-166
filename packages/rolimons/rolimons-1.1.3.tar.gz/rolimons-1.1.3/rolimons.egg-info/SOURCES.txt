@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+rolimons.egg-info/PKG-INFO
+rolimons.egg-info/SOURCES.txt
+rolimons.egg-info/dependency_links.txt
+rolimons.egg-info/requires.txt
+rolimons.egg-info/top_level.txt
