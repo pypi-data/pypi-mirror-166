@@ -1,0 +1,149 @@
+{% extends 'layouts/base.html' %}
+
+{% block main %}
+
+    <div class="row">
+        <div class="col s12 m6 offset-m3">
+            <div class="card rounded">
+                <div class="card-content">
+                    <span class="card-title center-align">Display Slides</span>
+                    {% if slides %}
+                        <table>
+                            <thead>
+                            <tr>
+                                <th>Display</th>
+                                <th>Background</th>
+                                <th>Foreground</th>
+                                <th>Text</th>
+                                <th>Show Logo</th>
+                                <th>Active</th>
+                                <th>Actions</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            {% for slide in slides %}
+                                <tr>
+                                    <td>
+                                        <a href="{{ url_for('core.display', public_key=slide.display.public_key) }}">
+                                            {{ slide.display.name }}
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <img src="{{ url_for('download_file', filename=slide.background) }}"
+                                             alt="{{ slide.background }}" class="materialboxed" width="80">
+                                    </td>
+                                    <td>
+                                        <img src="{{ url_for('download_file', filename=slide.foreground) }}"
+                                             alt="{{ slide.foreground }}" class="materialboxed" width="80">
+                                    </td>
+                                    <td>{{ slide.title }}</td>
+                                    <td>
+                                        {% if slide.show_logo == False %}
+                                            <a href="" class="btn-small red">
+                                                <i class="material-icons">exit</i>
+                                            </a>
+                                        {% else %}
+                                            <a href="" class="btn-small rounded green">
+                                                <i class="material-icons">check</i>
+                                            </a>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        {% if slide.active == False %}
+                                            <a href="" class="btn-small red">
+                                                <i class="material-icons">exit</i>
+                                            </a>
+                                        {% else %}
+                                            <a href="" class="btn-small rounded green">
+                                                <i class="material-icons">check</i>
+                                            </a>
+                                        {% endif %}
+                                    </td>
+                                    <td>
+                                        <a href="" class="btn-small rounded blue">
+                                            <i class="material-icons">edit</i>
+                                        </a>
+                                        <a href="{{ url_for('core.display_slides_delete', public_key=display.public_key, slide_id=slide.id) }}"
+                                           class="btn-small rounded red">
+                                            <i class="material-icons">delete</i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+
+                            </tbody>
+                        </table>
+                    {% else %}
+                        <h3 class="center-align">No Slides Available for this Display</h3>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="fixed-action-btn">
+        <a href="#addSlideModal" class="btn-floating btn-large blue modal-trigger">
+            <i class="large material-icons">add</i>
+        </a>
+    </div>
+
+    <div id="addSlideModal" class="modal rounded">
+        <div class="modal-content">
+            <h4 class="center-align">Add Slide</h4>
+            <form action="{{ url_for('core.display_slides_post', public_key=display.public_key) }}" method="post"
+                  enctype="multipart/form-data">
+                {{ form.hidden_tag() }}
+                <div class="row">
+                    <div class="col s12 m6 offset-m3 input-field file-field">
+                        <div class="btn">
+                            <span>Background</span>
+                            {{ form.background() }}
+                        </div>
+                        <div class="file-path-wrapper">
+                            <label>
+                                <input class="file-path validate" type="text">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m6 offset-m3 file-field input-field">
+                        <div class="btn">
+                            <span>Foreground</span>
+                            {{ form.foreground() }}
+                        </div>
+                        <div class="file-path-wrapper">
+                            <label>
+                                <input class="file-path validate" type="text">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m6 offset-m3 input-field">
+                        {{ form.title() }}
+                        {{ form.title.label }}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <p>
+                            <label>
+                                {{ form.show_logo() }}
+                                <span>Show Logo</span>
+                            </label>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 center-align">
+                        {{ form.submit(class="btn") }}
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+{% endblock %}

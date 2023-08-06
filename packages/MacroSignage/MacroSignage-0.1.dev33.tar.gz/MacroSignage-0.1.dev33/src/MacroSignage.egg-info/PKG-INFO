@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: MacroSignage
+Version: 0.1.dev33
+Summary: Web-based Digital Signage System
+Home-page: https://github.com/baezfb/MacroSignage
+Author: Javier Baez
+Author-email: baezdevs@gmail.com
+Project-URL: Bug Tracker, https://github.com/baezfb/MacroSignage/issues
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+
+# MacroSignage

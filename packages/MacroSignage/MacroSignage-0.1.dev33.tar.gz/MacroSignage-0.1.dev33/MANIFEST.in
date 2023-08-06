@@ -1,0 +1,6 @@
+include *.txt
+recursive-include src *.html
+recursive-include src *.min.css
+recursive-include src *.min.js
+recursive-include src *.json
+recursive-include src *.woff2
