@@ -1,0 +1,3 @@
+[console_scripts]
+dot2dict=batchimage.batch_image_cli.py:start
+
