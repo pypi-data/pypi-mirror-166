@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: scip-workflows
+Version: 0.1.0
+Home-page: https://github.com/mlippeve/ehv/tree/master/
+Author: Maxim Lippeveld
+Author-email: maxim.lippeveld@ugent.be
+License: Apache Software License 2.0
+Keywords: imaging flow cytometry bioinformatics computational biology SCIP
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: fcsparser
+Requires-Dist: pyyaml
+Requires-Dist: click
+Requires-Dist: optuna
+Requires-Dist: scikit-learn
+Requires-Dist: jupyterlab
+Requires-Dist: xgboost
+Requires-Dist: imbalanced-learn
+Requires-Dist: ipympl
+Requires-Dist: plotly
+Requires-Dist: flowutils
+Requires-Dist: numpy
+Requires-Dist: ipywidgets (>=7.5)
+Requires-Dist: pyarrow
+Requires-Dist: tifffile
+Requires-Dist: umap-learn
+Requires-Dist: aicsimageio
+Requires-Dist: shap
+Requires-Dist: hiplot
+Requires-Dist: aicspylibczi
+
+# SCIP use case workflows
+
+This repository contains Snakemake workflows to reproduce use cases presented in [insert paper].
+
+It is built using two frameworks:
+- nbdev
+- Snakemake
+
+nbdev makes is a framework for developing reusable code in notebooks. Functions are defined and
+tested in notebooks, and exported to a package. This package can be installed and reused in other
+notebooks or scripts.
+
+Snakemake is a workflow framework to create reproducible data analyses. Workflows are defined
+via a human-readable language, and can be easily executed in various environments.
+
+## Installation
+
+
+
+## Usage
+
+The repository can be used to reproduce the use cases, or for development.
+
+### Reproduce use cases
+
+This involves executing the Snakemake workflows. The following expects snakemake to be available.
+Snakemae can be executed using conda environments or a pre-existing environment
+containing all required packages.
+
+To reproduce a use-case, open a terminal in the current directory and execute:
+```bash
+snakemake --configfile config/use_case.yaml --directory root_dir
+```
+This expects the environment to contain all required dependencies. Add `--use-conda` to let
+Snakemake create a conda environment containing all requirements.
+
+### Development
+
+This involves the nbdev framework.

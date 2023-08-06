@@ -1,0 +1,9 @@
+scip_workflows/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+scip_workflows/_modidx.py,sha256=YKC71eW3oky5zdfgBJFG7QYXorWhBjNO3CsZwZbkGLk,2907
+scip_workflows/core.py,sha256=vjGbupwp7XWnjpSyeyu8PuqFbilo2hzVj-V4hUnjpds,9415
+scip_workflows/masking.py,sha256=XiGhfgP6LpfN0xzmWN5ScJqd1qon5GSfpiAu2Oqba4k,1096
+scip_workflows-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+scip_workflows-0.1.0.dist-info/METADATA,sha256=DVHM5Nljo4Y63-K7U6Ja6DBgol8TKmHxNAUU3brVWqg,2586
+scip_workflows-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scip_workflows-0.1.0.dist-info/top_level.txt,sha256=CTKyM9m1rI_YID3-WK9y9ryQen46jbD6mKGPXexbCCg,15
+scip_workflows-0.1.0.dist-info/RECORD,,
