@@ -1,0 +1,5 @@
+pronunciation-dictionary>=0.0.4
+ordered-set>=4.1.0
+word-to-pronunciation>=0.0.1
+dragonmapper<0.3,>=0.2.6
+tqdm

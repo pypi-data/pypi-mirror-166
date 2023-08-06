@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dict_from_dragonmapper/__init__.py
+src/dict_from_dragonmapper/argparse_helper.py
+src/dict_from_dragonmapper/cli.py
+src/dict_from_dragonmapper/ipa2symb.py
+src/dict_from_dragonmapper/ipa_symbols.py
+src/dict_from_dragonmapper/main.py
+src/dict_from_dragonmapper.egg-info/PKG-INFO
+src/dict_from_dragonmapper.egg-info/SOURCES.txt
+src/dict_from_dragonmapper.egg-info/dependency_links.txt
+src/dict_from_dragonmapper.egg-info/entry_points.txt
+src/dict_from_dragonmapper.egg-info/requires.txt
+src/dict_from_dragonmapper.egg-info/top_level.txt
