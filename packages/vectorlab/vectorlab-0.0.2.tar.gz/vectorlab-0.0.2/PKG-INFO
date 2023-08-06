@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: vectorlab
+Version: 0.0.2
+Summary: A lab for vectors.
+Author-email: Kyle Yang <kyle.yang1995@gmail.com>, Emma Qin <emmaqin0722@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: numpy>=1.23.2
+Requires-Dist: scipy>=1.9.0
+Requires-Dist: pandas>=1.4.3
+Requires-Dist: networkx>=2.8.6
+Requires-Dist: statsmodels>=0.13.2
+Requires-Dist: scikit-learn>=1.1.2
+Requires-Dist: matplotlib>=3.5.3
+Requires-Dist: seaborn>=0.11.2
+Requires-Dist: pillow>=9.2.0
+Requires-Dist: pytz>=2022.2.1
+Requires-Dist: dill>=0.3.5.1
+Requires-Dist: halo>=0.0.31
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: pytest>=7.1.2 ; extra == "test"
+Requires-Dist: pytest-cov>=3.0.0 ; extra == "test"
+Requires-Dist: pytest-repeat>=0.9.1 ; extra == "test"
+Requires-Dist: pytest-benchmark>=3.4.1 ; extra == "test"
+Requires-Dist: torch>=1.9.0 ; extra == "torch"
+Provides-Extra: test
+Provides-Extra: torch
+
+![VectorLab.png](./static/logo.png)
+
+---
+
+[![PyPI Latest Release](https://img.shields.io/pypi/v/vectorlab.svg)](https://pypi.org/project/vectorlab/)
+[![Package Status](https://img.shields.io/pypi/status/vectorlab.svg)](https://pypi.org/project/vectorlab/)
+[![Coverage](https://codecov.io/github/Kr4t0n/vectorlab/coverage.svg?branch=dev-feat)](https://codecov.io/gh/Kr4t0n/vectorlab)
+[![License](https://img.shields.io/pypi/l/vectorlab.svg)](https://github.com/Kr4t0n/vectorlab/blob/main/LICENSE.txt)
