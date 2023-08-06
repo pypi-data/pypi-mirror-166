@@ -1,0 +1,4 @@
+[
+  "test_basics.py::test_for_smoke",
+  "tests/test_basics.py::test_for_smoke"
+]
