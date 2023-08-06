@@ -1,0 +1,14 @@
+scpi_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scpi_pkg/funs.py,sha256=7NDfCJbqOWxaD0TMnUe75SbeHx3ToIaI3nNfsy9PRpI,49620
+scpi_pkg/scdata.py,sha256=6s8RK_vyiJfMUT3EwnWP5dsgr5FIoj9QX2Ctd-bPU4A,30091
+scpi_pkg/scdataMulti.py,sha256=DgFs3gqJCQ1-abwIh3dyO1JQh4t7u_CT4ap-gNTdUXw,28674
+scpi_pkg/scest.py,sha256=2H-LPEMdoHVDCWRu0JPCDkQgRHCsHMYNfpGlOy_7M3k,25752
+scpi_pkg/scpi.py,sha256=QLMoHz6jjF9i-Wp_vSx4E1VQe7hAGqEGM6SpfbjSgaE,77295
+scpi_pkg/scplot.py,sha256=cImWmGME6iB05bxZNvkI3ZDy97JNEfAkSOfJpCau9pc,12400
+scpi_pkg/scplotMulti.py,sha256=Ft04e2MiE30FVO7FE6foHh--T40uHTtl4bY6Tvll3kE,23765
+scpi_pkg/version.py,sha256=crlYURA_2Ujkpz7iVPHovvxZRtvt4QBXF5AAFJzRfz0,23
+scpi_pkg-1.0.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+scpi_pkg-1.0.0.dist-info/METADATA,sha256=oJUlOBkMB2I7VlFwvg5BP5jsXfI4KAldKyGyaxMBcDo,2666
+scpi_pkg-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scpi_pkg-1.0.0.dist-info/top_level.txt,sha256=qPTnswjAcXj0sofR7dGVX14zLYeaT7Uz8-ZBeVgcejE,9
+scpi_pkg-1.0.0.dist-info/RECORD,,
