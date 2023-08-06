@@ -1,0 +1,14 @@
+patterncounter/__init__.py,sha256=GNkI5vFX3h8ewKmV6HuTf9picq5LhQb1qUBPR1SZfEg,85
+patterncounter/__main__.py,sha256=EgF0HoDQz4CstTY7dC3YcTmt_cGX3yBk0eUGUUBElBI,3332
+patterncounter/counter.py,sha256=Qxdp1ukZZBefeIkI_2pgLH5wUejwsOOKTR9N8bvm3ac,6626
+patterncounter/display.py,sha256=0NeCWKBrG6gL0_lGEcsInwKjZPYvBwCc-UuhOHshNd0,4006
+patterncounter/operators.py,sha256=g86aK6Anc8cAF_iMH4b4rPJ2VIcE4tf1kBbaFG3tR20,13240
+patterncounter/parser.py,sha256=aq8dBzVCk62XSD2AaIURuMI-SGERvIcWjtpuLA4LaO4,4210
+patterncounter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+patterncounter/sequences.py,sha256=8fnj7q0V_8Fo3EUj-TBJFpw_lx9Km2afzPIV2BBh6Bg,2386
+patterncounter/visitor.py,sha256=1Y8AnQaGVnGrsd5joRRRgfxrbOEgw4RU5XwvOFZXr8Q,4699
+patterncounter-0.0.1.dist-info/entry_points.txt,sha256=k1LggZQ1amlqBvnfmAPaoAXflAWIuz2lPx7eug1JI9I,63
+patterncounter-0.0.1.dist-info/LICENSE,sha256=eBZZDhe18hhdYLMipd2VIDS0v6aNhiMtDcR9ihZDqm0,1076
+patterncounter-0.0.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+patterncounter-0.0.1.dist-info/METADATA,sha256=ZBUMbqWb3tw13Wob3B2n7WClJXAyg6Uazf5KLG91FHw,6142
+patterncounter-0.0.1.dist-info/RECORD,,
