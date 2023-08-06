@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: toopy
+Version: 0.1.0
+Summary: Tools for python
+Project-URL: Homepage, https://github.com/flo-schu/toopy
+Project-URL: Issue Tracker, https://github.com/flo-schu/toopy/issues
+Author-email: Florian Schunck <fluncki@protonmail.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# toopy
+Python utilities and helper functions that have proven helpful
