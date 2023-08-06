@@ -1,0 +1,15 @@
+noldor/__init__.py,sha256=-yRH_rVUh6VWsvt_UT1xyBjFYUNqcdxDSN2U_hn5-jc,183
+noldor/_typevar.py,sha256=vgz8ufOSUs2gNNqwneedAmowrQLPxD1Kv7NlZoCpDR0,48
+noldor/manage_attrs.py,sha256=u85roTgo0S-BFk2mzpB-fLY4IBo6nQ6VI4jnwMC-Im8,269
+noldor/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noldor/response.py,sha256=8iqptAU_cYBDzdGcVZdDeMxsChDgxvtafwtTtvcFXzw,479
+noldor/validate.py,sha256=MLYKIAaub_s4KNR509LT0NdRdZvgZKXb0lJ2RvxmS-4,750
+noldor/validator.py,sha256=8NGLJJ14Xs7OH1HWNX5vU4VXIcOvUWu6uRn3LENTlSU,906
+noldor/validators/__init__.py,sha256=SdT7uc4Lyml3JM1PbBqjZDUKpRbSTFGJudbWXVaeepw,356
+noldor/validators/integer.py,sha256=KAANY8-iNGgkNTAYPyPKj9wcnKatguJOYFnSNRoErxk,442
+noldor/validators/number.py,sha256=P0LcLeQz_KKOrxCwxQpll4z3JKBKGT2nEJqfe-teHTk,786
+noldor/validators/sized.py,sha256=3ncSjeCBs8rmbvk0qGeBWb13fJceQjlVwwJmzHpKbnM,395
+noldor-0.1.4.dist-info/LICENSE,sha256=Z_PAcSHSsbpJKkKsldTGc27j5BClHFg7xFlpzuw8Hac,1098
+noldor-0.1.4.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+noldor-0.1.4.dist-info/METADATA,sha256=gxfBN6q4hmvDauta70C6HhaFxUqI1TN6UXk7Gz3HLlA,4890
+noldor-0.1.4.dist-info/RECORD,,
