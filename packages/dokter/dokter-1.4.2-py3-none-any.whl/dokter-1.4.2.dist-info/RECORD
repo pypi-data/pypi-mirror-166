@@ -1,0 +1,11 @@
+dokter/__init__.py,sha256=5B4NVPZYbxW-dKfD1QHLuqeBneZp92R6gQX7RE8NWQY,60
+dokter/analyzer.py,sha256=_ZiatQZRPI6YF0aryb67DdEk_TutTYqG6t1pffsroNI,22639
+dokter/main.py,sha256=yCIkofGjE5AMEvG9t73d_kODaX5FhLtLgVSSZLKo1SA,1979
+dokter/parser.py,sha256=iuet_8O1O-wUZvkMZksFjxYPL277dZZgyfw9hPuahP4,15351
+dokter/shellcheck.py,sha256=hRolFOZvDBxj1Rjyn3l9B6Jt1EF3_Umq_KCBS5l0Nps,2917
+dokter-1.4.2.dist-info/LICENSE,sha256=Rc_MCXjFLAbn3YXzbQCg1QHCfcT_ARsONbbsd5zxkak,1069
+dokter-1.4.2.dist-info/METADATA,sha256=aUxkuz03WkiIvOqCGoTjLLtwFhHSuF_lQH126nICSBM,8215
+dokter-1.4.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dokter-1.4.2.dist-info/entry_points.txt,sha256=EG_SB0hirG4yNa-uc1B8PQFnAmww6Qn-V4GQ1HI5UTc,46
+dokter-1.4.2.dist-info/top_level.txt,sha256=ByBdVMFKK1D2htJb7LhbH57d2lArBFHOs4pYp0LkeNw,7
+dokter-1.4.2.dist-info/RECORD,,
