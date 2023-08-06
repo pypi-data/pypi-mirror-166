@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: outfit418-backup-ratting
+Version: 0.0.5
+Summary: Backup for Outfit418 data
+Home-page: https://github.com/Maestro-Zacht/outfit418-backup-ratting
+Author-email: matteo.ghia@yahoo.it
+License: GNU General Public License v3
+Keywords: allianceauth,allianceauth_pve,Outfit418,eveonline
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Outfit418 Backup Ratting
