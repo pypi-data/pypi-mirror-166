@@ -1,0 +1,8 @@
+pytest_dhos/__init__.py,sha256=QB-g0u8kowVWbZoLEeSaWkdHnhQShllBb2irbfG-XPM,1832
+pytest_dhos/flask_batteries_fixtures.py,sha256=tjtmCU2HhPSz0I170CaklKnO1hHi-oWlijWmBc-eQp8,3027
+pytest_dhos/jwt_permissions.py,sha256=mw5BKTttxEJxbZsGUSLtUvcaFu89it2BTvokajXWb0o,3376
+pytest_dhos-1.0.5.dist-info/entry_points.txt,sha256=ck-vbPUAPSG56So1zDEXrAratMGousTLLpxWA7HZRVQ,36
+pytest_dhos-1.0.5.dist-info/LICENSE.md,sha256=jHZIE2pZ90zZkySCHSNl9xusKwWtiVtCv6Zvb_4C2Kc,1076
+pytest_dhos-1.0.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pytest_dhos-1.0.5.dist-info/METADATA,sha256=9lkrj2xWeSkj2MPE7JMotgIysvBO55A3O8BDfOxxyLo,713
+pytest_dhos-1.0.5.dist-info/RECORD,,

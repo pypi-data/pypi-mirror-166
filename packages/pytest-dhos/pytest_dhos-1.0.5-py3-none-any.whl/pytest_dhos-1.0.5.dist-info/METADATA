@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pytest-dhos
+Version: 1.0.5
+Summary: Common fixtures for pytest in DHOS services and libraries
+Home-page: https://github.com/polaris-foundation/pytest-dhos
+Keywords: Pytest,Fixtures
+Author: Duncan Booth
+Author-email: duncan.booth@sensynehealth.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: fbi
+Provides-Extra: neo
+Requires-Dist: flask_batteries_included; extra == "fbi"
+Requires-Dist: neomodel; extra == "neo"
+Project-URL: Repository, https://github.com/polaris-foundation/pytest-dhos
