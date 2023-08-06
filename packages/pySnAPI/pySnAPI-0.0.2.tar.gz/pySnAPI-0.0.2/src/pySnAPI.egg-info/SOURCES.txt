@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pySnAPI.egg-info/PKG-INFO
+src/pySnAPI.egg-info/SOURCES.txt
+src/pySnAPI.egg-info/dependency_links.txt
+src/pySnAPI.egg-info/requires.txt
+src/pySnAPI.egg-info/top_level.txt
+src/snAPI/__init__.py
+src/snAPI/api.py
+src/snAPI/cache.py
+src/snAPI/httpreq.py
