@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: lazyvpn
+Version: 0.0.10
+Summary: A CLI to connect to vpn via cisco anyconnect in one step
+Home-page: https://gitlab.zgtools.net/zillow/hackweek/lazyvpn
+Author: Yuzhong Li, Clayton Blythe
+Author-email: yuzhongl@zillowgroup.com, claytonb@zillowgroup.com
+License: Apache License, v2.0
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: Apache Software License
