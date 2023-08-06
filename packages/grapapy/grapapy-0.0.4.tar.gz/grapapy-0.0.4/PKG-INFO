@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: grapapy
+Version: 0.0.4
+Summary: grammar parser language
+Home-page: UNKNOWN
+Author: Chris Matichuk
+Author-email: matichuk@hotmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
