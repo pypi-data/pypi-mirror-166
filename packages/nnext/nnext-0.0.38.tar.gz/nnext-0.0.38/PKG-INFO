@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: nnext
+Version: 0.0.38
+Summary: Client library for the NNext vector search engine
+Home-page: https://github.com/nnextdb/pynnext
+Keywords: neural,semantic,search,engine,client
+Author: NNext Team
+Author-email: pynnext@nnext.ai
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: betterproto (==2.0.0b4)
+Requires-Dist: grpcio (>=1.46.0,<2.0.0)
+Requires-Dist: httpx[http2] (>=0.23.0,<0.24.0)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: nest-asyncio (>=1.5.5,<2.0.0)
+Requires-Dist: numpy (>=1.21,<2.0)
+Requires-Dist: pydantic (>=1.8,<2.0)
+Requires-Dist: tqdm (>=4.56.0,<5.0.0)
+Requires-Dist: typing-extensions (>=4.0.0,<5.0.0)
+Project-URL: Repository, https://github.com/nnextdb/pynnext
+Description-Content-Type: text/markdown
+
+
+# <a href="https://nnext.ai/"><img src="https://d135j1zm1liera.cloudfront.net/nnext-logo-wide.png" height="100" alt="Apollo Client"></a>
+
+## About
+
+This repository houses the source code for the python client associated with NNext.
+
+NNext is a
+* ⚡ blazingly fast
+* 🔍 nearest-neighbors vector search engine
+
+<a href="https://tiny.one/nnext-slk-comm-gh"><img src="https://img.shields.io/badge/chat-slack-orange.svg?logo=slack&style=flat"></a>
+<a href="https://twitter.com/intent/follow?screen_name=nnextai"><img src="https://img.shields.io/badge/Follow-nnextai-blue.svg?style=flat&logo=twitter"></a>
+
+[Installation](#installation) |  [Quick Start](#quick-start) | [Documentation](#documentation)
+
+## Installation
+To install the pynnext client, activate a virtual environment, and install via pip:
+
+```zsh
+pip install nnext
+```
+
+## Quick Start
+
+Here's a quick example showcasing how you can create an index, insert vectors/documents and search among them via NNext.
+
+Let's begin by installing the NNext server.
+
+```zsh
+docker run -p 6040:6040 -p 6041:6041 \
+	-v ~/.nnext/data:/.nnext/data \
+	nnext/nnext
+```
+
+## Documentation
+More documentation is available here:
+
+https://nnext.ai/docs

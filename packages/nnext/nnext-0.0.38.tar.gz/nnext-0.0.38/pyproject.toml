@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "nnext"
+version = "0.0.38"
+description = "Client library for the NNext vector search engine"
+authors = ["NNext Team <pynnext@nnext.ai>"]
+packages = [
+    {include = "nnext"}
+]
+readme = "README.md"
+homepage = "https://github.com/nnextdb/pynnext"
+repository = "https://github.com/nnextdb/pynnext"
+keywords = ["neural", "semantic", "search", "engine", "client"]
+
+
+[tool.poetry.dependencies]
+betterproto = { version = "2.0.0b4", allow-prereleases = true }
+grpcio = { version = "^1.46.0", allow-prereleases = true }
+httpx = { version = "^0.23.0", extras = ["http2"] }
+loguru = "^0.5.3"
+nest-asyncio = "^1.5.5"
+numpy = "^1.21"
+pydantic = "^1.8"
+python = ">=3.7,<4.0"
+tqdm = "^4.56.0"
+typing-extensions = "^4.0.0"
+
+[tool.poetry.dev-dependencies]
+coverage = "^6.3.3"
+grpcio-tools = "^1.46.0"
+pytest = "^7.1"
+sphinx = "^4.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
