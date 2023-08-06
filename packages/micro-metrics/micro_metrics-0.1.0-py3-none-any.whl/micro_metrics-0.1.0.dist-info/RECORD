@@ -1,0 +1,7 @@
+micro_metrics/__init__.py,sha256=JfqlrdPx13hZF7Q4gZWxIzNWb0XdoFowgPm0CyZOaQg,59
+micro_metrics/bp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+micro_metrics/dmo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+micro_metrics/svc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+micro_metrics-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+micro_metrics-0.1.0.dist-info/METADATA,sha256=9Qcj0z8Tzw7_g8C0w0REowmxq3IsPSudMx7ExHK24dk,218
+micro_metrics-0.1.0.dist-info/RECORD,,
