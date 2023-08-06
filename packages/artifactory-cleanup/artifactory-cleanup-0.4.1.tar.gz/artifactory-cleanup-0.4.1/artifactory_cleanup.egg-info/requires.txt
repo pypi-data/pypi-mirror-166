@@ -1,0 +1,7 @@
+hurry.filesize
+prettytable
+plumbum
+dohq-artifactory
+teamcity-messages
+treelib
+attrs
