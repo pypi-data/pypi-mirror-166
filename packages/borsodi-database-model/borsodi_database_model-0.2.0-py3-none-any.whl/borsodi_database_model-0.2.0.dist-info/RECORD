@@ -1,0 +1,12 @@
+borsodi_database_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+borsodi_database_model/alembic/env.py,sha256=EYCrtQo7715_AW4qnMVnLRlEldUxDEcRwC3ZM4PhFV0,2058
+borsodi_database_model/alembic/README,sha256=heMzebYwlGhnE8_4CWJ4LS74WoEZjBy-S-mIJRxAEKI,39
+borsodi_database_model/alembic/script.py.mako,sha256=HNlf26BI1xvQKjiUojnj15BPrVUfVVr81IOgliJf83c,510
+borsodi_database_model/alembic/versions/0c9e968aeb0b_change_camera_id_enum_values.py,sha256=DMPP6ehTW680gPRh9bfRKQ05mrRl9pUNNhH6o56nIT0,890
+borsodi_database_model/alembic/versions/5a215d376732_create_truck_tracking_log_table.py,sha256=hosQkVJGIFVEwXlShisOATLMVHLWjc43uAQTDVK7nd4,1234
+borsodi_database_model/tables/__init__.py,sha256=DmxLqp_AONvW2xdiDlkCX8ZkEeGDF7Wep_M42y96dx8,74
+borsodi_database_model/tables/base.py,sha256=nEDI4locSyvHIhVsfbbYw0KdEISE7Znb5oiiaayLE_o,160
+borsodi_database_model/tables/truck_tracking_log.py,sha256=lUiAgyDWQxGZOtPPFAUOHNJOjw5rggdPXjZNfJQLMCY,679
+borsodi_database_model-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+borsodi_database_model-0.2.0.dist-info/METADATA,sha256=rgUNJBwJv1MKR-bCDGZ1lMhXQxWc-3poKTi-7hgmvmU,448
+borsodi_database_model-0.2.0.dist-info/RECORD,,
