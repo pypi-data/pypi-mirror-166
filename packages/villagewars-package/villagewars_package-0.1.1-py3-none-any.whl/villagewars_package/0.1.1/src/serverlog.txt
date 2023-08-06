@@ -1,0 +1,164 @@
+2022-02-09 10:46:17,144 - INFO - Server launched with ip 192.168.2.191
+2022-02-09 10:46:23,204 - INFO - Connection from ('192.168.2.191', 50257)
+2022-02-09 10:46:24,611 - INFO - Connection from ('192.168.2.191', 50258)
+2022-02-09 10:46:24,713 - INFO - Hacker joined from ('192.168.2.191', 50258)
+2022-02-09 10:46:52,082 - WARNING - Hacker has taken control of the system.
+2022-02-09 10:48:40,444 - WARNING - Hacker has taken control of the system.
+2022-02-09 10:49:44,136 - WARNING - Hacker has taken control of the system.
+2022-02-09 10:50:06,996 - INFO - Server launched with ip 192.168.2.191
+2022-02-09 10:50:15,460 - INFO - Connection from ('192.168.2.191', 50271)
+2022-02-09 10:50:16,605 - INFO - Connection from ('192.168.2.191', 50272)
+2022-02-09 10:50:16,705 - INFO - Hacker joined from ('192.168.2.191', 50272)
+2022-02-09 10:50:33,540 - WARNING - Hacker has taken control of the system.
+2022-02-09 10:53:26,885 - INFO - Server launched with ip 192.168.2.191
+2022-02-09 10:53:37,651 - INFO - Connection from ('192.168.2.191', 50310)
+2022-02-09 10:53:38,822 - INFO - Connection from ('192.168.2.191', 50311)
+2022-02-09 10:53:38,964 - INFO - WoodzRox3456 joined from ('192.168.2.191', 50311)
+2022-02-09 10:53:47,424 - INFO - Connection from ('192.168.2.191', 50312)
+2022-02-09 10:53:48,795 - INFO - Connection from ('192.168.2.191', 50314)
+2022-02-09 10:53:48,935 - INFO - Big Honey Bear joined from ('192.168.2.191', 50314)
+2022-02-09 10:56:03,898 - INFO - Server launched with ip 192.168.2.191
+2022-02-09 10:56:10,575 - INFO - Connection from ('192.168.2.191', 50324)
+2022-02-09 10:56:11,852 - INFO - Connection from ('192.168.2.191', 50326)
+2022-02-09 10:56:11,952 - INFO - WoodzRox3456 joined from ('192.168.2.191', 50326)
+2022-02-09 10:56:22,818 - INFO - Connection from ('192.168.2.191', 50330)
+2022-02-09 10:56:24,391 - INFO - Connection from ('192.168.2.191', 50331)
+2022-02-09 10:56:24,538 - INFO - Croc joined from ('192.168.2.191', 50331)
+2022-02-09 10:56:56,977 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-09 10:57:14,744 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-09 10:59:19,965 - INFO - Server launched with ip 192.168.2.191
+2022-02-09 10:59:27,415 - INFO - Connection from ('192.168.2.191', 50345)
+2022-02-09 10:59:28,699 - INFO - Connection from ('192.168.2.191', 50346)
+2022-02-09 10:59:28,852 - INFO - WoodzRox3456 joined from ('192.168.2.191', 50346)
+2022-02-09 10:59:46,774 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-09 11:00:43,226 - INFO - Server launched with ip 192.168.2.191
+2022-02-09 11:00:44,750 - INFO - Server launched with ip 192.168.2.191
+2022-02-09 11:00:52,341 - INFO - Connection from ('192.168.2.191', 50354)
+2022-02-09 11:00:53,621 - INFO - Connection from ('192.168.2.191', 50355)
+2022-02-09 11:00:53,746 - INFO - WoodzRox3456 joined from ('192.168.2.191', 50355)
+2022-02-09 11:01:20,892 - INFO - Server launched with ip 192.168.2.191
+2022-02-09 11:01:27,430 - INFO - Connection from ('192.168.2.191', 50363)
+2022-02-09 11:01:28,738 - INFO - Connection from ('192.168.2.191', 50364)
+2022-02-09 11:01:28,887 - INFO - WoodzRox3456 joined from ('192.168.2.191', 50364)
+2022-02-09 11:02:26,079 - INFO - Server launched with ip 192.168.2.191
+2022-02-09 11:02:33,367 - INFO - Connection from ('192.168.2.191', 50370)
+2022-02-09 11:02:34,810 - INFO - Connection from ('192.168.2.191', 50371)
+2022-02-09 11:02:34,958 - INFO - WoodzRox3456 joined from ('192.168.2.191', 50371)
+2022-02-09 11:02:55,982 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-09 13:04:39,980 - INFO - Server launched with ip 192.168.2.191
+2022-02-09 13:04:50,956 - INFO - Connection from ('192.168.2.191', 50512)
+2022-02-09 13:04:52,126 - INFO - Connection from ('192.168.2.191', 50513)
+2022-02-09 13:04:52,228 - INFO - WoodzRox3456 joined from ('192.168.2.191', 50513)
+2022-02-09 13:04:58,403 - INFO - Connection from ('192.168.2.191', 50515)
+2022-02-09 13:04:59,575 - INFO - Connection from ('192.168.2.191', 50516)
+2022-02-09 13:04:59,679 - INFO - ModestNoob joined from ('192.168.2.191', 50516)
+2022-02-09 13:05:36,974 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-09 13:06:32,947 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-09 13:07:27,859 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-10 03:35:21,090 - INFO - Server launched with ip 192.168.2.191
+2022-02-10 03:35:27,151 - INFO - Connection from ('192.168.2.191', 50426)
+2022-02-10 03:35:28,966 - INFO - Connection from ('192.168.2.191', 50427)
+2022-02-10 03:35:29,069 - INFO - Georges joined from ('192.168.2.191', 50427)
+2022-02-10 03:35:51,492 - WARNING - Georges has taken control of the system.
+2022-02-10 03:36:19,890 - WARNING - Georges has taken control of the system.
+2022-02-10 03:38:16,969 - INFO - Server launched with ip 192.168.2.191
+2022-02-10 03:38:21,783 - INFO - Connection from ('192.168.2.191', 50844)
+2022-02-10 03:38:22,994 - INFO - Connection from ('192.168.2.191', 50853)
+2022-02-10 03:38:23,098 - INFO - Starter joined from ('192.168.2.191', 50853)
+2022-02-10 03:38:59,327 - WARNING - Starter has taken control of the system.
+2022-02-10 03:40:49,143 - INFO - Server launched with ip 192.168.2.191
+2022-02-10 03:40:59,689 - INFO - Connection from ('192.168.2.191', 51236)
+2022-02-10 03:41:00,659 - INFO - Connection from ('192.168.2.191', 51237)
+2022-02-10 03:41:00,759 - INFO - WoodzRox3456 joined from ('192.168.2.191', 51237)
+2022-02-10 03:41:06,347 - INFO - Connection from ('192.168.2.191', 51238)
+2022-02-10 03:41:07,615 - INFO - Connection from ('192.168.2.191', 51239)
+2022-02-10 03:41:45,332 - WARNING - Hacker has taken control of the system.
+2022-02-10 03:43:51,412 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-10 03:44:08,232 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-10 03:44:42,089 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-10 03:45:41,615 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-10 03:46:54,039 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-10 03:47:13,905 - WARNING - Hacker has taken control of the system.
+2022-02-10 03:47:34,567 - WARNING - Hacker has taken control of the system.
+2022-02-10 03:48:43,993 - WARNING - Hacker has taken control of the system.
+2022-02-10 03:58:01,457 - INFO - Server launched with ip 192.168.2.191
+2022-02-10 03:58:18,168 - INFO - Connection from ('192.168.2.191', 51363)
+2022-02-10 03:59:06,881 - INFO - Connection from ('192.168.2.191', 51368)
+2022-02-10 03:59:51,989 - INFO - Connection from ('192.168.2.191', 51369)
+2022-02-10 03:59:58,834 - INFO - Server launched with ip 192.168.2.191
+2022-02-10 04:00:13,633 - INFO - Connection from ('192.168.2.191', 51374)
+2022-02-10 04:00:56,845 - INFO - Server launched with ip 192.168.2.191
+2022-02-10 04:01:06,329 - INFO - Connection from ('192.168.2.191', 51380)
+2022-02-10 04:01:40,474 - INFO - Connection from ('192.168.2.191', 51387)
+2022-02-11 08:50:20,200 - INFO - Server launched with ip 192.168.1.136
+2022-02-11 08:52:51,046 - INFO - Connection from ('192.168.1.136', 53749)
+2022-02-11 08:53:12,213 - INFO - Connection from ('192.168.1.136', 53753)
+2022-02-11 08:53:20,118 - INFO - Connection from ('192.168.1.136', 53755)
+2022-02-11 08:53:20,253 - INFO - SuperShooterFan joined from ('192.168.1.136', 53755)
+2022-02-11 08:53:59,015 - WARNING - SuperShooterFan has taken control of the system.
+2022-02-11 08:54:16,658 - WARNING - SuperShooterFan has taken control of the system.
+2022-02-11 08:54:44,799 - WARNING - SuperShooterFan has taken control of the system.
+2022-02-11 08:57:00,025 - INFO - Server launched with ip 192.168.1.136
+2022-02-11 08:57:14,724 - INFO - Connection from ('192.168.1.136', 53762)
+2022-02-11 08:57:21,852 - INFO - Connection from ('192.168.1.136', 53763)
+2022-02-11 08:57:21,986 - INFO - SuperShooterFan joined from ('192.168.1.136', 53763)
+2022-02-11 08:57:37,931 - WARNING - SuperShooterFan has taken control of the system.
+2022-02-11 09:01:16,652 - INFO - Server launched with ip 192.168.1.136
+2022-02-11 09:01:26,586 - INFO - Connection from ('192.168.1.136', 53774)
+2022-02-11 09:01:34,098 - INFO - Server launched with ip 192.168.1.136
+2022-02-11 09:01:45,433 - INFO - Connection from ('192.168.1.136', 53778)
+2022-02-11 09:02:20,341 - INFO - Server launched with ip 192.168.1.136
+2022-02-11 09:02:38,629 - INFO - Connection from ('192.168.1.136', 53783)
+2022-02-11 09:02:51,523 - INFO - Server launched with ip 192.168.1.136
+2022-02-11 09:05:40,450 - INFO - Server launched with ip 192.168.1.136
+2022-02-11 09:06:21,322 - INFO - Connection from ('192.168.1.136', 53802)
+2022-02-11 09:06:29,665 - INFO - Connection from ('192.168.1.136', 53806)
+2022-02-11 09:16:52,102 - INFO - Server launched with ip 192.168.1.136
+2022-02-11 09:17:12,703 - INFO - Server launched with ip 192.168.1.136
+2022-02-11 09:17:21,213 - INFO - Connection from ('192.168.1.136', 53851)
+2022-02-11 09:17:26,129 - INFO - Connection from ('192.168.1.136', 53852)
+2022-02-11 09:17:26,229 - INFO - WoodzRox3456 joined from ('192.168.1.136', 53852)
+2022-02-11 09:18:06,527 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-11 09:18:24,767 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-11 09:18:34,499 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-11 09:18:57,165 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-11 09:20:01,114 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-11 09:20:31,081 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-11 09:21:51,294 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-11 09:22:25,252 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-11 09:23:26,601 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-11 10:19:41,313 - INFO - Server launched with ip 192.168.1.136
+2022-02-11 10:19:46,489 - INFO - Connection from ('192.168.1.136', 53952)
+2022-02-11 10:20:38,884 - INFO - Server launched with ip 192.168.1.136
+2022-02-11 10:20:51,575 - INFO - Connection from ('192.168.1.136', 53959)
+2022-02-11 10:21:03,733 - INFO - Connection from ('192.168.1.136', 53960)
+2022-02-11 10:21:06,112 - INFO - Connection from ('192.168.1.136', 53961)
+2022-02-11 10:21:06,216 - INFO - ModestNoob joined from ('192.168.1.136', 53961)
+2022-02-11 10:21:30,672 - INFO - Connection from ('192.168.1.136', 53963)
+2022-02-11 10:21:32,679 - INFO - Connection from ('192.168.1.136', 53964)
+2022-02-11 10:21:32,844 - INFO - WoodzRox3456 joined from ('192.168.1.136', 53964)
+2022-02-11 10:21:41,097 - INFO - Connection from ('192.168.1.136', 53965)
+2022-02-11 10:21:43,473 - INFO - Connection from ('192.168.1.136', 53966)
+2022-02-11 10:21:43,578 - INFO - WoodzRox3456 joined from ('192.168.1.136', 53966)
+2022-02-11 10:22:32,322 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:23:14,132 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:23:24,478 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:23:29,346 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:23:36,633 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:23:43,248 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:24:13,840 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:25:02,159 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:25:05,883 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:25:09,280 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:25:14,677 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:25:19,605 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:26:30,887 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:28:07,454 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:28:32,974 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:28:55,105 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:29:29,638 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:30:04,522 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:30:20,224 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:30:36,946 - WARNING - ModestNoob has taken control of the system.
+2022-02-11 10:32:24,777 - WARNING - WoodzRox3456 has taken control of the system.
+2022-02-11 10:32:44,520 - WARNING - WoodzRox3456 has taken control of the system.
