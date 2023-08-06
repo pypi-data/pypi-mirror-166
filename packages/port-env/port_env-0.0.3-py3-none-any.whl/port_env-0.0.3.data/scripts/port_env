@@ -1,0 +1,4 @@
+#!python
+from port_env import __main__
+
+__main__.get_command()
