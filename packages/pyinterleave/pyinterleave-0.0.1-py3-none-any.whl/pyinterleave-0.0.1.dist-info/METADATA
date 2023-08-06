@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pyinterleave
+Version: 0.0.1
+Summary: Interleaving algorithms for faster experiments.
+Project-URL: Documentation, https://github.com/maxent-ai/pyinterleave#readme
+Project-URL: Issues, https://github.com/maxent-ai/pyinterleave/issues
+Project-URL: Source, https://github.com/maxent-ai/pyinterleave
+Author-email: maxentlabs <info@maxentlabs.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# pyinterleave
+
+[![PyPI - Version](https://img.shields.io/pypi/v/pyinterleave.svg)](https://pypi.org/project/pyinterleave)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pyinterleave.svg)](https://pypi.org/project/pyinterleave)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install pyinterleave
+```
+
+## License
+
+`pyinterleave` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
