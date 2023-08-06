@@ -1,0 +1,10 @@
+diff_binom_confint/__init__.py,sha256=YOu1Gq8-7ZPgEQJ6AvHGt4b8fpzkTzH5jJ4l_rY1cCk,461
+diff_binom_confint/_binom_confint.py,sha256=zgJDzkliuhETBvl1kQKREDnlZRXj52_Ln1EwyiYJr0o,15176
+diff_binom_confint/_confint.py,sha256=Pnmqptoe9GxFnkF-8Rb-RikGwzvTTxLsGo1p0XOjf58,874
+diff_binom_confint/_diff_binom_confint.py,sha256=jC4vRlMQvSa7ajn2mzY5FTrTmyU0Lo582-r5kPWzCMo,14056
+diff_binom_confint/_utils.py,sha256=Pg8AQD531hZBWQTtS6o8jYTLhiQvXaqWYZp3w_26byw,4624
+diff_binom_confint/version.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+diff_binom_confint-0.0.3.dist-info/METADATA,sha256=nlgM4M_wxzk8R2y1ji1gtSzsrSnYxOkW5rETSFLToRc,7087
+diff_binom_confint-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+diff_binom_confint-0.0.3.dist-info/top_level.txt,sha256=Y8mB-qgNnWBDMWhRHo391VOfIqzt-jCUhXq1uAgPwVE,19
+diff_binom_confint-0.0.3.dist-info/RECORD,,
