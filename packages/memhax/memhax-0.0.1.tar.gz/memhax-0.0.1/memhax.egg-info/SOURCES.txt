@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+memhax/__init__.py
+memhax/constants.py
+memhax/native.py
+memhax/proxy.py
+memhax.egg-info/PKG-INFO
+memhax.egg-info/SOURCES.txt
+memhax.egg-info/dependency_links.txt
+memhax.egg-info/top_level.txt
+memhax/cpython/__init__.py
+memhax/cpython/collections.py
+memhax/cpython/methods.py
+memhax/cpython/object.py
+memhax/cpython/primitives.py
+memhax/cpython/type.py
