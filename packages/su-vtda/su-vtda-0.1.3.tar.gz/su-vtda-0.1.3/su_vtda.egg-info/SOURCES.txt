@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+su_vtda.egg-info/PKG-INFO
+su_vtda.egg-info/SOURCES.txt
+su_vtda.egg-info/dependency_links.txt
+su_vtda.egg-info/requires.txt
+su_vtda.egg-info/top_level.txt
+vtda/__init__.py
