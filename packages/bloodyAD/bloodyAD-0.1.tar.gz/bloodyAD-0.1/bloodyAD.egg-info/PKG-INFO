@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bloodyAD
+Version: 0.1
+Summary: AD Privesc Swiss Army Knife
+Home-page: https://github.com/CravateRouge/bloodyAD
+Download-URL: https://github.com/CravateRouge/bloodyAD/archive/refs/tags/v0.1.tar.gz
+Author: CravateRouge
+Author-email: baptiste.crepin@ntymail.com
+License: MIT
+Keywords: Active Directory,Privilege Escalation
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
