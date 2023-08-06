@@ -1,0 +1,17 @@
+deptry/__init__.py,sha256=_L7C1bG6nLOyz_9HJFads5aunTAFH6TncKAzEK2CHXY,73
+deptry/cli.py,sha256=_l3LgezhPZ2RrjVPm9hriLSYLZlJcPo1UxOLb6nQRzQ,3292
+deptry/config.py,sha256=bqAuM88kusanf0Z8v7gZ0DDy2Rv2Gayzrh-4lWCbXms,3606
+deptry/core.py,sha256=gknkTw58LjVFuk2u7Ch1JXO1cCk2sAMQQLn2LPV8b9Y,1449
+deptry/dependency.py,sha256=mrGN4PnziYxnYZM6KhCfZXhv0hq0vFChO1765-BMCe8,1128
+deptry/dependency_getter.py,sha256=fLPc44tHrELki-KhUOyLI49wFFClIkkmUhnP3_i1jzw,1428
+deptry/import_parser.py,sha256=FMqg1cy8lLml1VMyz7u8Jrer6X73_ND0lmZvZX8DvSU,3664
+deptry/module.py,sha256=nrZAl8WEQwppaNtfmf_PLKwD6plRL1XXgIrRlZ0oqII,4100
+deptry/notebook_import_extractor.py,sha256=7ZleU6NHZnvtP2CBR46sHFiV7X599JBjlQ-oTHwjIdA,1648
+deptry/obsolete_dependencies_finder.py,sha256=imfpf8FzhxAqGc3OjqAt5GGdyqXJhQf2PvhdmvXDnXY,2594
+deptry/python_file_finder.py,sha256=qPNZQec_oVvrSWFCsaFqxOZIlMC6kFuJndL01gB7QFY,1493
+deptry/utils.py,sha256=MLMiwuYumUx1w5SyEybpCZYh4SXi1H7mDJxRvCyG5CI,935
+deptry-0.2.2.dist-info/entry_points.txt,sha256=4QLb-P8qCGcf9kqgJO70TRLX9ZpGp1tUhA7CQgQJdIo,44
+deptry-0.2.2.dist-info/LICENSE,sha256=ssinrSZMaS-ifGthm5BcCpo8_2yj9qkxH11B4fKTdLA,1070
+deptry-0.2.2.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+deptry-0.2.2.dist-info/METADATA,sha256=S-RMTUmM_tlDt9_wMDKK0nG0mYaQ0W_xVaZkg-ZDXY0,3005
+deptry-0.2.2.dist-info/RECORD,,
