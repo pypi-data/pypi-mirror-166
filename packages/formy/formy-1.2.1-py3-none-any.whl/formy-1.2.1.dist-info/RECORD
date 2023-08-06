@@ -1,0 +1,14 @@
+formy/__init__.py,sha256=etAEgMEFzgEXsHiXbhfgmOhZ-WbSVz7fqPw2niZHA14,237
+formy/fields.py,sha256=0gOZXtmThNBBQKmvqVobcDbZP41Y5YMpFkhitJ9zJNc,4726
+formy/form.py,sha256=zzdbUMpxgE2GDMhYEZMJ9fVhpgaWlL91Crm7N5oaWwo,1125
+formy/kev.py,sha256=4Nko518uz7vGJob3sjwpDSpXmjBMZm4rEKX5WhKzVac,1418
+formy/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formy/templates/fields.py,sha256=PHhJbmso6S0M8HQULR8I0oVoi6m5_Te2KOqM3pI04Io,2035
+formy/templates/form.py,sha256=hV6WLq-bEKEFNJp1eGhw8WZltgtkqeiSXgOhCTrdL-I,1865
+formy/tests/__init__.py,sha256=EJ8xYx6F3RiAbmCvDEJs1YlalGf6xjn4F20xPVPMQrQ,21
+formy/tests/fields.py,sha256=o42Tb_KhfxQ-4sFkxXVf8RUA9T_9FPsCD41AlgH2Hsc,4838
+formy/tests/form.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formy-1.2.1.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+formy-1.2.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+formy-1.2.1.dist-info/METADATA,sha256=ZNI1xlXOki40mlhUhQ8xOWJfm_EOgfXTRDGNba3aOGs,623
+formy-1.2.1.dist-info/RECORD,,
