@@ -1,0 +1,4 @@
+django>=4
+djangorestframework
+jinja2>=3
+python-dateutil
