@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+wham/__init__.py
+wham/plot.py
+wham/wham.py
+wham.egg-info/PKG-INFO
+wham.egg-info/SOURCES.txt
+wham.egg-info/dependency_links.txt
+wham.egg-info/requires.txt
+wham.egg-info/top_level.txt
