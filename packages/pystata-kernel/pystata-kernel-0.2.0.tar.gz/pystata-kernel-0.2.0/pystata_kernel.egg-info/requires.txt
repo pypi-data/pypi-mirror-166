@@ -1,0 +1,6 @@
+jupyter-client
+ipython
+ipykernel
+packaging
+pandas
+beautifulsoup4
