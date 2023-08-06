@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: abdoutilities
+Version: 0.0.1
+Summary: Various abdoutilities, displaying a random quote
+Home-page: 
+Author: Abdelkhalik Mosa
+Author-email: abdelkhalik.mosa@yahoo.com
+License: MIT
+Keywords: random quotes
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+Various utilities, displaying a random quote
+
+Change Log
+==========
+
+0.0.1 (07/09/2022)
+------------------
+- First Release

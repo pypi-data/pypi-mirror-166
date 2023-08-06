@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+randomquote.py
+setup.py
+abdoutilities.egg-info/PKG-INFO
+abdoutilities.egg-info/SOURCES.txt
+abdoutilities.egg-info/dependency_links.txt
+abdoutilities.egg-info/top_level.txt
