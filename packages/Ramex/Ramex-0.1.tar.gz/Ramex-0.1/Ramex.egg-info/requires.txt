@@ -1,0 +1,5 @@
+requests
+lolpython
+colorama
+telethon
+pyfiglet
