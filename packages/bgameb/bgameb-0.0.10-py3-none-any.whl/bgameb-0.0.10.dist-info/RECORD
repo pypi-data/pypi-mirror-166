@@ -1,0 +1,12 @@
+bgameb/__init__.py,sha256=XaI607YYcujaE720EnNXAVGj4ol5hH7VdKVTMMaoFH4,222
+bgameb/_version.py,sha256=_MzYGv3zGD6ev7WIGPFzXTQ_1D_bcKMcvGUy4BckAAw,257
+bgameb/errors.py,sha256=16nxzia4Ppygu8EYjI6CB9K9HHuqOEAye4FkWpDkURc,818
+bgameb/game.py,sha256=ctMNWIXJ8kgl_oHiQD5sG4g4cT33ZlmwszoiEsCFZl4,12598
+bgameb/players.py,sha256=-UoS9vyxhRqMibIyZfxH9ppCYHoVVeUBql2ayRSGJiQ,292
+bgameb/stuff.py,sha256=xBLl406K7zraFuLBBOWJBTMg_um_Euj7_iAiTk5w7E0,5697
+bgameb/utils.py,sha256=keWPB8AcWuXToPmiB3bxSaQAlEVzQ0nAlHjJz3xmKkg,1194
+bgameb-0.0.10.dist-info/LICENSE,sha256=_dzTCKEeIEivgwldfTAgIGAE3e_38f9vTMCl3_YitGg,1076
+bgameb-0.0.10.dist-info/METADATA,sha256=WSgWE8mp7bScn0KVPj7GncAMgfhFKqYmjLhU1Wt7K_8,6253
+bgameb-0.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bgameb-0.0.10.dist-info/top_level.txt,sha256=j-0V0dvzTd3L1DG_0oM4yncbUy889zeiSqtLF1MYH58,7
+bgameb-0.0.10.dist-info/RECORD,,
