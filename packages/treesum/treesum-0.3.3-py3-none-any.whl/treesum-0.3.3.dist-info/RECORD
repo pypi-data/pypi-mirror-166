@@ -1,0 +1,9 @@
+treesum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+treesum/cli.py,sha256=oLE1rHP4WtNVWUrNPdn5s14OLuPO_aehPYs8tlVoTYQ,1247
+treesum/convert.py,sha256=hmqZ5x_4g2Ix25upQdtky7BUwmSI0mGzS88_zOcO3sg,2600
+treesum/summarize.py,sha256=NoJ2nhsFXG6GLOpstwKAkuLV7GK3FT_SAcc56YYv2zA,2550
+treesum-0.3.3.dist-info/METADATA,sha256=ZfO0NbWX0o6VCTGdWSVBJNYGfhSFeUUVsoFhbL2jA4E,1567
+treesum-0.3.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+treesum-0.3.3.dist-info/entry_points.txt,sha256=G62ZzNh8Ziso-rC_UEq8gsiaqsR6hrgJgdBnSVonwcU,45
+treesum-0.3.3.dist-info/top_level.txt,sha256=2YMSNYDGOAZk2teOsdUoZIJtPxneIHsSYfT5jtry4VE,8
+treesum-0.3.3.dist-info/RECORD,,
