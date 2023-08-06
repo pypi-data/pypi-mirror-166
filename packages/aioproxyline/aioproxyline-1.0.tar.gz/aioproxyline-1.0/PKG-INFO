@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aioproxyline
+Version: 1.0
+Summary: Asynchronous wrapper to interact with proxyline.net API
+Author: Marple
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: pydantic (>=1.10.2,<2.0.0)
