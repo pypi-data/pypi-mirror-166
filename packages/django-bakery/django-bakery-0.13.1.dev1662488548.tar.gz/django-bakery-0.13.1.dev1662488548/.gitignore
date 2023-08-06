@@ -1,0 +1,15 @@
+.env
+__pycache__
+*.egg-*
+.tox/
+MANIFEST
+.coverage
+build/*
+dist/*
+*.pyc
+*.swp
+.DS_Store
+example/db.sqlite3
+example/.build
+example/.static
+example/project/settings_local.py
