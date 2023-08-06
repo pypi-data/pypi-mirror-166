@@ -1,0 +1,9 @@
+README.md
+setup.py
+thenewsapi/__init__.py
+thenewsapi/news.py
+thenewsapi/version.py
+thenewsapi.egg-info/PKG-INFO
+thenewsapi.egg-info/SOURCES.txt
+thenewsapi.egg-info/dependency_links.txt
+thenewsapi.egg-info/top_level.txt
