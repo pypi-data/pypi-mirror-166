@@ -1,0 +1,7 @@
+v1.4.3
+- Fields: Preserve Value option added
+- Push: Push/Upload command activated for extensions. This command will execute uip command for pushing.
+- Pull: Pull/Download command activated for extensions. This command will execute uip command for pushing.
+
+v.1.4.4
+- Clean: Clean command added to delete the dist,build and temp folders
