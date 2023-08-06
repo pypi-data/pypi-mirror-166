@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: rrlib
+Version: 0.1.0
+Summary: Chatbot request and response tool
+Author: exerussus
+Author-email: solovyov.production@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+Request-Response Library
+
+Программа позволяет работать с библиотеками запросов-ответов для чат-ботов и виртуальных ассистентов.
+
