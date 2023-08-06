@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: vennproteomics
+Version: 0.1.0
+Summary: Create Venn Diagram of Gene Names
+Home-page: https://github.com/noatgnu/vennProteomics
+License: MIT
+Keywords: proteomic,venndiagram,uniprot,mass spectrometry
+Author: Toan K. Phung
+Author-email: toan.phungkhoiquoctoan@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.5.3,<4.0.0)
+Requires-Dist: matplotlib-venn (>=0.11.7,<0.12.0)
+Requires-Dist: pandas (>=1.4.4,<2.0.0)
+Requires-Dist: uniprotparser (>=1.0.8,<2.0.0)
+Project-URL: Repository, https://github.com/noatgnu/vennProteomics
+Description-Content-Type: text/markdown
+
+## VennProteomics
+
+---
+
+For creating venndiagram from gene names. VennProteomics also support reading in uniprot accession id and retrieve gene names from uniprot for the purpose of creating the venn-diagram.

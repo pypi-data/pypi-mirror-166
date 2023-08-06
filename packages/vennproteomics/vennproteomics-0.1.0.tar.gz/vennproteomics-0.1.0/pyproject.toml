@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "vennproteomics"
+version = "0.1.0"
+description = "Create Venn Diagram of Gene Names"
+authors = ["Toan K. Phung <toan.phungkhoiquoctoan@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+keywords = ["proteomic", "venndiagram", "uniprot", "mass spectrometry"]
+repository = "https://github.com/noatgnu/vennProteomics"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.4"
+matplotlib = "^3.5.3"
+uniprotparser = "^1.0.8"
+matplotlib-venn = "^0.11.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
