@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+sockA/__init__.py
+sockA/serverSupported.py
+sockA/sockTCPReader.py
+sockA.egg-info/PKG-INFO
+sockA.egg-info/SOURCES.txt
+sockA.egg-info/dependency_links.txt
+sockA.egg-info/top_level.txt
