@@ -1,0 +1,3 @@
+[console_scripts]
+journals = spire.journal.cli:main
+
