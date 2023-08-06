@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+pyscrabbler.py
+setup.py
+pyscrabbler.egg-info/PKG-INFO
+pyscrabbler.egg-info/SOURCES.txt
+pyscrabbler.egg-info/dependency_links.txt
+pyscrabbler.egg-info/entry_points.txt
+pyscrabbler.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyscrabbler"
+version = "1.0.2"
+description = "Provide a set of letters and retrieve a list of potential worsds and point values for Scrabble."
+readme = "README.md"
+authors = [{ name = "Michael Warmbier", email = "business@michaelwarmbier.com" }]
+keywords = ["scrabble", "utility"]
+
+[project.urls]
+Homepage = "https://github.com/MichaelWarmbier/PyScrabbler"
+
+[project.scripts]
+scrabble_query = "pyscrabbler.__main__:main"
