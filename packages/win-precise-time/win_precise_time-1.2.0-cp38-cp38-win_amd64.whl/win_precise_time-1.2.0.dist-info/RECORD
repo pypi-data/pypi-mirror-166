@@ -1,0 +1,10 @@
+win_precise_time/__init__.py,sha256=h0ldBJK4fh3gK8gLPSN1GznZB7wa-VUYOigypbQu5q0,281
+win_precise_time/_t.c,sha256=G0igcXGi4LY6w_artAA_zVXIopCkWmgrDStPm7T8uVw,8479
+win_precise_time/_t.cp38-win_amd64.pyd,sha256=_FZZYprSwVAC1CL7z26xw3iI5uONY-AWvKa2izu4O54,13824
+win_precise_time/_t.pyi,sha256=DgpFFIGNkmtnEh4vvbZDewWORGp4GKWyx7h4LjTQric,411
+win_precise_time/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+win_precise_time-1.2.0.dist-info/LICENSE.txt,sha256=q1CxQGSM0KcScJdUdoKf0xp-s05OtVErixKmO2g6LTU,1112
+win_precise_time-1.2.0.dist-info/METADATA,sha256=Ols1_RRdfEyJcRs8OufgFTykrKv--SYGxfObSC3VWH4,2708
+win_precise_time-1.2.0.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+win_precise_time-1.2.0.dist-info/top_level.txt,sha256=ZeX6Z3qDABg1PS72WzFJzVzGFTypXy8P-YQNDHu4nFE,17
+win_precise_time-1.2.0.dist-info/RECORD,,
