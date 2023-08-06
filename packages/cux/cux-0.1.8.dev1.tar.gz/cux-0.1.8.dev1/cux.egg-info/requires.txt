@@ -1,0 +1,5 @@
+codefast>=0.4.9
+authc
+redis
+pandas
+pymysql
