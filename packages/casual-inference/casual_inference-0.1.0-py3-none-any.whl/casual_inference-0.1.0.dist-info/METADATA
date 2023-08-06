@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: casual-inference
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/shyaginuma
+License: MIT
+Author: yaginuuun
+Author-email: yaginuuun@gmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.23.2,<2.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: plotly (>=5.10.0,<6.0.0)
+Requires-Dist: scipy (>=1.9.1,<2.0.0)
+Project-URL: Repository, https://github.com/shyaginuma/casual_inference
+Description-Content-Type: text/markdown
+
+# casual_inference
+
+[![ci](https://github.com/shyaginuma/casual_inference/actions/workflows/config.yml/badge.svg)](https://github.com/shyaginuma/casual_inference/actions/workflows/config.yml)
+
+Do A/B test analysis more easily.
+
+## Awesome resources related to Experimenation
+
+TBA
+
