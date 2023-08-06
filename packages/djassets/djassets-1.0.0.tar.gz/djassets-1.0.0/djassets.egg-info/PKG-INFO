@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: djassets
+Version: 1.0.0
+Summary: Django run app
+Home-page: https://github.com/pmaigutyak/djassets
+Download-URL: https://github.com/pmaigutyak/djassets/archive/1.0.0.tar.gz
+Author: Paul Maigutyak
+Author-email: pmaigutyak@gmail.com
+License: MIT
+License-File: LICENSE
