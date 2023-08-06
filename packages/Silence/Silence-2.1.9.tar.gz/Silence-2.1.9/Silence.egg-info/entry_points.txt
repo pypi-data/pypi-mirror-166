@@ -1,0 +1,2 @@
+[console_scripts]
+silence = silence.cli.manager:run_from_command_line
