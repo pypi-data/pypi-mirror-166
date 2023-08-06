@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: halflap
+Version: 0.1
+Summary: Halflap is a simple, easy-to-use, easy-to-enhance RPC library that uses RabbitMQ and JSON-serializable payloads.
+Home-page: https://github.com/prodhype/halflap
+Author: John Perkins
+Author-email: johndperkins+halflap@gmail.com
+License: MIT
+Download-URL: https://github.com/prodhype/halflap/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: halflap,rpc,rabbitmq,distributed
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Distributed Computing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
