@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: my-test-package101
+Version: 0.0.1
+Summary: A python model with additional files
+Home-page: https://github.com/areed1192/uploading-python-packages
+Author: Dmitry Blum
+Author-email: dmitryblum@tutanota.com
+Keywords: sigma coding,governments,finance,APIs
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Education
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: jupyter-lab
+Requires-Dist: matplotlib
+
+# Sigma Coding Python Library
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Setup](#setup)
+- [Usage](#usage)
+- [Support These Projects](#support-these-projects)
+
+## Overview
+
+## Setup
+
+Right now, the library is not hosted on **PyPi** so you will need to do a local
+install on your system if you plan to use it in other scrips you use.
+
+First, clone this repo to your local system. After you clone the repo, make sure
+to run the `setup.py` file, so you can install any dependencies you may need. To
+run the `setup.py` file, run the following command in your terminal.
+
+```console
+pip install -e .
+```
+
+This will install all the dependencies listed in the `setup.py` file. Once done
+you can use the library wherever you want.
+
+## Usage
+
+Here is a simple example of using the `sigma` library to grab the index
+files for specific quarter.
+
+```python
+```
