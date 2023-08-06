@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mssev
+Version: 0.4.0
+Summary: Calculates ARMSS and both local and global MSSS
+Author-email: Alejandro Caravaca Puchades <acaravacapuchades@icloud.com>
+License: GPL-3.0-or-later
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# python-mssev
+
+Calculates both local and global MSSS (multiple sclerosis severity score) and ARMSS (age-related multiple sclerosis severity). This package is a Python port of the R package [ms.sev](https://rdrr.io/cran/ms.sev/).
+
+If you want more information, you can check [the original article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5700773/).

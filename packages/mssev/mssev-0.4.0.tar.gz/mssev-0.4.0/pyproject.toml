@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mssev"
+version = "0.4.0"
+readme = "README.md"
+description = "Calculates ARMSS and both local and global MSSS"
+license = { text = "GPL-3.0-or-later" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Scientific/Engineering :: Medical Science Apps."
+]
+authors = [
+    { name="Alejandro Caravaca Puchades", email="acaravacapuchades@icloud.com" },
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+packages = ["mssev"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
+
+[tool.setuptools.package-data]
+mssev = ["data/*.tsv"]
