@@ -1,0 +1,11 @@
+gp_libs/__about__.py,sha256=YR3cJEo6I0DXvilhZR8cca0MLdOpQktVlyTcTWrHdR0,462
+gp_libs/__init__.py,sha256=H7PPKnGvndvYiPeJ10J70KPpTGQSYXt9m5r8ihZ1IIs,194
+doctest_docutils.py,sha256=B83GV-ID-y9Pde97tYaPSI4A3A_nbS0zfHuGteiTSPg,18205
+linkify_issues.py,sha256=b7Dv_tL8BOGT6FJvwZaW9FNLZB689Q8iT7Yn8CAetDg,2472
+pytest_sphinx.py,sha256=8ZtxIPC92_taiAbBwAtZGuFy3RpbFcj6W40Llio6HeA,6428
+sphinx_toctree_autodoc_fix.py,sha256=dn-Q5B6SFywA8lqJzzBJu6wkSe29aIsspsLqvPQFeuw,8787
+gp_libs-0.0.1a5.dist-info/entry_points.txt,sha256=S6k1o9XpsuQBE4lva18rr9RjCDbvA0l0eRvT9uAsiVU,33
+gp_libs-0.0.1a5.dist-info/LICENSE,sha256=4ZUHd4-FT84yatUfr-uDRV4a5hhg3fAAieerbYPuf1w,1070
+gp_libs-0.0.1a5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+gp_libs-0.0.1a5.dist-info/METADATA,sha256=m4MjVy4XmODGTw59ApfVxTgSkRpYIOIAnb5lMvkU40s,5522
+gp_libs-0.0.1a5.dist-info/RECORD,,
