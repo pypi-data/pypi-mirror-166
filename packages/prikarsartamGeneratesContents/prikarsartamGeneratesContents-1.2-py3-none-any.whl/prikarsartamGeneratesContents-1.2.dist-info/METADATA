@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: prikarsartamGeneratesContents
+Version: 1.2
+Summary: for generating contents on the basis of provided prompts and input lengths
+Home-page: UNKNOWN
+Author: Pritam Darkar <prikarsartam.ml>
+Author-email: <prikarsartam@gmail.com>
+License: UNKNOWN
+Keywords: large language model,text generation,pretrained content creation,AutoCausalModelforBloomLM,Natural Language Processing,python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: google-colab
+Requires-Dist: os
+Requires-Dist: torch
+Requires-Dist: transformers
+
+
+# prikarsartamContents
+
