@@ -1,0 +1,9 @@
+setup.py
+i_upload/__init__.py
+i_upload/__main__.py
+i_upload/i_upload.py
+i_upload.egg-info/PKG-INFO
+i_upload.egg-info/SOURCES.txt
+i_upload.egg-info/dependency_links.txt
+i_upload.egg-info/requires.txt
+i_upload.egg-info/top_level.txt
