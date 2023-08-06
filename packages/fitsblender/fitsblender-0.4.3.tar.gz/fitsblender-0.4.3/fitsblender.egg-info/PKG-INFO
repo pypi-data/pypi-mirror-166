@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: fitsblender
+Version: 0.4.3
+Summary: Aggregate values in FITS headers
+Home-page: https://github.com/spacetelescope/fitsblender
+Author: Michael Droettboom
+Author-email: help@stsci.edu
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: test
+License-File: LICENSE.txt
+
+# fitsblender
+
+[![Build Status](https://dev.azure.com/spacetelescope/fitsblender/_apis/build/status/spacetelescope.fitsblender?branchName=master)](https://dev.azure.com/spacetelescope/fitsblender/_build/latest?definitionId=14&branchName=master)
+[![codecov](https://codecov.io/gh/spacetelescope/fitsblender/branch/master/graph/badge.svg)](https://codecov.io/gh/spacetelescope/fitsblender)
+
+FITSBLENDER
+============
+
+This package supports the creation of a combined header for a FITS file based on the contents of the headers
+of a set of input FITS images.  A rules file defines what keywords will be present in the combined
+output header as well as how the output value will be determined from the set of values from all 
+the input image headers.  
