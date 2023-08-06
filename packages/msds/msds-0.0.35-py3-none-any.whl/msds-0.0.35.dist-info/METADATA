@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: msds
+Version: 0.0.35
+Summary: msds tools
+Home-page: https://gitee.com/dawajituan
+Author: Nundy
+Author-email: 18710939328@163.com
+License: MIT
+Requires-Python: >=3.7.8
+Requires-Dist: pandas
+Requires-Dist: tenacity
+Requires-Dist: inquirer
+Requires-Dist: click
+Requires-Dist: rich
+Requires-Dist: tables
+Requires-Dist: ccxt
+Requires-Dist: numpy
+Requires-Dist: Flask
+Requires-Dist: twine
+Requires-Dist: setuptools
+
