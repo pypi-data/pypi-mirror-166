@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+vaz/__init__.py
+vaz/vazi.py
+vaz.egg-info/PKG-INFO
+vaz.egg-info/SOURCES.txt
+vaz.egg-info/dependency_links.txt
+vaz.egg-info/requires.txt
+vaz.egg-info/top_level.txt
