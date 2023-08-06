@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "grosnap"
+version = "0.0.2"
+authors = [
+  { name="Jacques Paye", email="jacques.paye@gro-intelligence.com" },
+]
+dependencies = [
+    "argparse",
+    "os",
+    "sys", 
+    "platform",
+    "requests",
+    "stat",
+    "subprocess",
+]
+description = "Python package manager grosnap"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Repository" = "https://github.com/gro-intelligence/gro-internal/tree/main/experimental/grosnap_package"
+
+[project.scripts]
+grosnap = "grosnap.script:main"
