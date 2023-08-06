@@ -1,0 +1,14 @@
+cogclassifier/__init__.py,sha256=B9kKWJLln1i8LjtkcYecvNWGLTrez4gCUOHtnPlInFo,22
+cogclassifier/bin/Darwin/rpsblast,sha256=yJtezGborh1esahhlD86B4vxHZ8-onATTmiXk5RNCbQ,25182192
+cogclassifier/bin/Linux/rpsblast,sha256=jTPI0YU7YVhPW6YL2dAkXTf3AScNKZi2HQ92hi4FA0E,28868568
+cogclassifier/bin/Windows/nghttp2.dll,sha256=ji4bB3PtGEu33mHGSi75KCV_BCpEBoxQ44Q5-F3nV44,140800
+cogclassifier/bin/Windows/rpsblast,sha256=Tigh2FeOGlBUixRD6XpayyTdKZzfBp-JbXUTJG-juVU,16336384
+cogclassifier/cogclassifier.py,sha256=VZnQ7_n4HpaFHPlpdD22Av-Ss2BAeswxs3XoT6wdd7Q,22726
+cogclassifier/script/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cogclassifier/script/plot_cog_classifier_barchart.py,sha256=9ZKf4WCC7VyUXbAr6bzWtSBWVblZvKAaQRFCBn5dLpA,2877
+cogclassifier/script/plot_cog_classifier_piechart.py,sha256=dEsHw4UrvZNO6oQFA9o-rG1n9_3_Uoucfj4Xz9t3QYo,2270
+cogclassifier-1.0.5.dist-info/entry_points.txt,sha256=QbbyqeBadyj0qdPPPP_uHZNc5QMZfFlOkEdHTU1_c-0,234
+cogclassifier-1.0.5.dist-info/LICENSE,sha256=ebwK7vt1O9oD_jSE4ryVhBmx5CEw8MmeMbJDwXP6bNQ,1062
+cogclassifier-1.0.5.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+cogclassifier-1.0.5.dist-info/METADATA,sha256=U9ZwE5hvH_gJS07dsQTu_Qv_zSRVR_uW-oCks7ZWdvg,13596
+cogclassifier-1.0.5.dist-info/RECORD,,
