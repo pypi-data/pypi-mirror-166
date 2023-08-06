@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "azcam-mag"
+version = "22.3"
+description = "Azcam extension for OCIW Magellan ITL camera controllers"
+authors = ["Michael Lesser <mlesser@arizona.edu>"]
+license = "LICENSE"
+readme = "README.md"
+keywords=["ccd", "imaging", "astronomy", "sensors"]
+repository = "https://github.com/mplesser/azcam-mag/"
+documentation = "https://mplesser.github.io/azcam/"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+azcam = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
