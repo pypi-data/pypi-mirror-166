@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mitsubishi_monitor
+Version: 0.0.7
+Author: Roland Zitny
+Description-Content-Type: text/markdown
+
+# Mitsubishi monitor
+
+This package allows you to use the oscillograph function from the RT Toolbox3 application for monitoring the 
+required devices.
+
+The purpose of this monitor is to record the energy consumption of the Mitsubishi robotic arm, but it also allows 
+you to monitor other parameters, e.g. current position, speed, axial loading.
+
+The overall communication is started by sending an initialization message, the length and shape of which is static, 
+and the only part that changes is the type of required information from the monitored device. The monitored device 
+then sends UDP packets with the required data approximately every 3.5 ms. The entire communication must then be 
+terminated using the monitor method, otherwise the monitored device would constantly send data.
+
+- Only realtime monitoring is implemented.
