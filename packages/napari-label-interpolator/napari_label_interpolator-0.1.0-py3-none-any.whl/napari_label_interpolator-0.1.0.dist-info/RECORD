@@ -1,0 +1,12 @@
+napari_label_interpolator/__init__.py,sha256=SiU87kUdp2x_-1_E7Q04ifiCBHZWChOxj1mqCXo3QaQ,102
+napari_label_interpolator/_version.py,sha256=6phs_teiMFXlYjRZHHJJHElOwXq2XLUA2bDPY9cA4bQ,176
+napari_label_interpolator/interpolator.py,sha256=saJqLW03bPk-2QeTIF5940ZbcvvQxCXn8_D7dH7ir8E,2825
+napari_label_interpolator/napari.yaml,sha256=mvZ-Bl1ThH2w8n3lM4WeVaaOfXPUqNFXj6ver9ZRf1w,358
+napari_label_interpolator/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_label_interpolator/_tests/test_widget.py,sha256=4pNzujpIxsJhyqsY5nmWnBpfhh42p97BjWLHOP8Wat0,364
+napari_label_interpolator-0.1.0.dist-info/LICENSE,sha256=yjcqfZJWCx-p9tgytEDovNYtmt-ohwyYKH3qtm2YMQ4,35148
+napari_label_interpolator-0.1.0.dist-info/METADATA,sha256=IwM8hQy99Tvwn2g89ZuPLvId-1hVwcLQ2MEelxjh-f8,4760
+napari_label_interpolator-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_label_interpolator-0.1.0.dist-info/entry_points.txt,sha256=1qS24-iiDxjS1I5q2Exyd6QPeonvYpd2oKhzPQBKFVY,84
+napari_label_interpolator-0.1.0.dist-info/top_level.txt,sha256=HJrO0icuR0BFx0FE3AmXhz3vO16B_bG7ddx_jju8e2U,26
+napari_label_interpolator-0.1.0.dist-info/RECORD,,

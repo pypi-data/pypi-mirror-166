@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-label-interpolator = napari_label_interpolator:napari.yaml
