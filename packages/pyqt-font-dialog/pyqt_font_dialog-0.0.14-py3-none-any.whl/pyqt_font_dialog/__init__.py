@@ -1,0 +1,2 @@
+from pyqt_font_dialog.fontDialog import FontDialog
+from pyqt_font_dialog.fontWidget import FontWidget
