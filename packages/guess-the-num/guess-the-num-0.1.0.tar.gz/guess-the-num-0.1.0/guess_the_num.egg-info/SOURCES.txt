@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+guess-num/__init__.py
+guess-num/main.py
+guess_the_num.egg-info/PKG-INFO
+guess_the_num.egg-info/SOURCES.txt
+guess_the_num.egg-info/dependency_links.txt
+guess_the_num.egg-info/top_level.txt
