@@ -1,0 +1,6 @@
+pysam
+liqa
+gffutils
+pandas
+biopython
+lifelines==0.26.4
