@@ -1,0 +1,12 @@
+kamaaal/__init__.py,sha256=QQu64IDTdTGRipA5F6ai_LVudz-33nZTdo5AuUEgFsw,24
+kamaaal/simple.py,sha256=Uecg7b6yvG1QBhvsylXX97u2eXliW9HNzlUupiGhZY0,81
+louis/__init__.py,sha256=QQu64IDTdTGRipA5F6ai_LVudz-33nZTdo5AuUEgFsw,24
+louis/setup.py,sha256=duST1a8DJgsxkxHmrZIFqEBkveHn5XGgUzgzC83us8c,1216
+louis/simple.py,sha256=Uecg7b6yvG1QBhvsylXX97u2eXliW9HNzlUupiGhZY0,81
+spectre/__init__.py,sha256=QQu64IDTdTGRipA5F6ai_LVudz-33nZTdo5AuUEgFsw,24
+spectre/setup.py,sha256=duST1a8DJgsxkxHmrZIFqEBkveHn5XGgUzgzC83us8c,1216
+spectre/simple.py,sha256=Uecg7b6yvG1QBhvsylXX97u2eXliW9HNzlUupiGhZY0,81
+kamaaal-0.1.0.dist-info/METADATA,sha256=AU2p05hNZsWR4BC0htJ-F-zGMskxPu0lrDlWxU-hTSA,651
+kamaaal-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kamaaal-0.1.0.dist-info/top_level.txt,sha256=9NcUaVpa0ZkegRjPyA4v5gOaRiPv6WEqHXQlwpzsNjE,8
+kamaaal-0.1.0.dist-info/RECORD,,
