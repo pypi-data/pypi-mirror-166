@@ -1,0 +1,5 @@
+poetry_plugin_tweak_dependencies_version/__init__.py,sha256=W2tS9H2UTObkSNQMe-n2lARcq5-67M0g6ILIkekk7jY,8452
+poetry_plugin_tweak_dependencies_version-1.0.0.dist-info/entry_points.txt,sha256=QQgdmPMP4mDqmw7Edw4lk5N3hXdDN9Rr8I0NXd-6IcE,104
+poetry_plugin_tweak_dependencies_version-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+poetry_plugin_tweak_dependencies_version-1.0.0.dist-info/METADATA,sha256=Hrhk9j0k2lxfv38QMRcykwku-uRLDfuMB_8fRA5WnIw,1305
+poetry_plugin_tweak_dependencies_version-1.0.0.dist-info/RECORD,,
