@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pyqt_find_replace_widget/__init__.py
+pyqt_find_replace_widget/main.py
+pyqt_find_replace_widget.egg-info/PKG-INFO
+pyqt_find_replace_widget.egg-info/SOURCES.txt
+pyqt_find_replace_widget.egg-info/dependency_links.txt
+pyqt_find_replace_widget.egg-info/requires.txt
+pyqt_find_replace_widget.egg-info/top_level.txt
