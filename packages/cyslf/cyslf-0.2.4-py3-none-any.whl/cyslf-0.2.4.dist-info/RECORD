@@ -1,0 +1,15 @@
+cyslf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cyslf/constraints.py,sha256=D5S1ggsJ78bYDz-Iu5wOzGNHwzTxPaAvTsVjPSSTy7E,547
+cyslf/make_teams.py,sha256=f7ieZ2_7uFB0-cHWW2rVzkyHBQByuTUAC1XtWKxBlAU,2356
+cyslf/models.py,sha256=a8XZpCBnZRoEW0XsBci-VX4AUCguzYwBHDqZwoYQK1Y,9703
+cyslf/optimize.py,sha256=op87HTXBhOF1mMZw7Kq87MLeuyTXzkKrN-DIkoB_U-I,1995
+cyslf/prepare_player_data.py,sha256=qF0K1qm9xBOd5QsyyZWz821onbNb75D_KI2ds9PeGgQ,17149
+cyslf/scorers/__init__.py,sha256=STLnBSK6G8OEQ5ojjadmYtsgsJfInfEX4uvVz3iGD20,102
+cyslf/scorers/base.py,sha256=skTi3ROEZkK7-qMKAzw-zoGWDhwY86zj88FHSQBmejI,4152
+cyslf/scorers/core.py,sha256=FrV0-bY0GuH0QAfcfNfhrANkv7swZd-JCCjU1YOLK8U,7225
+cyslf/utils.py,sha256=KmzxJRBTzZ6RT9t4VfzEKFBtO9Lyw4ELzZIM95_OJQY,1346
+cyslf/validation.py,sha256=zLngYe42cmoaH8CIFBxASsUDJ4O61r62zwlD-Mdf-n0,6554
+cyslf-0.2.4.dist-info/entry_points.txt,sha256=ndcZ1mFjLuogh2P6RBJgY4smZDs-tGClEIVvUrze3SY,103
+cyslf-0.2.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cyslf-0.2.4.dist-info/METADATA,sha256=CMFOcCSC5V0mX4IxGdNxO3CrcE7NkW4GGd7ZD7z5cV4,617
+cyslf-0.2.4.dist-info/RECORD,,
