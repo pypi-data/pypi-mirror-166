@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+sirius_jz/__init__.py
+sirius_jz/sirius_jz.py
+sirius_jz.egg-info/PKG-INFO
+sirius_jz.egg-info/SOURCES.txt
+sirius_jz.egg-info/dependency_links.txt
+sirius_jz.egg-info/top_level.txt
