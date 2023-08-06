@@ -1,0 +1,4 @@
+[console_scripts]
+nr-wg-mtu-finder=nr_wg_mtu_finder.main:run
+nr-wg-mtu-finder-heatmap=nr_wg_mtu_finder.main_heatmap:run
+
