@@ -1,0 +1,11 @@
+mozilla_repo_urls/__init__.py,sha256=bp7kZKpYfJ1scphcqOYqmhL1UboSEFPUjt9nJ6IEt1I,56
+mozilla_repo_urls/parser.py,sha256=cqMEQu65NWZldTBkolaodqJRqZYZND0LibZGj-i2xsY,453
+mozilla_repo_urls/result.py,sha256=CU2-HWDX5abhET1y8mHWjZhzX9adz5ZTeJd9-Idzvqk,643
+mozilla_repo_urls/platforms/__init__.py,sha256=5gwGbeTZUI-0VR0HmC3913e6AUTylDkjmcXYkg8QwYc,89
+mozilla_repo_urls/platforms/hgmo.py,sha256=bKpBHAqxlMOmGbfn6aSU_q5N-7LbwNDSrt0TZ0UzTvk,1043
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_integration.py,sha256=6hY316-4wQKfbgDKZ5IXiiGrrf0JF7k4xPN1CHEogYk,9497
+mozilla_repo_urls-0.0.1.dist-info/METADATA,sha256=hTOy8VXEo4WMGJL1aPKiALoQNdmoQDFBgw09b8nMMfA,628
+mozilla_repo_urls-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mozilla_repo_urls-0.0.1.dist-info/top_level.txt,sha256=0LuRstNeetmfWdKTPvknIx8aDVzsf1KSmASCgOvKvDM,23
+mozilla_repo_urls-0.0.1.dist-info/RECORD,,
