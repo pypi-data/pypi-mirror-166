@@ -1,0 +1,9 @@
+arbache_authentication/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arbache_authentication/authentication.py,sha256=f11DqOvfirVofi4yt0-bBn-hmsgQK9vPxpJENJd5ovA,2466
+arbache_authentication/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arbache_authentication/tests/mocks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arbache_authentication/tests/mocks/authentication.py,sha256=irL1uvu70u6y2j2ek73PH5S0mC_5jXSdIBCLtX3qPqg,1823
+arbache_authentication/tests/test_authentication.py,sha256=hYjeOncfZFDucNVCIx6pTNuQSZLid4cLvqZDnVMexAE,6085
+arbache_authentication-1.0.3.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+arbache_authentication-1.0.3.dist-info/METADATA,sha256=GSNjbKUlbuLlqQIEJ9IbfDjGXlSVoy362jFG7LjTT8Y,445
+arbache_authentication-1.0.3.dist-info/RECORD,,
