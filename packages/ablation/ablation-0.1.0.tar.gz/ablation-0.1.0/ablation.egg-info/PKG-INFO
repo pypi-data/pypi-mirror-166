@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ablation
+Version: 0.1.0
+Summary: Ablation studies for evaluating XAI methods
+Home-page: https://github.com/capitalone/ablation
+Author: Samuel Sharpe, Daniel Barcklow, Isha Hameed, Justin Au-Yeung, Brian Barr
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/capitalone/ablationablation/build/html/index.html
+Project-URL: Bug Tracker, https://github.com/capitalone/ablation/issues
+Project-URL: Source Code, https://github.com/capitalone/ablation
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8.0
+Provides-Extra: tests
+Provides-Extra: qa
+Provides-Extra: build
+Provides-Extra: dev
+License-File: LICENSE
+
+Ablation studies for evaluating XAI methods
+
