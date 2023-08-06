@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: SRPseq
+Version: 0.0
+Summary: Splicing Regulation Prediction from RNA-seq data
+Home-page: https://github.com/NovosadVictor/SRPseq
+Author: HSE.Bioinformatics
+Author-email: victor.o.novosad@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# SRPseq
+## Splicing Regulation Prediction from RNA-seq data
+
+
