@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.py
+sendbox_sdk/__init__.py
+sendbox_sdk/api.py
+sendbox_sdk/base.py
+sendbox_sdk/const.py
+sendbox_sdk/utils.py
+sendbox_sdk.egg-info/PKG-INFO
+sendbox_sdk.egg-info/SOURCES.txt
+sendbox_sdk.egg-info/dependency_links.txt
+sendbox_sdk.egg-info/requires.txt
+sendbox_sdk.egg-info/top_level.txt
