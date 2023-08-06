@@ -1,0 +1,9 @@
+flake8_for_pycharm/__init__.py,sha256=H4lZLcxh6hoJTpuguAfbtiirTAoouKV0CVmeaYb55qY,55
+flake8_for_pycharm/reporters.py,sha256=6IHrRzlOdY7YWh_Wr0Jb4NZbTc1zZl7cgOyHCIkhN9E,1809
+flake8_for_pycharm-0.4.1.data/scripts/flake8_pycharm.py,sha256=VdlAcSooMwBYvuZ76TXHpW8zO1WdkmO0AA503jaadyg,2666
+flake8_for_pycharm-0.4.1.dist-info/LICENSE,sha256=kY4ONb7vg6xBlS4fkfxTvvMf85NOY7BVgD0t20WgmZw,1113
+flake8_for_pycharm-0.4.1.dist-info/METADATA,sha256=ZBgVjfhwcI2UFuxJ7bdFdmRzDkfdYGA44eJOFb1r5O8,3186
+flake8_for_pycharm-0.4.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+flake8_for_pycharm-0.4.1.dist-info/entry_points.txt,sha256=ty-sIcrjE80wzxnfx8d1aUM3cXMVUeNF491qT3BvZOQ,67
+flake8_for_pycharm-0.4.1.dist-info/top_level.txt,sha256=VPG4h9NdwJT0yeweNrND7Vwe2VztaRZ2tNskSo579hg,19
+flake8_for_pycharm-0.4.1.dist-info/RECORD,,
