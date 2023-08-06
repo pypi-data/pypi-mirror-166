@@ -1,0 +1,2 @@
+[console_scripts]
+viena_sdk = viena_sdk:main
