@@ -1,0 +1,9 @@
+datajet/__init__.py,sha256=sMIf7JgKGhzR4PSlzq8dptgJcYl7LDfra_rHndvj2PA,57
+datajet/data_map_helpers.py,sha256=MZAa_UB-0tjMc0pftzaAYs_au7BLJ7qqAQWnhOGJJNk,3165
+datajet/datajet.py,sha256=L-QUI3kYBHLjE5fLSYfSUUADUdcFPr6rXM7MNVgOA_o,2355
+datajet/normalization.py,sha256=jF3hEzXQDFB4MTl4vg3WPQKzF48mOUd3s-GuTJpGXZ8,1763
+datajet/validations.py,sha256=NMOdkJyqQapDpGF0sgZw6Urdq7TQll-lGCiZcnMmxuo,3111
+datajet-0.1.0a2.dist-info/LICENSE,sha256=JeNKCkEE6ofG-V2lAyIKDjfcS7ECQr0zuQb4RdyYux4,1068
+datajet-0.1.0a2.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+datajet-0.1.0a2.dist-info/METADATA,sha256=WJ0bXuQKUobrxkyhJXrEF11mWoeckoVU67wttlhPsMY,5216
+datajet-0.1.0a2.dist-info/RECORD,,
