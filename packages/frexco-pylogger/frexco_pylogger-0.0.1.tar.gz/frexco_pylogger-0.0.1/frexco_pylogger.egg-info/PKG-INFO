@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: frexco-pylogger
+Version: 0.0.1
+Summary: Python library for logging with colors and http status code.
+Home-page: https://github.com/frexco-digital/frexco-pylogger.git
+Keywords: logs logging logger
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# **Frexco PyLogger**
+
+## Install
+___
+```bash
+$ pip install frexco_pylogger
+```
+
+## Configure
+___
+
+```python
+# main.py
+
+from frexco_pylogger.functions import PyLogger
+
+logger = PyLogger(appname="myapp") 
+logger.http(message="Uma mensagem http qualquer", status_code=200, data={"name": "Um nome qualquer", "age": 22})
+```
+
+> 2022-09-02 14:05:59 | [HTTP   ] | Uma mensagem http qualquer | [STATUSCODE 200] | {'name': 'Um nome qualquer', 'age': 22}
+
+
+## Log Types
+___
+
+| Tipo      | Description                                                        |
+|-----------|--------------------------------------------------------------------|
+| `error`   | Informar sobre exceptions tratadas                                 |
+| `warning` | Informar eventos ou estados potencialmente prejudicias ao programa |
+| `debug`   | Acompanhar eventos ou estados do programa                          |
+| `info`    | Descrever infos detalhadas sobre o estado do programa              |
+| `http`    | Informar dados de requests e responses feitas via http             |
+
+
+## Middlewares
+___
+
+### django
+```python
+# httpLogger.py
+
+from frexco_pylogger.functions import PyLogger
+from django.utils.deprecation import MiddlewareMixin
+
+
+class HTTPLoggerMiddleware(MiddlewareMixin):
+
+    def process_response(self, request, response):
+        logger = PyLogger(appname="myDjangoApp")
+        logger.http(f'{request.META.get("REMOTE_ADDR")} {request.method} {request.META.get("PATH_INFO")}', {"status": response.status_code})
+
+        return response
+
+```
+
+```python
+# setting.py
+
+MIDDLEWARE = [
+    ...,
+    'app.utils.httpLogger.HTTPLoggerMiddleware' # path to your middleware file
+]
+
+```
+
+### Flask
+
+```python
+
+# Your app setup file
+from flask import Flask, request, Response
+from frexco_pylogger.functions import PyLogger
+
+app = Flask(__name__)
+logger = PyLogger(appname="MyFlaskApp")
+
+@app.after_request
+def log_response(response: Response):
+    logger.http(f'{request.remote_addr} {request.method} {request.path}', {
+                "status": response.status_code})
+    return response
+
+```

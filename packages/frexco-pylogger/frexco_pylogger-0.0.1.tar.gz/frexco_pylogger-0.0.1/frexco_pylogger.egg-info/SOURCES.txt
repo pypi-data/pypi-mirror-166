@@ -1,0 +1,8 @@
+README.md
+setup.py
+frexco_pylogger/__init__.py
+frexco_pylogger/functions.py
+frexco_pylogger.egg-info/PKG-INFO
+frexco_pylogger.egg-info/SOURCES.txt
+frexco_pylogger.egg-info/dependency_links.txt
+frexco_pylogger.egg-info/top_level.txt
