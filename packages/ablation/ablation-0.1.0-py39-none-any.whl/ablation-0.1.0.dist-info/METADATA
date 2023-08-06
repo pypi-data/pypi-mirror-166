@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: ablation
+Version: 0.1.0
+Summary: Ablation studies for evaluating XAI methods
+Home-page: https://github.com/capitalone/ablation
+Author: Samuel Sharpe, Daniel Barcklow, Isha Hameed, Justin Au-Yeung, Brian Barr
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/capitalone/ablationablation/build/html/index.html
+Project-URL: Bug Tracker, https://github.com/capitalone/ablation/issues
+Project-URL: Source Code, https://github.com/capitalone/ablation
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8.0
+License-File: LICENSE
+Requires-Dist: numpy (==1.23.1)
+Requires-Dist: shap (==0.40.0)
+Requires-Dist: tensorboard (==2.6.0)
+Requires-Dist: matplotlib (==3.5.0)
+Requires-Dist: pandas (==1.3.4)
+Requires-Dist: scikit-learn (==1.0.1)
+Requires-Dist: seaborn (==0.11.2)
+Requires-Dist: captum (==0.4.1)
+Requires-Dist: pytorch-lightning (==1.6.5)
+Requires-Dist: torch (==1.10.1)
+Requires-Dist: protobuf (==3.20.0)
+Provides-Extra: build
+Requires-Dist: twine ; extra == 'build'
+Requires-Dist: wheel ; extra == 'build'
+Provides-Extra: dev
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest (==6.2.5) ; extra == 'dev'
+Requires-Dist: pytest-cov (==3.0.0) ; extra == 'dev'
+Requires-Dist: toml ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: black (==22.3.0) ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-docstrings ; extra == 'dev'
+Requires-Dist: edgetest ; extra == 'dev'
+Provides-Extra: qa
+Requires-Dist: pre-commit ; extra == 'qa'
+Requires-Dist: black (==22.3.0) ; extra == 'qa'
+Requires-Dist: mypy ; extra == 'qa'
+Requires-Dist: tox ; extra == 'qa'
+Requires-Dist: check-manifest ; extra == 'qa'
+Requires-Dist: isort ; extra == 'qa'
+Requires-Dist: flake8 ; extra == 'qa'
+Requires-Dist: flake8-docstrings ; extra == 'qa'
+Requires-Dist: edgetest ; extra == 'qa'
+Provides-Extra: tests
+Requires-Dist: coverage ; extra == 'tests'
+Requires-Dist: mypy ; extra == 'tests'
+Requires-Dist: pytest (==6.2.5) ; extra == 'tests'
+Requires-Dist: pytest-cov (==3.0.0) ; extra == 'tests'
+Requires-Dist: toml ; extra == 'tests'
+
+Ablation studies for evaluating XAI methods
+
