@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: FileCP
+Version: 0.0.1
+Summary: A CLI Tool to quickly copy file content to clipboard
+Home-page: https://github.com/newtoallofthis123/cpfile
+Author: NoobScience
+Author-email: noobscience123@gmail.com
+License: MIT
+Project-URL: Author WebSite, https://newtoallofthis123.github.io/About
+Project-URL: Bug Tracker, https://github.com/newtoallofthis123/cpfile/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# filecp
+## Copy Files Easily with the ease of the Terminal
+
+Copying files has never been easier. CPFiles is a simple python program which takes in a file path, it can be relative or strict, tries to open it and if it is successfull, uses [pyperclip](https://pypi.org/pyperclip) to copy it to the clipboard. Quite simple and easy. Just 30 lines of simple python code.
+
+```bash
+$ cpfile Readme.md
+```

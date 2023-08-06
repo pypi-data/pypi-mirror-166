@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+src/FileCP.egg-info/PKG-INFO
+src/FileCP.egg-info/SOURCES.txt
+src/FileCP.egg-info/dependency_links.txt
+src/FileCP.egg-info/entry_points.txt
+src/FileCP.egg-info/requires.txt
+src/FileCP.egg-info/top_level.txt
+src/cpfile/__init__.py
+src/cpfile/__main__.py
