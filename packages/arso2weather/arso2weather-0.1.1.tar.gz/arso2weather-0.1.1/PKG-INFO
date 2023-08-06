@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: arso2weather
+Version: 0.1.1
+Summary: Basic package to get the current temperature of Slovenians cities.
+Author: Sven Ulcar
+Author-email: <sven.ulcar@gmail.com>
+Keywords: python,weather,slovenia,arso,vreme
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Description-Content-Type: text/markdown
+
+# Arso2weather
+
+### What is it?
+
+- Arso2weather is a small package that allows you to look up the current temperature of specific Slovenian cities.
+
+- Temperature is displayed in Celsius (C°).
+
+- The package is using [ARSO Vreme](https://meteo.arso.gov.si/uploads/probase/www/observ/surface/text/sl/observationAms_si_latest.xml) data.
+
+### Usage
+
+```
+import arso2weather as arso
+
+city_temperature = arso.weather_temp("Ljubljana")
+all_cites_temperature = arso.all_weather_temp()
+
+print(city_temperature)
+print(all_cites_temperature)
+print(all_cites_temperature["Maribor"])
+
+```
