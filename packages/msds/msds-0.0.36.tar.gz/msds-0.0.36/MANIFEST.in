@@ -1,0 +1,2 @@
+graft msds
+prune msds/**/__pycache__
