@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: azcam-ascom
+Version: 22.3
+Summary: Azcam extension for ASCOM cameras
+Home-page: https://github.com/mplesser/azcam-ascom/
+License: LICENSE
+Keywords: ccd,imaging,astronomy,sensors
+Author: Michael Lesser
+Author-email: mlesser@arizona.edu
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: azcam
+Requires-Dist: pywin32 (>=304,<305)
+Project-URL: Documentation, https://mplesser.github.io/azcam/
+Project-URL: Repository, https://github.com/mplesser/azcam-ascom/
+Description-Content-Type: text/markdown
+
+# azcam-ascom
+
+*azcam-ascom* is an *azcam* extension for ASCOM cameras. See https://ascom-standards.org/.
+
+This code has been used for the QHY and ZWO cameras.
+
+## Installation
+
+`pip install azcam-ascom`
+
+Or download from github: https://github.com/mplesser/azcam-ascom.git.
+
+## Example Code
+
+The code below is for example only.
+
+### Controller
+
+```python
+import azcam.server
+from azcam_ascom.controller_ascom import ControllerASCOM
+controller = ControllerASCOM()
+```
+
+### Exposure
+
+```python
+import azcam.server
+from azcam_ascom.exposure_ascom import ExposureASCOM
+exposure = ExposureASCOM()
+filetype = "FITS"
+exposure.filetype = exposure.filetypes[filetype]
+exposure.image.filetype = exposure.filetypes[filetype]
+exposure.display_image = 1
+exposure.image.remote_imageserver_flag = 0
+exposure.set_filename("/data/zwo/asi1294/image.fits")
+exposure.display_image = 1
+```
+
