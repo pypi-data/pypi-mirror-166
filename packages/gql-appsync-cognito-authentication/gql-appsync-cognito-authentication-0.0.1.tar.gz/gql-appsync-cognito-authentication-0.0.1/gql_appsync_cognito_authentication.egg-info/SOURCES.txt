@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+gql_appsync_cognito_authentication/__init__.py
+gql_appsync_cognito_authentication.egg-info/PKG-INFO
+gql_appsync_cognito_authentication.egg-info/SOURCES.txt
+gql_appsync_cognito_authentication.egg-info/dependency_links.txt
+gql_appsync_cognito_authentication.egg-info/requires.txt
+gql_appsync_cognito_authentication.egg-info/top_level.txt
