@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: django-oai-pmh
+Version: 0.3.2
+Summary: Add OAI-PMH endpoint to Django.
+Home-page: http://github.com/jnphilipp/django-oai_pmh
+Author: J. Nathanael Philipp
+Author-email: nathanael@philipp.land
+License: GPL
+Description: # django oai_pmh app
+        
+        ![Tests](https://github.com/jnphilipp/django_oai_pmh/actions/workflows/django.yml/badge.svg)
+        
+        * Open Archives Initiative Protocol for Metadata Harvesting
+        * https://www.openarchives.org/pmh/
+        
+Keywords: django,OAI-PMH
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Django
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/plain
