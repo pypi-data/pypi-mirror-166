@@ -1,0 +1,7 @@
+dbnd==1.0.0.0
+dbnd-airflow-monitor==1.0.0.0
+requests>=2.25.0
+
+[tests]
+pytest
+mock
