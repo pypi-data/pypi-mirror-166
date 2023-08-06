@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: znp
+Version: 0.0.1
+Summary: Simple program to open file in existing zathura instance
+License: GNU General Public License v3 (GPLv3)
+Project-URL: repository, https://codeberg.org/johndovern/znp
+Keywords: zathura
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ewmh
+Requires-Dist: python-magic
+
+# znp
+znp stands for Zathura Next Or Previous.
