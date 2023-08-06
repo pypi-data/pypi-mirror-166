@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: cleantweet
+Version: 0.1.0
+Summary: a python library to clean tweets fetched from the Twitter API.
+Home-page: https://cleantweet.readthedocs.io/
+Author: Lare Samuel Adeola
+Author-email: laresamdeola@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+CleanTweet version 0.1.1
+
+CleanTweet helps in Natural Language Processing tasks especially
+in the area of preprocessing and cleaning your data fetched
+from the Twitter API Backend.
+
+Installation
+
+pip install cleantweet
+
+Get Started
+
+How to clean your Twitter Object:
+
+Example 1: If the text file containing the Twitter JSON Data is 
+in the same directory as project files.
+
+from cleantweet import CleanTweet
+
+### Instantiate the CleanTwitter Object
+data = CleanTweet('sample_text.txt')
+
+### Call the clean method
+print(data.clean())
+
+Example 2: When the above is not the case.
+
+from cleantweet import CleanTweet
+# import the os module
+import os
+
+### Instantiate the CleanTwitter Object
+data = CleanTweet(os.path.join('./nameoffolder', 'sampling.txt'))
+
+### Call the clean method
+print(data.clean())
+
+In this first version, the method clean() would only preprocess
+and clean the Twitter Object's default parameters which are
+the id and text.
