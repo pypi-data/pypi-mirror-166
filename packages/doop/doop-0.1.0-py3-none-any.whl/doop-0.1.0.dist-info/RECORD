@@ -1,0 +1,12 @@
+doop/__init__.py,sha256=PG0bOR_SwHjQN3Xf_ZbC5ILPVHHmI7FOk2tzNidewS8,167
+doop/coe_plot.py,sha256=tH5kF4G-s-pk_ORK8VtbsUFOWuJ1k2XZLPPMCaFphYY,1038
+doop/constants.py,sha256=J5u8FfRVGYt0SCDJ7sLD5HbxUYrZZmDnVP5aGNOE-7g,1125
+doop/elements.py,sha256=jvKv01qrtNV0eS6FmVWelSVBY-4L--AC4fmpPHhDdag,4462
+doop/hohmann.py,sha256=iI1UJj_Es_hsmF_LRZJL51odMB3mHJgpWD0XiZGNbr4,1123
+doop/objects.py,sha256=2fvCL5c7txHONZZZY1Sv6UfJihDSHQLeIfEae5nBG6o,2456
+doop/smad.py,sha256=oTZA_FjWp6xJP6-7Ok2K9kT4p2-D5AOtCOTKhz-s9Yc,1878
+doop/tle.py,sha256=ibULd8VccSLZehJtOG9d-10AsAT8K4JeIuh3QI6TS_o,4057
+doop-0.1.0.dist-info/LICENSE,sha256=oiSVARZu1hzWvYUZFVOuROTcyEvTe_sZ--OBRP8aRX4,1073
+doop-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+doop-0.1.0.dist-info/METADATA,sha256=CApf9ecQR5OSFPGvNOwhlwbUk7-CYtncVYt4UALbY6w,4441
+doop-0.1.0.dist-info/RECORD,,
