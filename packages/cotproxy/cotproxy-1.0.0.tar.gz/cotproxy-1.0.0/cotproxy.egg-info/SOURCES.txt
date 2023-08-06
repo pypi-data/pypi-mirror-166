@@ -1,0 +1,16 @@
+README.rst
+setup.cfg
+setup.py
+cotproxy/__init__.py
+cotproxy/classes.py
+cotproxy/commands.py
+cotproxy/constants.py
+cotproxy/functions.py
+cotproxy/utils.py
+cotproxy.egg-info/PKG-INFO
+cotproxy.egg-info/SOURCES.txt
+cotproxy.egg-info/dependency_links.txt
+cotproxy.egg-info/entry_points.txt
+cotproxy.egg-info/not-zip-safe
+cotproxy.egg-info/requires.txt
+cotproxy.egg-info/top_level.txt

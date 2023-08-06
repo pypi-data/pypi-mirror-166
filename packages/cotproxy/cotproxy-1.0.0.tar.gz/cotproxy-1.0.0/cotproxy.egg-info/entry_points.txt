@@ -1,0 +1,4 @@
+[console_scripts]
+cotproxy = cotproxy.commands:main
+cotproxy-seed = cotproxy.utils:seed
+

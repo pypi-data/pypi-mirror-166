@@ -1,0 +1,5 @@
+pytak>=5.1.0
+aiohttp==3.8.1
+
+[with_pandas]
+pandas
