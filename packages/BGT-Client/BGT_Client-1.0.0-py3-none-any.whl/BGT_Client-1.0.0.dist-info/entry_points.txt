@@ -1,0 +1,2 @@
+[console_scripts]
+bgtc = client.main:main
