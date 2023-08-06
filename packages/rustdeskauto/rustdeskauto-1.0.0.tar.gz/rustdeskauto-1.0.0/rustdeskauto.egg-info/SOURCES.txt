@@ -1,0 +1,9 @@
+README.rst
+setup.py
+rustdeskauto/__init__.py
+rustdeskauto/load.py
+rustdeskauto.egg-info/PKG-INFO
+rustdeskauto.egg-info/SOURCES.txt
+rustdeskauto.egg-info/dependency_links.txt
+rustdeskauto.egg-info/requires.txt
+rustdeskauto.egg-info/top_level.txt
