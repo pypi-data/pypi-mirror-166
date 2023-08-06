@@ -1,0 +1,12 @@
+torch>=1.8.2
+opencv-python
+flask_cors
+flask==1.1.4
+flaskwebgui
+tqdm
+pydantic
+loguru
+pytest
+yacs
+markupsafe==2.0.1
+scikit-image==0.19.3
