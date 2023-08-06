@@ -1,0 +1,6 @@
+pyyaml
+django
+numpy
+pymoo
+scikit-learn
+scipy
