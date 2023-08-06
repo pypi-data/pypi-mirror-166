@@ -1,0 +1,18 @@
+[console_scripts]
+moat_mqtt_broker = moat.mqtt.scripts.broker_script:main
+moat_mqtt_pub = moat.mqtt.scripts.pub_script:main
+moat_mqtt_sub = moat.mqtt.scripts.sub_script:main
+
+[moat.mqtt.broker.plugins]
+auth_anonymous = moat.mqtt.plugins.authentication:AnonymousAuthPlugin
+auth_file = moat.mqtt.plugins.authentication:FileAuthPlugin
+broker_sys = moat.mqtt.plugins.sys.broker:BrokerSysPlugin
+topic_acl = moat.mqtt.plugins.topic_checking:TopicAccessControlListPlugin
+topic_taboo = moat.mqtt.plugins.topic_checking:TopicTabooPlugin
+
+[moat.mqtt.client.plugins]
+
+
+[moat.mqtt.test.plugins]
+
+
