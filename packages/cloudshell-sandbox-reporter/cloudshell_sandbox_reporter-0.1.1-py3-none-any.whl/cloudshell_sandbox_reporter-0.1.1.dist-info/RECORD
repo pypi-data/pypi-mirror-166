@@ -1,0 +1,11 @@
+cloudshell/__init__.py,sha256=qEFeq3yuf3lQKVseALmL8aPM8fpCS54B_5pry00M3hk,76
+cloudshell/helpers/__init__.py,sha256=qEFeq3yuf3lQKVseALmL8aPM8fpCS54B_5pry00M3hk,76
+cloudshell/helpers/sandbox_reporter/__init__.py,sha256=qEFeq3yuf3lQKVseALmL8aPM8fpCS54B_5pry00M3hk,76
+cloudshell/helpers/sandbox_reporter/html_wrap.py,sha256=5ora14Hjt9YNmp1jgfehTyfZLPdnUcvDXVZ9KMB0LTY,1179
+cloudshell/helpers/sandbox_reporter/reporter.py,sha256=evch6AbDwR1RsuynsAI5xYzCRvA2zyw1tlZY7NLJ_4E,5865
+cloudshell/helpers/sandbox_reporter/sandbox_console.py,sha256=THhDiCdecbrqWAYjXvjVWAqkTm_wprsN8AZJDfD2siU,1982
+cloudshell_sandbox_reporter-0.1.1.dist-info/LICENSE,sha256=zqGteqjzvoWnFrk3yh2zKIfBbzxgsQZZV268jczr_Ag,1057
+cloudshell_sandbox_reporter-0.1.1.dist-info/METADATA,sha256=mb6_2ebTj-yG6RtKSo_ka2H8mqPhRz7AhcGf3MSmRCo,6421
+cloudshell_sandbox_reporter-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cloudshell_sandbox_reporter-0.1.1.dist-info/top_level.txt,sha256=5VJHdipzUMLIFaU0FA2iQumtAtUm9gz0tMXfUU0qlIo,11
+cloudshell_sandbox_reporter-0.1.1.dist-info/RECORD,,
