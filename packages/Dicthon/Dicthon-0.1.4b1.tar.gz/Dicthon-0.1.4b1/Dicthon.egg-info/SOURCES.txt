@@ -1,0 +1,9 @@
+README.md
+setup.py
+Dicthon/__init__.py
+Dicthon/dictionary_api_entry.py
+Dicthon.egg-info/PKG-INFO
+Dicthon.egg-info/SOURCES.txt
+Dicthon.egg-info/dependency_links.txt
+Dicthon.egg-info/requires.txt
+Dicthon.egg-info/top_level.txt
