@@ -1,0 +1,8 @@
+[
+  "bot_controller/factory.py::bot_controller.factory.controller_factory",
+  "bot_controller/keyboard.py::bot_controller.keyboard.rgb_from_key",
+  "bot_controller/protocol.py::bot_controller.protocol.move_raw_command",
+  "bot_controller/protocol.py::bot_controller.protocol.rgb_led_command",
+  "bot_controller/tests/test_controller.py::test_controller",
+  "bot_controller/tests/test_factory.py::test_joystick_controller_factory"
+]
