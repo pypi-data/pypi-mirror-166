@@ -1,0 +1,3 @@
+[console_scripts]
+hypermodern-cookiecutter-example=hypermodern_cookiecutter_example.__main__:main
+
