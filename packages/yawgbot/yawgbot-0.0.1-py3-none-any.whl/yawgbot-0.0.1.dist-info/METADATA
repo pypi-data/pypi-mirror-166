@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: yawgbot
+Version: 0.0.1
+Summary: yawgbot - yet another wg bot
+Project-URL: Homepage, https://github.com/rcastellotti/yawgbot
+Project-URL: Bug Tracker, https://github.com/rcastellotti/yawgbot/issues
+Author-email: Roberto Castellotti <me@rcastellotti.dev>
+License: Copyright 2022 Roberto Castellotti
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: beautifulsoup4==4.11.1
+Requires-Dist: certifi==2022.6.15
+Requires-Dist: charset-normalizer==2.1.1
+Requires-Dist: click==8.1.3
+Requires-Dist: flask==2.2.2
+Requires-Dist: greenlet==1.1.3
+Requires-Dist: idna==3.3
+Requires-Dist: itsdangerous==2.1.2
+Requires-Dist: jinja2==3.1.2
+Requires-Dist: markupsafe==2.1.1
+Requires-Dist: platformdirs==2.5.2
+Requires-Dist: python-dotenv==0.21.0
+Requires-Dist: requests==2.28.1
+Requires-Dist: soupsieve==2.3.2.post1
+Requires-Dist: sqlalchemy-utils==0.38.3
+Requires-Dist: sqlalchemy==1.4.41
+Requires-Dist: urllib3==1.26.12
+Requires-Dist: werkzeug==2.2.2
+Description-Content-Type: text/markdown
+
+# yawgbot
+
+Yet Another WG helper bot. WG stands for *Wohngemeinschaft*, a German word that refers to a living arrangement in which
+several tenants share an apartment. It is aimed to automate the extremely complex and time-consuming task of finding a
+room or an apartment to rent. Initially it was only working for [wg-gesucht.de](https://wg-gesucht.de), now it's a
+plugin-based system ready to be extended for every platform to find accommodation.
+
+`yawgbot` is a simple python bot that scrapes websites offering accommodation ads and contacts landlords. It uses a
+SQLite database to save contacted ads and to perform fewer requests to platforms. It also offers a simple web UI to
+track your progress and gather your findings across different platforms.
+
+[//]: # (## configuration)
+
+[//]: # ()
+
+[//]: # (## creating a plugin)
+
+[//]: # ()
+
+[//]: # (## running periodically)
+
+[//]: # ()
+
+[//]: # (## instructions)
+
+[//]: # (- create a python virtual environment with `python3 -m venv vev`)
+
+[//]: # (- activate the virtual environment with `source venv/bin/activate` &#40;might be different if not using bash&#41;)
+
+[//]: # (- install the dependencies with `pip3 install -r requirements.txt`)
+
+[//]: # (- configure `.env.sample` and rename it to `.env`)
+
+[//]: # ()
+
+[//]: # (When configuring for use go on [https://wg-gesucht.de]&#40;https://wg-gesucht.de&#41; and copy the url you are using to look for)
+
+[//]: # (accommodation, then replace the last number with `{}` in order to be able to search across multiple pages, for example,)
+
+[//]: # (if looking for apartments in Munich: base url)
+
+[//]: # (is `https://www.wg-gesucht.de/1-zimmer-wohnungen-in-Munchen.90.1.1.1.html`, replace the last `1` as)
+
+[//]: # (follows: `https://www.wg-gesucht.de/1-zimmer-wohnungen-in-Munchen.90.1.1.{}.html`)
+
+## running manually
+
+To run the bot manually:
+
++ install the package with `pip3 install yawgbot` (a [virtual environment](https://docs.python.org/3/tutorial/venv.html) is suggested)
++ configure `.env.sample` and rename it to `.env`
++ create a new file named `bot.py` with the following content and run it:
+
+```python
+from yawgbot import Bot
+import logging
+
+logging.basicConfig(level=logging.INFO)
+
+bot = Bot(platfors=["wg-gesucht"])
+bot.run()
+```
+
+## running periodically with celery and web UI
+
+Yawgbot uses [Celery](https://docs.celeryq.dev/en/stable/) to schedule tasks. It is
+configured to use [SQLite](https://sqlite.org) as
+both [backend and broker](https://docs.celeryq.dev/en/stable/getting-started/backends-and-brokers/index.html), to know
+more read the docs. The file `run_yawgbot.py` is provided to run the bot each 5 minutes, to use it:
+
+- run `celery -A run_yawgbot.celery worker --loglevel=INFO` to run the worker
+- run `celery -A run_yawgbot.celery beat` to schedule the bot
+
