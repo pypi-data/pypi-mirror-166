@@ -1,0 +1,10 @@
+setup.py
+GOL_Simulator/__init__.py
+GOL_Simulator/cpu.py
+GOL_Simulator/gpu.py
+GOL_Simulator.egg-info/PKG-INFO
+GOL_Simulator.egg-info/SOURCES.txt
+GOL_Simulator.egg-info/dependency_links.txt
+GOL_Simulator.egg-info/requires.txt
+GOL_Simulator.egg-info/top_level.txt
+GOL_Simulator.egg-info/zip-safe
