@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "melvec"
+version = "0.0.1"
+authors = [
+  { name="Melker Widén", email="melker.widen@gmail.com" },
+]
+description = "A small vector library"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/memagu/melvec"
+"Bug Tracker" = "https://github.com/memagu/melvec/issues"
