@@ -1,0 +1,15 @@
+stdocker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stdocker/cli.py,sha256=XSpZ_deKKuv2CkTttQxOL4-gm2cU3DuV_KoGcfbZnrA,12090
+stdocker/config.py,sha256=NDCDSfL1sxDWK9dk7aULaujuJ-wSS7wKVdjR_orkgXQ,309
+stdocker/core.py,sha256=Efv3PQusC76HySwcwejWGcogrd0pGz-WwbjFHi6tTV8,2334
+stdocker/env_handler.py,sha256=rkI0K3Sg4Lmj6MnNhfAy7GOXduTz4uoNC1jF881QnAg,5457
+stdocker/env_parser.py,sha256=XaJn3W_eHCw3165VMbND-0ZKvSVUiJl3O5rzgfxlmpY,1395
+stdocker/utils.py,sha256=eX1CKjv1vtfFukALkMhozVxpK2AJjp5DfA-6i9aNbr8,532
+stdocker/version.py,sha256=mFFUUCx5TqyW1TTFRrWDhXXVMJDMRxXWrkHanVtp9oY,22
+stdocker/yaml_parser.py,sha256=K0VLNZZbbGRKVMttw564GmpYtQ1UpAvTPl5XZ87Tfdc,748
+stdocker-1.0.8.dist-info/LICENSE,sha256=RTpcRQX3uBNLtzyjkQyq18rO-FlNLRqXPirW5RuB_5Y,1065
+stdocker-1.0.8.dist-info/METADATA,sha256=kHmGyM8j_s-ZAQbHhBjROiUZckAvaYuuIyg0HoegNi8,17652
+stdocker-1.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stdocker-1.0.8.dist-info/entry_points.txt,sha256=W61A2BRFhU_FzwAX7B6sZuX_trhRuWg5hGkxntYi5Kc,48
+stdocker-1.0.8.dist-info/top_level.txt,sha256=EuvhTRlqvDRugGjoGN9jvCUjP9Mj54EG-98DJBmCRjU,9
+stdocker-1.0.8.dist-info/RECORD,,
