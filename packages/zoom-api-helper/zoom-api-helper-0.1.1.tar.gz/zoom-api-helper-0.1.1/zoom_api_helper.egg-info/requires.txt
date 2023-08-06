@@ -1,0 +1,11 @@
+requests
+
+[:python_version == "3.7"]
+backports.cached-property~=1.0.2
+typing-extensions
+
+[all]
+sheet2dict
+
+[excel]
+sheet2dict
