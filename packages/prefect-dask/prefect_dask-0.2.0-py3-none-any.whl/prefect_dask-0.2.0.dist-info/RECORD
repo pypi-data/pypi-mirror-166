@@ -1,0 +1,8 @@
+prefect_dask/__init__.py,sha256=fsHhZviB3uXsAnu66vMTy-5lI3ky8Gw4PfBtnK4TpdE,122
+prefect_dask/_version.py,sha256=irH5azOGx93mn9ZhKbyX8kEd7mNky7TVQKHf4mmKTos,497
+prefect_dask/task_runners.py,sha256=oUu_Uco6c5Szw6ALt7HtR6oBCnJGHBP5H1VF_HPiIgU,10751
+prefect_dask-0.2.0.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_dask-0.2.0.dist-info/METADATA,sha256=prlDbQhBTSCoRlqbJohvfRZHWjWdu_BsaKfjlxZLmb0,10703
+prefect_dask-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+prefect_dask-0.2.0.dist-info/top_level.txt,sha256=EMvhD7sG_3Ng86vks8jnaXAyLRiJXQA5Lf3yu19rpMo,13
+prefect_dask-0.2.0.dist-info/RECORD,,
