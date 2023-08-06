@@ -1,0 +1,9 @@
+
+[dev]
+pytest
+flake8
+black
+tox
+coverage
+build
+pip-tools
