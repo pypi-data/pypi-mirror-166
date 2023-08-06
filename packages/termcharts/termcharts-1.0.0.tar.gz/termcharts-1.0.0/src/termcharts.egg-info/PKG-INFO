@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: termcharts
+Version: 1.0.0
+Summary: Download stats for Python packages
+Author-email: arj.python@gmail.com
+Project-URL: Bug Reports, https://github.com/Abdur-RahmaanJ/termcharts/issues
+Project-URL: Source, https://github.com/Abdur-RahmaanJ/termcharts/
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: rich
+License-File: LICENSE
+
+# termcharts
+
+Terminal charts with rich compatibility in mind
+
+
+![](https://github.com/Abdur-RahmaanJ/termcharts/raw/stable/assets/pie.png)
+
+# bar
+
+![](https://github.com/Abdur-RahmaanJ/termcharts/raw/stable/assets/bar.png)
+
+
+```python
+import termcharts
+
+
+chart = termcharts.bar({'roll': 24, 'bread':10, 'rice':30, 'pasta':50}, title='brunches')
+print(chart)
+```
+
+# pie
+
+```python
+import termcharts
+
+
+chart = termcharts.pie({'pencil':10, 'eraser': 20, 'ruler': 30}, title='stationary')
+print(chart)
+```
+
+# doughnut
+
+```python
+import termcharts
+
+
+chart = termcharts.doughnut({'a':10, 'b': 20, 'c': 30}, title='aphabet dist')
+print(chart)
+```
+
+
+# Rich compatibility
+
+
+```python
+from termcharts import pie
+from termcharts import doughnut
+from termcharts import bar
+
+from rich.console import Console
+from rich.columns import Columns
+from rich.panel import Panel
+
+console = Console()
+
+charts = [
+    doughnut({'a':10, 'b': 20, 'c': 30, 'd': 20}, title='aphabet dist', rich=True), 
+    pie({'wefwefqwddwqdqwda':10, 'b': 20, 'c': 30, 'd': 20}, rich=True),
+    bar({'roll': 24, 'bss':10, 'wes':30, 'ewfwef':50}, title='Brunches', rich=True)
+    ]
+user_renderables = [Panel(x, expand=True) for x in charts]
+console.print(Columns(user_renderables))
+```
