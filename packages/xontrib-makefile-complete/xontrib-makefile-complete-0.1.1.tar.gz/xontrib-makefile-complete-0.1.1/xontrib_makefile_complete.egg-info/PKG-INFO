@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: xontrib-makefile-complete
+Version: 0.1.1
+Summary: This provides tab completion for make in xonsh.
+Author-email: Igor Taconi <igor.taconi@protonmail.com>
+Project-URL: Homepage, https://gitlab.com/taconi/xontrib-makefile-complete
+Project-URL: Documentation, https://gitlab.com/taconi/xontrib-makefile-complete/-/blob/main/README.md
+Project-URL: Code, https://gitlab.com/taconi/xontrib-makefile-complete
+Project-URL: Issue tracker, https://gitlab.com/taconi/xontrib-makefile-complete/-/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: Terminals
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Xontrib Makefile Complete
+
+<p align="center">
+This provides tab completion for make in xonsh.
+</p>
+
+## Installation
+
+To install use xpip:
+
+```sh
+xpip install xontrib-makefile-complete
+```
+or
+```sh
+xpip install -U git+https://gitlab.com/taconi/xontrib-makefile-complete
+```
+
+## Usage
+```sh
+xontrib load makefile_complete
+ ```
