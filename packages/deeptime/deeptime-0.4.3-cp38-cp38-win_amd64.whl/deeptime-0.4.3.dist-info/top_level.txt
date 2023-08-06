@@ -1,0 +1,4 @@
+_skbuild
+cmake-build-debug
+deeptime
+dist
