@@ -1,0 +1,9 @@
+README.md
+setup.py
+news_yapi/__init__.py
+news_yapi/news.py
+news_yapi/version.py
+news_yapi.egg-info/PKG-INFO
+news_yapi.egg-info/SOURCES.txt
+news_yapi.egg-info/dependency_links.txt
+news_yapi.egg-info/top_level.txt

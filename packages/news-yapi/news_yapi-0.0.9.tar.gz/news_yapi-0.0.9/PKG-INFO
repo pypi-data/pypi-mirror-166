@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: news_yapi
+Version: 0.0.9
+Summary: a unitts driver for ios device, it use AVFoundation.AVSpeechSynthesizer
+Home-page: https://github.com/yumoqing/news_yapi
+Author: Yu Moqing
+Author-email: yumoqing@gmail.com
+Keywords: pyttsx,ios,offline tts engine
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# news_yapi
+this is a news feed provider of [newsapi](https://newsapi.org) for [uninews](https://pypi.org/project/uninews)
+
+## Dependency
+```
+pip install newsapi-python
+```
+
+## Installation
+```
+pip install news_api
+```
+
+## register a app_key
+
+go to [newsapi](https://newsapi.org) to bay a plan
+
+## Usage
+
+```
+from news_api import set_app_info
+from uninews import NewsFeed
+
+set_app_info(YOUR_APP_KEY)
+nf = NewsFeed('news_api')
+nf.news()
+nf.headline()
+nf.topstory()
+```
+
+
