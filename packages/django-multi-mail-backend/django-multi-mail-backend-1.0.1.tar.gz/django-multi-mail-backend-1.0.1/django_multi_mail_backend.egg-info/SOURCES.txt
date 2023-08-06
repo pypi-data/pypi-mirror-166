@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+django_multi_mail_backend/__init__.py
+django_multi_mail_backend/mail.py
+django_multi_mail_backend/message.py
+django_multi_mail_backend.egg-info/PKG-INFO
+django_multi_mail_backend.egg-info/SOURCES.txt
+django_multi_mail_backend.egg-info/dependency_links.txt
+django_multi_mail_backend.egg-info/requires.txt
+django_multi_mail_backend.egg-info/top_level.txt
+django_multi_mail_backend/backend/__init__.py
+django_multi_mail_backend/backend/multi.py
+django_multi_mail_backend/backend/ses.py
+django_multi_mail_backend/backend/smtp.py

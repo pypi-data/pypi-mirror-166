@@ -1,0 +1,9 @@
+django
+
+[code-quality]
+isort
+bandit
+xenon
+
+[dev]
+autopep8
