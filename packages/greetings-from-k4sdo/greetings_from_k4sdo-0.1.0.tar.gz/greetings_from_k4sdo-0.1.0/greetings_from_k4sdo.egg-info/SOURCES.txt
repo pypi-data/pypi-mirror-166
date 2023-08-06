@@ -1,0 +1,7 @@
+MANIFEST.in
+README.md
+setup.py
+greetings_from_k4sdo.egg-info/PKG-INFO
+greetings_from_k4sdo.egg-info/SOURCES.txt
+greetings_from_k4sdo.egg-info/dependency_links.txt
+greetings_from_k4sdo.egg-info/top_level.txt
