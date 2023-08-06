@@ -1,0 +1,5 @@
+jot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jot/rollbar.py,sha256=L-a9WSTNCL1AFwEUaczvUdnGHREprZAr7H_PUv7CHcg,1316
+dl_jot_rollbar-0.1.dist-info/WHEEL,sha256=g_UdFZqm-k6b0W64OcndB0YT_D2mFFPAYBj7-_YsSPA,87
+dl_jot_rollbar-0.1.dist-info/METADATA,sha256=J4ERLioeT4yS-i-9uVdtM-2l9eF42QshSlV8S2LpzRU,360
+dl_jot_rollbar-0.1.dist-info/RECORD,,
