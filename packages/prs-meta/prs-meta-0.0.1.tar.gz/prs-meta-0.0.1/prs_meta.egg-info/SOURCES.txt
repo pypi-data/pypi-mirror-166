@@ -1,0 +1,9 @@
+README.rst
+setup.py
+prs_meta.egg-info/PKG-INFO
+prs_meta.egg-info/SOURCES.txt
+prs_meta.egg-info/dependency_links.txt
+prs_meta.egg-info/requires.txt
+prs_meta.egg-info/top_level.txt
+src/__init__.py
+src/meta.py
