@@ -1,0 +1,7 @@
+numpy
+tensorflow
+astropy
+scipy
+progress
+matplotlib
+optuna

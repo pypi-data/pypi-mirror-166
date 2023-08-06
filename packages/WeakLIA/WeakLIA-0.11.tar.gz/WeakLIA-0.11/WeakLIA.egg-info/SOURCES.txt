@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+WeakLIA/__init__.py
+WeakLIA/cnn_model.py
+WeakLIA/data_augmentation.py
+WeakLIA/data_processing.py
+WeakLIA/optimization.py
+WeakLIA.egg-info/PKG-INFO
+WeakLIA.egg-info/SOURCES.txt
+WeakLIA.egg-info/dependency_links.txt
+WeakLIA.egg-info/requires.txt
+WeakLIA.egg-info/top_level.txt
+WeakLIA/data/__init__.py
