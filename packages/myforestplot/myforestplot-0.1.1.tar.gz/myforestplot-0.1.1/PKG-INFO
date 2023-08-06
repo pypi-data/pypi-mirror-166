@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: myforestplot
+Version: 0.1.1
+Summary: Create forestplot by Python.
+Home-page: UNKNOWN
+Author: toshiakiasakura
+Author-email: wordpress.akitoshi@gmail.com
+License: MIT
+Keywords: forestplot odds-ratio relative-risk meta-analysis
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# MyForestplot
+Create forestplot by python more easily and intuitively. 
+
+
