@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+wpcEXEbuild/__init__.py
+wpcEXEbuild/script.py
+wpcEXEbuild.egg-info/PKG-INFO
+wpcEXEbuild.egg-info/SOURCES.txt
+wpcEXEbuild.egg-info/dependency_links.txt
+wpcEXEbuild.egg-info/entry_points.txt
+wpcEXEbuild.egg-info/requires.txt
+wpcEXEbuild.egg-info/top_level.txt

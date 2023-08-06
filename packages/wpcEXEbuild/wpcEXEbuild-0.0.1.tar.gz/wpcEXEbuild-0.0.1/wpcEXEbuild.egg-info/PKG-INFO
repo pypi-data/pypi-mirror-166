@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: wpcEXEbuild
+Version: 0.0.1
+Summary: WPC EXE builder
+Author: chunglee_people
+Author-email: wu@wpc.com.tw
+License: MIT
+Keywords: wpc,executable,standalone,packaging,app,apps,exe
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Installation
+
+Install `wpcEXEbuild` from PyPI:
+
+```
+$ pip install wpcEXEbuild
+```
+
+## Quick Start
+
+Open a command prompt/shell window, and navigate to the directory where your .py file is located, then build your app with the following command:
+
+```
+$ wpcEXEbuild your_program.py
+```
+
+wpcEXEbuild will generate a `.spec` file. You can run it at first.
+If you want to add something such as icon or picture, you can edit your .spec file.
+
+- Use wpcEXEbuild for one file
+
+```
+$ wpcEXEbuild your_program.py
+```
+
+- Use .spec file
+
+```
+pyinstaller main.spec
+```
+
+
