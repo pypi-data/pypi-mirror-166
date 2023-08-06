@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Quantization Fallbacker</title>
+	<script src={{url_for('static', filename='axios.js')}}></script>
+	<script src={{url_for('static', filename='echarts.js')}}></script>
+	<link rel=stylesheet href={{url_for('static', filename='codemirror/lib/codemirror.css')}}/>
+	<script src={{url_for('static', filename='codemirror/lib/codemirror.js')}}></script>
+	<script src={{url_for('static', filename='codemirror/mode/python/python.js')}}></script>
+	<script src={{url_for('static', filename='codemirror/addon/scroll/simplescrollbars.js')}}></script>
+	<link rel=stylesheet href={{url_for('static', filename='codemirror/theme/darcula.css')}}/>
+	<link rel=stylesheet href={{url_for('static', filename='codemirror/addon/scroll/simplescrollbars.css')}}/>
+	<script src={{url_for('static', filename='jquery.js')}}></script>
+	<link rel=stylesheet href={{url_for('static', filename='bootstrap.css')}}/>
+	<script src={{url_for('static', filename='bootstrap.js')}}></script>
+	<link rel=stylesheet href={{url_for('static', filename='main.css')}}/>
+</head>
+
+<body>
+	<h2 class="fallbacker-header">
+		<button onclick="generateNewEchart()">获取数据</button>
+		Quantization Fallbacker
+		<button onclick="runFallback()">发起回测(ctrl+enter)</button>
+		<button onclick="searchFallback()">更新回测进度(ctrl+?)</button>
+		<!-- <button onclick="cancelFallback()">取消回测(ctrl+0)</button> -->
+		<button onclick="clearPageSaveInfo()">清空页面保存信息</button>
+		<button onclick="deleteCurrentFallback()">删除当前任务记录</button>
+		<div class="to-top" onclick="toTop()">回到顶部</div>
+	</h2>
+	<div class="body-container">
+		<div class="fallback-wrap">
+			<h3>回测任务编辑器</h3>
+			<h4>
+				任务状态
+				<button onclick="openFallbackDetail()">查看详细看板(ctrl+.)</button>
+				<button onclick="backToMainFallbackMission()">返回主任务</button>
+			</h4>
+			<div class="fallback-result">暂无</div>
+			<h4>回测任务名称(选填)</h4>
+			<input class="fallback_name" placeholder="回测任务名称(fallback_name),默认:随机字符串" type="text" />
+			<div class="division-group strategy-info-groups">
+				<h4>
+					策略信息维度(必填)<button onclick="addInfoGroup(this.parentNode.parentNode)">
+						+增加一个组
+					</button>
+				</h4>
+				<div class="strategy-info-group">
+					<textarea class="strategy_body" onfocus="showEditor(this)" type="text" placeholder="
+策略代码(strategy_body),与策略名二选一,请输入一个完整的Python3.7.8-rc版本兼容的函数体,不指定默认策略名则必填(定义一个Python函数),如:
+def your_callback_func(df,params){
+  m = params['strategy_params']['m']
+  ...
+}
+,其中1参为DataFrame数据源对象,2参为每一组策略的完整参数体,"></textarea>
+					<textarea class="strategy_params" type="text" placeholder='
+参数对象(strategy_params)格式严格的JSON对象,且只允许一层深度,如:
+{"m":2,"n":200}
+(注意引号是双引号),在函数体中均以形如:
+params["strategy_params"]["m"]
+的方式出现' onclick="addValueIntoObject(this)"></textarea>
+					<textarea class="strategy_circle_condition" type="text" placeholder='
+循环条件(strategy_circle_condition)是对于所需条件循环的描述,格式如下:
+对象->循环键值->目标值,步长
+{"m":[3,0.1],"n":[1000,100]}
+注:必须符合严格的json格式,否则会解析失败
+' onclick="addCircleCondition(this)"></textarea>
+					<textarea class="strategy_auxiliary_line" type="text" placeholder='
+辅助线(strategy_auxiliary_line)务必是严格的JSON数组格式!数据是策略代码中实现的DataFrame行,可以用于最终图标的回显,如布林中的中,高,低线:
+["median","upper","lower"]
+指定行名称后最终会被输出在图表数据中的aux_line中,作为与k线相关的辅助线进行展示
+' onclick="addValueIntoArray(this)"></textarea>
+					<textarea class="strategy_auxiliary_volume" type="text" placeholder='
+辅助值(strategy_auxiliary_volume)务必是严格的JSON数组格式!且必须是策略中计算出的DataFrame的已存在的行
+["sale_volume","close_std"]
+指定行名称后最终会被输出在图表数据中的aux_volume中,作为与k线无关的辅助数据进行展示
+' onclick="addValueIntoArray(this)"></textarea>
+					<textarea class="strategy_auxiliary_curve" type="text" placeholder='
+辅助曲线(strategy_auxiliary_curve)务必是严格的JSON数组格式!且必须是策略中计算出的DataFrame的已存在的行
+["k","d","j"]
+指定行名称后最终会被输出在图表数据中的aux_curve中,作为与k线无关的辅助曲线展示
+' onclick="addValueIntoArray(this)"></textarea>
+
+					<!-- <button onclick="circleCurrentStrategyGroup(this)">
+              以此策略创建参数遍历循环(写完再创建)
+            </button> -->
+				</div>
+			</div>
+			<div class="division-group fallback-info-groups">
+				<h4>
+					数据源信息维度(选填)<button onclick="addInfoGroup(this.parentNode.parentNode)">
+						+增加一个组
+					</button>
+				</h4>
+				<div class="fallback-info-group">
+					<input class="start_time" type="date" placeholder="开始时间(start_time),默认不限制,格式:YYYY-MM-DD" />
+					<input class="end_time" type="date" placeholder="结束时间(end_time),默认不限制,格式:YYYY-MM-DD" />
+					<input class="resample_rule" type="text" placeholder="K线间隔(resample_rule),默认不写为:5T"
+						onclick="showResampleSelector(this)" />
+				</div>
+			</div>
+			<div class="division-group coin-info-groups">
+				<h4>
+					币种信息维度(选填)<button onclick="addInfoGroup(this.parentNode.parentNode)">
+						+增加一个组
+					</button>
+				</h4>
+				<div class="coin-info-group">
+					<input class="data_file" onfocus="showDataSelector(this,true)" type="text"
+						placeholder="币种信息数据源(data_file),默认:BTC-USDT_5m.h5" />
+					<input class="face_value" type="text" placeholder="最小成交单位面值(face_value),如合约面值,默认:0.01"
+						onclick="showFaceValueSelector(this)" />
+				</div>
+			</div>
+			<div class="division-group data-assist-groups">
+				<h4>
+					币种辅助数据维度(选填)<button onclick="addInfoGroup(this.parentNode.parentNode)">
+						+增加一个组
+					</button>
+				</h4>
+				<div class="data-assist-group">
+					<input class="data_assist_files" onfocus="showDataSelector(this)" type="text"
+						placeholder="币种辅助数据源(data_assist_files),如:SHIB-USDT_1m.csv,SHIB-USDT_5m.csv,可以载入多个数据,默认不加载辅助数据" />
+				</div>
+			</div>
+			<div class="division-group leverage-info-groups">
+				<h4>
+					杠杆信息维度(选填)<button onclick="addInfoGroup(this.parentNode.parentNode)">
+						+增加一个组
+					</button>
+				</h4>
+				<div class="leverage-info-group">
+					<input class="leverage_rate" type="text" placeholder="杠杆倍数(leverage_rate),默认:3" />
+					<input class="min_margin_ratio" type="text" placeholder="最低保证金率(min_margin_ratio),默认:1/100" />
+				</div>
+			</div>
+			<div class="division-group trading-info-groups">
+				<h4>
+					交易信息维度(选填)<button onclick="addInfoGroup(this.parentNode.parentNode)">
+						+增加一个组
+					</button>
+				</h4>
+				<div class="trading-info-group">
+					<input class="initial_cash" type="text" placeholder="初始资金(initial_cash),默认:10000" />
+					<input class="c_rate" type="text" placeholder="手续费(c_rate),默认:5/10000" />
+					<input class="slippage" type="text" placeholder="滑点(slippage),默认:1/1000" />
+				</div>
+			</div>
+		</div>
+		<div class="fallback-tool-wrap">
+			<h3>回测辅助工具箱</h3>
+			<div class="tool-group custom-strategy-saver">
+				<h4>
+					类JS对象/数组快速生成对应JSON字符串<button onclick="generateJSON(this)">
+						生成并复制
+					</button>
+				</h4>
+				<textarea placeholder="类json语法快速生成JSON"></textarea>
+			</div>
+			<div class="tool-group default-strategy">
+				<h4>
+					常用策略/方法
+					<input placeholder="默认加载至策略体" class="default_strategy_name" type="text" style="
+                width: 200px;
+                min-width: 200px;
+                display: inline-block;
+                font-size: 14px;
+              " />
+				</h4>
+				<div class="default-strategy-list"></div>
+			</div>
+			<div class="tool-group custom-strategy-saver">
+				<h4>策略记事本</h4>
+				<textarea
+					placeholder="基于Quantization Fallbacker的本地输入记录功能,记事本可用于记录与当前策略相关的任何信息,如:策略思路,策略TODO等"></textarea>
+			</div>
+		</div>
+	</div>
+	<script src={{url_for('static', filename='main.js')}}></script>
+</body>
+
+</html>

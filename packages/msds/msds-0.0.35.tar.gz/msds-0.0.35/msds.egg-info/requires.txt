@@ -1,0 +1,11 @@
+pandas
+tenacity
+inquirer
+click
+rich
+tables
+ccxt
+numpy
+Flask
+twine
+setuptools
