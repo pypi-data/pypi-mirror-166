@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+src/ctse.egg-info/PKG-INFO
+src/ctse.egg-info/SOURCES.txt
+src/ctse.egg-info/dependency_links.txt
+src/ctse.egg-info/requires.txt
+src/ctse.egg-info/top_level.txt
+src/stce/__init__.py

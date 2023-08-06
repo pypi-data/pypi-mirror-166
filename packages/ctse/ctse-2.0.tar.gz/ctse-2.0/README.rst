@@ -1,0 +1,1 @@
+this pacakge is for check if the text have no special caracter put the underscore is not cout.
