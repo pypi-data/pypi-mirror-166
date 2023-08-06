@@ -1,0 +1,7 @@
+README.md
+setup.py
+nonebot_plugin_BiliRequestBarand/__init__.py
+nonebot_plugin_BiliRequestsBarand.egg-info/PKG-INFO
+nonebot_plugin_BiliRequestsBarand.egg-info/SOURCES.txt
+nonebot_plugin_BiliRequestsBarand.egg-info/dependency_links.txt
+nonebot_plugin_BiliRequestsBarand.egg-info/top_level.txt
