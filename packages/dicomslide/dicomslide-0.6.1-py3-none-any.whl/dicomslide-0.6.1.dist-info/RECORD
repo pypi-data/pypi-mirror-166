@@ -1,0 +1,16 @@
+dicomslide/__init__.py,sha256=XL0MKQ391rzz_MGmyUqXowsLv4hNCqTFKtPO8leRhBU,1750
+dicomslide/_channel.py,sha256=But6DZHcdxSU68xuKVzuDWvNAnofz4m-E-mCg0c6zuk,4093
+dicomslide/enum.py,sha256=YZJ0GAuX8c4YswW8DFwFvCxksvk1gpAYd61iEUKKEm0,358
+dicomslide/image.py,sha256=xbmSVhCKXX0F_XTUn7sgXjx1RFRfaplrnKtMtFUqU3I,29984
+dicomslide/matrix.py,sha256=ytUB1Idsa3e-ZRIw9ji6gJVd5CfloYOiLtc_RVPyyrk,45835
+dicomslide/openslide.py,sha256=TXkDJcbJlAWMOJ7OfwNPyfLO8Nz8Z2Ake2rr8QIPmm0,9819
+dicomslide/pyramid.py,sha256=I2PJCHIT26O7PYNkegIc9TsrVHHLILNvsEl53o_KoLI,18621
+dicomslide/slide.py,sha256=Jzrnxd3t7uB0CKUKHEf0af9lAty348td5cb86qtESB0,57899
+dicomslide/tile.py,sha256=DuYxFHV2Xbh5gKOMpzXAJz-ogUNeB0eH-rSNDwrBTfY,10971
+dicomslide/utils.py,sha256=Qb-bKCOn4cHJlMQzFzX_FeT4FWFe4j7Sz-wFzqISQjA,7524
+dicomslide/version.py,sha256=gd3s3RotD0_KL90Tua-YkOr60Jm2C2_wvlEhAT08068,22
+dicomslide-0.6.1.dist-info/LICENSE,sha256=evSEXt-oAQK8imKlaP5dsHTh55olmHxBHTmEezJW9_E,1069
+dicomslide-0.6.1.dist-info/METADATA,sha256=oO4gY-NJYH7CvIQsL-nMdMRS88y7jn4EDIBBXG_0t3M,1934
+dicomslide-0.6.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dicomslide-0.6.1.dist-info/top_level.txt,sha256=e1TJAgO8dQhmqJpGXDL1ZsD63ouiHw5C8EhANzeONlA,11
+dicomslide-0.6.1.dist-info/RECORD,,
