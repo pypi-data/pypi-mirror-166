@@ -1,0 +1,3 @@
+import makina
+
+makina.main()
