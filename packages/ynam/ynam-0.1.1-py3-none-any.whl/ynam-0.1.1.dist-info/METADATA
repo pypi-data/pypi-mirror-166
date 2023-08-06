@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ynam
+Version: 0.1.1
+Summary: Mint-to-YNAB translation layer
+Home-page: https://githuib.com/snowskeleton/ynam
+Author: snowskeleton
+Author-email: snow@snowskeleton.net
+License: Apache 2.0
+Keywords: ynab,mint
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mintapi
+
