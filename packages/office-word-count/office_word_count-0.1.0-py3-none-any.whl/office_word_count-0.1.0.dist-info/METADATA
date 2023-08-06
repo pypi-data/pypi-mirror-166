@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: office-word-count
+Version: 0.1.0
+Summary: Word count tool like MS Word
+Home-page: https://github.com/bebe3/office-word-count
+Author: bebe3
+Author-email: i.masashi0323@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: regex
+
+# Office Word Count
+
+
+## Installation
+```
+pip install office-word-count
+```
+
+## Example
+```
+from office_word_count import Counter
+
+text = "This is a sample text."
+counter = Counter(text)
+counter.count()
+```
+
+```
+Statistics(words=5, characters_no_space=18, characters_with_space=22, non_asian_words=5, asian_characters=0)
+```
