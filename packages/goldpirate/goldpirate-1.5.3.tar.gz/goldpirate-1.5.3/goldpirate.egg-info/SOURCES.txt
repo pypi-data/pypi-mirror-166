@@ -1,0 +1,8 @@
+README.md
+setup.py
+goldpirate.egg-info/PKG-INFO
+goldpirate.egg-info/SOURCES.txt
+goldpirate.egg-info/dependency_links.txt
+goldpirate.egg-info/entry_points.txt
+goldpirate.egg-info/requires.txt
+goldpirate.egg-info/top_level.txt

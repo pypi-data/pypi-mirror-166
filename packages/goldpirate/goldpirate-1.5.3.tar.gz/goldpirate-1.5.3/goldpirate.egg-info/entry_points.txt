@@ -1,0 +1,3 @@
+[console_scripts]
+goldpirate = goldpirate.goldpirate:main
+
