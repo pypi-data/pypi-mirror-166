@@ -1,0 +1,11 @@
+posextract/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+posextract/adj_noun_pairs.py,sha256=EYY19kp4wNyU9Tg5XtsvfvD0FaXeE3Ckfvwd1DQ8IVM,1601
+posextract/grammatical_triples.py,sha256=WeERCAk5q11m3ggt0c96RwnN0wimwmSq76l2e_vIXLA,8518
+posextract/rules.py,sha256=d1yvu5dLVAPOXPNWuOjhf5UxygLKWG_OerRA3OcL1QU,7554
+posextract/subj_verb_pairs.py,sha256=opbqw2-tsgVOo80Ns3OkGKseN7uFyj_zjiHdNH0nAs4,1589
+posextract/util.py,sha256=g5IV9UmUju32mSgRNUSYq38d2TVuiUz32KF079WtYmc,3893
+posextract-1.0.6.dist-info/LICENSE,sha256=xJye84KlB2b1c72E-K_yHWkSwXo9G4B6duaqJpVMHs8,1093
+posextract-1.0.6.dist-info/METADATA,sha256=O_Ewh9Mg4-XFZMRTeCR1z1AtPaTIVA7v1IXQE91q-28,4542
+posextract-1.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+posextract-1.0.6.dist-info/top_level.txt,sha256=7YAuOrBWeIbtSNutNLx6g8EZnG1fcfhe-K5VA0XRR7Y,11
+posextract-1.0.6.dist-info/RECORD,,
