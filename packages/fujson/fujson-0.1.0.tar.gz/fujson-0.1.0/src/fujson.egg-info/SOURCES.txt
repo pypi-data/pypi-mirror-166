@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/fujson.py
+src/fujson.egg-info/PKG-INFO
+src/fujson.egg-info/SOURCES.txt
+src/fujson.egg-info/dependency_links.txt
+src/fujson.egg-info/top_level.txt
