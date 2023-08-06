@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: saz
+Version: 0.0.9
+Summary: Testing installation of Package
+Home-page: https://github.com/samansiadati/saz
+Author: Saman Siadati
+Author-email: siadatisaman@gmail.com
+License: MIT
+Download-URL: https://github.com/samansiadati/saz/archive/refs/tags/saz.tar.gz
+Project-URL: Bug Tracker, https://github.com/samansiadati/saz/issues
+Description: Saz has been created to make it so easy for anyone to handle any kind of data and use it to dig more and find out about the story behind the features. 
+        It was written using pandas and tried to use very basic steps which can be understood by anyone, even Python beginners.
+        Please send me your feedback to this email: siadatisaman@gmail.com
+        
+        
+        
+        ....................................................................
+        
+        Saz means proper or worthy in ancient Persian(Parsig) (D. N. Mackenzie - A Concise Pahlavi Dictionary (School of Oriental & African Studies) (2002))
+        
+        
+        
+Keywords: pandas,manipulation,saz
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
