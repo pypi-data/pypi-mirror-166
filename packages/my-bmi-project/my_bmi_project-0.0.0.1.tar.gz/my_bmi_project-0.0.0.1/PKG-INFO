@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: my_bmi_project
+Version: 0.0.0.1
+Summary: My bmi project
+Home-page: https://www.naver.com
+Author: far_away
+Author-email: atker14@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
