@@ -1,0 +1,15 @@
+hespi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hespi/data/authority.txt,sha256=mls9GL8sAF52RJQedTNFo6igEzrjg5GrFXYR-9K7lAU,232565
+hespi/data/family.txt,sha256=T-crRn77BfSkaDM5j-fpcAR0zb1wSoa2ARSQQ8tsrRU,8992
+hespi/data/genus.txt,sha256=9v30_pYfb3Z0CF27R2CCdw448T70GXw1N63nWQujvSg,66177
+hespi/data/mk-lists.py,sha256=8ebBIVXGrtoWzJXD-srpfsMmPuhm0No4wc99luRTNVw,639
+hespi/data/species.txt,sha256=kK3gAKT_yGDUzAzYOOZJH9ncdwDhafkDT7Jv5HIDr0E,202814
+hespi/download.py,sha256=v6i5LfsZZu6rneaFhs4YxvnrQrppBu5ucmm467tK9s0,2452
+hespi/main.py,sha256=9P60tGYeXWozK_ecIPMe3g4lgj5XUNh31WxKgosDTZc,10136
+hespi/ocr.py,sha256=ZYEGMuDsvYcv6rHIzHARVevnix1Ivuph8gTUCdIs-TU,1592
+hespi/yolo.py,sha256=xjZffdnr1Xx76usFTcVK3GiFwpMdqUKfBBStV1-rd0s,1818
+hespi-0.2.0.dist-info/entry_points.txt,sha256=LD5u8EiA01qASpX3nM8D5FcPR2VJLGdztous8LjQDZ0,40
+hespi-0.2.0.dist-info/LICENSE,sha256=jwJ8BHrI7PxwAItimKhjYZQfwEIGJPhQZTHVH_nbu6U,10761
+hespi-0.2.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+hespi-0.2.0.dist-info/METADATA,sha256=Z_Wjobrd5iEkaxY_4O_fA7-AV5YgbOgg8MFYjNKDOVs,3860
+hespi-0.2.0.dist-info/RECORD,,
