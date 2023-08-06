@@ -1,0 +1,13 @@
+parsival/__init__.py,sha256=tA10sT6c2gX1ZyT5YRbEO6dN0IfK_iLNAUB-5auROEU,18445
+parsival/helper_rules.py,sha256=oieZ7U1UXZT9ZAfbXklWG29AHQkeI6FN1sedB603Y6Y,4434
+parsival/peg_grammar.py,sha256=-ssKdiTCvUoVMPUUYkMGKuwLpR1MhZPc3k5OdlLDS3M,3893
+parsival/scripts/grammar_generator/__main__.py,sha256=4KvVS5HP3djK2iHI6T09PnltG0K9ck9wrpzytNHtGEw,1879
+parsival/scripts/grammar_generator/custom_indent.py,sha256=L_6wbWUJ5OcEI21hRNEfXX4CRQGfwVNS_dJapkD31gc,921
+parsival/scripts/grammar_generator/gram_to_py.py,sha256=4UkBMgt2oad7jdJQJ-CVoX5aJ5AlnqGjscJF4XLmfMc,7072
+parsival/scripts/grammar_generator/postprocess.py,sha256=2k9IojZvC7kWCCMAoAm1ct_EcMVPpEKs7Q5ZmNWlf1U,582
+parsival-0.0.0a0.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+parsival-0.0.0a0.dist-info/METADATA,sha256=vZ4Aly0fZg6fZy2C8ppT9UwLgHl-Jbwb9pqxlFwjbTs,9785
+parsival-0.0.0a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+parsival-0.0.0a0.dist-info/entry_points.txt,sha256=UczFbcLxI3vPZcOquBcE7BNopUYTojNQmPTede_Xb-k,86
+parsival-0.0.0a0.dist-info/top_level.txt,sha256=WNeWF6FWJZ-zyJRp7oCQhUPFF_ZJla9-oWb7KpKfCII,9
+parsival-0.0.0a0.dist-info/RECORD,,
