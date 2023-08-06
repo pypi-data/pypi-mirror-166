@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+OrthogonalBarcodes.egg-info/PKG-INFO
+OrthogonalBarcodes.egg-info/SOURCES.txt
+OrthogonalBarcodes.egg-info/dependency_links.txt
+OrthogonalBarcodes.egg-info/top_level.txt
+src/OrthogonalBarcode.py
