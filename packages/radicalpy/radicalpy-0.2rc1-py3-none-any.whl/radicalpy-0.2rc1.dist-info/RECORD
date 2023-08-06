@@ -1,0 +1,11 @@
+radicalpy/__init__.py,sha256=gU6pBUlZeoJcxeo_LXNeLtmia4cMhQvJtYBwK_ecsAk,109
+radicalpy/pauli_matrices.py,sha256=86UeTmkxigE1SFyGFsUA0LTUcsvHTW7DjHC6Z761a8Y,1711
+radicalpy/simulation.py,sha256=i9xSAmKfoQyg-qhaoozSBOUAFVv8ATFFHeAjBlZbfeI,17200
+radicalpy/data/__init__.py,sha256=kRstQhnvSVQlHrz7yvGD1WKvbRc8US_qxBjpXwxPqR8,986
+radicalpy/data/spin_data.json,sha256=bjgEZuJaCHugS7C0B_0W46p47J2u6a2AEWqHKKfKYCk,27847
+radicalpy/data/molecules/adenine.json,sha256=6aB_PulXs-S3VDJypOlUnvftvfoclnIeKw0fm3XOs-A,402
+radicalpy-0.2rc1.dist-info/LICENSE,sha256=sw8yJEtj4G1VTpPSc37jEC5uKEHWT5Q7RyQtlrdFTD0,1068
+radicalpy-0.2rc1.dist-info/METADATA,sha256=cxdpxdyljwyam5w0RnwgAJwL5TKgqeYfjVdKsYoR7os,411
+radicalpy-0.2rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+radicalpy-0.2rc1.dist-info/top_level.txt,sha256=a-V_5fFMqA1DGjmgk2aL4tgWQ4JyAifIMYx4j6r_pzY,10
+radicalpy-0.2rc1.dist-info/RECORD,,
