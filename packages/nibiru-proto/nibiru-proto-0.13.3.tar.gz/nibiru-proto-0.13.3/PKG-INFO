@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: nibiru-proto
+Version: 0.13.3
+Summary: Types generated from the Nibiru protocol buffers.
+License: MIT
+Author: Nibiru Chain
+Author-email: dev@nibiru.fi
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: bech32 (>=1.2.0,<2.0.0)
+Requires-Dist: grpcio (>=1.48.0,<2.0.0)
+Requires-Dist: grpcio-tools (==1.48.0)
+Requires-Dist: importlib (>=1.0.4,<2.0.0)
+Requires-Dist: mypy-protobuf (>=3.2.0,<4.0.0)
+Requires-Dist: protobuf (==3.20.1)
