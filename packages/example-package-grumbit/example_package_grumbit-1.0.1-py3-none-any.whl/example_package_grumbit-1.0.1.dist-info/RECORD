@@ -1,0 +1,8 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_package_grumbit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_package_grumbit/example.py,sha256=vPWE4kgzhat6ptTxHWI-fEgibnfjj3zxlBZKtsep7o4,112
+example_package_grumbit-1.0.1.dist-info/LICENSE,sha256=ZcXqVlPytdAaarpIbXdjCllYxKgkyvBkc0oMWbC4dgI,1061
+example_package_grumbit-1.0.1.dist-info/METADATA,sha256=XTnDMG1Rk7yMZgRZHuxHZR3_U30NW8UGxK3Bw9oEvXw,11027
+example_package_grumbit-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+example_package_grumbit-1.0.1.dist-info/top_level.txt,sha256=VsJ66WUQ6cCA5_3-0TZH6dlio38CGP-wkRfewJ1U5qM,33
+example_package_grumbit-1.0.1.dist-info/RECORD,,
