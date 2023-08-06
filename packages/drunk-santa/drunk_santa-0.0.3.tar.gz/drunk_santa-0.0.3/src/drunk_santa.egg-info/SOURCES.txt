@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/drunk_santa/__init__.py
+src/drunk_santa/beer.py
+src/drunk_santa/client.py
+src/drunk_santa/config.py
+src/drunk_santa.egg-info/PKG-INFO
+src/drunk_santa.egg-info/SOURCES.txt
+src/drunk_santa.egg-info/dependency_links.txt
+src/drunk_santa.egg-info/requires.txt
+src/drunk_santa.egg-info/top_level.txt
