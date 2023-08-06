@@ -1,0 +1,3 @@
+[console_scripts]
+convert_open_ephys_to_miv=scripts.convert_open_ephys_to_miv:main
+
