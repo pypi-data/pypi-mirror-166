@@ -1,0 +1,4 @@
+ConfigObj
+pillow
+pyx
+tk
