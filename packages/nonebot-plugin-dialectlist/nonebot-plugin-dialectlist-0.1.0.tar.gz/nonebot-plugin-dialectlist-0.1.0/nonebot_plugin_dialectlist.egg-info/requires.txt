@@ -1,0 +1,4 @@
+nonebot_plugin_datastore
+nonebot_plugin_chatrecorder
+nonebot-adapter-onebot
+onebot_plugin_guild_patch
