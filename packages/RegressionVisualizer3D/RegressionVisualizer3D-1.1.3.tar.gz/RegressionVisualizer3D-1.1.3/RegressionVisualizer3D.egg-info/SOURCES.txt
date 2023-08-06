@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+RegressionVisualizer3D/__init__.py
+RegressionVisualizer3D/visualizer.py
+RegressionVisualizer3D.egg-info/PKG-INFO
+RegressionVisualizer3D.egg-info/SOURCES.txt
+RegressionVisualizer3D.egg-info/dependency_links.txt
+RegressionVisualizer3D.egg-info/top_level.txt
