@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fastapi-example-server
+Version: 0.1.1
+Summary: 
+License: MIT
+Author: Julian Lechner
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Faker (>=14.2.0,<15.0.0)
+Requires-Dist: fastapi[all] (>=0.81.0,<0.82.0)
