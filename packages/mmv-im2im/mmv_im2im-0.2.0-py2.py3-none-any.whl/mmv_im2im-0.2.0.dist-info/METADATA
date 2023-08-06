@@ -1,0 +1,178 @@
+Metadata-Version: 2.1
+Name: mmv-im2im
+Version: 0.2.0
+Summary: A python package for deep learing based image to image transformation
+Home-page: https://github.com/MMV-Lab/mmv_im2im
+Author: Jianxu Chen
+Author-email: jianxuchen.ai@gmail.com
+License: MIT license
+Keywords: deep learning,microscopy image analysis,biomedical image analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytorch-lightning
+Requires-Dist: monai
+Requires-Dist: aicsimageio
+Requires-Dist: pandas
+Requires-Dist: scikit-image
+Requires-Dist: einops
+Requires-Dist: numba
+Requires-Dist: protobuf (<4.21.0)
+Requires-Dist: pyrallis
+Requires-Dist: scikit-learn
+Provides-Extra: all
+Requires-Dist: pytorch-lightning ; extra == 'all'
+Requires-Dist: monai ; extra == 'all'
+Requires-Dist: aicsimageio ; extra == 'all'
+Requires-Dist: pandas ; extra == 'all'
+Requires-Dist: scikit-image ; extra == 'all'
+Requires-Dist: einops ; extra == 'all'
+Requires-Dist: numba ; extra == 'all'
+Requires-Dist: protobuf (<4.21.0) ; extra == 'all'
+Requires-Dist: pyrallis ; extra == 'all'
+Requires-Dist: scikit-learn ; extra == 'all'
+Requires-Dist: pytest-runner (>=5.2) ; extra == 'all'
+Requires-Dist: black (>=19.10b0) ; extra == 'all'
+Requires-Dist: codecov (>=2.1.4) ; extra == 'all'
+Requires-Dist: flake8 (>=3.8.3) ; extra == 'all'
+Requires-Dist: flake8-debugger (>=3.2.1) ; extra == 'all'
+Requires-Dist: pytest (>=5.4.3) ; extra == 'all'
+Requires-Dist: pytest-cov (>=2.9.0) ; extra == 'all'
+Requires-Dist: pytest-raises (>=0.11) ; extra == 'all'
+Requires-Dist: bump2version (>=1.0.1) ; extra == 'all'
+Requires-Dist: coverage (>=5.1) ; extra == 'all'
+Requires-Dist: ipython (>=7.15.0) ; extra == 'all'
+Requires-Dist: m2r2 (>=0.2.7) ; extra == 'all'
+Requires-Dist: Sphinx (>=3.4.3) ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme (>=0.5.1) ; extra == 'all'
+Requires-Dist: tox (>=3.15.2) ; extra == 'all'
+Requires-Dist: twine (>=3.1.1) ; extra == 'all'
+Requires-Dist: wheel (>=0.34.2) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: pytest-runner (>=5.2) ; extra == 'dev'
+Requires-Dist: black (>=19.10b0) ; extra == 'dev'
+Requires-Dist: codecov (>=2.1.4) ; extra == 'dev'
+Requires-Dist: flake8 (>=3.8.3) ; extra == 'dev'
+Requires-Dist: flake8-debugger (>=3.2.1) ; extra == 'dev'
+Requires-Dist: pytest (>=5.4.3) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.9.0) ; extra == 'dev'
+Requires-Dist: pytest-raises (>=0.11) ; extra == 'dev'
+Requires-Dist: bump2version (>=1.0.1) ; extra == 'dev'
+Requires-Dist: coverage (>=5.1) ; extra == 'dev'
+Requires-Dist: ipython (>=7.15.0) ; extra == 'dev'
+Requires-Dist: m2r2 (>=0.2.7) ; extra == 'dev'
+Requires-Dist: Sphinx (>=3.4.3) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (>=0.5.1) ; extra == 'dev'
+Requires-Dist: tox (>=3.15.2) ; extra == 'dev'
+Requires-Dist: twine (>=3.1.1) ; extra == 'dev'
+Requires-Dist: wheel (>=0.34.2) ; extra == 'dev'
+Provides-Extra: quick
+Requires-Dist: quilt3 ; extra == 'quick'
+Provides-Extra: setup
+Requires-Dist: pytest-runner (>=5.2) ; extra == 'setup'
+Provides-Extra: test
+Requires-Dist: black (>=19.10b0) ; extra == 'test'
+Requires-Dist: codecov (>=2.1.4) ; extra == 'test'
+Requires-Dist: flake8 (>=3.8.3) ; extra == 'test'
+Requires-Dist: flake8-debugger (>=3.2.1) ; extra == 'test'
+Requires-Dist: pytest (>=5.4.3) ; extra == 'test'
+Requires-Dist: pytest-cov (>=2.9.0) ; extra == 'test'
+Requires-Dist: pytest-raises (>=0.11) ; extra == 'test'
+
+# MMV Im2Im Transformation
+
+[![Build Status](https://github.com/MMV-Lab/mmv_im2im/workflows/Build%20Main/badge.svg)](https://github.com/MMV-Lab/mmv_im2im/actions)
+[![Documentation](https://github.com/MMV-Lab/mmv_im2im/workflows/Documentation/badge.svg)](https://MMV-Lab.github.io/mmv_im2im/)
+
+A generic python package for deep learning based image-to-image transformation in biomedical applications
+
+(We are actively working on the documentation and tutorials. Submit a feature request if there is anything you need.)
+
+---
+
+## Overview
+
+The overall package is designed with a generic image-to-image transformation framework, which could be directly used for semantic segmentation, instance segmentation, image restoration, image generation, labelfree prediction, staining transformation, etc.. The implementation takes advantage of the state-of-the-art ML engineering techniques for users to focus on researches without worrying about the engineering details. In our pre-print [arxiv link](https://arxiv.org/abs/2209.02498), we demonstrated the effectiveness of *MMV_Im2Im* in more than ten different biomedical problems/datasets. 
+
+* For biomedical machine learning researchers, we hope this new package could serve as the starting point for their specific problems to stimulate new biomedical image analysis or machine learning methods. 
+* For experimental biomedical researchers, we hope this work can provide a holistic view of the image-to-image transformation concept with diverse examples, so that deep learning based image-to-image transformation could be further integrated into the assay development process and permit new biomedical studies that can hardly be done only with traditional experimental methods
+
+
+## Installation
+
+We recommend to [create a new conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands) or [a virtual environment](https://docs.python.org/3/library/venv.html) with Python 3.9.
+
+### basic installation
+
+(for users only using this package, not planning to change any code or make any extension):
+
+**Stable Release:** `pip install mmv_im2im`<br>
+**Development Head:** `pip install git+https://github.com/MMV-Lab/mmv_im2im.git`
+
+### build from source
+
+(for users planning to extend the methods or improve the code):
+
+```
+git clone https://github.com/MMV-Lab/mmv_im2im.git
+cd mmv_im2im
+pip install -e .[all]
+```
+
+Note: The `-e` option is the so-called "editable" mode. This will allow code changes taking effect immediately.
+
+
+## Quick start / Try out on a simple example
+
+Here, we use a [3D labelfree prediction](https://www.allencell.org/label-free-determination.html#:~:text=The%20Label-Free%20Determination%20model%20can%20leverage%20the%20specificity,structures.%20How%20does%20the%20label-free%20determination%20model%20work%3F) as an example. (If you followed [basic installation](#basic-installation), you will need to install the `quilt3` package by `pip install quilt3`, in order to download the data programmatically.)
+
+**step 1 (data preparation):**, we pull 100 examples of lamin B1 images and the corresponding brightfield images from the AllenCell quilt bucket by running the following in the command line. 
+
+```bash
+# Suppose the current working directory is the root of mmv_im2im
+python  scripts/pull_labelfree_sample_data.py --download_path /path/to/save/the/downloaded/images/ --structure LMNB1 --num 100 
+```
+
+**step 2 (train):** Now, we can train a labelfree model like this:
+```bash
+# Suppose the current working directory is the root of mmv_im2im
+run_im2im --config train_labelfree_3d  --data.data_path /path/to/save/the/downloaded/train
+```
+
+This will apply all the default settings to train the 3D labelfree model. The training will stop after 100 epochs, 
+
+**step 3 (test):** 
+
+Suppose you run the training under the root of mmv_im2im. Then you will find a folder `mmv_im2im/lightning_logs/checkpoints`, where you can find several trained model. Here, we test with the model after the full training `last.ckpt` (other models are intermediate results for debugging purpose) by running:
+
+```bash
+# Suppose the current working directory is the root of mmv_im2im
+run_im2im --config inference_labelfree_3d --data.inference_input.dir /path/to/save/the/downloaded/holdout --data.inference_output.path /path/to/save/predictions/ --model.checkpoint lightning_logs/checkpoints/last.ckpt
+```
+
+## Walk-through Guide
+
+We provide [a tutorial](tutorials/README.md) for users to understand how to enjoy both the simplicity and the full flexibility of the package. 
+
+
+## API Documentation
+
+For full package API (i.e., the technical details of each function), please visit [MMV-Lab.github.io/mmv_im2im](https://MMV-Lab.github.io/mmv_im2im).
+
+
+## Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for information related to developing the code.
+
+
+**MIT license**
+
+
+
