@@ -1,0 +1,13 @@
+fastapi_example_server/.DS_Store,sha256=7BfZj2UIkfrSbafB8ImApOyr2SjYMZ3Sxs2h8T9ZREY,6148
+fastapi_example_server/__init__.py,sha256=g9hgi0DrHd2kl5w1EFMPk6n7IpCnwkZ0T8mu-9nIK4Q,66
+fastapi_example_server/app.py,sha256=oIsdwEJd23_3xjMqSXIQoRSr90mNGR4ydA0b3F8WlzU,45
+fastapi_example_server/doc.py,sha256=K4_52upJmgIzbce_SZYfRfycZ2QcvBdS5Y91Z4ndNcs,364
+fastapi_example_server/dummy_data.py,sha256=k6MXVQOTq5kkwTLVZPffEaHtmvdZ-1mSmGF2t9KAZvw,1079
+fastapi_example_server/exceptions.py,sha256=UVubvCsdfpxUSv6dzk06ellVjEfZwn1LVvVyt7a1Yek,811
+fastapi_example_server/main.py,sha256=CTM7Zovh9zz9lxWwGqst81108gpty8GYEQ3e-V39YN4,1895
+fastapi_example_server/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_example_server/models/items.py,sha256=uemFMM63trG_WHyF3JQIv81n_JJWFSM-Oe2TvaTRfvc,659
+fastapi_example_server-0.1.0.dist-info/entry_points.txt,sha256=y_Kst1pQfROdKRqd48eak7zPIrkJ-ZdKRpyMZ5o1PAU,93
+fastapi_example_server-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+fastapi_example_server-0.1.0.dist-info/METADATA,sha256=p8eCwbBYPa7QviAhK-jQwzH-0Hzc7jpTV8QJ_9-LYAs,331
+fastapi_example_server-0.1.0.dist-info/RECORD,,

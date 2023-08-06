@@ -1,0 +1,4 @@
+[console_scripts]
+doc=fastapi_example_server.doc:main
+main=fastapi_example_server.main:main
+
