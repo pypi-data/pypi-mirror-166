@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pymcd
+Version: 0.1.0
+Summary: Calculate Mel-Cepstral Distortion (MCD)
+Home-page: https://github.com/chenqi008/pymcd
+Author: QiChen
+Author-email: <chenqi.china@outlook.com>
+License: MIT
+Description: Python package for calculating Mel-Cepstral Distortion (MCD) value between two audios
+Keywords: python,Mel-Cepstral Distortion (MCD)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
