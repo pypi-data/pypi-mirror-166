@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+w3pyconnect.egg-info/PKG-INFO
+w3pyconnect.egg-info/SOURCES.txt
+w3pyconnect.egg-info/dependency_links.txt
+w3pyconnect.egg-info/top_level.txt
+wind3/__init__.py
+wind3/__main__.py
+wind3/exceptions.py

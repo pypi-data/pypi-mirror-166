@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: w3pyconnect
+Version: 1.0.0
+Summary: Library to get your available Voice, SMS and Data from Wind3
+Author-email: Edoardo Fullin <edoardo.fullin@outlook.com>
+Project-URL: Homepage, https://github.com/edofullin/w3pyconnect
+Project-URL: Bug Tracker, https://github.com/edofullin/w3pyconnect/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# w3pyconnect
+
+Library used to retrieve available voice, sms and data of your Very or Wind3 (not tested) mobile plan.
