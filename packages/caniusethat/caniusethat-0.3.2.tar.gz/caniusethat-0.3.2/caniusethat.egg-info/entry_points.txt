@@ -1,0 +1,2 @@
+[console_scripts]
+caniusethat-cli = caniusethat.cli:run_cli
