@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "azcam-ds9"
+version = "22.3"
+description = "Azcam extension for SAO's ds9 image display"
+authors = ["Michael Lesser <mlesser@arizona.edu>"]
+license = "LICENSE"
+readme = "README.md"
+keywords=["ccd", "imaging", "astronomy", "sensors"]
+repository = "https://github.com/mplesser/azcam-ds9/"
+documentation = "https://mplesser.github.io/azcam/"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "*"
+astropy="*"
+azcam = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
