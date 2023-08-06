@@ -1,0 +1,30 @@
+/* copy of django's #toolbar */
+#admin-dashboard-filter-toolbar {
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border-top: 1px solid var(--hairline-color);
+    border-bottom: 1px solid var(--hairline-color);
+    background: var(--darkened-bg);
+    color: var(--body-quiet-color);
+}
+
+/* combination of django's #toolbar #searchbar & #toolbar form input */
+#admin-dashboard-filter {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: var(--body-bg);
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 5px;
+    color: var(--body-fg);
+    border: 1px solid var(--border-color);
+    margin: 0;
+    vertical-align: top;
+}
+.admin-dashboard-filter--hidden {
+    display: none;
+}
+
+#nav-sidebar #admin-dashboard-filter-toolbar {
+    margin-top: 15px;
+}

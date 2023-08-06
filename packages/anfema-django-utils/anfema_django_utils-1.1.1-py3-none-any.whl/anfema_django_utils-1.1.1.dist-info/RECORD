@@ -1,0 +1,15 @@
+anfema_django_utils/__init__.py,sha256=sigXpRYXR9E6DsEe3E2vL56ItJ9llAtD2x9T21ieAt4,101
+anfema_django_utils/apps/__init__.py,sha256=t4cmw3-trl5STEkBjywywRkSyBu3SpwSmZgVs0YFSjI,49
+anfema_django_utils/apps/admin_modelfilter/__init__.py,sha256=FP2o3vznuxGWLLdwjKsbcXrnuuGadD35W0BZpcWRMB4,294
+anfema_django_utils/apps/admin_modelfilter/apps.py,sha256=SrROjALc2GQfEB_DBzPP4GhRqkxHB6NF3ok0nohL_pA,190
+anfema_django_utils/apps/admin_modelfilter/tests.py,sha256=d_LYR7X5gRMS4_S7p_-cESCLmNTVHqJmkTLMQMxj9ts,470
+anfema_django_utils/apps/admin_modelfilter/static/admin/css/modelfilter.css,sha256=h2dfyPFKR5ynucMJ4W5yJmM0zbzlCoz1ceKxqoy6jcc,773
+anfema_django_utils/apps/admin_modelfilter/static/admin/js/modelfilter.js,sha256=bqu6TFYVbpfueXTI78RqEOSZ4CCwtse8B3R4ozIokwQ,2909
+anfema_django_utils/apps/admin_modelfilter/templates/admin/base_site.html,sha256=QOKU5gxWeqVF-d7i0v0lveErBS9M61evOcJogdcWm0c,338
+anfema_django_utils/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anfema_django_utils/db/functions.py,sha256=bQYD2lwhIlh__tqunBgDYmzzZ_TSuqMeTatr1rPbeuY,1701
+anfema_django_utils-1.1.1.dist-info/LICENSE,sha256=z5zR1gD23-8W2fKhD2r9uqpcdlIOV6tvIcVWS3G0AwI,1068
+anfema_django_utils-1.1.1.dist-info/METADATA,sha256=PIKeA-85rLZsuizAuuPoyUR13FZDM0EkyOJdzIkHSKc,850
+anfema_django_utils-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+anfema_django_utils-1.1.1.dist-info/top_level.txt,sha256=SwSvhKpq2fUT255BJg8uec_dfbM7OlUqP8I6sKiaFfE,20
+anfema_django_utils-1.1.1.dist-info/RECORD,,
