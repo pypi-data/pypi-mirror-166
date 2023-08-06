@@ -1,0 +1,15 @@
+.DS_Store
+.idea
+.testmondata
+Pipfile
+Pipfile.lock
+build/
+docs/_build/
+examples/.ipynb_checkpoints/
+src/transmorph.egg-info
+src/transmorph/__pycache__/
+src/transmorph/datasets/data/
+**/__pycache__/**
+.pre-commit-config.yaml
+**/figures/**
+**/logs/**
