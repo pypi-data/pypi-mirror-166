@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: wagtail-rps-template
+Version: 1.1.0
+Summary: Wagtail Admin customising for red pepper Customer
+Home-page: https://github.com/red-pepper-services/wagtail-rps-template
+Author: Manuel Schiegg
+Author-email: pypi@schiegg.at
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Wagtail
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+
+===========================
+Wagtail red pepper Template
+===========================
+
+An app that customising the Wagtail Admin Interface for red pepper Customer.
+
+
+Installation
+============
+
+Recommended way to install is ``pip``::
+
+  pip install wagtail-rps-template
+
+
+* Add ``wagtail_rps`` to ``INSTALLED_APPS`` in settings.py before ``wagtail.admin`` ::
+
+    INSTALLED_APPS = [
+      "wagtail_rps",
+      ...
+    ]
+
+Notes
+============
+
+Publishing to PyPI::
+
+	python -m pip install -U wheel twine setuptools
+	python setup.py sdist
+	python setup.py bdist_wheel
+	twine upload --skip-existing dist/*

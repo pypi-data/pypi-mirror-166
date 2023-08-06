@@ -1,0 +1,16 @@
+1.0.0
+
+* Initial release
+
+1.0.1
+
+* Bug fixes
+
+1.0.2
+
+* Bug fixes
+
+1.1.0
+
+* Add Wagtail 4 Support
+* Drop Wagtail 3 Support (use v 1.0.2 instead)

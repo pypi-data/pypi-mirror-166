@@ -1,0 +1,26 @@
+{% extends "wagtailadmin/login.html" %}
+{% load i18n wagtailadmin_tags %}
+{% load static %}
+
+{% block titletag %}Anmelden{% endblock %}
+
+{% block branding_login %}Bei Bendigo anmelden{% endblock %}
+
+{% block above_login %}
+<div class="login-brand">
+	<img src="{% static 'wagtailrps/images/logo.jpg' %}" alt="Logo - red pepper Services" />
+</div>
+{% endblock %}
+
+{% block below_login %}
+<div class="container-fluid">
+	<div class="row">
+		<div class="credits ml-auto">
+			<span class="copyright">
+				© 2022, Proudly made in the Alps by <a href="https://www.red-pepper.at" target="_blank">red pepper Services</a> with <a href="https://github.com/wagtail/wagtail" rel="nofollow" target="_blank">wagtail</a>
+			</span>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
