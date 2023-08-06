@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+academic_avocado_namer/__init__.py
+academic_avocado_namer/__main__.py
+academic_avocado_namer/__meta__.py
+academic_avocado_namer/word_lists.py
+academic_avocado_namer.egg-info/PKG-INFO
+academic_avocado_namer.egg-info/SOURCES.txt
+academic_avocado_namer.egg-info/dependency_links.txt
+academic_avocado_namer.egg-info/top_level.txt

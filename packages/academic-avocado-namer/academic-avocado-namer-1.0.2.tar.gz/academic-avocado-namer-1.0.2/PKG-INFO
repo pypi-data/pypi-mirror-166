@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: academic-avocado-namer
+Version: 1.0.2
+Summary: Generate names for things with phonetic alliteration - use with GUIDs for easy identification.
+Home-page: https://github.com/darenr/academic-avocado-namer
+Author: Daren Race
+Author-email: daren.race@gmail.com
+License: Apache License, Version 2.0, January 2004
+Keywords: random name generator
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![academic avocado](https://github.com/darenr/academic-avocado-namer/blob/main/academic-avocado.png?raw=true)
+
+*DallE generated project mascot*
+
+
+# academic-avocado-namer
+
+[![License](https://img.shields.io/badge/license-Apache-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
+[![PyPI Version](https://img.shields.io/pypi/v/academic-avocado-namer.svg?style=flat&color=blue)](https://pypi.org/project/academic-avocado-namer)
+[![Python Versions](https://img.shields.io/pypi/pyversions/academic-avocado-namer.svg?logo=python&logoColor=white&style=flat)](https://pypi.org/project/academic-avocado-namer)
+
+
+Name things with better names than GUIDs, use in combination with
+GUIDs or datetimes.
+
+## module main
+
+```
+python -m academic_avocado_namer
+```
+
+## local development
+
+```
+pip install -e .
+```
+
+## run tests:
+
+```
+pip install -e .
+pytest
+```
+
+## Example API usage
+
+```
+>>> from academic_avocado_namer import generate_name
+>>> generate_name()
+'handy-human'
+
+# Use a different join character:
+
+>>> generate_name(joiner=".")
+'corny.camel'
+
+# seed with a random number
+
+>>> generate_name(seed=42)
+'delightful-donkey'
+
+# use plants instead of animals
+
+>>> generate_name(prefer_plants=True)
+'irritating-inkberry'
+
+```
+
+https://pypi.org/project/academic-avocado-namer
