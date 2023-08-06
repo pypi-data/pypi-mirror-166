@@ -1,0 +1,16 @@
+optimum
+transformers>=4.17.0
+datasets
+torch
+sentencepiece
+scipy
+neural_compressor
+
+[quality]
+black
+isort
+hf-doc-builder@ git+https://github.com/huggingface/doc-builder.git
+
+[tests]
+pytest
+parameterized
