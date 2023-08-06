@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: HSbmi
+Version: 0.0.0.1
+Summary: My First Test Package
+Author: Hyeonsun Baek
+Author-email: hyunsunbaik@naver.com
+License: MIT
+Requires-Python: >=3
+
