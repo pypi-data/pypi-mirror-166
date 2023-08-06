@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pdf-outline-tool
+Version: 0.0.3
+Summary: Extract or add pdf outline
+Home-page: https://github.com/xirenhua/pdf_outline
+Author: xirenhua
+Author-email: xirenhua@outlook.com
+Description-Content-Type: text/markdown
+Requires-Dist: PyPDF2
+Requires-Dist: click
+
