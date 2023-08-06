@@ -1,0 +1,15 @@
+onboardapis/__init__.py,sha256=Frc5lVWYMK0uDel3wGnzdLQtYilk3A037SbZONZG_04,466
+onboardapis/exceptions.py,sha256=YLY7WhoALLNrguei5a4s5x2RyUPgbCc7aflGURxjNBQ,1040
+onboardapis/trains/__init__.py,sha256=z7Qaw9G-kjR_rO5HeGniFMoRtuQL1TkWvFwF_KMLrgE,13581
+onboardapis/trains/austria/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onboardapis/trains/austria/oebb.py,sha256=dOv0Jwk7JqnlqCrirKOrtLJwQaehPih8KpNjdcRB0Tc,7221
+onboardapis/trains/germany/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onboardapis/trains/germany/db.py,sha256=tnuuLM1Oo5RcUDOnjd3rsM7BHXPBjj9Q4IE3kuhJPco,11897
+onboardapis/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+onboardapis/utils/conversions.py,sha256=Qy4qgReJeE79L3Ph0B6-3M5ap5tMZ69prMwpLkHqyEE,3987
+onboardapis/utils/data.py,sha256=TvCqRRJiatCXKoiCgL5N0kECP8INOdYpYp44W2X7VV4,13048
+onboardapis-1.2.0.dist-info/LICENSE,sha256=UTT3XoUuCpN01lh9hyWmQgLht9mpcbozR0btVIjJxhk,1066
+onboardapis-1.2.0.dist-info/METADATA,sha256=i7uIbtFxbhNMRzGT-BAgf8_EaFo12lMcfR9Nl3qL9e4,4518
+onboardapis-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+onboardapis-1.2.0.dist-info/top_level.txt,sha256=9IUPusEq9WGiT3Owrjzpl1TatEN-Yi7dR5KIh-w6m3g,12
+onboardapis-1.2.0.dist-info/RECORD,,
