@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling", "seaborn==0.11.2", "numpy==1.20.3", "scipy==1.7.1", "biopython==1.79", "matplotlib==3.4.3"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyMSA_plot"
+version = "0.0.1"
+authors = [
+  { name="Khalimat A. Murtazalieva", email="kam@ebi.ac.uk" },
+]
+description = "A package to plot MSA"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Khalimat/pyMSA_plot"
+"Bug Tracker" = "https://github.com/Khalimat/pyMSA_plot/issues"
