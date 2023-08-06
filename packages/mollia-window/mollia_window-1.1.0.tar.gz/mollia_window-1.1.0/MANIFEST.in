@@ -1,0 +1,3 @@
+recursive-include mollia_window *.cpp *.hpp *.h
+include README.md
+include LICENSE
