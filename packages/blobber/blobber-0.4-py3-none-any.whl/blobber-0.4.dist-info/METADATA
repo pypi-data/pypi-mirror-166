@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: blobber
+Version: 0.4
+Summary: A cathode spot motion detection & analysis program
+Home-page: UNKNOWN
+Author: Jiongyu (Joey) Liang
+Author-email: joey.liang@sydney.edu.au
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-image
+Requires-Dist: Pillow
+Requires-Dist: joblib
+
+CSMAP-Blobber stands for Cathode Spot Motion Analysis Packages. Blobber is the first of this software written specifically for the Hamamatsu streak camera C4187.
+
