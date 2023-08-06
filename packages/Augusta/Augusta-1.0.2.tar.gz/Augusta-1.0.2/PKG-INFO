@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: Augusta
+Version: 1.0.2
+Summary: Python package for inference of the gene regulatory network and the boolean network using RNA-Seq data.
+Home-page: https://github.com/JanaMus/Augusta
+Author: Jana Musilova, Zdenek Vafek, Karel Sedlar
+Author-email: musilovajana@vut.cz
+License: MIT
+Keywords: Computational biology,Bioinformatics,RNA-Seq,mutual information,database,Boolean network,Gene Regulatory network,SBML
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3, <3.9
+License-File: LICENSE
+
+Augusta
+==========
+
+Python package: From RNA-Seq to the Boolean Network through the Gene Regulatory Network
+
+Documentation and tutorials are available at `augusta.readthedocs.io <https://augusta.readthedocs.io>`_
+
+Quick Guide
+----------------
+
+**Installation:**
+
+.. code-block::
+
+   $ pip3 install Augusta
+
+Dependencies:
+
+- Python 3, up to 3.8
+- Docker
+
+**Usage:**
+
+.. code-block:: 
+
+   $ python3
+   >>> import Augusta
+   
+GRN and BN inference using RNA-Seq:
+
+.. code-block:: 
+
+   >>> Augusta.RNASeq_to_SBML(count_table_input, promoter_length, genbank_file_input, normalization_type)
+
+GRN inference using RNA-Seq:
+
+.. code-block:: 
+
+   >>> GRN = Augusta.RNASeq_to_GRN(count_table_input, promoter_length, genbank_file_input, normalization_type)
+
+
+BN inference using GRN:
+
+.. code-block:: 
+
+   >>> Augusta.GRNtoBN(GRN_input, promoter_length, genbank_file_input, add_dbs_info)
+
+
