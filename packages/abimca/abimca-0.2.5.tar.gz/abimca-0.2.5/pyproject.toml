@@ -1,0 +1,70 @@
+[tool.poetry]
+name = "abimca"
+version = "0.2.5"
+description = "Autoencoder based iterative modeling and multivariate time-series subsequence clustering algorithm (ABIMCA)"
+authors = ["Jonas Köhne <jokohonas@gmail.com>"]
+maintainers = ["Jonas Köhne <jokohonas@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+repository = "https://github.com/Jokonu/abimca"
+keywords = ["time-series", "multivariate", "autoencoder", "subsequence", "identification", "clustering", "algorithm"]
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Scientific/Engineering",
+    "Intended Audience :: Science/Research",
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+torch = "^1.12.1"
+pandas = "^1.4.3"
+numpy = "^1.23.2"
+matplotlib = "^3.5.3"
+scipy = "^1.9.0"
+scikit-learn = "^1.1.2"
+tqdm = "^4.64.0"
+coloredlogs = "^15.0.1"
+
+
+[tool.poetry.dev-dependencies]
+isort = "^5.10.1"
+black = "^22.6.0"
+flake8 = "^5.0.4"
+pylint = "^2.14.5"
+bumpver = "^2022.1118"
+mt3scm = "^0.4.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+py_version=39
+import_heading_stdlib="Standard Libraries"
+import_heading_firstparty="Own Libraries"
+import_heading_thirdparty="Third Party Libraries"
+import_heading_localfolder="Local Scripts"
+
+[tool.bumpver]
+current_version = "0.2.5"
+version_pattern = "MAJOR.MINOR.PATCH[PYTAGNUM]"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
+"CITATION.cff" = [
+    "^version: {version}",
+]
+"abimca/__init__.py" = [
+    '__version__ = "{version}"'
+]
