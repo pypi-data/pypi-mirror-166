@@ -1,0 +1,7 @@
+beautifulsoup4==4.9.0
+types-beautifulsoup4==4.11.6
+
+[dev]
+pre-commit
+setuptools>=46.4.0
+types-setuptools
