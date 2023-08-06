@@ -1,0 +1,1 @@
+SegmentApp is a Django app to make easy integrations with Segment
