@@ -1,0 +1,4 @@
+lxml<5,>=4.2.1
+cryptography>=2.1.4
+pyOpenSSL>=17.5.0
+certifi>=2018.1.18
