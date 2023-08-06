@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pyview
+Version: 1.1.0
+Summary: A Simple GUI creator for python using wxpython. Combined with numpy, meant as an open source labview replacement.
+Home-page: https://github.com/jesseengel/PyView
+Author: Jesse Engel
+Author-email: jesse.engel@gmail.com
+License: MIT
+Keywords: scientific data_aquisition GUI
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Utilities
+Classifier: Topic :: Home Automation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: fonttools (==4.37.1)
+Requires-Dist: kiwisolver (==1.4.4)
+Requires-Dist: matplotlib (==3.5.3)
+Requires-Dist: numpy (==1.23.2)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: Pillow (==9.2.0)
+Requires-Dist: pyFirmata (==1.1.0)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: pyserial (==3.5)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pythonw (==3.0.3)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: wxPython (==4.2.0)
+
