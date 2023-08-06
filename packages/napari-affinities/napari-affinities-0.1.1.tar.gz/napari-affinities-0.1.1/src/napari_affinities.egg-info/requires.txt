@@ -1,0 +1,7 @@
+numpy
+zarr
+magicgui
+bioimageio.core
+gunpowder
+affogato
+matplotlib

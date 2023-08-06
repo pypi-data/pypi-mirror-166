@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-affinities = napari_affinities:napari.yaml
