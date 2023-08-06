@@ -1,0 +1,14 @@
+__init__.py,sha256=EdYDB8OqDO9a-wVDpQZg_yqEJVd8AjcaNlKNJ_kwq94,262
+base_types.py,sha256=MddTEpYjmdT5wmfbWU2Ph_op6-TOKL9zHLfjeny1E_8,9232
+basic_types.py,sha256=ZEllGHMh-YOICvoOpPReLqr1o-FpaXjExDNo_eY4QsQ,3933
+structured.py,sha256=NwMY5UvEzF_EbAJCf5J10qlJEeEdwy4teeuzxvF9lbM,12205
+type_checking.py,sha256=c7T5hbJA9wrTMFGewRKhMJ-sQvmBb9lyhI3XICrAK3E,1799
+utils.py,sha256=LLrDRP_P2Lx5coKhCUMZDzG0_yAJXp882zATcZKK0jk,1490
+complex_types/__init__.py,sha256=LdDQh4632T1-Rw_cBihznb1HkIV0gj6fOc4swvzExHg,45
+complex_types/arrays.py,sha256=nFwX87pl2YLxxV_4GF7zpPkRTes_1CCqjwVea0WeocA,34365
+complex_types/strings.py,sha256=SbuNsUutQ2TEUNzyDwZNlKsgBYKH-6GujTEfaihQqV4,14863
+structured_classes-2.0.dist-info/LICENSE,sha256=X1-oQow2-ESQkCyL1Rh1G-qJIjf9vH7kHemiu-mw5Zw,1514
+structured_classes-2.0.dist-info/METADATA,sha256=0uKyElcNjszfYdcet-31k6fhjXLaM8kB-dZNy-ur-uE,12770
+structured_classes-2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+structured_classes-2.0.dist-info/top_level.txt,sha256=uApDC0CB4HzAMSkf0itYZL321Jo9uMwADQIEejkhXgA,77
+structured_classes-2.0.dist-info/RECORD,,
