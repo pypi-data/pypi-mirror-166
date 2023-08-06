@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: rnadecoder
+Version: 1.0.4
+Summary: Use genetic code table as a basis for translating a strand of mRNA.
+Home-page: https://github.com/FortiHub/rnadecoder
+Author: Rodrigo Forti
+Author-email: rodrigofort14@gmail.com
+License: MIT
+Project-URL: Código fonte, https://github.com/FortiHub/rnadecoder
+Project-URL: Download, https://github.com/FortiHub/rnadecoder/archive/refs/heads/main.zip
+Keywords: Decrypt based RNA code to protein.
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Portuguese (Brazilian)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Scientific/Engineering :: Physics
+
+It uses the genetic code table as a basis for translating a strand of mRNA, thus generating the protein including its primary structure (Amino Acid Sequence)
+
