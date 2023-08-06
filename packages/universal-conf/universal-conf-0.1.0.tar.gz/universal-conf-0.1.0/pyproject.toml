@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "universal-conf"
+version = "0.1.0"
+description = "A universal configuration framework for Python projects."
+authors = ["Isaac Beverly"]
+license = "LGPL-3.0-only"
+readme = "README.md"
+packages = [{include = "universal_conf"}]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

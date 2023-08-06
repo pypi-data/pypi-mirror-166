@@ -1,0 +1,1 @@
+A universal configuration framework for Python projects.

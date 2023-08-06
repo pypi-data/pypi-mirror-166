@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: universal-conf
+Version: 0.1.0
+Summary: A universal configuration framework for Python projects.
+License: LGPL-3.0-only
+Author: Isaac Beverly
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+A universal configuration framework for Python projects.
