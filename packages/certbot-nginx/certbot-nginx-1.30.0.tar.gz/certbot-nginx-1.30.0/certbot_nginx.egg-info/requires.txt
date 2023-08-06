@@ -1,0 +1,5 @@
+acme>=1.30.0
+certbot>=1.30.0
+PyOpenSSL>=17.5.0
+pyparsing>=2.2.1
+setuptools>=41.6.0
