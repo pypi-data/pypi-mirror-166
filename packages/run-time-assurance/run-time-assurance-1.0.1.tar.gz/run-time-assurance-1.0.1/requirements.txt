@@ -1,0 +1,11 @@
+numpy
+quadprog
+python-constraint
+scipy
+safe-autonomy-dynamics
+jax[cpu]
+matplotlib
+
+## tests
+# linters
+pylint==2.8.3
