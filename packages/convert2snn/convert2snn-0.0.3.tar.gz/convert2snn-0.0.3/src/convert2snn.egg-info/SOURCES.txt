@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/convert2snn.py
+src/population.py
+src/rate.py
+src/temporal.py
+src/convert2snn.egg-info/PKG-INFO
+src/convert2snn.egg-info/SOURCES.txt
+src/convert2snn.egg-info/dependency_links.txt
+src/convert2snn.egg-info/requires.txt
+src/convert2snn.egg-info/top_level.txt

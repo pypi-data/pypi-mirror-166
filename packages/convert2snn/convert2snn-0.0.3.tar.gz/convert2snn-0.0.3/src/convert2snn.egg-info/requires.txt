@@ -1,0 +1,5 @@
+tensorflow>=2.7.0
+
+[dev]
+pytest>=3.7
+check-manifest>=0.47twine>=4.0
