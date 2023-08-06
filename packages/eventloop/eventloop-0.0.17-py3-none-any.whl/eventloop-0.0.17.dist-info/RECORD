@@ -1,0 +1,16 @@
+eventloop/__init__.py,sha256=BObjPlxchqhUJBMHCeoa6YY7-FG-UXLxMpaxawTn2O8,3666
+eventloop/base.py,sha256=L98sZhJBm1vP_5n3pe6xCzKLXIY6BLGnXlKJ1MD8g78,1206
+eventloop/common.py,sha256=jYdE8ykTWu5sMNx1bYKJQPLNZaiM97Y_7B2Nenv0NSU,2830
+eventloop/qt.py,sha256=xwXYR-1WJ6KOVKl5Nb7tjsRpj7tE4kbSP584jjAdk3g,3274
+eventloop/qta.py,sha256=tHGjfmyI5u8dN2DnDnl8TcSyK53z2CoFGP8VWB2511o,784
+eventloop/uv.py,sha256=luXg3_rLHCLFGUkEnMSeIaa49M6yTsP8KXqCTVO-NDY,2848
+eventloop/onchange/__init__.py,sha256=yHLQVvRBq7k6eynOwwTlS1aP67Ium4MSQaxJrB58ZAA,2787
+eventloop/onchange/__main__.py,sha256=L2ubunx1R46BgbO4sAFyFeMT1Hzeo0lxv2T3BBsFS6Q,62
+eventloop/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eventloop/test/__main__.py,sha256=4MuIKET0pvuZk9bge8Mq9Q67KpWKEwEKOOsIiSNxS5g,2355
+eventloop-0.0.17.dist-info/LICENSE,sha256=p5_2lGiDlTYb_HIuYAIoSQtmW7oxQn9SOirkkd8OW4o,1095
+eventloop-0.0.17.dist-info/METADATA,sha256=hTzLV-tdkD0sf6EnbnHF6riuUEdEf_otIbnlj0oDqx0,3313
+eventloop-0.0.17.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+eventloop-0.0.17.dist-info/entry_points.txt,sha256=P4V5YFbuPfCAVWjqcZLzGTwh4nFxcTDzo1zOLk9DYuc,54
+eventloop-0.0.17.dist-info/top_level.txt,sha256=SVjnqcN-FSY-DGnHxuZb316QKIrg-BnWZtfWL1bc2lw,10
+eventloop-0.0.17.dist-info/RECORD,,
