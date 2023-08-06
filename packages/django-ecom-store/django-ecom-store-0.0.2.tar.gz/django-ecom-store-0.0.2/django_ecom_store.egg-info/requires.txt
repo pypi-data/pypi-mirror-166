@@ -1,0 +1,2 @@
+Django>=4.0
+django-user-login>=0.3.2
