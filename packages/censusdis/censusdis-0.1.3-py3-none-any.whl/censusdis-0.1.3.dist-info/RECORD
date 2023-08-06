@@ -1,0 +1,10 @@
+censusdis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+censusdis/acs.py,sha256=Nd1O57F4HZKfO0c_Kc9hYXq1mplat8FF5ekgF84xMuo,3264
+censusdis/censusdata.py,sha256=ZpWlGHu-gAKvPZDFKM2lIASqp0TKfklWyoOtFlXkHEk,8021
+censusdis/maps.py,sha256=7hzGA-jCOlVU2GZfSK4TzMP8TQ45_TT0Al_2NC8HEgI,18510
+censusdis/redistricting.py,sha256=uvGhAX7R8-dQpQlBPX3B937SVTOMPm4rAz6AdcwohGs,8817
+censusdis/states.py,sha256=0LLy5ALGvfNr88_pqnHgQbqRkAMngLfoOqNR2MYag0A,3721
+censusdis-0.1.3.dist-info/LICENSE.md,sha256=VA0iWYAhWcLax9SInoLFewA1TKaBH7AT0k1BNBJuDv8,19938
+censusdis-0.1.3.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+censusdis-0.1.3.dist-info/METADATA,sha256=8fI1tY81ZQiaE0sr4dDY2K55i3QZFlMVkR6Mg6T2ylE,1717
+censusdis-0.1.3.dist-info/RECORD,,
