@@ -1,0 +1,17 @@
+pickle5
+
+[dev]
+commitizen
+pre-commit
+twine
+
+[lint]
+black
+flakeheaven
+mypy
+types-setuptools
+
+[test]
+faker
+pytest
+pytest-freezegun
