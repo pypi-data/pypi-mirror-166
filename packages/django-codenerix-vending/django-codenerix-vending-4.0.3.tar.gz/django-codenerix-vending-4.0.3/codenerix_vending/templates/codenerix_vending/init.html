@@ -1,0 +1,87 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% load i18n %}
+
+
+{% block body %}
+<!-- BEGIN DASHBOARD STATS 1-->
+<br><br>
+<br><br>
+{% if error %}
+    <div class="container-fluid">
+        <div class="alert alert-danger" ng-controller='codenerixVendingsCtrl'>
+            <strong>
+            <i class="glyphicon glyphicon-exclamation-sign"></i>
+            {{ error }}
+            </strong>
+        </div>
+    </div>
+{% else %}
+    <div class="row" ng-controller='codenerixVendingsCtrl'>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <a class="dashboard-stat dashboard-stat-v2 yellow-gold" ng-click="sale_registered_users()">
+                <div class="visual">
+                    <i class="fa fa-shopping-bag"></i>
+                </div>
+                <div class="details">
+                    <div class="number"> {% trans "Nueva venta usuario registrado" %} </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <a class="dashboard-stat dashboard-stat-v2 blue" href="#" ng-click="sale_default_user()">
+                <div class="visual">
+                    <i class="fa fa-shopping-basket"></i>
+                </div>
+                <div class="details">
+                    <div class="number"> {% trans "Nueva venta usuario comun" %} </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+    </div>
+    <div class="row" ng-controller='codenerixVendingsCtrl'>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <a class="dashboard-stat dashboard-stat-v2 red" href="#" ng-click="sale_employees_users()">
+                <div class="visual">
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+                <div class="details">
+                    <div class="number"> {% trans "Nueva venta para empleados" %} </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <a class="dashboard-stat dashboard-stat-v2 yellow" href="{% url "CDNX_invoicing_ticketsaless_list" %}">
+                <div class="visual">
+                    <i class="fa fa-tags"></i>
+                </div>
+                <div class="details">
+                    <div class="number"> {% trans "Devoluciones" %} </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12"></div>
+    </div>
+{% endif %}
+<div class="clearfix"></div>
+<!-- END DASHBOARD STATS 1-->
+
+{% endblock %}
+
+
+{% block extra_js %}
+<script type="text/javascript">
+    var url_budget = "{{ url_budget }}";
+</script>
+    
+<script type="text/javascript" src="{% static "codenerix/js/controllers.js" %}"></script>
+<script type="text/javascript" src="{% static "codenerix_vending/app.js" %}"></script>
+<script type="text/javascript" src="{% static "codenerix_vending/controllers.js" %}"></script>
+{% endblock %}
