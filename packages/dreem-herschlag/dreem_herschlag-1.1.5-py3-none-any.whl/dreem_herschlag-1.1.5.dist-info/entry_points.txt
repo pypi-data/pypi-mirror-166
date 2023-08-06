@@ -1,0 +1,2 @@
+[console_scripts]
+dreem_herschlag = dreem_herschlag.run : main
