@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+qworder/__init__.py
+qworder/cascading_rules.py
+qworder/config.py
+qworder/rules.py
+qworder/word_generator.py
+qworder.egg-info/PKG-INFO
+qworder.egg-info/SOURCES.txt
+qworder.egg-info/dependency_links.txt
+qworder.egg-info/requires.txt
+qworder.egg-info/top_level.txt
