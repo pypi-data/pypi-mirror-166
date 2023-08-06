@@ -1,0 +1,15 @@
+dbrep/__init__.py,sha256=K4VBcsml5Zabd2Q6HUhDgCQH1QpzzjFMofmVFcKyZeQ,507
+dbrep/cli.py,sha256=YJRA4mtos4GJihN3lP6DALY1taIYRTD-zx2lKc_m8II,6534
+dbrep/config.py,sha256=uPjV2aKjhfAxerLss1W8D7Bfm3geLOAoFueLcOsuYQ8,6823
+dbrep/engines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbrep/engines/engine_base.py,sha256=32eOsxC3gLeCdxe4uBQITfSzPUUMsQeFmDjFHDYRqfk,619
+dbrep/engines/engine_clickhouse.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbrep/engines/engine_kafka.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbrep/engines/engine_sqlalchemy.py,sha256=heO-KP9n79GR0P40l1xtgv74MniIPOgVMJVNESRiplc,3957
+dbrep/replication.py,sha256=2z69Qy9mDfPo4qYLCJ2NkzHOKZVTQ2VzWhSs3WrZOK8,2970
+dbrep/utils.py,sha256=frnuqcrw2ydZum982eSKRjS4Mjh4p_ezyjysKcCz_V0,4113
+dbrep-0.0.8.dist-info/entry_points.txt,sha256=ROrH4cvQ5yd_oNuiD3v3aGSnyNQ6ePjCuIjzgcLmgsM,45
+dbrep-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dbrep-0.0.8.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+dbrep-0.0.8.dist-info/METADATA,sha256=UPMpOzLMcJ_0BPYx_aWWaYyjKVAEw_NF5mllxhh7dLk,1590
+dbrep-0.0.8.dist-info/RECORD,,
