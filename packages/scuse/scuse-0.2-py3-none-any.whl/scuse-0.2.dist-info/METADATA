@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: scuse
+Version: 0.2
+Summary: This library is used for checking the spelling of a word using the power of google. This is not a product from google
+Author: Mrithul.e
+Author-email: mrithul100@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENCE.txt
+
