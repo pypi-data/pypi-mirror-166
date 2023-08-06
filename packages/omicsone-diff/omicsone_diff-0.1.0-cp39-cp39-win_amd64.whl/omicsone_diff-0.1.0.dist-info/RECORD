@@ -1,0 +1,10 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+omicsone_diff/main.py,sha256=pVBxLamJciAb1FSk5HAWR1esHdu9hhXlVR4vWReXcLA,2308
+omicsone_diff/plugins/diff.cp39-win_amd64.pyd,sha256=h10uvGtEv_3DMYmd-oNZNVqV1cx5L-_rmm0_t_TwEjg,76800
+omicsone_diff/plugins/param.cp39-win_amd64.pyd,sha256=vNIFo4c1rT0PFv_zKrPoddvsBGeyzw8vaT-y2YJrG40,52736
+omicsone_diff-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+omicsone_diff-0.1.0.dist-info/METADATA,sha256=3Dvz8Ss6IpfHagE3tYBeb-WPA2uqthoq-Y-VIQhRWp4,400
+omicsone_diff-0.1.0.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+omicsone_diff-0.1.0.dist-info/entry_points.txt,sha256=fEie7jh1Kvx3mo0agOJ_szPJ7jv9w9N9NEP5nHLnyWo,59
+omicsone_diff-0.1.0.dist-info/top_level.txt,sha256=xe5Bfyb_UjcNR7NVALGv0TwtryBgoYAm0Or68xVS_jc,14
+omicsone_diff-0.1.0.dist-info/RECORD,,

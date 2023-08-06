@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: omicsone-diff
+Version: 0.1.0
+Summary: OmicsOneDiff: do differential expression analysis on two groups
+Home-page: UNKNOWN
+Author: Yingwei Hu
+Author-email: yhu39@jhmi.edu
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+Requires-Dist: tqdm
+Requires-Dist: omicsone-meta
+
+UNKNOWN
+

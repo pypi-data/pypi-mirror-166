@@ -1,0 +1,3 @@
+[console_scripts]
+omicsone_diff = omicsone_diff.main:main
+
