@@ -1,0 +1,3 @@
+[console_scripts]
+iwx-manifest-builder=iwx_manifest_builder.iwx_manifest_builder:app
+
