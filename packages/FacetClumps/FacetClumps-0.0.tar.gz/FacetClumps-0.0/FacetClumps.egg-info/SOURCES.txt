@@ -1,0 +1,5 @@
+setup.py
+FacetClumps.egg-info/PKG-INFO
+FacetClumps.egg-info/SOURCES.txt
+FacetClumps.egg-info/dependency_links.txt
+FacetClumps.egg-info/top_level.txt
