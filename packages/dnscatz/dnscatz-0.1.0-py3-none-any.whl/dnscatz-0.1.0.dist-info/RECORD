@@ -1,0 +1,8 @@
+dnscatz/__init__.py,sha256=1uP8rU2CTH-gX7XKhrPoLMaz7c3-NuRodRud_TzwMi8,86
+dnscatz/catz2nsd.py,sha256=cKgbbVCRNolYZG1ws1ngULWUtn9lWi8hqbSeFJB_TEA,10236
+dnscatz/zones2catz.py,sha256=sfEh0KKHr3-36ihF3SucdKAB-8acP6IWUNHbXPfEv3w,2998
+dnscatz-0.1.0.dist-info/entry_points.txt,sha256=fBwec_tNTFWcuZYkVNEtoM6klf2660rsFDDRUPK3VcE,85
+dnscatz-0.1.0.dist-info/LICENSE,sha256=ipKw-vodTMcGOz2dMjbsI3A7zZvHbdvbJBAW-OzAueI,1318
+dnscatz-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+dnscatz-0.1.0.dist-info/METADATA,sha256=SgPL7x0HzJcbFRGXVWaF7GNuhyH_4XSB_epSL7yk2lU,1481
+dnscatz-0.1.0.dist-info/RECORD,,

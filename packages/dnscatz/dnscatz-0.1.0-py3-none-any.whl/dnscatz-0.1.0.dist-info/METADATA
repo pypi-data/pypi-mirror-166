@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: dnscatz
+Version: 0.1.0
+Summary: DNS Catalog Zones Tools
+License: BSD-2
+Author: Jakob Schlyter
+Author-email: jakob@kirei.se
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: dnspython (>=2.2.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Catalog Zones Tools
+
+## catz2nsd
+
+`catz2nsd` configures NSD using catalog zones. It reads a configuration file (default `/etc/nsd/catz2nsd.conf`) and updates NSD using `nsd-control`. `catz2nsd` must be able to read the list of currently configured zones in NSD (default `/var/lib/nsd/zone.list`) in order to determine which zones to add, remove, or update.
+
+The configuration file is NSD-like as described below:
+
+    catalog-zone:
+      name: <string>
+      request-xfr: <ip-address> <key-name | NOKEY>
+      zonefile: <filename>
+      pattern: <pattern-name>
+
+    key:
+      name: <string>
+      algorithm: <string>
+      secret: <base64 blob>
+
+## zones2catz
+
+`zones2catz` creates a catalog zone from a comma-separated text file containing one zone per line (and optionally the intended group for the zone) and writes its output to a file or _stdout_.
+
+## References
+
+- [draft-ietf-dnsop-dns-catalog-zones](https://datatracker.ietf.org/doc/html/draft-ietf-dnsop-dns-catalog-zones)
+
