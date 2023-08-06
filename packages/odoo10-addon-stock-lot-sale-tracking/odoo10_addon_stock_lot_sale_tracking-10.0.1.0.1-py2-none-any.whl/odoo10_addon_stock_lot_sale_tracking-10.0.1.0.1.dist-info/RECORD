@@ -1,0 +1,17 @@
+odoo10_addon_stock_lot_sale_tracking-10.0.1.0.1-py3.8-nspkg.pth,sha256=3hYKiD3YF7y9FeWjACJq1b9R_GVRzuQo9SAZlvZgumg,1672
+odoo/addons/stock_lot_sale_tracking/README.rst,sha256=OCAkiI7fw8ANsPbJIiqOHRPYMbTQEdrAEUIIGhJO-0s,1802
+odoo/addons/stock_lot_sale_tracking/__init__.py,sha256=b1qCHWCnsKFQsz-uH7ET4oa5HaRQm44BOQvHN3oWJ3Q,66
+odoo/addons/stock_lot_sale_tracking/__manifest__.py,sha256=q6FUeT2uiSgLmj-7OA6iI3O_x6rGC8Ie0rwCGlguBDE,720
+odoo/addons/stock_lot_sale_tracking/i18n/stock_lot_sale_tracking.pot,sha256=kjt-HQDSPJqxM7MAJTN63kASQZI89jLIkCL-Sd5JTA4,3390
+odoo/addons/stock_lot_sale_tracking/models/__init__.py,sha256=MP43v17EN-bVabE77-KpoIL2d2BKrgxaNmMoP08Muvk,59
+odoo/addons/stock_lot_sale_tracking/models/stock_production_lot.py,sha256=qlKtfP70wsO02KkL9eab-EF4uXQ3ZzXgVM6W5HKTXg4,427
+odoo/addons/stock_lot_sale_tracking/report/__init__.py,sha256=vBEB5Yb1lAJhMjODH-oDYCNfaNkBemMs_sfZUHReeNA,60
+odoo/addons/stock_lot_sale_tracking/report/stock_lot_sale_report.py,sha256=QXWV4BhK5wES1y5_WnZowrG4fRv66oMCrvB5myD5PbY,2624
+odoo/addons/stock_lot_sale_tracking/report/stock_lot_sale_report.xml,sha256=yOrB5cpxpZ5gEM3fAt-IvS31NVLOTzbfR8wZLGHzlS8,3066
+odoo/addons/stock_lot_sale_tracking/security/security.xml,sha256=8bw1xYDjQUoBEXcwF-JjRVMnhyGOjI3Sp0ttDx_1PxA,483
+odoo/addons/stock_lot_sale_tracking/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo10_addon_stock_lot_sale_tracking-10.0.1.0.1.dist-info/METADATA,sha256=Nnvl9cexmnbXvdjbQfV_sh7_0DBQU3r9M6aS0czVGlE,2432
+odoo10_addon_stock_lot_sale_tracking-10.0.1.0.1.dist-info/WHEEL,sha256=1VPi6hfNQaRRNuEdK_3dv9o8COtLGnHWJghhj4CQ28k,92
+odoo10_addon_stock_lot_sale_tracking-10.0.1.0.1.dist-info/namespace_packages.txt,sha256=igDP6S4ywc6jzcMqzrKZpRtAUXrS-iYaA_Hu1EtlI48,17
+odoo10_addon_stock_lot_sale_tracking-10.0.1.0.1.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo10_addon_stock_lot_sale_tracking-10.0.1.0.1.dist-info/RECORD,,
