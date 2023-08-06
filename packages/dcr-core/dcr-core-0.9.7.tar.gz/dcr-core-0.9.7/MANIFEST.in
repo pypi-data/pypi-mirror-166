@@ -1,0 +1,3 @@
+# MANIFEST.in
+
+include src/dcr_core/py.typed
