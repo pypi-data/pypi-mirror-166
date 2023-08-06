@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: nonebot2-plugin-eth-terminal
+Version: 0.0.1
+Summary: 查询 ETH 预计难度到达 5.875E18 合并难度的时间
+Home-page: https://github.com/Sclock/nonebot2_plugin_eth_terminal
+License: MIT
+Keywords: bot,qq,qqbot,coolq,onebot,cqhttp
+Author: Sclock
+Author-email: 1342810270@qq.com
+Requires-Python: >=3.7.3,<4.0.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: nonebot-adapter-onebot (>=2.1.0,<3.0.0)
+Requires-Dist: nonebot2 (>=2.0.0b3,<3.0.0)
+Project-URL: Repository, https://github.com/Sclock/nonebot2_plugin_eth_terminal
+Description-Content-Type: text/markdown
+
+# nonebot2_plugin_eth_terminal
+
+查询 ETH 合并日期
+
+<div align="center">
+
+# 查询 ETH 合并日期
+
+</div>
+
+## 版本
+
+v0.0.1
+
+## 安装
+
+1. 通过`pip`和`nb`安装；
+
+命令
+
+`pip install nonebot_plugin_eth_terminal`
+`nb plugin install nonebot_plugin_eth_terminal`
+
+## 功能
+
+查询 ETH 预计难度到达 5.875E18 合并难度的时间
+
+## 命令
+
+`ETH` `eth`
+
