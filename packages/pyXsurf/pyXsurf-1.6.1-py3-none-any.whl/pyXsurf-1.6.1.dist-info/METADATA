@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyXsurf
+Version: 1.6.1
+Summary: Python library for X-Ray Optics, Metrology Data Analysis and Telescopes Design.
+Home-page: https://github.com/vincenzooo/pyXSurf
+Author: Vincenzo Cotroneo
+Author-email: vincenzo.cotroneo@inaf.it
+Requires-Dist: wheel
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: IPython
+Requires-Dist: astropy
+
