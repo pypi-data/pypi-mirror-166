@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: supervised-fcn
+Version: 1.6.2
+Summary: it provides a pretrained FCN (Fully Convolutional Network).
+Home-page: https://github.com/danelee2601/supervised-FCN
+Author: Daesoo Lee
+Author-email: daesoolee2601@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >= 3.7
+License-File: LICENSE
+Requires-Dist: einops (==None)
+Requires-Dist: matplotlib (==None)
+Requires-Dist: numpy (==None)
+Requires-Dist: pandas (==None)
+Requires-Dist: PyYAML (==None)
+Requires-Dist: scikit-learn (==None)
+Requires-Dist: scipy (==None)
+Requires-Dist: sktime (==None)
+Requires-Dist: torchmetrics (==None)
+Requires-Dist: gdown (==None)
+
+UNKNOWN
+
