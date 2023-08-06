@@ -1,0 +1,9 @@
+django>=2.2
+djangorestframework
+requests
+
+[push]
+channels
+
+[twilio]
+twilio
