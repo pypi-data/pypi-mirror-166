@@ -1,0 +1,10 @@
+hoppr_cyclonedx_models/__init__.py,sha256=49DSTF4lGpv_69UMWZ_m2u3FwZNluA04MUMCyxo4Kkk,60
+hoppr_cyclonedx_models/cyclonedx_1_3/__init__.py,sha256=YGLQoaR1ATZhzj5IilDvaQ9RsVGCFOcqjf-yLI-zNIs,29727
+hoppr_cyclonedx_models/cyclonedx_1_3/spdx.py,sha256=eioo8sKM7LFWu1Z_NJrT8IU5G0GucfZjAsn-Ec5JqR8,15849
+hoppr_cyclonedx_models/cyclonedx_1_4/__init__.py,sha256=Xh6HHSpmLF21RKTOZZWMdyGgtF3OkFhzIcnkrgcCPzY,56177
+hoppr_cyclonedx_models/cyclonedx_1_4/spdx.py,sha256=i2ICDwesBBigTP6jX_PFnoK8YcX_eHbBYFTItk6dmDg,16425
+hoppr_cyclonedx_models/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hoppr_cyclonedx_models-0.2.8.dist-info/LICENSE,sha256=Hg-9VyNKfH4fKo0_Iwq6eG15iCBnHiV5mSJzs9kJYms,1084
+hoppr_cyclonedx_models-0.2.8.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+hoppr_cyclonedx_models-0.2.8.dist-info/METADATA,sha256=AlgNHtLLmB0vEW-xrriEgk53hR0FW3NflvUEfLQMXxI,2206
+hoppr_cyclonedx_models-0.2.8.dist-info/RECORD,,
