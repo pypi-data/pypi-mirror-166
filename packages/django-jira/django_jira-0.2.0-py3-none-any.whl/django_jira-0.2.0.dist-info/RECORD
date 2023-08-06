@@ -1,0 +1,10 @@
+django_jira/__init__.py,sha256=K0_8zBINKUIYCswVbjego2swBE125HP7R-LdJPAunMk,386
+django_jira/error_handler/__init__.py,sha256=jZQx3AseESEspYk0sWu1ZYde0dbQy_7GMCAYSG_jQzw,97
+django_jira/error_handler/drf_handler.py,sha256=55r-CXLAEAR5QNakNGlHiV7RyohndlS5_7i-nXwdBYs,4560
+django_jira/error_handler/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_jira/error_handler/templates/jwt_error_template.md,sha256=sBXha-G6bqwDTwfGpR3EaRkuvPgQPRMpWt26q4jtnzI,576
+django_jira/tasks/__init__.py,sha256=O41bfVviATYeBnw6EaviVjEnXn4UptMYeV2oZqXcwi8,112
+django_jira/tasks/tasks.py,sha256=mX-jqJcOTecsB-U2lop-VlW4EpIKBvkmhmLCmql503Q,5726
+django_jira-0.2.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+django_jira-0.2.0.dist-info/METADATA,sha256=pgPeMRPdDI_b4-OBVaI9AF8q0Q7E2LXaeoc0DXhUY8s,775
+django_jira-0.2.0.dist-info/RECORD,,
