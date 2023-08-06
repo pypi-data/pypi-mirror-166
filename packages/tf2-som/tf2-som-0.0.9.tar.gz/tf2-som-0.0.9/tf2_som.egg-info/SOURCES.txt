@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.py
+tf2_som.egg-info/PKG-INFO
+tf2_som.egg-info/SOURCES.txt
+tf2_som.egg-info/dependency_links.txt
+tf2_som.egg-info/requires.txt
+tf2_som.egg-info/top_level.txt
+tf_som/__init__.py
+tf_som/metadata.json

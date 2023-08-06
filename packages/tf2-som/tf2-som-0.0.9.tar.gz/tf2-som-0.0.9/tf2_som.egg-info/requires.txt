@@ -1,0 +1,13 @@
+h5py
+tqdm
+numpy
+tensorflow>=2
+
+[astropy]
+astropy
+
+[matplotlib]
+matplotlib
+
+[pandas]
+pandas
