@@ -1,0 +1,7 @@
+mextractor/__init__.py,sha256=qwXkYqeL2oNJ1zoWh_83Np4JjwWWwQqp5L9vTOC6VS0,23
+mextractor/base.py,sha256=9GDGVAdMX4ng94tZWpYAYlZLHvFjjwyPqiku3qnB1g0,2611
+mextractor/extractors.py,sha256=WOw_WxR4cS4xVK4pFE9ZBGPXue49U5jIeGmLPO7FzDo,2898
+mextractor/workflow.py,sha256=hUT6s58lImEDfP_CnN7lkDkub06qPtP1VMZgk-PbufI,910
+mextractor-2.0.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+mextractor-2.0.0.dist-info/METADATA,sha256=B6gxiTB9q1bNwDtrgvlI9evxC9UZIWJSlTkujolxOZ0,2362
+mextractor-2.0.0.dist-info/RECORD,,
