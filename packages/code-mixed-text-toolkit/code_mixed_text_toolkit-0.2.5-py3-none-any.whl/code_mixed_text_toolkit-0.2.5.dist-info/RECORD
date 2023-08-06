@@ -1,0 +1,10 @@
+code_mixed_text_toolkit/__init__.py,sha256=lXpAEcSn5V5W0kRxaoq0OTyfPTZw_puGZSr1O0x_KDY,88
+code_mixed_text_toolkit/data.py,sha256=wHsKV_bLnjFluxjewy6F4Ir11GX7tM_dKjoLrLrsBic,1977
+code_mixed_text_toolkit/dummy.py,sha256=UsIKMnyBFWt00OaB2KdXy4bsoS4Mesp41CPsbCR1MOo,529
+code_mixed_text_toolkit/cmtt_utils/__init__.py,sha256=aFS146Cx117hep0DTiUR5Gvon1fVkkUCr4SDgaJ_3DU,68
+code_mixed_text_toolkit/cmtt_utils/dummy_utils.py,sha256=6HGB-m9iyvGaj96NKHpBi42kYoWXckESchl_3RHtP44,75
+code_mixed_text_toolkit/tokenizer/__init__.py,sha256=lshTe6a7HkxIDt_gsNmwYyn-Zx7g8965QxptCBlzndI,592
+code_mixed_text_toolkit-0.2.5.dist-info/METADATA,sha256=WZrF95PWnu-Dnjji2leVp4MAJQfsO6D2gv1kJNhhb9k,2218
+code_mixed_text_toolkit-0.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+code_mixed_text_toolkit-0.2.5.dist-info/top_level.txt,sha256=2u5pMcWVhAyXr3YLWFHj5cZALa1O27fx33YDy0OjKWc,93
+code_mixed_text_toolkit-0.2.5.dist-info/RECORD,,
