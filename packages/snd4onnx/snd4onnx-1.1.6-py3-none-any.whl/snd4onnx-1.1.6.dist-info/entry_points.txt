@@ -1,0 +1,2 @@
+[console_scripts]
+snd4onnx = snd4onnx:main
