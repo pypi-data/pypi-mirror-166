@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+mplshared/__init__.py
+mplshared/slopes.py
+mplshared.egg-info/PKG-INFO
+mplshared.egg-info/SOURCES.txt
+mplshared.egg-info/dependency_links.txt
+mplshared.egg-info/requires.txt
+mplshared.egg-info/top_level.txt
+tests/__init__.py
+tests/test_slopes.py
