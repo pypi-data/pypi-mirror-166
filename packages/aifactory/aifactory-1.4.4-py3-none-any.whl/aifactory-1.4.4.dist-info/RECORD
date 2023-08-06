@@ -1,0 +1,12 @@
+aifactory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aifactory/api.py,sha256=K9sbytWp0awvCkTlS4ieiiQM5DcXNK4bha5yY9VlS2s,467
+aifactory/demo.py,sha256=0-brhv1lFu7B2qS_ZBGOxPYcd7Ul7DDYJyWmSkxXFOQ,479
+aifactory/grade.py,sha256=F7HljM96m4YHmkygbnDXlippqEKaxCMLhAo5gTP55HM,831
+aifactory/grade_colab.py,sha256=MBET7oTXB-0yIEZtL075WjgfmmeZYp_EeRbcN5Cq_qk,3303
+aifactory/make_zip.py,sha256=c0fb_0VauRGyyVNwKysNP_B8FfRMs8SdUYEjCNx8qlE,2807
+aifactory/service.py,sha256=5gOamuj5JSf7lYrb3jknaZM7B5bGSwuBbVTs-RjDqdc,3167
+aifactory/submit.py,sha256=vVwMyEPpG9cd0auJPW3jgl8YOWP6V7eOLEnxrdQk7rE,375
+aifactory-1.4.4.dist-info/METADATA,sha256=JA7hCxqA45jaRtkhrCyIMNpARf-3LLuUHIB1_42UQcE,321
+aifactory-1.4.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aifactory-1.4.4.dist-info/top_level.txt,sha256=2BLoOvzckM1mMMLZh7OWf3MmW1M977-fAHdCTeQr4os,17
+aifactory-1.4.4.dist-info/RECORD,,
