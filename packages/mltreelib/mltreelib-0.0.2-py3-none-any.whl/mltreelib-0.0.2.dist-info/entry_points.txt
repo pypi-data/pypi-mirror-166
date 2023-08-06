@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+mltreelib = mltreelib._modidx:d
+
