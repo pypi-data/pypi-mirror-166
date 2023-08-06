@@ -1,0 +1,15 @@
+scrapy_helper/__init__.py,sha256=7jrl0OaiREGeLqi1Vco5z6ma0w6Mxq8kDBXuswywlc8,21
+scrapy_helper/__pycache__/__init__.cpython-310.pyc,sha256=ie0q6x1lQgwnmpdGae8YX-8xhoAlMiAAPzEPdr6RkYY,190
+scrapy_helper/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_helper/core/utils.py,sha256=lZDUp8MMNxwlA8XSntp9Z20t6UMZOXexVtAdqqP_ucA,748
+scrapy_helper/middlewares/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_helper/pipelines/__init__.py,sha256=E01St2RpX9pbmA3mpJSBQu64x_WjjUpb7AynniISDcw,70
+scrapy_helper/pipelines/mongodb.py,sha256=CRN8IMSBbUJOs9bx2xLMIDkVPKg7MjYuqrnhngz10cs,1159
+scrapy_helper/pipelines/mysql.py,sha256=YKOcf3IPULhlsZ3haMSRZN5wHz8IXEmzleBJbzrAcFY,1656
+scrapy_helper/spiders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_helper/spiders/crawl.py,sha256=H6umOWvctmlCDG-HyMY9S-qP5d-H4LRrUDNbY3Tyzq0,4913
+scrapy_helper-1.5.2.dist-info/LICENSE,sha256=2XpMeic_OsDy6gMww2sr_7zpHO0cyPORcbZIOZJLpZo,11343
+scrapy_helper-1.5.2.dist-info/METADATA,sha256=MlniYcWlK5xeoy89AfBrVOVsDqXKud_0FN2bSGzqIrY,1438
+scrapy_helper-1.5.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scrapy_helper-1.5.2.dist-info/top_level.txt,sha256=e_L0o1ovs_VowjhzLmtsjQMOeF_KjfS9TqSRljIobMs,14
+scrapy_helper-1.5.2.dist-info/RECORD,,
