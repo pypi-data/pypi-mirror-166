@@ -1,0 +1,18 @@
+[project]
+name = "pywindnd"
+version = "1.0.8"
+description = "windows drag icon & drop to load absolute file path"
+authors = [
+    { name = "Ayden", email = "2361018131@qq.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"

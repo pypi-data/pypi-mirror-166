@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pywindnd
+Version: 1.0.8
+Summary: windows drag icon & drop to load absolute file path
+License: MIT
+Author-email: Ayden <2361018131@qq.com>
+Requires-Python: >=3.8
