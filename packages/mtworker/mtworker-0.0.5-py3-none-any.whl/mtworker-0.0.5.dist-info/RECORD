@@ -1,0 +1,15 @@
+mtworker/__init__.py,sha256=rUBotL_7il9cRAkjmjam_wLBk0Rdnheo8dVtYr3lmYI,64
+mtworker/celery.py,sha256=Lm5DdTGiRLlfJf_qFGsLuyW6Hl6Coo0wmrGqfp-LGSs,6599
+mtworker/setup.py,sha256=LoiLPA22eiE_9kShrNltRYf7x8RplPB-ThopKhDEKmY,3609
+mtworker/taskUtil.py,sha256=U-SMEvIYtc10umA3YV-785J3PZdR_mO1NKCZTXo7pQA,2359
+mtworker/tasks/__init__.py,sha256=ttS79RmEZBWaQdZztJZjG8wxK5h2sIak1smLlLYTM9g,1204
+mtworker/tasks/bot_status.py,sha256=81wRxKskE6ebaN7gQ-7_p9qITPTEmqe8WoV9uKUo9EM,933
+mtworker/tasks/demoTask.py,sha256=In8RcDWQ-cL2_FwaxcDSqm_lOrsI8OdKYsSrAy9hZYY,309
+mtworker/tasks/getUrlBody.py,sha256=DeXmDphyko_m3SZWQZZnEK4-IoTv8bPGnCS4vZ28ezI,376
+mtworker/tasks/helloworld.py,sha256=Cr_2zQ4K66VH20RrIIYUbAJpXykeq207w-qrAQT7OqM,350
+mtworker-0.0.5.dist-info/METADATA,sha256=-LI5iHSjuIcjcUK-kt_xVbvEIX7kgZvFemBJ1-Y79dg,487
+mtworker-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mtworker-0.0.5.dist-info/entry_points.txt,sha256=3MP0u_QHyH5UFddY2QXsUZJ4pXfhPKK0emvhpcskB8E,92
+mtworker-0.0.5.dist-info/top_level.txt,sha256=qJ35H-h3Y6esfwUXDWHSWj36S50DwwoshXRLOQ3Ffdg,9
+mtworker-0.0.5.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mtworker-0.0.5.dist-info/RECORD,,
