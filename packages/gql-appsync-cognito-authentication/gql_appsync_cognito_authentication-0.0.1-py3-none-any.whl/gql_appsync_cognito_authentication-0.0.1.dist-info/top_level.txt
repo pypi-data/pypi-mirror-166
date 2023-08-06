@@ -1,0 +1,1 @@
+gql_appsync_cognito_authentication
