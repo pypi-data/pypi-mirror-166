@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "replit_bot"
+version = "1.0.11"
+description = "create a replit bot using an API endpoint similar to discord. Includes [replapi-it](https://replit.com/@PikachuB2005/replapi-it) (3.20, made by @pikachub2005) python implementation. most up to date python version of replapi-it not fully tested. working on @replit/crosis.py. automatically creates a command docs."
+authors = ["bigminiboss <you@example.com>"]
+readme = "replit_bot/README.md"
+homepage = "https://replit.com/@bigminiboss/repbot?v=1"
+repository = "https://replit.com/@bigminiboss/repbot?v=1"
+documentation = "https://replit.com/@bigminiboss/repbot?v=1"
+keywords = ["replitgql", "replitbot"]
+packages = [
+    {include = "replit_bot"}
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8.0,<3.9"
+replit = "^3.2.4"
+Flask = "^2.2.0"
+requests = "^2.28.1"
+waitress = "^2.1.2"
+datauri = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
