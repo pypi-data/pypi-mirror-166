@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dorkylever_lama_phenotype_detection
+Version: 1.0.0
+Summary: Phenotype detection pipeline for finding abnormalities in mouse embryos
+Home-page: https://github.com/mpi2/LAMA
+Download-URL: https://github.com/dorkylever/LAMA/archive/refs/tags/1.0.0.tar.gz
+Author: Neil Horner
+Author-email: n.horner@har.mrc.ac.uk, bit@har.mrc.ac.uk
+License: Apache2
+Keywords: image processing,bioinformatics,phenotype
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides-Extra: dev
+License-File: LICENCE.md
