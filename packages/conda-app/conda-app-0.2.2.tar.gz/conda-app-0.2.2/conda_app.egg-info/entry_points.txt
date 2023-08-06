@@ -1,0 +1,2 @@
+[console_scripts]
+conda-app = conda_app:main
