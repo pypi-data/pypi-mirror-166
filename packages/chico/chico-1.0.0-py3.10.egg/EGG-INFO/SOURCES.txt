@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+chico/log.py
+chico/sql.py
+chico/thread.py
+chico.egg-info/PKG-INFO
+chico.egg-info/SOURCES.txt
+chico.egg-info/dependency_links.txt
+chico.egg-info/requires.txt
+chico.egg-info/top_level.txt
