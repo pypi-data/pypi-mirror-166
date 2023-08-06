@@ -1,0 +1,14 @@
+crypto2csv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crypto2csv/main.py,sha256=jIwzkLzVpC0hqXymIpdgJUjTeLT68xSFzWU4nqi26zQ,494
+crypto2csv/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crypto2csv/utils/api_call.py,sha256=_ttmR2s0xgXUfe6UBtmMpkbS-883ekpHK2mcKi5fbkE,201
+crypto2csv/utils/detailed_data.py,sha256=N_6BMde9HE5YrXDcbk749BBff8-eZ0-fnGal-LPcpVg,1441
+crypto2csv/utils/get_dates.py,sha256=ZoUCWa3Yq5SVrmnzTCjUs5teQgEVH9KQYk3OCPa8PSg,345
+crypto2csv/utils/historical_data.py,sha256=Oelzck_OATkxuIU1Dfexat9nSLANPVoiRO4oOrgls_I,385
+crypto2csv/utils/process.py,sha256=h7_WjhlW0YSZ9CEXrtwc6MO2Vq94In72om5C4f782bQ,1345
+crypto2csv-0.1.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crypto2csv-0.1.1.dist-info/METADATA,sha256=AoFtwdVziLk_Kj_4qvBDum7BFaGdVcZWPDV-zUhNYaQ,728
+crypto2csv-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+crypto2csv-0.1.1.dist-info/entry_points.txt,sha256=0eo7_7FaTreKRhn2p2d2hLMSD3vJwFhkWFVOAkHsSxQ,53
+crypto2csv-0.1.1.dist-info/top_level.txt,sha256=mWhdRzYPIuh2LBX_3zIrOM__HEbis9GRQRKpTdz8Igs,11
+crypto2csv-0.1.1.dist-info/RECORD,,
