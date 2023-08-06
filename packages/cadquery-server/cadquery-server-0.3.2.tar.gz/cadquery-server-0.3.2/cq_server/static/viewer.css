@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+.tcv_cad_viewer {
+	margin: 0;
+}
+
+.modal {
+	opacity: 0.8;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	right: 10%;
+	bottom: 10%;
+	padding: 1em;
+	font-family: sans-serif;
+	z-index: 1000;
+	overflow: scroll;
+}
+
+.modal.error {
+	background-color: #fdd;
+}
+
+.modal.info {
+	background-color: #ddf;
+}
+
+.modal pre {
+	background-color: grey;
+}
+
+.modal ul {
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+.modal li button {
+    margin: 3px;
+    padding-left: 5px;
+    width: 10em;
+    display: block;
+    background-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+	border-color: black;
+    text-decoration: none;
+	cursor: pointer;
+}
