@@ -1,0 +1,10 @@
+glimy/__init__.py,sha256=OwHFKRLe0M_yiL_VgWPi2s_f2fUhAPz09b4qs0yv_uk,19392
+glimy/curved.py,sha256=lN1L2M9yaYMpB-h0Xqro4RjX1p1vNpgaaKdRJoq-0w8,524
+glimy/geo1D.py,sha256=pbBnEigJV4Nm_781eGwPRxCMGZORkv6yl7J3eyUG0qc,3314
+glimy/geo2D.py,sha256=dNRr-yTxSiSLoPZ3Pim-JqxLW6blcdNxEW6cUNfPFOI,5659
+glimy/geo3D.py,sha256=BJTZe3S2yhzZT7ILnZAqcIG-DQ_ThCxhvZF_qxG6B-E,7801
+glimy-3.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+glimy-3.0.2.dist-info/METADATA,sha256=kOb37AnGrVyz8O84Egha6PQmFlqS143vNpku012hXEY,59279
+glimy-3.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+glimy-3.0.2.dist-info/top_level.txt,sha256=SP8Lck554zvgED37UwUeKyVeUrbALKg9TjSgyN2f3X4,6
+glimy-3.0.2.dist-info/RECORD,,
