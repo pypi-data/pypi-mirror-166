@@ -1,0 +1,12 @@
+uncertainties
+numpy
+matplotlib
+scipy
+smpl
+tqdm
+pandas
+
+[dev]
+build
+
+[docs]
