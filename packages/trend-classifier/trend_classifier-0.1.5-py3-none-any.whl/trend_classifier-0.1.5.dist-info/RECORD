@@ -1,0 +1,11 @@
+trend_classifier/__init__.py,sha256=RL1NTZd08Tni6Yys6K2wG8B_2qqEY6YNSJEfYCgv9Yk,379
+trend_classifier/configuration.py,sha256=tjEG5O8uJLVSKYXmd2WlE24mnjtqGkLaPByAA7_wH-E,1018
+trend_classifier/models.py,sha256=OAzrsYxEoLHAcKuWFkpBjScNtK65tcf5wZJGbrUZ1Dk,270
+trend_classifier/segment.py,sha256=tPDCgfMqJ1ntRzODThBSYWYVJ_KzyckEfb9Aq8IX5P4,2842
+trend_classifier/segmentation.py,sha256=e4LcIUpSgb58SV-0uuR90hHSOQxRFw5Jck_XLPBPV3U,11675
+trend_classifier/types.py,sha256=mERmOXk21IZ2POmTL3BgSxOs9DuPQwyOJPwzHDzyHqI,80
+trend_classifier/visuals.py,sha256=_G7Kb-MLiXZ56eICeX-nfaqyWiqAnBRs50fUwpWEiOo,2852
+trend_classifier-0.1.5.dist-info/LICENSE,sha256=_1LupFIUizbK_dHPY0xsX5C_aV5SvUqduB7yyItMvCs,1088
+trend_classifier-0.1.5.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+trend_classifier-0.1.5.dist-info/METADATA,sha256=a7LYoSbNHYlpDnRs-Decj4OHolQ6N6jQ9zHddQEnLwQ,4843
+trend_classifier-0.1.5.dist-info/RECORD,,
