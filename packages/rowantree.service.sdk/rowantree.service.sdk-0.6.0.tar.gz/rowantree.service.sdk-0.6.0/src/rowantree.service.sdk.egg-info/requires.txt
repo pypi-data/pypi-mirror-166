@@ -1,0 +1,5 @@
+pydantic~=1.10
+requests~=2.28
+python-jose~=3.3
+rowantree.contracts~=0.5
+rowantree.auth.sdk~=0.1
