@@ -1,0 +1,7 @@
+az_evgrid_pydantic_schema/__init__.py,sha256=IO2M9unoFRvkqCvvR8UzMoI8oKtcr4GAA7jMn_EamGk,97
+az_evgrid_pydantic_schema/base.py,sha256=Ljqv4_pGBCUE_iPxlGrzxyWcxMYRTfpu6MCXd9eIn2Q,361
+az_evgrid_pydantic_schema/storage_blob.py,sha256=x-SouXlkiDElfoGkjP2h6kXX9q2zbfHGpmZ47T-mpJg,1276
+az_evgrid_pydantic_schema-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+az_evgrid_pydantic_schema-0.2.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+az_evgrid_pydantic_schema-0.2.0.dist-info/METADATA,sha256=fPgaCTceSx3NGrEY_BfQSnGm1edVcdDIDHv97Ipk2J4,1710
+az_evgrid_pydantic_schema-0.2.0.dist-info/RECORD,,
