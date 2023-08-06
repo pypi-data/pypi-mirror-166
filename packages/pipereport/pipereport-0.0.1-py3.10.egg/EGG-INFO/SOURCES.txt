@@ -1,0 +1,11 @@
+README.md
+setup.py
+pipereport/__init__.py
+pipereport/cli.py
+pipereport.egg-info/PKG-INFO
+pipereport.egg-info/SOURCES.txt
+pipereport.egg-info/dependency_links.txt
+pipereport.egg-info/namespace_packages.txt
+pipereport.egg-info/top_level.txt
+pipereport/base/__init__.py
+pipereport/base/connector.py
