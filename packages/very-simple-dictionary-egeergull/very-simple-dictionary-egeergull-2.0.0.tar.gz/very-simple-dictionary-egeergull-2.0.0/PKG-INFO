@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: very-simple-dictionary-egeergull
+Version: 2.0.0
+Summary: short package description
+Author: Ege Ergül
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+This is the example Python repository for the homework.
+Check the homework description file for the instructions on Moodle.
