@@ -1,0 +1,46 @@
+header h1 {
+    color: #333;
+}
+
+.sidebar-custom-branding {
+	padding-top:0 !important;
+	margin-top: 0 !important;
+	padding-left: 20px;
+	padding-right: 20px;
+	color:white;
+}
+
+.sidebar--mobile .sidebar-custom-branding img {
+	    padding-top: 50px;
+}
+
+.sidebar, .sidebar-loading__inner, .sidebar__inner, .c-page-explorer, .c-page-explorer__header, .c-page-explorer__item, .c-page-explorer__header__title:focus {
+    background-color: #313131 !important;
+    border-color: #202020 !important;
+}
+
+.sidebar-footer, .sidebar-sub-menu-panel, .w-bg-primary, .sidebar-menu-item--active, .c-page-explorer__header__title:hover, .c-page-explorer__item__link:focus, .c-page-explorer__item__link:hover, .c-page-explorer__item__action:hover {
+    background-color: #202020 !important;
+    border-color:  #313131 !important;
+}
+
+.c-page-explorer__item>:not([hidden])~:not([hidden]) {
+	background-color: #313131 !important;
+	border-color: #202020 !important;
+}
+
+.sidebar-nav-toggle--mobile {
+	background-color: #313131 !important;
+}
+
+.credits > .copyright {
+	font-size: 10px
+}
+
+.login-logo {
+	display: none
+}
+
+.login-brand {
+	margin-bottom: 2rem;
+}
