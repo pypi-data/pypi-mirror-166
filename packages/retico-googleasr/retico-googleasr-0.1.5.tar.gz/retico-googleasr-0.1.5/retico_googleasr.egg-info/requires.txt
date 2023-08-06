@@ -1,0 +1,2 @@
+retico-core~=0.2
+google-cloud-speech~=2.15

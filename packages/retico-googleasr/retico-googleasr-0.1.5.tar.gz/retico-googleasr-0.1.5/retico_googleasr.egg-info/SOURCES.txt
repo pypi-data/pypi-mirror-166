@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+retico_googleasr/__init__.py
+retico_googleasr/googleasr.py
+retico_googleasr/version.py
+retico_googleasr.egg-info/PKG-INFO
+retico_googleasr.egg-info/SOURCES.txt
+retico_googleasr.egg-info/dependency_links.txt
+retico_googleasr.egg-info/requires.txt
+retico_googleasr.egg-info/top_level.txt
