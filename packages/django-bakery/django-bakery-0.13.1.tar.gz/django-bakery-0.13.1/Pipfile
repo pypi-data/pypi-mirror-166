@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+six = "*"
+celery = "*"
+"boto3" = "*"
+fs = "*"
+
+[dev-packages]
+django = "==4.0.*"
+Sphinx = "*"
+"flake8" = "*"
+twine = "*"
+moto = {extras = ["all", "ec2", "s3"], version = "*"}
+setuptools-scm = "*"
+
+[requires]
+python_version = "3.9"
