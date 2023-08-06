@@ -1,0 +1,8 @@
+gerrit_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gerrit_tools/config.py,sha256=BZin-mLIDhJnTFuBkm_q67dJ6ulSSd-xsCs7bd3zp6k,2309
+gerrit_tools/main.py,sha256=Pc2OD2MLpejLpaUheYUYQ4iaIJsCzO0SkR7yB6fYuMA,3660
+gerrit_tools-0.0.2.dist-info/METADATA,sha256=2ByZxirG1ul4E_b6DJK1i69gCBNY01D0DpWfjNQxp4E,1430
+gerrit_tools-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gerrit_tools-0.0.2.dist-info/entry_points.txt,sha256=gPIjSALfwABK_Upc7z4lmSni-BFx_2FSEHlcDZneQUw,56
+gerrit_tools-0.0.2.dist-info/top_level.txt,sha256=55NvhYqIzjyhiWUvncoDbkocS2a717jWcmutFyWCQ0U,13
+gerrit_tools-0.0.2.dist-info/RECORD,,
