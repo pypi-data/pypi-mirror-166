@@ -1,0 +1,7 @@
+quantizer_pytorch/__init__.py,sha256=1skNp-wUOD1ll1gmIhwHCfYY3a4LjHdE8_ZlIbc15Xw,69
+quantizer_pytorch/quantizer.py,sha256=JAY5nb2QhpZsMGv-A1MrhbJFwGOlLsEwq0pMjdLRfL4,23925
+quantizer_pytorch-0.0.10.dist-info/LICENSE,sha256=7JTNKIh3GWz7t4VR6FMVGqfFP55UvmWbOFqF3qOd-q0,1068
+quantizer_pytorch-0.0.10.dist-info/METADATA,sha256=5rEUz9yWXv7lh2ZKeplVjESniuSYbzyP_hpCxza6MSM,712
+quantizer_pytorch-0.0.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+quantizer_pytorch-0.0.10.dist-info/top_level.txt,sha256=6mFpgcGVdCV0T1pJ5AZNW_EK8HOuBFA8N6iBVr3LkhY,18
+quantizer_pytorch-0.0.10.dist-info/RECORD,,
