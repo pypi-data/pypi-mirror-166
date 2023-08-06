@@ -1,0 +1,5 @@
+setup.py
+wcl.egg-info/PKG-INFO
+wcl.egg-info/SOURCES.txt
+wcl.egg-info/dependency_links.txt
+wcl.egg-info/top_level.txt
