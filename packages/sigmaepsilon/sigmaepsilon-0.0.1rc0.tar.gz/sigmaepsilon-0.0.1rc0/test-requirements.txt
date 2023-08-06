@@ -1,0 +1,4 @@
+pyvista
+tetgen
+networkx
+pytest
