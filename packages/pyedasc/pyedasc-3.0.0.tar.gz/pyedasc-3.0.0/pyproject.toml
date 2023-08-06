@@ -1,0 +1,12 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "pyabf",
+    "numpy",
+    "matplotlib",
+    "celluloid",
+    "scipy",
+    "openpyxl",    
+]
+build-backend = "setuptools.build_meta"
