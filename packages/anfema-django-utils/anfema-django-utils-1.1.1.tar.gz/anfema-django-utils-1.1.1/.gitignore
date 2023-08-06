@@ -1,0 +1,15 @@
+.idea/
+.vscode/
+
+*.pyc
+__pycache__
+
+/static/
+/media/
+*.sqlite3
+
+*.egg-info/
+.mypy_cache/
+.tox/
+.venv/
+dist/

@@ -1,0 +1,36 @@
+on:
+  push:
+    branches: [ main ]
+
+name: Generate and publish docs
+jobs:
+  generate:
+    name: Generate and publish docs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+      - name: Install build dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install ".[docs]"
+      - name: Switch to gh-pages branch
+        run: |
+          git config user.email "github@anfe.ma"
+          git config user.name "Build Bot"
+          git checkout gh-pages
+          git merge --no-edit $GITHUB_REF_NAME
+      - name: Build docs
+        run: |
+          make github
+      - name: Commit & push build docs
+        run: |
+          git add docs/
+          git commit -m "Updated docs for $GITHUB_REF_NAME" || true
+          git push origin gh-pages
