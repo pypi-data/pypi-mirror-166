@@ -1,0 +1,8 @@
+fairgrad/__init__.py,sha256=y3IgdVPxLWEAguAMVdINzlluq8MamwD0SK_AQaKfZkg,80
+fairgrad/fairness_functions.py,sha256=7pff-kAWwg9xSnYs0KJsrSwsGEGQdjmtfJvLwvEDiVU,12243
+fairgrad/torch/__init__.py,sha256=j_ghaP9Y7X42OQNty33oHE5FfYySw0mlMGPumnijnFw,44
+fairgrad/torch/cross_entropy.py,sha256=DMmNwt1zpIJ9zVqgLkp8uyPmcysw5jsMWuk73ZQzik4,10026
+fairgrad-0.1.5.dist-info/LICENSE.md,sha256=o9roPR-CeAfyPELTxwEMh4z_O9Wmzw57PYpuUNc8UwE,1063
+fairgrad-0.1.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fairgrad-0.1.5.dist-info/METADATA,sha256=0IZsVbOBUjpJwrzWvylAgC-ByvHF9yE4OgL9lzfnGu0,2896
+fairgrad-0.1.5.dist-info/RECORD,,
