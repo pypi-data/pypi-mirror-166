@@ -1,0 +1,2 @@
+[console_scripts]
+dcf_python_packaging_demo_upload = dcf_python_packaging_demo_upload.app:entry_point

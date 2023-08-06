@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+.github/scripts/release.py
+.github/workflows/publish.yml
+.github/workflows/release.yml
+src/dcf_python_packaging_demo_upload/__init__.py
+src/dcf_python_packaging_demo_upload/app.py
+src/dcf_python_packaging_demo_upload.egg-info/PKG-INFO
+src/dcf_python_packaging_demo_upload.egg-info/SOURCES.txt
+src/dcf_python_packaging_demo_upload.egg-info/dependency_links.txt
+src/dcf_python_packaging_demo_upload.egg-info/entry_points.txt
+src/dcf_python_packaging_demo_upload.egg-info/top_level.txt
