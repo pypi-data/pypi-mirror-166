@@ -1,0 +1,2 @@
+[lektor.plugins]
+markdown-ruby-blocks = lektor_markdown_ruby_blocks:RubyBlockPlugin
