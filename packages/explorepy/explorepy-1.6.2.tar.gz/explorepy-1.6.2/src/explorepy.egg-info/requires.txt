@@ -1,0 +1,16 @@
+numpy
+scipy
+pyedflib==0.1.25
+click==7.1.2
+appdirs==1.4.3
+sentry_sdk==1.0.0
+mne
+eeglabio
+pylsl
+Jinja2==3.0.0
+bokeh==2.2.3
+
+[test]
+pytest==6.2.5
+flake8==4.0.1
+isort==5.10.1
