@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mplshared
+Version: 0.0.1
+Summary: Some tools for matplotlib
+Home-page: https://github.com/maroba/mplshared
+Author: Matthias Baer
+Author-email: matthias.r.baer@googlemail.com
+License: MIT
+Platform: ALL
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sphinx
+
+# mplshared
+
+Some tools for matplotlib.
+
+## Installation
+
+```
+pip install --upgrade mplshared
+```
+
+## Usage
+
+
+
