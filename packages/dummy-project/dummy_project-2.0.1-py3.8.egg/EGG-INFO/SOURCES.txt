@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/dummy-package/__init__.py
+src/dummy-package/add.py
+src/dummy_project.egg-info/PKG-INFO
+src/dummy_project.egg-info/SOURCES.txt
+src/dummy_project.egg-info/dependency_links.txt
+src/dummy_project.egg-info/entry_points.txt
+src/dummy_project.egg-info/requires.txt
+src/dummy_project.egg-info/top_level.txt
