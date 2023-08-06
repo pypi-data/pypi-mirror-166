@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: macry
+Version: 0.0.2
+Summary: Python object-document mapper (ODM) for google FireStore
+Author-email: Irakli Sivsivadze <iraklisivsivadze@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: google-cloud-firestore
+Requires-Dist: google-api-core
+Requires-Dist: google-cloud
+Requires-Dist: google-auth
+Project-URL: Home, https://github.com/SaturnR/macry
+
+# macry
+
+## install
+
+```bash
+pip install macry
+```
+
