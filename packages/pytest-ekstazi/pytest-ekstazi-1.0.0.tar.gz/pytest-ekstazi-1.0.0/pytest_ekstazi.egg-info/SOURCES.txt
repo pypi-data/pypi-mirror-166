@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+pytest_ekstazi/__init__.py
+pytest_ekstazi/config.py
+pytest_ekstazi/plugin.py
+pytest_ekstazi/utils.py
+pytest_ekstazi.egg-info/PKG-INFO
+pytest_ekstazi.egg-info/SOURCES.txt
+pytest_ekstazi.egg-info/dependency_links.txt
+pytest_ekstazi.egg-info/entry_points.txt
+pytest_ekstazi.egg-info/requires.txt
+pytest_ekstazi.egg-info/top_level.txt
