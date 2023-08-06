@@ -1,0 +1,11 @@
+README.md
+setup.py
+spap/__init__.py
+spap/ccf.py
+spap/spap.py
+spap.egg-info/PKG-INFO
+spap.egg-info/SOURCES.txt
+spap.egg-info/dependency_links.txt
+spap.egg-info/entry_points.txt
+spap.egg-info/requires.txt
+spap.egg-info/top_level.txt
