@@ -1,0 +1,8 @@
+README.md
+setup.py
+panik/__init__.py
+panik_core.egg-info/PKG-INFO
+panik_core.egg-info/SOURCES.txt
+panik_core.egg-info/dependency_links.txt
+panik_core.egg-info/requires.txt
+panik_core.egg-info/top_level.txt
