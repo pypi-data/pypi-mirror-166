@@ -1,0 +1,10 @@
+README.md
+setup.py
+mnft/__init__.py
+mnft/callback.py
+mnft/utils.py
+mnft.egg-info/PKG-INFO
+mnft.egg-info/SOURCES.txt
+mnft.egg-info/dependency_links.txt
+mnft.egg-info/requires.txt
+mnft.egg-info/top_level.txt
