@@ -1,0 +1,15 @@
+col_gen_estimator/__init__.py,sha256=SR8ZEzVU2tQ2VTU2Ez9zrwh5SfPsitBfU1J2RLci2DE,1087
+col_gen_estimator/_bdr_classifier.py,sha256=Mz2jBio1fOyWoubMi6YmmI36KEAATBrLXG04MRkztx4,33574
+col_gen_estimator/_col_gen_classifier.py,sha256=bPgqSIc8W4uIfhlOVVtvGhRY7t4r7Sk__FXEkuZX1sI,7198
+col_gen_estimator/_dtree_classifier.py,sha256=C1XTX1IAPsJi_tQ6DvtaFvponQ1wnEVuFmaWpZ_VF9o,28219
+col_gen_estimator/_version.py,sha256=-nNlMKS9nph3FR78_ZG9RGKrbxseeNp2K6nMr0pVGaU,23
+col_gen_estimator/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+col_gen_estimator/tests/test_bdrc.py,sha256=meiwTABQf1Jv-TBFIKfgrD_t6xLFNFVvg6saFn_I-do,7520
+col_gen_estimator/tests/test_common.py,sha256=zIZ4kn8MutAl9C6zlIQRHDlYMpElZA_Dgve7D5gdRyw,488
+col_gen_estimator/tests/test_dtree.py,sha256=7PsOq5FkXO4X7eidrGQ7IY8wYcYK0ug3Vy7P8MfW0Xw,13957
+col_gen_estimator/tests/tic_tac_toe_dtree.py,sha256=UfmvymBVShQgdLK_e0nV-y84BYJROJlSY2gIiEtL2k4,6245
+ColGenEstimator-0.0.10.dist-info/LICENSE,sha256=RzjGm5Z_yAmwFZzQp-WgAgujUtJDRm1Jpls0do-FZcg,1486
+ColGenEstimator-0.0.10.dist-info/METADATA,sha256=KHkmTpuz23rNqwngUK-ddj35T9knAyA0MfPYkv3dy7s,2958
+ColGenEstimator-0.0.10.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+ColGenEstimator-0.0.10.dist-info/top_level.txt,sha256=6o2DZ3MKCXQoqWXiegVGNbIqNdUVg_vzWDBRR9AteZg,18
+ColGenEstimator-0.0.10.dist-info/RECORD,,
