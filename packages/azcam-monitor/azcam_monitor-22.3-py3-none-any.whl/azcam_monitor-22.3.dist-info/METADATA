@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: azcam-monitor
+Version: 22.3
+Summary: Azcam monitoring application
+Home-page: https://github.com/mplesser/azcam-monitor/
+License: LICENSE
+Keywords: ccd,imaging,astronomy,sensors
+Author: Michael Lesser
+Author-email: mlesser@arizona.edu
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: azcam
+Requires-Dist: fastapi
+Requires-Dist: psutil
+Requires-Dist: uvicorn
+Project-URL: Documentation, https://mplesser.github.io/azcam/
+Project-URL: Repository, https://github.com/mplesser/azcam-monitor/
+Description-Content-Type: text/markdown
+
+# azcam-monitor
+
+*azcam-monitor* is an *azcam* extension app used to monitor and control *azcam* processes on the local network.
+
+## Installation
+
+`pip install azcam-monitor`
+
+Or download from github: https://github.com/mplesser/azcam-monitor.git.
+
+## Startup and configuration
+
+Run the app from its folder, it is not a python package.
+
+Example:
+
+``azcammonitor.py -configfile \somefolder\parameters_monitor_example.ini``
+
+## Credits
+
+Orginally written by Grzegorz Zareba.
+
+Maintained by Michael Lesser.
+
