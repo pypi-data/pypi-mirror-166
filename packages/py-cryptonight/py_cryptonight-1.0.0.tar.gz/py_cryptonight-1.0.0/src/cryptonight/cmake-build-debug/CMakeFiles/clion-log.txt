@@ -1,0 +1,68 @@
+"/Users/dusanklinec/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/dusanklinec/workspace/py-cryptonight/src/cryptonight -B /Users/dusanklinec/workspace/py-cryptonight/src/cryptonight/cmake-build-debug
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning at /Users/dusanklinec/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake:303 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Users/dusanklinec/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake:21 (include)
+  CMakeLists.txt
+
+
+-- The C compiler identification is AppleClang 13.1.6.13160021
+-- The CXX compiler identification is AppleClang 13.1.6.13160021
+-- Detecting C compiler ABI info
+CMake Error: Generator: execution of make failed. Make command was: /opt/local/bin/gmake -f Makefile cmTC_c926a/fast && 
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+CMake Error: Generator: execution of make failed. Make command was: /opt/local/bin/gmake -f Makefile cmTC_60e0a/fast && 
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - broken
+CMake Error at /Users/dusanklinec/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.3739.54/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeTestCCompiler.cmake:69 (message):
+  The C compiler
+
+    "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /Users/dusanklinec/workspace/py-cryptonight/src/cryptonight/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):/opt/local/bin/gmake -f Makefile cmTC_60e0a/fast && No such file or directory
+    Generator: execution of make failed. Make command was: /opt/local/bin/gmake -f Makefile cmTC_60e0a/fast && 
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt
+
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.23)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/dusanklinec/workspace/py-cryptonight/src/cryptonight/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/dusanklinec/workspace/py-cryptonight/src/cryptonight/cmake-build-debug/CMakeFiles/CMakeError.log".

@@ -1,0 +1,74 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/dusanklinec/workspace/py-cryptonight/src/cryptonight/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/gmake -f Makefile cmTC_3b944/fast && No such file or directory
+Generator: execution of make failed. Make command was: /opt/local/bin/gmake -f Makefile cmTC_3b944/fast && 
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/dusanklinec/workspace/py-cryptonight/src/cryptonight/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/gmake -f Makefile cmTC_4c9d3/fast && No such file or directory
+Generator: execution of make failed. Make command was: /opt/local/bin/gmake -f Makefile cmTC_4c9d3/fast && 
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/dusanklinec/workspace/py-cryptonight/src/cryptonight/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/gmake -f Makefile cmTC_c926a/fast && No such file or directory
+Generator: execution of make failed. Make command was: /opt/local/bin/gmake -f Makefile cmTC_c926a/fast && 
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/dusanklinec/workspace/py-cryptonight/src/cryptonight/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/opt/local/bin/gmake -f Makefile cmTC_60e0a/fast && No such file or directory
+Generator: execution of make failed. Make command was: /opt/local/bin/gmake -f Makefile cmTC_60e0a/fast && 
+
+
