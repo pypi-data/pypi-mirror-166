@@ -1,0 +1,10 @@
+sphinx<5
+pangeo-sphinx-book-theme>=0.2
+myst-parser
+myst-nb
+sphinx-copybutton
+sphinx-togglebutton
+sphinx-autodoc-typehints
+sphinx-panels
+sphinxext-opengraph
+-e .
