@@ -1,0 +1,7 @@
+README.md
+setup.py
+jhandu/__init__.py
+jhandu.egg-info/PKG-INFO
+jhandu.egg-info/SOURCES.txt
+jhandu.egg-info/dependency_links.txt
+jhandu.egg-info/top_level.txt
