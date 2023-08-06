@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+jason_json/__init__.py
+jason_json/main.py
+jason_json/py.typed
+jason_json/types.py
+jason_json/utils.py
+jason_json.egg-info/PKG-INFO
+jason_json.egg-info/SOURCES.txt
+jason_json.egg-info/dependency_links.txt
+jason_json.egg-info/entry_points.txt
+jason_json.egg-info/requires.txt
+jason_json.egg-info/top_level.txt

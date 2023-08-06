@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: jason_json
+Version: 0.0.0
+Summary: Make jason.json
+Home-page: https://github.com/eggplants/jason-json
+Author: eggplants
+Author-email: w10776e8w@yahoo.co.jp
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.txt
+
+# jason-json
+
+[![PyPI version](
+  https://badge.fury.io/py/jason-json.svg
+  )](
+  https://badge.fury.io/py/jason-json
+) [![Maintainability](
+  https://api.codeclimate.com/v1/badges/20d58be4ccf5c4c8e008/maintainability
+  )](
+    https://codeclimate.com/github/eggplants/jason-json/maintainability
+) [![pre-commit.ci status](
+  https://results.pre-commit.ci/badge/github/eggplants/jason-json/master.svg
+  )](
+  https://results.pre-commit.ci/latest/github/eggplants/jason-json/master
+)
+
+[![ghcr latest](
+  https://ghcr-badge.herokuapp.com/eggplants/jason-json/latest_tag?trim=major&label=latest
+) ![ghcr size](
+  https://ghcr-badge.herokuapp.com/eggplants/jason-json/size)
+](
+  https://github.com/eggplants/jason-json/pkgs/container/getjump
+)
+
+[Jason](https://jason.co.jp) JSON Builder
+
+## License
+
+MIT
