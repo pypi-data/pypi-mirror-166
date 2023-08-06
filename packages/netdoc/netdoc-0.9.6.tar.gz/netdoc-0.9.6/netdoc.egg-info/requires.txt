@@ -1,0 +1,7 @@
+ipaddress
+macaddress
+nornir==3.3.0
+nornir_netmiko==0.1.2
+nornir_utils==0.2.0
+ouilookup
+python-slugify
