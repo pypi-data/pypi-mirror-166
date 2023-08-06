@@ -1,0 +1,6 @@
+"CODA","Characteristics","Tyre Diameter",,,"Tyre Width",,,"Dummy Characteristic",,
+,,"Bounds","24","29","Bounds","11","18","Bounds",,
+"Requirements","Weighting","Relationship Type","Target Value","Tolerance","Relationship Type","Target Value","Tolerance","Relationship Type","Target Value","Tolerance"
+"Stiffness","0.2","---","29",,,,,,,
+"Friction","0.3","++","12",,,,,,,
+"Weight","0.5",,,,"o","14","1",,,
