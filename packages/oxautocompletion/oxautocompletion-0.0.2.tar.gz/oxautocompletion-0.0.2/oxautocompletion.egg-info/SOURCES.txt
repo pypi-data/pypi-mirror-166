@@ -1,0 +1,9 @@
+README.md
+setup.py
+oxautocompletion/__init__.py
+oxautocompletion/main.py
+oxautocompletion.egg-info/PKG-INFO
+oxautocompletion.egg-info/SOURCES.txt
+oxautocompletion.egg-info/dependency_links.txt
+oxautocompletion.egg-info/requires.txt
+oxautocompletion.egg-info/top_level.txt
