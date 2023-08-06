@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+vxbase/__init__.py
+vxbase/compress.py
+vxbase/generators.py
+vxbase/logger.py
+vxbase/types.py
+vxbase.egg-info/PKG-INFO
+vxbase.egg-info/SOURCES.txt
+vxbase.egg-info/dependency_links.txt
+vxbase.egg-info/not-zip-safe
+vxbase.egg-info/requires.txt
+vxbase.egg-info/top_level.txt
