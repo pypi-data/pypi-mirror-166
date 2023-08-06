@@ -1,0 +1,10 @@
+fastcore
+pandas
+numpy
+scipy
+statsmodels
+joblib
+numba
+matplotlib
+
+[dev]
