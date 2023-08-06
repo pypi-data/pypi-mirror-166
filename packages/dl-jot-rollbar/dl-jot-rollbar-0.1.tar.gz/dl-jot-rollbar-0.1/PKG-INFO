@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dl-jot-rollbar
+Version: 0.1
+Summary: A Jot target that reports errors to Rollbar
+License: MIT
+Author-email: Colin Putney <colin.putney@descarteslabs.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# jot-rollbar
+
+A target that reports errors to Rollbar
+

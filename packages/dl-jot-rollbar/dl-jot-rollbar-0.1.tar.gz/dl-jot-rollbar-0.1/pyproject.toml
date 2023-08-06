@@ -1,0 +1,50 @@
+[project]
+name = "dl-jot-rollbar"
+description = "A Jot target that reports errors to Rollbar"
+requires-python = ">=3.7"
+dynamic = []
+authors = [
+    { name = "Colin Putney", email = "colin.putney@descarteslabs.com" },
+]
+dependencies = [
+    "rollbar>=0.16.2",
+    "dl-jot>=0.1",
+]
+readme = "README.md"
+version = "0.1"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+
+[build-system]
+requires = [
+    "pdm-pep517>=0.12.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.version]
+use_scm = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=22.3.0",
+    "mock>=4.0.3",
+    "pytest-mock>=3.7.0",
+    "pytest-order>=1.0.1",
+    "pytest>=7.1.2",
+    "tox-pdm>=0.3.4",
+]
+
+[tool.pytest.ini_options]
+mock_use_standalone_module = true
+testpaths = [
+    "tests",
+]
+
+[tool.black]
+line-length = 120
+target-version = [
+    "py37",
+]
