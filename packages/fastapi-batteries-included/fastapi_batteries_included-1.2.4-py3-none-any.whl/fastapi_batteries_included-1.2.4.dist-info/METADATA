@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: fastapi-batteries-included
+Version: 1.2.4
+Summary: Batteries-included library for services that use FastAPI
+Home-page: https://github.com/polaris-foundation/fastapi-batteries-included
+Keywords: FastAPI
+Author: Duncan Booth
+Author-email: duncan.booth@sensynehealth.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: jwt
+Provides-Extra: mssql
+Provides-Extra: pgsql
+Requires-Dist: FastAPI-SQLAlchemy (<1.0.0); extra == "mssql" or extra == "pgsql"
+Requires-Dist: SQLAlchemy[mypy] (>=1.4.0,<1.5.0); extra == "mssql" or extra == "pgsql"
+Requires-Dist: aiofile (>=3.0.0,<4.0.0)
+Requires-Dist: alembic (>=1.0.0,<2.0.0); extra == "mssql" or extra == "pgsql"
+Requires-Dist: cachetools (>=4.2.2,<5.0.0)
+Requires-Dist: fastapi (<1.0.0)
+Requires-Dist: prometheus-client (<1.0.0)
+Requires-Dist: prometheus-fastapi-instrumentator (>=5.0.0,<6.0.0)
+Requires-Dist: psycopg2-binary (>=2.0.0,<3.0.0); extra == "pgsql"
+Requires-Dist: pyodbc (>=4.0.0,<5.0.0); extra == "mssql"
+Requires-Dist: python-jose (>=3.0.0,<4.0.0); extra == "jwt"
+Requires-Dist: she-logging (>=1.0.0,<2.0.0)
+Requires-Dist: typer (<1.0.0)
+Project-URL: Repository, https://github.com/polaris-foundation/fastapi-batteries-included

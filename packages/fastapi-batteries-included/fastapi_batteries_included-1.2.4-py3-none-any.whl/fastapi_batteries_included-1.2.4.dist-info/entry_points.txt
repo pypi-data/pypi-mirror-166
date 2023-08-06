@@ -1,0 +1,3 @@
+[console_scripts]
+create-openapi=fastapi_batteries_included.helpers.apispec:create_openapi
+
