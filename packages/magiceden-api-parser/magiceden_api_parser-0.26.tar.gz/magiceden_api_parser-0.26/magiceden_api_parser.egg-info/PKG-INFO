@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: magiceden-api-parser
+Version: 0.26
+Summary: MagicEden API Parser
+Home-page: https://github.com/no-name-user-name/magiceden_api_parser
+Author: no-name-user-name
+Author-email: dimazver61@gmail.com
+License: GPL2
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
