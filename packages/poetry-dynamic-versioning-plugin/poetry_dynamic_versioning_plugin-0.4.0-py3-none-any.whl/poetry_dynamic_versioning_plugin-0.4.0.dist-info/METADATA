@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: poetry-dynamic-versioning-plugin
+Version: 0.4.0
+Summary: Plugin for Poetry to enable dynamic versioning based on VCS tags
+Home-page: https://github.com/mtkennerly/poetry-dynamic-versioning
+License: MIT
+Keywords: poetry,plugin,version,versioning,dynamic
+Author: Matthew T. Kennerly
+Author-email: mtkennerly@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Topic :: Software Development :: Version Control :: Bazaar
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Software Development :: Version Control :: Mercurial
+Requires-Dist: dunamai (>=1.12.0,<2.0.0)
+Requires-Dist: jinja2 (>=2.11.1,<4)
+Requires-Dist: poetry (>=1.2.0,<2.0.0)
+Requires-Dist: tomlkit (>=0.4)
+Project-URL: Repository, https://github.com/mtkennerly/poetry-dynamic-versioning
+Description-Content-Type: text/markdown
+
+# Dynamic versioning plugin for Poetry
+This is a Python 3.7+ plugin for [Poetry 1.2.0+](https://github.com/sdispater/poetry)
+to enable dynamic versioning based on tags in your version control system,
+powered by [Dunamai](https://github.com/mtkennerly/dunamai).
+
+The package `poetry-dynamic-versioning-plugin` has been merged into
+[`poetry-dynamic-versioning`](https://pypi.org/project/poetry-dynamic-versioning),
+under the optional feature named `plugin`. Please install that package instead.
+
