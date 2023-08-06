@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "gitrepoxmlparser"
+version = "0.2.4"
+description = "Provides Details for your GitRepo master manifest file "
+authors = ["Ravi Dinesh <dineshr93@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "12.5.1"
+pywebio = "^1.6.3"
+
+[tool.poetry.scripts]
+gitrepoxmlparser = 'gitrepoxmlparser:main'
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
