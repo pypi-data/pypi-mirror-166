@@ -1,0 +1,10 @@
+jk_contract/__init__.py,sha256=Upx2C85RHvyxV-iuPLm74ItwJLx1U-df-n05N2_ljZk,43
+jk_contract/main/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+jk_contract/main/main.py,sha256=gjj2M2LsPKvyR5IFKlEN1lOQCsmZ2eNkNomz53idk7o,4700
+jk_contract/regex_dict/__init__.py,sha256=W1olxCL-ZX2Jfh8Yfc09gMkGI0zbe9CcnwJlw-bT_Lo,31
+jk_contract/regex_dict/regex_dictionary.py,sha256=xndJeBbh79B7V3J9Pn5cd0Z7GpRd41rNClFqoPx-oyA,20834
+jk_contract-0.0.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+jk_contract-0.0.4.dist-info/METADATA,sha256=4LdYTqrnShDWAlUUJh_PkGJ8R8F9VRCmNPjUIQhPCrI,2402
+jk_contract-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jk_contract-0.0.4.dist-info/top_level.txt,sha256=EtepMKJgyHnhgSNF0huDP1qGGq4tXDu6MEOYw_4QStA,12
+jk_contract-0.0.4.dist-info/RECORD,,
