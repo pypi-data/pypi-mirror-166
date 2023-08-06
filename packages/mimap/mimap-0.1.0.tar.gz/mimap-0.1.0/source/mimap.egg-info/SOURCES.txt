@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+source/mimap/__init__.py
+source/mimap/block.py
+source/mimap/highlevel.py
+source/mimap/item.py
+source/mimap/metadata.py
+source/mimap/reference.py
+source/mimap.egg-info/PKG-INFO
+source/mimap.egg-info/SOURCES.txt
+source/mimap.egg-info/dependency_links.txt
+source/mimap.egg-info/top_level.txt
