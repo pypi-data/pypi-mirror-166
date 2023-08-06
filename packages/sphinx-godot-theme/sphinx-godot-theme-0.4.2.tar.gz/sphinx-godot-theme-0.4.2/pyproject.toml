@@ -1,0 +1,43 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "sphinx-godot-theme"
+authors = [
+    {name = "Arkadiusz Michał Ryś", email = "Arkadiusz.Michal.Rys@gmail.com"},
+]
+readme = "README.rst"
+requires-python = ">=3.8"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "Framework :: Sphinx",
+]
+dynamic = ["version", "description"]
+license = {file = "LICENSE"}
+keywords = ["godot", "sphinx", "theme"]
+dependencies = [
+    "sphinx                    >= 5, < 6",
+    "sphinx-rtd-theme          >= 1, < 2",
+    "sphinxext-opengraph       >= 0.4, < 1",
+    "readthedocs-sphinx-search >= 0.1, < 1",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+doc = ["sphinx"]
+dev = [
+    "pip",
+    "flit",
+    "twine",
+    "wheel",
+    "invoke",
+    "setuptools",
+]
+
+[project.urls]
+source = "https://git.rys.one/arrys/sphinx-godot-theme"
+
+[tool.flit.module]
+name = "sphinx_godot_theme"
