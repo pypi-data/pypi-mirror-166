@@ -1,0 +1,79 @@
+{% extends "layout.html" %}
+{% block header %}
+<div class="d-flex justify-content-between align-items-center">
+    <h1>{{ model.label }}</h1>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="{{url_for(__name__ ~ ':index')}}">Admin</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a href="{{url_for(__name__ ~ ':list', identity=model.identity)}}">{{ model.label }}</a>
+        </li>
+        <li class="breadcrumb-item active">Create New</li>
+    </ol>
+</div>
+{% endblock%}
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <form
+                        action="{{request.url | safe}}"
+                        method="POST"
+                        enctype="multipart/form-data"
+                >
+                    <div class="card-header">
+                        <div class="container-fluid">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h3 class="card-title">New {{model.name}}</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body border-bottom py-3">
+                        {%for field in model._extract_fields('CREATE') %}
+                        <div class="mb-3">
+                            {% with action='CREATE',data=(None if not obj else obj[field.name]), error=(errors and errors.has(field.name))%}
+                            {% include field.form_template %}
+                            {% endwith %}
+                            {%if errors and errors.has(field.name)%}
+                            <div class="invalid-feedback">{{errors.msg(field.name)}}</div>
+                            {%endif%}
+                        </div>
+                        {%endfor%}
+                    </div>
+                    <div class="card-footer text-black">
+                        <div class="btn-list ms-auto justify-content-end">
+                            <a href="{{url_for(__name__ ~ ':list', identity=model.identity)}}" class="btn btn-danger">Cancel</a>
+                            <button type="submit" name="_add_another" class="btn btn-outline-secondary">Save and add
+                                another
+                            </button>
+                            <button type="submit" name="_continue_editing" class="btn btn-outline-secondary">Save and
+                                continue editing
+                            </button>
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock%}
+{%block head_css%}
+{%if model._need_select2()%}
+<link rel="stylesheet" href="{{ url_for(__name__ ~ ':statics', path='css/select2.min.css') }}">
+{%endif%}
+{%if model._need_jsoneditor()%}
+<link rel="stylesheet" href="{{ url_for(__name__ ~ ':statics', path='css/jsoneditor.min.css') }}">
+{%endif%}
+{%endblock%}
+{%block script%}
+{%if model._need_select2()%}
+<script type="text/javascript" src="{{ url_for(__name__ ~ ':statics', path='js/vendor/select2.min.js') }}"></script>
+{%endif%}
+{%if model._need_jsoneditor()%}
+<script type="text/javascript" src="{{ url_for(__name__ ~ ':statics', path='js/vendor/jsoneditor.min.js') }}"></script>
+{%endif%}
+<script type="text/javascript" src="{{ url_for(__name__ ~ ':statics', path='js/form.js') }}"></script>
+{%endblock%}
