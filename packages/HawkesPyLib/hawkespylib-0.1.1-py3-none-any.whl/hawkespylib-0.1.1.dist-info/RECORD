@@ -1,0 +1,15 @@
+HawkesPyLib/__init__.py,sha256=enRcftE8kRILUn7tWgYdW5tbFun5awngbompF6vYAv8,4554
+HawkesPyLib/inference.py,sha256=HcMKYd9IHz99AdRDYNAod672AaFV88Lvkhg7bBjjFKM,41072
+HawkesPyLib/processes.py,sha256=46N5MG_Qtes7hyFja7FYoARfdk_MpSaCnm8qiRa8KVk,18808
+HawkesPyLib/simulation.py,sha256=9wZ49YBaTFhrenDMVUcuhgvHqkNxRjKwTpR2swYvbwQ,16792
+HawkesPyLib/util.py,sha256=TsyW5TkkJtmykzU9K8GjORhCJrAoPq5Ug_f_mF5Oyw4,4557
+HawkesPyLib/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HawkesPyLib/core/compensator.py,sha256=6d-6u6_TC1UIMNf2Z3gXRiZPBYMNxmwuVo-ai5A_pzs,6245
+HawkesPyLib/core/intensity.py,sha256=LchLJb2vGwgaQzXpB5jcIramAVxBi9Js7Jh5uSF_Ppw,10617
+HawkesPyLib/core/kernel.py,sha256=4FYQdOrOjjwT36FIhIi_oND69ZuGiQEsniFvCmSc-Rk,3765
+HawkesPyLib/core/logll.py,sha256=a3T8iY6B1F-rLZo_zWTk2sxT8azZmC44ck8we0Q2GzE,11588
+HawkesPyLib/core/simulation.py,sha256=bUajIwQhp8QV1n5T9sXSNo1A-xKXXb3wTsGmLhV1bDY,11342
+hawkespylib-0.1.1.dist-info/METADATA,sha256=uhFDy8PDW_dLSmtxxcpNuxqx7RBjc0NuF5J7f0MyyLc,3457
+hawkespylib-0.1.1.dist-info/WHEEL,sha256=09RFlvY3aVzvCNk4AXPZt-N-AI7GY_KktGsTb2IqIBU,86
+hawkespylib-0.1.1.dist-info/licenses/LICENSE,sha256=MR2S5ShX4sLdB-ZmbHeKvaH2EVX1EPMhj6vDYesnDjw,1067
+hawkespylib-0.1.1.dist-info/RECORD,,
