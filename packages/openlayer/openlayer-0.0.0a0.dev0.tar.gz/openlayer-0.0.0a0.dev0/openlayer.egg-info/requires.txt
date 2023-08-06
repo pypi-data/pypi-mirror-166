@@ -1,0 +1,7 @@
+bentoml==0.13.1
+jupyter
+pandas
+requests
+tqdm
+marshmallow
+protobuf==3.20.0
