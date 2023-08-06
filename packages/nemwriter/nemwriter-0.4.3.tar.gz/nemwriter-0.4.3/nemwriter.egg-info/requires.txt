@@ -1,0 +1,6 @@
+numpy
+pandas
+
+[test]
+pytest
+nemreader>=0.2.1
