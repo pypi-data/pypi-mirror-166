@@ -1,0 +1,3 @@
+TEST_REPOSITORY = "null"
+TEST_BUNDLE = "simple"
+TEST_VERSION = "v0.2.0"
