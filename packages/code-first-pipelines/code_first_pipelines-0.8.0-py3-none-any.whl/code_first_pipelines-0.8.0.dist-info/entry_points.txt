@@ -1,0 +1,3 @@
+[console_scripts]
+pipelines=cf_pipelines.cli.__main__:main
+
