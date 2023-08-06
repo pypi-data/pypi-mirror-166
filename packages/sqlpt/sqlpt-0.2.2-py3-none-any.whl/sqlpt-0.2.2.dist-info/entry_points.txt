@@ -1,0 +1,2 @@
+[console_scripts]
+sqlpt = sqlpt.__main__:main
