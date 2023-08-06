@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: aws-cron-expression-validator
+Version: 1.0.0
+Summary: ValidatesAWS EventBridge cron expressions, which are similar to, but not compatible with Unix style cron expressions
+Author-email: Graham Coster <bitjugglers@gmail.com>
+License: Copyright (c) [2022] [Graham Coster]        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.        
+Project-URL: Homepage, https://github.com/grumBit/aws_cron_expression_validator
+Project-URL: Bug Tracker, https://github.com/grumBit/aws_cron_expression_validator/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.09
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AWSCronExpressionValidator
+
+Validates these [AWS EventBridge cron expressions](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-create-rule-schedule.html#eb-cron-expressions), which are similar to, but not compatible with Unix style cron expressions;
+
+| Field        | Values          | Wildcards     |
+| :----------: | :-------------: | :-----------: |
+| Minute       | 0-59            | , - * /       |
+| Hour         | 0-23            | , - * /       |
+| Day-of-month | 1-31            | , - * ? / L W |
+| Month        | 1-12 or JAN-DEC | , - * /       |
+| Day-of-week  |  1-7 or SUN-SAT | , - * ? L #   |
+| Year         | 1970-2199       | , - * /       |
+
+This was inspired by Niloy Chakraborty's [AWSCronValidator.py](https://gist.github.com/ultrasonex/e1fdb8354408a56df91aa4902d17aa6a) project.
+
+# Installing
+
+To install the library run;
+
+```bash
+pip install aws-cron-expression-validator
+```
+
+# Usage
+
+```python
+from aws_cron_expression_validator.validator import AWSCronExpressionValidator
+
+my_expression = "0 18 ? * MON-FRI *"
+try:
+    AWSCronExpressionValidator.validate(my_expression)
+except ValueError as e:
+    print(f"Oh no! My expression was invalid: {e}")
+```
