@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: redstone-computer-utilities
+Version: 0.2.0.post3
+Summary: Lightweight and Modular Redstone Computer Debugging Tools.
+Home-page: https://github.com/NKID00/redstone-computer-utilities
+License: MPL-2.0
+Author: NKID00
+Author-email: nkid00@pm.me
+Requires-Python: >=3.7.2,<4.0.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: colorama (>=0.4.5,<0.5.0)
+Requires-Dist: typing-extensions (>=4.3.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+<img src="https://cdn.jsdelivr.net/gh/NKID00/redstone-computer-utilities@dev/src/main/resources/assets/rcutil/icon.png" alt="icon" align="right" height="175">
+
+# Redstone Computer Utilities
+
+>  Lightweight and Modular Redstone Computer Debugging Tools.
+
+## Installation
+
+Python 3.7.2 or newer (CPython or PyPy) is required.
+
+```sh
+$ pip install redstone-computer-utilities
+```
+
+or
+
+```toml
+# pyproject.toml
+redstone-computer-utilities = "^0.2.0"
+```
+
+### Check the GitHub repository [NKID00/redstone-computer-utilities](https://github.com/NKID00/redstone-computer-utilities) for details.
