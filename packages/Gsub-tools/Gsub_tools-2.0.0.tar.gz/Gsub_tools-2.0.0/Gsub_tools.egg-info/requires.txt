@@ -1,0 +1,10 @@
+orffinder
+pathlib
+Bio
+ipython
+biopython
+colored
+gooey==1.0.8.1
+argparse
+pyinstaller
+pyhmmer

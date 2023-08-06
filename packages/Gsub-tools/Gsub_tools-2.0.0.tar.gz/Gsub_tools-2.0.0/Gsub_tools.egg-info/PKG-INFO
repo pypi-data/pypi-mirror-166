@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: Gsub-tools
+Version: 2.0.0
+Summary: Gsub is a Graphical user interface that help for GenBank submission.            For now, this tools take some input file :                * fasta files which contains all contigs to submit at GenBank                * template.sbt, a template which create at this link : https://submit.ncbi.nlm.nih.gov/genbank/template/submission/
+Home-page: https://github.com/FlorianCHA/Gsub
+Download-URL: https://github.com/FlorianCHA/Gsub
+Author: Florian Charriat (CIRAD)
+Author-email: florian.charriat@cirad.fr
+License: GPLv3
+Project-URL: Bug Tracker, https://github.com/FlorianCHA/Gsub/issues
+Project-URL: Documentation, https://github.com/FlorianCHA/Gsub
+Project-URL: Source Code, https://github.com/FlorianCHA/Gsub
+Keywords: GenBank submission,python,GUI
+Platform: unix
+Platform: linux
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: License :: CeCILL-C Free Software License Agreement (CECILL-C)
+Classifier: License :: Free for non-commercial use
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Assemblers
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
