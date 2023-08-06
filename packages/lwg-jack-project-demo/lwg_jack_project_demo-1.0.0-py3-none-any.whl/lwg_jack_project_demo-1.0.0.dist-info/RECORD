@@ -1,0 +1,14 @@
+test_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_package/info1.py,sha256=-cDFQfP5_DHx5hWnyxVfSKYwfwOAfYooriAFUGugC84,136
+test_package/main.py,sha256=18-FIubeK_JxxBsU2rGsLTR9gB0hQrx7YW2EiYURZII,461
+test_package/operator1.py,sha256=xB6xdHRhAc9ZhJ11Zpgvs1rsX07Kl6DXTmyt81A8Vs0,119
+test_package/push_to_baidu.py,sha256=dKBqpWaKjdkMzraGhNhozJjIJGrHk2_KL08kh-sDiko,1456
+test_package/test.py,sha256=FbFo7MxyJBiEH0OrAf0jA0fmcu7WgMKZC2HGUQegg88,327
+test_package/test_package2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_package/test_package2/info2.py,sha256=zfY_8R82vwJmaUmLeGhWDpH-KGFKtbnlsDOteYb5ZWQ,183
+test_package/test_package2/operator2.py,sha256=qoiLOQ71O8O7M15ghseYWtoyOzWUIXbM7yZiVPs7zEA,119
+lwg_jack_project_demo-1.0.0.dist-info/LICENSE,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+lwg_jack_project_demo-1.0.0.dist-info/METADATA,sha256=6cT-PmqzurQr1iN8eJyZR7IkQy2g9UJRdbo_jLo4XYk,240
+lwg_jack_project_demo-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lwg_jack_project_demo-1.0.0.dist-info/top_level.txt,sha256=GeXTEKqyjBx-5S0TKnJMkgF1M3Cpjq6YSWM7P4c9-lg,13
+lwg_jack_project_demo-1.0.0.dist-info/RECORD,,
