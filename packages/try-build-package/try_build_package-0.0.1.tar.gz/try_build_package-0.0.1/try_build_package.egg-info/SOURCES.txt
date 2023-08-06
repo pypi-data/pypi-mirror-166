@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+try_build_package/__init__.py
+try_build_package/math.py
+try_build_package.egg-info/PKG-INFO
+try_build_package.egg-info/SOURCES.txt
+try_build_package.egg-info/dependency_links.txt
+try_build_package.egg-info/top_level.txt
