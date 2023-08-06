@@ -1,0 +1,9 @@
+generallibrary
+generalfile
+pandas
+tabulate
+gitpython
+pygithub
+requests
+pyinstaller
+coverage
