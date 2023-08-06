@@ -1,0 +1,13 @@
+LICENCE
+README.md
+pyproject.toml
+src/structural_diversity_index/MeetingTimeEstimator.py
+src/structural_diversity_index/MeetingTimeUI.py
+src/structural_diversity_index/RandomWalkSimulator.py
+src/structural_diversity_index/RandomWalkSimulatorCUDA.py
+src/structural_diversity_index/__init__.py
+src/structural_diversity_index.egg-info/PKG-INFO
+src/structural_diversity_index.egg-info/SOURCES.txt
+src/structural_diversity_index.egg-info/dependency_links.txt
+src/structural_diversity_index.egg-info/requires.txt
+src/structural_diversity_index.egg-info/top_level.txt

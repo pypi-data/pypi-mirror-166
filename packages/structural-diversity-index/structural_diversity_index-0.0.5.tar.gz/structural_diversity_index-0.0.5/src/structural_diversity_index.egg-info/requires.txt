@@ -1,0 +1,8 @@
+scipy>=1.7.3
+numpy>=1.22.1
+torch>=1.10
+tqdm>=4.62.3
+networkx>=2.8
+
+[cuda]
+cupy-cuda11x>=9.4.0
