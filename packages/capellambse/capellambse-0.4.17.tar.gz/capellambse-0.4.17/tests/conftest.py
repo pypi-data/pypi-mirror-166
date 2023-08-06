@@ -1,0 +1,47 @@
+# SPDX-FileCopyrightText: Copyright DB Netz AG and the capellambse contributors
+# SPDX-License-Identifier: Apache-2.0
+
+"""Global fixtures for pytest"""
+import io
+import sys
+
+import pytest
+
+import capellambse
+
+from . import TEST_MODEL, TEST_ROOT
+
+
+@pytest.fixture(scope="session")
+def session_shared_model() -> capellambse.MelodyModel:
+    """Load the standard test model.
+
+    Unlike the ``model`` fixture, this fixture is shared across the
+    entire test session. As such, the test functions using this fixture
+    are expected to not modify it.
+
+    This fixture exists as a speed optimization for tests that only read
+    from the model.
+    """
+    return capellambse.MelodyModel(TEST_ROOT / "5_0" / TEST_MODEL)
+
+
+@pytest.fixture
+def model(monkeypatch) -> capellambse.MelodyModel:
+    """Return test model"""
+    monkeypatch.setattr(sys, "stderr", io.StringIO)
+    return capellambse.MelodyModel(TEST_ROOT / "5_0" / TEST_MODEL)
+
+
+@pytest.fixture
+def model_5_1(monkeypatch) -> capellambse.MelodyModel:
+    """Return test model"""
+    monkeypatch.setattr(sys, "stderr", io.StringIO)
+    return capellambse.MelodyModel(TEST_ROOT / "5_1" / TEST_MODEL)
+
+
+@pytest.fixture
+def model_5_2(monkeypatch) -> capellambse.MelodyModel:
+    """Return test model"""
+    monkeypatch.setattr(sys, "stderr", io.StringIO)
+    return capellambse.MelodyModel(TEST_ROOT / "5_2" / TEST_MODEL)
