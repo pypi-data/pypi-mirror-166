@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pelita
+Version: 2.2.0rc1
+Summary: Pelita
+Home-page: https://github.com/ASPP/pelita
+License: BSD-2
+Keywords: education
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: COPYING
+Requires-Dist: pyzmq
+Requires-Dist: PyYAML
+Requires-Dist: numpy
+Requires-Dist: networkx
+Requires-Dist: pytest (>=4)
+Requires-Dist: zeroconf
+Requires-Dist: rich
+
+# Pelita
+
+[![Build Status](https://github.com/ASPP/pelita/actions/workflows/push_ci.yml/badge.svg?branch=main)](https://github.com/ASPP/pelita/actions)
+
+## Description
+
+Pelita is a programmable game that lets you play against your opponent by writing code in Python.
+
+![](doc/source/images/small-game.png)
+
+## Website
+
+Current, up-to-date documentation and templates for your own code can be found on: https://github.com/ASPP/pelita_template
+
+## Development
+
+Pelita uses GitHub for development and bug tracking. Feel encouraged to open an issue or create a pull request.
+
