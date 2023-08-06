@@ -1,0 +1,10 @@
+[
+  "test_metrics.py::test_sharpe_ratio_daily[returns0]",
+  "test_options.py::test_find_strike",
+  "test_options.py::test_getIvFromDelta_sol_put[0.1]",
+  "test_options.py::test_getIvFromStrike[1.0-0.1]",
+  "test_options.py::test_getIvFromStrike_low_call[100]",
+  "test_options.py::test_getIvFromStrike_mid_call[25000]",
+  "test_options.py::test_getIvFromStrike_mid_high[250000]",
+  "test_options.py::test_getIvFromStrike_mid_put[25200]"
+]
