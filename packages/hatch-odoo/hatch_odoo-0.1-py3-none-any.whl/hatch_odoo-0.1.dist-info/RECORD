@@ -1,0 +1,10 @@
+hatch_odoo/__init__.py,sha256=j5_5I3B4MU93_fGzPZ0RMdSunWOk813a-bR4kgnJ6RA,117
+hatch_odoo/build_hook.py,sha256=5HG0RXwd8tDim1Twt_A_aJi2Ewm2mziUt4a_y8XVdPU,2921
+hatch_odoo/config.py,sha256=C6YRna_VW7ukE_XmccBBV5gth7Pb5eF_ZT4XnUxp3dQ,1445
+hatch_odoo/hooks.py,sha256=Ff7o-8KhbTsY7jVvLhkfmGo0pPgdTtd7MvF5_-V_YdU,609
+hatch_odoo/metadata_hook.py,sha256=NBbdpdwsD_gOCv9vpK-ESGMv8b7e72hBNpn9T53SX-g,2853
+hatch_odoo-0.1.dist-info/METADATA,sha256=7mD7Nd6-wZEcREZ0fcQJUfluH6R0pDnY1nX7yQIsnqI,4409
+hatch_odoo-0.1.dist-info/WHEEL,sha256=09RFlvY3aVzvCNk4AXPZt-N-AI7GY_KktGsTb2IqIBU,86
+hatch_odoo-0.1.dist-info/entry_points.txt,sha256=uIe5q1-vCPMg57jgamLszuTj5BUBSalQd73L92DRINc,32
+hatch_odoo-0.1.dist-info/licenses/LICENSE.txt,sha256=70KhkMYNXhuylyCeB32xHlO-CPWZvCztKExGKTePG24,1163
+hatch_odoo-0.1.dist-info/RECORD,,
