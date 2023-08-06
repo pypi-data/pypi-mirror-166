@@ -1,0 +1,3 @@
+[console_scripts]
+spap = spap.spap:start_cli
+
