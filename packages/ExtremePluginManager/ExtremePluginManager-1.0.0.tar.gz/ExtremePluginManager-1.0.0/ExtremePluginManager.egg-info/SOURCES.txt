@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ExtremePluginManager/__init__.py
+ExtremePluginManager/constants.py
+ExtremePluginManager/extreme_plugin_manager.py
+ExtremePluginManager/strings.py
+ExtremePluginManager.egg-info/PKG-INFO
+ExtremePluginManager.egg-info/SOURCES.txt
+ExtremePluginManager.egg-info/dependency_links.txt
+ExtremePluginManager.egg-info/top_level.txt
