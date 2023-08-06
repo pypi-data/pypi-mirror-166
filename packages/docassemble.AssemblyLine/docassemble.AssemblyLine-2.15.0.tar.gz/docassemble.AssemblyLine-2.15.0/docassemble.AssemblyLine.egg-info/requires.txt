@@ -1,0 +1,5 @@
+docassemble.ALToolbox>=0.4.3
+docassemble.GithubFeedbackForm>=0.1.3
+
+[:python_version < "3.9"]
+backports.zoneinfo
