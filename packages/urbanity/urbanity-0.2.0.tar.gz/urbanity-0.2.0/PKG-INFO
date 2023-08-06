@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: urbanity
+Version: 0.2.0
+Summary: Urbanity is a python package to model and understand urban complexity.
+License: MIT
+Author: winstonyym
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ipyleaflet (>=0.17.0,<0.18.0)
+Requires-Dist: keplergl (>=0.3.2,<0.4.0)
+Requires-Dist: matplotlib (>=3.5.3,<4.0.0)
+Requires-Dist: pyrosm (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# urbanity
+
+Urbanity is a python package to model and understand urban complexity. This package is currently under development.
+
+## Installation
+
+```Terminal
+$ pip install urbanity
+```
+
+## Usage
+
+- TODO
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`urbanity` was created by winstonyym. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`urbanity` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
