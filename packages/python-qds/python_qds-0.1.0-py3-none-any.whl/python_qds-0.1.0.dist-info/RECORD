@@ -1,0 +1,8 @@
+qds/__init__.py,sha256=tkr61Go2gCtwN-NqSZ__Rex8TroQiNlnH4G6JjeZsSE,165
+qds/bindings.py,sha256=6MDB6t0_QLcnPbiMLTVJcSnesUxw8sfb2vQxmdZrHOc,1331
+qds/lib.py,sha256=sk0At-31-mHekqOwocqBHbKsLMfmy26TyxECFJRneTQ,234
+qds/lib.pyi,sha256=tFkXHGC9IavVLSMRXiiGbfQouOzTGMisDgt8qQZAZbM,495
+python_qds-0.1.0.dist-info/LICENSE.md,sha256=oNAsq_7i3tc6Mo3hYYcenp63BQrUEQn7aCbAUadd6TM,1068
+python_qds-0.1.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+python_qds-0.1.0.dist-info/METADATA,sha256=WD8WWP2Nr9DpAwVU0SN8tiwV5Z13leJmK_iSu5AMomI,590
+python_qds-0.1.0.dist-info/RECORD,,

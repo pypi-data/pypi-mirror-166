@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: python-qds
+Version: 0.1.0
+Summary: A Python wrapper for Quartz Display Services.
+Home-page: https://github.com/kamilturek/qds
+License: MIT
+Author: Kamil Turek
+Author-email: kamil.turek@hotmail.com
+Requires-Python: >=3.11,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Project-URL: Repository, https://github.com/kamilturek/qds
+Description-Content-Type: text/markdown
+
+# QDS
+
+A Python wrapper for [Quartz Display Services](https://developer.apple.com/documentation/coregraphics/quartz_display_services).
+
