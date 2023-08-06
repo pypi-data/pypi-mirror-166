@@ -1,0 +1,5 @@
+setup.py
+zkp.egg-info/PKG-INFO
+zkp.egg-info/SOURCES.txt
+zkp.egg-info/dependency_links.txt
+zkp.egg-info/top_level.txt
