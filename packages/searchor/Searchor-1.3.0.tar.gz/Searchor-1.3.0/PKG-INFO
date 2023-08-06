@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: Searchor
+Version: 1.3.0
+Summary: ⚡️ Spend less time making search functions for search engines + more
+Home-page: https://github.com/ArjunSharda/Searchor
+Author: Arjun Sharda
+Author-email: sharda.aj17@gmail.com
+License: MIT
+Description: Searchor
+        
+        ⚡️ Spend less time on search engines + more query search functions!
+        
+        Change Log
+        
+        Version 1.3.0:
+        
+        
+        + Added Quora search query function
+        + Added Target search query function
+        + Added Genius search query function
+        + Added Twitch search query function
+        + Added Stack Overflow search query function
+        + Added JetBrains search query function
+Keywords: Searchor
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
