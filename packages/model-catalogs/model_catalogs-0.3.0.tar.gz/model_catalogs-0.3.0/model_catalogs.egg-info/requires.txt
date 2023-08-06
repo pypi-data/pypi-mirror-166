@@ -1,0 +1,9 @@
+appdirs
+cf_xarray
+dask
+datetimerange
+h5netcdf
+numpy
+pandas
+pip
+xarray
