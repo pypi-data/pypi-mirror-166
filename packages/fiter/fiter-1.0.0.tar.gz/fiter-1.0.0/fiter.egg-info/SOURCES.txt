@@ -1,0 +1,10 @@
+README.md
+ns.py
+pyproject.toml
+fiter/__init__.py
+fiter/number.py
+fiter/utils.py
+fiter.egg-info/PKG-INFO
+fiter.egg-info/SOURCES.txt
+fiter.egg-info/dependency_links.txt
+fiter.egg-info/top_level.txt
