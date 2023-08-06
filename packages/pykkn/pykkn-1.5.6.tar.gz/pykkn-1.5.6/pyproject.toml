@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "pykkn"
+version = "1.5.6"
+description = "Python port of the matlab library kkn https://git.rwth-aachen.de/nils.preuss/rdm-kraken/"
+license = "Apache"
+authors = ["Martin Hock <Martin.Hock@fst.tu-darmstadt.de>"]
+maintainers = [
+    "Zhichao Zhang <zhichao.zhang@stud.tu-darmstadt.de>",
+    "Bastian Tigges <bastian.tigges@stud.tu-darmstadt.de>",
+    "Ilyass Afkir <ilyass.afkir@stud.tu-darmstadt.de>",
+    "Berk Calabakan <berk.calabakan@stud.tu-darmstadt.de>",
+    "Konstantin Repp <konstantin.repp@stud.tu-darmstadt.de>",
+    "Stefan Andreas Sauter <stefan_andreas.sauter@stud.tu-darmstadt.de>"
+]
+readme = "README.md"
+homepage = "https://fst-tuda.pages.rwth-aachen.de/public/pykkn/"
+repository = "https://git.rwth-aachen.de/fst-tuda/public/pykkn"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+h5py = "^3.7.0"
+numpy = "^1.23.2"
+Pillow = "^9.2.0"
+opencv-python = "^4.6.0"
+pytest = "^7.1.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
