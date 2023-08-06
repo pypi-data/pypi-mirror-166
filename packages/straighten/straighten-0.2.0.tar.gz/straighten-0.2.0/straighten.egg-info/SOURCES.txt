@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+straighten/__init__.py
+straighten/__version__.py
+straighten/curve.py
+straighten.egg-info/PKG-INFO
+straighten.egg-info/SOURCES.txt
+straighten.egg-info/dependency_links.txt
+straighten.egg-info/requires.txt
+straighten.egg-info/top_level.txt
