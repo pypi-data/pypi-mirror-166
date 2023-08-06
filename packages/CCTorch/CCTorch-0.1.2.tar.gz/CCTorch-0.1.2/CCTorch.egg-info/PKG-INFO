@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: CCTorch
+Version: 0.1.2
+Description-Content-Type: text/markdown
+
+Cross-Correlation using Pytorch
