@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edcrop"
+version = "0.0.0"
+authors = [
+  { name="Steen Christensen", email="sc@geo.au.dk" },
+]
+description = "A sript to simulate field-scale evapotranspiration and drainage"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+    'importlib-metadata; python_version<"3.8"',
+]
+

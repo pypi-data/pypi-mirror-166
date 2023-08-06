@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+edcrop/ed.py
+edcrop.egg-info/PKG-INFO
+edcrop.egg-info/SOURCES.txt
+edcrop.egg-info/dependency_links.txt
+edcrop.egg-info/requires.txt
+edcrop.egg-info/top_level.txt
