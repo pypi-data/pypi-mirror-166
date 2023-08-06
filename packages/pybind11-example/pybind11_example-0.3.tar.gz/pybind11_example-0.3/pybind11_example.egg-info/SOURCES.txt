@@ -1,0 +1,10 @@
+MANIFEST.in
+README.txt
+pybind11_example.h
+pybind11_wrapper.cpp
+pyproject.toml
+setup.py
+pybind11_example.egg-info/PKG-INFO
+pybind11_example.egg-info/SOURCES.txt
+pybind11_example.egg-info/dependency_links.txt
+pybind11_example.egg-info/top_level.txt

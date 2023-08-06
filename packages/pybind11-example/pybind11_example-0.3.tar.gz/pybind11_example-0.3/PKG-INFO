@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pybind11_example
+Version: 0.3
+Summary: Simple Pybind11 C++/Python example
+Home-page: http://www.thorlabs.com
+Author: zc
+Author-email: hliu2@thorlabs.com
