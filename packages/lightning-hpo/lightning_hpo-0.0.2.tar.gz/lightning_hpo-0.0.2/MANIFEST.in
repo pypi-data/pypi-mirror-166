@@ -1,0 +1,16 @@
+include *.py
+include *.txt
+exclude *.yaml
+exclude *.toml
+exclude *.lightning
+exclude *.lightningignore
+exclude *.json
+
+recursive-include examples *
+recursive-include lightning_hpo *
+recursive-include requirements *
+
+recursive-exclude docs *
+recursive-exclude tests *.py
+recursive-exclude * *.pyc
+recursive-exclude * *.json

@@ -1,0 +1,17 @@
+pytorch_lightning
+jsonargparse[signatures]
+lightning_cloud
+torchvision
+optuna
+sqlmodel
+wandb
+streamlit
+sqlalchemy
+hiplot
+streamlit_autorefresh
+lightning
+sklearn
+sqlmodel
+sqlite_web
+Flask
+Flask-Cors
