@@ -1,0 +1,7 @@
+dhosredis/__init__.py,sha256=tB0BKkhfYF0n9x7BTYmo3lFQBgdZh8Lq0c-uYMVsF3s,1613
+dhosredis/redis.py,sha256=9Nai55-PLf1Qn42QIkIPOYH9SOjgBznpENc-Ov2I66c,2149
+dhosredis/stub_redis.py,sha256=ibFWZbiwL65yrUJS3Swb2dRAhnmdxWM9yzR9wiXPaAY,282
+dhos_redis-1.0.2.dist-info/LICENSE.md,sha256=jHZIE2pZ90zZkySCHSNl9xusKwWtiVtCv6Zvb_4C2Kc,1076
+dhos_redis-1.0.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+dhos_redis-1.0.2.dist-info/METADATA,sha256=dpsUp0ln8qENbaieGQ4-n9yfuzG3MstCLQd9eIfE5k8,673
+dhos_redis-1.0.2.dist-info/RECORD,,
