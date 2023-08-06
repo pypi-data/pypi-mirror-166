@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/algebraical/__init__.py
+src/algebraical/algebraical.py
+src/algebraical.egg-info/PKG-INFO
+src/algebraical.egg-info/SOURCES.txt
+src/algebraical.egg-info/dependency_links.txt
+src/algebraical.egg-info/requires.txt
+src/algebraical.egg-info/top_level.txt
