@@ -1,0 +1,18 @@
+Change Log
+==========
+
+0.0.1 (08/08/2022)
+-------------------
+- First Release
+
+0.0.2 (08/09/2022)
+-------------------
+-- Fixed some bugs
+-- Fixed ExoDigital constructors's parameters
+-- Added parameter live_timezone to SetWeather function, for obtained time zone of typed city name.
+-- Added GetWeatherElements function so get more live-data of weather, such as max temperature,min temperature,
+         uvindex,humidity,pressure,pressure Inches,precipMM,cloudcover,local Observed DateTime,wind dir degree,
+         sun raise,sunset times, and more ..
+-- Added GetClockElements,GetDateElements functions for obtained information of clock and date of current
+        Exodigital GUI data.    
+-- Added SetDateTime for set any city and obtained tiemzone of that city only.
