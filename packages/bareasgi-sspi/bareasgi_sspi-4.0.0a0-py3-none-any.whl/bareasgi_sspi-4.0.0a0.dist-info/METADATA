@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: bareasgi-sspi
+Version: 4.0.0a0
+Summary: ASGI middleware for SSPI
+Home-page: https://github.com/rob-blackbourn/bareASGI-SSPI
+License: Apache-2.0
+Author: Rob Blackbourn
+Author-email: rob.blackbourn@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: bareutils (>=4.0.1,<5.0.0)
+Requires-Dist: jetblack-asgi-typing (>=0.4.0,<0.5.0)
+Requires-Dist: pyspnego (>=0.6.0,<0.7.0)
+Project-URL: Documentation, https://rob-blackbourn.github.io/bareASGI-SSPI
+Project-URL: Repository, https://github.com/rob-blackbourn/bareASGI-SSPI
+Description-Content-Type: text/markdown
+
+# bareASGI-sspi
+
+ASGI middleware for SSPI authentication.
+
+## Installation
+
+Install from the pie store.
+
+```
+pip install bareasgi-sspi
+```
+
+
