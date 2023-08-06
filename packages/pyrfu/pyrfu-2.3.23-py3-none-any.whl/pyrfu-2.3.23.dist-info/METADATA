@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: pyrfu
+Version: 2.3.23
+Summary: Python Space Physics (RymdFysik) Utilities
+Home-page: https://github.com/louis-richard/irfu-python
+Author: Louis RICHARD
+Author-email: louir@irfu.se
+License: MIT License
+Project-URL: Documentation, https://pyrfu.readthedocs.io/en/latest/
+Project-URL: Release notes, https://pypi.org/project/pyrfu/#history
+Project-URL: Source, https://github.com/louis-richard/irfu-python
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: MS-DOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+License-File: LICENSE.txt
+Requires-Dist: cdflib
+Requires-Dist: geopack
+Requires-Dist: matplotlib
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: python-dateutil
+Requires-Dist: requests
+Requires-Dist: scipy
+Requires-Dist: setuptools
+Requires-Dist: Sphinx
+Requires-Dist: tqdm
+Requires-Dist: xarray
+
+UNKNOWN
+
