@@ -1,0 +1,5 @@
+setup.py
+QQX.py.egg-info/PKG-INFO
+QQX.py.egg-info/SOURCES.txt
+QQX.py.egg-info/dependency_links.txt
+QQX.py.egg-info/top_level.txt
