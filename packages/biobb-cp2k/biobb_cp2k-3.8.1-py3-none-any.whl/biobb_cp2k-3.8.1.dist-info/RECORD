@@ -1,0 +1,11 @@
+biobb_cp2k/__init__.py,sha256=mGbLo4xMX0KnRESkfOm5MY-7NaF0JupVE_u9d1iw8eo,60
+biobb_cp2k/cp2k/__init__.py,sha256=xTNzdRcTwyHSZ_zDUfSfLfHxWlCId9GLQ9IqZLUh5gA,50
+biobb_cp2k/cp2k/common.py,sha256=wdydL9F9R_n_j0-CYW8ZU5byRGiFbxeyna_mgVH_BJI,1927
+biobb_cp2k/cp2k/cp2k_prep.py,sha256=3X2mTC28PJBMDlpEAdALLqXUl-3WffTKgVdBG2gYiBE,21815
+biobb_cp2k/cp2k/cp2k_run.py,sha256=0xijiqX6a49-GyYoe1w9bsrOVSNOZvVc4ap4fhOCYG0,10879
+biobb_cp2k-3.8.1.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+biobb_cp2k-3.8.1.dist-info/METADATA,sha256=z0cJh31gjDCAGVPMVVrdEn_jUwz9eCt0kr-uoFM3_Lo,867
+biobb_cp2k-3.8.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+biobb_cp2k-3.8.1.dist-info/entry_points.txt,sha256=P6sDSqJVFpcK6TKEvGj7eAjP5-r_sWaD5vMWo4ooAuk,102
+biobb_cp2k-3.8.1.dist-info/top_level.txt,sha256=gGCW4ow2T4Qjtak7WhAeP8p2pnR-uLy5yzGvAklAdqA,11
+biobb_cp2k-3.8.1.dist-info/RECORD,,
