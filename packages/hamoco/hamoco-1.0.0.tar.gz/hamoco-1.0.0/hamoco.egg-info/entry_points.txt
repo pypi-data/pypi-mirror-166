@@ -1,0 +1,4 @@
+[console_scripts]
+hamoco-data = hamoco.cli.hamoco_data:main
+hamoco-run = hamoco.cli.hamoco_run:main
+hamoco-train = hamoco.cli.hamoco_train:main
