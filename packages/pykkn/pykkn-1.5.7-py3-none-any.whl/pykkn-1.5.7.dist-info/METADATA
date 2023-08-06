@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pykkn
+Version: 1.5.7
+Summary: Python port of the matlab library kkn https://git.rwth-aachen.de/nils.preuss/rdm-kraken/
+Home-page: https://fst-tuda.pages.rwth-aachen.de/public/pykkn/
+License: Apache-2.0
+Author: Martin Hock
+Author-email: Martin.Hock@fst.tu-darmstadt.de
+Maintainer: Zhichao Zhang
+Maintainer-email: zhichao.zhang@stud.tu-darmstadt.de
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Pillow (>=9.2.0,<10.0.0)
+Requires-Dist: h5py (>=3.7.0,<4.0.0)
+Requires-Dist: numpy (>=1.23.2,<2.0.0)
+Requires-Dist: opencv-python (>=4.6.0,<5.0.0)
+Requires-Dist: pytest (>=7.1.3,<8.0.0)
+Project-URL: Repository, https://git.rwth-aachen.de/fst-tuda/public/pykkn
+Description-Content-Type: text/markdown
+
+# pykkn
+
+PYKKN is a library that supports researchers to store their data in a HDF5 file using Python. The library can handle different types of inputs like array, matrix, image and video.
+
+## Documentation
+The documentation can be found [here](https://fst-tuda.pages.rwth-aachen.de/public/pykkn/).
+
+# Repository
+https://git.rwth-aachen.de/fst-tuda/public/pykkn
