@@ -1,0 +1,10 @@
+kineticmodels/__init__.py,sha256=SzpI5ij6UgBCy3S2-k9vQW2JBIYB2XJ0dcQ-vvGaI4c,270
+kineticmodels/inhibition_models.py,sha256=TD2kmL6wHZSh0X1MRz_eweorR5ddpqA6z2y83OU5uD0,2461
+kineticmodels/uptake_models.py,sha256=x-E74D_SWPGuTP48eN4SDTddJFSLTdlYr0cRavNjh3o,3207
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_uptake_models.py,sha256=9mTUYE-WeQYMbZ8Es7VUja09NCS2CeNEbU9noiUzb0g,3537
+kineticmodels-0.0.13.dist-info/LICENSE,sha256=zBlOe7f6R1J7by62hKQ3XQFHyypzY_8d69UtHMvrx3I,1070
+kineticmodels-0.0.13.dist-info/METADATA,sha256=9jBJ1kTsXALnBE-LtDKiPGttndAm5AU8yCEPWkSojGs,666
+kineticmodels-0.0.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+kineticmodels-0.0.13.dist-info/top_level.txt,sha256=qOMJjbO-gBppYxQFAsOSRfmIaTk9fZPynbOj40qb0cA,20
+kineticmodels-0.0.13.dist-info/RECORD,,
