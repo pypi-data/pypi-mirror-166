@@ -1,0 +1,17 @@
+phippery/__init__.py,sha256=_dKKeNcHowxBdjBcqd9NCmCVxeR42xwGAOh2vbzaI94,132
+phippery/cli.py,sha256=-GE1aGDl1Z95LIQ-9H-B8K9Qlg_cqoznVegzXc5rAYM,12306
+phippery/eigen.py,sha256=jW01de7LHJSjACtqqWwmZXd7Nlh25r-3vaFvTwy-f9E,3449
+phippery/escprof.py,sha256=HpEJKiv0fj0mId6uqz_7BO3X78G-Ee9BwHP7TLZHTVk,9122
+phippery/gampois.py,sha256=g0vWCjhw6UK8QllT5fxplLxC4r_JPonIYd_z11WGolI,3294
+phippery/modeling.py,sha256=nOimthYo36tM0f7NJdKuD9QR5rEeDNynDTbZ4HByBGk,10511
+phippery/negbinom.py,sha256=hUuhb0G0JrImJ0Rr6eW7_ZlEKJ7sHA5wrzwlDQ-5RKM,3506
+phippery/normalize.py,sha256=-8ZuHOT8__BdRShRy6yuUz_7Mnf7Yu3FA6bLVKItpRE,32689
+phippery/string.py,sha256=EFa1xFUuAahajTmyh1O7CnLZ9PdfV33xFZcEVGhKmRg,5163
+phippery/utils.py,sha256=D5_wGjrAuvFBBbG6QP9thlbVpVo3ygbDBGaGBS8Y870,30126
+phippery/zscore.py,sha256=cKn0Iy_6UU0v6eUJeChwVRVVf366Lf3SwIhskWUzkrk,4782
+phippery-1.0.6.dist-info/LICENSE.txt,sha256=51HPitbZtRFO9YgvLbVskUiOBGUiB8ImK2RyTGPF_38,70297
+phippery-1.0.6.dist-info/METADATA,sha256=LFYeXYukarhmE1jE7zqzRMsLZvpNqw-FByIWK-HCkHQ,83139
+phippery-1.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+phippery-1.0.6.dist-info/entry_points.txt,sha256=E833YyQbsW_ZoKl6BYectL__RrqxwyKU-ws02-6rvho,46
+phippery-1.0.6.dist-info/top_level.txt,sha256=I_esWGK-bexRrHRZsRLai4cemxBr70jDoG0XEVP84Rc,9
+phippery-1.0.6.dist-info/RECORD,,
