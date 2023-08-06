@@ -1,0 +1,72 @@
+![This is an image](https://firebasestorage.googleapis.com/v0/b/datakund-studio.appspot.com/o/selenium%20pro1.png?alt=media&token=45a2f1cd-b577-4bb5-9ff8-8e91ac7c9aec)
+
+# selenium pro - intelligent & powerful cloud native selenium
+
+### Benefits of selenium-pro over selenium
+- Auto write scripts using Selenium Script Generator
+- No Inspection of HTML Elements required
+- Intelligent Element Handling Automatically in case of HTML changes
+- Auto Setup Chromedrivers based on Operating System & Browser versions
+- Run scripts in Cloud with single function call
+- Bypass Automated Browser Detection
+
+### [Selenium Pro Auto Code Generator Chrome Extension](https://chrome.google.com/webstore/detail/low-code-writerselenium-b/ocimgcpcnobcnmclomhhmjidgoiekeaf)
+
+### Installation
+```sh
+pip install selenium_pro
+```
+
+### Example 1
+It searches a keyword on google
+```sh
+from selenium_pro.webdriver.common.keys import Keys
+from selenium_pro import webdriver
+
+driver = webdriver.Start()
+
+driver.get('https://www.google.com/')
+driver.find_element_by_pro('QYQyyPtidm5_xqG').click()
+driver.switch_to.active_element.send_keys('shoes')
+driver.switch_to.active_element.send_keys(Keys.ENTER)
+
+```
+
+### Example 2
+It fetches the titles of packages on pypi
+```sh
+from selenium_pro.webdriver.common.keys import Keys
+from selenium_pro import webdriver
+
+driver = webdriver.Start()
+
+driver.get("https://pypi.org/search/?q=firebase")
+title_elements=driver.find_elements_by_pro("ErZwU_jOEg0s4_9")
+for ele in title_elements:
+	print(ele.text)
+driver.quit()
+
+```
+
+### All Default Selenium Functions Work Well
+```sh
+#find elements by conventional methods
+driver.find_elements(By.XPATH, '//button')
+
+#close window
+driver.close()
+
+#set cookies in browser
+driver.add_cookie({})
+
+....
+```
+
+#### All your selenium scripts will work fine with selenium pro. Just import selenium pro instead
+
+### [Complete Selenium Documentation Available here](https://www.selenium.dev/documentation/)
+### [Selenium Python Docs](https://selenium-python.readthedocs.io/)
+
+### Contact Us
+* [Telegram](https://t.me/datakund)
+
