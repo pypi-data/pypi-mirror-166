@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/datclass/__init__.py
+src/foyou_datclass.egg-info/PKG-INFO
+src/foyou_datclass.egg-info/SOURCES.txt
+src/foyou_datclass.egg-info/dependency_links.txt
+src/foyou_datclass.egg-info/entry_points.txt
+src/foyou_datclass.egg-info/requires.txt
+src/foyou_datclass.egg-info/top_level.txt
