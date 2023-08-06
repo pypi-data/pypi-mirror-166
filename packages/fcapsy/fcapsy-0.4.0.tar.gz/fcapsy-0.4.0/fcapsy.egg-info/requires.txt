@@ -1,0 +1,7 @@
+concepts@ git+https://github.com/xflr6/concepts.git
+binsdpy>=0.1.1
+numpy
+
+[test]
+pytest
+pytest-cov
