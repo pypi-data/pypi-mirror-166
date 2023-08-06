@@ -1,0 +1,12 @@
+LICENSE,sha256=45lJBgfwwg_6DE6NAqw7VjXbLkBJMAZRAt1J_0NceSw,35105
+srtools/LICENSE,sha256=vfo6tvLwRJfo-n2bp22HKLgJO8oM-td3eoslu6HG2TA,35084
+srtools/__init__.py,sha256=DgEzHyUl3aGFT6ygjtWq60VyMlhkVmjrdzkZvjF7x0Y,1388
+srtools/_version.py,sha256=khDKUuWafURKVs5EAZkpOMiUHI2-V7axlqrWLPUpuZo,23
+srtools/character_dictionaries.py,sha256=LVLJim83HYt4cPNIdAV5LTsbBCI7drQqR0qrc_AX9RY,5710
+srtools/cli.py,sha256=57lQT97DI--8ZuOUyYH9w8H369Gw0peCAdEl0LTI1UU,1671
+srtools/transliteration.py,sha256=Sw20TxWFM-QQezScJ9uiRQCc3pYl0WJbXI3o8VZ5Fik,2954
+srtools-0.1.13.dist-info/entry_points.txt,sha256=Mfeo6U63qIZ2zgWGywkL1cfsphwA7K2tcvuKlcM7DiA,36
+srtools-0.1.13.dist-info/LICENSE,sha256=45lJBgfwwg_6DE6NAqw7VjXbLkBJMAZRAt1J_0NceSw,35105
+srtools-0.1.13.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+srtools-0.1.13.dist-info/METADATA,sha256=shj--SvQJzH6amjI2mr1h4Wn4ufOv1UMKkSRkEzZ5j0,3941
+srtools-0.1.13.dist-info/RECORD,,
