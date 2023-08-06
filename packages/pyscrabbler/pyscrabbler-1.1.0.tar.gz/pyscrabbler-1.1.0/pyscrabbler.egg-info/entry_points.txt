@@ -1,0 +1,2 @@
+[console_scripts]
+scrabble_query = pyscrabbler.__main__:main
