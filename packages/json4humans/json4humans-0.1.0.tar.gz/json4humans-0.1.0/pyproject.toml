@@ -1,0 +1,147 @@
+[project]
+name = "json4humans"
+version = "0.1.0"
+description = "Python tools for JSONC and JSON5 (aka. JSON for humans)"
+authors = [
+    { name = "Axel H.", email = "noirbizarre@gmail.com" },
+]
+dependencies = [
+    "lark[regex]>=1.1.2",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.1.2",
+    "pytest-sugar>=0.9.5",
+    "pytest-cov>=3.0.0",
+]
+lint = [
+    "black>=22.6.0",
+    "isort>=5.10.1",
+    "mypy>=0.971",
+    "absolufy-imports>=0.3.1",
+    "flakeheaven>=3.0.0",
+]
+tox = [
+    "tox",
+    "tox-pdm>=0.5",
+]
+doc = [
+    "mkdocs>=1.3.1",
+    "mkdocs-material>=8.3.9",
+    "mkdocstrings[python]>=0.19.0",
+]
+
+[tool.pdm.scripts]
+tox = "tox"
+lint = "pre-commit run --all-files"
+doc = "mkdocs build"
+"doc:watch" = "mkdocs serve"
+
+[tool.pdm.scripts.test]
+cmd = "pytest"
+help = "Run the test suite"
+
+[tool.pdm.scripts.cover]
+help = "Run the test suite with coverage"
+composite = [
+    "  test\n    --cov-report=term\n    --cov=json4humans\n    --cov-report=html:reports/coverage\n    --cov-report=xml:reports/coverage.xml\n    --junitxml=reports/tests.xml\n  ",
+]
+
+[tool.pdm.vscode]
+linters = [
+    "flake8",
+]
+formatter = "black"
+
+[tool.black]
+line-length = 100
+exclude = "/(\n    \\.git\n  | \\.mypy_cache\n  | \\.pytest_cache\n  | \\.tox\n  | \\.venv\n  | __pycache__\n  | __pypackages__\n  | build\n  | dist\n  | tests/fixtures\n)/\n"
+
+[tool.flakeheaven]
+format = "grouped"
+max_line_length = 110
+exclude = [
+    ".git",
+    ".github",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".tox",
+    ".venv",
+    "__pycache__",
+    "__pypackages__",
+    "build",
+    "dist",
+    "reports",
+    "site",
+    "venv",
+    "docs",
+]
+
+[tool.flakeheaven.plugins]
+pycodestyle = [
+    "+*",
+    "-E203",
+]
+pyflakes = [
+    "+*",
+]
+mccabe = [
+    "+*",
+]
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+line_length = 110
+atomic = true
+filter_files = true
+known_first_party = [
+    "json4humans",
+]
+known_third_party = [
+    "lark",
+]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+norecursedirs = ".git build dist"
+testpaths = [
+    "json4humans/",
+    "tests/",
+]
+markers = [
+    "jsons(*modules): Mark to be tested against multiple JSON modules/version",
+    "fixturize(glob): parametrize the test with a fixture glob pattern",
+    "json: Mark a function to be tested against the JSON implementation",
+    "json5: Mark a function to be tested against the JSON5 implementation",
+    "jsonc: Mark a function to be tested against the JSONC implementation",
+]
+
+[tool.coverage.run]
+source = [
+    "json4humans",
+]
+branch = true
+omit = [
+    "tests/*",
+]
+
+[tool.mypy]
+exclude = [
+    "docs",
+]

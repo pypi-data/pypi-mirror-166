@@ -1,0 +1,55 @@
+from __future__ import annotations
+from typing import Any
+
+from lark import LarkError, ParseError, Token
+from json4humans import json5
+
+
+SyntaxKind = type
+ScanError = LarkError
+
+def tokens(text: str, *tokens: Token) -> None:
+	scanner = createScanner(text);
+	while (token := scanner.scan()) != SyntaxKind.EOF:
+		assert token == tokens.pop()
+		assert scanner.getTokenError() is ScanError.NONE
+	assert len(tokens) == 0
+
+
+def scan_error(text: str, error: ScanError, *kinds: SyntaxKind) -> None:
+	scanner = createScanner(text)
+	scanner.scan()
+	assert scanner.getToken() == kinds.shift()
+	assert scanner.getTokenError() == error
+	while (kind := scanner.scan()) != SyntaxKind.EOF:
+		assert kind == kinds.shift()
+	assert len(kinds) == 0
+
+
+def valid_parse(input: str, expected: Any) -> None:
+    __tracebackhide__ = True
+    assert json5.loads(input) == expected
+
+
+def invalid_parse(input: str, expected: Any, options: ParseOptions | None) -> None:
+	errors: list[ParseError] = []
+	actual = parse(input, errors, options)
+
+	assert len(errors) > 0
+	assert actual == expected
+
+
+def tree(input: str, expected: Any, expected_errors: list[ParseError] = []) -> None:
+	errors: list[ParseError] = []
+	actual = parseTree(input, errors)
+
+	assert errors == expected_errors
+	def checkParent(node: Node | None):
+		if node and node.children:
+			for child in node.children:
+				assert child.parent is node
+				del child.parent  # delete to avoid recursion in deep equal
+				checkParent(child)
+	checkParent(actual)
+
+	assert actual == expected
