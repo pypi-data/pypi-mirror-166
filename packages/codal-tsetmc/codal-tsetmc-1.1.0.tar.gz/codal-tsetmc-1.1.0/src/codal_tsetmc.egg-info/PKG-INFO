@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: codal-tsetmc
+Version: 1.1.0
+Summary: Data Downloader for stock market and finantial statement
+Home-page: http://github.com/mohsenebrahimyir/codal-tsetmc
+Author: Mohsen Ebrahimi
+Author-email: mohsenebrahimy.ir@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# کدال و بورس در پایتون
+
+## پایگاه داده
+
+### TSETMC
+
+- [X] `tehran_stocks`: ویرایش بعضی از کدهای بسته
+- [X] `stock_client`: پایگاه داده خرید و فروش حقیقی و حقوقی
+- [X] `stock_dividend`: پایگاه داده تقسیم سود.
+- [X] `stock_capital`: پایگاه داده افزایش سرمایه
+- [X] `stock_adjsuted`: پایگاه داده تعدیل قیمت
+
+### CODAL
+
+- [X] `companies`: لیست تمام شرکت‌ها
+- [X] `company_statuses`: وضعیت شرکت‌ها
+- [X] `company_types`: نوع شرکت‌ها
+- [X] `report_types`: گروه اطلاعیه‌ها
+- [X] `financial_years`: 
+- [X] `letter_types`:
+- [X] `auditors`:

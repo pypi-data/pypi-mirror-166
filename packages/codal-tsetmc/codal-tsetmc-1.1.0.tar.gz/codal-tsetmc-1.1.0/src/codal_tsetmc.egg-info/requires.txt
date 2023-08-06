@@ -1,0 +1,6 @@
+wheel
+pandas
+sqlalchemy
+requests
+jdatetime
+tehran_stocks
