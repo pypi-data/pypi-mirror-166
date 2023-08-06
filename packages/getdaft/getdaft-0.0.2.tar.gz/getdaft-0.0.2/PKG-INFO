@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: getdaft
+Version: 0.0.2
+Summary: A Distributed DataFrame library for large scale complex data processing.
+Home-page: https://getdaft.io
+License: Apache-2.0
+Author: Eventual Inc
+Author-email: daft@eventualcomputing.com
+Maintainer: Sammy Sidhu
+Maintainer-email: sammy@eventualcomputing.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Pillow (>=9.1.0,<10.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: boto3 (>=1.23.0,<2.0.0)
+Requires-Dist: cloudpickle (>=2.1.0,<3.0.0)
+Requires-Dist: docker (>=5.0.3,<6.0.0)
+Requires-Dist: fastapi (>=0.79.0,<0.80.0)
+Requires-Dist: fsspec
+Requires-Dist: icebridge (==0.0.3)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: protobuf (>=3.19.0,<3.20.0)
+Requires-Dist: pyarrow (>=8.0.0,<9.0.0)
+Requires-Dist: pydantic[dotenv] (>=1.9.1,<2.0.0)
+Requires-Dist: pydot (>=1.4.2,<2.0.0)
+Requires-Dist: ray (==1.13.0)
+Requires-Dist: sentry-sdk (>=1.9.5,<2.0.0)
+Requires-Dist: tabulate (>=0.8.10,<0.9.0)
+Requires-Dist: uvicorn (>=0.18.2,<0.19.0)
+Requires-Dist: viztracer (>=0.15.4,<0.16.0)
+Project-URL: Repository, https://github.com/Eventual-Inc/Daft
+Description-Content-Type: text/markdown
+
+# Developing on Daft
+
+1. [Install Poetry](https://python-poetry.org/docs/#installation)
+2. Init your python environment
+    - `poetry install`
+3. Build Extensions locally
+    - `poetry run build_inplace`
+4. Run tests
+    - `poetry run pytest`
+5. Run type checking
+    - `poetry run mypy`
+6. Run any other script
+    - `poetry run CMD`
+7. Add package
+    - `poetry add PACKAGE`
+8. Lock env
+    - `poetry lock`
+
