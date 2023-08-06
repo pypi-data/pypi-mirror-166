@@ -1,0 +1,12 @@
+hammocking/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hammocking/__main__.py,sha256=CH1JRXoRQ5ayj5zJ0BKmwQINilhFVPPlJP7dDrUoS9g,95
+hammocking/hammocking.py,sha256=dsVnki3hUo6zi3Cvm_GBHh7zvZ8zEoLs3qhduOYDvH4,7818
+hammocking/templates/gmock/mockup.cc.j2,sha256=dsPlO-5MPJ_Ub3qbyZqeC3Yi7uUy7kNEQ4FRhJXv82c,522
+hammocking/templates/gmock/mockup.h.j2,sha256=NACRTYY-m4wkLm5_vQVyRJUgKbERSrwE-PSz5MNfCz8,516
+hammocking/templates/plain_c/mockup.c.j2,sha256=Vyilfl5TF_bvxybLRfrrh1_Zbei1Ri6q4_Xf95TWZdQ,281
+hammocking/templates/plain_c/mockup.h.j2,sha256=ndhrlCj_ZX-hOm6O73GhQ7VG_y-Ex5IgWk042l8fChE,131
+hammocking-0.2.2.dist-info/LICENSE,sha256=lTpRsqd1_sy-50smvh3SRv3on2dUq53C_fpg-HlM1JM,1108
+hammocking-0.2.2.dist-info/METADATA,sha256=M8h85XXinVW-vd2lppi49cc1SmW2QBBTkr4Qtw_VOgQ,587
+hammocking-0.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hammocking-0.2.2.dist-info/top_level.txt,sha256=gNCoRRIFqL0X9gcGuA3D9jEbgTVZ7o11uuijxeeFkEs,11
+hammocking-0.2.2.dist-info/RECORD,,
