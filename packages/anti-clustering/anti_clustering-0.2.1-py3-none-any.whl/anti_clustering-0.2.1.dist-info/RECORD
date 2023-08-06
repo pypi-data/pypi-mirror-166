@@ -1,0 +1,13 @@
+anti_clustering/__init__.py,sha256=SSi0OfCvAuhWk2K1xCWfQMWj2KBFLWnwY1YiYZFTbf8,997
+anti_clustering/_base.py,sha256=oxq-UnKqdnZwG0OEkGiXQbrhh5rD5r7SzRduiAmiL1s,6683
+anti_clustering/_cluster_swap_heuristic.py,sha256=N7VsWCRKpgVvSzT9o8f4fv4ir1jX_qx2IIwBKnSx0Pk,3580
+anti_clustering/_union_find.py,sha256=lx3Pd8QxzV-o7Wv0yYv3VpJzZMhi-_3m32J3V4cbDhg,3231
+anti_clustering/_version.py,sha256=PmcQ2PI2oP8irnLtJLJby2YfW6sBvLAmL-VpABzTqwc,22
+anti_clustering/exact_cluster_editing.py,sha256=VQi1kS8yFIdPvpZry1wot5ssi5yiNqJMfaXRxlG4egM,5456
+anti_clustering/exchange_heuristic.py,sha256=m3NvbgUI_gOtn5Yn2WO71WdVAqXuE0l8N_tgKtCGmHc,3118
+anti_clustering/naive_random_heuristic.py,sha256=HGlSjEX2AQTCBSJiy2hEZxnYGAzmkMFlqpGxm93yhHI,1242
+anti_clustering/simulated_annealing_heuristic.py,sha256=KA_1_iiRGURpZoDeDCictms8DsTUc2tl9ZevW3cmv0M,3780
+anti_clustering-0.2.1.dist-info/LICENSE,sha256=ozrrROP-V1aJBGbPTL73md4ZoL7rBu-dvu16uNsa1b8,10692
+anti_clustering-0.2.1.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+anti_clustering-0.2.1.dist-info/METADATA,sha256=qNaFcznH2qRY6NE_QRW4k-dNgzdUeKmri-IfENTityI,4142
+anti_clustering-0.2.1.dist-info/RECORD,,
