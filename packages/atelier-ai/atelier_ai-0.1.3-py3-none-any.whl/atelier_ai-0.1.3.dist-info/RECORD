@@ -1,0 +1,12 @@
+atelier/atelier-ai.code-workspace,sha256=vP_bs0Zi8loKejaxetNnnBWAVRqKR4d6cNU3KLvq584,67
+atelier/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atelier/data/datasource.py,sha256=wfWahdA09COV-JxJg38HpXP92_9zc2bTqjAAukmjWfc,3521
+atelier/data/io.py,sha256=nzx2LXbP8fCraofqo2Ddl6n55n4DbkDRhFBbrXm2pjM,7099
+atelier/data/split.py,sha256=ig3TB-v5K2FrASPaTpy0uCzb60B6uin2t3t_yBwG42k,5716
+atelier/workflow/__init__.py,sha256=uH9edV3P4jD03i14ScxNuYRZxvnUqCyLTZO_e14lTnY,1662
+atelier/workflow/operators.py,sha256=b5h3g0XUvyFCRdXmUnsWR7C3oSnnJQ7O3ElA9b7cHlw,14459
+atelier/workflow/pipeline.py,sha256=Z3_19uVclxW4O9D81QKBs1IJRIoPwmleh1XurXLtYK8,8448
+atelier_ai-0.1.3.dist-info/LICENSE,sha256=iMTV1wW9GPrhcDvO1OVdZQEFohYBtCoFKGL2VQ7iJUY,1110
+atelier_ai-0.1.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+atelier_ai-0.1.3.dist-info/METADATA,sha256=iVo6T2zEwk7c9G6dZItm5CzcOc57vRedmVIoabbHHxE,3884
+atelier_ai-0.1.3.dist-info/RECORD,,
