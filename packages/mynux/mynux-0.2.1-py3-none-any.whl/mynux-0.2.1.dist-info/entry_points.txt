@@ -1,0 +1,8 @@
+[console_scripts]
+mynux=mynux.__main__:main
+
+[mynux.cmd]
+add=mynux.cli.add:main
+info=mynux.cli.info:main
+install=mynux.cli.install:main
+
