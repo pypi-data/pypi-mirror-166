@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Mypackage-665
+Version: 0.0.2
+Summary: This is my package
+Home-page: UNKNOWN
+Author: me
+License: UNKNOWN
+Platform: UNKNOWN
+
+# This is a title
+## This is a subtitle
+### This is a project 
+
