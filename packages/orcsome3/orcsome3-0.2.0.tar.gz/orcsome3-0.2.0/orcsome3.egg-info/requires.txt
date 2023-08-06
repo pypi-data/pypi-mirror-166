@@ -1,0 +1,6 @@
+cffi>=1.0.0
+
+[dev]
+mypy
+mypy-extensions
+typing_extensions
