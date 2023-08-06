@@ -1,0 +1,11 @@
+pymecompress/__init__.py,sha256=K1_DhBuhI7inXQh60R9_4P8O_4vi7LX26Xe9QANuvsQ,95
+pymecompress/bcl.cpython-39-darwin.so,sha256=VDJRTu18C0csapGKtqtCEQawo5_wJrOKN6H8fKsS0Zg,198184
+pymecompress/codecs.py,sha256=cgZRq97s4hfcxjSj5e7WT2OxdE3L9iQSUw15c4MQF1M,1475
+pymecompress/cython_numpy_monkey.py,sha256=JRmYjVcXiXreCWWBzIEu99ufB2sdLTEHmm99ZdQwvQY,1500
+pymecompress/setup.py,sha256=FTqYFS_F-5E7c0NGfO0ki01CZfUPM51Se3JhKR7Uyes,8660
+pymecompress/version.py,sha256=k_TgCSq5LTOEVsM2r7TxPQmK12XGOcccbCTdNCaTvDs,15
+pymecompress-0.3.5.dist-info/LICENSE,sha256=VM45dbZ5tj409ao2Ti3494kPl3vRi03YeZEYOuITKAU,1522
+pymecompress-0.3.5.dist-info/METADATA,sha256=6jZWMWoZmxveOX777PQGYK2xIiQRuREwlgt0IOXBdyk,4712
+pymecompress-0.3.5.dist-info/WHEEL,sha256=FJuHhoVUZj62yWAYw46S3u8syVVmWwUzAGz6OK32Q1A,109
+pymecompress-0.3.5.dist-info/top_level.txt,sha256=8589XsDBLEHHaeuHaJOO9kdS5JVn1DSwllcq535O4GI,13
+pymecompress-0.3.5.dist-info/RECORD,,
