@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: chaoxingapis
+Version: 0.0.1
+Summary: 封装了一些学习通接口
+Home-page: https://github.com/cquestor
+Author: cquestor
+Author-email: jishi2206@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+一个简单的 PyPI 上传测试
