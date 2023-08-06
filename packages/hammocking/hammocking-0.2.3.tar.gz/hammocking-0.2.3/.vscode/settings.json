@@ -1,0 +1,40 @@
+{
+    "python.testing.pytestArgs": [
+        "tests",
+        "--capture=tee-sys"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "119"
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#fbed80",
+        "activityBar.activeBorder": "#06b9a5",
+        "activityBar.background": "#fbed80",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#06b9a5",
+        "activityBarBadge.foreground": "#15202b",
+        "sash.hoverBorder": "#fbed80",
+        "statusBar.background": "#f9e64f",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#f7df1e",
+        "statusBarItem.remoteBackground": "#f9e64f",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#f9e64f",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#f9e64f99",
+        "titleBar.inactiveForeground": "#15202b99",
+        "commandCenter.border": "#15202b99"
+    },
+    "peacock.color": "#f9e64f",
+    "cmake.sourceDirectory": "${workspaceFolder}/tests/data/mini_c_test",
+    "cmake.environment": {
+        "PIPENV_MAX_DEPTH" : "10"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "esbonio.sphinx.confDir": ""
+}

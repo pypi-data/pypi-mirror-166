@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hammocking
+Version: 0.2.3
+Summary: Create mocks for c-code automatically
+Home-page: https://avengineers.github.io/hammocking
+Author: avengineers
+Author-email: avengineers@gmail.com
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Create mocks for c-code automatically

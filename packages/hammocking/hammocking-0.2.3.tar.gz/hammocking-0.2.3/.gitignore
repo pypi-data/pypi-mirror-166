@@ -1,0 +1,15 @@
+# What: Python: byte-compiled / optimized / DLL files
+# Why: automatically created by Python during script execution
+__pycache__/
+*.py[cod]
+*$py.class
+
+# What: CMake build output folder
+# Why: automatically created by CMake
+/build
+/dist
+/*.egg-info/
+/.eggs/
+
+# PyCharm generated project folder
+.idea
