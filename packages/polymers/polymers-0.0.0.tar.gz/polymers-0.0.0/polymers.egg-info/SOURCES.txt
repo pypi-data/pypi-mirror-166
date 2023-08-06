@@ -1,0 +1,9 @@
+README.rst
+setup.py
+polymers/__init__.py
+polymers.egg-info/PKG-INFO
+polymers.egg-info/SOURCES.txt
+polymers.egg-info/dependency_links.txt
+polymers.egg-info/requires.txt
+polymers.egg-info/top_level.txt
+polymers/tests/__init__.py
