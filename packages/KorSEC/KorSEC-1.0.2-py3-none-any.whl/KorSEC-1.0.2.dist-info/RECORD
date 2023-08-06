@@ -1,0 +1,17 @@
+KorSEC/__init__.py,sha256=3HDIXzvlBeXidjW0X4ihmf-mV_E2OsotGQNQn_oN_Vc,78
+KorSEC/sec.py,sha256=zLaqv2TOmXBDhguKancqZ1IxV0HURfGmr9K7bKxzsAk,17662
+KorSEC/sec_trainer.py,sha256=y8BvJNVM5Om-kjSjgHJS1pJA9XHl_FL-Cl5Of-sybAQ,8720
+KorSEC/util.py,sha256=lOxnN6gpoeyK9iqgdQaEhncz-MkON2q-N7djD4JVxu4,1140
+KorSEC/data/.DS_Store,sha256=3LwO2FN4MGQvTRBRSf6a5nLt7NsXiQvstANqB4LVT0A,6148
+KorSEC/data/sec.param,sha256=tXDkm3UDkAnH-wBAz6uFX55FTOIYcihIbmsEIWxXk9o,214
+KorSEC/data/sec.dict/000005.ldb,sha256=3lWSiieQBo_3IY3Aoeh3juRlaDNFkoWsJByBJ0JaIdU,20055716
+KorSEC/data/sec.dict/000080.log,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+KorSEC/data/sec.dict/CURRENT,sha256=YsAA2AZ4yB4LnKse0O3FnnPeblZyD3oZ_HcEgjrKPfw,16
+KorSEC/data/sec.dict/LOCK,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+KorSEC/data/sec.dict/LOG,sha256=Q2NEj-lgHfUVWP3oN2jSbuSUzn1HJdANVw3F05UbjDI,172
+KorSEC/data/sec.dict/LOG.old,sha256=qjj4yeHQuDn2kKGQEA4o0yK78SJm00Tx7LRJra0aG0c,172
+KorSEC/data/sec.dict/MANIFEST-000079,sha256=Hf7G8lMuRVF-CGtK2a4-QDOLdXCWvH5YB0gt_pcPR-I,84
+KorSEC-1.0.2.dist-info/METADATA,sha256=qET6_7iKnbtzg_dTnkyiLDhuEMRP7j9AiMhNQT3YnBc,2773
+KorSEC-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+KorSEC-1.0.2.dist-info/top_level.txt,sha256=uaTbtoweVw9Q3B1GTLdE3YwycOQR2aukVg9j4csxeKA,7
+KorSEC-1.0.2.dist-info/RECORD,,
