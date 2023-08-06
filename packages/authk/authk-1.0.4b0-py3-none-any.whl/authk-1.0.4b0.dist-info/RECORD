@@ -1,0 +1,10 @@
+authk/__init__.py,sha256=nYHoI98IM2VgVNCRqwKuZmPv4dGVhckAkcn7s-Gjr3k,130
+authk/_authk.py,sha256=aOkL7KoftIdW6KKw6hgUBNUfVxjwflPgViNJCFqxMV0,621
+authk/_authorized_keys.py,sha256=kqQquu-1ao21gtRBNDKVs_4nu_SsS27jHuzCGKdM168,1956
+authk/add.py,sha256=LRUBOJIijDuK5h_VCjo3APWIn_BianRzWfBMXdVtb_o,837
+authk/remove.py,sha256=UdIwUYfcgD_dQyAFEiNn8cGTrUGSrfYQcHYAbCB4Xd8,457
+authk-1.0.4b0.dist-info/entry_points.txt,sha256=UQhryidOMp4bkcfNy9Ldli7Hcg2yUkafsiX_xOsTo-Q,43
+authk-1.0.4b0.dist-info/LICENSE.md,sha256=cav6Rd67ka6suI_iD5PTZ-29Qp1-fr06j9wfEwdSrQ8,1065
+authk-1.0.4b0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+authk-1.0.4b0.dist-info/METADATA,sha256=gViK9yLxo-7ztOS4IYO2EAnHPANYi8_Aou9NJPjsCso,2210
+authk-1.0.4b0.dist-info/RECORD,,
