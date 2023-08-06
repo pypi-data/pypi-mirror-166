@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: rogii-solo
+Version: 0.1
+Summary: ROGII Solo is a Python SDK designed to make data scientists' work with Solo easier.
+Author: ROGII Inc.
+Author-email: support@rogii.com
+License: Copyright (c) 2022 ROGII Inc.        
+        MIT License        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.        
+Project-URL: Homepage, https://www.rogii.com/
+Project-URL: Documentation, https://kb.solo.cloud/Python+SDK
+Project-URL: Issue Tracker, https://github.com/rogii-com/Python-SDK/issues
+Project-URL: Source Code, https://github.com/rogii-com/Python-SDK
+Keywords: rogii,solo,rogii solo,python sdk,data science,cloud data,data analysis,papi,starsteer,geology,drilling,geosteering
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Software Development :: Testing :: Unit
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: ==3.10.*
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: requests-oauthlib (==1.3.1)
+Requires-Dist: pandas (==1.4.3)
+Requires-Dist: numpy (==1.23.0)
+Provides-Extra: dev
+Requires-Dist: setuptools (==63.1.0) ; extra == 'dev'
+Requires-Dist: wheel (==0.37.1) ; extra == 'dev'
+Requires-Dist: build (==0.8.0) ; extra == 'dev'
+Requires-Dist: twine (==4.0.1) ; extra == 'dev'
+Requires-Dist: pre-commit (==2.11.1) ; extra == 'dev'
+Requires-Dist: flake8 (==3.9.0) ; extra == 'dev'
+Requires-Dist: isort (==5.7.0) ; extra == 'dev'
+Requires-Dist: pytest (==7.1.2) ; extra == 'dev'
+
+# ROGII Solo
+
+ROGII Solo is a Python SDK designed to make data scientists' work with Solo easier.
+
+## Requirements
+Python 3.10
+
+## Installation
+1. Install the package using `pip install rogii-solo` command.
+2. Generate access credentials on the [landing page](https://solo.cloud/credentials/python-sdk) and copy the initialization string.
+3. Initialize the client by pasting the initialization string in the constructor.
+4. Set the project you wish to work with by name or UUID.
+
+## Example
+```python
+from rogii_solo import SoloClient
+
+solo_client = SoloClient(client_id='my-client-id', client_secret='my-client-secret')
+solo_client.set_project_by_name('My project')
+
+project = solo_client.project
+wells = project.wells
+
+wells_data = wells.to_dict() # List of dicts
+wells_df = wells.to_df() # DataFrame
+```
+
+## Usage
+Please check the SDK documentation in our [Knowledge Base](https://kb.solo.cloud/Python+SDK).
