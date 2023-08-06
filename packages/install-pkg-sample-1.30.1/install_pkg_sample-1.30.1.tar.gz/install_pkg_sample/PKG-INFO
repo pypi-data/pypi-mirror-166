@@ -1,0 +1,30 @@
+Metadata-Version: 1.2
+Name: install_pkg_sample-1.30.1
+Version: 1.30.0
+Summary: A sample for install_pkg_sample
+Home-page: https://github.com/Enzhu-Xu
+Author: xu_in_sony
+Author-email: 1040877346@qq.com
+License: Apache License 2.0
+Project-URL: Bug Tracker, https://github.com/Enzhu-Xu
+Description: UNKNOWN
+Keywords: deep learning artificial intelligence machine learning neural network cuda
+Platform: CUDA
+Platform: cuDNN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Python: >=3.7
