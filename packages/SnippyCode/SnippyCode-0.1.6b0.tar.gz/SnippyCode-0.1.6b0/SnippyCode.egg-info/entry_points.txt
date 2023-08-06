@@ -1,0 +1,5 @@
+[console_scripts]
+snip = snippycode.snippyCode:write
+snip-ls = snippycode.snippyCode:list
+snip-rm = snippycode.snippyCode:delete
+snip-up = snippycode.snippyCode:update

@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+setup.py
+SnippyCode.egg-info/PKG-INFO
+SnippyCode.egg-info/SOURCES.txt
+SnippyCode.egg-info/dependency_links.txt
+SnippyCode.egg-info/entry_points.txt
+SnippyCode.egg-info/top_level.txt
+snippycode/__init__.py
+snippycode/snippyCode.py
+snippycode/snippyCopy.py
+snippycode/snippyDocument.py
+snippycode/snippyFile.py
+snippycode/snippyJson.py
+snippycode/snippyStatus.py
