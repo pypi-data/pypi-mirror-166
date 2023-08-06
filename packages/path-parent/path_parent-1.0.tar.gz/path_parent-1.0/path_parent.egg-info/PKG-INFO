@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: path-parent
+Version: 1.0
+Summary: Add '..' to path setting.
+Home-page: https://github.com/adf0001/path_parent
+Author: fwg
+Author-email: adf0001@163.com
+License: MIT Licence
+Description: Add string '..' to the path setting when being imported.
+Keywords: path,parent
+Platform: any
