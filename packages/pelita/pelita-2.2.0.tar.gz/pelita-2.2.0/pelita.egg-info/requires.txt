@@ -1,0 +1,7 @@
+pyzmq
+PyYAML
+numpy
+networkx
+pytest>=4
+zeroconf
+rich
