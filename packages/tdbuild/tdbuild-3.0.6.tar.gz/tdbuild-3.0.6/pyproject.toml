@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "tdbuild"
+version = "3.0.6"
+description = "A simple build tool for C and C++"
+authors = ["spader <thomas.spader@gmail.com>"]
+include = ["tdbuild/tdfile.template"]
+homepage = 'https://spader.zone'
+repository = 'https://github.com/spaderthomas/tdbuild'
+readme = 'README.md'
+
+[tool.poetry.scripts]
+tdbuild = 'tdbuild.cli:main'
+
+[tool.poetry.dependencies]
+python = "^3.9"
+colorama = "^0.4.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["setuptools", "poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
