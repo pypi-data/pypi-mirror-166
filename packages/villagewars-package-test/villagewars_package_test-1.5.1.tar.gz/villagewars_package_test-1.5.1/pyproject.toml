@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling", "pygetwindow", "pygame", "pymsgbox", "pyperclip"]
+build-backend = "hatchling.build"
+[project]
+name = "villagewars_package_test"
+version = "1.5.1"
+authors = [
+  { name="Aaron McCormick", email="aamcc@cluemail.com" },
+]
+description = "A Python Package for VillagWars"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
