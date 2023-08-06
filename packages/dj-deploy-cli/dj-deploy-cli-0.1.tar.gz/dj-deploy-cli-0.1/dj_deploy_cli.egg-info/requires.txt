@@ -1,0 +1,7 @@
+sys
+platform
+pyfiglet
+termcolor
+inquirer
+time
+os
