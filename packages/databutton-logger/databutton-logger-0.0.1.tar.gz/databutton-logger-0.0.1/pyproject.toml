@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "databutton-logger"
+version = "0.0.1"
+description = "Logger utilities for databutton"
+authors = ["Databutton"]
+packages = [
+  { include = "logger"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+asgi-correlation-id = "^3.0.1"
+uvicorn = "^0.18.3"
+fastapi = "^0.82.0"
+loguru = "^0.6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.8.0"
+isort = "^5.10.1"
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.semantic_release]
+version_variable = "logger/__init__.py:__version__"
