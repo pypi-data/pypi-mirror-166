@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: grosnap
+Version: 0.0.10
+Summary: Python package manager grosnap
+Project-URL: Repository, https://github.com/gro-intelligence/gro-internal/tree/main/experimental/grosnap_package
+Author-email: Jacques Paye <jacques.paye@gro-intelligence.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# grosnap -- Gro package management
