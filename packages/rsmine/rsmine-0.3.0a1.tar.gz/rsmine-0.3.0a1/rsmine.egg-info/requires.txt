@@ -1,0 +1,12 @@
+requests
+numpy
+tensorflow-macos
+tensorflow-probability
+pandas
+matplotlib
+wandb
+tqdm
+networkx
+scipy
+seaborn
+scikit-learn
