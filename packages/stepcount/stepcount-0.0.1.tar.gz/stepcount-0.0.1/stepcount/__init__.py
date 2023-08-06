@@ -1,0 +1,6 @@
+name = "stepcount"
+__version__ = "0.0.1"
+__author__ = "Shing Chan, Scott Small, Aiden Doherty"
+__email__ = "shing.chan@ndph.ox.ac.uk, scott.small@ndph.ox.ac.uk, aiden.doherty@ndph.ox.ac.uk"
+__license__ = "2-Clause BSD"
+__model_version__ = "20220908"
