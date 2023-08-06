@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "azcam-arc"
+version = "22.3"
+description = "Azcam extension for Astronomical Research Cameras (ARC) gen1, gen2, and gen3 controllers"
+authors = ["Michael Lesser <mlesser@arizona.edu>"]
+license = "LICENSE"
+readme = "README.md"
+keywords=["ccd", "imaging", "astronomy", "sensors"]
+repository = "https://github.com/mplesser/azcam-arc/"
+documentation = "https://mplesser.github.io/azcam/"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+azcam = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
