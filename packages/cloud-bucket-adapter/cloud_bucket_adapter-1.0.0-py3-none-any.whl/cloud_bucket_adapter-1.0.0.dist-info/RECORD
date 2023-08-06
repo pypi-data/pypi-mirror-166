@@ -1,0 +1,13 @@
+cloud_bucket_adapter/.DS_Store,sha256=lsU4ZSbkuKfhsfTsASfqErs_m-w9p2esDkT5-ODPwmc,6148
+cloud_bucket_adapter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloud_bucket_adapter/adapter.py,sha256=Kl-FuO-uYbAEgA4Hq9SBzO3IhlcAWyp3g2IRGIIWDVQ,2701
+cloud_bucket_adapter/custom_blob.py,sha256=9bBU9jnOL0yl4GyFLvzhJp7y0iqDQ0I9ZfmOlK1N0p4,2991
+cloud_bucket_adapter/django_adapter.py,sha256=Wo67wzJWndTuR9nE4-gmMtEY9g7w9YR0lrSGN4wN6mc,177
+cloud_bucket_adapter/aws/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloud_bucket_adapter/aws/adapter.py,sha256=l8I1WkG4_dAnw8pNIoW07OiwcrXULGtAMuFycsS62oA,7878
+cloud_bucket_adapter/gcp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloud_bucket_adapter/gcp/adapter.py,sha256=7HvvgAlEHuJvpRfESp4B8eoRhLnAex3Lk3p4mp58b4E,6486
+cloud_bucket_adapter-1.0.0.dist-info/METADATA,sha256=SoEEFRrtZ2ZD0lFSYqRisoNcbvNbt5QZZeowu7A-gf8,2460
+cloud_bucket_adapter-1.0.0.dist-info/WHEEL,sha256=09RFlvY3aVzvCNk4AXPZt-N-AI7GY_KktGsTb2IqIBU,86
+cloud_bucket_adapter-1.0.0.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+cloud_bucket_adapter-1.0.0.dist-info/RECORD,,
