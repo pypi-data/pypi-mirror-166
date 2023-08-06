@@ -1,0 +1,11 @@
+cerberus
+datetime
+inquirer
+ipaddress
+ipaddress
+jinja2
+pyyaml
+requests
+rich
+tabulate
+tqdm
