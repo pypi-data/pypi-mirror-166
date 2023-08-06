@@ -1,0 +1,9 @@
+libdir=/home/naf/projects/Vivid/Vivid/_skbuild/linux-x86_64-3.9/cmake-install/src/vivid3d/lib
+includedir=/home/naf/projects/Vivid/Vivid/_skbuild/linux-x86_64-3.9/cmake-install/src/vivid3d/include
+
+Name: vivid
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 5.2.4
+Libs: -L${libdir} -lassimp
+Libs.private: -lstdc++ 
+Cflags: -I${includedir}
