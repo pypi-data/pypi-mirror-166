@@ -1,0 +1,15 @@
+biosearch/DataPlatform/main.py,sha256=3p8oz2duIZn33Zot1cYqzb7P4iN9pTgL6oSg0Y3rCOI,2341
+biosearch/DataPlatform/preprocessing_functions.py,sha256=KWUxvBj2-tYdD2StIiGZlrKPyXO0RAMzg-k6xS3aBl4,2906
+biosearch/DataPlatform/API/google_slides_api.py,sha256=CX42XAp2fNJFHpOMNBSHFW2vWD3Gqw6qZdW5v1Q2gu4,1977
+biosearch/DataPlatform/DB/database_ops.py,sha256=seTpLl19jICViQd1q6dxpdZs3GOuUVQs5M-uAXVKJro,3195
+biosearch/DataPlatform/DB/db_queries.py,sha256=vZYl3t7P_Bh3WMABeX5fP7WaoMCvGqflfLEXXmAoVUc,3842
+biosearch/FastAPI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biosearch/FastAPI/database.py,sha256=eOEfCDMKyw4UtXEKLSLUfW8sOnk4mmcKdmv42JW7w_Y,500
+biosearch/FastAPI/main.py,sha256=3AJUne7_ICoNYDCVZ7HJPq_L_4RDeXpyCI0OMK_gM_k,3874
+biosearch/FastAPI/models.py,sha256=nIbU-hDMPJ4XAYBEtJ673RDFi3wlRVI5AsubTflltjY,2374
+biosearch/FastAPI/schemas.py,sha256=kRfn3ZNMvE8SiKnMzQoPvLysRqNGs0EEApyvDJySDxs,932
+biosearch-0.0.1.dist-info/LICENSE,sha256=T0eTPzleHkBrtJvHkUXH-RR8DaI_ULFNjLC2aPeExM4,1073
+biosearch-0.0.1.dist-info/METADATA,sha256=R1zu1Pt5tnsUP1VPUykQP7eVtbNOBRY-aeYpzmyUysI,9366
+biosearch-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+biosearch-0.0.1.dist-info/top_level.txt,sha256=0NPHRz66WNbs5gqCMq3yW6RbjGPVtJ-urtUPgkdOqi8,10
+biosearch-0.0.1.dist-info/RECORD,,
