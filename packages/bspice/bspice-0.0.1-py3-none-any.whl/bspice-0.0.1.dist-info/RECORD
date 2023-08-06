@@ -1,0 +1,8 @@
+bspice/__init__.py,sha256=WxrIe-7xnRGPaTg0uQC5mWWP0nCdW87nogEZ5XgANVY,101
+bspice/core.py,sha256=hT3Uaif0tUVnaiv5EOwBmAlAQ1m2eaYSIyG7S_4zt90,5155
+bspice/downloads.py,sha256=j4gneFx6sxAeVBDUeTM_En0qJJl70RI-XOHjh8I7wSc,1824
+bspice-0.0.1.dist-info/LICENSE.txt,sha256=UvLHY_L3xBb48esYOsyk5vyjK5vXbrYFOavCY8qZpM4,1092
+bspice-0.0.1.dist-info/METADATA,sha256=mh5fsAd5hqHXoouL5pM80uk6B_nPiZ9c9kO4NpKSRBg,2499
+bspice-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bspice-0.0.1.dist-info/top_level.txt,sha256=6U-4CwAAEE4sCNP9f00zpm5J8z302FAXggvPVScq3oY,7
+bspice-0.0.1.dist-info/RECORD,,
