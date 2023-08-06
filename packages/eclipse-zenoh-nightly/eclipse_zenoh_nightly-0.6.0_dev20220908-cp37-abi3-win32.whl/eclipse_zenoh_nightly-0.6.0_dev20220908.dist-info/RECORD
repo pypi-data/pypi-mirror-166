@@ -1,0 +1,7 @@
+eclipse_zenoh_nightly-0.6.0_dev20220908.dist-info/METADATA,sha256=NeNtPQoyNDP1DU1Whiw7hEzT08fao5tiEo9J6APg4Fk,4972
+eclipse_zenoh_nightly-0.6.0_dev20220908.dist-info/WHEEL,sha256=8uNtMGjg0RNja5xT702eGVaXUpTTkMSv4YdHDRtG2A0,92
+eclipse_zenoh_nightly-0.6.0_dev20220908.dist-info/license_files/LICENSE,sha256=bfA36L5rA6VZwYOLaJZ-uwEhggVgwDaxsd2PeMblc0A,24830
+eclipse_zenoh_nightly-0.6.0_dev20220908.dist-info/license_files/NOTICE.md,sha256=KbiACT5v2OzXY9lpOBxhFExU9lYMAazsjKgzVlV6vHg,1293
+zenoh/__init__.py,sha256=TycZwxQuZTiJxFz-j4Sbs5tu3C-a18d-ds9Hu4wSrKE,103
+zenoh/zenoh.pyd,sha256=PRmTqRVd7D7xJkTZEFcVnJA44-dKA7zK1AXAfUu4fFw,10463744
+eclipse_zenoh_nightly-0.6.0_dev20220908.dist-info/RECORD,,
