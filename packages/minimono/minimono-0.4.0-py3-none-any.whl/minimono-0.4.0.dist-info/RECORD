@@ -1,0 +1,15 @@
+minimono/API/__init__.py,sha256=h9hPl6Pwcz1HVdvvQ9h-CZT4lHwGIjE-CKFX09ropbs,37
+minimono/API/api_call.py,sha256=DbLKiPeUVv2vCvDLqY_GKbw9WAFd8C31giKfqLZqW3w,2367
+minimono/API/client.py,sha256=hwUFCDgJAMXt9oLtaVPCh7OsGSZ36__j7bN5HU6TXwE,2512
+minimono/__init__.py,sha256=fiFORSFupnbsrk21MyG9IB3Pm2sRgHGjv0eqiSy6I84,99
+minimono/abstract/__init__.py,sha256=l_WgTPQ7yBhWeIsTsi0DP08uNm_yMVRXg-89h7hztgY,403
+minimono/abstract/caller_elements.py,sha256=4oxkfblo_NM7DOvCMUV96GGTy11SGn3CQm2PGZ0yi3s,622
+minimono/models/__init__.py,sha256=hy8KMIcG0KRHzpf0jWXBynbI2UELBUqSvL8qADkHCz8,656
+minimono/models/enumerators.py,sha256=znhoiBKWvepcVeWTeSuNasQI7fBM7gUO64HQTwXT8Ek,530
+minimono/models/models.py,sha256=Bu0pFriHBm07L2ijyZLFJS-aiOAxwiae7qF5Aw3lg7A,9849
+minimono/models/utility.py,sha256=g1Bkmy2_rvnJcElCbnggeJEcX-ACuSJfkiKZLOIcYCA,1504
+minimono/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minimono-0.4.0.dist-info/LICENSE,sha256=IJNRa_7to-j03BbYUEk6bMXkXKtoBIxUzSKmFECtneA,1055
+minimono-0.4.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+minimono-0.4.0.dist-info/METADATA,sha256=tWUn2gbOjWG5Hb73Q03oc-cpGswArtemYT4WiiF1B_0,552
+minimono-0.4.0.dist-info/RECORD,,
