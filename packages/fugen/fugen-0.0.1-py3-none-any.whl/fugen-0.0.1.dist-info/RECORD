@@ -1,0 +1,16 @@
+fugen/__init__.py,sha256=KO2sDypWjq87TiC-VU0Phd0cY9JWkiivhKFn1tssA3k,153
+fugen/enums.py,sha256=CsyfemTcREOeVxezTW1CiAgas0BqjXcfx4SYgXyYlh4,1127
+fugen/random_module.py,sha256=zZI2Jo8KopjSAceK1VA4fVqV_oc3iXzaKYefs5d97aE,1191
+fugen/data/ifns_branches.json,sha256=MhuBDmcO8G3-bXevjgu2k79qHXAO59-CyMBiY-dFq78,676720
+fugen/data/okved_codes.json,sha256=B8yt3Om5BDwpnGZmyACcXNInHrBCMYMyzvvIOQMkqXE,1366573
+fugen/generators/__init__.py,sha256=oleWIi9lCOXj-zre3OICrxA3W7LX1jpkFdbKUfEJM4g,186
+fugen/generators/company.py,sha256=UuHasvy7i0vv8DjvzrFoqDbIdKJUNM3IEsdml0-xv1s,11056
+fugen/generators/ifns.py,sha256=6GYBtwTjd-EQBTHMl5PjnUxQxc7Z7GKKw5HBkuAaEzQ,4763
+fugen/generators/okved.py,sha256=G4o6BJcShFvptgqKm4A20s_0lG7xq3koNxEzVNLj3ig,3283
+fugen-0.0.1.data/data/ifns_branches.json,sha256=MhuBDmcO8G3-bXevjgu2k79qHXAO59-CyMBiY-dFq78,676720
+fugen-0.0.1.data/data/okved_codes.json,sha256=B8yt3Om5BDwpnGZmyACcXNInHrBCMYMyzvvIOQMkqXE,1366573
+fugen-0.0.1.dist-info/METADATA,sha256=HmFILEkbYQ-beh0Nk9pF8u3P_d_781fkIg0pT_xZZzQ,265
+fugen-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fugen-0.0.1.dist-info/top_level.txt,sha256=pktZ-Wc87vyPip3Myx-p4CoifQJ8hz8zeUxKfMED5rQ,6
+fugen-0.0.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+fugen-0.0.1.dist-info/RECORD,,

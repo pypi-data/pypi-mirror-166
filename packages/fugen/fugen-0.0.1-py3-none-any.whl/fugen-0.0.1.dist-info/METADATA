@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: fugen
+Version: 0.0.1
+Summary: Financial University package for synthetic data generation
+Author: Vildanov Timur, Duc Truong
+License: MIT
+Description-Content-Type: text/markdown
+
+Financial University package for synthetic data generation
