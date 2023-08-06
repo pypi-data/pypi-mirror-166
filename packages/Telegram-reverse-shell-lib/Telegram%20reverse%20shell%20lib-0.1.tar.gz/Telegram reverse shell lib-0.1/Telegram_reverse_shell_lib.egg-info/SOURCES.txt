@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+Telegram_reverse_shell_lib.egg-info/PKG-INFO
+Telegram_reverse_shell_lib.egg-info/SOURCES.txt
+Telegram_reverse_shell_lib.egg-info/dependency_links.txt
+Telegram_reverse_shell_lib.egg-info/requires.txt
+Telegram_reverse_shell_lib.egg-info/top_level.txt
+py_tel_reverse_shell/Engine.py
+py_tel_reverse_shell/__init__.py
+py_tel_reverse_shell/tel_shell.py
+py_tel_reverse_shell/tools.py
