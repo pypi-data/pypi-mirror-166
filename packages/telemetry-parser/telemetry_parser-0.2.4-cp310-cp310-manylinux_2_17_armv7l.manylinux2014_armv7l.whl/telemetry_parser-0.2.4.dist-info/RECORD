@@ -1,0 +1,5 @@
+telemetry_parser-0.2.4.dist-info/METADATA,sha256=fJ3Zrw3rUWVsDkxDVzcbVrfEYTsuABHi68xqqeoZOYo,2611
+telemetry_parser-0.2.4.dist-info/WHEEL,sha256=eAD09KTzZpV2QhggeiqRMydh-dm3p3aMtLVTwXCDLmQ,130
+telemetry_parser/__init__.py,sha256=BhJgISgpeXgMJ46i8yXkreMec3Q8NP4cdp7xpB6mJtI,147
+telemetry_parser/telemetry_parser.cpython-310-arm-linux-gnueabihf.so,sha256=A6MyB0G2eMwSwWE1NO-49NBsZJLXIIO2FvE-BkLuZcw,3674200
+telemetry_parser-0.2.4.dist-info/RECORD,,
