@@ -1,0 +1,12 @@
+LICENSE
+setup.cfg
+setup.py
+src/smsflyapi2/__init__.py
+src/smsflyapi2/smsflyapi2.py
+src/smsflyapi2.egg-info/PKG-INFO
+src/smsflyapi2.egg-info/SOURCES.txt
+src/smsflyapi2.egg-info/dependency_links.txt
+src/smsflyapi2.egg-info/requires.txt
+src/smsflyapi2.egg-info/top_level.txt
+src/tests/__init__.py
+src/tests/test_smsflyapi2.py

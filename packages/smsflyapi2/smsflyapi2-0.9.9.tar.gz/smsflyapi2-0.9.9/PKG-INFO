@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: smsflyapi2
+Version: 0.9.9
+Summary: Python module for working with SMSFly service
+Home-page: https://github.com/e-sft/smsflyapi2
+Author: Eugene Brezitskiy
+Author-email: brezitskiy@ukr.net
+License: MIT License, see LICENSE file
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Software Development :: Bug Tracking
+License-File: LICENSE
+
+
+Python module for working with the service of sending SMS and Viber messages
+
+
