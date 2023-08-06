@@ -1,0 +1,17 @@
+lapixdl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lapixdl/base.py,sha256=CrjSf5ed4Z21JSvhfXWZxIunOocsjsw2xbsyuRTCFEw,671
+lapixdl/convert.py,sha256=OpPflHIVHnj_CFaixT8u2BCX5jtSaVINyO3om7FSia8,12956
+lapixdl/evaluation/__init__.py,sha256=sPwx81EnaZRabh3m3Yx-TveLg2WXerTyM0Kn4E8GOZI,177
+lapixdl/evaluation/evaluate.py,sha256=6w6LvZqBQP0i22nupu-i0zwQNliw9ppBMmOZj71cXAA,10792
+lapixdl/evaluation/model.py,sha256=ZyYmOv1h3lTya7ZTZNXnRsEeKcVazvBdOqKhAm0hByE,25382
+lapixdl/evaluation/plot.py,sha256=yvNJrFAPwSK7zWjhPxKBdIrvm1XcGidhy_t62TKRV0I,2321
+lapixdl/evaluation/visualize.py,sha256=l_XIKUYul4uxxrZRrooBw4JYVSm6zoBuBpNq03ge5zI,7670
+lapixdl/formats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lapixdl/formats/annotation.py,sha256=aWtcZeksFVHg7TvbNocPR19lMPCZoRGfASPXH9Z5tsY,5689
+lapixdl/formats/labelbox.py,sha256=azzAKUY9Xk8Q3_iyvpBvKg4qgWLi4n_wvglHh65CYps,1172
+lapixdl/formats/lapix.py,sha256=zfg0f8OmyTAOm_H5lnf8ktuTYNMUlV5ttuctMzmuEes,2076
+lapixdl-0.9.0.dist-info/LICENCE,sha256=i9QJ7C4rtG2pSu11WL4-grnYXiv4Rm9nI-5li1UI8B0,1049
+lapixdl-0.9.0.dist-info/METADATA,sha256=bO97AYUpetiZ-w-cKyoQ9COysJTsfvpICU26qRLtAG0,4643
+lapixdl-0.9.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lapixdl-0.9.0.dist-info/top_level.txt,sha256=09DzHBcS89VXU04z5dNFP7I4JCMbk2KZwrFRZ3rmDfA,8
+lapixdl-0.9.0.dist-info/RECORD,,
