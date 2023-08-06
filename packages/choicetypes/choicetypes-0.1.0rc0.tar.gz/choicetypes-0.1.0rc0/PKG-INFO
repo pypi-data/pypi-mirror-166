@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: choicetypes
+Version: 0.1.0rc0
+Summary: Powerful and simple algebraic sum types in Python.
+Home-page: https://github.com/samwaterbury/choicetypes
+License: MIT
+Author: Sam Waterbury
+Author-email: samwaterbury1@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Repository, https://github.com/samwaterbury/choicetypes
+Description-Content-Type: text/markdown
+
+# Python Choice Types
+
+`choicetypes` brings powerful and simple algebraic [sum types](https://en.wikipedia.org/wiki/Tagged_union) to Python.
+
+## Usage
+
+New `Choice` types are constructed using sytax similar to standard library enums and dataclasses:
+
+```python
+from choicetypes import Choice
+
+
+class IpAddr(Choice):
+    V4: tuple[int, int, int, int]
+    V6: str
+
+
+home = IpAddr(V4=(127, 0, 0, 1))
+loopback = IpAddr(V6="::1")
+```
+
+A choice consists of mutually exclusive _variants_. In this example, any instance of `IpAddr` must be **either** a `V4` or `V6` address. Variants are just normal attributes and can be accessed as such. But they're also designed to work seamlessly with [structural pattern matching](https://peps.python.org/pep-0636/), introduced in Python 3.10:
+
+```python
+for ip in (home, loopback):
+    match ip:
+        case IpAddr(V4=fields):
+            print("{}:{}:{}:{}".format(*fields))
+        case IpAddr(V6=text):
+            print(text)
+```
+
+For a complete overview of what `Choice` type can do, see the [official documentation](https://samwaterbury.github.io/choicetypes/).
+
+## Installation
+
+The `choicetypes` package is available on PyPi:
+
+```shell
+pip install choicetypes
+```
+
+It is written in pure Python and has zero dependencies.
+
+## Background
+
+Algebraic choice types have various other names (sum types, tagged unions, etc.) and exist in a number of programming languages. The primary inspiration for `choicetypes` was Rust's [Enum type](https://doc.rust-lang.org/book/ch06-00-enums.html).
+
+Python's `Enum` allows you to express mutually exclusive variants, but not associated data. Its `dataclass` (and similar) types store data but cannot represent mutually exclusive variants. The core idea behind algebraic sum types is to store these two pieces of information simultaneously.
+
+I wanted to build a type that could accomplish this in a similar style to Rust. Importantly, it had to work cleanly with structural pattern matching and type hinting.
+
