@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+AutoDocker/__init__.py
+AutoDocker/main.py
+AutoDocker.egg-info/PKG-INFO
+AutoDocker.egg-info/SOURCES.txt
+AutoDocker.egg-info/dependency_links.txt
+AutoDocker.egg-info/not-zip-safe
+AutoDocker.egg-info/requires.txt
+AutoDocker.egg-info/top_level.txt
