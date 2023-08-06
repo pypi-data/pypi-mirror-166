@@ -1,0 +1,10 @@
+vxbase/__init__.py,sha256=j2P17ZC2O8jyuCtiERWObQDToil4kwVroEBQ2UkFu-E,118
+vxbase/compress.py,sha256=LiJ24T6A1Af-HRv8essY7K9wfUnpG4Fx8GgEbVqabCU,1758
+vxbase/generators.py,sha256=yuudYxhmbxIw7-3nty-tlK6OLh11UulE-O4cgN7XkKM,507
+vxbase/logger.py,sha256=il3Mb_JmnQt2RmOt2-9GSTIgp4Ru4-4uN2DmEd81H5U,1493
+vxbase/types.py,sha256=SOLdI6Wa9edkxE8iN-ArFP9sKMbHbtNJGMfACoPAcTQ,467
+vxbase-0.0.1.dist-info/LICENSE,sha256=SG49B0KFQv7sCJiENv9r9J8J7aB4GDx4zcGpJJHXGLg,1475
+vxbase-0.0.1.dist-info/METADATA,sha256=vOQYiqUC7laQe1uaNV2cPelspvdBSnN5eDYG8wUfyXc,999
+vxbase-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vxbase-0.0.1.dist-info/top_level.txt,sha256=nhaA5UgoXjnXPNYWDDvGyKGmRz3r4qXa1Qn_P73Yu5g,7
+vxbase-0.0.1.dist-info/RECORD,,
