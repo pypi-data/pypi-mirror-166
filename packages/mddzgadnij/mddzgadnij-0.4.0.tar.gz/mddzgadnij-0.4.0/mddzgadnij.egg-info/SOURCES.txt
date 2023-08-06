@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+mddzgadnij/__init__.py
+mddzgadnij/main.py
+mddzgadnij.egg-info/PKG-INFO
+mddzgadnij.egg-info/SOURCES.txt
+mddzgadnij.egg-info/dependency_links.txt
+mddzgadnij.egg-info/top_level.txt
