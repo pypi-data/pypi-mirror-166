@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pycollimator
+Version: 0.1.dev1
+Requires-Python: >=3.7
+
+Python package for Collimator.ai
