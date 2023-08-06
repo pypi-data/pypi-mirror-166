@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+LARRY_dataset.egg-info/PKG-INFO
+LARRY_dataset.egg-info/SOURCES.txt
+LARRY_dataset.egg-info/dependency_links.txt
+LARRY_dataset.egg-info/requires.txt
+LARRY_dataset.egg-info/top_level.txt
+larry/__init__.py
+larry/_in_vitro/__init__.py
+larry/_in_vivo/__init__.py
