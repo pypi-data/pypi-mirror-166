@@ -1,0 +1,10 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+resens.egg-info/PKG-INFO
+resens.egg-info/SOURCES.txt
+resens.egg-info/dependency_links.txt
+resens.egg-info/not-zip-safe
+resens.egg-info/requires.txt
+resens.egg-info/top_level.txt
