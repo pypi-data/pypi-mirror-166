@@ -1,0 +1,45 @@
+[project]
+name = "xontrib-bash-completions-dirs"
+version = "0.1.4"
+license = { text = "GPL-3.0-or-later" }
+description = "Xontrib Bash Completions Dirs"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Shells",
+    "Topic :: System :: System Shells",
+    "Topic :: Terminals",
+]
+requires-python = ">=3.10"
+dependencies = ["xonsh>=0.13.1"]
+authors = [
+    { name = "Igor Taconi", email = "igor.taconi@protonmail.com" },
+]
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.urls]
+Homepage = "https://gitlab.com/taconi/xontrib-bash-completions-dirs"
+Documentation = "https://gitlab.com/taconi/xontrib-bash-completions-dirs/-/blob/main/README.md"
+Code = "https://gitlab.com/taconi/xontrib-bash-completions-dirs"
+"Issue tracker" = "https://gitlab.com/taconi/xontrib-bash-completions-dirs/-/issues"
+
+[project.optional-dependencies]
+
+[build-system]
+requires = [
+    "setuptools>=62",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+[tool.setuptools]
+packages = ["xontrib"]
+package-dir = {xontrib = "xontrib"}
+platforms = ["any"]
+include-package-data = false
+
+[tool.setuptools.package-data]
+xontrib = ["*.xsh"]

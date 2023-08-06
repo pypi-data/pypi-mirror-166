@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+xontrib/bash_completions_dirs.xsh
+xontrib_bash_completions_dirs.egg-info/PKG-INFO
+xontrib_bash_completions_dirs.egg-info/SOURCES.txt
+xontrib_bash_completions_dirs.egg-info/dependency_links.txt
+xontrib_bash_completions_dirs.egg-info/requires.txt
+xontrib_bash_completions_dirs.egg-info/top_level.txt

@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: xontrib-bash-completions-dirs
+Version: 0.1.4
+Summary: Xontrib Bash Completions Dirs
+Author-email: Igor Taconi <igor.taconi@protonmail.com>
+License: GPL-3.0-or-later
+Project-URL: Homepage, https://gitlab.com/taconi/xontrib-bash-completions-dirs
+Project-URL: Documentation, https://gitlab.com/taconi/xontrib-bash-completions-dirs/-/blob/main/README.md
+Project-URL: Code, https://gitlab.com/taconi/xontrib-bash-completions-dirs
+Project-URL: Issue tracker, https://gitlab.com/taconi/xontrib-bash-completions-dirs/-/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: Terminals
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Xontrib Bash Completions Dirs
+
+<p align="center">
+Autocomplete loading from directories.
+</p>
+
+## Installation
+
+To install use xpip:
+
+```sh
+xpip install xontrib-bash-completions-dirs
+```
+or
+```sh
+xpip install -U git+https://gitlab.com/taconi/xontrib-bash-completions-dirs
+```
+
+## Usage
+```sh
+xontrib load bash_completions_dirs
+ ```
+
+Add the variable `BASH_COMPLETIONS_DIRS` (which must be an iterable of strings) with the paths of the directories that contain the autocomplete files.
+
+For example:
+```py
+$BASH_COMPLETIONS_DIRS = ['/usr/share/bash-completion/completions']
+```
+
+### Note: The file name must be the same as the command to be used in autocomplete.
+For example, the file `/usr/share/bash-completion/completions/git` will be used to autocomplete the `git` command
