@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: ChatstatTikTokApi
+Version: 5.2.5
+Summary: The Unofficial TikTok API Wrapper in Python 3 for our own Chatstat.
+Home-page: https://github.com/j-teng96/TikTok-Api
+Download-URL: https://github.com/j-teng96/TikTok-Api/tarball/master
+Author: Jerry Teng
+Author-email: tt578060763@gmail.com
+License: MIT
+Keywords: tiktok,python3,api,unofficial,tiktok-api,tiktok api
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+Requires-Dist: requests
+Requires-Dist: playwright
+
+
+# Unofficial TikTok API in Python for Chatstat 
