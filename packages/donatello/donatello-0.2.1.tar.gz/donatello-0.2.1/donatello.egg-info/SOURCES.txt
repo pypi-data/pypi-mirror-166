@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+donatello/__init__.py
+donatello/donatello.py
+donatello.egg-info/PKG-INFO
+donatello.egg-info/SOURCES.txt
+donatello.egg-info/dependency_links.txt
+donatello.egg-info/top_level.txt
