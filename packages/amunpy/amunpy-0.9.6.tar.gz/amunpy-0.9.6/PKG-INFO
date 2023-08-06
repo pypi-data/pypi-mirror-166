@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: amunpy
+Version: 0.9.6
+Summary: Python Interface for the AMUN code's snapshots
+Home-page: https://www.amuncode.org/
+Author: Grzegorz Kowal
+Author-email: grzegorz@amuncode.org
+Project-URL: Bug Tracker, https://bitbucket.org/amunteam/amun-code/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: interpolation
+License-File: LICENSE
+
+# AmunPy Package
+
+This is AmunPy, a package to read snapshots written using the AMUN code.
