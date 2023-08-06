@@ -1,0 +1,47 @@
+# pad
+
+A cli tool for managing notes.
+
+# Goals
+
+* Make a note taking cli app that's convenient to use as a GUI conterpart
+* Open the last edited note with the command "jotpad" which will open the last edited note
+* Create a new note with a command "jotpad new" which will open a new note in the user's preffered text editor
+* List the last n notes with the command "jotpad
+
+```
+# dump last note
+jotpad
+
+# use the -e argument to open in users preffered editor
+jotpad -e
+
+# optionally add note content
+jotpad new
+jotpad new <note content>
+jotpad new <note content> -e
+jotpad new <note content> -n scratch.py
+jotpad new <note content> -n scratch.py -e
+
+# list notes in the order they were last edited (descending) associating an integer with each note
+jotpad ls
+
+# rename note
+jotpad scratch.py -n new_name.py
+jotpad <i> -n new_name.py
+
+# open a note asscociated with the integer, i, from the list step
+jotpad <i>
+
+# create a new note from a template
+jotpad new -t python
+jotpad new -n scratch.py -t python
+
+# Not MVP
+# create a symbolic link of a note to the target location
+# this is for creating scratch files in another repo
+jotpad -l /path/to/target
+jotpad <i> -l /path/to/target
+## create a new note called scratch.js and create a link in the current directory
+jotpad new -n scratch.js -l .
+```
