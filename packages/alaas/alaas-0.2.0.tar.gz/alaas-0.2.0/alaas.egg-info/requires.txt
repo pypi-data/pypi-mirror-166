@@ -1,0 +1,12 @@
+numpy
+scikit_learn
+setuptools
+tqdm
+pydantic
+pyyaml
+requests
+opencv-python
+pillow
+jina
+transformers
+sentencepiece
