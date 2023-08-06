@@ -1,0 +1,16 @@
+COPYING
+COPYING.LESSER
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/SEAScope_env_OTC2023/SEAScope-env-OTC2023_report.ipynb
+src/SEAScope_env_OTC2023/__init__.py
+src/SEAScope_env_OTC2023/py.typed
+src/SEAScope_env_OTC2023.egg-info/PKG-INFO
+src/SEAScope_env_OTC2023.egg-info/SOURCES.txt
+src/SEAScope_env_OTC2023.egg-info/dependency_links.txt
+src/SEAScope_env_OTC2023.egg-info/entry_points.txt
+src/SEAScope_env_OTC2023.egg-info/requires.txt
+src/SEAScope_env_OTC2023.egg-info/top_level.txt
+src/SEAScope_env_OTC2023.egg-info/zip-safe

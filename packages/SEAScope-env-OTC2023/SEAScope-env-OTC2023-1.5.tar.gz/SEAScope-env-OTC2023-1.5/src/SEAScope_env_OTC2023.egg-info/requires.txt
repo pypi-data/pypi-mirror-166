@@ -1,0 +1,10 @@
+pySEAScope[processor]
+idf-converter
+gputil
+scipy
+matplotlib
+numba
+jupyterlab
+
+[:sys_platform == "win32"]
+pywinpty==1.1.6

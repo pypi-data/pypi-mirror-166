@@ -1,0 +1,2 @@
+[console_scripts]
+otc2023-check-environment = SEAScope_env_OTC2023.__init__:check_all
