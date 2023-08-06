@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pop-aiohttp
+Version: 1.1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: EITR Technologies, LLC
+Author-email: devops@eitr.tech
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: acct (>=6.4.1)
+Requires-Dist: aiohttp[speedups]
+Requires-Dist: pop (>=20.0.0)
+Requires-Dist: pop-config (>=7.0.2)
+Requires-Dist: pop-loop (>=1.0.4)
+
+============
+pop-aiohttp
+============
+
+Pop aiohttp provider
+
+DEVELOPMENT
+===========
+
+Clone the `pop-aiohttp` repository and install with pip.
+
+.. code:: bash
+
+    git clone git@gitlab.com:eitrtechnologies/pop/pop-aiohttp.git
+    pip install -e pop-aiohttp
+
+
