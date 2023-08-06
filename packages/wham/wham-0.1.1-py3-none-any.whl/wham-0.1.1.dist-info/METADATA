@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wham
+Version: 0.1.1
+Summary: Python wrapper for Weighted Histogram Analysis Method as implemented by Grossfield et al.
+Home-page: https://github.com/bnovak1/wham
+Author: Kutay B. Sezginel, Brian Novak
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: numpy
+
+UNKNOWN
+
