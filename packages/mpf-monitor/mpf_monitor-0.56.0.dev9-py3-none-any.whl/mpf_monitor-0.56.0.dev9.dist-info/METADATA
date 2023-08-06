@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: mpf-monitor
+Version: 0.56.0.dev9
+Summary: MPF Monitor
+Author-email: The Mission Pinball Framework Team <brian@fastpinball.com>
+License: MIT
+Project-URL: homepage, https://missionpinball.org
+Keywords: pinball,mpf
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Games/Entertainment :: Arcade
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ruamel.yaml (==0.15.42)
+Requires-Dist: PyQt6 (==6.3.1)
+
+MPF Monitor (mpf-monitor)
+=========================
+
+<img align="right" width="300" src="mpf-monitor-logo.png"/>
+
+This package is for the Mission Pinball Framework (MPF) Monitor
+(mpf-monitor).
+
+The MPF monitor is a graphical app that connects to a live running
+instance of MPF and shows the status of various devices. (LEDs,
+switches, ball locks, etc.). You can add a picture of your playfield and
+drag-and-drop devices to their proper locations so you can interact with
+your machine when you're not near your physical machine.
+
+The MPF Monitor can run on Windows, Mac, and Linux. It uses PyQt6
+(Python bindings for Qt6) for its visual framework.
+
+Installation & Instructions
+---------------------------
+
+Full instructions for installing and using the MPF monitor are included
+in the MPF documentation here:
+
+http://docs.missionpinball.org/en/latest/tools/monitor
+
+<img src="mpf-monitor-screenshot.jpg"/>
+
+License
+-------
+* MPF and the MPF Monitor are released under the terms of the MIT
+  License. Please refer to the LICENSE file for details.
+* The MIT license basically means you can do anything you want,
+  including using it for commercial projects. You don't have to pay us
+  or share your changes if you don't want to.
