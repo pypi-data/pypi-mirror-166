@@ -1,0 +1,5 @@
+tensorflow>=2.3.0
+requests>=2.25.1
+opencv-python>=4.5.1.48
+numpy
+Pillow>=8.2
