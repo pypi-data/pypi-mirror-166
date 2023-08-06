@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: xayah
+Version: 0.0.2
+Summary: A lightweight testing tool with test report functionality
+Home-page: https://github.com/ualisars/xayah
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic (=="1.7.3")
+
+file: README.md
