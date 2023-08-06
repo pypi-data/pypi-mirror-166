@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: datagerry
+Version: 0.0.1
+Summary: A limited API client for Datagerry CMDB solution
+Author: Patrick St-Louis
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+DATAGERRY is an OpenSource CMDB & Asset Management Tool, which completely leaves the definition of a data model to the user.
+
+See [DATAGERRY website](https://www.datagerry.com) for more details!

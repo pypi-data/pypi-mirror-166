@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+datagerry/src/datagerry.py
+datagerry/src/datagerry.egg-info/PKG-INFO
+datagerry/src/datagerry.egg-info/SOURCES.txt
+datagerry/src/datagerry.egg-info/dependency_links.txt
+datagerry/src/datagerry.egg-info/requires.txt
+datagerry/src/datagerry.egg-info/top_level.txt
