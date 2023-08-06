@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+Package2/__init__.py
+myPackage_646.egg-info/PKG-INFO
+myPackage_646.egg-info/SOURCES.txt
+myPackage_646.egg-info/dependency_links.txt
+myPackage_646.egg-info/top_level.txt
+package1/__init__.py
+package3/__init__.py
