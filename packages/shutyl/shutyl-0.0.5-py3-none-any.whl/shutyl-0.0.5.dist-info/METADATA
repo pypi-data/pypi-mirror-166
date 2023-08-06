@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: shutyl
+Version: 0.0.5
+Summary: Update monitor brightness intelligently using the DDC protocol.
+Project-URL: Documentation, https://github.com/DarkArc/shutyl#readme
+Project-URL: Issues, https://github.com/DarkArc/shutyl/issues
+Project-URL: Source, https://github.com/DarkArc/shutyl
+Author-email: Wyatt Childers <wchilders@nearce.com>
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: yoctopuce
+Description-Content-Type: text/markdown
+
+# Shutyl
+
+Shutyl is a file conversion and copying tool.
+
+Shutyl's origins are in generating ogg files from flac and wav files,
+while cloning (rather than reconverting) mp3 files. Project goals are
+a bit more ambitious with a custom computer language to define
+conversions, and support for more types of conersions.
