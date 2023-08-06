@@ -1,0 +1,9 @@
+static/django_ckeditor_5/app.js,sha256=6YNY_tUkg532ocM6q3_yAnTjXEcHZKS4fOFddQJ_hgY,1771
+static/django_ckeditor_5/src/ckeditor.js,sha256=haDwV0DpNlT6IsDbTETLZATI8QNaxxYGEqcFgBjLBLs,3552
+static/django_ckeditor_5/src/override-django.css,sha256=v5eIhCyT_OPQ9HNNArn9g44iHHdKB8VDuWt3M04Y_v4,422
+templates/django_ckeditor_5/widget.html,sha256=tvVjP6XqWrntu0XnmLtY74nCc7h8lEAaieG51Juc_Bw,318
+django_ckeditor_5-0.1.9.dist-info/LICENSE,sha256=3pwvli-F7V8pWDtLvwBnnGqhBTbuU2f9i9yRXFKIoRI,1487
+django_ckeditor_5-0.1.9.dist-info/METADATA,sha256=saFk8Ag-IOyyH_ADCN8_I92XfnAiajic0NuYD4z9z_o,10083
+django_ckeditor_5-0.1.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_ckeditor_5-0.1.9.dist-info/top_level.txt,sha256=LbSgxPnfM8RNFiHpmr5L_3pa3Ty3cd_UtsJm41Ox_Q4,17
+django_ckeditor_5-0.1.9.dist-info/RECORD,,
