@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: test-rhcproc
+Version: 0.1
+Summary: test package
+Author: test1234
+Author-email: test1234@email.re.kr
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Test
