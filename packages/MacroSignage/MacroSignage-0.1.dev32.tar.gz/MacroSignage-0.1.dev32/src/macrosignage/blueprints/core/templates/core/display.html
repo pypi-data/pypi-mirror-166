@@ -1,0 +1,23 @@
+{% extends 'layouts/base.html' %}
+
+
+{% block main %}
+
+
+
+    {% if display.slides %}
+        <div class="carousel carousel-slider fullscreen" data-autoplay="true" data-autoplay-interval="180">
+            {% for slide in display.slides %}
+                <a class="carousel-item center-align">
+                    <img src="{{ url_for('download_file', filename=slide.background) }}" alt="" class="background">
+                    <img src="{{ url_for('download_file', filename='logo.png') }}" alt="" class="logo">
+                    <img src="{{ url_for('download_file', filename=slide.foreground) }}" alt="" class="product-image">
+                    <div class="carousel-text">
+                        <h1>{{ slide.title }}</h1>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+{% endblock %}
