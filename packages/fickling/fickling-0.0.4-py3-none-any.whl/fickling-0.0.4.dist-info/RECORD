@@ -1,0 +1,12 @@
+fickling/__init__.py,sha256=Cut9bdWSQyNbPiKIF6Wl__zXITFf9inyEpgMdT-ml00,101
+fickling/__main__.py,sha256=0DpakNHYOCfIqteNk-xmVVDOOtOwqHHkwMKQqgJUwGY,67
+fickling/analysis.py,sha256=Qbt0kQsb5AHrLfQnfeuEnanik3xXL_HVMCJpAmvX8CI,2950
+fickling/cli.py,sha256=qlTQyB18NPYEcTm4tMR99DlZ186WnogXSkf75D38K0w,4820
+fickling/pickle.py,sha256=HmD9H02a7n6IGkq7lDHaVo4pgairGEtsy__uk8U7NsA,31844
+fickling/tracing.py,sha256=NxHql2w0Gk3p64UhosE9B8mdBaweiTRmMjq-RT_mWYc,2539
+fickling-0.0.4.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+fickling-0.0.4.dist-info/METADATA,sha256=oKEWKI5aD_wIk5noouIobTb7-EWX3S9jFws-4KzPe8U,984
+fickling-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fickling-0.0.4.dist-info/entry_points.txt,sha256=kGCbKjRDQudnIf1uASReSbyKvu4z1JgUDaRu-Nn8A8I,52
+fickling-0.0.4.dist-info/top_level.txt,sha256=Rp7OxlOtXeL2gvMbSQIBL8gyEcRi7f-yI--cuvEnezM,9
+fickling-0.0.4.dist-info/RECORD,,
