@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Python-Machine
+Version: 1.0.1
+Summary: Module to run cell machine
+Home-page: https://github.com/youtissoum/py-machine
+Author: youtissoum
+Author-email: youtissoum@outlook.fr
+License: MIT
+Keywords: cmmm cellular automata
+Classifier: Programming Language :: Python :: 3.10
+License-File: license.txt
+
+This is a python project that allows you to run a cmmm simulation inside of python
