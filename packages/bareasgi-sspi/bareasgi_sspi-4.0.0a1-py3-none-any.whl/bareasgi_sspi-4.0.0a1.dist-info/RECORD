@@ -1,0 +1,8 @@
+bareasgi_sspi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bareasgi_sspi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bareasgi_sspi/session_manager.py,sha256=HJBerWX_dIJC7AopAEaogFs15VieSxIM1FdopTiCNOE,3666
+bareasgi_sspi/spnego_middleware.py,sha256=k68v9Ueb8ex9sO1mgmb8C7-6PTajFX_9km1cFVLFL1c,9814
+bareasgi_sspi-4.0.0a1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bareasgi_sspi-4.0.0a1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bareasgi_sspi-4.0.0a1.dist-info/METADATA,sha256=ye8PWrVVbMh6unsJvqTcJ8sy_CncdO-IpMxdKDCdLqE,990
+bareasgi_sspi-4.0.0a1.dist-info/RECORD,,
