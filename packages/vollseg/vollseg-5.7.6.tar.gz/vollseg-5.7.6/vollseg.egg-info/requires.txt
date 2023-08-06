@@ -1,0 +1,11 @@
+pandas
+stardist
+scipy
+tifffile
+matplotlib
+napari
+diplib
+opencv-python-headless
+opencv-contrib-python-headless
+photutils
+albumentations
