@@ -1,0 +1,12 @@
+shape_generator/__init__.py,sha256=kLj0OaBU5fCkQDlDnzICYqd5QXu4q7PUezysUqBRPb8,271
+shape_generator/example_cross_sections.py,sha256=7RB2JyDm0LFbIBobUli3nVLCvBUHMCkb2QWfSciwKEQ,3858
+shape_generator/helpers.py,sha256=hH02brk03gOjt5zXYIP5XHw08PAcMu95oJhMh6oE46w,15856
+shape_generator/shape_generator.py,sha256=A0rSlNryKKK6X4Z8ol_zRC9rzIR7vqMyLmlLokYa5wE,27764
+shape_generator/shape_generator_holding.py,sha256=lKclpiuIg0kAUXeoCQ0nFH-y5GSS33U5oXcKfXGfySg,18038
+shape_generator/swmm_predefined.py,sha256=jTd-acXWF_Rr2yqv2_TXT0gyqf03r-C1WtQ-Z4LJtxg,3901
+shape_generator/swmm_std_cross_section_curves.json,sha256=Hfza6yTMTGuYJhnrdR7xhv3hAFW8e5Jo39tPUzlmn4c,3605
+SWMM_xsections_shape_generator-0.7.post2.dist-info/LICENSE,sha256=Gb7p8qLfOkyeIr3EwWdid6hms_Gk-_58Lg2Uu1Q9B10,1063
+SWMM_xsections_shape_generator-0.7.post2.dist-info/METADATA,sha256=9fk1pa5JyIRHYfjfJbYIdSDqtPE07dMUmSy79wZ6HJM,3802
+SWMM_xsections_shape_generator-0.7.post2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SWMM_xsections_shape_generator-0.7.post2.dist-info/top_level.txt,sha256=ipnB8_swCgTRBohnjjGi-dmFqGN50PpTQydVx9OanZY,16
+SWMM_xsections_shape_generator-0.7.post2.dist-info/RECORD,,
