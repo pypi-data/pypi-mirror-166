@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/obfusc8/__init__.py
+src/obfusc8/obfuscate.py
+src/obfusc8.egg-info/PKG-INFO
+src/obfusc8.egg-info/SOURCES.txt
+src/obfusc8.egg-info/dependency_links.txt
+src/obfusc8.egg-info/requires.txt
+src/obfusc8.egg-info/top_level.txt
