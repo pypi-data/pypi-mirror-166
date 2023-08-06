@@ -1,0 +1,2 @@
+[pytest11]
+pytest_ekstazi = pytest_ekstazi.plugin

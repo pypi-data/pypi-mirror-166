@@ -1,0 +1,10 @@
+pytest_ekstazi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_ekstazi/config.py,sha256=Y8lzvtJOD6V87ezrpg9fiEbL7GEG8EKRuX2mM9l-Y20,6771
+pytest_ekstazi/plugin.py,sha256=6x0Lz1CC4n34rcjEp-_3YIm1nDUuEeO7gcv5cYf0RRs,8428
+pytest_ekstazi/utils.py,sha256=9S-HULBQKM1XfTz0eo0tm5DQ2r2-Bw69U-MWQuKjBw0,230
+pytest_ekstazi-1.0.0.dist-info/LICENSE,sha256=Q91TyQAfoyFBE7Wcda3dc2E_AZZU6hob01oTak94X5U,1092
+pytest_ekstazi-1.0.0.dist-info/METADATA,sha256=h8fSnxpoSgbgEiZDQrrWYlJCZv8I0PsMVuOUINQCdHQ,2476
+pytest_ekstazi-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_ekstazi-1.0.0.dist-info/entry_points.txt,sha256=z9qn32eX4X12vYlrNjGcMH-kROHpXFYZXWAl9NthO2I,50
+pytest_ekstazi-1.0.0.dist-info/top_level.txt,sha256=7_DNBhjtUAWqORPJ8HrnE0ogLxQAA67b8DcqBPNxPsY,15
+pytest_ekstazi-1.0.0.dist-info/RECORD,,
