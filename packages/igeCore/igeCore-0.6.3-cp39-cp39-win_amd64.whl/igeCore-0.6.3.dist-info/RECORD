@@ -1,0 +1,17 @@
+PVRTexLib.dll,sha256=-Bs7mauLeiR-VyG7_j_wihUZV1NH5D7LIITj-cHN3Hw,2831360
+_igeCore.cp39-win_amd64.pyd,sha256=5oxU-qr0jD-pTein4UOLHJtYw5mwNbL8UqpzZBf_d6o,4379648
+libfbxsdk.dll,sha256=_G74Rh1AnSLVy7nDayvQ5jRrUp5BCwZpW3Br2j9L76s,10187648
+igeCore/__init__.py,sha256=eJY--4CGKnAcDPNZFnvfu9NXuH1smxV3wk2HUfkZAVE,54
+igeCore/apputil/__init__.py,sha256=0j4VgR4JGiCuGVNMf7k86M_gvFpsyWqYhFS1CYUv6_w,1487
+igeCore/apputil/graphicsHelper.py,sha256=brRtrfSkRd3NCp0tSsOr99L6V9ZT3hN_sKjl1JA-hOQ,17266
+igeCore/apputil/imguirenderer.py,sha256=Tirm3e0CF45tSxo3vh0UYmi-oDprFK3YnuoxeI6bO5I,5779
+igeCore/apputil/launch_server.py,sha256=kb8s6-_6ZEOUIiGEI8CSuRXxMkUflNKJkv_j7r7zFLY,5841
+igeCore/devtool/__init__.py,sha256=uT0MyzTAwFZtXpTWF0zZuK0gZz5PRF5FZfU7Ipg-2sA,18447
+igeCore/input/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+igeCore/input/keyboard.py,sha256=e_-EUKsRRVDL3pPvzgtiEyM69oSYx8XesCt63LyejTs,4048
+igeCore/input/touch.py,sha256=PIsE6MpOGqKKbXcBx2iv1NU6kbpp5YmQcy2IX24uGwE,3895
+igeCore-0.6.3.dist-info/LICENSE,sha256=y-AV36ceebVFRcqELwoBxzPi_D_rylm9tOKEKcepnTM,1056
+igeCore-0.6.3.dist-info/METADATA,sha256=BFEMBRM06G_-ULEzCFu1WfbwT8DRZk1sn_leDPEfU18,1328
+igeCore-0.6.3.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+igeCore-0.6.3.dist-info/top_level.txt,sha256=mw9H8RUdIpzVa-pRbRYGq0Gqoqgji6yXHo7YjsJmp2g,17
+igeCore-0.6.3.dist-info/RECORD,,
