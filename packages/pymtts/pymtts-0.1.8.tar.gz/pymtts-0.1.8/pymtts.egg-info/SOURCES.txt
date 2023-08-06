@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pymtts/__init__.py
+pymtts/async_mtts.py
+pymtts/tools.py
+pymtts.egg-info/PKG-INFO
+pymtts.egg-info/SOURCES.txt
+pymtts.egg-info/dependency_links.txt
+pymtts.egg-info/requires.txt
+pymtts.egg-info/top_level.txt
