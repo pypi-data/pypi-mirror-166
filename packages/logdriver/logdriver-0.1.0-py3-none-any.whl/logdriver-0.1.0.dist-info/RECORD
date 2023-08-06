@@ -1,0 +1,9 @@
+logdriver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logdriver/cli.py,sha256=77dxx3gA9pdG1HfdZqnws00-9g3tGF5KWl77O3DgaTY,2555
+logdriver/server.py,sha256=7caFgABJxz_1Vldr-3CRi74heXcyk6Jl1PQWm5J-Nu8,3052
+logdriver-0.1.0.dist-info/LICENSE,sha256=0Zy2-aBgdYSW7Dnav-_fZq6vhzXDVDFXW_rEE05A6y8,1069
+logdriver-0.1.0.dist-info/METADATA,sha256=PFc-up__cmjUbmTFXc3F5OFcZwge2X85FuOI-Yxzxfc,2339
+logdriver-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+logdriver-0.1.0.dist-info/entry_points.txt,sha256=nzYgJtHyXbBOSsgKvD_zhVH2j2W8Z5GlRFCpA9OMd7Q,49
+logdriver-0.1.0.dist-info/top_level.txt,sha256=PxG9ih09xzPMGTRHO0XZXEnHY-y-tVCOCxe5R0ERPzU,10
+logdriver-0.1.0.dist-info/RECORD,,
