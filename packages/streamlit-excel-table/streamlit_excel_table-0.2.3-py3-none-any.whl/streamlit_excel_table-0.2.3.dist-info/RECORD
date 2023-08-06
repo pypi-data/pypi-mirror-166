@@ -1,0 +1,16 @@
+st_excel_table/__init__.py,sha256=AcCU8hR4YMtuklWRWGUOm1U-GYbjTBxiMg56qjKBCUU,4257
+st_excel_table/frontend/build/asset-manifest.json,sha256=u6tBTETRVGsRtc50gt735zdjLWgqQVFDgO-d7036sMw,691
+st_excel_table/frontend/build/bootstrap.min.css,sha256=hTwg6axJ8dAPmGVJmYTrsQS3JhKWA0skJ-td54UbEOk,197459
+st_excel_table/frontend/build/index.html,sha256=40A_COBmow3jZ0sjyoj2UYOb5flnGM2BXogNT5KWC9s,2093
+st_excel_table/frontend/build/static/js/2.88f3d2a4.chunk.js,sha256=5kcP0qOd7Bdm-jNYZex_pt1Cs5JOHF1NV3Wz4Hb1zoM,658576
+st_excel_table/frontend/build/static/js/2.88f3d2a4.chunk.js.LICENSE.txt,sha256=sBEbgGdfW-a4uQJnDSivENNBqmk443DNd1Y5O7c9cYc,2591
+st_excel_table/frontend/build/static/js/2.88f3d2a4.chunk.js.map,sha256=0ZoXDW3ylp0RCdXl28vG76zchchPX3i9oUqnd1YcNxc,2462463
+st_excel_table/frontend/build/static/js/main.fd473ec4.chunk.js,sha256=Ce0rwrkIxDClvncOxVA954XoSQx1tGNMz5NAuFKLrQg,1131
+st_excel_table/frontend/build/static/js/main.fd473ec4.chunk.js.map,sha256=1DN6I-qvKHHaGmsRH7JVvJw8P3zY1jwD5ZbsvKi_iPU,2922
+st_excel_table/frontend/build/static/js/runtime-main.16d6c2f2.js,sha256=XKn7cgo_83KWs1awDZSxYlq2f-K5tgm_StSs5QN0sWk,1590
+st_excel_table/frontend/build/static/js/runtime-main.16d6c2f2.js.map,sha256=WNbf6yLV0Y2MWaEtkmApQXM2iHdz5tbGvjwizCo8CWQ,8369
+streamlit_excel_table-0.2.3.dist-info/LICENSE,sha256=UcVfpRq-ib_ERjaFEM8zTuYc7bmr-sph5PS-gI-Zyy0,1061
+streamlit_excel_table-0.2.3.dist-info/METADATA,sha256=yC08qzgo4E0a3XvuFoKzddBv3tjpgOCwHq-veT9vtZM,1267
+streamlit_excel_table-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+streamlit_excel_table-0.2.3.dist-info/top_level.txt,sha256=uQIWOfpzcrrMZD1nC2NhdTlAEF4RoXVouFYtRwKowAQ,15
+streamlit_excel_table-0.2.3.dist-info/RECORD,,
