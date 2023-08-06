@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: django-meta-pages
+Version: 0.0.1
+Summary: Django Library To Use Meta Tags And Schema Structure In Any URL Path
+Home-page: https://github.com/sobhan-kz-01/django-meta-pages
+Author: sobhan-kz-01
+Author-email: sobhan.kz01.dev@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.1
+Classifier: Framework :: Django :: 4.1
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-meta-pages
+Django Library To Use Meta Tags And Schema Structure In Any URL Path
+
+
+# Step 1 Installation
+first need install with pip
+```bash
+pip install django-meta-pages
+```
+
+# Step 2 settings.py
+
+First Add To INSTALLED_APPS
+
+Next Step
+
+Add To Templates context_processors
+
+```bash
+
+INSTALLED_APPS = [
+    ...
+    'meta_pages',
+    ...
+]
+
+TEMPLATES = [
+    {
+      ...
+        "OPTIONS": {
+            "context_processors": [
+                ...
+                "meta_pages.context_processors.schema",
+                "meta_pages.context_processors.meta",
+
+            ],
+        },
+    },
+]
+```
+# Step 3
+Include Meta Template To Your Base Template
+```bash
+<head>
+{% include 'meta_pages/meta.html' with meta=meta %}
+</head>
+```
+
+# Step 4
+**python manage.py migrate**
+
+Done!
+
+
