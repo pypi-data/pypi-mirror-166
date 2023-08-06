@@ -1,0 +1,147 @@
+﻿"""_5699.py
+
+KlingelnbergCycloPalloidConicalGearMeshHarmonicAnalysis
+"""
+
+
+from mastapy.system_model.connections_and_sockets.gears import _2263, _2264, _2265
+from mastapy._internal import constructor
+from mastapy._internal.cast_exception import CastException
+from mastapy.system_model.analyses_and_results.system_deflections import _2707, _2710, _2713
+from mastapy.system_model.analyses_and_results.harmonic_analyses import _5642
+from mastapy._internal.python_net import python_net_import
+
+_KLINGELNBERG_CYCLO_PALLOID_CONICAL_GEAR_MESH_HARMONIC_ANALYSIS = python_net_import('SMT.MastaAPI.SystemModel.AnalysesAndResults.HarmonicAnalyses', 'KlingelnbergCycloPalloidConicalGearMeshHarmonicAnalysis')
+
+
+__docformat__ = 'restructuredtext en'
+__all__ = ('KlingelnbergCycloPalloidConicalGearMeshHarmonicAnalysis',)
+
+
+class KlingelnbergCycloPalloidConicalGearMeshHarmonicAnalysis(_5642.ConicalGearMeshHarmonicAnalysis):
+    """KlingelnbergCycloPalloidConicalGearMeshHarmonicAnalysis
+
+    This is a mastapy class.
+    """
+
+    TYPE = _KLINGELNBERG_CYCLO_PALLOID_CONICAL_GEAR_MESH_HARMONIC_ANALYSIS
+
+    __hash__ = None
+
+    def __init__(self, instance_to_wrap: 'KlingelnbergCycloPalloidConicalGearMeshHarmonicAnalysis.TYPE'):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def connection_design(self) -> '_2263.KlingelnbergCycloPalloidConicalGearMesh':
+        """KlingelnbergCycloPalloidConicalGearMesh: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.ConnectionDesign
+
+        if temp is None:
+            return None
+
+        if _2263.KlingelnbergCycloPalloidConicalGearMesh.TYPE not in temp.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to KlingelnbergCycloPalloidConicalGearMesh. Expected: {}.'.format(temp.__class__.__qualname__))
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
+
+    @property
+    def connection_design_of_type_klingelnberg_cyclo_palloid_hypoid_gear_mesh(self) -> '_2264.KlingelnbergCycloPalloidHypoidGearMesh':
+        """KlingelnbergCycloPalloidHypoidGearMesh: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.ConnectionDesign
+
+        if temp is None:
+            return None
+
+        if _2264.KlingelnbergCycloPalloidHypoidGearMesh.TYPE not in temp.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to KlingelnbergCycloPalloidHypoidGearMesh. Expected: {}.'.format(temp.__class__.__qualname__))
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
+
+    @property
+    def connection_design_of_type_klingelnberg_cyclo_palloid_spiral_bevel_gear_mesh(self) -> '_2265.KlingelnbergCycloPalloidSpiralBevelGearMesh':
+        """KlingelnbergCycloPalloidSpiralBevelGearMesh: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.ConnectionDesign
+
+        if temp is None:
+            return None
+
+        if _2265.KlingelnbergCycloPalloidSpiralBevelGearMesh.TYPE not in temp.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to KlingelnbergCycloPalloidSpiralBevelGearMesh. Expected: {}.'.format(temp.__class__.__qualname__))
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
+
+    @property
+    def system_deflection_results(self) -> '_2707.KlingelnbergCycloPalloidConicalGearMeshSystemDeflection':
+        """KlingelnbergCycloPalloidConicalGearMeshSystemDeflection: 'SystemDeflectionResults' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.SystemDeflectionResults
+
+        if temp is None:
+            return None
+
+        if _2707.KlingelnbergCycloPalloidConicalGearMeshSystemDeflection.TYPE not in temp.__class__.__mro__:
+            raise CastException('Failed to cast system_deflection_results to KlingelnbergCycloPalloidConicalGearMeshSystemDeflection. Expected: {}.'.format(temp.__class__.__qualname__))
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
+
+    @property
+    def system_deflection_results_of_type_klingelnberg_cyclo_palloid_hypoid_gear_mesh_system_deflection(self) -> '_2710.KlingelnbergCycloPalloidHypoidGearMeshSystemDeflection':
+        """KlingelnbergCycloPalloidHypoidGearMeshSystemDeflection: 'SystemDeflectionResults' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.SystemDeflectionResults
+
+        if temp is None:
+            return None
+
+        if _2710.KlingelnbergCycloPalloidHypoidGearMeshSystemDeflection.TYPE not in temp.__class__.__mro__:
+            raise CastException('Failed to cast system_deflection_results to KlingelnbergCycloPalloidHypoidGearMeshSystemDeflection. Expected: {}.'.format(temp.__class__.__qualname__))
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None
+
+    @property
+    def system_deflection_results_of_type_klingelnberg_cyclo_palloid_spiral_bevel_gear_mesh_system_deflection(self) -> '_2713.KlingelnbergCycloPalloidSpiralBevelGearMeshSystemDeflection':
+        """KlingelnbergCycloPalloidSpiralBevelGearMeshSystemDeflection: 'SystemDeflectionResults' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        """
+
+        temp = self.wrapped.SystemDeflectionResults
+
+        if temp is None:
+            return None
+
+        if _2713.KlingelnbergCycloPalloidSpiralBevelGearMeshSystemDeflection.TYPE not in temp.__class__.__mro__:
+            raise CastException('Failed to cast system_deflection_results to KlingelnbergCycloPalloidSpiralBevelGearMeshSystemDeflection. Expected: {}.'.format(temp.__class__.__qualname__))
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp) if temp is not None else None

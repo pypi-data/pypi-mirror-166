@@ -1,0 +1,69 @@
+﻿"""__init__.py"""
+
+
+from mastapy._internal.dummy_base_class_importer import _DummyBaseClassImport
+
+
+with _DummyBaseClassImport():
+    from ._1231 import AbstractStator
+    from ._1232 import AbstractToothAndSlot
+    from ._1233 import CADElectricMachineDetail
+    from ._1234 import CADMagnetsForLayer
+    from ._1235 import CADRotor
+    from ._1236 import CADStator
+    from ._1237 import CADToothAndSlot
+    from ._1238 import Coil
+    from ._1239 import CoilPositionInSlot
+    from ._1240 import CoolingDuctLayerSpecification
+    from ._1241 import CoolingDuctShape
+    from ._1242 import CoreLossBuildFactorSpecificationMethod
+    from ._1243 import CoreLossCoefficients
+    from ._1244 import DoubleLayerWindingSlotPositions
+    from ._1245 import DQAxisConvention
+    from ._1246 import Eccentricity
+    from ._1247 import ElectricMachineDetail
+    from ._1248 import ElectricMachineDetailInitialInformation
+    from ._1249 import ElectricMachineMeshingOptions
+    from ._1250 import ElectricMachineSetup
+    from ._1251 import ElectricMachineType
+    from ._1252 import FillFactorSpecificationMethod
+    from ._1253 import FluxBarrierOrWeb
+    from ._1254 import FluxBarrierStyle
+    from ._1255 import HarmonicLoadDataControlExcitationOptionForElectricMachineMode
+    from ._1256 import InteriorPermanentMagnetAndSynchronousReluctanceRotor
+    from ._1257 import InteriorPermanentMagnetMachine
+    from ._1258 import IronLossCoefficientSpecificationMethod
+    from ._1259 import MagnetConfiguration
+    from ._1260 import MagnetDesign
+    from ._1261 import MagnetForLayer
+    from ._1262 import MagnetMaterial
+    from ._1263 import MagnetMaterialDatabase
+    from ._1264 import MotorRotorSideFaceDetail
+    from ._1265 import NonCADElectricMachineDetail
+    from ._1266 import NotchShape
+    from ._1267 import NotchSpecification
+    from ._1268 import PermanentMagnetAssistedSynchronousReluctanceMachine
+    from ._1269 import PermanentMagnetRotor
+    from ._1270 import Phase
+    from ._1271 import RegionID
+    from ._1272 import Rotor
+    from ._1273 import RotorInternalLayerSpecification
+    from ._1274 import RotorSkewSlice
+    from ._1275 import RotorType
+    from ._1276 import SingleOrDoubleLayerWindings
+    from ._1277 import SlotSectionDetail
+    from ._1278 import Stator
+    from ._1279 import StatorRotorMaterial
+    from ._1280 import StatorRotorMaterialDatabase
+    from ._1281 import SurfacePermanentMagnetMachine
+    from ._1282 import SurfacePermanentMagnetRotor
+    from ._1283 import SynchronousReluctanceMachine
+    from ._1284 import ToothAndSlot
+    from ._1285 import ToothSlotStyle
+    from ._1286 import UShapedLayerSpecification
+    from ._1287 import VShapedMagnetLayerSpecification
+    from ._1288 import WindingConnection
+    from ._1289 import WindingMaterial
+    from ._1290 import WindingMaterialDatabase
+    from ._1291 import Windings
+    from ._1292 import WireSizeSpecificationMethod
