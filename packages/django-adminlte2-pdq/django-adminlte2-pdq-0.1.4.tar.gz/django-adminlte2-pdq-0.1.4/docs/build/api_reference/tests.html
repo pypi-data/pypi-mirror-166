@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tests package &mdash; Django-AdminLTE-2 0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="django_adminlte_2.templatetags.admin package" href="django_adminlte_2.templatetags.admin.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> Django-AdminLTE-2
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Table of Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../quickstart.html">Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../menu.html">Menu</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../authorization.html">Authorization</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../templates.html">Templates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template_filters.html">Template Filters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../template_tags.html">Template Tags</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../forms.html">Forms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../demo_css.html">Demo CSS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../configuration.html">Configuration</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../api_reference.html">API Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="django_adminlte_2.html">django_adminlte_2 package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="django_adminlte_2.templatetags.admin.html">django_adminlte_2.templatetags.admin package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="django_adminlte_2.templatetags.html">django_adminlte_2.templatetags package</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">tests package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-tests.test_decorators">tests.test_decorators module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-tests.test_mixins">tests.test_mixins module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-tests.test_templatetags">tests.test_templatetags module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-tests.test_templatetags_admin">tests.test_templatetags_admin module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-tests.test_templatetags_admin_menu">tests.test_templatetags_admin_menu module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-tests.test_templatetags_sidebar_menu">tests.test_templatetags_sidebar_menu module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-tests.test_views">tests.test_views module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-tests.utils">tests.utils module</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Django-AdminLTE-2</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../api_reference.html">API Reference</a> &raquo;</li>
+      <li>tests package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/api_reference/tests.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="tests-package">
+<h1>tests package<a class="headerlink" href="#tests-package" title="Permalink to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this heading"></a></h2>
+</section>
+<section id="module-tests.test_decorators">
+<span id="tests-test-decorators-module"></span><h2>tests.test_decorators module<a class="headerlink" href="#module-tests.test_decorators" title="Permalink to this heading"></a></h2>
+<p>Tests for Decorators</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tests.test_decorators.</span></span><span class="sig-name descname"><span class="pre">DecoratorTestCase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">methodName</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'runTest'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">TestCase</span></code></p>
+<p>Test Decorators</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase.setUp">
+<span class="sig-name descname"><span class="pre">setUp</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase.setUp" title="Permalink to this definition"></a></dt>
+<dd><p>Hook method for setting up the test fixture before exercising it.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase.test_login_required_decorator_works">
+<span class="sig-name descname"><span class="pre">test_login_required_decorator_works</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase.test_login_required_decorator_works" title="Permalink to this definition"></a></dt>
+<dd><p>Test login_required decorator works</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase.test_login_required_decorator_works_when_user_not_logged_in">
+<span class="sig-name descname"><span class="pre">test_login_required_decorator_works_when_user_not_logged_in</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase.test_login_required_decorator_works_when_user_not_logged_in" title="Permalink to this definition"></a></dt>
+<dd><p>Test login_required decorator works when user not logged in</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase.test_permission_required_one_works_when_permission_is_a_string">
+<span class="sig-name descname"><span class="pre">test_permission_required_one_works_when_permission_is_a_string</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase.test_permission_required_one_works_when_permission_is_a_string" title="Permalink to this definition"></a></dt>
+<dd><p>Test permission_required_one works when permission is a string</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase.test_permission_required_one_works_when_user_has_all">
+<span class="sig-name descname"><span class="pre">test_permission_required_one_works_when_user_has_all</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase.test_permission_required_one_works_when_user_has_all" title="Permalink to this definition"></a></dt>
+<dd><p>Test permission_required_one work when user has all</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase.test_permission_required_one_works_when_user_has_none">
+<span class="sig-name descname"><span class="pre">test_permission_required_one_works_when_user_has_none</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase.test_permission_required_one_works_when_user_has_none" title="Permalink to this definition"></a></dt>
+<dd><p>Test permission_required_one works when user has none</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase.test_permission_required_one_works_when_user_has_none_and_raise_exception">
+<span class="sig-name descname"><span class="pre">test_permission_required_one_works_when_user_has_none_and_raise_exception</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase.test_permission_required_one_works_when_user_has_none_and_raise_exception" title="Permalink to this definition"></a></dt>
+<dd><p>Test permission_required_one works when user has none and raise exception</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase.test_permission_required_one_works_when_user_has_one">
+<span class="sig-name descname"><span class="pre">test_permission_required_one_works_when_user_has_one</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase.test_permission_required_one_works_when_user_has_one" title="Permalink to this definition"></a></dt>
+<dd><p>Test permission_required_one works when user has one</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase.test_permission_required_works_when_permission_is_a_string">
+<span class="sig-name descname"><span class="pre">test_permission_required_works_when_permission_is_a_string</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase.test_permission_required_works_when_permission_is_a_string" title="Permalink to this definition"></a></dt>
+<dd><p>Test permission_required works when permission is a string</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase.test_permission_required_works_when_user_has_all">
+<span class="sig-name descname"><span class="pre">test_permission_required_works_when_user_has_all</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase.test_permission_required_works_when_user_has_all" title="Permalink to this definition"></a></dt>
+<dd><p>Test permission_required works when user has all</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase.test_permission_required_works_when_user_has_none">
+<span class="sig-name descname"><span class="pre">test_permission_required_works_when_user_has_none</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase.test_permission_required_works_when_user_has_none" title="Permalink to this definition"></a></dt>
+<dd><p>Test permission_required works when user has none</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase.test_permission_required_works_when_user_has_none_and_raise_exception">
+<span class="sig-name descname"><span class="pre">test_permission_required_works_when_user_has_none_and_raise_exception</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase.test_permission_required_works_when_user_has_none_and_raise_exception" title="Permalink to this definition"></a></dt>
+<dd><p>Test permission_required works when user has none and raise exception</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_decorators.DecoratorTestCase.test_permission_required_works_when_user_has_one">
+<span class="sig-name descname"><span class="pre">test_permission_required_works_when_user_has_one</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_decorators.DecoratorTestCase.test_permission_required_works_when_user_has_one" title="Permalink to this definition"></a></dt>
+<dd><p>Test permission_required works when user has one</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-tests.test_mixins">
+<span id="tests-test-mixins-module"></span><h2>tests.test_mixins module<a class="headerlink" href="#module-tests.test_mixins" title="Permalink to this heading"></a></h2>
+<p>Tests for Mixins</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="tests.test_mixins.MixinTestCase">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tests.test_mixins.</span></span><span class="sig-name descname"><span class="pre">MixinTestCase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">methodName</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'runTest'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_mixins.MixinTestCase" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">TestCase</span></code></p>
+<p>Test Mixins</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_mixins.MixinTestCase.setUp">
+<span class="sig-name descname"><span class="pre">setUp</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_mixins.MixinTestCase.setUp" title="Permalink to this definition"></a></dt>
+<dd><p>Hook method for setting up the test fixture before exercising it.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_mixins.MixinTestCase.test_login_required_mixin_works">
+<span class="sig-name descname"><span class="pre">test_login_required_mixin_works</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_mixins.MixinTestCase.test_login_required_mixin_works" title="Permalink to this definition"></a></dt>
+<dd><p>Test login_required mixin works</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_mixins.MixinTestCase.test_login_required_mixin_works_when_user_not_logged_in">
+<span class="sig-name descname"><span class="pre">test_login_required_mixin_works_when_user_not_logged_in</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_mixins.MixinTestCase.test_login_required_mixin_works_when_user_not_logged_in" title="Permalink to this definition"></a></dt>
+<dd><p>Test login_required mixin works when user not logged in</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_mixins.MixinTestCase.test_mixin_has_error_when_no_permissions_defined">
+<span class="sig-name descname"><span class="pre">test_mixin_has_error_when_no_permissions_defined</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_mixins.MixinTestCase.test_mixin_has_error_when_no_permissions_defined" title="Permalink to this definition"></a></dt>
+<dd><p>Test mixin has error when no permissions defined</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_mixins.MixinTestCase.test_mixin_prevents_access_for_no_perms_all">
+<span class="sig-name descname"><span class="pre">test_mixin_prevents_access_for_no_perms_all</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_mixins.MixinTestCase.test_mixin_prevents_access_for_no_perms_all" title="Permalink to this definition"></a></dt>
+<dd><p>Test mixin prevents access for no perms all</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_mixins.MixinTestCase.test_mixin_prevents_access_for_no_perms_one">
+<span class="sig-name descname"><span class="pre">test_mixin_prevents_access_for_no_perms_one</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_mixins.MixinTestCase.test_mixin_prevents_access_for_no_perms_one" title="Permalink to this definition"></a></dt>
+<dd><p>Test mixin prevents access for no perms one</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_mixins.MixinTestCase.test_mixin_works_with_permission_required_defined">
+<span class="sig-name descname"><span class="pre">test_mixin_works_with_permission_required_defined</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_mixins.MixinTestCase.test_mixin_works_with_permission_required_defined" title="Permalink to this definition"></a></dt>
+<dd><p>Test mixin works with permission required defined</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_mixins.MixinTestCase.test_mixin_works_with_permission_required_defined_as_string">
+<span class="sig-name descname"><span class="pre">test_mixin_works_with_permission_required_defined_as_string</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_mixins.MixinTestCase.test_mixin_works_with_permission_required_defined_as_string" title="Permalink to this definition"></a></dt>
+<dd><p>Test mixin works with permission required defined</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_mixins.MixinTestCase.test_mixin_works_with_permission_required_one_defined">
+<span class="sig-name descname"><span class="pre">test_mixin_works_with_permission_required_one_defined</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_mixins.MixinTestCase.test_mixin_works_with_permission_required_one_defined" title="Permalink to this definition"></a></dt>
+<dd><p>Test mixing works with permission required one defined</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_mixins.MixinTestCase.test_mixin_works_with_permission_required_one_defined_as_string">
+<span class="sig-name descname"><span class="pre">test_mixin_works_with_permission_required_one_defined_as_string</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_mixins.MixinTestCase.test_mixin_works_with_permission_required_one_defined_as_string" title="Permalink to this definition"></a></dt>
+<dd><p>Test mixing works with permission required one defined</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-tests.test_templatetags">
+<span id="tests-test-templatetags-module"></span><h2>tests.test_templatetags module<a class="headerlink" href="#module-tests.test_templatetags" title="Permalink to this heading"></a></h2>
+<p>Tests for Template Tags</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tests.test_templatetags.</span></span><span class="sig-name descname"><span class="pre">TemplateTagTestCase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">methodName</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'runTest'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">TestCase</span></code></p>
+<p>Test Template Tags and Helper Methods used in those template tags</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.TestForm">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">TestForm</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">files=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">auto_id='id_%s'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prefix=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">initial=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">error_class=&lt;class</span> <span class="pre">'django.forms.utils.ErrorList'&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">label_suffix=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">empty_permitted=False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">field_order=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">use_required_attribute=None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">renderer=None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.TestForm" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Form</span></code></p>
+<p>Test Form</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.TestForm.adminlte2_show_field_errors_in_summary">
+<span class="sig-name descname"><span class="pre">adminlte2_show_field_errors_in_summary</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">True</span></em><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.TestForm.adminlte2_show_field_errors_in_summary" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.TestForm.base_fields">
+<span class="sig-name descname"><span class="pre">base_fields</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'test_checkbox':</span> <span class="pre">&lt;django.forms.fields.BooleanField</span> <span class="pre">object&gt;,</span> <span class="pre">'test_date':</span> <span class="pre">&lt;django.forms.fields.DateField</span> <span class="pre">object&gt;,</span> <span class="pre">'test_hidden':</span> <span class="pre">&lt;django.forms.fields.CharField</span> <span class="pre">object&gt;,</span> <span class="pre">'test_select':</span> <span class="pre">&lt;django.forms.fields.ChoiceField</span> <span class="pre">object&gt;,</span> <span class="pre">'test_text':</span> <span class="pre">&lt;django.forms.fields.CharField</span> <span class="pre">object&gt;}</span></em><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.TestForm.base_fields" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.TestForm.declared_fields">
+<span class="sig-name descname"><span class="pre">declared_fields</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'test_checkbox':</span> <span class="pre">&lt;django.forms.fields.BooleanField</span> <span class="pre">object&gt;,</span> <span class="pre">'test_date':</span> <span class="pre">&lt;django.forms.fields.DateField</span> <span class="pre">object&gt;,</span> <span class="pre">'test_hidden':</span> <span class="pre">&lt;django.forms.fields.CharField</span> <span class="pre">object&gt;,</span> <span class="pre">'test_select':</span> <span class="pre">&lt;django.forms.fields.ChoiceField</span> <span class="pre">object&gt;,</span> <span class="pre">'test_text':</span> <span class="pre">&lt;django.forms.fields.CharField</span> <span class="pre">object&gt;}</span></em><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.TestForm.declared_fields" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.TestForm.media">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">media</span></span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.TestForm.media" title="Permalink to this definition"></a></dt>
+<dd><p>Return all media required to render the widgets on this form.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.assertInHTML">
+<span class="sig-name descname"><span class="pre">assertInHTML</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">needle</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">haystack</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.assertInHTML" title="Permalink to this definition"></a></dt>
+<dd><p>Override assertInHTML to show response if not found</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.assertNotInHTML">
+<span class="sig-name descname"><span class="pre">assertNotInHTML</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">needle</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">haystack</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.assertNotInHTML" title="Permalink to this definition"></a></dt>
+<dd><p>Creates a new method to ensure that HTML does not show up</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.setUp">
+<span class="sig-name descname"><span class="pre">setUp</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.setUp" title="Permalink to this definition"></a></dt>
+<dd><p>Hook method for setting up the test fixture before exercising it.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_dictionary_lists_the_directory_of_an_object">
+<span class="sig-name descname"><span class="pre">test_dictionary_lists_the_directory_of_an_object</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_dictionary_lists_the_directory_of_an_object" title="Permalink to this definition"></a></dt>
+<dd><p>Test dictionary lists the directory of an object</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_dir_lists_the_directory_of_an_object">
+<span class="sig-name descname"><span class="pre">test_dir_lists_the_directory_of_an_object</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_dir_lists_the_directory_of_an_object" title="Permalink to this definition"></a></dt>
+<dd><p>Test dir lists the directory of an object</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_fieldtype_returns_the_correct_fieldtype_for_checkbox_field">
+<span class="sig-name descname"><span class="pre">test_fieldtype_returns_the_correct_fieldtype_for_checkbox_field</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_fieldtype_returns_the_correct_fieldtype_for_checkbox_field" title="Permalink to this definition"></a></dt>
+<dd><p>Test fieldtype returns the correct fieldtype for checkbox field</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_fieldtype_returns_the_correct_fieldtype_for_date_field">
+<span class="sig-name descname"><span class="pre">test_fieldtype_returns_the_correct_fieldtype_for_date_field</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_fieldtype_returns_the_correct_fieldtype_for_date_field" title="Permalink to this definition"></a></dt>
+<dd><p>Test fieldtype returns the correct fieldtype for date field</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_fieldtype_returns_the_correct_fieldtype_for_hidden_field">
+<span class="sig-name descname"><span class="pre">test_fieldtype_returns_the_correct_fieldtype_for_hidden_field</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_fieldtype_returns_the_correct_fieldtype_for_hidden_field" title="Permalink to this definition"></a></dt>
+<dd><p>Test fieldtype returns the correct fieldtype for hidden field</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_fieldtype_returns_the_correct_fieldtype_for_select_field">
+<span class="sig-name descname"><span class="pre">test_fieldtype_returns_the_correct_fieldtype_for_select_field</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_fieldtype_returns_the_correct_fieldtype_for_select_field" title="Permalink to this definition"></a></dt>
+<dd><p>Test fieldtype returns the correct fieldtype for select field</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_fieldtype_returns_the_correct_fieldtype_for_text_field">
+<span class="sig-name descname"><span class="pre">test_fieldtype_returns_the_correct_fieldtype_for_text_field</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_fieldtype_returns_the_correct_fieldtype_for_text_field" title="Permalink to this definition"></a></dt>
+<dd><p>Test fieldtype returns the correct fieldtype for text field</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_get_avatar_url_returns_an_actual_gravatar_url_when_the_user_has_a_gravatar">
+<span class="sig-name descname"><span class="pre">test_get_avatar_url_returns_an_actual_gravatar_url_when_the_user_has_a_gravatar</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_get_avatar_url_returns_an_actual_gravatar_url_when_the_user_has_a_gravatar" title="Permalink to this definition"></a></dt>
+<dd><p>Test get avatar url returns an actual gravatar url when the user has a gravatar</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_get_avatar_url_returns_the_default_url_when_the_user_is_anonymous">
+<span class="sig-name descname"><span class="pre">test_get_avatar_url_returns_the_default_url_when_the_user_is_anonymous</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_get_avatar_url_returns_the_default_url_when_the_user_is_anonymous" title="Permalink to this definition"></a></dt>
+<dd><p>Test get avatar url returns the default url when the user is anonymous</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_get_logout_url_returns_correct_url_when_there_is_an_entry_in_settings">
+<span class="sig-name descname"><span class="pre">test_get_logout_url_returns_correct_url_when_there_is_an_entry_in_settings</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_get_logout_url_returns_correct_url_when_there_is_an_entry_in_settings" title="Permalink to this definition"></a></dt>
+<dd><p>Test get logout url returns correct url when there is an entry in settings</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_get_logout_url_returns_correct_url_when_there_is_not_an_entry_in_the_settings_and_default_is_used">
+<span class="sig-name descname"><span class="pre">test_get_logout_url_returns_correct_url_when_there_is_not_an_entry_in_the_settings_and_default_is_used</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_get_logout_url_returns_correct_url_when_there_is_not_an_entry_in_the_settings_and_default_is_used" title="Permalink to this definition"></a></dt>
+<dd><p>Test get logout url returns correct url when there is not an entry in
+the settings and default is used</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_form_correctly_renders_a_form">
+<span class="sig-name descname"><span class="pre">test_render_form_correctly_renders_a_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_form_correctly_renders_a_form" title="Permalink to this definition"></a></dt>
+<dd><p>Test render form correctly renders a form</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_field_errors_for_a_list_of_forms_each_with_one_field_error">
+<span class="sig-name descname"><span class="pre">test_render_form_error_summary_displays_field_errors_for_a_list_of_forms_each_with_one_field_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_field_errors_for_a_list_of_forms_each_with_one_field_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test render form error summary displays field errors for a list of
+forms each with one field error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_field_errors_for_a_list_of_formsets_with_one_field_error">
+<span class="sig-name descname"><span class="pre">test_render_form_error_summary_displays_field_errors_for_a_list_of_formsets_with_one_field_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_field_errors_for_a_list_of_formsets_with_one_field_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test render form error summary displays field errors for a list of
+formsets with one field error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_field_errors_for_a_single_form_with_one_field_error">
+<span class="sig-name descname"><span class="pre">test_render_form_error_summary_displays_field_errors_for_a_single_form_with_one_field_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_field_errors_for_a_single_form_with_one_field_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test render form error summary displays field errors for a single
+form with one field error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_field_errors_for_a_single_formset_with_one_field_error">
+<span class="sig-name descname"><span class="pre">test_render_form_error_summary_displays_field_errors_for_a_single_formset_with_one_field_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_field_errors_for_a_single_formset_with_one_field_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test render form error summary displays field errors for a single formset
+with one field error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_form_error_for_a_single_formset_with_one_form_error">
+<span class="sig-name descname"><span class="pre">test_render_form_error_summary_displays_form_error_for_a_single_formset_with_one_form_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_form_error_for_a_single_formset_with_one_form_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test render form error summary displays form error for a single formset
+with one form error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_form_errors_for_a_single_form_with_one_form_error">
+<span class="sig-name descname"><span class="pre">test_render_form_error_summary_displays_form_errors_for_a_single_form_with_one_form_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_form_errors_for_a_single_form_with_one_form_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test render form error summary displays form errors for a single form
+with one form error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_formset_errors_for_a_single_formset_with_one_formset_error">
+<span class="sig-name descname"><span class="pre">test_render_form_error_summary_displays_formset_errors_for_a_single_formset_with_one_formset_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_displays_formset_errors_for_a_single_formset_with_one_formset_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test render form error summary displays formset errors for a single
+formset with one formset error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_does_not_display_errors_if_there_are_none_for_a_form">
+<span class="sig-name descname"><span class="pre">test_render_form_error_summary_does_not_display_errors_if_there_are_none_for_a_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_does_not_display_errors_if_there_are_none_for_a_form" title="Permalink to this definition"></a></dt>
+<dd><p>Test render form error summary does not display errors if there are
+non for a form</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_does_not_display_errors_if_there_are_none_for_formset">
+<span class="sig-name descname"><span class="pre">test_render_form_error_summary_does_not_display_errors_if_there_are_none_for_formset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_form_error_summary_does_not_display_errors_if_there_are_none_for_formset" title="Permalink to this definition"></a></dt>
+<dd><p>Test render form error summary does not display errors if there are
+none for formset</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_form_renders_no_fields_when_form_is_none">
+<span class="sig-name descname"><span class="pre">test_render_form_renders_no_fields_when_form_is_none</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_form_renders_no_fields_when_form_is_none" title="Permalink to this definition"></a></dt>
+<dd><p>Test render form renders no fields when form is none</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_horizontal_form_correctly_renders_a_horizontal_form">
+<span class="sig-name descname"><span class="pre">test_render_horizontal_form_correctly_renders_a_horizontal_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_horizontal_form_correctly_renders_a_horizontal_form" title="Permalink to this definition"></a></dt>
+<dd><p>Test render horizontal form correctly renders a horizontal form</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_horizontal_form_renders_no_fields_when_form_is_none">
+<span class="sig-name descname"><span class="pre">test_render_horizontal_form_renders_no_fields_when_form_is_none</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_horizontal_form_renders_no_fields_when_form_is_none" title="Permalink to this definition"></a></dt>
+<dd><p>Test render horizontal form renders no fields when form is none</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_render_horizontal_formset_correctly_renders_a_horizontal_formset">
+<span class="sig-name descname"><span class="pre">test_render_horizontal_formset_correctly_renders_a_horizontal_formset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_render_horizontal_formset_correctly_renders_a_horizontal_formset" title="Permalink to this definition"></a></dt>
+<dd><p>Test render horizontal formset correctly renders a horizontal formset</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_unslugify_converts_underscore_to_spaces_and_capitalizes_first_letter">
+<span class="sig-name descname"><span class="pre">test_unslugify_converts_underscore_to_spaces_and_capitalizes_first_letter</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_unslugify_converts_underscore_to_spaces_and_capitalizes_first_letter" title="Permalink to this definition"></a></dt>
+<dd><p>Test unslugify converts underscore to spaces and capitalizes first letter</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_unsnake_converts_underscore_to_spaces_and_capitalizes_first_letter">
+<span class="sig-name descname"><span class="pre">test_unsnake_converts_underscore_to_spaces_and_capitalizes_first_letter</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_unsnake_converts_underscore_to_spaces_and_capitalizes_first_letter" title="Permalink to this definition"></a></dt>
+<dd><p>Test unsnake converts underscore to spaces and capitalizes first letter</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_form_data_returns_an_unmodified_errors_dict_if_the_form_does_not_have_use_error_summary_set">
+<span class="sig-name descname"><span class="pre">test_update_errors_with_form_data_returns_an_unmodified_errors_dict_if_the_form_does_not_have_use_error_summary_set</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_form_data_returns_an_unmodified_errors_dict_if_the_form_does_not_have_use_error_summary_set" title="Permalink to this definition"></a></dt>
+<dd><p>Test update errors with form data returns an unmodified errors dict
+if the form does not have use error summary set</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_form_data_returns_errors_for_form_with_one_form_error">
+<span class="sig-name descname"><span class="pre">test_update_errors_with_form_data_returns_errors_for_form_with_one_form_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_form_data_returns_errors_for_form_with_one_form_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test update errors with form data returns errors for form with one form error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_form_data_returns_errors_for_form_with_one_form_error_and_one_field_error">
+<span class="sig-name descname"><span class="pre">test_update_errors_with_form_data_returns_errors_for_form_with_one_form_error_and_one_field_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_form_data_returns_errors_for_form_with_one_form_error_and_one_field_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test update errors with form data returns errors for form with one
+form error and one field error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_form_data_returns_errors_for_form_with_one_form_error_and_one_field_error_and_form_with_display_in_summary_disabled">
+<span class="sig-name descname"><span class="pre">test_update_errors_with_form_data_returns_errors_for_form_with_one_form_error_and_one_field_error_and_form_with_display_in_summary_disabled</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_form_data_returns_errors_for_form_with_one_form_error_and_one_field_error_and_form_with_display_in_summary_disabled" title="Permalink to this definition"></a></dt>
+<dd><p>Test update errors with form data returns errors for form with one form
+error and one field error and form with display in summary disabled</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_form_data_returns_errors_for_form_with_one_form_field_error">
+<span class="sig-name descname"><span class="pre">test_update_errors_with_form_data_returns_errors_for_form_with_one_form_field_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_form_data_returns_errors_for_form_with_one_form_field_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test update errors with form data returns errors for form with one form field error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_form_data_throws_attribute_error_when_form_is_not_a_valid_form">
+<span class="sig-name descname"><span class="pre">test_update_errors_with_form_data_throws_attribute_error_when_form_is_not_a_valid_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_form_data_throws_attribute_error_when_form_is_not_a_valid_form" title="Permalink to this definition"></a></dt>
+<dd><p>Test update errors with form data throws attribute error when form
+is not a valid form</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_formset_data_returns_an_unmodified_errors_dict_if_the_form_does_not_have_use_error_summary_set">
+<span class="sig-name descname"><span class="pre">test_update_errors_with_formset_data_returns_an_unmodified_errors_dict_if_the_form_does_not_have_use_error_summary_set</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_formset_data_returns_an_unmodified_errors_dict_if_the_form_does_not_have_use_error_summary_set" title="Permalink to this definition"></a></dt>
+<dd><p>Test update errors with formset data returns an unmodified errors
+dict if the form does not have use error summary set</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_formset_data_returns_errors_for_formset_with_one_form_error">
+<span class="sig-name descname"><span class="pre">test_update_errors_with_formset_data_returns_errors_for_formset_with_one_form_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_formset_data_returns_errors_for_formset_with_one_form_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test update errors with formset data returns errors for formset
+with one form error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_formset_data_returns_errors_for_formset_with_one_form_field_error">
+<span class="sig-name descname"><span class="pre">test_update_errors_with_formset_data_returns_errors_for_formset_with_one_form_field_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_formset_data_returns_errors_for_formset_with_one_form_field_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test update errors with formset data returns errors for formset with
+one form field error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_formset_data_returns_errors_for_formset_with_one_formset_error">
+<span class="sig-name descname"><span class="pre">test_update_errors_with_formset_data_returns_errors_for_formset_with_one_formset_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_formset_data_returns_errors_for_formset_with_one_formset_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test update errors with formset data returns errors for formset
+with one formset error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_formset_data_throws_attribute_error_when_formset_is_not_a_valid_formset">
+<span class="sig-name descname"><span class="pre">test_update_errors_with_formset_data_throws_attribute_error_when_formset_is_not_a_valid_formset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_update_errors_with_formset_data_throws_attribute_error_when_formset_is_not_a_valid_formset" title="Permalink to this definition"></a></dt>
+<dd><p>Test update errors with formset data throws attribute error when
+formset is not a valid formset</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_no_arguments">
+<span class="sig-name descname"><span class="pre">test_user_image_initials_returns_user_div_correctly_with_no_arguments</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_no_arguments" title="Permalink to this definition"></a></dt>
+<dd><p>Test user image initials returns user dive correctly with no arguments</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_passed_f_and_l_names">
+<span class="sig-name descname"><span class="pre">test_user_image_initials_returns_user_div_correctly_with_passed_f_and_l_names</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_passed_f_and_l_names" title="Permalink to this definition"></a></dt>
+<dd><p>Test user image initials returns user div correctly with passed f and l names</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_passed_f_name_only">
+<span class="sig-name descname"><span class="pre">test_user_image_initials_returns_user_div_correctly_with_passed_f_name_only</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_passed_f_name_only" title="Permalink to this definition"></a></dt>
+<dd><p>Test user image initials returns user div correctly with passed f name only</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_passed_initials">
+<span class="sig-name descname"><span class="pre">test_user_image_initials_returns_user_div_correctly_with_passed_initials</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_passed_initials" title="Permalink to this definition"></a></dt>
+<dd><p>Test user image initials returns user div correctly with passed initials</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_passed_l_name_only">
+<span class="sig-name descname"><span class="pre">test_user_image_initials_returns_user_div_correctly_with_passed_l_name_only</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_passed_l_name_only" title="Permalink to this definition"></a></dt>
+<dd><p>Test user image initials returns user div correctly with passed l name only</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_passed_user">
+<span class="sig-name descname"><span class="pre">test_user_image_initials_returns_user_div_correctly_with_passed_user</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_passed_user" title="Permalink to this definition"></a></dt>
+<dd><p>Test user image initials returns user div correctly with passed user</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_passed_user_and_overrides">
+<span class="sig-name descname"><span class="pre">test_user_image_initials_returns_user_div_correctly_with_passed_user_and_overrides</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_user_image_initials_returns_user_div_correctly_with_passed_user_and_overrides" title="Permalink to this definition"></a></dt>
+<dd><p>Test user image initials returns user div correctly with passed user and overrides</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_with_attrs_adds_attributes_to_an_existing_form_field">
+<span class="sig-name descname"><span class="pre">test_with_attrs_adds_attributes_to_an_existing_form_field</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_with_attrs_adds_attributes_to_an_existing_form_field" title="Permalink to this definition"></a></dt>
+<dd><p>Test with attrs adds attributes to an existring form field</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_with_class_adds_a_class_to_an_existing_form_field">
+<span class="sig-name descname"><span class="pre">test_with_class_adds_a_class_to_an_existing_form_field</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_with_class_adds_a_class_to_an_existing_form_field" title="Permalink to this definition"></a></dt>
+<dd><p>Test with class adds a class to an existing form field</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_with_class_handles_missing_field">
+<span class="sig-name descname"><span class="pre">test_with_class_handles_missing_field</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_with_class_handles_missing_field" title="Permalink to this definition"></a></dt>
+<dd><p>Test with class handles missing field</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_with_data_adds_data_attributes_to_an_existing_form_field">
+<span class="sig-name descname"><span class="pre">test_with_data_adds_data_attributes_to_an_existing_form_field</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_with_data_adds_data_attributes_to_an_existing_form_field" title="Permalink to this definition"></a></dt>
+<dd><p>Test with data adds data attributes to an existing form field</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_with_placeholder_adds_a_default_placeholder_attribute_to_an_existing_form_field">
+<span class="sig-name descname"><span class="pre">test_with_placeholder_adds_a_default_placeholder_attribute_to_an_existing_form_field</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_with_placeholder_adds_a_default_placeholder_attribute_to_an_existing_form_field" title="Permalink to this definition"></a></dt>
+<dd><p>Test with placeholder adds a default placeholder attribute to an existing form field</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_with_placeholder_adds_a_specific_placeholder_attribute_to_an_existing_form_field">
+<span class="sig-name descname"><span class="pre">test_with_placeholder_adds_a_specific_placeholder_attribute_to_an_existing_form_field</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_with_placeholder_adds_a_specific_placeholder_attribute_to_an_existing_form_field" title="Permalink to this definition"></a></dt>
+<dd><p>Test with placeholder adds a specific placeholder attribute to an existing form field</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags.TemplateTagTestCase.test_with_placeholder_does_not_override_existing_placeholder_on_an_existing_form_field">
+<span class="sig-name descname"><span class="pre">test_with_placeholder_does_not_override_existing_placeholder_on_an_existing_form_field</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags.TemplateTagTestCase.test_with_placeholder_does_not_override_existing_placeholder_on_an_existing_form_field" title="Permalink to this definition"></a></dt>
+<dd><p>Test with placeholder does not override existing placeholder on an existing form field</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-tests.test_templatetags_admin">
+<span id="tests-test-templatetags-admin-module"></span><h2>tests.test_templatetags_admin module<a class="headerlink" href="#module-tests.test_templatetags_admin" title="Permalink to this heading"></a></h2>
+<p>Tests for Admin Template Tags</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tests.test_templatetags_admin.</span></span><span class="sig-name descname"><span class="pre">TemplateTagAdminTestCase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">methodName</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'runTest'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">TestCase</span></code></p>
+<p>Test Template Tags</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_index_app_display_shows_box_when_setting_is_false">
+<span class="sig-name descname"><span class="pre">test_index_app_display_shows_box_when_setting_is_false</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_index_app_display_shows_box_when_setting_is_false" title="Permalink to this definition"></a></dt>
+<dd><p>Test index app display shows box when setting is false</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_index_app_display_shows_list_when_setting_is_true">
+<span class="sig-name descname"><span class="pre">test_index_app_display_shows_list_when_setting_is_true</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_index_app_display_shows_list_when_setting_is_true" title="Permalink to this definition"></a></dt>
+<dd><p>Test index app display shows list when setting is true</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_button_is_missing_when_settings_hides_all_tabs_to_show">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_button_is_missing_when_settings_hides_all_tabs_to_show</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_button_is_missing_when_settings_hides_all_tabs_to_show" title="Permalink to this definition"></a></dt>
+<dd><p>Test show control sidebar button is missing when settings hides all tabs to show</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_button_shows_up_when_settings_are_left_as_default_tabs_to_show">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_button_shows_up_when_settings_are_left_as_default_tabs_to_show</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_button_shows_up_when_settings_are_left_as_default_tabs_to_show" title="Permalink to this definition"></a></dt>
+<dd><p>Test show control sidebar button shows up when settings are left as
+default tabs to show</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_button_shows_up_when_settings_defines_all_tabs_to_show">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_button_shows_up_when_settings_defines_all_tabs_to_show</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_button_shows_up_when_settings_defines_all_tabs_to_show" title="Permalink to this definition"></a></dt>
+<dd><p>Test show control sidebar button shows up when settings defines all
+tabs to show</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_extra_tab_panes_displays_when_setting_is_true">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_extra_tab_panes_displays_when_setting_is_true</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_extra_tab_panes_displays_when_setting_is_true" title="Permalink to this definition"></a></dt>
+<dd><p>Test show control sidebar extra tab panes displays when setting is true</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_extra_tab_panes_is_hidden_when_setting_is_default">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_extra_tab_panes_is_hidden_when_setting_is_default</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_extra_tab_panes_is_hidden_when_setting_is_default" title="Permalink to this definition"></a></dt>
+<dd><p>Test show control sidebar extra tab panes is hidden when setting
+is default</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_extra_tab_panes_is_hidden_when_setting_is_false">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_extra_tab_panes_is_hidden_when_setting_is_false</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_extra_tab_panes_is_hidden_when_setting_is_false" title="Permalink to this definition"></a></dt>
+<dd><p>Test show control sidebar extra tab panes is hidden when setting is false</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_recent_activity_tab_pane_displays_when_setting_is_default">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_recent_activity_tab_pane_displays_when_setting_is_default</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_recent_activity_tab_pane_displays_when_setting_is_default" title="Permalink to this definition"></a></dt>
+<dd><p>Test show control sidebar recent activity tab pane displays when
+setting is default</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_recent_activity_tab_pane_displays_when_setting_is_true">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_recent_activity_tab_pane_displays_when_setting_is_true</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_recent_activity_tab_pane_displays_when_setting_is_true" title="Permalink to this definition"></a></dt>
+<dd><p>Test show control sidebar recent activity tab pane displays when
+setting is true</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_recent_activity_tab_pane_is_hidden_when_setting_is_false">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_recent_activity_tab_pane_is_hidden_when_setting_is_false</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_recent_activity_tab_pane_is_hidden_when_setting_is_false" title="Permalink to this definition"></a></dt>
+<dd><p>Tests show control sidebar recent activity tab pane is hidden when
+setting is false</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_settings_tab_pane_displays_when_setting_is_true">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_settings_tab_pane_displays_when_setting_is_true</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_settings_tab_pane_displays_when_setting_is_true" title="Permalink to this definition"></a></dt>
+<dd><p>Test show control sidebar settings tab pane displays when setting
+is true</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_settings_tab_pane_is_hidden_when_setting_is_default">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_settings_tab_pane_is_hidden_when_setting_is_default</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_settings_tab_pane_is_hidden_when_setting_is_default" title="Permalink to this definition"></a></dt>
+<dd><p>Test show control sidebar settings tab pane is hidden when setting
+is default</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_settings_tab_pane_is_hidden_when_setting_is_false">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_settings_tab_pane_is_hidden_when_setting_is_false</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_settings_tab_pane_is_hidden_when_setting_is_false" title="Permalink to this definition"></a></dt>
+<dd><p>Test show control sidebar settings tab pane is hidden when setting
+is false</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_tabs_displays_the_enabled_tab_by_itself_and_not_as_a_tab_when_there_is_only_one">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_tabs_displays_the_enabled_tab_by_itself_and_not_as_a_tab_when_there_is_only_one</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_tabs_displays_the_enabled_tab_by_itself_and_not_as_a_tab_when_there_is_only_one" title="Permalink to this definition"></a></dt>
+<dd><p>Test show control sidebar tabs displays the enabled tab by itself and
+not as a tab when there is only one</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_tabs_displays_the_enabled_tabs_as_tabs_when_there_is_more_than_one">
+<span class="sig-name descname"><span class="pre">test_show_control_sidebar_tabs_displays_the_enabled_tabs_as_tabs_when_there_is_more_than_one</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin.TemplateTagAdminTestCase.test_show_control_sidebar_tabs_displays_the_enabled_tabs_as_tabs_when_there_is_more_than_one" title="Permalink to this definition"></a></dt>
+<dd><p>Test show control sidebar tabs displays the enabled tabs as tabs when
+there is more than one</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-tests.test_templatetags_admin_menu">
+<span id="tests-test-templatetags-admin-menu-module"></span><h2>tests.test_templatetags_admin_menu module<a class="headerlink" href="#module-tests.test_templatetags_admin_menu" title="Permalink to this heading"></a></h2>
+<p>Tests for Admin Menu Template Tags</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tests.test_templatetags_admin_menu.</span></span><span class="sig-name descname"><span class="pre">TemplateTagAdminMenuTestCase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">methodName</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'runTest'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">TestCase</span></code></p>
+<p>Test Template Tags</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.create_user">
+<span class="sig-name descname"><span class="pre">create_user</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.create_user" title="Permalink to this definition"></a></dt>
+<dd><p>Create a dummy user for views to access.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_fails_for_staff_with_defined_available_apps_in_context_that_has_no_urls">
+<span class="sig-name descname"><span class="pre">test_render_admin_fails_for_staff_with_defined_available_apps_in_context_that_has_no_urls</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_fails_for_staff_with_defined_available_apps_in_context_that_has_no_urls" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin fails for staff with defined available apps in
+context that has no urls</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_menu_works_for_staff_with_default_settings">
+<span class="sig-name descname"><span class="pre">test_render_admin_menu_works_for_staff_with_default_settings</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_menu_works_for_staff_with_default_settings" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin menu works for staff with default settings</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_menu_works_for_superuser_with_admin_menu_in_tree_settings">
+<span class="sig-name descname"><span class="pre">test_render_admin_menu_works_for_superuser_with_admin_menu_in_tree_settings</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_menu_works_for_superuser_with_admin_menu_in_tree_settings" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin menu works for superuser with admin menu in tree settings</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_menu_works_for_superuser_with_default_settings">
+<span class="sig-name descname"><span class="pre">test_render_admin_menu_works_for_superuser_with_default_settings</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_menu_works_for_superuser_with_default_settings" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin menu works for superuser with default settings</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_menu_works_for_superuser_with_include_main_nav">
+<span class="sig-name descname"><span class="pre">test_render_admin_menu_works_for_superuser_with_include_main_nav</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_menu_works_for_superuser_with_include_main_nav" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin menu works for superuser with include main name</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_removes_no_perm_urls_for_staff_with_defined_available_apps_in_context_and_no_associated_permissions">
+<span class="sig-name descname"><span class="pre">test_render_admin_removes_no_perm_urls_for_staff_with_defined_available_apps_in_context_and_no_associated_permissions</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_removes_no_perm_urls_for_staff_with_defined_available_apps_in_context_and_no_associated_permissions" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin removes no perm urls for staff with defined
+available apps in context and no associated permissions</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_renders_correctly_with_menu_group_separator_disabled_and_one_additional_menu">
+<span class="sig-name descname"><span class="pre">test_render_admin_renders_correctly_with_menu_group_separator_disabled_and_one_additional_menu</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_renders_correctly_with_menu_group_separator_disabled_and_one_additional_menu" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin renders correctly with menu group separator
+disabled and one additional menu</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_renders_correctly_with_menu_group_separator_enabled_and_all_additional_menus">
+<span class="sig-name descname"><span class="pre">test_render_admin_renders_correctly_with_menu_group_separator_enabled_and_all_additional_menus</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_renders_correctly_with_menu_group_separator_enabled_and_all_additional_menus" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin renders correctly with menu group separator
+enabled and all additional menus</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_renders_correctly_with_menu_group_separator_enabled_and_no_additional_menus">
+<span class="sig-name descname"><span class="pre">test_render_admin_renders_correctly_with_menu_group_separator_enabled_and_no_additional_menus</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_renders_correctly_with_menu_group_separator_enabled_and_no_additional_menus" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin renders correctly with menu group separator
+enabled and no additional menus</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_renders_correctly_with_menu_group_separator_enabled_and_one_additional_menu">
+<span class="sig-name descname"><span class="pre">test_render_admin_renders_correctly_with_menu_group_separator_enabled_and_one_additional_menu</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_renders_correctly_with_menu_group_separator_enabled_and_one_additional_menu" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin renders correctly with menu group separator
+enabled and one additional menu</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_renders_correctly_with_menu_group_separator_enabled_and_only_admin_menu">
+<span class="sig-name descname"><span class="pre">test_render_admin_renders_correctly_with_menu_group_separator_enabled_and_only_admin_menu</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_renders_correctly_with_menu_group_separator_enabled_and_only_admin_menu" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin renders correctly with menu group separator
+enabled and only admin menu</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_tree_icon_tag_renders_the_icon_after_it_has_been_changed">
+<span class="sig-name descname"><span class="pre">test_render_admin_tree_icon_tag_renders_the_icon_after_it_has_been_changed</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_tree_icon_tag_renders_the_icon_after_it_has_been_changed" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin tree icon tag renders the icon after it has been changed</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_tree_icon_tag_renders_the_icon_when_it_is_the_default">
+<span class="sig-name descname"><span class="pre">test_render_admin_tree_icon_tag_renders_the_icon_when_it_is_the_default</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_tree_icon_tag_renders_the_icon_when_it_is_the_default" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin tree icon tag renders the icon when it is the default</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_works_for_superuser_with_defined_available_apps_in_context">
+<span class="sig-name descname"><span class="pre">test_render_admin_works_for_superuser_with_defined_available_apps_in_context</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_admin_works_for_superuser_with_defined_available_apps_in_context" title="Permalink to this definition"></a></dt>
+<dd><p>Test render admin works for superuser with defined available apps in context</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_app_icon_tag_renders_the_icon_after_it_has_been_changed">
+<span class="sig-name descname"><span class="pre">test_render_app_icon_tag_renders_the_icon_after_it_has_been_changed</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_app_icon_tag_renders_the_icon_after_it_has_been_changed" title="Permalink to this definition"></a></dt>
+<dd><p>Test render app icon tag renders the icon after it has been changed</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_app_icon_tag_renders_the_icon_when_it_is_the_default">
+<span class="sig-name descname"><span class="pre">test_render_app_icon_tag_renders_the_icon_when_it_is_the_default</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_app_icon_tag_renders_the_icon_when_it_is_the_default" title="Permalink to this definition"></a></dt>
+<dd><p>Test render app icon tag renders the icon when it is the default</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_model_icon_tag_renders_the_icon_after_it_has_been_changed">
+<span class="sig-name descname"><span class="pre">test_render_model_icon_tag_renders_the_icon_after_it_has_been_changed</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_model_icon_tag_renders_the_icon_after_it_has_been_changed" title="Permalink to this definition"></a></dt>
+<dd><p>Test render model icon tag renders the icon after it has been changed</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_model_icon_tag_renders_the_icon_when_it_is_the_default">
+<span class="sig-name descname"><span class="pre">test_render_model_icon_tag_renders_the_icon_when_it_is_the_default</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_admin_menu.TemplateTagAdminMenuTestCase.test_render_model_icon_tag_renders_the_icon_when_it_is_the_default" title="Permalink to this definition"></a></dt>
+<dd><p>Test render model icon tag renders the icon when it is the default</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-tests.test_templatetags_sidebar_menu">
+<span id="tests-test-templatetags-sidebar-menu-module"></span><h2>tests.test_templatetags_sidebar_menu module<a class="headerlink" href="#module-tests.test_templatetags_sidebar_menu" title="Permalink to this heading"></a></h2>
+<p>Tests for Template Tags</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tests.test_templatetags_sidebar_menu.</span></span><span class="sig-name descname"><span class="pre">TemplateTagSidebarMenuTestCase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">methodName</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'runTest'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">TestCase</span></code></p>
+<p>Test Template Tags and Helper Methods used in those template tags</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.setUp">
+<span class="sig-name descname"><span class="pre">setUp</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.setUp" title="Permalink to this definition"></a></dt>
+<dd><p>Hook method for setting up the test fixture before exercising it.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_all_permissions_returns_false_when_permissions_is_empty_list">
+<span class="sig-name descname"><span class="pre">test_check_for_all_permissions_returns_false_when_permissions_is_empty_list</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_all_permissions_returns_false_when_permissions_is_empty_list" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for all permissions returns false when permissions is empty list</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_all_permissions_returns_false_when_user_does_not_have_perms">
+<span class="sig-name descname"><span class="pre">test_check_for_all_permissions_returns_false_when_user_does_not_have_perms</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_all_permissions_returns_false_when_user_does_not_have_perms" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for all permissions returns false when user does not have perms</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_all_permissions_returns_true_when_user_is_not_su_but_has_perms">
+<span class="sig-name descname"><span class="pre">test_check_for_all_permissions_returns_true_when_user_is_not_su_but_has_perms</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_all_permissions_returns_true_when_user_is_not_su_but_has_perms" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for all permissions returns true when user is not su but has perms</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_all_permissions_returns_true_when_user_is_superuser">
+<span class="sig-name descname"><span class="pre">test_check_for_all_permissions_returns_true_when_user_is_superuser</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_all_permissions_returns_true_when_user_is_superuser" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for all permissions returns true when user is superuser</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_false_for_no_nodes">
+<span class="sig-name descname"><span class="pre">test_check_for_node_that_matches_request_path_returns_false_for_no_nodes</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_false_for_no_nodes" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for node that matches request path returns false for no nodes</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_false_for_single_node_without_a_match">
+<span class="sig-name descname"><span class="pre">test_check_for_node_that_matches_request_path_returns_false_for_single_node_without_a_match</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_false_for_single_node_without_a_match" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for node that matches request path returns false for single
+node without a match</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_false_for_tree_of_three_nodes_without_a_match">
+<span class="sig-name descname"><span class="pre">test_check_for_node_that_matches_request_path_returns_false_for_tree_of_three_nodes_without_a_match</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_false_for_tree_of_three_nodes_without_a_match" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for node that matches request path returns false for tree
+of three nodes without a match</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_false_for_tree_of_two_nodes_without_a_match">
+<span class="sig-name descname"><span class="pre">test_check_for_node_that_matches_request_path_returns_false_for_tree_of_two_nodes_without_a_match</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_false_for_tree_of_two_nodes_without_a_match" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for node that matches request path returns false for tree
+of two nodes without a match</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_true_for_single_node_with_a_match">
+<span class="sig-name descname"><span class="pre">test_check_for_node_that_matches_request_path_returns_true_for_single_node_with_a_match</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_true_for_single_node_with_a_match" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for node that matches request path returns true for single
+node with a match</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_true_for_tree_of_three_nodes_with_a_match">
+<span class="sig-name descname"><span class="pre">test_check_for_node_that_matches_request_path_returns_true_for_tree_of_three_nodes_with_a_match</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_true_for_tree_of_three_nodes_with_a_match" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for node that matches request path returns true for tree
+of three nodes with a match</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_true_for_tree_of_two_nodes_with_a_match">
+<span class="sig-name descname"><span class="pre">test_check_for_node_that_matches_request_path_returns_true_for_tree_of_two_nodes_with_a_match</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_node_that_matches_request_path_returns_true_for_tree_of_two_nodes_with_a_match" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for node that matches request path returns true for tree
+of two nodes with a match</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_false_for_single_node_user_can_not_access">
+<span class="sig-name descname"><span class="pre">test_check_for_one_permission_in_node_list_returns_false_for_single_node_user_can_not_access</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_false_for_single_node_user_can_not_access" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for one permission in node list returns false for single
+node user can not access</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_false_for_tree_of_three_nodes_user_can_not_access">
+<span class="sig-name descname"><span class="pre">test_check_for_one_permission_in_node_list_returns_false_for_tree_of_three_nodes_user_can_not_access</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_false_for_tree_of_three_nodes_user_can_not_access" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for one permission in node list returns false for tree of
+three nodes user can not access</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_false_for_tree_of_two_nodes_user_can_not_access">
+<span class="sig-name descname"><span class="pre">test_check_for_one_permission_in_node_list_returns_false_for_tree_of_two_nodes_user_can_not_access</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_false_for_tree_of_two_nodes_user_can_not_access" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for one permission in node list returns false for tree of
+two nodes user can not acccess</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_true_for_single_node_user_can_access">
+<span class="sig-name descname"><span class="pre">test_check_for_one_permission_in_node_list_returns_true_for_single_node_user_can_access</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_true_for_single_node_user_can_access" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for one permission in node list returns true for single
+node user can access</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_true_for_superuser_regardless_of_tree_size">
+<span class="sig-name descname"><span class="pre">test_check_for_one_permission_in_node_list_returns_true_for_superuser_regardless_of_tree_size</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_true_for_superuser_regardless_of_tree_size" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for one permission in node list returns true for superuser
+regardless of tree size</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_true_for_tree_of_three_nodes_user_can_access">
+<span class="sig-name descname"><span class="pre">test_check_for_one_permission_in_node_list_returns_true_for_tree_of_three_nodes_user_can_access</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_true_for_tree_of_three_nodes_user_can_access" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for one permission in node list returns true for three of
+three nodes user can access</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_true_for_tree_of_two_nodes_user_can_access">
+<span class="sig-name descname"><span class="pre">test_check_for_one_permission_in_node_list_returns_true_for_tree_of_two_nodes_user_can_access</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_in_node_list_returns_true_for_tree_of_two_nodes_user_can_access" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for one permission in node list returns true for tree of
+two nodes user can access</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_returns_false_when_permissions_is_empty_list">
+<span class="sig-name descname"><span class="pre">test_check_for_one_permission_returns_false_when_permissions_is_empty_list</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_returns_false_when_permissions_is_empty_list" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for one permission returns false when permissions is empty list</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_returns_false_when_user_does_not_have_perms">
+<span class="sig-name descname"><span class="pre">test_check_for_one_permission_returns_false_when_user_does_not_have_perms</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_returns_false_when_user_does_not_have_perms" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for one permission returns false when suer does not have perms</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_returns_true_when_user_is_not_su_but_has_perms">
+<span class="sig-name descname"><span class="pre">test_check_for_one_permission_returns_true_when_user_is_not_su_but_has_perms</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_returns_true_when_user_is_not_su_but_has_perms" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for one permission returns true when user is not su but has perms</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_returns_true_when_user_is_superuser">
+<span class="sig-name descname"><span class="pre">test_check_for_one_permission_returns_true_when_user_is_superuser</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_one_permission_returns_true_when_user_is_superuser" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for one permission returns true when user is superuser</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_whitelisted_node_returns_false_when_node_not_in_list">
+<span class="sig-name descname"><span class="pre">test_check_for_whitelisted_node_returns_false_when_node_not_in_list</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_whitelisted_node_returns_false_when_node_not_in_list" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for whitelisted node returns false when node not in list</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_whitelisted_node_returns_true_when_node_in_list">
+<span class="sig-name descname"><span class="pre">test_check_for_whitelisted_node_returns_true_when_node_in_list</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_check_for_whitelisted_node_returns_true_when_node_in_list" title="Permalink to this definition"></a></dt>
+<dd><p>Test check for whitelisted node returns true when node in list</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_ensure_node_has_url_property_adds_url_property_from_valid_route">
+<span class="sig-name descname"><span class="pre">test_ensure_node_has_url_property_adds_url_property_from_valid_route</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_ensure_node_has_url_property_adds_url_property_from_valid_route" title="Permalink to this definition"></a></dt>
+<dd><p>Test ensure node has url property adds url property from valid route</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_ensure_node_has_url_property_raises_key_error_when_route_field_missing">
+<span class="sig-name descname"><span class="pre">test_ensure_node_has_url_property_raises_key_error_when_route_field_missing</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_ensure_node_has_url_property_raises_key_error_when_route_field_missing" title="Permalink to this definition"></a></dt>
+<dd><p>Test ensure node has url property raises KeyError when route field missing</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_ensure_node_has_url_property_raises_reverse_error_when_route_is_not_valid">
+<span class="sig-name descname"><span class="pre">test_ensure_node_has_url_property_raises_reverse_error_when_route_is_not_valid</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_ensure_node_has_url_property_raises_reverse_error_when_route_is_not_valid" title="Permalink to this definition"></a></dt>
+<dd><p>Test ensure node has url property raises reverse error when route is not valid</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_ensure_node_has_url_property_sets_url_to_a_hash_when_route_is_a_hash">
+<span class="sig-name descname"><span class="pre">test_ensure_node_has_url_property_sets_url_to_a_hash_when_route_is_a_hash</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_ensure_node_has_url_property_sets_url_to_a_hash_when_route_is_a_hash" title="Permalink to this definition"></a></dt>
+<dd><p>Test ensure node has url property sets url to a hash when route is a hash</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_ensure_node_has_url_property_works_when_node_has_url_property_defined">
+<span class="sig-name descname"><span class="pre">test_ensure_node_has_url_property_works_when_node_has_url_property_defined</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_ensure_node_has_url_property_works_when_node_has_url_property_defined" title="Permalink to this definition"></a></dt>
+<dd><p>Test ensure node has url property works when node has url property defined</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_pulls_permissions_from_direct_assigned_permissions">
+<span class="sig-name descname"><span class="pre">test_get_permissions_from_node_pulls_permissions_from_direct_assigned_permissions</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_pulls_permissions_from_direct_assigned_permissions" title="Permalink to this definition"></a></dt>
+<dd><p>Test get permissions from node pulls permissions from direct assigned permissions</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_pulls_permissions_from_direct_assigned_permissions_when_external_url">
+<span class="sig-name descname"><span class="pre">test_get_permissions_from_node_pulls_permissions_from_direct_assigned_permissions_when_external_url</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_pulls_permissions_from_direct_assigned_permissions_when_external_url" title="Permalink to this definition"></a></dt>
+<dd><p>Test get permissions from node pulls permissions from direct assigned permissions_when_external_url</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_pulls_permissions_from_view_function">
+<span class="sig-name descname"><span class="pre">test_get_permissions_from_node_pulls_permissions_from_view_function</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_pulls_permissions_from_view_function" title="Permalink to this definition"></a></dt>
+<dd><p>Test get permissions from node pulls permissins from view function</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_pulls_permissions_from_view_with_hash_route_and_valid_url">
+<span class="sig-name descname"><span class="pre">test_get_permissions_from_node_pulls_permissions_from_view_with_hash_route_and_valid_url</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_pulls_permissions_from_view_with_hash_route_and_valid_url" title="Permalink to this definition"></a></dt>
+<dd><p>Test get permissions from node pull permission from view with hash route and valid url</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_raises_error_when_route_causes_a_reverse_error">
+<span class="sig-name descname"><span class="pre">test_get_permissions_from_node_raises_error_when_route_causes_a_reverse_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_raises_error_when_route_causes_a_reverse_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test get permissions from node raises error when route causes a reverse error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_raises_keyerror_when_route_is_missing">
+<span class="sig-name descname"><span class="pre">test_get_permissions_from_node_raises_keyerror_when_route_is_missing</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_raises_keyerror_when_route_is_missing" title="Permalink to this definition"></a></dt>
+<dd><p>Test get permissions from node raises KeyError when route is missing</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_returns_empty_list_when_no_reverse_error_and_route_is_a_hash">
+<span class="sig-name descname"><span class="pre">test_get_permissions_from_node_returns_empty_list_when_no_reverse_error_and_route_is_a_hash</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_returns_empty_list_when_no_reverse_error_and_route_is_a_hash" title="Permalink to this definition"></a></dt>
+<dd><p>Test get permissions from node returns empty list when no reverse
+error and route is a hash</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_returns_empty_list_when_the_node_is_for_an_external_resource">
+<span class="sig-name descname"><span class="pre">test_get_permissions_from_node_returns_empty_list_when_the_node_is_for_an_external_resource</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_returns_empty_list_when_the_node_is_for_an_external_resource" title="Permalink to this definition"></a></dt>
+<dd><p>Test get permissions from node returns empty list when the node is
+for an external resource</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_returns_empty_list_when_there_are_no_defined_permissions_on_the_node">
+<span class="sig-name descname"><span class="pre">test_get_permissions_from_node_returns_empty_list_when_there_are_no_defined_permissions_on_the_node</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_get_permissions_from_node_returns_empty_list_when_there_are_no_defined_permissions_on_the_node" title="Permalink to this definition"></a></dt>
+<dd><p>Test get permissions from node returns empty list when there are
+no defined permissions on the node</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_false_when_there_are_no_perms_and_whitelisting_is_on_but_has_no_entry_for_node">
+<span class="sig-name descname"><span class="pre">test_is_allowed_node_returns_false_when_there_are_no_perms_and_whitelisting_is_on_but_has_no_entry_for_node</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_false_when_there_are_no_perms_and_whitelisting_is_on_but_has_no_entry_for_node" title="Permalink to this definition"></a></dt>
+<dd><p>Test is allowed node returns false when there are no perms and
+whitelisting is on but has no entry for node</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_there_are_no_perms_and_whitelist_is_on_and_node_is_whitelisted">
+<span class="sig-name descname"><span class="pre">test_is_allowed_node_returns_true_when_there_are_no_perms_and_whitelist_is_on_and_node_is_whitelisted</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_there_are_no_perms_and_whitelist_is_on_and_node_is_whitelisted" title="Permalink to this definition"></a></dt>
+<dd><p>Test is allowed node returns true when there are no perms and
+whitelist is on and node is whitelisted</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_there_are_no_perms_on_node_and_whitelist_is_off">
+<span class="sig-name descname"><span class="pre">test_is_allowed_node_returns_true_when_there_are_no_perms_on_node_and_whitelist_is_off</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_there_are_no_perms_on_node_and_whitelist_is_off" title="Permalink to this definition"></a></dt>
+<dd><p>Test is allowed node returns true when there are no perms on node and whitelist if off</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_user_has_all_perms_and_whitelist_is_off">
+<span class="sig-name descname"><span class="pre">test_is_allowed_node_returns_true_when_user_has_all_perms_and_whitelist_is_off</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_user_has_all_perms_and_whitelist_is_off" title="Permalink to this definition"></a></dt>
+<dd><p>Test is allowed node returns true when user has all perms and whitelist is off</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_user_has_all_perms_and_whitelist_is_on">
+<span class="sig-name descname"><span class="pre">test_is_allowed_node_returns_true_when_user_has_all_perms_and_whitelist_is_on</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_user_has_all_perms_and_whitelist_is_on" title="Permalink to this definition"></a></dt>
+<dd><p>Test is allowed node returns true when user has all perms and white list is on</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_user_has_one_perm_and_whitelist_is_off">
+<span class="sig-name descname"><span class="pre">test_is_allowed_node_returns_true_when_user_has_one_perm_and_whitelist_is_off</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_user_has_one_perm_and_whitelist_is_off" title="Permalink to this definition"></a></dt>
+<dd><p>Test is allowed node returns true when user has one perm and whitelist if off</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_user_has_one_perm_and_whitelist_is_on">
+<span class="sig-name descname"><span class="pre">test_is_allowed_node_returns_true_when_user_has_one_perm_and_whitelist_is_on</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_user_has_one_perm_and_whitelist_is_on" title="Permalink to this definition"></a></dt>
+<dd><p>Test is allowed node returns true when user has one perm and whitelist is on</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_user_is_superuser_and_whitelist_is_off">
+<span class="sig-name descname"><span class="pre">test_is_allowed_node_returns_true_when_user_is_superuser_and_whitelist_is_off</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_user_is_superuser_and_whitelist_is_off" title="Permalink to this definition"></a></dt>
+<dd><p>Test is allowed node returns true when user is superuser and whitelist is off</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_user_is_superuser_and_whitelist_is_on">
+<span class="sig-name descname"><span class="pre">test_is_allowed_node_returns_true_when_user_is_superuser_and_whitelist_is_on</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_is_allowed_node_returns_true_when_user_is_superuser_and_whitelist_is_on" title="Permalink to this definition"></a></dt>
+<dd><p>Test is allowed node returns true when user is superuser and whitelist is on</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_one_of_permissions_from_node_pulls_permissions_from_view_function">
+<span class="sig-name descname"><span class="pre">test_one_of_permissions_from_node_pulls_permissions_from_view_function</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_one_of_permissions_from_node_pulls_permissions_from_view_function" title="Permalink to this definition"></a></dt>
+<dd><p>Test one of permissions from node pulls permissions from view function</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_one_of_permissions_from_node_raises_error_when_route_causes_a_reverse_error">
+<span class="sig-name descname"><span class="pre">test_one_of_permissions_from_node_raises_error_when_route_causes_a_reverse_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_one_of_permissions_from_node_raises_error_when_route_causes_a_reverse_error" title="Permalink to this definition"></a></dt>
+<dd><p>Test one of permissions from node raises error when route causes a reverse error</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_one_of_permissions_from_node_raises_keyerror_when_route_is_missing">
+<span class="sig-name descname"><span class="pre">test_one_of_permissions_from_node_raises_keyerror_when_route_is_missing</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_one_of_permissions_from_node_raises_keyerror_when_route_is_missing" title="Permalink to this definition"></a></dt>
+<dd><p>Test one of permissions from node raises KeyError when route is missing</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_one_of_permissions_from_node_returns_empty_list_when_no_reverse_error_and_route_is_a_hash">
+<span class="sig-name descname"><span class="pre">test_one_of_permissions_from_node_returns_empty_list_when_no_reverse_error_and_route_is_a_hash</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_one_of_permissions_from_node_returns_empty_list_when_no_reverse_error_and_route_is_a_hash" title="Permalink to this definition"></a></dt>
+<dd><p>Test one of permissions from node returns empty list when
+no reverse error and route is a hash</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_one_of_permissions_from_node_returns_empty_list_when_there_are_no_defined_permissions_on_the_node">
+<span class="sig-name descname"><span class="pre">test_one_of_permissions_from_node_returns_empty_list_when_there_are_no_defined_permissions_on_the_node</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_one_of_permissions_from_node_returns_empty_list_when_there_are_no_defined_permissions_on_the_node" title="Permalink to this definition"></a></dt>
+<dd><p>Test one of permissions from node returns empty list when there are
+no defined permissions on the node</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_one_of_permissions_from_node_works">
+<span class="sig-name descname"><span class="pre">test_one_of_permissions_from_node_works</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_one_of_permissions_from_node_works" title="Permalink to this definition"></a></dt>
+<dd><p>Test one of permissions from node works</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_link_renders_dynamic_text_via_string_returning_hook_when_user_has_access">
+<span class="sig-name descname"><span class="pre">test_render_link_renders_dynamic_text_via_string_returning_hook_when_user_has_access</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_link_renders_dynamic_text_via_string_returning_hook_when_user_has_access" title="Permalink to this definition"></a></dt>
+<dd><p>Test render renders dynamic text via hook when user has access</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_link_renders_dynamic_text_via_tuple_returning_hook_when_user_has_access">
+<span class="sig-name descname"><span class="pre">test_render_link_renders_dynamic_text_via_tuple_returning_hook_when_user_has_access</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_link_renders_dynamic_text_via_tuple_returning_hook_when_user_has_access" title="Permalink to this definition"></a></dt>
+<dd><p>Test render link renders dynamic text via tuple returning hook when user has access</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_link_renders_when_user_has_access">
+<span class="sig-name descname"><span class="pre">test_render_link_renders_when_user_has_access</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_link_renders_when_user_has_access" title="Permalink to this definition"></a></dt>
+<dd><p>Test render link renders when user has access</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_link_renders_with_no_icon_when_not_specified_and_when_user_has_access">
+<span class="sig-name descname"><span class="pre">test_render_link_renders_with_no_icon_when_not_specified_and_when_user_has_access</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_link_renders_with_no_icon_when_not_specified_and_when_user_has_access" title="Permalink to this definition"></a></dt>
+<dd><p>Test render link renders with no icon when not specified and when user has access</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_menu_renders_when_user_has_access_and_includes_admin_and_menu_first_and_menu_last_when_include_admin_on">
+<span class="sig-name descname"><span class="pre">test_render_menu_renders_when_user_has_access_and_includes_admin_and_menu_first_and_menu_last_when_include_admin_on</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_menu_renders_when_user_has_access_and_includes_admin_and_menu_first_and_menu_last_when_include_admin_on" title="Permalink to this definition"></a></dt>
+<dd><p>Test render menu renders when user has access and includes admin and
+menu first and menu last when include admin on</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_menu_renders_when_user_has_access_and_includes_admin_and_menu_first_when_include_admin_on">
+<span class="sig-name descname"><span class="pre">test_render_menu_renders_when_user_has_access_and_includes_admin_and_menu_first_when_include_admin_on</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_menu_renders_when_user_has_access_and_includes_admin_and_menu_first_when_include_admin_on" title="Permalink to this definition"></a></dt>
+<dd><p>Test render menu renders when user has access and includes admin and
+menu first when include admin on</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_menu_renders_when_user_has_access_and_includes_admin_and_menu_last_when_include_admin_on">
+<span class="sig-name descname"><span class="pre">test_render_menu_renders_when_user_has_access_and_includes_admin_and_menu_last_when_include_admin_on</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_menu_renders_when_user_has_access_and_includes_admin_and_menu_last_when_include_admin_on" title="Permalink to this definition"></a></dt>
+<dd><p>Test render menu renders when user has access and includes admin and
+menu last when include admin on</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_menu_renders_when_user_has_access_and_includes_admin_when_include_admin_on">
+<span class="sig-name descname"><span class="pre">test_render_menu_renders_when_user_has_access_and_includes_admin_when_include_admin_on</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_menu_renders_when_user_has_access_and_includes_admin_when_include_admin_on" title="Permalink to this definition"></a></dt>
+<dd><p>Test render menu renders when user has access and includes admin when include admin on</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_menu_renders_when_user_has_access_but_excludes_admin_when_include_admin_off">
+<span class="sig-name descname"><span class="pre">test_render_menu_renders_when_user_has_access_but_excludes_admin_when_include_admin_off</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_menu_renders_when_user_has_access_but_excludes_admin_when_include_admin_off" title="Permalink to this definition"></a></dt>
+<dd><p>Test render menu renders when user has access but excludes admin when
+include admin off</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_nodes_renders_when_user_has_access">
+<span class="sig-name descname"><span class="pre">test_render_nodes_renders_when_user_has_access</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_nodes_renders_when_user_has_access" title="Permalink to this definition"></a></dt>
+<dd><p>Test render nodes renders when user has access</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_section_renders_when_user_has_access">
+<span class="sig-name descname"><span class="pre">test_render_section_renders_when_user_has_access</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_section_renders_when_user_has_access" title="Permalink to this definition"></a></dt>
+<dd><p>Test render section renders when user has access</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_tree_renders_when_user_has_access">
+<span class="sig-name descname"><span class="pre">test_render_tree_renders_when_user_has_access</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_tree_renders_when_user_has_access" title="Permalink to this definition"></a></dt>
+<dd><p>Test render tree renders when user has access</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_tree_renders_with_default_icon_when_user_has_access_and_node_lacks_icon">
+<span class="sig-name descname"><span class="pre">test_render_tree_renders_with_default_icon_when_user_has_access_and_node_lacks_icon</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_templatetags_sidebar_menu.TemplateTagSidebarMenuTestCase.test_render_tree_renders_with_default_icon_when_user_has_access_and_node_lacks_icon" title="Permalink to this definition"></a></dt>
+<dd><p>Test render tree renders with default icon when user has access and
+node lacks icon</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-tests.test_views">
+<span id="tests-test-views-module"></span><h2>tests.test_views module<a class="headerlink" href="#module-tests.test_views" title="Permalink to this heading"></a></h2>
+<p>Tests for Views</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">tests.test_views.</span></span><span class="sig-name descname"><span class="pre">ViewsTestCase</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">methodName</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'runTest'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">TestCase</span></code></p>
+<p>Test Views</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.setUp">
+<span class="sig-name descname"><span class="pre">setUp</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.setUp" title="Permalink to this definition"></a></dt>
+<dd><p>Hook method for setting up the test fixture before exercising it.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.test_demo_view_returns_correct_template">
+<span class="sig-name descname"><span class="pre">test_demo_view_returns_correct_template</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.test_demo_view_returns_correct_template" title="Permalink to this definition"></a></dt>
+<dd><p>Test demo view returns correct template</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.test_home_view_returns_correct_template">
+<span class="sig-name descname"><span class="pre">test_home_view_returns_correct_template</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.test_home_view_returns_correct_template" title="Permalink to this definition"></a></dt>
+<dd><p>Test home view returns correct template</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.test_home_view_works_when_not_authenticated">
+<span class="sig-name descname"><span class="pre">test_home_view_works_when_not_authenticated</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.test_home_view_works_when_not_authenticated" title="Permalink to this definition"></a></dt>
+<dd><p>Test home view works when not authenticated</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.test_register_view_returns_correct_template">
+<span class="sig-name descname"><span class="pre">test_register_view_returns_correct_template</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.test_register_view_returns_correct_template" title="Permalink to this definition"></a></dt>
+<dd><p>Test register view returns correct template</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.test_register_view_works_when_not_authenticated">
+<span class="sig-name descname"><span class="pre">test_register_view_works_when_not_authenticated</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.test_register_view_works_when_not_authenticated" title="Permalink to this definition"></a></dt>
+<dd><p>Test register view works when not authenticated</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.test_sample1_view_redirects_to_login_when_authenticated_with_incorrect_permissions">
+<span class="sig-name descname"><span class="pre">test_sample1_view_redirects_to_login_when_authenticated_with_incorrect_permissions</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.test_sample1_view_redirects_to_login_when_authenticated_with_incorrect_permissions" title="Permalink to this definition"></a></dt>
+<dd><p>Test sample1 view redirects to login when authenticated with incorrect permissions</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.test_sample1_view_redirects_to_login_when_not_authenticated">
+<span class="sig-name descname"><span class="pre">test_sample1_view_redirects_to_login_when_not_authenticated</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.test_sample1_view_redirects_to_login_when_not_authenticated" title="Permalink to this definition"></a></dt>
+<dd><p>Test sample1 view redirects to login when not authenticated</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.test_sample1_view_returns_correct_template">
+<span class="sig-name descname"><span class="pre">test_sample1_view_returns_correct_template</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.test_sample1_view_returns_correct_template" title="Permalink to this definition"></a></dt>
+<dd><p>Test sample1 view returns correct template</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.test_sample1_view_works_when_authenticated_with_correct_permissions">
+<span class="sig-name descname"><span class="pre">test_sample1_view_works_when_authenticated_with_correct_permissions</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.test_sample1_view_works_when_authenticated_with_correct_permissions" title="Permalink to this definition"></a></dt>
+<dd><p>Test sample1 view works when authenticated with correct permissions</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.test_sample2_view_redirects_to_login_when_authenticated_with_incorrect_permissions">
+<span class="sig-name descname"><span class="pre">test_sample2_view_redirects_to_login_when_authenticated_with_incorrect_permissions</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.test_sample2_view_redirects_to_login_when_authenticated_with_incorrect_permissions" title="Permalink to this definition"></a></dt>
+<dd><p>Test sample2 view redirects to login when authenticated with incorrect permissions</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.test_sample2_view_redirects_to_login_when_not_authenticated">
+<span class="sig-name descname"><span class="pre">test_sample2_view_redirects_to_login_when_not_authenticated</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.test_sample2_view_redirects_to_login_when_not_authenticated" title="Permalink to this definition"></a></dt>
+<dd><p>Test sample2 view redirects to login when not authenticated</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.test_sample2_view_returns_correct_template">
+<span class="sig-name descname"><span class="pre">test_sample2_view_returns_correct_template</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.test_sample2_view_returns_correct_template" title="Permalink to this definition"></a></dt>
+<dd><p>Test sample2 view returns correct template</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="tests.test_views.ViewsTestCase.test_sample2_view_works_when_authenticated_with_correct_permissions">
+<span class="sig-name descname"><span class="pre">test_sample2_view_works_when_authenticated_with_correct_permissions</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#tests.test_views.ViewsTestCase.test_sample2_view_works_when_authenticated_with_correct_permissions" title="Permalink to this definition"></a></dt>
+<dd><p>Test sample2 view works when authenticated with correct permissions</p>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-tests.utils">
+<span id="tests-utils-module"></span><h2>tests.utils module<a class="headerlink" href="#module-tests.utils" title="Permalink to this heading"></a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="tests.utils.valid_string_hook_function">
+<span class="sig-prename descclassname"><span class="pre">tests.utils.</span></span><span class="sig-name descname"><span class="pre">valid_string_hook_function</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arg1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">kwarg1</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'kwarg1'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tests.utils.valid_string_hook_function" title="Permalink to this definition"></a></dt>
+<dd><p>A valid hook function used in testing</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="tests.utils.valid_tuple_hook_function">
+<span class="sig-prename descclassname"><span class="pre">tests.utils.</span></span><span class="sig-name descname"><span class="pre">valid_tuple_hook_function</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">arg1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">context</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">kwarg1</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'kwarg1'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#tests.utils.valid_tuple_hook_function" title="Permalink to this definition"></a></dt>
+<dd><p>A invalid hook function used in testing</p>
+</dd></dl>
+
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="django_adminlte_2.templatetags.admin.html" class="btn btn-neutral float-left" title="django_adminlte_2.templatetags.admin package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, David Barnes.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
