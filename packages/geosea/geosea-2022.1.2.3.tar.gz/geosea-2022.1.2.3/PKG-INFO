@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: geosea
+Version: 2022.1.2.3
+Summary: A processing package for seafloor geodesy
+Project-URL: Homepage, https://github.com/flpetersen/geosea-app
+Author-email: "Dr. Florian Petersen" <florianpetersen@gmx.net>
+License: MIT License
+        
+        Copyright (c) 2020 Florian Petersen GEOMAR Helmholtz Centre for Ocean Research Kiel, Kiel Germany
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+
+![PyPI - License](https://img.shields.io/pypi/l/geosea?style=plastic)
+![PyPI - Version](https://img.shields.io/pypi/v/geosea?style=plastic)
+
+
+# Project Description
+
+
+Geosea is an open tool box for seafloor geodetic data processing of dircet-path ranging. It supplies a variety of functions to process acoustic baselines and analyze ground movement. 
+
+
+# Dependencies
+
+
+sciPy: miscellaneous statistical functions
+
+matplotlib: for plotting
+
+pandas: data structures and data analysis tool
+
+numPy: 1.7.1 or higher
+
+obspy: for date and time types
+
+
+# Import of GeoSEA Module
+
+import geosea 
+
+# Functions
+
+
+**Read raw csw files into an pandas DataFrame:**
+
+geosea.read(sal=None ,phi=None, starttime=None, endtime=None, pathname=None, writefile=True, writevariable=True, dateformat=None)
+
+Calculates the sound velocity from temperature in °C, pressure in kPa and constant salinity in PSU. 
+
+**Complete Baseline processing of horizontal and vertical changes in time:**
+
+geosea.bsl(ID=None, st_series=None, bsl_series=None, outlier_flag=False, pathname=None, starttime=None, endtime=None, writefile=True, dateformat=None)
+
+
+
+Parameters:
+            SAL                     constant salinity value in PSU
+            phi                     Latitude for Leroy formular in XX.X°         
+            pathname                Pathname of raw CSV Data files
+            outlier_flag            Cuts outlier mesurements automatically (Default = None)
+            writefile               Save output data to csv data format (Defulat = True)
+            dateformat              GMT_DATEFORMAT or MATLAB_DATEFORMAT
+            
+            
+            
+
+
+
+
+
+
