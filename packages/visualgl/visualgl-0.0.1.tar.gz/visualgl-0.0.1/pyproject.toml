@@ -1,0 +1,57 @@
+[tool.poetry]
+name = "visualgl"
+version = "0.0.1"
+description = "A Python library for visualizations with OpenGL."
+authors = ["James Schwartz <james@schwartz.engineer>"]
+keywords = ["opengl", "glfw", "3d", "scene", "mesh"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/jbschwartz/visualgl"
+repository = "https://github.com/jbschwartz/visualgl"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Topic :: Multimedia :: Graphics :: 3D Rendering",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Mathematics"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+glfw = "^2.5.4"
+numpy = "^1.23.1"
+PyOpenGL = "^3.1.6"
+PyOpenGL-accelerate = {version = "^3.1.6", optional = true}
+spatial3d = "^0.7.0"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+mypy = "^0.971"
+pydocstyle = "^6.1.1"
+pylint = "^2.14.5"
+coverage = "^6.4.3"
+toml = "^0.10.2"
+
+[tool.poetry.extras]
+extras = ["PyOpenGL-accelerate"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"
+
+[tool.pydocstyle]
+match='(?!test_).*\.py'
+ignore = "D100, D203"
+
+[tool.pylint.'MESSAGES CONTROL']
+disable = "C0114"
+good-names = "x,y,z"
