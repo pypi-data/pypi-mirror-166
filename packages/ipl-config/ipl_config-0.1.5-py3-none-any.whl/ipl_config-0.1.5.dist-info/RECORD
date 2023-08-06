@@ -1,0 +1,10 @@
+ipl_config/__init__.py,sha256=cnX7_rD5qzCalYmSP2x61QnIyiLoiuoJBCnZ6eyY-qg,65
+ipl_config/_optional_libs.py,sha256=PB1E59GhVc0ogzYAaX90szuDsTyDKP4eLcyjHyRlwL0,654
+ipl_config/dumploads.py,sha256=MnigKeztWeRKoLxgUu0yGg-T1zxvRzsA_4YgXb5CUcI,3462
+ipl_config/settings.py,sha256=2T-p-iybfEYz7wtnjbVbg40gITc_IuI9eSFsENuI_OY,4953
+ipl_config/source.py,sha256=wUwOsYjtJSa-4LmofGMLN_4lid7FGK1VTGUHiWCeuy4,7646
+ipl_config/utils.py,sha256=BAIzhmw6umkLt3adbzi4MWooLi0wUoujClextA5dtiI,930
+ipl_config-0.1.5.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipl_config-0.1.5.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+ipl_config-0.1.5.dist-info/METADATA,sha256=ERlAXZSfLjhsuJGqbnhHLBdrPpYpEaAv5m80_ugHM4E,2172
+ipl_config-0.1.5.dist-info/RECORD,,
