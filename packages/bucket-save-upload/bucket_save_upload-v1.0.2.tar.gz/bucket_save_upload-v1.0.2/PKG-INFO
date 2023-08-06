@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: bucket_save_upload
+Version: v1.0.2
+Summary: Save and upload to GCS buckets in a parallel fashion.
+Home-page: https://github.com/NeobrainData/bucket-save
+Author: Rennan Valadares
+Author-email: rennanvoa2@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/NeobrainData/bucket-save-upload/archive/refs/tags/v1.0.2.tar.gz
+Description: UNKNOWN
+Keywords: GCS,Google Cloud Storage,bucket,upload
+Platform: UNKNOWN
