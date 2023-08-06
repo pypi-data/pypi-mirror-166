@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+is_empty/Test.py
+is_empty/__init__.py
+is_empty/empty.py
+is_empty.egg-info/PKG-INFO
+is_empty.egg-info/SOURCES.txt
+is_empty.egg-info/dependency_links.txt
+is_empty.egg-info/top_level.txt
