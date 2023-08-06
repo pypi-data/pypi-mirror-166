@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyxart
+Version: 0.1.1
+Summary: Python implementation of Asynchronous Ratchet Trees
+License: MIT
+Author: Pranay Anchuri
+Author-email: pranay@xmtp.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: XEdDSA (>=0.6.0,<0.7.0)
+Requires-Dist: cryptography (>=37.0.4,<38.0.0)
+Requires-Dist: matplotlib (>=3.5.3,<4.0.0)
+Requires-Dist: networkx (>=2.8.6,<3.0.0)
+Requires-Dist: pynacl (>=1.5.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# pyxart
+Python implementation of Asynchronous Ratchet Trees
+
+# references
+
+- https://research.facebook.com/publications/on-ends-to-ends-encryption-asynchronous-group-messaging-with-strong-security-guarantees/
