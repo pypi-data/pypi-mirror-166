@@ -1,0 +1,9 @@
+libpsf.cpython-39-x86_64-linux-gnu.so,sha256=Gu3L5Z69rbAUipWf7ZMuCyBdQw7hgUn54gP4HFEOEbw,2040560
+libpsf.libs/libpsf-747b0b47.so.0,sha256=jWwsdEAy_pHTMuRHqnIUDPlYt9-GL7bgAF_Ibd8n3VA,4122536
+libpsf.libs/libboost_python39-91520cc8.so.1.80.0,sha256=BYYrLBEk9ImhKH2rP2Yo9zlWYXWzPz5pVIkaZC2fVTo,480608
+libpsf-0.1.4.dist-info/RECORD,,
+libpsf-0.1.4.dist-info/METADATA,sha256=CBQPRmpw8cNLvatIkTnAPX23V5LJZ1fIKQTi9sPgpwA,1952
+libpsf-0.1.4.dist-info/WHEEL,sha256=FNUt4eBsrBVn_Yc5KG3aXtKE40X3uNZrbGLNCbVxyFw,148
+libpsf-0.1.4.dist-info/top_level.txt,sha256=URXNuYyI7MvuXJVtb_aOXI21Y2dXSGyo1Bnd9G0N2Sg,13
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_psfdataset.py,sha256=8xZLp8aIMi8YKY9najFGfApdY0q04lOpY4jWz49MqIw,1942
