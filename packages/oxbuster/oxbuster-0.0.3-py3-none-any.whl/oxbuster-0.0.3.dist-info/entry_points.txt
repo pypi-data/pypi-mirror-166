@@ -1,0 +1,2 @@
+[console_scripts]
+oxbuster = oxbuster:main
