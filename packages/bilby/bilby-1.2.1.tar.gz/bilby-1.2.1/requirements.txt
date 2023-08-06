@@ -1,0 +1,11 @@
+dynesty<1.1
+emcee
+corner
+numpy
+matplotlib>=2.1
+scipy>=1.5
+pandas
+dill
+tqdm
+h5py
+attrs
