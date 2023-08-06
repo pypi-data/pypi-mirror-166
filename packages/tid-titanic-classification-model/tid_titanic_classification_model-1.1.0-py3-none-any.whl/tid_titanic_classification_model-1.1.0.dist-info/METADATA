@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tid-titanic-classification-model
+Version: 1.1.0
+Summary: Example Titanic classification model package
+Home-page: https://github.com/edcalderin/deployment-titanic-classification-model
+Author: Edcalderin
+Author-email: edcm.erick@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: feature-engine (<1.4.0,>=1.1.0)
+Requires-Dist: joblib (<1.1.0,>=1.0.1)
+Requires-Dist: strictyaml (<1.6.2,>=1.5.0)
+Requires-Dist: numpy (<1.23.0,>=1.21.0)
+Requires-Dist: pandas (<1.4.3,>=1.3.5)
+Requires-Dist: pydantic (<1.9.0,>=1.8.1)
+Requires-Dist: scikit-learn (<1.1.2,>=1.0.0)
+
+# Titanic Classifier
