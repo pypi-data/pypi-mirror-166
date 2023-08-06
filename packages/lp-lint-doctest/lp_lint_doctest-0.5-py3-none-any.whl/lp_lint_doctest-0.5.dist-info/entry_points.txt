@@ -1,0 +1,2 @@
+[console_scripts]
+lp-lint-doctest = lp_lint_doctest.checkdoctest:main

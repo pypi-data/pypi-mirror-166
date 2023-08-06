@@ -1,0 +1,12 @@
+lp_lint_doctest/__init__.py,sha256=4FdYq1QhEnfseFtVXCMw_8wLQbaC3UXVBIhzGsP6C-8,20
+lp_lint_doctest/checkdoctest.py,sha256=5dB5Ln5RZ7fLLsY3yUAtsPAHW_afbZrvUpp0VuoFUw8,12103
+lp_lint_doctest/reporter.py,sha256=mxuqrXl3LgBBFFJZywBwZsBX2yN_nWjneUQwf_9SGKs,2381
+lp_lint_doctest/tests/__init__.py,sha256=MF8kwZ8xLfHSiDNLhSZcxCRFFdaLIv1Sj5UwRE-xtRQ,788
+lp_lint_doctest/tests/test_doctest.py,sha256=K6AVsUFw_wT3y30HVpzakgK2XFrmW0r4QpcrOp8cFSI,7665
+lp_lint_doctest/tests/test_reporter.py,sha256=gn3oeojTVJLXCm83MPX9HW6V8X_yugh36hwtvc9gz4U,631
+lp_lint_doctest-0.5.dist-info/LICENSE,sha256=36VrVBjP_BjbNfse1XQK6ECfOGQUOPCpGov4BxGedFE,1116
+lp_lint_doctest-0.5.dist-info/METADATA,sha256=TYhCBHgMGVNpLYCfE9hC694pN3IRqbOJVMl6MHBKR8U,3848
+lp_lint_doctest-0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lp_lint_doctest-0.5.dist-info/entry_points.txt,sha256=hbd2yxEwRr23ylbtj2J5lJOFDB0DF01O-IuEcV98zJY,70
+lp_lint_doctest-0.5.dist-info/top_level.txt,sha256=r1WG37U6i-x36Mvcjv7Fj2kkSlnzGfCdV5PDmRsga0E,16
+lp_lint_doctest-0.5.dist-info/RECORD,,
