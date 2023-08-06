@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: aioice-no-netifaces
+Version: 0.7.7.post3
+Summary: Jeremy Lainé's aioice library wihtout netifaces dependency
+Home-page: https://github.com/ollipal/aioice-no-netifaces
+Author: Olli Paloviita
+Author-email: olli.paloviita@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dnspython (>=2.0.0)
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+
+# aioice-no-netifaces
+
+`aioice-no-netifaces` is a fork from [aioice](https://github.com/aiortc/aioice), which does not require netifaces library.
+
+## Why?
+
+- Netifaces [is no longer maintained](https://github.com/al45tair/netifaces)
+- Installing on Python3.10 requires Microsoft Visual C++ 14.0 or greater on Windows, as there are no pre built binaries
+
+This fork gets the host IP address with pure Python [workaround](https://stackoverflow.com/a/28950776), which does not require Microsoft Visual C++.
+
+## Caveats:
+
+- This library does not support ipv6 (which the original `aioice` does support)
+- Currently this library uses only the primary ipv4 address (`aioice` can use all of the ip4 addresses)
+
+## License
+
+`aioice-no-netifaces` is released under the same BSD license as the original `aioice` library.
+
+## Development
+
+Install: `pip install .[dev]`
+
+Build: `python setup.py bdist_wheel`
+
+Release: `twine upload dist/*` 
+
