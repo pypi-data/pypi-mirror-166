@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pytopdrawer
+Version: 0.0.0
+Summary: draw top files in matplotlib/smpl
+Home-page: https://github.com/APN-Pucky/pytopdrawer
+Author: APN
+Author-email: APN-Pucky@no-reply.github.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: smpl
+Requires-Dist: requests
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: validators
+
+# pytopdrawer
+
+This project plots .top files.

@@ -1,0 +1,14 @@
+#!python
+import argparse
+import pytopdrawer
+
+
+def __main__():
+	parser = argparse.ArgumentParser()
+	parser.add_argument("topfile", type=str,help="url/file/string")
+	args = parser.parse_args()
+	tops = pytopdrawer.read(args.topfile)
+	for t in tops:
+		t.show()
+
+__main__()
