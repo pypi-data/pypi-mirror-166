@@ -1,0 +1,13 @@
+faster_sentiment/__init__.py,sha256=5AIRthF3DXOf_5W-n6Twkh649CUI51ZZjrmbRUqftSo,169
+faster_sentiment/cli.py,sha256=kQeUpH_z6Ym_lIZ3DiWM49QmwmkAR1-nZRZg039xHBQ,426
+faster_sentiment/faster_sentiment.py,sha256=wl1hwovG_BKp_QBrdP-ole-S3g7WNg3SNAI8cZzgHpc,9700
+faster_sentiment/utils/__init__.py,sha256=muGnTBZyRMXyPOAuEr8EP01t6PM3qxWwIGvnH5DGScQ,601
+faster_sentiment/utils/example.py,sha256=mP_cs-rd8ISlMfLaYOrAbLnX6SfVR14htKoMIjYOazg,4090
+faster_sentiment/utils/tools.py,sha256=2BTO08Z0PBXupTnz-bJ5p1lhaQMdp_AuVPMNRErFIhY,804
+faster_sentiment-0.1.0.dist-info/AUTHORS.rst,sha256=53_Xxv3FMvVas7pG9e7f42SZMWUHS3vZLRXo-pubLe4,150
+faster_sentiment-0.1.0.dist-info/LICENSE,sha256=bdX4rTClZQN6rjUmDkfH_TgRGSXd9cIMtZ6qt3lNFmg,1066
+faster_sentiment-0.1.0.dist-info/METADATA,sha256=FUIr2J8h-6Ze-qGTBN4ld8jZxPzmTE1xPdTfgVL3tSw,1868
+faster_sentiment-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+faster_sentiment-0.1.0.dist-info/entry_points.txt,sha256=03Sk-32MLaR_3JOx1xyukbsOFEoITPniKbmYb1CzBp4,63
+faster_sentiment-0.1.0.dist-info/top_level.txt,sha256=MGrSVzM8ua5vpxcKPfCx9emijKLusMZbiQO_K4wF74g,17
+faster_sentiment-0.1.0.dist-info/RECORD,,
