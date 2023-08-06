@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: teke
+Version: 0.0.1
+Summary: A lightweight ASGI framework
+Project-URL: Documentation, https://github.com/mrkiura/teke
+Project-URL: Issues, https://github.com/mrkiura/teke/issues
+Project-URL: Source, https://github.com/mrkiura/teke
+Author-email: Alex Kiura <kiuraalex@gmail.com>
+Keywords: ASGI
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.10
+Requires-Dist: anyio
+Requires-Dist: pytest
+Requires-Dist: pytest-cov
+Requires-Dist: uvicorn
+Requires-Dist: uvloop
+Requires-Dist: werkzeug
+Description-Content-Type: text/markdown
+
+# Teke
+
+Teke is a lightweight [ASGI](https://asgi.readthedocs.io/en/latest/) framework that you can use to create fast async REST APIs with Python.
+
+## Requirements
+
+Python 3.10+
+
+## Installation
+
+```shell
+$ pip install teke
+```
+
+You'll also want to install an ASGI server, such as [uvicorn](http://www.uvicorn.org/), [daphne](https://github.com/django/daphne/), or [hypercorn](https://pgjones.gitlab.io/hypercorn/).
+
+```shell
+$ pip install uvicorn
+```
+
+## Example
+
+**example.py**:
+
+```python
+from teke import JsonResponse, Router, create_app
+
+router = Router()
+
+@router.route("/hello/<name>")
+async def hello(connection, name):
+    return JsonResponse({"hello": name})
+
+app = create_app(routers=[router])
+```
+
+Then run the application using Uvicorn:
+
+```shell
+$ uvicorn example:app
+```
+
+Run uvicorn with `--reload` to enable auto-reloading on code changes.
+
+For a more complete example, see examples[here](https://github.com/mrkiura/teke/examples).
+
+## Coming soon:
+* WebSocket support
+* Lifecycle hooks
+* CORS middleware
+
+## Dependencies
+
+teke depends on the following python packages:
+* anyio
+* uvloop
+* Werkzeug
