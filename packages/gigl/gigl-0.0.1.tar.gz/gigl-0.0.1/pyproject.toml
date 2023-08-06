@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gigl"
+version = "0.0.1"
+authors = [
+  { name="Shubham Vij", email="svij@snapchat.com" },
+]
+description = "TODO"
+readme = "README.md"
+license = { file="BSD 3-Clause" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Other/Proprietary License",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Snapchat/gigl"
+"Bug Tracker" = "https://github.com/Snapchat/gigl/issues"

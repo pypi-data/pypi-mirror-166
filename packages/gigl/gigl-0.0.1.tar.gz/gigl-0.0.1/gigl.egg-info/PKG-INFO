@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gigl
+Version: 0.0.1
+Summary: TODO
+Author-email: Shubham Vij <svij@snapchat.com>
+Project-URL: Homepage, https://github.com/Snapchat/gigl
+Project-URL: Bug Tracker, https://github.com/Snapchat/gigl/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# TODO
+
+More info to come.
