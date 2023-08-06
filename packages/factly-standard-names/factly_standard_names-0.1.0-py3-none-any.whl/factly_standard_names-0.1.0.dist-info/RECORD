@@ -1,0 +1,8 @@
+factly/standard_names/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+factly/standard_names/country.csv,sha256=ME7udEJk8XBJ6-Tbc9O8wDfZcSzUP7fnar_Q7iq0YtQ,2546
+factly/standard_names/country.py,sha256=TJYzg7GI3jW8blmzJzbYCVCqoP0aflZ5LCXMuMT44Ro,2087
+factly/standard_names/state.csv,sha256=aNozizpF_Rhv_zSUGHwRyCZkC8NhhWzc6U2WgxY6K3A,633
+factly/standard_names/states.py,sha256=uApzF1RbWirVstJuw-dyP0NwFf5QP-mqVpWHUujpUPg,2793
+factly_standard_names-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+factly_standard_names-0.1.0.dist-info/METADATA,sha256=G7YJwG0g1Ffj5qmwF4Er0jfSU6BQRbrqKQafL1x-NAw,322
+factly_standard_names-0.1.0.dist-info/RECORD,,
