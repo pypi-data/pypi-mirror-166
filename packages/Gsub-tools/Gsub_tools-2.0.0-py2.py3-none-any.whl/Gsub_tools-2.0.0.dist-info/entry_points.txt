@@ -1,0 +1,5 @@
+[Gsub_tools]
+Gsub_tools = __init__
+
+[console_scripts]
+Gsub_tools = Gsub_tools.submission_GenBank_UI:IU_parser
