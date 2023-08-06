@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+changes.md
+setup.cfg
+setup.py
+src/poexceltool/__init__.py
+src/poexceltool/poexcel.py
+src/poexceltool/pokus-excel.py
+src/poexceltool.egg-info/PKG-INFO
+src/poexceltool.egg-info/SOURCES.txt
+src/poexceltool.egg-info/dependency_links.txt
+src/poexceltool.egg-info/entry_points.txt
+src/poexceltool.egg-info/requires.txt
+src/poexceltool.egg-info/top_level.txt
+src/poexceltool.egg-info/zip-safe

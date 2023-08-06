@@ -1,0 +1,7 @@
+click
+polib
+openpyxl
+tqdm
+
+[:python_version < "3.0"]
+argparse
