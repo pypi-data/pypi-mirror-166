@@ -1,0 +1,3 @@
+[console_scripts]
+seppmail-converter=seppmail_converter.main:entry
+
