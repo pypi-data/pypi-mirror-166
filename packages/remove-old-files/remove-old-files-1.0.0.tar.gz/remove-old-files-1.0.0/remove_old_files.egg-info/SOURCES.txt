@@ -1,0 +1,10 @@
+README.md
+setup.py
+remove_old_files/__init__.py
+remove_old_files/main.py
+remove_old_files.egg-info/PKG-INFO
+remove_old_files.egg-info/SOURCES.txt
+remove_old_files.egg-info/dependency_links.txt
+remove_old_files.egg-info/entry_points.txt
+remove_old_files.egg-info/not-zip-safe
+remove_old_files.egg-info/top_level.txt
