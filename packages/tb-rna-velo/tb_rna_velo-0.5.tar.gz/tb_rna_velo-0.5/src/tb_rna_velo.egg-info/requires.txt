@@ -1,0 +1,9 @@
+anndata
+matplotlib
+pandas
+scikit_learn
+scipy
+scvelo
+seaborn
+tensorflow
+numpy==1.20
