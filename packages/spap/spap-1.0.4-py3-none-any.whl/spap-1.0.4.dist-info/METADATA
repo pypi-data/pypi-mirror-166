@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: spap
+Version: 1.0.4
+Summary: This program can analyze symmetry and compare similarity of atomic structures.
+Home-page: https://github.com/chuanxun/StructurePrototypeAnalysisPackage
+Author: Chuanxun Su
+Author-email: sucx@ustc.edu.cn
+License: GPL
+Keywords: crystal structure,prototype,spap,similarity comparison,clustering,pattern recognition,AI,structure prediction,DFT,CALYPSO
+Platform: Independent
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+Requires-Dist: spglib
+Requires-Dist: ase
+
+Structure Prototype Analysis Package (SPAP) can analyze symmetry and compare similarity of a large number of atomic structures. Typically, SPAP can process structures predicted by CALYPSO (www.calypso.cn).
+
+
