@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "py-tictoc-timer"
+version = "1.1.2"
+description = "Time the execution of Python code using syntax similar to MATLAB's tic and toc functions."
+readme = "README.md"
+authors = ["Chris Mahoney <chrismahoney@hotmail.com>"]
+license = "MIT"
+repository = "https://github.com/chrimaho/py-tictoc-timer.git"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4"
+typeguard = "~2.13"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+black = "~22.8"
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+mypy = "~0.971"
+pytest = "~7.1"
+pytest-clarity = "~1.0"
+pytest-cov = "~3.0"
+pytest-sugar = "~0.9"
+pytest-icdiff = "~0.6"
+pytest-xdist = "~2.5"
+
+[tool.pytest.ini_options]
+# https://docs.pytest.org/en/6.2.x/customize.html#pyproject-toml
+# Directories that are not visited by pytest collector:
+norecursedirs =["hooks", "*.egg", ".eggs", "dist", "build", "docs", ".tox", ".git", "__pycache__"]
+doctest_optionflags = ["NUMBER", "NORMALIZE_WHITESPACE", "IGNORE_EXCEPTION_DETAIL"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
