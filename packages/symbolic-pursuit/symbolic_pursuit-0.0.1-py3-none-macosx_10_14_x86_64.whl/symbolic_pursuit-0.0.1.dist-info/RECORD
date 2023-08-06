@@ -1,0 +1,12 @@
+symbolic_pursuit/__init__.py,sha256=WQSRoc58Tlsr5msNA0qPBN8DyQYbjQlpsn5HRtDKAFI,94
+symbolic_pursuit/logger.py,sha256=VuKkYFmkitj0TWjlR8vpXcU7864yfucCy0LVMu8Cng8,2779
+symbolic_pursuit/models.py,sha256=iCYXYhsxKJSp7qRtwRmiWew6mnPLLsXyZmNFAdYPspU,12486
+symbolic_pursuit/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+symbolic_pursuit/pysymbolic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+symbolic_pursuit/pysymbolic/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+symbolic_pursuit/pysymbolic/models/special_functions.py,sha256=OlfMqXxDP0ETR7ARvt2WYOLFVJijyaYpfUWqaw63hfk,7061
+symbolic_pursuit-0.0.1.dist-info/LICENSE,sha256=K4ZOvMN1p9Uw1RWKV3Mc0qcc9JXef_v70oYZejDl9_A,1073
+symbolic_pursuit-0.0.1.dist-info/METADATA,sha256=RFdTzv9uXOe9NU_GLk7vfXJz1X3-hw17y-C17eDpHh8,4351
+symbolic_pursuit-0.0.1.dist-info/WHEEL,sha256=HhKhGICBSJMJPieVsQfwGMw19wLwGB7u0F1Nfwyy6GY,108
+symbolic_pursuit-0.0.1.dist-info/top_level.txt,sha256=vukdDu1g3CdEkBNHSutcPfc9iwYnQ-mndDi3a23OhGY,17
+symbolic_pursuit-0.0.1.dist-info/RECORD,,
