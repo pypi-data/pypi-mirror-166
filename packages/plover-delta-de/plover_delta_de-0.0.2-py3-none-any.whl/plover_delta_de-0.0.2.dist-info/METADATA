@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: plover-delta-de
+Version: 0.0.2
+Summary: German (Delta) Layout for Plover
+Author: delta, Kaoffie
+License: UNKNOWN
+Keywords: plover plover_plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: plover (>=4.0.0.dev10)
+
+# Delta's German Stenography
+
+This is the system plugin for Delta's German stenography system, designed by [delta](https://github.com/YAMEROOOO) and implemented by Kaoffie.
+
+Layout: 
+```
+T- R- S- *- -+    -* -N -S -F
+N- P- K- F- >-    -R -P -K -T -e
+          E- I-  -A -U"
+```
+
+Steno order: `#SKFPTNR*>EIAU+*RNPSKFTe`
+
+## Dictionary Formats
+
+This system supports all regular dictionary formats, such as json. It also comes with support for two additional formats: **DSD**, and **DWD**. In both formats, keys within the left bank (`SKFPTNR*`), vowel bank (`EIAU`), and right banks (`-+*RNPSKFTe`) can be arranged in any order within the bank itself, and the final `-e` key is written as a capital `E`.
+
+
+### DSD Dictionaries
+
+```json
+{
+"STE.NUI": "steno",
+"STE.NUI.K*RAF": "stenograf",
+"STE.NUI.K*RA.PF*EA": "stenographie"
+}
+```
+
+### DWD Dictionaries
+
+Use `\,` to escape commas.
+
+```
+steno, STE.NUI
+stenograf, STE.NUI.K*RAF
+stenographie, STE.NUI.K*RA.PF*EA
+```
+

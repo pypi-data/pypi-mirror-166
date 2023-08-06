@@ -1,0 +1,6 @@
+[plover.dictionary]
+dsd = plover_delta_de:DeltaDictionary
+dwd = plover_delta_de:DeltaWordDictionary
+
+[plover.system]
+German Delta = plover_delta_de.system
