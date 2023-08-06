@@ -1,0 +1,4 @@
+include COPYING
+include *.txt
+include README.rst
+include whichcraft.py
