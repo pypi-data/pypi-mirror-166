@@ -1,0 +1,13 @@
+.pre-commit-config.yaml
+.pre-commit-hooks.yaml
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/pre_commit_gitlabci_lint.egg-info/PKG-INFO
+src/pre_commit_gitlabci_lint.egg-info/SOURCES.txt
+src/pre_commit_gitlabci_lint.egg-info/dependency_links.txt
+src/pre_commit_gitlabci_lint.egg-info/entry_points.txt
+src/pre_commit_gitlabci_lint.egg-info/top_level.txt
