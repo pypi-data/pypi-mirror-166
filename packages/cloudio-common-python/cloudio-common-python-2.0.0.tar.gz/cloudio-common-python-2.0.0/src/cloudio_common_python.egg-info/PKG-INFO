@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: cloudio-common-python
+Version: 2.0.0
+Summary: cloud.iO common package
+Home-page: https://cloudio.hevs.ch
+Author: HES-SO Valais, School of Engineering, Sion
+Author-email: thomas.sterren@hevs.ch
+License: MIT
+Project-URL: Bug Tracker, https://github.com/boozo-unlimited/cloudio-common-python/issues
+Project-URL: Source Code, https://github.com/boozo-unlimited/cloudio-common-python
+Project-URL: Documentation, https://github.com/boozo-unlimited/cloudio-common-python#cloudio-common-package
+Keywords: cloud.iO common library IoT cloud connector core utils mqtt
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Cloud.iO Common Package
+![python-version](https://img.shields.io/badge/python-3.x-blue.svg?style=flat)
+![version](https://img.shields.io/pypi/v/cloudio-common-python.svg)
+![](docs/images/coverage.svg)
+
+This project makes part of [cloud.iO](https://cloudio.hevs.ch/).
+
+The [cloudio-common-python](https://pypi.org/project/cloudio-common-python/) project contains 
+packages/modules used by other cloudio python packages.
+
+Packages provided:
+ - [core](src/cloudio/common/core)
+ - [mqtt](src/cloudio/common/mqtt)
+ - [utils](src/cloudio/common/utils)
+
+To install this package, enter the following command in a console:
+```bash
+$ pip install cloudio-common-python
+```
+
+For more details please refer to the internal documentation.
