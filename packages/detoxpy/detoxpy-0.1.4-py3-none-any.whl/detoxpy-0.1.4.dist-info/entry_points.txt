@@ -1,0 +1,4 @@
+[console_scripts]
+detox=detoxpy:cli.main
+detoxpy=detoxpy:cli.main
+
