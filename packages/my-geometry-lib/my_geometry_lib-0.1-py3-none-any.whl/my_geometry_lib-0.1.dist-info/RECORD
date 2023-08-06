@@ -1,0 +1,8 @@
+geometry/__init__.py,sha256=aDqZguGeznNiCowSjt-i7THb1LL1fZv-H16_jfAIdGk,146
+geometry/line.py,sha256=-4NkFhY6US_Y-T0QBdfvHTUiSeul9qpu7ACnddxNvkY,380
+geometry/point.py,sha256=BrKUOSLAFplS3RYb5iY-i21sG9n0W1Wp2uRaHFaqI0k,213
+geometry/triangle.py,sha256=1aS7tDNHTWO4JOUCvu3by5ZJ9I1g4HuBIf3m_UdZu5g,814
+my_geometry_lib-0.1.dist-info/METADATA,sha256=21HJz6AqsEWsVv62HJhWhuN_g7zV6fUsLpAQfSpPCe4,522
+my_geometry_lib-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+my_geometry_lib-0.1.dist-info/top_level.txt,sha256=RWbWhWYclEM-OFtXLCB4eLv-jxNnlJB-NPC2YM587Fo,9
+my_geometry_lib-0.1.dist-info/RECORD,,
