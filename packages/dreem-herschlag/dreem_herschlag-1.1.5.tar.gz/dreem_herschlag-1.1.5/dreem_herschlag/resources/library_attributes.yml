@@ -1,0 +1,7 @@
+mandatory:
+  - name # must be the same as in the ref_fasta
+optional:
+  - flank
+  - ROI_start  # 0-indexed
+  - ROI_stop   # 0-index
+  - sub-library # Sub-library of your construct

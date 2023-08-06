@@ -1,0 +1,76 @@
+# Where you store your data
+# -------------------------
+# your data must be organized this way:
+#|- /[path_to_data]
+#     |- samples.csv
+#     |- library.csv
+#     |- ref.fasta
+#     |- [your_sample_1]_R1_001.fastq.gz
+#     |- [your_sample_1]_R2_001.fastq.gz
+#     |- [your_sample_2]_R1_001.fastq.gz
+#     |- [your_sample_2]_R2_001.fastq.gz
+#     |- [your_sample_3]_R1_001.fastq.gz
+#     |- [your_sample_3]_R2_001.fastq.gz
+#     |- ...
+
+path_to_data: /Users/ymdt/src/data/Lauren 
+path_to_RNAstructure: /Users/ymdt/src/RNAstructure/exe
+fastq_zipped: False
+
+# The samples that you want to process today
+# ------------------------------------------
+# These names must correspond to
+#     - the sample column in samples.csv
+#     - the name of your data folders
+#
+# Nota bene: obviously, the name of your data folders must match the sample column of samples.csv
+
+samples:
+- 470
+- 471
+- 472
+- 473
+- 474
+- 475
+# - [your_sample_1]
+# - [your_sample_2]
+# - [your_sample_3]
+
+
+# The arguments to pass direcly to DREEM
+# --------------------------------------
+# More information about hese arguments here: https://github.com/jyesselm/dreem#run
+
+dreem_args:
+    overwrite: False                # Re-compute the bitvector if it already exists. Takes more time.
+    RNAstructure: False             # True if you want to run RNAstructure with DREEM (then fill-in RNAstructure_path above!!)
+    temperature: False              # Use samples.csv col 'temperature_k' as an input for RNAstructure
+    poisson: True                   # Add Poisson confidence interval
+    library: True                   # Use library.csv
+    samples: True                   # Use samples.csv
+
+# Print more information during run time
+verbose: True
+
+
+# There's a bunch of folders in output/. This option creates a folder such that:
+# /mh_only
+#   |- [your_sample_1].p
+#   |- [your_sample_2].p
+#   |- [your_sample_3].p
+#   ...
+
+mut_hist_only_folder: True
+
+## RUN ARGS
+# MODE: can be run_dreem or add_info.
+# run_dreem: run DREEM 
+# add-info: add data to targeted DREEM outputs
+mode: run_dreem 
+
+# use: uncomment what you want to use
+use_with_mode_add_info:
+#- library # Don't use library.csv with add_info mode
+#- samples # Don't use samples.csv with add_info mode
+- rnastructure # Don't add RNAstructure with add_info mode
+
