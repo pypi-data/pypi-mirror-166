@@ -1,0 +1,9 @@
+LICENSE
+README.md
+jinjarg.py
+setup.py
+jinjarg.egg-info/PKG-INFO
+jinjarg.egg-info/SOURCES.txt
+jinjarg.egg-info/dependency_links.txt
+jinjarg.egg-info/requires.txt
+jinjarg.egg-info/top_level.txt

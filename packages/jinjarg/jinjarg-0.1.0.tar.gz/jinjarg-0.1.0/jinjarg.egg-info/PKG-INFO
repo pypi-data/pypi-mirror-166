@@ -1,0 +1,35 @@
+Metadata-Version: 1.1
+Name: jinjarg
+Version: 0.1.0
+Summary: CLI-template renderer like m4 but based on jinja and argparse
+Home-page: https://github.com/strizhechenko/jinjarg
+Author: Oleg Strizhechenko
+Author-email: oleg.strizhechenko@gmail.com
+License: MIT
+Description: # jinjarg
+        
+        CLI-template renderer like m4 but based on jinja2 and argparse.
+        
+        ## Installation
+        
+        ``` shell
+        pip install jinjarg
+        ```
+        
+        ## Usage example
+        
+        Take a look at [example](/example) directory.
+        
+        ## Why
+        
+        There is jinja-cli and it's fine... until you need logic that doesn't fit in Jinja.
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
