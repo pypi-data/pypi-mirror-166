@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: camt-to-erpnext
+Version: 0.1.0
+Summary: 
+Author: barredterra
+Author-email: 14891507+barredterra@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+
+Expects a file in CSV-CAMT-Format, with the following columns:
+
+- Auftragskonto
+- Buchungstag
+- Valutadatum
+- Buchungstext
+- Verwendungszweck
+- Glaeubiger ID
+- Mandatsreferenz
+- Kundenreferenz (End-to-End)
+- Sammlerreferenz
+- Lastschrift Ursprungsbetrag
+- Auslagenersatz Ruecklastschrift
+- Beguenstigter/Zahlungspflichtiger
+- Kontonummer/IBAN
+- BIC (SWIFT-Code)
+- Betrag
+- Waehrung
+- Info
+
+Outputs a normal CSV file with the following columns:
+
+- Date
+- Deposit
+- Withdrawal
+- Description
+- Reference Number
+- Bank Account
+- Currency
+
