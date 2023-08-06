@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: py-base-layer
+Version: 1.0.0
+Summary: AWS lambda python runtime base layer libs
+Home-page: https://www.omoz.cc
+Author: ThinkTik
+Author-email: thinktik@outlook.com
+License: UNKNOWN
+Platform: any
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+
+这个是omoz.cc管理的运行在AWS lambda python runtime上的第三方基础依赖库集合
+
