@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aes-gcm-rsa-oaep
+Version: 0.1.0
+Summary: Kubeseal aes-gcm-rsa-oaep encryption implemented in python
+License: MIT
+Author: Sascha Desch
+Author-email: sascha.desch@hotmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cryptography (>=37.0.4,<38.0.0)
