@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "exp-manager"
+version = "0.1.1"
+description = ""
+authors = ["Arun Ramachandran <arun.jhurricane@gmail.com>"]
+readme = "README.md"
+packages = [{include = "exp_manager"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyYAML = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
