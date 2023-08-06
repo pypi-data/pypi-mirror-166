@@ -1,0 +1,20 @@
+import praw;
+
+def getinstance(path):
+    config_path = path 
+    config_file = config_path + "/" + "config.txt"
+    config_vars = {}
+    with open(config_file, "r") as file:
+        for line in file:
+            name, value = line.split("=")
+            config_vars[name] = value.strip()
+
+    instance = praw.Reddit(
+        client_id = config_vars["client_id"],
+        client_secret = config_vars["client_secret"],
+        password = config_vars["password"],
+        username = config_vars["username"],
+        user_agent = config_vars["user_agent"]
+    )
+    
+    return instance;
