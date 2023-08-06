@@ -1,0 +1,7 @@
+
+[dev]
+black==22.6.0
+pre-commit
+pytest
+pytest-subtests
+pytest-cov

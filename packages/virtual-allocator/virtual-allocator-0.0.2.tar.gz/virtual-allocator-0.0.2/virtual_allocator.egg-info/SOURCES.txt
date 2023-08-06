@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+virtual_allocator.py
+test/test_allocator.py
+virtual_allocator.egg-info/PKG-INFO
+virtual_allocator.egg-info/SOURCES.txt
+virtual_allocator.egg-info/dependency_links.txt
+virtual_allocator.egg-info/requires.txt
+virtual_allocator.egg-info/top_level.txt
