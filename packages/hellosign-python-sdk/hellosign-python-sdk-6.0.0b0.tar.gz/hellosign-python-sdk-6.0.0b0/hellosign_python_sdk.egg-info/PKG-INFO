@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hellosign-python-sdk
+Version: 6.0.0b0
+Summary: HelloSign API
+Home-page: 
+Author: OpenAPI Generator community
+Author-email: apisupport@hellosign.com
+License: MIT
+Keywords: OpenAPI,OpenAPI-Generator,HelloSign API
+Requires-Python: >=3.7
+License-File: LICENSE
+
+    HelloSign v3 API  # noqa: E501
+    
