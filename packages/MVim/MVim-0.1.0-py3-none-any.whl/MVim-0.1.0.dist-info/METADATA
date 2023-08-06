@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: MVim
+Version: 0.1.0
+Summary: Rename or move files by editing their names with vim.
+Home-page: http://cgit.bouttier.eu.org/mvim/
+Author: Élie Bouttier
+Author-email: elie+mvim@bouttier.eu.org
+License: LICENSE.rst
+License-File: LICENSE
+
+====
+MVim
+====
+
+MVim is a small tool to rename or move files by editing their names with vim.
+
+Known issues
+------------
+
+* Do not ask before overwriting existing destination files
+* Can not remove directories
