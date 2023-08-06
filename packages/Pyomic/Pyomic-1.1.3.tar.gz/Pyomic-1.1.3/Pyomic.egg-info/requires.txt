@@ -1,0 +1,12 @@
+ERgene
+numpy
+scanpy
+pandas
+matplotlib
+sklearn
+scipy
+networkx
+seaborn
+datetime
+statsmodels
+gseapy==0.10.8
