@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+myforestplot/__init__.py
+myforestplot/__version__.py
+myforestplot/cleaning_utils.py
+myforestplot/myforestplot.py
+myforestplot.egg-info/PKG-INFO
+myforestplot.egg-info/SOURCES.txt
+myforestplot.egg-info/dependency_links.txt
+myforestplot.egg-info/requires.txt
+myforestplot.egg-info/top_level.txt
