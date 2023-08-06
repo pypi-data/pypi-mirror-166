@@ -1,0 +1,15 @@
+vsscale/__init__.py,sha256=fWagRlFCWojF7hN2pF8CBPIZ302Ayieo8SQNVXWkrbs,293
+vsscale/_metadata.py,sha256=_klTcO1ZI7W6z_mT8Vu8AFuzczUlzObYmX623NChp0U,364
+vsscale/descale.py,sha256=HLI8UrMPtNf3OtWfzm59SRNakRhwrksqlTAMUEESki0,12435
+vsscale/exceptions.py,sha256=pgEiGUMwl1aUsVr6VmI0oUBRRFZeRqoSbBkA2zRj7F4,698
+vsscale/gamma.py,sha256=sclkhV3IuoLTcqIClTL1gpIxa4iggAEaiTKu0Rpjviw,2619
+vsscale/mask.py,sha256=bAhh9jj-JEfbVUAhay1viIGBwd1axoY-rTp6LFeWcLQ,4841
+vsscale/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vsscale/scale.py,sha256=nO7ovdUsXLfGGyXI1I0oKziIeqwxhHyzsqp8_MJrnzo,8372
+vsscale/types.py,sha256=HDiYXx7fZz2dUcsWlvXZZc2HZxKV8IZxjrXc5dxd8aI,6576
+vsscale/utils.py,sha256=GLA-FJmRsrkoN8PwptuYNXdWXYHfbDcfkkVJolDfCf8,551
+vsscale-1.0.1.dist-info/LICENSE,sha256=c7zRrcdsvNZLijyo88GQRpJcrBlQTR-ANFAUH1PCi24,1088
+vsscale-1.0.1.dist-info/METADATA,sha256=ccVp1gzP3vyHzcTgAH9I-yVdzrqw_ZEE4mHatnK7qbk,1338
+vsscale-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vsscale-1.0.1.dist-info/top_level.txt,sha256=e8d42HINOykR9B4ZI7um2m6KsbVFqUvimTZlgF-6meY,8
+vsscale-1.0.1.dist-info/RECORD,,
