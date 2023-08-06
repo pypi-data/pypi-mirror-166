@@ -1,0 +1,2 @@
+[console_scripts]
+bump-testclient = bump_testclient.main:app
