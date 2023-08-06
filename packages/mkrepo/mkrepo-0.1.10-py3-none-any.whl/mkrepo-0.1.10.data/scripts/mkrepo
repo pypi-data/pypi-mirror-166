@@ -1,0 +1,5 @@
+#!python
+
+import mkrepo
+
+mkrepo.main()
