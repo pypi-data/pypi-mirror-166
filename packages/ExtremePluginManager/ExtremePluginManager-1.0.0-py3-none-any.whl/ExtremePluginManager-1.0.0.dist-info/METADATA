@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: ExtremePluginManager
+Version: 1.0.0
+Summary: A powerful library for managing plugins in your Python application.
+Home-page: https://github.com/CPSuperstore/ExtremePluginManager
+Author: CPSuperstore
+Author-email: cpsuperstoreinc@gmail.com
+License: MIT Licence
+Project-URL: Bug Tracker, https://github.com/CPSuperstore/ExtremePluginManager/issues
+Keywords: Plugin,Manager
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Extreme Plugin Manager
+A library for effortlessly enabling and managing plugins in your Python application.
+
+This library provides you with complete control over which objects your plugins can and can not access.
+
+Additionally, this library provides powerful tools such as the ability to reroute all plugin STDOUT and easily spawn different types of background tasks.
+
+## Contents
+- [Installation](#Installation)
+- [Usage](#Usage)
+  - [The `ExtremePluginManager` Class](#the-extremepluginmanager-class)
+  - [The `Plugin` Class](#the-plugin-class)
+  - [The `BaseThread` Class](#the-basethread-class)
+  - [Plugin Conversions](#plugin-conversions)
+- [Plugin Creation Guide](#plugin-creation-guide)
+  - [Rerouting STDOUT](#rerouting-stdout)
+- [Limitations](#limitations)
+
+## Installation
+```shell
+pip install ExtremePluginManager
+```
+
+## Usage
+To start, you will simply need to instantiate the `ExtremePluginManager` class like so:
+
+```python
+import ExtremePluginManager
+
+manager = ExtremePluginManager.ExtremePluginManager("plugins")
+```
+
+### The `ExtremePluginManager` Class
+This class takes one mandatory, and several optional parameters.
+- `plugin_directory: path` - The path to where plugins are to be stored (mandatory)
+- `create_dir: bool = False` - If the plugin directory does not exist and this is `True`, it will be created, otherwise `ValueError` will be raised. 
+- `plugin_register_filename: str = "plugins.json"` - The name of the file to track which plugins are installed/enabled. This is automatically created in the `plugin_directory`
+- `start_event: str = "on_start"` - The name of the plugin function which will be triggered when the plugin is loaded. This event is managed automatically.
+- `end_event: str = "on_stop"` - The name of the plugin function which will be triggered when the plugin is unloaded/stopped. This event is managed automatically.
+- `builtin_funcs: dict = None` - A dictionary of custom builtin values to pass into each plugin. The key is the code reference name and the value is the object itself. These values can be variables or pointers to functions. Plugins can not access any objects from your project outside this dictionary.
+
+The `ExtremePluginManager` class also contains helpful methods. Please only use getters/setters to update properties instead of the private attributes (prefixed with an underscore `_`):
+- `reload_plugins()` - Reloads all plugins from disk and triggers the `start_event`. This can be a useful tool for plugin developers as they can reload their plugin from inside your app instead of needing to close and re-open each time.
+- `on_plugin_load(plugin)` - This is an event which can be overridden. Each time a plugin reads the code file from disk and executes, this event is triggered.
+- `execute_event(event: str, *args, **kwargs)` - Calls the function `event` in each plugin and passes in the `*args` and `**kwargs` parameters. This is how you trigger different plugin events. Plugins do not need to implement all of these functions, but you should keep a list of the available functions for your documentation. 
+- `execute_end_event()` - Triggers the `end_event` event for all plugins
+- `execute_start_event()` - Triggers the `start_event` event for all plugins
+- `search_by_id(plugin_id: str)` - Returns the plugin (as a `Plugin` object) with the corresponding `plugin_id` (set in the plugin config file)
+- `search_by_attribute(info_attribute: str, value, default=None)` - Returns a list of plugins  (as a `Plugin` object) which have the attribute `info_attribute` with the `value`. Use `default` for a default value in the event not all plugins will have the attribute
+- `install_plugin(path: path, enable: bool = True, overwrite: bool = True)` - Installs the plugin at the specified path to the plugin directory. If `enable` is `True` then the plugin will also be enabled and `start_event` will be triggered. If `overwrite` is set to `False` and a plugin already exists with the same name, an exception will be raised.
+- `uninstall_plugin(plugin_id: str, remove_files: bool = True)` - Uninstalls a plugin with the ID `plugin_id`. If `remove_files` is `True` then the files will be deleted as well (this can not be undone). If `False` then the plugin file will remain but would have been removed from the registry so will not load until it is installed once again.
+- `create_template_plugin(plugin_id: str, enable: bool = True) -> str` - Creates a template plugin in the directory format. Both the filename and plugin ID will be set to `plugin_id`. If `enable` is `True` then the template plugin will also be enabled. The full path to the plugin will then be returned. 
+- `enable_plugin(plugin_id: str)` - Marks the plugin with the ID `plugin_id` to enabled and triggers the `start_event` event
+- `disable_plugin(plugin_id: str)` - Marks the plugin with the ID `plugin_id` to disabled and triggers the `end_event` event
+- `set_plugin_state(plugin_id: str, state: bool)` - Marks the plugin with the ID `plugin_id` to `state` and triggers the corresponding event
+- `get_plugin_register()`  - Returns the current state of the plugin register
+- `get_plugin_directory()`  - Returns the path to the directory where the plugins are kept
+
+### The `Plugin` Class
+A plugin can be in a few different formats but regardless of the format, the `Plugin` class exposes the same methods. Most of these methods are also available to the plugin code. You can obtain this instance by using one of the search functions in the `ExtremePluginManager` class
+- `reload()` - Reloads the plugin code but **DOES NOT** trigger the `start_event`
+- `read_file(self, path: path, encoding: str = "utf-8") -> str` - Reads the file located at `path` and returns the contents as a string (decoded with `encoding` - used for plaintext files). Note that `path` should be relative to the root directory of your plugin.
+- `read_file_bytes(self, path: path) -> bytes` - Reads the file located at `path` and returns as bytes (used for binary files). Note that `path` should be relative to the root directory of your plugin. 
+- `write_file(self, path: path, contents: str, encoding: str = "utf-8")` - Writes `contents` to the files (encoded using `encoding`) to the file located at `path`. Note that `path` should be relative to the root directory of your plugin.
+- `write_file_bytes(self, path: path, contents: bytes)` - Writes `contents` into the file located at `path` (used for binary files). Note that `path` should be relative to the root directory of your plugin.
+- `remove_file(self, path: path)` - Removes the file located at `path`. Note that `path` should be relative to the root directory of your plugin.
+- `execute_event(event: str, *args, **kwargs)` - Executes the plugin function called `event` passing in `*args` and `**kwargs`
+- `kill()` - This method prevents the plugin from having future events triggerd and will no longer be visible to plugin searches. This will trigger the `end_event`
+
+### The `BaseThread` Class
+This class extends the `threadding.Thread` class but has three additional methods. This class is created when a plugin calls one of `start_background_task`, `start_delayed_task`, or `start_interval_task`.
+- `get_name() -> str` - Returns the name of the thread
+- `set_name(name: str)` - Sets the name of the thread
+- `kill()` - Terminates the thread immediately by raising a `ThreadKilledException`
+
+### Plugin Conversions
+Plugin formats can easily be converted between each other. The following conversion functions are availible:
+```python
+import ExtremePluginManager
+
+# convert directory format to zip format
+# you can optionally specify `zip_format` parameter to set the resulting format
+# can be "zip", "tar", "gztar","bztar", or "xztar".
+ExtremePluginManager.converter.directory_to_zip("src_directory", "dst_zip")
+
+# convert zip format to directory format
+ExtremePluginManager.converter.zip_to_directory("dst_zip", "src_directory")
+```
+
+## Plugin Creation Guide
+It should be noted that the `end_event` is automatically triggered when the application terminates.
+
+In addition to the builtins you have provided in the constructor, the following builtins are available by default.
+- `read_file(self, path: path, encoding: str = "utf-8") -> str` - Reads the file located at `path` and returns the contents as a string (decoded with `encoding` - used for plaintext files). Note that `path` should be relative to the root directory of your plugin.
+- `read_file_bytes(self, path: path) -> bytes` - Reads the file located at `path` and returns as bytes (used for binary files). Note that `path` should be relative to the root directory of your plugin. 
+- `write_file(self, path: path, contents: str, encoding: str = "utf-8")` - Writes `contents` to the files (encoded using `encoding`) to the file located at `path`. Note that `path` should be relative to the root directory of your plugin.
+- `write_file_bytes(self, path: path, contents: bytes)` - Writes `contents` into the file located at `path` (used for binary files). Note that `path` should be relative to the root directory of your plugin.
+- `remove_file(self, path: path)` - Removes the file located at `path`. Note that `path` should be relative to the root directory of your plugin.
+- `info()` - Returns a dictionary representing the contents of the plugin's `info.json`
+- `plugin_manager` - An attribute which is a reference to the `ExtremePluginManager` which contains this object
+- `plugin` - An attribute which is a reference to the actual `Plugin` class instance
+- `start_background_task(target: callable, *args, **kwargs)` - Calls the function `target` (please only pass in function references) with the parameters `*args`, and `**kwargs` to be run asynchronously
+- `start_delayed_task(delay: float, target: callable, *args, **kwargs)` - Calls the function `target` (please only pass in function references) with the parameters `*args`, and `**kwargs` to be run asynchronously after `delay` seconds have passed
+- `start_interval_task(interval: float, target: callable, *args, **kwargs)` - Calls the function `target` (please only pass in function references) with the parameters `*args`, and `**kwargs` to be run asynchronously every `interval` seconds
+
+### Rerouting STDOUT
+If you add a builtin with the reference name of `print` which takes the parameters `*args, sep=' ', end='\n', file=None` then all calls to `print` will be sent here instead of the default function. 
+You can then do what you wish with the output.
+
+## Limitations
+Currently, importing additional code files in your plugin is not supported. We are working on it.
+
+If you attempt to reference a builtin value for your plugin with an IDE such as `PyCharm`, it will flag the value as unknown. This is because we modify the Python compiler at runtime to know these values. We are also working on a fix for this too.
