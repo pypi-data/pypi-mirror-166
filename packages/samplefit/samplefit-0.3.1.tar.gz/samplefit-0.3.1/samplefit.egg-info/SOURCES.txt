@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+samplefit/Reliability.py
+samplefit/_BaseReliability.py
+samplefit/_BaseResultsReliability.py
+samplefit/__init__.py
+samplefit.egg-info/PKG-INFO
+samplefit.egg-info/SOURCES.txt
+samplefit.egg-info/dependency_links.txt
+samplefit.egg-info/requires.txt
+samplefit.egg-info/top_level.txt
