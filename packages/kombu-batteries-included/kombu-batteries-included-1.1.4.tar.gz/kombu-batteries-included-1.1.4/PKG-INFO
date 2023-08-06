@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kombu-batteries-included
+Version: 1.1.4
+Summary: Batteries-included library for Polaris services using Kombu
+Home-page: https://github.com/polaris-foundation/kombu-batteries-included
+Keywords: Polaris,kombu,rabbitmq,amqp
+Author: Jon Daly
+Author-email: jonathan.daly@sensynehealth.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: environs (>=9.0.0,<10.0.0)
+Requires-Dist: kombu (>=5.0.0,<6.0.0)
+Requires-Dist: she-logging (>=1.0.0,<2.0.0)
+Project-URL: Repository, https://github.com/polaris-foundation/kombu-batteries-included
