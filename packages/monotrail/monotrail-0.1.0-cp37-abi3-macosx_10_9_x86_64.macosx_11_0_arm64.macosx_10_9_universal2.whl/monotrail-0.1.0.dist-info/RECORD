@@ -1,0 +1,11 @@
+monotrail-0.1.0.dist-info/METADATA,sha256=Is8T1KoeJVbpGGl7tHyT34diClApNnzLD9QAfhmckrM,10608
+monotrail-0.1.0.dist-info/WHEEL,sha256=I6HWtVqES-SaAXynnsSTpnVdA8DyHckZCetaVGOn-0w,145
+monotrail-0.1.0.dist-info/entry_points.txt,sha256=CCdO9KekBVj-mSb4m5nnZmjLq2bMH9hKv3x7tAGK7Zc,104
+monotrail/_monotrail_finder.py,sha256=TTwHV3yBwMgEyDlaQYnOU6kY84Bx5Qx6yB2yjts2wqw,12197
+monotrail/run_script.py,sha256=y6HiIit6IbVuOudIpv9U1FqHECWi69LQdb1ogQDjrAE,3261
+monotrail/_load_monotrail.py,sha256=KTUwYSPC6rIhvohRAnbfFvwBQO31f59tMPqF3XaPr4A,1241
+monotrail/run_python.py,sha256=D7nCVLLxV0P5rE1wuwYMz_T0swbQvmEf--AOks0RHIU,1271
+monotrail/monotrail.pyi,sha256=D1ORK3yvif-7YLOjrCc2pcLVsHFtSajTC-pVL0YyGPQ,2183
+monotrail/__init__.py,sha256=bDaeXntsJiJL-lkaZUnl0q5rs-pkGSgLTY1dUvHIE8M,2226
+monotrail/monotrail.abi3.so,sha256=i6ZFhiemQyjUsvXREGHdLtuSfEbcvk6G_nojHwtVSHs,16552591
+monotrail-0.1.0.dist-info/RECORD,,

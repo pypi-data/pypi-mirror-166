@@ -1,0 +1,3 @@
+[console_scripts]
+monotrail_python=monotrail.run_python:main
+monotrail_script=monotrail.run_script:main
