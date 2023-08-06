@@ -1,0 +1,65 @@
+name: Package for PyPI
+
+on: [push]
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  pypi-sdist:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v3
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install --upgrade build
+    - name: Build Python source distribution
+      run: |
+        python3 -m build
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: listenbrainz-submit-sdist
+        path: dist/*
+    - name: Prepare GPG signing key
+      if: startsWith(github.ref, 'refs/tags/')
+      run: |
+        if [ -n "$CODESIGN_PGP_URL" ] && [ -n "$AWS_ACCESS_KEY_ID" ]; then
+          pip3 install awscli
+          aws s3 cp "$CODESIGN_PGP_URL" signkey.asc.enc
+          openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -in signkey.asc.enc -out signkey.asc -k "$CODESIGN_PGP_PASSWORD"
+          gpg --import signkey.asc
+          rm signkey.asc*
+          echo "CODESIGN=1" >> $GITHUB_ENV
+        else
+          echo "::warning::No signing key available, skipping code signing."
+        fi
+      env:
+        AWS_DEFAULT_REGION: eu-central-1
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        CODESIGN_PGP_URL: ${{ secrets.CODESIGN_PGP_URL }}
+        CODESIGN_PGP_PASSWORD: ${{ secrets.CODESIGN_PGP_PASSWORD }}
+    - name: Publish Python distribution to PyPI
+      if: startsWith(github.ref, 'refs/tags/')
+      run: |
+        pip install --upgrade twine
+        if [ "$CODESIGN" = '1' ]; then
+          twine upload --non-interactive --sign --identity "$CODESIGN_IDENTITY" dist/*
+        else
+          twine upload --non-interactive dist/*
+        fi
+      env:
+        TWINE_USERNAME: __token__
+        TWINE_PASSWORD: ${{ secrets.PYPI_UPLOAD_TOKEN }}
+        CODESIGN_IDENTITY: ${{ secrets.CODESIGN_IDENTITY }}
+    - name: Cleanup
+      if: env.CODESIGN
+      run: |
+        rm -rf "$HOME/.gnupg"

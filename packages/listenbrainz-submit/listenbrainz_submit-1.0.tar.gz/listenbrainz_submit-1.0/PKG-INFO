@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: listenbrainz_submit
+Version: 1.0
+Summary: Simple client library to submit listens to the ListenBrainz server
+Project-URL: Homepage, http://github.com/phw/python-listenbrainz-submit
+Project-URL: Bug Tracker, http://github.com/phw/python-listenbrainz-submit/issues
+Author-email: Philipp Wolfer <ph.wolfer@gmail.com>
+License: Copyright (c) 2018-2022 Philipp Wolfer <ph.wolfer@gmail.com>
+        
+        Permission is hereby granted, free of charge, to any person obtaining
+        a copy of this software and associated documentation files (the
+        "Software"), to deal in the Software without restriction, including
+        without limitation the rights to use, copy, modify, merge, publish,
+        distribute, sublicense, and/or sell copies of the Software, and to
+        permit persons to whom the Software is furnished to do so, subject to
+        the following conditions:
+        
+        The above copyright notice and this permission notice shall be
+        included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+        MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+        NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+        LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+        WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Python module to submit listens to the ListenBrainz service
+
+Simple python module to submit listens to the ListenBrainz server.
+
+Supports submitting single listens, now playing notifications and import of
+multiple listens. Automatically honors the ListenBrainz server's rate limits.
+
+
+## Usage
+
+```python
+import time
+from listenbrainz_submit import ListenBrainzClient, Track
+
+
+# The user's personal ListenBrainz token obtained from https://listenbrainz.org/profile/
+user_token = "..."
+client = ListenBrainzClient(user_token=user_token)
+
+# Prepare a track to submit
+track = Track(
+    artist_name="Dool",
+    track_name="Vantablack",
+    release_name="Here Now, There Then",
+    additional_info={
+        "listening_from": "My great music player",
+        "recording_mbid": "e225fb84-dc9a-419e-adcd-9890f59ec432",
+        "release_mbid": "aa1ea1ac-7ec4-4542-a494-105afbfe547d",
+        "artist_mbids": "24412926-c7bd-48e8-afad-8a285b42e131",
+        "tracknumber": 1,
+    }
+)
+
+# Inform ListenBrainz that this track is playing right now. ListenBrainz
+# will display this track on the user's listens page as being currently played.
+client.playing_now(track)
+```
+
+To actually submit a track as has been listened to call:
+
+```python
+# Submit the listen with a current timestamp
+client.listen(int(time.time()), track)
+```
+
+For details on the API usage please refer to the
+[ListenBrainz API documentation](https://listenbrainz.readthedocs.io/en/production/),
+especially the [Payload JSON details](https://listenbrainz.readthedocs.io/en/production/dev/json/#payload-json-details)
+which describes the metadata that can be submitted.
+
+
+# License
+
+listenbrainz-submit © 2018-2022 Philipp Wolfer ph.wolfer@gmail.com
+
+Published under the MIT license, see LICENSE for details.
