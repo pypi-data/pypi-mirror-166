@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: PyNodeCDN
+Version: 0.0.13
+Summary: A simple implementation for webservers that provides a cool, consistent route to NodeCDN on your site.
+Home-page: UNKNOWN
+Author: Eric Vicente
+Author-email: justaneric.c@gmail.com
+License: MIT
+Description: A simple implementation for webservers that provides a cool, consistent route to NodeCDN on your site. More features coming soon. 
+        
+        (Lastest on top)
+         - Added Version 0.0.13(added auto-server support)
+         - Added Version 0.0.12(fixed flask error)
+         - Added Version 0.0.11(fixed flask bug)
+         - Added Version 0.0.10(made flask changes)
+         - Added Version 0.0.9(made flask changes)
+         - Added Version 0.0.8(fixed error for flask)
+         - Added Version 0.0.7(fixed error for flask)
+         - Added Version 0.0.6(made flask changes)
+         - Added Version 0.0.5(made flask changes)
+         - Added Version 0.0.4(made flask available)
+         - Added Version 0.0.3
+         - Added Version 0.0.2
+        
+        Currently supports these: 
+        - Flask
+Keywords: JavaScript,Python,Webserver,Development
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
