@@ -1,0 +1,2 @@
+include SigProfilerTopographyCombiner/version.py
+include SigProfilerTopographyCombiner/source/*
