@@ -1,0 +1,19 @@
+qiskit-terra<0.22.0,>=0.20.2
+
+[dev]
+mqt.qmap[docs,test]
+
+[docs]
+sphinx>=5.1.1
+sphinx-rtd-theme
+sphinxcontrib-bibtex~=2.5
+sphinx-copybutton
+sphinx-hoverxref~=1.1.3
+pybtex>=0.24
+
+[docs:python_version < "3.10"]
+importlib_metadata>=3.6
+
+[test]
+pytest~=7.1.1
+mqt.qcec~=2.0.0rc7
