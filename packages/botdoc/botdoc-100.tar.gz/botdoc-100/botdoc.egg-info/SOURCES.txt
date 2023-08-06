@@ -1,0 +1,9 @@
+README.rst
+setup.py
+botdoc/__init__.py
+botdoc.egg-info/PKG-INFO
+botdoc.egg-info/SOURCES.txt
+botdoc.egg-info/dependency_links.txt
+botdoc.egg-info/not-zip-safe
+botdoc.egg-info/requires.txt
+botdoc.egg-info/top_level.txt
