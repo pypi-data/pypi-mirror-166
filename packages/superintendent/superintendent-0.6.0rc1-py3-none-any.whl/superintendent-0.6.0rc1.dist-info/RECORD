@@ -1,0 +1,12 @@
+superintendent/__init__.py,sha256=VmTeIMcOnNKDX6-OgRzFiNtUl202IpMcHxMGrIIRlBc,15705
+superintendent/_compatibility.py,sha256=h2YJTgfKsNN-Fo05k0Aonz6ghKClbWSfbPlzk4-zQ2c,310
+superintendent/base.py,sha256=zW0YPuA7fPsv973yyUadPnRi_Fb545DHTmFjkzIbmno,15655
+superintendent/db_queue.py,sha256=Y8TRjBZI2jP0jSq2exUOIpb_v2bZMh4ndxNia0uuALQ,12127
+superintendent/queueing_utils.py,sha256=9nzqL_laKMyUi9q5B0-gR2Zyc5eSJAdCJtb7wGoMHcc,1004
+superintendent/acquisition_functions/__init__.py,sha256=iL5FKm5mYGU1SMoYKcQX3qU3YO739iUathWci-mvvoA,2720
+superintendent/acquisition_functions/decorators.py,sha256=lR373WbOaIy7VkdPCBb3TcJdyhTh-y0PWVpimVqFqng,2898
+superintendent/distributed/__init__.py,sha256=9WNpdVLqMaMkkV1IcMZ_chVtKE4bsf03o6ONDgVedS0,78
+superintendent/distributed/serialization.py,sha256=sVMo16QpgqVmpRrT67_SsZNS9NqmyzB9M3Z1YZFuvio,1953
+superintendent-0.6.0rc1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+superintendent-0.6.0rc1.dist-info/METADATA,sha256=IRp79hmKqgkWiFdWlEr04CI6V3ed5KnzMuBrCP7_8nA,4770
+superintendent-0.6.0rc1.dist-info/RECORD,,
