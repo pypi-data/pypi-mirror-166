@@ -1,0 +1,2 @@
+[console_scripts]
+flake8-errmsg = flake8_errmsg:main
