@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: chico
+Version: 1.0.0
+Summary: utils package
+Home-page: https://github.com/hunglin59638/chico
+Author: Hung-Lin, Chen
+Author-email: hungln59638@gmail.com
+Maintainer: Hung-Lin, Chen
+Maintainer-email: hungln59638@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7,<4.0
+License-File: LICENSE
+Requires-Dist: SQLAlchemy (<2.0.0,>=1.4.40)
+
+# Chico
+
+Chico is a Python package for my utils.
+
+## Installation
+
+Install and update using [pip](https://pip.pypa.io/en/stable/getting-started/):
+
+```
+$ pip install -U chico
+```
+
+
