@@ -1,0 +1,11 @@
+pallapay/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pallapay/enums.py,sha256=oMVBv_at-TyuGB5qss96HW26g-vLiGmrRVsPGOz39vc,405
+pallapay/payment.py,sha256=Kkrp24Y17rYRyePt59aEizN9f6Dvhz8QTMXm9h7KPHc,2847
+pallapay/request.py,sha256=bHONMfGLNx77G40FhLX5wM6HYV2uQlsK2ouAQJ17x_w,1347
+pallapay/schema.py,sha256=3Li7Mf4GoZZur8wM25DehFjTaRkV-csNHa0CzkpyQpI,417
+pallapay/utils.py,sha256=AMch2ApdkqEQ4oK5m51PB0UE7q9DFH_-oA96h5_PPms,358
+python_pallapay-1.0.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+python_pallapay-1.0.0.dist-info/METADATA,sha256=zW1IY7EcUyKT9009alNWwx4gN-rw7Q9sT1f2LuvcHfw,8179
+python_pallapay-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_pallapay-1.0.0.dist-info/top_level.txt,sha256=qmA6Sa9BejK1bH3guHMOb1426HOEiC5Mr6kwqfauy8k,9
+python_pallapay-1.0.0.dist-info/RECORD,,
