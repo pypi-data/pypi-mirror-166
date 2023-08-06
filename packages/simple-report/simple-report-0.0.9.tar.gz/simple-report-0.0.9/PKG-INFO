@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: simple-report
+Version: 0.0.9
+Summary: Simple HTML report generation using Python
+Home-page: https://github.com/dougsgrott/simple-report
+Author: Douglas Sgrott
+Author-email: doug.sgrott@gmail.com
+License: MIT
+Requires-Python: >=3.6
+Provides-Extra: notebook
+License-File: LICENSE
