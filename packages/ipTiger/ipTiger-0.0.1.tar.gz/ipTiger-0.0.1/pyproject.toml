@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ipTiger"
+version = "0.0.1"
+authors = [
+  { name="FARHAN AHMED", email="contact@farhyn.com" },
+]
+description = "ipTiger is an python package for find ip address details such as country name, city name, latitude and longitude etc."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+dependencies = ["bs4","requests"]
+keywords = ["ipTiger","ip tiger","ipaddress","farhyn.com","proxy","check ip address","what is my ip address","find my ip address","ip details"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MDFARHYN/ipTiger"
+"Bug Tracker" = "https://github.com/MDFARHYN/ipTiger/issues"
