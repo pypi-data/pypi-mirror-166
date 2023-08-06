@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+LargeNumbers/LargeNumber.py
+LargeNumbers/LargeNumberFormat.py
+LargeNumbers/utils.py
+LargeNumbers.egg-info/PKG-INFO
+LargeNumbers.egg-info/SOURCES.txt
+LargeNumbers.egg-info/dependency_links.txt
+LargeNumbers.egg-info/requires.txt
+LargeNumbers.egg-info/top_level.txt
