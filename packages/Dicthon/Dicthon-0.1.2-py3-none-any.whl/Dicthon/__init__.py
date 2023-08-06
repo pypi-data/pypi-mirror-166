@@ -1,0 +1,1 @@
+from Dicthon.dictionary_api_entry import Dictionary_API_Entry
