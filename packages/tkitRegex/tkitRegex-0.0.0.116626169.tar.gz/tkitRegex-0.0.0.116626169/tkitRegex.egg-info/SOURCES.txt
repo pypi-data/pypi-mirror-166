@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+tkitRegex/__init__.py
+tkitRegex/email.py
+tkitRegex/re_scan.py
+tkitRegex/regex_dict.py
+tkitRegex/regex_plus.py
+tkitRegex/spam.py
+tkitRegex.egg-info/PKG-INFO
+tkitRegex.egg-info/SOURCES.txt
+tkitRegex.egg-info/dependency_links.txt
+tkitRegex.egg-info/requires.txt
+tkitRegex.egg-info/top_level.txt
