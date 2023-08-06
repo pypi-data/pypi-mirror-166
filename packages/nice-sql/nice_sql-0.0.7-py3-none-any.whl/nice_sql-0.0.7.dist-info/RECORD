@@ -1,0 +1,13 @@
+nicesql/__init__.py,sha256=xTXJTVPgNKHM9E-n1ELFDFmkSQ7D4YqooAAW6ya5P3o,122
+nicesql/shortcuts.py,sha256=FT8kRrXbx75_758IRY-2dPtVtDGPvhbpzpkuMlEQKq4,2337
+nicesql/sqlmodel.py,sha256=PzASL9rwdRu0T_gedB-954xt1B7iGH91qNqcJH0_zrQ,379
+nicesql/sqlresult.py,sha256=Xs5Woh1_btbHjOoovsy9y_ayKiv-3J4qS9E90wBNx-w,844
+nicesql/utils.py,sha256=mj8Cn79WbPY5TU6uZoXgRC2Lj__ihqYw7epyDVoKYuk,678
+nicesql/sqlengine/__init__.py,sha256=cnV86m7QQcT-g6gxl0FtARSpzzuHG5_bekVQvBY0OdA,496
+nicesql/sqlengine/base.py,sha256=nsD_FMGa70J4hL_nAvXJXFtBwQbOSegs5RhEnYrq0_U,291
+nicesql/sqlengine/mysql.py,sha256=Xl4usj8Lt0kx1_VCyXCx-RNADk75U4U5FQh1Iw686_w,1144
+nicesql/sqlengine/sqlite.py,sha256=Ge4ztzG4hV6Td1A7KUvG90mW9QfcqjJh-_RzIp4Iz2w,1039
+nice_sql-0.0.7.dist-info/METADATA,sha256=J7plcS5GBzx7LS1IjJe3cd7prswqCF_wNZjUMhVv2Hk,2653
+nice_sql-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nice_sql-0.0.7.dist-info/top_level.txt,sha256=zrxJdd-w3-cB8kIxMa4b_yz7D6WcJz-InBvW-rvaR50,8
+nice_sql-0.0.7.dist-info/RECORD,,
