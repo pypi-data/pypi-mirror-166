@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: funcs
+Version: 0.1.5
+Home-page: https://github.com/the-beee/utils
+Author: Ayoub Assis
+Author-email: assis.ayoub@gmail.com
+License: LICENSE
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
