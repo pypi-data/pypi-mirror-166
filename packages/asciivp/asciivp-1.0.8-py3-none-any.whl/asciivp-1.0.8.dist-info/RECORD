@@ -1,0 +1,10 @@
+ascii_video_player/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ascii_video_player/ascii_frames.py,sha256=E3ifThT7wpyROIh9bRajQYyuyMc2N12CdYaTtnV94Ps,1034
+ascii_video_player/asciivp.py,sha256=Fxr_QLSufl_a6Qp6uVaRJiELay1A_YT3ysq9cHvp9jk,1062
+ascii_video_player/play.py,sha256=tLULnCRLL2TuDUHWTzOimcyc6NEdk4mvYEG1xctRMJw,974
+asciivp-1.0.8.dist-info/LICENSE,sha256=K2qrlKZG53PtCazc0lo-xB5dkiOwD2XtXAu0yq_3HJE,1095
+asciivp-1.0.8.dist-info/METADATA,sha256=Fue3aGvOhOApJJBoRWXt6G1Sf2kf8nIsKqQ0nxztA94,3380
+asciivp-1.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+asciivp-1.0.8.dist-info/entry_points.txt,sha256=cT-5hvttochUkCWXSdyX8UU9xPSd3KlYqldkfuJFqmE,61
+asciivp-1.0.8.dist-info/top_level.txt,sha256=2rKUOASkUyuP29WQJlzXvWySEDymAWPE7-IozLmz0eM,19
+asciivp-1.0.8.dist-info/RECORD,,
