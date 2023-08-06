@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/linguarita_lucien-rowan/__init__.py
+src/linguarita_lucien-rowan/linguarita.py
+src/linguarita_lucien_rowan.egg-info/PKG-INFO
+src/linguarita_lucien_rowan.egg-info/SOURCES.txt
+src/linguarita_lucien_rowan.egg-info/dependency_links.txt
+src/linguarita_lucien_rowan.egg-info/top_level.txt
