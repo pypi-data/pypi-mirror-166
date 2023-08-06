@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "opsb-pyloopkit"
+version = "0.1.0"
+description = ""
+authors = ["Oliver Searle-Barnes <oliver@opsb.co.uk>", "Russel Wilson <rpwils>", "Pete Schwamb <ps2>"]
+readme = "README.md"
+packages = [ 
+    { include = "pyloopkit" }
+]
+license = "BSD"
+homepage = "https://github.com/tidepool-org/PyLoopKit"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.23.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.1.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
