@@ -1,0 +1,9 @@
+pepperize_projen_awscdk_construct/__init__.py,sha256=qjSifTgobPeLntTEvBQs2bHzviq-BQ2kIteC0qgBOJ4,47357
+pepperize_projen_awscdk_construct/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pepperize_projen_awscdk_construct/_jsii/__init__.py,sha256=XVStWArZqtY5XJr0aFBfSPRPnAXu1qEs-vwDF-zxgRo,416
+pepperize_projen_awscdk_construct/_jsii/projen-awscdk-construct@0.0.219.jsii.tgz,sha256=MrNXeE27tVJfcxNemW_YkAd0LHH3npbNblaItZZ3C88,16214
+pepperize.projen_awscdk_construct-0.0.219.dist-info/LICENSE,sha256=zc3TwT7f6DTXtg0ATDKtV8rxDNvPK4_WFiEw-D63Jzo,1078
+pepperize.projen_awscdk_construct-0.0.219.dist-info/METADATA,sha256=CPLShhuC6UNbhFrQCuYOc-eym3YTwr24ncb2mQt-EPo,3112
+pepperize.projen_awscdk_construct-0.0.219.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pepperize.projen_awscdk_construct-0.0.219.dist-info/top_level.txt,sha256=fI8BWdCAKn7VJvlnhK0I9PhkC-mPjG51hgcHeep1lHY,34
+pepperize.projen_awscdk_construct-0.0.219.dist-info/RECORD,,
