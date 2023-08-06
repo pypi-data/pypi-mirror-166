@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pymarble
+Version: 0.9.0
+Summary: 
+License: GPL-3.0-only
+Author: Dr. Steffen Brinckmann
+Author-email: s.brinckmann@fz-juelich.de
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyQt5 (>=5.15.6,<6.0.0)
+Requires-Dist: h5py (>=3.6.0,<4.0.0)
+Requires-Dist: matplotlib (>=3.5.1,<4.0.0)
+Requires-Dist: pandas (>=1.4.1,<2.0.0)
+Requires-Dist: prettytable (>=3.2.0,<4.0.0)
+Requires-Dist: sortedcontainers (>=2.4.0,<3.0.0)
