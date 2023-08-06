@@ -1,0 +1,11 @@
+kvh/__init__.py,sha256=BKwhUSHsRJS09-saEE7AJWMM7zrDD0AW7oSOprSqv9c,143
+kvh/ckvh.cpp,sha256=nGVDAUohViLFMs1Dot33xXtQw2z8KrUh-GP9T0JsUzw,16625
+kvh/ckvh.h,sha256=XSKE73AzfczVZPWAx6evcq6E-C9fITbRX6e8fiwzUAQ,1010
+kvh/ckvh.pypy39-pp73-win_amd64.pyd,sha256=ei3JCeLWrFlnnxRJynmGMaJfoIzDtBX133hJExSBUt4,177152
+kvh/kvh.py,sha256=xCuGHA-8VePZcyN0iN1H3zipt33DLL9H4Ors1Jgw0ZI,9999
+kvh/version.txt,sha256=ZT1ppBFulQEc1aVlGBpJZ-LjAN61Tnk6HjUGb446Syg,7
+kvh-0.3.2.dist-info/LICENSE,sha256=ywDHmA2zYWqv1dc6gvI8IrCGioQpti-csLn3JA3MSig,19110
+kvh-0.3.2.dist-info/METADATA,sha256=V8bto-hmsUnU6yJnm2jbjJdHMyoknG_kK-6LQ8Eeu6A,928
+kvh-0.3.2.dist-info/WHEEL,sha256=kbzA5tyEuvWcVsltnhCG02Vwq0RkG0K4o74bVDVA1mQ,107
+kvh-0.3.2.dist-info/top_level.txt,sha256=HQKnwtb5GbAKB8bZz0ysLCgvGHtl8P_51oBZFCtI_aM,4
+kvh-0.3.2.dist-info/RECORD,,
