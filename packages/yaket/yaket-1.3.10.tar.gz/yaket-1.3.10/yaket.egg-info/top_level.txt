@@ -1,0 +1,7 @@
+dist
+docs
+mymodel
+outputs
+tests
+wheels
+yaket

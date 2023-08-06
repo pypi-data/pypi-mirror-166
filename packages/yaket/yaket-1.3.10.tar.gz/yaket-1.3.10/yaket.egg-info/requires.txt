@@ -1,0 +1,14 @@
+pydantic>=1.9.0
+mlflow>=1.27.0
+tf2onnx>=1.11
+psutil
+mkdocs>=1.1.2
+mkdocs-material>=5.4.0
+mkdocstrings[python]
+
+[examples]
+jiwer
+onnxruntime>=1.12
+
+[tensorflow]
+tensorflow>=2.4.0
