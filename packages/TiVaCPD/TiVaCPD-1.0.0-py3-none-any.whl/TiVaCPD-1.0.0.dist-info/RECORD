@@ -1,0 +1,15 @@
+TiVaCPD/__init__.py,sha256=r613fTWHR8qGsIUrFX7vZRmo4eRm9_ZSHgM08FcmvDk,17
+TiVaCPD/cpd_methods.py,sha256=5Ok89s-v_5CgtO23RXB34dAKvCtwlTObmpePQ51qGTA,22372
+TiVaCPD/distribution_changes.py,sha256=7EWMAby9w4HeaHPXTcZHL4c5c2bXcmdEyfSmhdKBIE0,2694
+TiVaCPD/exp_2.py,sha256=az5-uAK5vqToJhR-uFm9lre0_U3djEB-9MxbxlfLshE,7600
+TiVaCPD/experiments.py,sha256=L5hkihUagJI4nh3Xq_eRMZXo1wYR8802ihGjB2EKggE,9200
+TiVaCPD/load_data.py,sha256=UBgp265stRStdj0l232EbmMCE47zODUuHuXuEoKVSMo,1201
+TiVaCPD/main.py,sha256=PbL7WQb5uc2aGBJl0NVVQiWTCT1q8z7mBeJzw0gB7g4,4274
+TiVaCPD/performance.py,sha256=FoSNdGgC-h-kmtkBseKJvEHjsU-WC7ZBsmJg6UMtcrk,4799
+TiVaCPD/simulate.py,sha256=YLLBA-N752bCLWbuqjN72BP2-8GoxPyXTr8_xf-s8HM,3188
+TiVaCPD/tvgl.py,sha256=RC2qS-Gb4TJscTDZOMwrqeuv0Nt1UIbw7Q9T4YMENqw,7344
+TiVaCPD-1.0.0.dist-info/LICENSE,sha256=MlwcqJWbS1pJAzGLKf33Uh-aUWQn1m_AGhafKd0zeU4,1067
+TiVaCPD-1.0.0.dist-info/METADATA,sha256=_-ifh5mUr5D3NY9nChr7w04JiUPzNXBfqF9q4-pVdAM,368
+TiVaCPD-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+TiVaCPD-1.0.0.dist-info/top_level.txt,sha256=s9EcJijsDmrX8CxHXqizwYZXHkOy9vo1A1dApoJybz8,8
+TiVaCPD-1.0.0.dist-info/RECORD,,
