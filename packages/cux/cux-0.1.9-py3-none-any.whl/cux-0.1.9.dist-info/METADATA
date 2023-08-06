@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cux
+Version: 0.1.9
+Summary: PLACEHOLDER
+Home-page: https://github.com/private_repo/yaya
+Author: r2fscg
+Author-email: r2fscg@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: codefast (>=0.4.9)
+Requires-Dist: authc
+Requires-Dist: redis
+Requires-Dist: pandas
+Requires-Dist: pymysql
+
+
+Python lib for faster NLP/ML/ASR tasks.
+
+
+
