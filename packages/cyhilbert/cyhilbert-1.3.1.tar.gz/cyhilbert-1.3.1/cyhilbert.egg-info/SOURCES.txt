@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+cyhilbert/__init__.py
+cyhilbert/__init__.pyi
+cyhilbert/hilbert.c
+cyhilbert/hilbert.pyx
+cyhilbert/py.typed
+cyhilbert.egg-info/PKG-INFO
+cyhilbert.egg-info/SOURCES.txt
+cyhilbert.egg-info/dependency_links.txt
+cyhilbert.egg-info/requires.txt
+cyhilbert.egg-info/top_level.txt
