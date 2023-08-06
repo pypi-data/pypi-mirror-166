@@ -1,0 +1,9 @@
+libcst
+typer
+
+[test]
+coverage[toml]>=6.2
+pytest>=6.2.5
+black
+flake8
+isort
