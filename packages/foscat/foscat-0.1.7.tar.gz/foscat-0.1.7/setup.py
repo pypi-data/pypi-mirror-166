@@ -1,0 +1,26 @@
+from setuptools import setup, find_packages
+
+
+setup(
+    name='foscat',
+    version='0.1.7',
+    description='Synthesise 2D or Healpix data using Cross Scattering Transform' ,
+    long_description='Synthesise data (2D or Healpix) using Cross Scattering Transform (https://arxiv.org/abs/2207.12527) usable for component separation (e.g. denoising).' ,
+    license='MIT',
+    author='Jean-Marc DELOUIS',
+    author_email='jean.marc.delouis@ifremer.fr',
+    maintainer='Theo Foulquier',
+    maintainer_email='theo.foulquier@ifremer.fr',
+    packages=['foscat'],
+    package_dir={'': 'src'},
+    url='https://gitlab.ifremer.fr/deepsee/foscat',
+    keywords=['Scattering transform','Component separation', 'denoising'],
+    install_requires=[
+          'imageio',
+          'matplotlib',
+          'numpy',
+          'tensorflow-gpu',
+          'healpy',
+      ],
+
+)
