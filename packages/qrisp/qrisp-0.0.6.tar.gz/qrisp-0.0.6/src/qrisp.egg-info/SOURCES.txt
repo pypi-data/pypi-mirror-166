@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/qrisp/__init__.py
+src/qrisp/add_one.py
+src/qrisp.egg-info/PKG-INFO
+src/qrisp.egg-info/SOURCES.txt
+src/qrisp.egg-info/dependency_links.txt
+src/qrisp.egg-info/top_level.txt
