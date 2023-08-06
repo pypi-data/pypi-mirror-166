@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: fmflow
+Version: 0.3.0
+Summary: Data analysis package for FMLO
+Home-page: https://github.com/astropenguin/fmflow/
+License: MIT
+Keywords: astronomy,radio-astronomy,data-analysis,fmlo
+Author: Akio Taniguchi
+Author-email: taniguchi@a.phys.nagoya-u.ac.jp
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: astropy (>=4.3,<5.0); python_version >= "3.7" and python_version < "3.8"
+Requires-Dist: astropy (>=5.0,<6.0); python_version >= "3.8" and python_version < "3.11"
+Requires-Dist: matplotlib (>=3.2,<4.0)
+Requires-Dist: netcdf4 (>=1.6,<2.0)
+Requires-Dist: numba (>=0.56,<0.57)
+Requires-Dist: numpy (>=1.21,<1.22); python_version >= "3.7" and python_version < "3.8"
+Requires-Dist: numpy (>=1.22,<2.0); python_version >= "3.8" and python_version < "3.11"
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: scikit-learn (>=1.0,<1.1); python_version >= "3.7" and python_version < "3.8"
+Requires-Dist: scikit-learn (>=1.1,<2.0); python_version >= "3.8" and python_version < "3.11"
+Requires-Dist: scipy (>=1.7,<1.8); python_version >= "3.7" and python_version < "3.8"
+Requires-Dist: scipy (>=1.8,<2.0); python_version >= "3.8" and python_version < "3.11"
+Requires-Dist: tqdm (>=4.64,<5.0)
+Requires-Dist: xarray (>=0.20,<0.21); python_version >= "3.7" and python_version < "3.8"
+Requires-Dist: xarray (>=0.21,<2023); python_version >= "3.8" and python_version < "3.11"
+Project-URL: Documentation, https://astropenguin.github.io/fmflow/
+Description-Content-Type: text/markdown
+
+# fmflow
+
+[![Release](https://img.shields.io/pypi/v/fmflow?label=Release&color=cornflowerblue&style=flat-square)](https://pypi.org/project/fmflow/)
+[![Python](https://img.shields.io/pypi/pyversions/fmflow?label=Python&color=cornflowerblue&style=flat-square)](https://pypi.org/project/fmflow/)
+[![Downloads](https://img.shields.io/pypi/dm/fmflow?label=Downloads&color=cornflowerblue&style=flat-square)](https://pepy.tech/project/fmflow)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.3433962-cornflowerblue?style=flat-square)](https://doi.org/10.5281/zenodo.3433962)
+[![Tests](https://img.shields.io/github/workflow/status/fmlo-dev/fmflow/Tests?label=Tests&style=flat-square)](https://github.com/fmlo-dev/fmflow/actions)
+
+Data analysis package for FMLO
+
