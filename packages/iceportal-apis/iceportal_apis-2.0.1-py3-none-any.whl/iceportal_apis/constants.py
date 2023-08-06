@@ -1,0 +1,10 @@
+"""
+Constants associated with the api
+"""
+BASE_URL = "https://iceportal.de"
+URL_STATUS = BASE_URL + "/api1/rs/status"
+URL_TRIP = BASE_URL + "/api1/rs/tripInfo/trip"
+URL_CONNECTIONS = BASE_URL + "/api1/rs/tripInfo/connection/{}"
+URL_POIS = BASE_URL + "/api1/rs/pois/map/{}/{}/{}/{}"
+URL_BAP = BASE_URL + "/bap/api/bap-service-status"
+URL_AUDIOBOOKS = BASE_URL + "/api1/rs/page/hoerbuecher"
