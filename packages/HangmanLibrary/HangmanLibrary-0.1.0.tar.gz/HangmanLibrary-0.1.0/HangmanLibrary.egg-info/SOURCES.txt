@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.cfg
+setup.py
+HangmanLibrary.egg-info/PKG-INFO
+HangmanLibrary.egg-info/SOURCES.txt
+HangmanLibrary.egg-info/dependency_links.txt
+HangmanLibrary.egg-info/requires.txt
+HangmanLibrary.egg-info/top_level.txt
