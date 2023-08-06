@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: w6-libs
+Version: 0.0.1
+Summary: W6 Library
+Home-page: https://github.com/irawanahak/w6-libs
+License: MIT
+Keywords: w6libs
+Author: Irawan
+Author-email: irawan@waresix.com
+Requires-Python: >=3.6,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/irawanahak/w6-libs
+Description-Content-Type: text/markdown
+
+W6 Library Package.
+
+Change Log
+================
+0.0.1 (Sep 6, 2022)
+- First Release
+
