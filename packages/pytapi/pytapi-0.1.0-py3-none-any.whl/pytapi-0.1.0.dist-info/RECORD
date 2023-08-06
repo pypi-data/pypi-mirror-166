@@ -1,0 +1,16 @@
+tapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tapi/__main__.py,sha256=sq1Xxif8pd0yABxk79b3DxajYX0Kg-CjV898vW08BCM,65
+tapi/api/__init__.py,sha256=pWrqR6W9GwqUhabaMHAGoHDPeVVKr26BAxpc77EFlZU,61
+tapi/api/base_api.py,sha256=MReTvpG3fjd0POUNrvLXo2XFAifMvccpUIfkqll0nXo,5451
+tapi/api/constants.py,sha256=qwHEKGoyeAxwYrTsJ14JWCDjnOBFbQ4E__oLugOUUec,514
+tapi/api/exceptions.py,sha256=6-CtuZe9UiYECLsE9aDirjibMHFmneHDAGttXnMLVtw,373
+tapi/api/logic.py,sha256=B923zoJybGeThIz1OoNOBmbYwdnwbKw9u7UD1mgvBMo,4858
+tapi/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tapi/cli/cli.py,sha256=r2_rvfdpt7gcXlg4zvd-fN_3gSR9XVrH8h_L-f6rqtI,416
+tapi/cli/run/__init__.py,sha256=GqDH_jhABB6cRIQIjNRfWVK8sKXBtnrjLwiIfOmjdG4,52
+tapi/cli/run/command.py,sha256=OSgju04Au--v7s_74JgQ_bWmIMllbIHOshMg7alLkyU,3450
+tapi/cli/run/models.py,sha256=75VO3VRFkivswoQLx2OLSAep9im_ZRJHl3dIcNt3GTI,348
+pytapi-0.1.0.dist-info/LICENSE,sha256=g8FdH3bBuaTUrFIrjFYxo3-O0LgDQGy2eYlaw6bjVyI,1071
+pytapi-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pytapi-0.1.0.dist-info/METADATA,sha256=L22Zjc5cl_gTwUIxy06xh7xRo1WcOPJWgV-ubBf09zM,627
+pytapi-0.1.0.dist-info/RECORD,,
