@@ -1,0 +1,12 @@
+_acb_speedup.abi3.so,sha256=aTr2MfbdSsvOtyzXv5-VwESK-iTHjhV6qNt-JmtS3KE,36664
+acb/__main__.py,sha256=vQ_kWNVZfVZjJJPo8FMU2Y3Nv8BHIu8-nbF7K_P4R6Y,1170
+acb/acb.py,sha256=vOccXjp7lKsThW6XhzS-6JpoJbcKe_Xj-D_LjyBbQMM,14940
+acb/disarm.py,sha256=cTvMeaAXYjlKheQSXKGAgOEucxexYXtJ7z6Tqzgz5YA,8637
+acb/utf.py,sha256=uRnovvtmqeVbmN2HbqB3FXdKDpgCyOAYH37st_jczCg,10036
+acb/__init__.py,sha256=rlY8tSL-Znii2J4YzoEEqHYS6g6rz14o0VWI86xoXas,142
+acb_py-1.2.0.dist-info/top_level.txt,sha256=C8rDZqfjU8_fI5kvHXLKgSYi3Hf_mcKf2yJ4AG3K6FA,17
+acb_py-1.2.0.dist-info/WHEEL,sha256=mDQ3Iv4u4a2fhzWykDX-m-B2z4MFbTmQ-uhl9jJqW6w,221
+acb_py-1.2.0.dist-info/METADATA,sha256=yZK_ZJG4qqoRRwghe3Xm__Zb-dXZoqoD-EnyLsPhaVA,1494
+acb_py-1.2.0.dist-info/entry_points.txt,sha256=Z6mw4pJQk02Cev3B5m0dZJBrFgUcOIChisb9Tkvu1RQ,50
+acb_py-1.2.0.dist-info/RECORD,,
+acb_py-1.2.0.dist-info/LICENSE,sha256=QKDaA0Q0SBg3C0oGd3hhqoQdBwHcIEogdG4sWZkMGV8,2194
