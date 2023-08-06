@@ -1,0 +1,8 @@
+tree_sitter_type_provider/__init__.py,sha256=eMH2Fx7WgiOYXGPjaVIq_rXyiTwkLxroN6TdviuLLhI,10732
+tree_sitter_type_provider/node_types.py,sha256=L8_eZdGf4MKuo0MidYZBQT6ggOs5co4Poe8tdBi0_0A,8153
+tree_sitter_type_provider/parse_error.py,sha256=zBeBzzC4_Z_QsGv-q1o1scjw7YkyQd89VLLfeHUjEMU,2112
+tree_sitter_type_provider/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter_type_provider-2.1.12.dist-info/LICENSE,sha256=Qd1Q6abfHiuSYRq6U18--08_3nl-LTjsY6_pc9JOzDw,1066
+tree_sitter_type_provider-2.1.12.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+tree_sitter_type_provider-2.1.12.dist-info/METADATA,sha256=Wd-NU5FsnE0GN4ix0VDmSGAVDtc7lQ3wXuT-mzc2QcA,3294
+tree_sitter_type_provider-2.1.12.dist-info/RECORD,,
