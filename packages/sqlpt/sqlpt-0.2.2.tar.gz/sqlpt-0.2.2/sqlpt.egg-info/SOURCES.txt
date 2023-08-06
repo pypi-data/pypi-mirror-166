@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sqlpt/__init__.py
+sqlpt/__main__.py
+sqlpt/service.py
+sqlpt/sql.py
+sqlpt.egg-info/PKG-INFO
+sqlpt.egg-info/SOURCES.txt
+sqlpt.egg-info/dependency_links.txt
+sqlpt.egg-info/entry_points.txt
+sqlpt.egg-info/requires.txt
+sqlpt.egg-info/top_level.txt
