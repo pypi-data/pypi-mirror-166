@@ -1,0 +1,14 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ititer/__init__.py
+ititer/ititer.py
+ititer.egg-info/PKG-INFO
+ititer.egg-info/SOURCES.txt
+ititer.egg-info/dependency_links.txt
+ititer.egg-info/requires.txt
+ititer.egg-info/top_level.txt
+ititer.egg-info/zip-safe
+test/test_ititer.py
