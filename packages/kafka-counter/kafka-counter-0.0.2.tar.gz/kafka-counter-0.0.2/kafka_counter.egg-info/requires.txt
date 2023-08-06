@@ -1,0 +1,4 @@
+pyaml
+jsonpath-ng
+kafka-python
+python-snappy

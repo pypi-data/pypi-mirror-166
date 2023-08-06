@@ -1,0 +1,2 @@
+[console_scripts]
+kafka-count = kafka_count:main

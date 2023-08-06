@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+config.example.yaml
+kafka_count.py
+pyproject.toml
+setup.py
+kafka_counter.egg-info/PKG-INFO
+kafka_counter.egg-info/SOURCES.txt
+kafka_counter.egg-info/dependency_links.txt
+kafka_counter.egg-info/entry_points.txt
+kafka_counter.egg-info/requires.txt
+kafka_counter.egg-info/top_level.txt
