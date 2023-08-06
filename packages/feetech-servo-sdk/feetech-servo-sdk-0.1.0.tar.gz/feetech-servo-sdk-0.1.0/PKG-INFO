@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: feetech-servo-sdk
+Version: 0.1.0
+Summary: This is source code from official feetech repository
+Home-page: https://github.com/Adam-Software/FEETECH-Servo-Python-SDK
+Author: vertigra
+Author-email: a@nesterof.com
+License: UNLICENSE
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: POSIX :: Other
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Hardware :: Universal Serial Bus (USB) :: Communications Device Class (CDC)
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FEETECH-Servo-Python-SDK
+
+This is source code from [official feetech repository](https://gitee.com/ftservo/SCServoSDK).
+
+
+
+
+
