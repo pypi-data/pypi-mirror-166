@@ -1,0 +1,10 @@
+adlfs/__init__.py,sha256=45wTPDa1gvSZyCF_E4Vq1zNk5elU_KIwKjt4C-fvq88,344
+adlfs/_version.py,sha256=V_UrYuNOtwVH6MP-2OWjT83HdztINhqBqFWbtFewPQY,500
+adlfs/spec.py,sha256=0cB5qxy_ur2ZPOjJGRAt4vz5Nh3WqG2u6dJdGiCA6wc,79673
+adlfs/utils.py,sha256=hgTvUNAJ7jsc2yrSBE1ocAQyvMz6wO4e8MwKe0nTwSY,2049
+adlfs-2022.9.0.dist-info/LICENSE.txt,sha256=f9wt57aZO0eDfqXLbnWPVqvS9K1lzESQBkjFHvvafec,1488
+adlfs-2022.9.0.dist-info/METADATA,sha256=Ebgc3YdfNfB0p912oy7K9yqX5R_iOqn61NNsZ2I6RZo,5644
+adlfs-2022.9.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+adlfs-2022.9.0.dist-info/entry_points.txt,sha256=fXTz52mzdXbrXonqyU_KMK5FsSpHneVIooEwePKGK6Q,49
+adlfs-2022.9.0.dist-info/top_level.txt,sha256=RzOBusmB48_VR41Zj4VBC2RC-QWTd995oL7C7wdXDOg,6
+adlfs-2022.9.0.dist-info/RECORD,,
