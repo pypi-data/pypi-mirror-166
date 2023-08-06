@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+oneat_augmentations/Augmentation2D.py
+oneat_augmentations/Augmentation2DC.py
+oneat_augmentations/Augmentation3D.py
+oneat_augmentations/TemporalAug.py
+oneat_augmentations/TemporalZAug.py
+oneat_augmentations/__init__.py
+oneat_augmentations/_version.py
+oneat_augmentations/utils.py
+oneat_augmentations.egg-info/PKG-INFO
+oneat_augmentations.egg-info/SOURCES.txt
+oneat_augmentations.egg-info/dependency_links.txt
+oneat_augmentations.egg-info/requires.txt
+oneat_augmentations.egg-info/top_level.txt
