@@ -1,0 +1,7 @@
+supy_driver/__init__.py,sha256=0fEznQbRiqctjB_PIsdjd73M8G0jnSOLxLhjKLIyiUM,747
+supy_driver/suews_driver.cpython-39-darwin.so,sha256=pqfGqFwioB5ztxVNRw9aPoyGKYrR8PnQbU_kRYlLMPw,6339936
+supy_driver/version.py,sha256=lF59ueUqsd1401KPB9_371eDwSuH_UyPfaIfBwU_JDg,34
+supy_driver-2021a12.dist-info/METADATA,sha256=dPVQiTJuyvK7vKufGpRjU702clqC0yZGOAjbOV8-8EA,384
+supy_driver-2021a12.dist-info/WHEEL,sha256=oITnL8r4K9lhj-wWSHlE2XUA0J8WLXdegrKtvi_34zA,108
+supy_driver-2021a12.dist-info/top_level.txt,sha256=ECvUcmmeed1oMhCUzs93DjCBODiYZzENno2BOaixQWY,12
+supy_driver-2021a12.dist-info/RECORD,,
