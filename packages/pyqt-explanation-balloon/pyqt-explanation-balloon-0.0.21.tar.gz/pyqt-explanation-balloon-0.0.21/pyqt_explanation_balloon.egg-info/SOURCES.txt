@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pyqt_explanation_balloon/__init__.py
+pyqt_explanation_balloon/explanationBalloon.py
+pyqt_explanation_balloon.egg-info/PKG-INFO
+pyqt_explanation_balloon.egg-info/SOURCES.txt
+pyqt_explanation_balloon.egg-info/dependency_links.txt
+pyqt_explanation_balloon.egg-info/requires.txt
+pyqt_explanation_balloon.egg-info/top_level.txt
+pyqt_explanation_balloon/ico/__init__.py
+pyqt_explanation_balloon/ico/close.svg
