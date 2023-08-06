@@ -1,0 +1,3 @@
+[ipyparallel.engine_launchers]
+bodo = bodo_platform_ipyparallel_kernel:BodoPlatformMPIEngineSetLauncher
+
