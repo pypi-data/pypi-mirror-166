@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: flake8-junit
+Version: 0.1.1
+Summary: JUnit assert statement checker plugin for flake8
+Home-page: https://github.com/coin-tracker/flake8-junit
+License: MIT
+Keywords: flake8,plugin,linting,junit,code quality
+Author: Pablo Marti Gamboa
+Author-email: pablo@cointracker.io
+Requires-Python: >=3.7
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: Flake8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Dist: flake8 (>=3.0)
+Requires-Dist: pycodestyle
+Project-URL: Repository, https://github.com/coin-tracker/flake8-junit
+Description-Content-Type: text/markdown
+
+Flake8 JUnit asserts plugin
+===========================
+
+Check for JUnit assert statements in your tests.
+
+This module provides a plugin for ``flake8``, the Python code checker.
+
+
+Installation
+------------
+
+You can install or upgrade ``flake8-junit`` with these commands::
+
+  $ pip install flake8-junit
+  $ pip install --upgrade flake8-junit
+
+
+Plugin for Flake8
+-----------------
+
+When both ``flake8`` and ``flake8-junit`` are installed, the plugin is
+available in ``flake8``::
+
+    $ flake8 --version
+    5.0.4 (flake8-junit: 0.1.0, mccabe: 0.7.0, pycodestyle: 2.9.1, pyflakes: 2.5.0) CPython 3.9.9 on Darwin
+
+Flake8 allows disabling some tests based on the folder:
+
+```
+[flake8]
+per-file-ignores =
+    tests/accounting/*: J10
+```
+
+Error codes
+-----------
+
+| Error Code  | Description                          |
+| ----------- | ------------------------------------ |
+| J100        | JUnit assert found                   |
+
+
+Changes
+-------
+
+##### 0.1.1 - 2022-09-09
+
+* First public release
+
