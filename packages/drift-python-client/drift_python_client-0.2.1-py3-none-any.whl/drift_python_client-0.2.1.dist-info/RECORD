@@ -1,0 +1,12 @@
+drift_client/VERSION,sha256=cQFcl5zLD8igvnygroMEarBFzcLI-qCfsvD35ED5tKY,6
+drift_client/__init__.py,sha256=KwSDABVc-Qmyou53upDzz9SEtxspVQg3_pp0qR9f56E,474
+drift_client/drift_client.py,sha256=pU6Vtb9MwbYtgTp17V_mExjHvZOzMXh5CE9jzdOYc-8,9494
+drift_client/drift_data_package.py,sha256=2A9HxQ-O2qjTtomcwxQ0tm5pnvHlUVbMipmYzDpZYKE,3138
+drift_client/influxdb_client.py,sha256=xIZUX6yo85pHGArNJD6_t1irNdVzzz_0YOCbwVBo4PU,2644
+drift_client/minio_client.py,sha256=ycim3Wub7qUNMZE2NE4YskpXMMTSCxZVx2QF7w93Nm8,1465
+drift_client/mqtt_client.py,sha256=4-r4ZomTrw7YHqLZ6SU-PLmhxuw8CGqeMxzANFxz2wk,4047
+drift_python_client-0.2.1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+drift_python_client-0.2.1.dist-info/METADATA,sha256=HH87vC__lkuoSdatZmVw3oqBbUDTPQlS2WPK3FycxRA,2872
+drift_python_client-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+drift_python_client-0.2.1.dist-info/top_level.txt,sha256=g36GfF0WcMjKkwPW7zawUU5n5XsLJT-4oLxcVgeobno,13
+drift_python_client-0.2.1.dist-info/RECORD,,
