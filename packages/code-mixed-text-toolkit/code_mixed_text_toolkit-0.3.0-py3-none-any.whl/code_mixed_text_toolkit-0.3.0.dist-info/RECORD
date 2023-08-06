@@ -1,0 +1,12 @@
+code_mixed_text_toolkit/__init__.py,sha256=iaeSuR0f5uIuT712sPRfpPW6ChwWQhLMwt6Aivrh-8U,94
+code_mixed_text_toolkit/demo.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_mixed_text_toolkit/data/__init__.py,sha256=SjrBD6Jp548kYcuqszEpfeJeFS_cMEbHq-JMhHr60cs,2497
+code_mixed_text_toolkit/data/downloader.py,sha256=-u0kJGPVtJf6AVWqkYhDAxaVh-TYbaXAk5LSGdis_CM,3547
+code_mixed_text_toolkit/preprocessing/__init__.py,sha256=T_clgUX6kRJfIN_yaTfrYRrLfFU9EXOwNJ6M2ckDLSc,54
+code_mixed_text_toolkit/preprocessing/tokenizer/__init__.py,sha256=KMCHAzHbpxpBjRofskCaL8uExR5Ajcag9TAunCOEUgg,559
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/cmtt_tests.py,sha256=egNPY7pBKpoFb7JdFlXsy9y8OYUsgO5LHeKIU4BchY8,1206
+code_mixed_text_toolkit-0.3.0.dist-info/METADATA,sha256=dm42cUhsGwHZcoZYARqUJs4fK5_VugQ6OHNLhF0Vrjg,2238
+code_mixed_text_toolkit-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+code_mixed_text_toolkit-0.3.0.dist-info/top_level.txt,sha256=BlrOQOOyORuClc1Nfigd7EXXswcP-gMp-MqCx1W-eko,30
+code_mixed_text_toolkit-0.3.0.dist-info/RECORD,,
