@@ -1,0 +1,2 @@
+[console_scripts]
+ipug = ipug.cli:main
