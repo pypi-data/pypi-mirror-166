@@ -1,0 +1,7 @@
+README.md
+setup.py
+tbreak/__init__.py
+tbreak.egg-info/PKG-INFO
+tbreak.egg-info/SOURCES.txt
+tbreak.egg-info/dependency_links.txt
+tbreak.egg-info/top_level.txt
