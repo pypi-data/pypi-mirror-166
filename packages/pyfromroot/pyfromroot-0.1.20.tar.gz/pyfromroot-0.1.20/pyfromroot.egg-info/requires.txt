@@ -1,0 +1,5 @@
+console
+fire
+iminuit
+numba_stats
+numpy==1.21
