@@ -1,0 +1,14 @@
+cloudscraper>=1.2.58
+requests>=2.27.1
+requests-toolbelt>=0.9.1
+typing-extensions>=4.1.1
+
+[dev]
+black[jupyter]>=22.1.0
+flake8>=4.0.1
+flake8-black>=0.3.0
+isort>=5.10.1
+mypy>=0.931
+pre-commit>=2.18.1
+setuptools>=60.9.3
+types-requests>=2.27.10
