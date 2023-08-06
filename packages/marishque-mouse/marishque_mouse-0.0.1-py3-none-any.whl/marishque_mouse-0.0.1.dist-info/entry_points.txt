@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+marishque_mouse = marishque_mouse._modidx:d
+
