@@ -1,0 +1,9 @@
+libpsf.cpython-37m-x86_64-linux-gnu.so,sha256=S_LeFOP0BvpKIaass-8TxoFwwFkNcgqDuiru2p1gfRQ,2036488
+libpsf.libs/libpsf-747b0b47.so.0,sha256=jWwsdEAy_pHTMuRHqnIUDPlYt9-GL7bgAF_Ibd8n3VA,4122536
+libpsf.libs/libboost_python37-0ec075e7.so.1.80.0,sha256=x5j5N3fYZ9H57tWKdDpZ_Sj1pkEEeA87ZZt3SW5CmQg,472368
+libpsf-0.1.4.dist-info/RECORD,,
+libpsf-0.1.4.dist-info/METADATA,sha256=CBQPRmpw8cNLvatIkTnAPX23V5LJZ1fIKQTi9sPgpwA,1952
+libpsf-0.1.4.dist-info/WHEEL,sha256=FGGRUrvefXOiAJfyJCZAiu4TpTMkXB_CzdEp3x2T96E,150
+libpsf-0.1.4.dist-info/top_level.txt,sha256=URXNuYyI7MvuXJVtb_aOXI21Y2dXSGyo1Bnd9G0N2Sg,13
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_psfdataset.py,sha256=8xZLp8aIMi8YKY9najFGfApdY0q04lOpY4jWz49MqIw,1942
