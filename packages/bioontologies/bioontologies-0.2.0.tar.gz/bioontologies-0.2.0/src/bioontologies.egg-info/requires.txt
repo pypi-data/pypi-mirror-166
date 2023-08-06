@@ -1,0 +1,17 @@
+bioregistry>=0.5.86
+curies>=0.3.0
+requests
+pydantic
+typing_extensions
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-click
+sphinx-autodoc-typehints
+sphinx_automodapi
+m2r2
+
+[tests]
+pytest
+coverage
