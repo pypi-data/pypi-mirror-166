@@ -1,0 +1,2 @@
+[pygments.styles]
+witchhazel = witchhazel:WitchHazelStyle
